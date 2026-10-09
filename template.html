@@ -250,6 +250,52 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .swipe { display: none; }
   .logo svg { height: 40px; }
 }
+/* take it with you */
+.keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
+.keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
+.keep small { display: block; font-weight: 500; font-size: 12px; color: var(--muted); }
+.keep svg { width: 22px; height: 22px; flex: none; }
+.past { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.past a { display: flex; justify-content: space-between; gap: 10px; color: var(--ink); text-decoration: none; padding: 11px 12px; border: 1px solid var(--line); border-radius: 8px; font-weight: 600; }
+.past a span { color: var(--muted); font-weight: 500; }
+#print { display: none; }
+#board-sec { break-inside: auto; }
+
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
+    --bg: #ffffff; --panel: #f3f3f1; --ink: #000000; --muted: #555555; --line: #cccccc;
+    --q: #12904c; --q-ink: #ffffff; --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1; --off: #999999;
+    color-scheme: light;
+  }
+  @page { size: landscape; margin: 10mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10px; }
+  .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
+  .mast .logo { color: #000; }
+  .mast-in { padding: 0 0 6px; }
+  .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  .wrap { padding: 0; max-width: none; }
+  .hero { padding: 6px 0 0; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 18px; }
+  .sec { margin-top: 10px; break-inside: avoid; }
+  #board-sec > h2 { display: none; }
+  #print { display: block; }
+  #print h3 { font-family: var(--font-display); font-size: 15px; text-transform: uppercase; margin: 8px 0 3px; }
+  #print table { border-collapse: collapse; width: 100%; font-family: var(--font-data); font-size: 9.5px; }
+  #print th, #print td { border: 1px solid #bbb; padding: 2px 4px; text-align: right; white-space: nowrap; }
+  #print th { font-family: var(--font-body); font-size: 8.5px; text-transform: uppercase; background: #eee; }
+  #print td:nth-child(2), #print th:nth-child(2) { text-align: left; font-family: var(--font-body); }
+  #print td small { color: #444; font-size: 7.5px; margin-left: 2px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(3, 1fr); overflow: visible; gap: 6px; }
+  .presented:has(.slot-empty) { display: none; }
+  #board-sec { break-after: page; }
+  .light { padding: 6px; } .light h3 { font-size: 14px; } .light ol { font-size: 9.5px; }
+  .ladder { columns: 2; }
+  .presented { margin-top: 4px; padding: 4px 8px; min-height: 0; }
+  .slot-empty { display: none; }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .slip { animation: drop .18s ease-out; }
   @keyframes drop { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
@@ -290,6 +336,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     </div>
     <div class="cards" id="cards"></div>
     <div class="table-wrap"><table class="board" id="board"></table></div>
+    <div id="print" aria-hidden="true"></div>
   </section>
 
   <section class="sec" id="cmp-sec">
@@ -329,6 +376,20 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     </div>
   </section>
 
+  <section class="sec keep-sec" id="keep-sec">
+    <h2>Take It With You</h2>
+    <p class="hint">Print this round, or keep the whole weekend on your own computer. Saved copies work with no internet.</p>
+    <div class="keep">
+      <button type="button" id="do-print"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="7"/></svg><span>Print this round<small>Every car, every block and split</small></span></button>
+      <a id="dl-csv" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h8"/></svg><span>Download spreadsheet<small>Every run this weekend, opens in Excel</small></span></a>
+      <a id="dl-page" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg><span>Save this page<small>The whole weekend, works offline</small></span></a>
+    </div>
+    <div id="past-wrap" hidden>
+      <h2 style="margin-top:22px">Past Races</h2>
+      <ul class="past" id="past"></ul>
+    </div>
+  </section>
+
   <footer>
     <div>Timing data from official NHRA results. Splits, rankings and reads by Drag Illustrated.</div>
     <div id="src"></div>
@@ -364,9 +425,17 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   const adh = SP.ad && SP.ad.logo ? slotHTML(SP.ad, "ad") : slotHTML(null, "ad");
   if (adh) { $("ad").className = "ad" + (SP.ad && SP.ad.logo ? "" : " empty"); $("ad").innerHTML = adh; }
 
+  // past races
+  if (D.past && D.past.length) {
+    const pw = document.getElementById("past-wrap");
+    const list = D.past.map((e) => `<li><a href="${D.root || ""}events/${esc(e.slug)}/"><b>${esc(e.name)}</b><span>${e.year}</span></a></li>`).join("");
+    if (pw) { pw.hidden = false; document.getElementById("past").innerHTML = list; }
+    D._pastHTML = `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`;
+  }
+
   if (D.waiting) {
     $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
-      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p></section>`;
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p>${D._pastHTML || ""}</section>`;
     return;
   }
 
@@ -692,6 +761,30 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   $("cmp-round").onclick = () => setCmpMode("round");
   $("cmp-best").onclick = () => setCmpMode("best");
 
+
+  // printing and saving
+  function renderPrint() {
+    const runs = sortedRunsBy("et");
+    const table = (title, C) => {
+      let h = `<h3>${esc(title)}</h3><table><tr><th>#</th><th>Driver</th>${C.map(([, l]) => `<th>${l}</th>`).join("")}</tr>`;
+      runs.forEach((r, i) => {
+        h += `<tr><td>${i + 1}</td><td>${esc(r.driver)} <small>#${esc(r.car)} ${r.lane}</small></td>`;
+        C.forEach(([k]) => {
+          const tr = tier(r, k), rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : "";
+          h += `<td class="${tr}">${t(r[k], k)}${rk ? `<small>${rk}</small>` : ""}</td>`;
+        });
+        h += "</tr>";
+      });
+      return h + "</table>";
+    };
+    const v = view; view = "cum"; const cum = cols(); view = "seg"; const seg = cols(); view = v;
+    $("print").innerHTML = table("Timing blocks", cum) + table("Splits", seg);
+  }
+  function sortedRunsBy(k) { const keep = sortKey; sortKey = k; const r = sortedRuns(); sortKey = keep; return r; }
+  $("do-print").onclick = () => { renderPrint(); window.print(); };
+  window.addEventListener("beforeprint", renderPrint);
+  if (D.csv) { $("dl-csv").href = D.csv; $("dl-csv").setAttribute("download", D.csv.split("/").pop()); }
+  if (D.save) { $("dl-page").href = D.self_path || "index.html"; $("dl-page").setAttribute("download", D.save); }
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     openDriver = null;

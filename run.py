@@ -9,6 +9,7 @@ Writes site/index.html (event home) and site/<class>/index.html, each self-conta
 Prints CHANGED or UNCHANGED so the scheduler knows whether to publish.
 """
 import hashlib
+import shutil
 import json
 import os
 import re
@@ -80,6 +81,36 @@ def write_page(path, body, preview_path=None):
         open(preview_path, "w").write(body)
 
 
+CSV_COLS = [("Round", "round"), ("Pair", "pair"), ("Lane", "lane"), ("Driver", "driver"), ("Car", "car"),
+            ("Result", "result"), ("RT", "rt"), ("60'", "ft60"), ("330'", "ft330"), ("660'", "ft660"),
+            ("660 MPH", "mph660"), ("1000'", "ft1000"), ("ET", "et"), ("MPH", "mph")]
+
+
+def write_csv(path, b, class_name):
+    """Every run of the weekend for one class, with DI's splits, ready for Excel or Numbers."""
+    import csv
+    pts, segs, sl = b["points"], b["segs"], b["seg_label"]
+    head = ["Event", "Class"] + [h for h, _ in CSV_COLS] + [f"Split {sl[s]}" for s in segs] + \
+        (["Back half 660-1320"] if b["finish"] == 1320 else []) + ["Back-half MPH gain", "Clean run",
+                                                                   "Went away", "ET rank", "60' rank", "330' rank", "660' rank"]
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(head)
+        for rd in b["rounds"]:
+            for r in sorted(rd["runs"], key=lambda r: (r["pair"], r["lane"])):
+                row = dict(r, round=rd["round"], lane="Left" if r["lane"] == "L" else "Right",
+                           result=("W" if r["win"] else "L") if rd["round"].startswith("E") else "")
+                vals = [b["event_name"], class_name] + [row.get(k, "") if row.get(k) is not None else "" for _, k in CSV_COLS]
+                vals += [r.get(s) if r.get(s) is not None else "" for s in segs]
+                if b["finish"] == 1320:
+                    vals.append(r.get("back") if r.get("back") is not None else "")
+                vals += [r.get("gain") if r.get("gain") is not None else "", "yes" if r["clean"] else "no",
+                         sl.get(r["off_at"], "") if r.get("off_at") else "",
+                         r["rank"].get("et", ""), r["rank"].get("ft60", ""), r["rank"].get("ft330", ""), r["rank"].get("ft660", "")]
+                w.writerow(vals)
+
+
 def pull(year, event, cls):
     data_dir = os.path.join(HERE, DATA_ROOT, f"{year}-{event}", cls)
     os.makedirs(data_dir, exist_ok=True)
@@ -123,9 +154,6 @@ def main():
     template = open(os.path.join(HERE, "template.html")).read()
     template = template.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
     sponsor = cfg.get("sponsor", {})
-    # logos and ad art live in assets/ and ship with the site
-    import shutil
-    shutil.copytree(os.path.join(HERE, "assets"), os.path.join(site, "assets"), dirs_exist_ok=True)
 
     bundles = {}
     for cls in cfg["classes"]:
@@ -139,25 +167,44 @@ def main():
 
     nav = [{"slug": c, "name": CLASS_NAMES.get(c, c), "live": c in bundles} for c in cfg["classes"]]
     event_name = next((b["event_name"] for b in bundles.values()), None)
-    for cls, b in bundles.items():
-        b["class_name"] = CLASS_NAMES.get(cls, cls)
-        b["nav"] = nav
-        b["sponsor"] = sponsor
-        b["base"] = "../"
-        payload = json.dumps(b, separators=(",", ":")).replace("</", "<\\/")
-        write_page(os.path.join(site, cls, "index.html"), template.replace("__DATA__", payload))
+    slug = f"{year}-" + re.sub(r"[^a-z0-9]+", "-", str(cfg["event"]).lower()).strip("-")
 
-    # event home: the first class with data, rendered at the root, so the QR code goes to one place
+    # past-races registry lives on the site so every race stays available
+    reg_path = os.path.join(site, "events", "events.json")
+    os.makedirs(os.path.dirname(reg_path), exist_ok=True)
+    registry = json.load(open(reg_path)) if os.path.exists(reg_path) else []
     if bundles:
+        registry = [e for e in registry if e["slug"] != slug] + [{"slug": slug, "name": event_name, "year": year}]
+        json.dump(registry, open(reg_path, "w"), indent=1)
+
+    def write_event(dest, root):
+        """One complete, self-contained copy of this race: home page, class pages, spreadsheets, logo."""
+        shutil.copytree(os.path.join(HERE, "assets"), os.path.join(dest, "assets"), dirs_exist_ok=True)
+        common = {"nav": nav, "sponsor": sponsor, "slug": slug,
+                  "past": [e for e in registry if e["slug"] != slug][::-1]}
+        if not bundles:
+            write_page(os.path.join(dest, "index.html"), template.replace("__DATA__", json.dumps(dict(
+                common, waiting=True, year=year, event_query=cfg["event"], base="", root=root))))
+            return
+        for cls, b in bundles.items():
+            csv_name = f"DI-Incrementals-{slug}-{cls}.csv"
+            write_csv(os.path.join(dest, cls, csv_name), b, CLASS_NAMES.get(cls, cls))
+            page = dict(b, **common, class_name=CLASS_NAMES.get(cls, cls), base="../", root="../" + root,
+                        csv=csv_name, save=f"DI-Incrementals-{slug}-{cls}.html", self_path="index.html")
+            write_page(os.path.join(dest, cls, "index.html"),
+                       template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")))
         first = next(c for c in cfg["classes"] if c in bundles)
-        b = dict(bundles[first], base="")
-        payload = json.dumps(b, separators=(",", ":")).replace("</", "<\\/")
-        write_page(os.path.join(site, "index.html"), template.replace("__DATA__", payload),
-                   os.path.join(HERE, "preview", "index.html"))
-    else:
-        write_page(os.path.join(site, "index.html"),
-                   template.replace("__DATA__", json.dumps({"waiting": True, "year": year, "event_query": cfg["event"],
-                                                            "nav": nav, "base": "", "sponsor": sponsor})))
+        b = bundles[first]
+        page = dict(b, **common, class_name=CLASS_NAMES.get(first, first), base="", root=root,
+                    csv=f"{first}/DI-Incrementals-{slug}-{first}.csv", save=f"DI-Incrementals-{slug}-{first}.html",
+                    self_path=f"{first}/index.html")
+        write_page(os.path.join(dest, "index.html"),
+                   template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")),
+                   os.path.join(HERE, "preview", "index.html") if dest == site else None)
+
+    write_event(site, "")
+    if bundles:
+        write_event(os.path.join(site, "events", slug), "../../")
 
     # new results OR a change to the page/analysis code both trigger a publish
     code = "".join(open(os.path.join(HERE, f)).read() for f in ("template.html", "build.py", "config.json"))

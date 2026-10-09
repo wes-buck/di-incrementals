@@ -9,6 +9,7 @@ Where to make a change:
 - Reading NHRA's tables: `scrape.py` (header-driven; quarter-mile and 1,000-ft nitro)
 - Which races and classes: `config.json` (`schedule` picks this week's race by start date)
 - Sponsor spots: `config.json` > `sponsor` (logo files go in `assets/`); DI logo is `assets/di-logo.svg`
+- Print, downloads, archive: print sheet is `#print` + `@media print` in template.html; run.py writes a CSV per class and a permanent copy of each race under site/events/<year-event>/ (listed in events/events.json, shown as Past Races)
 - Schedule / publishing: `.github/workflows/incrementals.yml`
 
 Workflow for a tweak:
