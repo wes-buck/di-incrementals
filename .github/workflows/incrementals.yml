@@ -28,9 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -60,10 +60,10 @@ jobs:
               out=$(python run.py)
             fi
             echo "$out"
-            if echo "$out" | grep -q CHANGED$; then
+            if echo "$out" | grep -qx CHANGED; then
               cp -f CNAME site/CNAME 2>/dev/null || true
               touch site/.nojekyll
               (cd site && git add -A && git commit -qm "Update: $(echo "$out" | head -1)" && git push -q origin gh-pages)
             fi
-            [ $pass -lt 3 ] && sleep 90
+            if [ $pass -lt 3 ]; then sleep 90; fi
           done
