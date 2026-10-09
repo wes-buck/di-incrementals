@@ -121,6 +121,11 @@ def main():
     site = os.path.join(HERE, cfg.get("out_dir", "site"))
     os.makedirs(site, exist_ok=True)
     template = open(os.path.join(HERE, "template.html")).read()
+    template = template.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
+    sponsor = cfg.get("sponsor", {})
+    # logos and ad art live in assets/ and ship with the site
+    import shutil
+    shutil.copytree(os.path.join(HERE, "assets"), os.path.join(site, "assets"), dirs_exist_ok=True)
 
     bundles = {}
     for cls in cfg["classes"]:
@@ -137,6 +142,7 @@ def main():
     for cls, b in bundles.items():
         b["class_name"] = CLASS_NAMES.get(cls, cls)
         b["nav"] = nav
+        b["sponsor"] = sponsor
         b["base"] = "../"
         payload = json.dumps(b, separators=(",", ":")).replace("</", "<\\/")
         write_page(os.path.join(site, cls, "index.html"), template.replace("__DATA__", payload))
@@ -151,10 +157,11 @@ def main():
     else:
         write_page(os.path.join(site, "index.html"),
                    template.replace("__DATA__", json.dumps({"waiting": True, "year": year, "event_query": cfg["event"],
-                                                            "nav": nav, "base": ""})))
+                                                            "nav": nav, "base": "", "sponsor": sponsor})))
 
     # new results OR a change to the page/analysis code both trigger a publish
     code = "".join(open(os.path.join(HERE, f)).read() for f in ("template.html", "build.py", "config.json"))
+    code += "".join(sorted(os.listdir(os.path.join(HERE, "assets"))))
     fingerprint = hashlib.sha256((code + json.dumps(
         {c: b["rounds"] for c, b in bundles.items()}, sort_keys=True)).encode()).hexdigest()
     fp_file = os.path.join(site, ".fingerprint")

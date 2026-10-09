@@ -30,5 +30,20 @@
       "starts": "2026-11-11",
       "note": "In-N-Out Burger NHRA Finals, Pomona, Nov 12-15"
     }
-  ]
+  ],
+  "sponsor": {
+    "_how_to": "To sell the spots: drop the sponsor's logo or ad image into assets/, then fill in name, logo (file name) and url. Set show_placeholders to false to hide empty spots.",
+    "presented_by": {
+      "name": "",
+      "logo": "",
+      "url": ""
+    },
+    "ad": {
+      "name": "",
+      "logo": "",
+      "url": ""
+    },
+    "contact": "jt@dragillustrated.com",
+    "show_placeholders": true
+  }
 }

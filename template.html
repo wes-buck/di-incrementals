@@ -1,22 +1,26 @@
 <title>DI Incrementals</title>
+<meta name="theme-color" content="#000000">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-/* Layout: DI black rail with round and class switches, a big round title, the Board as the hero,
-   then Quickest at Every Light, Lane Check and the Ladder. DI red marks the quickest car only. */
+/* Layout: phone first. DI masthead, one slim sticky bar (class + rounds), round title, presented-by strip,
+   the Board as stacked car cards on phones and a full table on wide screens, then an ad slot,
+   Quickest at Every Light, Lane Check and the Ladder.
+   Color: DI black/white/red is the brand chrome. The data uses a separate heat scale:
+   green = quickest, then yellow, orange, red as a car falls further off the quickest. */
 :root {
   --bg: #ffffff;
-  --panel: #f4f4f3;
+  --panel: #f3f3f1;
   --ink: #0b0b0b;
   --muted: #62625f;
-  --line: #e1e1de;
-  --red: #d2141c;           /* DI red: quickest in the field */
-  --red-ink: #ffffff;
-  --red-tint: #fbe3e4;      /* 2nd and 3rd */
-  --rail: #0b0b0b;
-  --rail-ink: #ffffff;
-  --rail-muted: #9a9a96;
+  --line: #e0e0dd;
+  --di-red: #d2141c;
+  --bar: #000000;
+  --bar-ink: #ffffff;
+  --bar-muted: #9a9a96;
+  --q: #12904c;  --q-ink: #ffffff;           /* quickest */
+  --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1;   /* close, mid, back, way back */
   --off: #a8a8a4;
   --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
   --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
@@ -24,154 +28,215 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0c0c0c; --panel: #161616; --ink: #f2f2f0; --muted: #9b9b97; --line: #2a2a28;
-    --red: #e3262e; --red-ink: #ffffff; --red-tint: #3a1416; --rail: #000000; --rail-ink: #ffffff;
-    --rail-muted: #8a8a86; --off: #5a5a57; color-scheme: dark;
+    --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+    --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+    --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+    --off: #5a5a57; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0c0c0c; --panel: #161616; --ink: #f2f2f0; --muted: #9b9b97; --line: #2a2a28;
-  --red: #e3262e; --red-ink: #ffffff; --red-tint: #3a1416; --rail: #000000; --rail-ink: #ffffff;
-  --rail-muted: #8a8a86; --off: #5a5a57; color-scheme: dark;
+  --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+  --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+  --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+  --off: #5a5a57; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45; }
-.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
-button { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.4; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 0 40px; }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
+.mono { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
 
-/* rail */
-.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--rail); color: var(--rail-ink); }
-.rail-in { max-width: 1180px; margin: 0 auto; padding: 10px 16px 0; display: grid; gap: 8px; }
-.rail-top { display: flex; align-items: center; gap: 14px; min-width: 0; }
-.brand { font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: .03em; text-transform: uppercase; white-space: nowrap; }
-.brand b { color: var(--red); }
-.scroller { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
-.scroller::-webkit-scrollbar { display: none; }
-.rbtn { border: 1px solid #333; background: transparent; color: var(--rail-ink); border-radius: 3px; padding: 4px 11px; font-family: var(--font-display); font-weight: 800; font-size: 17px; letter-spacing: .04em; cursor: pointer; }
-.rbtn[aria-pressed="true"] { background: var(--red); border-color: var(--red); }
-.classes { display: flex; gap: 18px; overflow-x: auto; scrollbar-width: none; }
-.classes::-webkit-scrollbar { display: none; }
-.classes a, .classes span { color: var(--rail-muted); text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 6px 0 9px; white-space: nowrap; border-bottom: 3px solid transparent; }
-.classes a:hover { color: var(--rail-ink); }
-.classes a[aria-current="page"] { color: var(--rail-ink); border-bottom-color: var(--red); }
-.classes span { opacity: .45; }
+/* masthead (scrolls away) */
+.mast { background: var(--bar); color: var(--bar-ink); }
+.mast-in { max-width: 1180px; margin: 0 auto; padding: 14px 16px 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--bar-ink); text-decoration: none; min-width: 0; }
+.logo svg { height: 34px; width: auto; display: block; flex: none; }
+.logo .tag { font-family: var(--font-display); font-weight: 900; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--di-red); border-left: 1px solid #333; padding-left: 10px; line-height: 1; }
+
+/* sticky bar: class + rounds */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bar); color: var(--bar-ink); border-bottom: 1px solid #222; }
+.bar-in { max-width: 1180px; margin: 0 auto; padding: 8px 16px 10px; display: flex; align-items: center; gap: 10px; }
+.cls { position: relative; flex: none; }
+.cls select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 8px 28px 8px 10px; font-weight: 700; font-size: 14px; letter-spacing: .02em; text-transform: uppercase; }
+.cls::after { content: ""; position: absolute; right: 11px; top: 50%; width: 7px; height: 7px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
+.rounds { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; min-width: 0; scroll-snap-type: x proximity; }
+.rounds::-webkit-scrollbar { display: none; }
+.rbtn { flex: none; border: 1px solid #333; background: transparent; color: var(--bar-ink); border-radius: 6px; min-width: 44px; height: 38px; padding: 0 10px; font-family: var(--font-display); font-weight: 800; font-size: 18px; letter-spacing: .03em; cursor: pointer; scroll-snap-align: start; }
+.rbtn[aria-pressed="true"] { background: var(--di-red); border-color: var(--di-red); }
 
 /* hero */
-.hero { padding-block: 26px 6px; display: grid; gap: 12px; }
-.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
-h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(46px, 10vw, 96px); line-height: .86; margin: 0; text-transform: uppercase; text-wrap: balance; }
-h1 span { color: var(--red); }
-.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.hero { padding-block: 18px 4px; display: grid; gap: 8px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(44px, 13vw, 96px); line-height: .86; margin: 0; text-transform: uppercase; }
+h1 span { color: var(--di-red); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
 .meta strong { color: var(--ink); font-weight: 600; font-family: var(--font-data); }
-.leaders { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border-top: 3px solid var(--ink); border-bottom: 1px solid var(--line); margin-top: 8px; }
-.lead { padding: 12px 14px 12px 0; display: grid; gap: 2px; min-width: 0; }
-.lead .k { font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-.lead .v { font-family: var(--font-data); font-weight: 600; font-size: 28px; line-height: 1.1; }
+.leaders { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(132px, 1fr); overflow-x: auto; scrollbar-width: none; gap: 8px; margin-top: 6px; padding-bottom: 2px; scroll-snap-type: x proximity; }
+.leaders::-webkit-scrollbar { display: none; }
+.lead { background: var(--panel); border-radius: 8px; padding: 10px 12px; display: grid; gap: 1px; min-width: 0; scroll-snap-align: start; }
+.lead .k { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.lead .v { font-family: var(--font-data); font-weight: 600; font-size: 24px; line-height: 1.15; }
 .lead .who { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-/* section heads */
-.sec { margin-top: 36px; }
-.sec-h { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
-h2 { font-family: var(--font-display); font-weight: 800; font-size: 32px; line-height: 1; margin: 0 0 4px; text-transform: uppercase; }
-.hint { color: var(--muted); font-size: 13px; max-width: 64ch; margin: 0; }
-.seg { display: inline-flex; border: 1px solid var(--ink); border-radius: 3px; overflow: hidden; }
-.seg button { border: 0; background: transparent; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
-.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+/* sponsor slots */
+.presented { margin-top: 14px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; min-height: 56px; }
+.presented .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.presented img { max-height: 36px; max-width: 60%; width: auto; display: block; }
+.presented a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.slot-empty { color: var(--muted); font-size: 13px; }
+.slot-empty b { color: var(--ink); }
+.ad { margin-top: 28px; border-radius: 8px; overflow: hidden; display: block; }
+.ad img { width: 100%; height: auto; display: block; }
+.ad.empty { border: 1px dashed var(--line); padding: 26px 16px; text-align: center; color: var(--muted); font-size: 13px; }
+.ad.empty .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 4px; }
 
-/* the board */
-.board-wrap { overflow-x: auto; border-top: 3px solid var(--ink); }
-table.board { border-collapse: collapse; width: 100%; min-width: 760px; }
+/* section heads */
+.sec { margin-top: 28px; }
+h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-height: 1; margin: 0 0 4px; text-transform: uppercase; }
+.hint { color: var(--muted); font-size: 13px; margin: 0; max-width: 64ch; }
+
+/* board controls */
+.controls { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 20; background: var(--bg); padding-block: 10px 8px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+.toggle { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; }
+.toggle button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.sortrow { display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.sortrow::-webkit-scrollbar { display: none; }
+.sortrow .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; flex: none; margin-right: 2px; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.scale { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+.scale i { display: inline-block; width: 18px; height: 10px; border-radius: 2px; }
+
+/* heat tiers (shared by cards and table) */
+.tq, .cell.tq, .tc.tq { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.t1, .cell.t1 { background: var(--h1); }
+.t2, .cell.t2 { background: var(--h2); }
+.t3, .cell.t3 { background: var(--h3); }
+.t4, .cell.t4 { background: var(--h4); }
+.gone { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
+.rl { color: var(--di-red); font-weight: 700; }
+
+/* phone cards */
+.cards { display: grid; gap: 0; }
+.car { border-bottom: 1px solid var(--line); padding-block: 12px; cursor: pointer; }
+.car-top { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; align-items: center; }
+.car .pos { font-family: var(--font-display); font-weight: 900; font-size: 30px; line-height: 1; text-align: right; }
+.car .name { font-weight: 700; font-size: 16.5px; line-height: 1.15; }
+.car .sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.car .w { color: var(--q); font-weight: 700; }
+.car .et { text-align: right; }
+.car .et .v { font-family: var(--font-data); font-weight: 600; font-size: 21px; line-height: 1.1; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+.car .et .m { font-family: var(--font-data); font-size: 12.5px; color: var(--muted); }
+.strip { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 4px; margin-top: 10px; margin-left: 40px; }
+.cell { border-radius: 5px; padding: 5px 4px 6px; text-align: center; min-width: 0; position: relative; background: var(--panel); }
+.cell .l { display: block; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.cell.tq .l { color: var(--q-ink); opacity: .85; }
+.cell .v { display: block; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14.5px; font-weight: 500; line-height: 1.25; }
+.cell .r { display: block; font-family: var(--font-data); font-size: 10.5px; color: var(--muted); line-height: 1.2; }
+.cell.tq .r { color: var(--q-ink); opacity: .9; }
+.cell.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
+.car.open { background: var(--panel); margin-inline: -16px; padding-inline: 16px; }
+.car.open .cell { box-shadow: 0 0 0 1px var(--line); }
+
+/* wide-screen table */
+.table-wrap { display: none; overflow-x: auto; border-top: 3px solid var(--ink); }
+table.board { border-collapse: collapse; width: 100%; }
 .board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
-.board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); background: var(--bg); }
+.board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); }
 .board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
 .board thead th[aria-sort] button { color: var(--ink); }
-.board thead th[aria-sort] button::after { content: " \25BE"; color: var(--red); }
-.board .drv { text-align: left; position: sticky; left: 0; background: var(--bg); z-index: 2; box-shadow: 1px 0 0 var(--line); }
+.board thead th[aria-sort] button::after { content: " \25BE"; color: var(--di-red); }
+.board .drv { text-align: left; }
 .board tbody tr { border-bottom: 1px solid var(--line); cursor: pointer; }
-.board tbody tr:hover .drv, .board tbody tr.open .drv { background: var(--panel); }
-.drv-in { display: grid; grid-template-columns: 24px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; min-width: 172px; }
-.pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
-.name { font-weight: 600; font-size: 14.5px; line-height: 1.15; }
-.sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
-.w { color: var(--red); font-weight: 700; }
-.cell { padding: 8px 10px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
-.cell .r { display: block; font-size: 10.5px; color: var(--muted); margin-top: 1px; }
-.cell.b1 { background: var(--red); color: var(--red-ink); font-weight: 600; }
-.cell.b1 .r { color: var(--red-ink); opacity: .9; }
-.cell.b2 { background: var(--red-tint); }
-.cell.x { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
-.cell.redlight { color: var(--red); font-weight: 600; }
-.cut td { border-top: 2px dashed var(--red); }
-.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: 12.5px; color: var(--muted); margin-top: 10px; }
-.sw { display: inline-block; width: 22px; height: 12px; vertical-align: -1px; margin-right: 6px; border-radius: 2px; }
-@media (max-width: 520px) { .drv-in { min-width: 132px; padding-right: 6px; } .name { font-size: 13.5px; } .sub { font-size: 10.5px; } }
+.board tbody tr:hover .drv { background: var(--panel); }
+.drv-in { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; }
+.drv-in .pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
+.drv-in .name { font-weight: 600; font-size: 14.5px; }
+.drv-in .sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+.drv-in .w { color: var(--q); font-weight: 700; }
+.tc { padding: 8px 10px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.tc .r { display: block; font-size: 10.5px; color: var(--muted); }
+.tc.tq .r { color: var(--q-ink); opacity: .9; }
+.cut td { border-top: 2px dashed var(--di-red); }
 
 /* car slip */
-.slip-row > td { padding: 0; background: var(--panel); }
-.slip { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 22px; padding: 18px 16px; text-align: left; white-space: normal; position: sticky; left: 0; max-width: min(1146px, calc(100vw - 34px)); }
-.slip h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 26px; text-transform: uppercase; }
-.read { font-size: 15.5px; margin: 8px 0 14px; max-width: 60ch; font-weight: 500; }
-.small-h { font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 6px; }
+.slip { display: grid; gap: 18px; padding-block: 14px 4px; text-align: left; white-space: normal; }
+.read { font-size: 15px; margin: 0; font-weight: 500; }
+.small-h { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 6px; }
 .bars { display: grid; gap: 7px; }
-.bar { display: grid; grid-template-columns: 82px 1fr 58px; gap: 10px; align-items: center; font-size: 12.5px; }
-.bar .lbl { color: var(--muted); font-family: var(--font-data); }
-.track { height: 12px; background: var(--line); border-radius: 2px; position: relative; overflow: hidden; }
-.fill { position: absolute; inset: 0 auto 0 0; background: var(--ink); border-radius: 2px; }
-.bar .g { text-align: right; font-family: var(--font-data); }
-.bar .g.q { color: var(--red); font-weight: 600; }
-.vs { display: grid; gap: 16px; min-width: 0; }
-.mini { border-collapse: collapse; width: 100%; font-size: 12.5px; }
-.mini th, .mini td { padding: 5px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.bar-r { display: grid; grid-template-columns: 76px 1fr 64px; gap: 10px; align-items: center; font-size: 12.5px; }
+.bar-r .lbl { color: var(--muted); font-family: var(--font-data); }
+.track { height: 12px; background: var(--line); border-radius: 3px; position: relative; overflow: hidden; }
+.fill { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.bar-r .g { text-align: right; font-family: var(--font-data); }
+.mini { border-collapse: collapse; width: 100%; font-size: 13px; }
+.mini th, .mini td { padding: 6px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
 .mini th:first-child, .mini td:first-child { text-align: left; }
-.mini th { color: var(--muted); font-weight: 600; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.mini th { color: var(--muted); font-weight: 700; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
 .mini td { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
-.mini td.up { color: var(--red); font-weight: 600; }
+.mini td.up { color: var(--q); font-weight: 700; }
 .mini-wrap { overflow-x: auto; }
+.slip-td { padding: 0 16px 16px !important; background: var(--panel); }
+.slip-td .slip { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
 
 /* quickest at every light */
-.lights { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; border-top: 3px solid var(--ink); }
-.light { padding: 12px 14px 14px 0; border-bottom: 1px solid var(--line); min-width: 0; }
-.light h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; display: flex; align-items: baseline; gap: 8px; }
-.light h3 small { font-family: var(--font-body); font-size: 11px; font-weight: 600; letter-spacing: .1em; color: var(--muted); }
-.light ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 13.5px; }
-.light li { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; padding: 3px 6px; border-radius: 2px; }
-.light li:first-child { background: var(--red); color: var(--red-ink); font-weight: 600; }
+.lights { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(230px, 1fr); gap: 10px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
+.lights::-webkit-scrollbar { display: none; }
+.light { background: var(--panel); border-radius: 8px; padding: 12px; min-width: 0; scroll-snap-align: start; }
+.light h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 24px; text-transform: uppercase; display: flex; align-items: baseline; gap: 8px; }
+.light h3 small { font-family: var(--font-body); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; color: var(--muted); }
+.light ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 14px; }
+.light li { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; padding: 5px 8px; border-radius: 4px; }
 .light li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 12.5px; }
-.light li:not(:first-child) .t { color: var(--muted); }
+.light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 13px; }
+.swipe { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
 /* lower */
 .duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
-.ladder { columns: 2 210px; column-gap: 20px; font-size: 13.5px; margin: 0; padding: 0; list-style: none; }
-.ladder li { display: grid; grid-template-columns: 24px 1fr auto; gap: 8px; padding: 4px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
-.ladder li.bump { border-bottom: 2px dashed var(--red); }
+.ladder { columns: 1; font-size: 14px; margin: 0; padding: 0; list-style: none; }
+.ladder li { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.ladder li.bump { border-bottom: 2px dashed var(--di-red); }
 .ladder .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
 .ladder .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
 .ladder .out { color: var(--muted); }
-.rule { border-top: 3px solid var(--ink); padding-top: 10px; }
+.rule { border-top: 3px solid var(--ink); padding-top: 6px; margin-top: 10px; }
 
-.waiting { padding-block: 60px; display: grid; gap: 12px; }
-
-footer { margin-top: 44px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; display: grid; gap: 4px; }
+.waiting { padding-block: 40px; display: grid; gap: 12px; }
+footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; display: grid; gap: 6px; }
 footer a { color: inherit; }
-@media (max-width: 720px) { .slip { grid-template-columns: 1fr; } h2 { font-size: 27px; } }
+footer svg { height: 20px; width: auto; color: var(--ink); }
+
+@media (min-width: 900px) {
+  .cards { display: none; }
+  .table-wrap { display: block; }
+  .controls { position: static; border-bottom: 0; grid-template-columns: auto 1fr; align-items: center; }
+  .sortrow .lbl, .sortrow .chip { display: none; }
+  .ladder { columns: 2 220px; column-gap: 20px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); overflow: visible; }
+  .swipe { display: none; }
+  .logo svg { height: 40px; }
+}
 @media (prefers-reduced-motion: no-preference) {
   .slip { animation: drop .18s ease-out; }
   @keyframes drop { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
 }
 </style>
 
-<header class="rail">
-  <div class="rail-in">
-    <div class="rail-top">
-      <div class="brand">DI <b>Incrementals</b></div>
-      <nav class="scroller" id="rounds" aria-label="Round"></nav>
-    </div>
-    <nav class="classes" id="classes" aria-label="Class"></nav>
+<header class="mast">
+  <div class="mast-in">
+    <a class="logo" href="https://www.dragillustrated.com/" target="_blank" rel="noopener" aria-label="Drag Illustrated">__LOGO__<span class="tag">Incrementals</span></a>
   </div>
 </header>
+<div class="bar">
+  <div class="bar-in">
+    <label class="cls"><span hidden>Class</span><select id="cls" aria-label="Class"></select></label>
+    <nav class="rounds" id="rounds" aria-label="Round"></nav>
+  </div>
+</div>
 
 <main class="wrap" id="app">
   <section class="hero">
@@ -179,49 +244,48 @@ footer a { color: inherit; }
     <h1 id="title"></h1>
     <div class="meta" id="meta"></div>
     <div class="leaders" id="leaders"></div>
+    <div class="presented" id="presented"></div>
   </section>
 
-  <section class="sec">
-    <div class="sec-h">
-      <div>
-        <h2>The Board</h2>
-        <p class="hint">Every car at every timing light. Red is quickest in the field, pink is 2nd and 3rd. Tap a column to sort by it. Tap a car to open its slip.</p>
-      </div>
-      <div class="seg" role="group" aria-label="View">
+  <section class="sec" id="board-sec">
+    <h2>The Board</h2>
+    <p class="hint">Every car at every timing light. Tap a car for its full slip.</p>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="View">
         <button type="button" id="v-cum" aria-pressed="true">Timing points</button>
         <button type="button" id="v-seg" aria-pressed="false">Splits</button>
       </div>
+      <div class="sortrow" id="sortrow"></div>
+      <div class="scale" aria-label="Color scale"><i class="tq"></i>Quickest <i class="t1"></i><i class="t2"></i><i class="t3"></i><i class="t4"></i>further off</div>
     </div>
-    <div class="board-wrap"><table class="board" id="board"></table></div>
-    <div class="legend">
-      <span><span class="sw" style="background:var(--red)"></span>Quickest</span>
-      <span><span class="sw" style="background:var(--red-tint)"></span>2nd and 3rd</span>
-      <span>Small number under each time: rank and how far off the quickest</span>
-      <span><span style="text-decoration:line-through;color:var(--off)" class="num">5.555</span>&nbsp; after the car went away, not ranked</span>
-    </div>
+    <div class="cards" id="cards"></div>
+    <div class="table-wrap"><table class="board" id="board"></table></div>
   </section>
+
+  <div id="ad"></div>
 
   <section class="sec">
     <h2>Quickest at Every Light</h2>
-    <p class="hint" style="margin-bottom:12px">The top five cars at each timing light this round, and how far back each one was.</p>
+    <p class="hint">Top five at each timing light and how far back each car was.</p>
     <div class="lights" id="lights"></div>
+    <div class="swipe">Swipe for the next light</div>
   </section>
 
   <section class="sec duo">
     <div>
       <h2>Lane Check</h2>
-      <p class="hint" style="margin-bottom:10px">Average of the clean runs in each lane.</p>
+      <p class="hint">Average of the clean runs in each lane.</p>
       <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
     </div>
     <div id="ladder-sec">
       <h2 id="ladder-h">The Ladder</h2>
-      <p class="hint" id="ladder-hint" style="margin-bottom:10px"></p>
+      <p class="hint" id="ladder-hint"></p>
       <div class="rule"><ol class="ladder" id="ladder"></ol></div>
     </div>
   </section>
 
   <footer>
-    <div>Timing data from official NHRA results. Splits, rankings and reads computed by Drag Illustrated.</div>
+    <div>Timing data from official NHRA results. Splits, rankings and reads by Drag Illustrated.</div>
     <div id="src"></div>
   </footer>
 </main>
@@ -233,22 +297,37 @@ footer a { color: inherit; }
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const FIELD = 16;
+  const SP = D.sponsor || {};
 
-  // class links
-  const here = D.class;
-  $("classes").innerHTML = (D.nav || []).map((c) => c.live
-    ? `<a href="${D.base}${c.slug}/${location.hash}"${c.slug === here ? ' aria-current="page"' : ""}>${esc(c.name)}</a>`
-    : `<span title="No rounds posted yet">${esc(c.name)}</span>`).join("");
+  // class picker
+  const sel = $("cls");
+  sel.innerHTML = (D.nav || []).map((c) => `<option value="${c.slug}"${c.slug === D.class ? " selected" : ""}${c.live ? "" : " disabled"}>${esc(c.name)}</option>`).join("");
+  sel.onchange = () => { location.href = `${D.base}${sel.value}/${location.hash}`; };
+
+  function slotHTML(s, kind) {
+    if (s && s.logo) {
+      const img = `<img src="${D.base}assets/${esc(s.logo)}" alt="${esc(s.name || "")}">`;
+      return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener sponsored">${img}</a>` : img;
+    }
+    if (SP.show_placeholders === false) return "";
+    return kind === "presented"
+      ? `<span class="slot-empty">Presenting partner spot available. <b>${esc(SP.contact || "")}</b></span>`
+      : `<span class="k">Advertise here</span>Reach every crew chief in the pits, every round. ${esc(SP.contact || "")}`;
+  }
+  const pres = slotHTML(SP.presented_by, "presented");
+  if (pres) $("presented").innerHTML = `<span class="k">Presented by</span>${pres}`; else $("presented").hidden = true;
+  const adh = SP.ad && SP.ad.logo ? slotHTML(SP.ad, "ad") : slotHTML(null, "ad");
+  if (adh) { $("ad").className = "ad" + (SP.ad && SP.ad.logo ? "" : " empty"); $("ad").innerHTML = adh; }
 
   if (D.waiting) {
     $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
-      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Keep this page open; it updates every few minutes.</p></section>`;
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p></section>`;
     return;
   }
 
   const P = D.points, S = D.segs, IL = D.inc_label, SL = D.seg_label;
   const quarter = D.finish === 1320;
-  let view = "cum", sortKey = "et", openDriver = null, R = null;
+  let view = "cum", sortKey = "et", openDriver = null, R = null, CEIL = {};
 
   function t(v, key) {
     if (v == null) return "--";
@@ -256,10 +335,28 @@ footer a { color: inherit; }
     const s = v.toFixed(3);
     return s.startsWith("0.") ? s.slice(1) : s.startsWith("-0.") ? "-" + s.slice(2) : s;
   }
-  const plus = (g, k) => g == null ? "" : g === 0 ? "" : (k === "mph" || k === "mph660" ? "-" : "+") + t(g, k);
+  const plus = (g, k) => g == null || g === 0 ? "" : (k === "mph" || k === "mph660" ? "-" : "+") + t(g, k);
   const last = (n) => n.split(" ").slice(-1)[0];
   const ord = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th"));
   const roundName = (r) => r.startsWith("Q") ? "Qualifying " + r.slice(1) : r === "E4" ? "Final" : r === "E3" ? "Semifinals" : r === "E2" ? "Quarterfinals" : "Round 1";
+  const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
+  const isMph = (k) => k === "mph" || k === "mph660";
+
+  // heat tier from the gap to the quickest, scaled to how spread out this round's clean cars are
+  function ceilings() {
+    CEIL = {};
+    Object.keys(R.order).forEach((k) => {
+      const g = R.runs.filter((r) => r.clean && r.gap[k] != null).map((r) => r.gap[k]).sort((a, b) => a - b);
+      CEIL[k] = Math.max(g[Math.floor((g.length - 1) * .85)] || 0, isMph(k) ? 2 : k === "rt" ? 0.06 : 0.012);
+    });
+  }
+  function tier(r, k) {
+    if (k === "rt" && r.red) return "rl";
+    if (!counts(r, k) || r[k] == null) return r[k] == null ? "" : "gone";
+    if (r.rank[k] === 1) return "tq";
+    const x = r.gap[k] / CEIL[k];
+    return x < .25 ? "t1" : x < .5 ? "t2" : x < .85 ? "t3" : "t4";
+  }
 
   function cols() {
     if (view === "cum") {
@@ -273,26 +370,41 @@ footer a { color: inherit; }
     c.push(["et", "ET"]);
     return c;
   }
-  const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
+  // what the phone card strip shows
+  function stripCols() {
+    if (view === "cum") return [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]));
+    return S.map((s) => [s, SL[s].replace("-1320", "-fin").replace("1000-", "1k-").replace("-1000", "-1k")]);
+  }
+
+  function sortedRuns() {
+    const desc = isMph(sortKey);
+    return R.runs.slice().sort((a, b) => {
+      const av = counts(a, sortKey) && !(sortKey === "rt" && a.red) ? a[sortKey] : null;
+      const bv = counts(b, sortKey) && !(sortKey === "rt" && b.red) ? b[sortKey] : null;
+      if (av == null && bv == null) return (a.et ?? 99) - (b.et ?? 99);
+      if (av == null) return 1; if (bv == null) return -1;
+      return desc ? bv - av : av - bv;
+    });
+  }
 
   function renderRounds() {
     $("rounds").innerHTML = D.rounds.map((r) =>
       `<button type="button" class="rbtn" data-r="${r.round}" aria-pressed="${r === R}">${r.round}</button>`).join("");
     $("rounds").querySelectorAll("button").forEach((b) => b.onclick = () => go(b.dataset.r));
-    $("classes").querySelectorAll("a").forEach((a) => a.href = a.href.split("#")[0] + "#" + R.round.toLowerCase());
+    const on = $("rounds").querySelector('[aria-pressed="true"]');
+    if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
   }
 
   function renderHero() {
-    document.title = `DI Incrementals`;
     $("ev").textContent = `${D.year} ${D.event_name} · ${roundName(R.round)}`;
     $("title").innerHTML = `${esc(D.class_name)} <span>${R.round}</span>`;
     const w = R.weather, m = [`<span><strong>${R.runs.length}</strong> cars, <strong>${R.clean_count}</strong> clean</span>`];
     if (w) {
       if (w.track) m.push(`<span>Track <strong>${w.track}°</strong></span>`);
       if (w.air) m.push(`<span>Air <strong>${w.air}°</strong></span>`);
-      if (w.humidity) m.push(`<span>Humidity <strong>${w.humidity}%</strong></span>`);
+      if (w.humidity) m.push(`<span>Hum. <strong>${w.humidity}%</strong></span>`);
       if (w.baro) m.push(`<span>Baro <strong>${w.baro}</strong></span>`);
-      if (w.altitude) m.push(`<span>Adj. altitude <strong>${Number(w.altitude).toLocaleString()} ft</strong></span>`);
+      if (w.altitude) m.push(`<span>Adj. alt. <strong>${Number(w.altitude).toLocaleString()}'</strong></span>`);
     } else m.push(`<span>Conditions not posted this round</span>`);
     $("meta").innerHTML = m.join("");
     const who = (k) => R.order[k] ? R.order[k][0].driver : "";
@@ -301,38 +413,61 @@ footer a { color: inherit; }
       `<div class="lead"><div class="k">${l}</div><div class="v">${t(R.best[k], k)}</div><div class="who">${esc(who(k))}</div></div>`).join("");
   }
 
+  function renderSortRow() {
+    const C = cols().filter(([k]) => k !== "mph660");
+    $("sortrow").innerHTML = `<span class="lbl">Rank by</span>` + C.map(([k, l]) =>
+      `<button type="button" class="chip" data-k="${k}" aria-pressed="${k === sortKey}">${l}</button>`).join("");
+    $("sortrow").querySelectorAll("button").forEach((b) => b.onclick = () => { sortKey = b.dataset.k; renderBoard(); });
+  }
+
+  function subLine(r) {
+    const lane = `#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} lane`;
+    if (R.round.startsWith("Q")) return lane;   // win/loss means nothing in qualifying
+    return `${lane} · ${r.win ? "<span class='w'>W</span>" : "L"}${r.opp ? " vs " + esc(last(r.opp)) : " solo"}`;
+  }
+
   function renderBoard() {
     const C = cols();
     if (!C.some(([k]) => k === sortKey)) sortKey = "et";
-    const desc = sortKey === "mph" || sortKey === "mph660";
-    const rows = R.runs.slice().sort((a, b) => {
-      const av = counts(a, sortKey) ? a[sortKey] : null, bv = counts(b, sortKey) ? b[sortKey] : null;
-      if (av == null && bv == null) return (a.et ?? 99) - (b.et ?? 99);
-      if (av == null) return 1; if (bv == null) return -1;
-      return desc ? bv - av : av - bv;
+    renderSortRow();
+    const rows = sortedRuns();
+    const SC = stripCols();
+
+    // phone cards
+    $("cards").innerHTML = rows.map((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      const strip = SC.map(([k, l]) => {
+        const tr = tier(r, k), v = r[k];
+        const rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : (tr === "rl" ? "red" : "");
+        return `<div class="cell ${tr}${k === sortKey ? " sorted" : ""}"><span class="l">${l}</span><span class="v">${t(v, k)}</span><span class="r">${rk || "&nbsp;"}</span></div>`;
+      }).join("");
+      const open = openDriver === r.driver;
+      return `<div class="car${open ? " open" : ""}"${cut ? ' style="border-top:2px dashed var(--di-red)"' : ""} data-d="${esc(r.driver)}" role="button" tabindex="0" aria-expanded="${open}">
+        <div class="car-top"><span class="pos">${i + 1}</span><div style="min-width:0"><div class="name">${esc(r.driver)}</div><div class="sub">${subLine(r)}</div></div>
+        <div class="et"><span class="v ${tier(r, "et")}">${t(r.et)}</span><div class="m">${t(r.mph, "mph")} mph</div></div></div>
+        <div class="strip" style="--n:${SC.length}">${strip}</div>${open ? slip(r) : ""}</div>`;
+    }).join("");
+    $("cards").querySelectorAll(".car").forEach((el) => {
+      const flip = () => { openDriver = openDriver === el.dataset.d ? null : el.dataset.d; renderBoard(); };
+      el.onclick = (e) => { if (!e.target.closest(".slip")) flip(); };
+      el.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
     });
+
+    // wide table
+    const desc = isMph(sortKey);
     let h = "<thead><tr><th class='drv'><button type='button' data-k='et'>Car</button></th>";
     C.forEach(([k, l]) => h += `<th${k === sortKey ? " aria-sort='" + (desc ? "descending" : "ascending") + "'" : ""}><button type="button" data-k="${k}">${l}</button></th>`);
     h += "</tr></thead><tbody>";
     rows.forEach((r, i) => {
       const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
-      const sub = `#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} · ${r.win ? "<span class='w'>W</span>" : "L"}${r.opp ? " vs " + esc(last(r.opp)) : " solo"}`;
-      h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}${openDriver === r.driver ? " open" : ""}" aria-expanded="${openDriver === r.driver}">`;
-      h += `<td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${sub}</span></div></td>`;
+      h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}"><td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${subLine(r)}</span></div></td>`;
       C.forEach(([k]) => {
-        const v = r[k], ok = counts(r, k) && v != null && !(k === "rt" && r.red);
-        let cls = "cell", sm = "";
-        if (k === "rt" && r.red) { cls += " redlight"; sm = "<span class='r'>red</span>"; }
-        else if (!ok) cls += v == null ? "" : " x";
-        else {
-          const n = r.rank[k], g = r.gap[k];
-          sm = `<span class="r">${ord(n)}${g ? " · " + plus(g, k) : ""}</span>`;
-          if (n === 1) cls += " b1"; else if (n <= 3) cls += " b2";
-        }
-        h += `<td class="${cls}">${t(v, k)}${sm}</td>`;
+        const tr = tier(r, k);
+        const sm = tr === "rl" ? "<span class='r'>red</span>" : tr && tr !== "gone" ? `<span class="r">${ord(r.rank[k])}${r.gap[k] ? " " + plus(r.gap[k], k) : ""}</span>` : "";
+        h += `<td class="tc ${tr}">${t(r[k], k)}${sm}</td>`;
       });
       h += "</tr>";
-      if (openDriver === r.driver) h += `<tr class="slip-row"><td colspan="${C.length + 1}">${slip(r)}</td></tr>`;
+      if (openDriver === r.driver) h += `<tr><td class="slip-td" colspan="${C.length + 1}">${slip(r)}</td></tr>`;
     });
     $("board").innerHTML = h + "</tbody>";
     $("board").querySelectorAll("thead button").forEach((b) => b.onclick = (e) => { e.stopPropagation(); sortKey = b.dataset.k; renderBoard(); });
@@ -342,19 +477,20 @@ footer a { color: inherit; }
   }
 
   function slip(r) {
-    const segs = S.map((s) => ({ s, v: r[s], g: r.gap[s], n: r.rank[s], ok: r.valid.includes(s) }));
+    const segs = S.map((s) => ({ s, v: r[s], g: r.gap[s], ok: r.valid.includes(s) }));
     const maxG = Math.max(0.02, ...segs.filter((x) => x.ok && x.g != null).map((x) => x.g));
     const bars = segs.map((x) => {
-      if (!x.ok || x.v == null) return `<div class="bar"><span class="lbl">${SL[x.s]}</span><div class="track"></div><span class="g" style="color:var(--off)">${x.v == null ? "--" : "off"}</span></div>`;
-      const w = x.g === 0 ? 0 : Math.max(3, x.g / maxG * 100);
-      return `<div class="bar"><span class="lbl">${SL[x.s]}</span><div class="track"><div class="fill" style="width:${w}%"></div></div><span class="g${x.g === 0 ? " q" : ""}">${x.g === 0 ? "quickest" : plus(x.g)}</span></div>`;
+      if (!x.ok || x.v == null) return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"></div><span class="g" style="color:var(--off)">${x.v == null ? "--" : "off"}</span></div>`;
+      const tr = tier(r, x.s);
+      const w = x.g === 0 ? 100 : Math.max(4, x.g / maxG * 100);
+      const color = { tq: "var(--q)", t1: "var(--h1)", t2: "var(--h2)", t3: "var(--h3)", t4: "var(--h4)" }[tr] || "var(--ink)";
+      return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"><div class="fill" style="width:${w}%;background:${color};${tr !== "tq" ? "box-shadow:inset 0 0 0 1px var(--muted)" : ""}"></div></div><span class="g"${x.g === 0 ? ' style="color:var(--q);font-weight:700"' : ""}>${x.g === 0 ? "quickest" : plus(x.g)}</span></div>`;
     }).join("");
-
     const opp = r.opp ? R.runs.find((x) => x.driver === r.opp) : null;
     let vs = "<p class='small-h'>Solo pass</p>";
     if (opp) {
       const rowsV = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
-      vs = `<div><p class="small-h">Side by side · pair ${r.pair}</p><div class="mini-wrap"><table class="mini"><tr><th></th><th>${esc(last(r.driver))}</th><th>${esc(last(opp.driver))}</th><th>Diff</th></tr>` +
+      vs = `<div><p class="small-h">Side by side, pair ${r.pair}</p><div class="mini-wrap"><table class="mini"><tr><th></th><th>${esc(last(r.driver))}</th><th>${esc(last(opp.driver))}</th><th>Diff</th></tr>` +
         rowsV.map(([k, l]) => {
           const a = r[k], b = opp[k];
           const d = a != null && b != null ? (k === "mph" ? a - b : b - a) : null;
@@ -366,13 +502,12 @@ footer a { color: inherit; }
     if (hist.length > 1) {
       const hp = P.filter((p) => p !== "et").slice(0, 3);
       hh = `<div><p class="small-h">This weekend</p><div class="mini-wrap"><table class="mini"><tr><th>Rd</th>${hp.map((p) => `<th>${IL[p]}</th>`).join("")}<th>ET</th><th>MPH</th></tr>` +
-        hist.map((x) => `<tr${x.round === R.round ? " style='font-weight:600'" : ""}><td>${x.round}</td>${hp.map((p) => `<td>${t(x[p])}</td>`).join("")}<td>${t(x.et)}</td><td>${t(x.mph, "mph")}</td></tr>`).join("") +
+        hist.map((x) => `<tr${x.round === R.round ? " style='font-weight:700'" : ""}><td>${x.round}</td>${hp.map((p) => `<td>${t(x[p])}</td>`).join("")}<td>${t(x.et)}</td><td>${t(x.mph, "mph")}</td></tr>`).join("") +
         `</table></div></div>`;
     }
-    const q = r.qpos ? ` · ${ord(r.qpos)} on the ladder after ${R.round}` : "";
-    return `<div class="slip"><div><h3>${esc(r.driver)}</h3><p class="hint">#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} lane${q}</p>
-      <p class="read">${esc(r.read)}</p><p class="small-h">Each split vs the quickest in the field</p><div class="bars">${bars}</div></div>
-      <div class="vs">${vs}${hh}</div></div>`;
+    const q = r.qpos ? `${ord(r.qpos)} on the ladder after ${R.round}. ` : "";
+    return `<div class="slip"><div><p class="read">${esc(q + r.read)}</p></div>
+      <div><p class="small-h">Each split vs the quickest</p><div class="bars">${bars}</div></div>${vs}${hh}</div>`;
   }
 
   function renderLights() {
@@ -380,8 +515,10 @@ footer a { color: inherit; }
     $("lights").innerHTML = keys.filter((k) => R.order[k]).map((k) => {
       const lab = k === "et" ? "ET" : k === "mph" ? "MPH" : IL[k];
       const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing light";
-      const list = R.order[k].slice(0, 5).map((o, i) =>
-        `<li><span>${esc(o.driver)}</span><span class="t">${i === 0 ? t(o.v, k) : plus(o.gap, k)}</span></li>`).join("");
+      const list = R.order[k].slice(0, 5).map((o, i) => {
+        const run = R.runs.find((r) => r.driver === o.driver);
+        return `<li class="${run ? tier(run, k) : ""}"><span>${esc(o.driver)}</span><span class="t">${i === 0 ? t(o.v, k) : plus(o.gap, k)}</span></li>`;
+      }).join("");
       return `<div class="light"><h3>${lab} <small>${sub.toUpperCase()}</small></h3><ol>${list}</ol></div>`;
     }).join("");
   }
@@ -419,6 +556,7 @@ footer a { color: inherit; }
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     openDriver = null;
+    ceilings();
     try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
     renderRounds(); renderHero(); renderBoard(); renderLights(); renderLanes(); renderLadder();
     $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
