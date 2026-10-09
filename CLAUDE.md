@@ -10,6 +10,7 @@ Where to make a change:
 - Which races and classes: `config.json` (`schedule` picks this week's race by start date)
 - Sponsor spots: `config.json` > `sponsor` (logo files go in `assets/`); DI logo is `assets/di-logo.svg`
 - Print, downloads, archive: print sheet is `#print` + `@media print` in template.html; run.py writes a CSV per class and a permanent copy of each race under site/events/<year-event>/ (listed in events/events.json, shown as Past Races)
+- Race picker / archive: site/events/events.json ({live, events[]}) drives the header Race menu and Past Races. Short race names: config.json > event_labels. Backfill a season into a checkout of gh-pages at site/: `DI_DATA_DIR=site/data python run.py backfill 2026` (skips races already archived), then commit and push gh-pages
 - Schedule / publishing: `.github/workflows/incrementals.yml`
 
 Workflow for a tweak:
