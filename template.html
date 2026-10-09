@@ -264,6 +264,29 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .race::after { bottom: 15px; }
 }
 
+/* eliminations ladder */
+.el-wrap { display: grid; grid-auto-flow: column; grid-auto-columns: 88%; gap: 14px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
+.el-wrap::-webkit-scrollbar { display: none; }
+.el-col { display: flex; flex-direction: column; justify-content: space-around; gap: 10px; scroll-snap-align: start; min-width: 0; }
+.el-col h3 { margin: 0 0 2px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; }
+.el-col h3 small { font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--muted); margin-left: 6px; }
+.el-pair { background: var(--panel); border-radius: 8px; overflow: hidden; border: 1px solid var(--line); cursor: pointer; text-align: left; padding: 0; width: 100%; color: var(--ink); }
+.el-pair:hover { border-color: var(--muted); }
+.el-car { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 0 8px; align-items: center; padding: 8px 10px; border-left: 4px solid transparent; }
+.el-car + .el-car { border-top: 1px solid var(--line); }
+.el-car.win { border-left-color: var(--q); }
+.el-car.win .el-n { font-weight: 700; }
+.el-s { font-family: var(--font-display); font-weight: 800; font-size: 17px; color: var(--muted); text-align: right; grid-row: span 2; }
+.el-n { font-size: 14.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.el-v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+.el-car.win .el-v { color: var(--ink); }
+.el-v b { font-size: 14px; color: var(--ink); }
+.el-v .rl { color: var(--di-red); font-weight: 700; }
+.el-foot { display: flex; justify-content: space-between; gap: 8px; font-size: 11.5px; color: var(--muted); padding: 6px 10px; border-top: 1px solid var(--line); background: var(--bg); }
+.el-tag { font-weight: 700; color: var(--ink); }
+.el-tag.hs { color: var(--q); }
+@media (min-width: 900px) { .el-wrap { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); overflow: visible; } .el-swipe { display: none; } }
+
 /* leaderboard */
 .lb-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
 .lb-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
@@ -306,7 +329,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
   .mast .logo { color: #000; }
   .mast-in { padding: 0 0 6px; }
-  #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  #elim-sec, #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
   .wrap { padding: 0; max-width: none; }
   .hero { padding: 6px 0 0; }
   h1 { font-size: 30px; }
@@ -388,6 +411,13 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     <div id="cmp-out"></div>
   </section>
 
+  <section class="sec" id="elim-sec" hidden>
+    <h2 id="el-h">Eliminations Ladder</h2>
+    <p class="hint" id="el-hint"></p>
+    <div class="el-wrap" id="el"></div>
+    <div class="swipe el-swipe">Swipe for the next round</div>
+  </section>
+
   <div id="ad"></div>
 
   <section class="sec">
@@ -404,7 +434,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
     </div>
     <div id="ladder-sec">
-      <h2 id="ladder-h">The Ladder</h2>
+      <h2 id="ladder-h">Qualifying Order</h2>
       <p class="hint" id="ladder-hint"></p>
       <div class="rule"><ol class="ladder" id="ladder"></ol></div>
     </div>
@@ -731,7 +761,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     const q = D.qualifying[R.round];
     $("ladder-sec").hidden = !q;
     if (!q) return;
-    $("ladder-h").textContent = `Ladder after ${R.round}`;
+    $("ladder-h").textContent = `Qualifying Order after ${R.round}`;
     $("ladder-hint").textContent = q.length > FIELD ? `Best ET to date, ties go to MPH. Top ${FIELD} make the show.` : "Best ET to date, ties go to MPH.";
     $("ladder").innerHTML = q.map((x, i) =>
       `<li class="${i === FIELD - 1 && q.length > FIELD ? "bump" : ""}${i >= FIELD ? " out" : ""}"><span class="p">${i + 1}</span><span>${esc(x.driver)}</span><span class="t">${t(x.et)} <span style="color:var(--muted)">${t(x.mph, "mph")}</span></span></li>`).join("");
@@ -875,12 +905,77 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   $("lb-race").onclick = () => { lbMode = "race"; renderLeaders(); };
   $("lb-season").onclick = () => { lbMode = "season"; renderLeaders(); };
   renderLeaders();
+
+  // eliminations ladder (projected from qualifying until E1 posts). Tap a pairing to compare the two cars.
+  const SLOT = [1, 16, 8, 9, 4, 13, 5, 12, 2, 15, 7, 10, 3, 14, 6, 11];
+  function renderElims() {
+    const qRounds = D.rounds.filter((r) => r.round.startsWith("Q")).map((r) => r.round);
+    const eRounds = D.rounds.filter((r) => r.round.startsWith("E"));
+    const finalQ = qRounds.length ? D.qualifying[qRounds[qRounds.length - 1]] : null;
+    if (!finalQ && !eRounds.length) { $("elim-sec").hidden = true; return; }
+    $("elim-sec").hidden = false;
+    const seed = {};
+    (finalQ || []).forEach((x, i) => { seed[x.driver] = i + 1; });
+    const slotOf = (d) => { const i = SLOT.indexOf(seed[d]); return i < 0 ? 99 : i; };
+    const names = { E1: "Round 1", E2: "Quarterfinals", E3: "Semifinals", E4: "Final" };
+    const carRow = (r, won) => {
+      if (!r) return `<div class="el-car"><span class="el-s"></span><span class="el-n" style="color:var(--muted)">Bye</span><span></span></div>`;
+      const v = r.et == null ? (r.red ? `<span class="rl">red light</span>` : "no time")
+        : `${r.red ? '<span class="rl">red</span>' : t(r.rt)} · <b>${t(r.et)}</b> · ${t(r.mph, "mph")}`;
+      return `<div class="el-car${won ? " win" : ""}"><span class="el-s">${seed[r.driver] || ""}</span><span class="el-n">${esc(r.driver)}</span><span class="el-v">${v}</span></div>`;
+    };
+    let cols = "";
+    if (!eRounds.length) {
+      // projected pairings from the current qualifying order
+      const q = D.qualifying[R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]] || finalQ;
+      const qs = {}; q.forEach((x, i) => { qs[i + 1] = x.driver; });
+      let cards = "";
+      for (let i = 0; i < 16; i += 2) {
+        const a = qs[SLOT[i]], b = qs[SLOT[i + 1]];
+        if (!a && !b) continue;
+        cards += `<div class="el-pair" style="cursor:default"><div class="el-car"><span class="el-s">${SLOT[i]}</span><span class="el-n">${esc(a || "")}</span><span></span></div><div class="el-car"><span class="el-s">${SLOT[i + 1]}</span><span class="el-n">${b ? esc(b) : '<span style="color:var(--muted)">Bye</span>'}</span><span></span></div></div>`;
+      }
+      cols = `<div class="el-col"><h3>Round 1<small>PROJECTED</small></h3>${cards}</div>`;
+      $("el-h").textContent = "Eliminations Ladder";
+      $("el-hint").textContent = `If qualifying ended after ${R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]}, here's how round one would pair up. Updates after every session.`;
+    } else {
+      cols = eRounds.map((rd) => {
+        const pairs = {};
+        rd.runs.forEach((r) => { (pairs[r.pair] = pairs[r.pair] || []).push(r); });
+        const list = Object.values(pairs).sort((a, b) => Math.min(...a.map((r) => slotOf(r.driver))) - Math.min(...b.map((r) => slotOf(r.driver))));
+        const cards = list.map((p) => {
+          p.sort((x, y) => (seed[x.driver] || 99) - (seed[y.driver] || 99));
+          const [x, y] = p, w = p.find((r) => r.win), l = p.find((r) => !r.win);
+          let tag = "", margin = "";
+          if (w && l && w.et != null && l.et != null && !l.red && !w.red) {
+            const d = (l.rt + l.et) - (w.rt + w.et);
+            margin = d > 0 ? `Won by ${t(d)}` : "";
+            if (w.et > l.et) tag = `<span class="el-tag hs">Holeshot</span>`;
+          } else if (l && l.red) tag = `<span class="el-tag">Red light</span>`;
+          else if (w && !l) tag = `<span class="el-tag">Solo</span>`;
+          const data = p.length === 2 ? ` data-a="${esc(x.driver)}" data-b="${esc(y.driver)}" data-r="${rd.round}"` : "";
+          return `<button type="button" class="el-pair"${data}>${carRow(x, x && x.win)}${p.length === 2 ? carRow(y, y.win) : carRow(null)}${tag || margin ? `<div class="el-foot"><span>${tag}</span><span>${margin}</span></div>` : ""}</button>`;
+        }).join("");
+        return `<div class="el-col"><h3>${rd.round}<small>${(names[rd.round] || "").toUpperCase()}</small></h3>${cards}</div>`;
+      }).join("");
+      $("el-h").textContent = "Eliminations Ladder";
+      $("el-hint").textContent = "Numbers are qualifying spots. Tap a pairing to compare the two cars block by block.";
+    }
+    $("el").innerHTML = cols;
+    $("el").querySelectorAll(".el-pair[data-a]").forEach((b) => b.onclick = () => {
+      savePick("di-cmp-a-" + D.class, b.dataset.a); savePick("di-cmp-b-" + D.class, b.dataset.b);
+      cmpMode = "round";
+      go(b.dataset.r);
+      $("cmp-round").setAttribute("aria-pressed", "true"); $("cmp-best").setAttribute("aria-pressed", "false");
+      document.getElementById("cmp-sec").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     openDriver = null;
     ceilings();
     try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
-    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderLights(); renderLanes(); renderLadder();
+    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderElims(); renderLights(); renderLanes(); renderLadder();
     $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
   }
   function setView(v) {
