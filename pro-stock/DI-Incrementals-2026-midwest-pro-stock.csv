@@ -1,0 +1,95 @@
+Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,1,Left,Mason McGaha,400,,0.048,0.971,2.747,4.222,166.81,5.492,6.563,209.85,0.971,1.776,1.475,1.27,1.071,2.341,43.04,yes,,13,4,13,13
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,1,Right,Chris Vang,5707,,0.011,1.568,4.122,6.77,83.63,9.611,12.398,76.94,1.568,2.554,2.648,2.841,2.787,5.628,-6.69,no,0-60,14,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,2,Left,Stephen Bell,439,,0.072,0.981,2.745,4.216,167.34,5.486,6.56,209.33,0.981,1.764,1.471,1.27,1.074,2.344,41.99,yes,,12,13,12,12
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,2,Right,Deric Kramer,52,,0.022,1.221,5.388,8.552,82.45,10.972,12.78,129.5,1.221,4.167,3.164,2.42,1.808,4.228,47.05,no,0-60,15,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,3,Left,Kenny Delco,150,,-0.001,0.979,2.736,4.204,167.66,5.473,6.545,209.85,0.979,1.757,1.468,1.269,1.072,2.341,42.19,yes,,10,12,11,11
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,3,Right,Eric Latino,7,,-0.083,0.978,2.725,4.184,168.7,5.442,6.503,211.0,0.978,1.747,1.459,1.258,1.061,2.319,42.3,yes,,6,11,8,9
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,4,Left,Aaron Stanfield,4,,0.053,0.963,2.709,4.169,167.93,5.431,6.501,209.43,0.963,1.746,1.46,1.262,1.07,2.332,41.5,yes,,5,2,3,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,4,Right,Erica Enders,6,,0.081,0.972,2.721,4.183,168.68,5.444,6.509,209.56,0.972,1.749,1.462,1.261,1.065,2.326,40.88,yes,,8,6,6,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,5,Left,Matt Latino,16,,0.056,1.27,6.392,13.379,30.68,21.562,30.6,22.49,1.27,5.122,6.987,8.183,9.038,17.221,-8.19,no,0-60,16,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,5,Right,Jeg Coughlin Jr,8,,0.071,0.971,2.719,4.179,168.16,5.441,6.506,209.98,0.971,1.748,1.46,1.262,1.065,2.327,41.82,yes,,7,5,5,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,6,Left,Cody Anderson,17,,0.057,0.974,2.734,4.198,168.24,5.459,6.525,209.46,0.974,1.76,1.464,1.261,1.066,2.327,41.22,yes,,9,7,10,10
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,6,Right,Troy Coughlin Jr,10,,0.02,0.974,2.712,4.171,168.18,5.433,6.498,210.64,0.974,1.738,1.459,1.262,1.065,2.327,42.46,yes,,3,8,4,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,7,Left,Greg Anderson,2,,0.065,0.962,2.708,4.164,168.35,5.42,6.482,209.92,0.962,1.746,1.456,1.256,1.062,2.318,41.57,yes,,1,1,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,7,Right,Dallas Glenn,1,,0.024,0.976,2.725,4.182,168.7,5.439,6.555,193.05,0.976,1.749,1.457,1.257,1.116,2.373,24.35,yes,,11,10,9,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,8,Left,Matt Hartford,3,,0.087,0.974,2.724,4.182,168.66,5.437,6.5,209.39,0.974,1.75,1.458,1.255,1.063,2.318,40.73,yes,,4,9,7,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q1,8,Right,Greg Stanfield,445,,0.025,0.967,2.708,4.169,168.09,5.431,6.495,210.31,0.967,1.741,1.461,1.262,1.064,2.326,42.22,yes,,2,3,2,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,1,Left,Deric Kramer,52,,0.042,0.986,2.84,4.884,108.79,7.057,9.166,102.33,0.986,1.854,2.044,2.173,2.109,4.282,-6.46,no,60-330,13,15,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,1,Right,Matt Latino,16,,0.054,0.982,2.8,4.795,111.24,6.92,8.988,104.03,0.982,1.818,1.995,2.125,2.068,4.193,-7.21,no,330-660,12,13,12,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,2,Left,Chris Vang,5707,,0.034,0.955,2.932,5.296,93.9,7.818,10.279,87.51,0.955,1.977,2.364,2.522,2.461,4.983,-6.39,no,60-330,14,1,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,2,Right,Mason McGaha,400,,0.046,0.982,2.744,4.216,167.91,5.482,6.55,210.87,0.982,1.762,1.472,1.266,1.068,2.334,42.96,yes,,11,14,11,11
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,3,Left,Dallas Glenn,1,,0.057,1.24,4.724,7.302,97.49,9.578,11.773,98.16,1.24,3.484,2.578,2.276,2.195,4.471,0.67,no,0-60,15,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,3,Right,Stephen Bell,439,,0.092,0.977,2.727,4.193,167.12,5.462,6.531,209.36,0.977,1.75,1.466,1.269,1.069,2.338,42.24,yes,,9,10,9,9
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,4,Left,Erica Enders,6,,0.019,0.966,2.715,4.173,168.3,5.431,6.491,211.63,0.966,1.749,1.458,1.258,1.06,2.318,43.33,yes,,8,4,6,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,4,Right,Kenny Delco,150,,0.028,0.978,2.732,4.197,167.72,5.463,6.531,209.95,0.978,1.754,1.465,1.266,1.068,2.334,42.23,yes,,10,12,10,10
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,5,Left,Jeg Coughlin Jr,8,,0.029,0.97,2.714,4.169,168.58,5.426,6.488,210.08,0.97,1.744,1.455,1.257,1.062,2.319,41.5,yes,,6,7,5,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,5,Right,Cody Anderson,17,,0.055,0.968,3.512,6.722,68.96,10.181,13.588,62.77,0.968,2.544,3.21,3.459,3.407,6.866,-6.19,no,60-330,16,6,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,6,Left,Eric Latino,7,,0.175,0.973,2.721,4.175,169.4,5.429,6.488,211.46,0.973,1.748,1.454,1.254,1.059,2.313,42.06,yes,,7,9,8,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,6,Right,Aaron Stanfield,4,,0.004,0.966,2.702,4.159,168.7,5.418,6.483,210.24,0.966,1.736,1.457,1.259,1.065,2.324,41.54,yes,,4,5,2,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,7,Left,Troy Coughlin Jr,10,,0.007,0.964,2.705,4.158,168.68,5.413,6.473,211.69,0.964,1.741,1.453,1.255,1.06,2.315,43.01,yes,,1,3,3,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,7,Right,Matt Hartford,3,,0.165,0.977,2.72,4.175,169.3,5.428,6.486,210.54,0.977,1.743,1.455,1.253,1.058,2.311,41.24,yes,,5,11,7,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,8,Left,Greg Stanfield,445,,-0.02,0.955,2.696,4.155,167.88,5.413,6.474,210.93,0.955,1.741,1.459,1.258,1.061,2.319,43.05,yes,,2,2,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q2,8,Right,Greg Anderson,2,,0.102,0.97,2.713,4.167,169.47,5.419,6.479,210.5,0.97,1.743,1.454,1.252,1.06,2.312,41.03,yes,,3,8,4,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,1,Left,Cody Anderson,17,,0.089,0.988,3.659,7.079,64.42,10.788,14.469,58.15,0.988,2.671,3.42,3.709,3.681,7.39,-6.27,no,60-330,13,12,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,1,Right,Dallas Glenn,1,,-0.001,0.985,2.726,4.18,169.3,5.437,6.499,210.93,0.985,1.741,1.454,1.257,1.062,2.319,41.63,yes,,4,10,7,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,2,Left,Matt Latino,16,,0.034,0.975,2.723,4.186,168.14,5.452,6.522,210.08,0.975,1.748,1.463,1.266,1.07,2.336,41.94,yes,,7,6,5,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,2,Right,Chris Vang,5707,,0.041,0.979,3.615,6.97,65.69,10.622,14.246,58.9,0.979,2.636,3.355,3.652,3.624,7.276,-6.79,no,60-330,12,7,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,3,Left,Mason McGaha,400,,,,,,,,,,,,,,,,,no,0-60,,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,3,Right,Deric Kramer,52,,0.212,0.993,2.743,4.203,167.91,5.469,6.539,209.26,0.993,1.75,1.46,1.266,1.07,2.336,41.35,yes,,8,13,8,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,4,Left,Stephen Bell,439,,0.147,0.974,2.715,4.175,168.45,5.439,6.51,209.65,0.974,1.741,1.46,1.264,1.071,2.335,41.2,yes,,6,4,3,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,4,Right,Erica Enders,6,,0.03,0.982,2.724,4.18,169.04,5.44,6.502,211.33,0.982,1.742,1.456,1.26,1.062,2.322,42.29,yes,,5,8,6,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,5,Left,Kenny Delco,150,,0.012,1.002,3.556,6.034,89.4,8.691,11.297,82.48,1.002,2.554,2.478,2.657,2.606,5.263,-6.92,no,60-330,9,14,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,5,Right,Jeg Coughlin Jr,8,,0.064,0.974,2.716,4.173,168.58,5.433,6.496,210.47,0.974,1.742,1.457,1.26,1.063,2.323,41.89,yes,,3,5,4,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,6,Left,Matt Hartford,3,,0.154,0.983,3.226,6.01,79.58,8.998,11.934,73.15,0.983,2.243,2.784,2.988,2.936,5.924,-6.43,no,60-330,11,9,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,6,Right,Eric Latino,7,,-0.085,0.971,2.709,4.165,169.02,5.423,6.487,210.6,0.971,1.738,1.456,1.258,1.064,2.322,41.58,yes,,2,2,2,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,7,Left,Aaron Stanfield,4,,0.051,0.965,3.773,7.379,60.97,11.308,15.226,54.51,0.965,2.808,3.606,3.929,3.918,7.847,-6.46,no,60-330,14,1,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,7,Right,Greg Stanfield,445,,0.037,0.985,3.15,5.834,82.42,8.719,11.552,75.68,0.985,2.165,2.684,2.885,2.833,5.718,-6.74,no,60-330,10,11,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,8,Left,Greg Anderson,2,,0.064,1.042,4.15,8.161,54.77,12.554,16.959,48.38,1.042,3.108,4.011,4.393,4.405,8.798,-6.39,no,0-60,15,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q3,8,Right,Troy Coughlin Jr,10,,0.029,0.971,2.705,4.158,169.08,5.414,6.474,211.3,0.971,1.734,1.453,1.256,1.06,2.316,42.22,yes,,1,3,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,1,Left,Chris Vang,5707,,0.018,0.978,2.748,4.214,167.82,5.479,6.548,209.79,0.978,1.77,1.466,1.265,1.069,2.334,41.97,yes,,12,8,13,13
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,1,Right,Mason McGaha,400,,0.045,0.987,2.742,4.209,167.66,5.478,6.548,210.64,0.987,1.755,1.467,1.269,1.07,2.339,42.98,yes,,13,12,12,12
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,2,Left,Deric Kramer,52,,0.027,0.99,2.74,4.199,168.3,5.463,6.531,211.1,0.99,1.75,1.459,1.264,1.068,2.332,42.8,yes,,11,14,10,10
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,2,Right,Kenny Delco,150,,-0.065,1.001,2.968,5.065,105.9,7.3,9.511,95.44,1.001,1.967,2.097,2.235,2.211,4.446,-10.46,no,60-330,15,15,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,3,Left,Dallas Glenn,1,,0.052,0.972,2.722,4.179,168.96,5.436,6.498,210.77,0.972,1.75,1.457,1.257,1.062,2.319,41.81,yes,,6,6,8,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,3,Right,Cody Anderson,17,,0.059,0.97,2.713,4.168,169.21,5.425,6.489,209.49,0.97,1.743,1.455,1.257,1.064,2.321,40.28,yes,,4,5,4,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,4,Left,Erica Enders,6,,0.017,0.983,3.568,6.871,66.78,10.439,13.966,60.79,0.983,2.585,3.303,3.568,3.527,7.095,-5.99,no,60-330,16,10,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,4,Right,Matt Latino,16,,0.032,0.978,2.72,4.175,168.98,5.433,6.495,210.7,0.978,1.742,1.455,1.258,1.062,2.32,41.72,yes,,5,9,7,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,5,Left,Jeg Coughlin Jr,8,,0.015,0.969,2.713,4.174,167.45,5.441,6.513,210.14,0.969,1.744,1.461,1.267,1.072,2.339,42.69,yes,,8,4,5,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,5,Right,Stephen Bell,439,,0.197,1.006,2.763,4.239,166.05,5.517,6.594,208.52,1.006,1.757,1.476,1.278,1.077,2.355,42.47,yes,,14,16,14,14
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,6,Left,Eric Latino,7,,0.12,0.985,2.735,4.195,168.53,5.456,6.521,211.13,0.985,1.75,1.46,1.261,1.065,2.326,42.6,yes,,9,11,9,9
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,6,Right,Matt Hartford,3,,0.039,0.989,2.741,4.205,168.58,5.465,6.527,210.73,0.989,1.752,1.464,1.26,1.062,2.322,42.15,yes,,10,13,11,11
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,7,Left,Greg Stanfield,445,,0.033,0.964,2.702,4.158,168.43,5.416,6.477,211.93,0.964,1.738,1.456,1.258,1.061,2.319,43.5,yes,,1,1,2,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,7,Right,Aaron Stanfield,4,,0.057,0.964,2.698,4.155,168.47,5.417,6.481,211.49,0.964,1.734,1.457,1.262,1.064,2.326,43.02,yes,,2,2,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,8,Left,Troy Coughlin Jr,10,,0.027,0.968,2.71,4.17,168.16,5.434,6.5,210.9,0.968,1.742,1.46,1.264,1.066,2.33,42.74,yes,,7,3,3,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,Q4,8,Right,Greg Anderson,2,,0.041,0.972,2.713,4.166,169.42,5.421,6.482,210.14,0.972,1.741,1.453,1.255,1.061,2.316,40.72,yes,,3,7,6,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,1,Left,Erica Enders,6,L,0.009,0.988,2.745,4.206,168.28,5.469,6.534,210.93,0.988,1.757,1.461,1.263,1.065,2.328,42.65,yes,,14,15,16,15
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,1,Right,Cody Anderson,17,W,0.042,0.978,2.721,4.179,168.62,5.438,6.501,209.75,0.978,1.743,1.458,1.259,1.063,2.322,41.13,yes,,8,8,6,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,2,Left,Matt Latino,16,L,-0.097,0.981,2.723,4.175,169.44,5.431,6.493,210.8,0.981,1.742,1.452,1.256,1.062,2.318,41.36,yes,,5,12,7,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,2,Right,Jeg Coughlin Jr,8,W,0.032,0.98,2.726,4.185,168.49,5.447,6.513,210.57,0.98,1.746,1.459,1.262,1.066,2.328,42.08,yes,,9,10,10,9
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,3,Left,Dallas Glenn,1,W,0.025,0.974,2.719,4.17,169.59,5.424,6.485,210.67,0.974,1.745,1.451,1.254,1.061,2.315,41.08,yes,,4,6,5,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,3,Right,Eric Latino,7,L,-0.065,0.966,2.728,4.191,168.39,5.454,6.52,209.98,0.966,1.762,1.463,1.263,1.066,2.329,41.59,yes,,11,2,11,11
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,4,Left,Matt Hartford,3,W,0.038,0.98,2.723,4.179,168.83,5.434,6.496,210.93,0.98,1.743,1.456,1.255,1.062,2.317,42.1,yes,,6,11,8,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,4,Right,Stephen Bell,439,L,0.021,0.99,2.734,4.197,168.14,5.464,6.532,209.65,0.99,1.744,1.463,1.267,1.068,2.335,41.51,yes,,13,16,13,13
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,5,Left,Deric Kramer,52,L,-0.092,0.987,2.733,4.19,168.53,5.452,6.519,211.06,0.987,1.746,1.457,1.262,1.067,2.329,42.53,yes,,10,14,12,10
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,5,Right,Aaron Stanfield,4,W,0.052,0.974,2.713,4.171,168.37,5.434,6.5,210.57,0.974,1.739,1.458,1.263,1.066,2.329,42.2,yes,,7,7,4,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,6,Left,Kenny Delco,150,L,-0.046,0.981,2.743,4.212,167.53,5.479,6.552,208.94,0.981,1.762,1.469,1.267,1.073,2.34,41.41,yes,,16,13,15,16
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,6,Right,Greg Anderson,2,W,0.06,0.972,2.712,4.166,169.17,5.421,6.482,209.88,0.972,1.74,1.454,1.255,1.061,2.316,40.71,yes,,3,5,3,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,7,Left,Chris Vang,5707,L,0.045,0.964,2.724,4.192,167.57,5.459,6.53,209.56,0.964,1.76,1.468,1.267,1.071,2.338,41.99,yes,,12,1,9,12
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,7,Right,Troy Coughlin Jr,10,W,0.007,0.968,2.704,4.159,168.81,5.418,6.48,211.36,0.968,1.736,1.455,1.259,1.062,2.321,42.55,yes,,2,4,2,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,8,Left,Mason McGaha,400,L,0.068,0.978,2.735,4.203,167.61,5.469,6.539,210.34,0.978,1.757,1.468,1.266,1.07,2.336,42.73,yes,,15,9,14,14
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E1,8,Right,Greg Stanfield,445,W,0.074,0.966,2.701,4.157,168.83,5.417,6.479,211.3,0.966,1.735,1.456,1.26,1.062,2.322,42.47,yes,,1,3,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,1,Left,Aaron Stanfield,4,W,0.046,0.976,2.717,4.181,167.12,5.453,6.528,209.65,0.976,1.741,1.464,1.272,1.075,2.347,42.53,yes,,6,2,2,3
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,1,Right,Matt Hartford,3,L,0.055,0.98,2.723,4.186,168.07,5.452,6.521,209.98,0.98,1.743,1.463,1.266,1.069,2.335,41.91,yes,,5,6,5,5
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,2,Left,Dallas Glenn,1,W,0.032,0.977,2.721,4.182,167.99,5.448,6.518,209.65,0.977,1.744,1.461,1.266,1.07,2.336,41.66,yes,,2,3,4,4
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,2,Right,Greg Anderson,2,L,0.037,0.977,2.729,4.191,168.3,5.452,6.518,209.56,0.977,1.752,1.462,1.261,1.066,2.327,41.26,yes,,3,4,6,6
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,3,Left,Cody Anderson,17,L,0.019,0.983,2.73,4.193,168.07,5.458,6.529,208.88,0.983,1.747,1.463,1.265,1.071,2.336,40.81,yes,,7,7,7,7
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,3,Right,Troy Coughlin Jr,10,W,0.016,0.979,2.719,4.18,167.84,5.448,6.518,209.92,0.979,1.74,1.461,1.268,1.07,2.338,42.08,yes,,4,5,3,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,4,Left,Jeg Coughlin Jr,8,L,0.063,0.989,2.737,4.201,167.57,5.47,6.54,210.08,0.989,1.748,1.464,1.269,1.07,2.339,42.51,yes,,8,8,8,8
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E2,4,Right,Greg Stanfield,445,W,0.055,0.971,2.713,4.174,168.16,5.441,6.508,210.44,0.971,1.742,1.461,1.267,1.067,2.334,42.28,yes,,1,1,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E3,1,Left,Aaron Stanfield,4,W,0.029,1.099,3.107,4.637,161.94,5.941,7.037,206.32,1.099,2.008,1.53,1.304,1.096,2.4,44.38,no,0-60,3,,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E3,1,Right,Troy Coughlin Jr,10,L,0.015,1.025,3.476,5.364,127.52,7.231,9.099,113.64,1.025,2.451,1.888,1.867,1.868,3.735,-13.88,no,60-330,4,3,,
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E3,2,Left,Dallas Glenn,1,L,0.024,1.004,2.762,4.229,167.59,5.501,6.576,208.91,1.004,1.758,1.467,1.272,1.075,2.347,41.32,yes,,2,2,2,2
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E3,2,Right,Greg Stanfield,445,W,0.031,0.972,2.717,4.182,167.7,5.453,6.525,209.23,0.972,1.745,1.465,1.271,1.072,2.343,41.53,yes,,1,1,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E4,1,Left,Aaron Stanfield,4,W,0.018,0.979,2.727,4.2,165.5,5.48,6.556,209.2,0.979,1.748,1.473,1.28,1.076,2.356,43.7,yes,,2,1,1,1
+NAPA Auto Parts NHRA Midwest Nationals,Pro Stock,E4,1,Right,Greg Stanfield,445,L,0.028,0.985,2.736,4.206,167.32,5.478,6.547,209.85,0.985,1.751,1.47,1.272,1.069,2.341,42.53,yes,,1,2,2,2
