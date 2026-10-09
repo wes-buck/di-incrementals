@@ -153,8 +153,10 @@ def main():
                    template.replace("__DATA__", json.dumps({"waiting": True, "year": year, "event_query": cfg["event"],
                                                             "nav": nav, "base": ""})))
 
-    fingerprint = hashlib.sha256(json.dumps(
-        {c: b["rounds"] for c, b in bundles.items()}, sort_keys=True).encode()).hexdigest()
+    # new results OR a change to the page/analysis code both trigger a publish
+    code = "".join(open(os.path.join(HERE, f)).read() for f in ("template.html", "build.py", "config.json"))
+    fingerprint = hashlib.sha256((code + json.dumps(
+        {c: b["rounds"] for c, b in bundles.items()}, sort_keys=True)).encode()).hexdigest()
     fp_file = os.path.join(site, ".fingerprint")
     prev = open(fp_file).read() if os.path.exists(fp_file) else ""
     open(fp_file, "w").write(fingerprint)
