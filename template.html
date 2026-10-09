@@ -44,21 +44,21 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.4; }
-.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 0 40px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 0 40px; }
 button, select { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
 .mono { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
 
 /* masthead (scrolls away) */
 .mast { background: var(--bar); color: var(--bar-ink); }
-.mast-in { max-width: 1180px; margin: 0 auto; padding: 14px 16px 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.mast-in { max-width: 1180px; margin: 0 auto; padding: 14px 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .logo { display: flex; align-items: center; gap: 10px; color: var(--bar-ink); text-decoration: none; min-width: 0; }
 .logo svg { height: 34px; width: auto; display: block; flex: none; }
 .logo .tag { font-family: var(--font-display); font-weight: 900; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--di-red); border-left: 1px solid #333; padding-left: 10px; line-height: 1; }
 
 /* sticky bar: class + rounds */
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bar); color: var(--bar-ink); border-bottom: 1px solid #222; }
-.bar-in { max-width: 1180px; margin: 0 auto; padding: 8px 16px 10px; display: flex; align-items: center; gap: 10px; }
+.bar-in { max-width: 1180px; margin: 0 auto; padding: 8px 20px 10px; display: flex; align-items: center; gap: 10px; }
 .cls { position: relative; flex: none; }
 .cls select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 8px 28px 8px 10px; font-weight: 700; font-size: 14px; letter-spacing: .02em; text-transform: uppercase; }
 .cls::after { content: ""; position: absolute; right: 11px; top: 50%; width: 7px; height: 7px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
@@ -122,7 +122,7 @@ h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-h
 
 /* phone cards */
 .cards { display: grid; gap: 0; }
-.car { border-bottom: 1px solid var(--line); padding-block: 12px; cursor: pointer; }
+.car { border-bottom: 8px solid var(--panel); padding: 16px 6px 16px 0; cursor: pointer; }
 .car-top { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; align-items: center; }
 .car .pos { font-family: var(--font-display); font-weight: 900; font-size: 30px; line-height: 1; text-align: right; }
 .car .name { font-weight: 700; font-size: 16.5px; line-height: 1.15; }
@@ -139,7 +139,7 @@ h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-h
 .cell .r { display: block; font-family: var(--font-data); font-size: 10.5px; color: var(--muted); line-height: 1.2; }
 .cell.tq .r { color: var(--q-ink); opacity: .9; }
 .cell.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
-.car.open { background: var(--panel); margin-inline: -16px; padding-inline: 16px; }
+.car.open { background: var(--panel); margin-inline: -20px; padding-inline: 20px 26px; border-bottom-color: var(--line); }
 .car.open .cell { box-shadow: 0 0 0 1px var(--line); }
 
 /* wide-screen table */
@@ -194,6 +194,35 @@ table.board { border-collapse: collapse; width: 100%; }
 .light li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 13px; }
 .swipe { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* how do I compare */
+.cmp-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
+.cmp-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.cmp-mode button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.cmp-pick { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; align-items: center; margin-top: 10px; }
+.cmp-pick select { width: 100%; min-width: 0; appearance: none; -webkit-appearance: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 11px 10px; font-weight: 700; font-size: 15px; }
+.cmp-pick .vs { font-family: var(--font-display); font-weight: 900; font-size: 20px; color: var(--muted); }
+.cmp-head { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.cmp-car { background: var(--panel); border-radius: 8px; padding: 10px 12px; min-width: 0; }
+.cmp-car .n { font-weight: 700; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-car .e { font-family: var(--font-data); font-weight: 600; font-size: 22px; }
+.cmp-car .s { font-size: 12px; color: var(--muted); }
+.cmp-sum { font-size: 15px; font-weight: 500; margin: 12px 0 0; }
+.cmp-rows { margin-top: 10px; border-top: 3px solid var(--ink); }
+.cmp-row { display: grid; grid-template-columns: 70px 1fr 1fr 1.15fr; gap: 6px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.cmp-row .lbl { font-family: var(--font-body); font-size: 12px; font-weight: 700; color: var(--muted); }
+.cmp-row .v { text-align: right; padding: 3px 6px; border-radius: 4px; }
+.cmp-row .v.ahead { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.cmp-row .d { text-align: right; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd { font-family: var(--font-body); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; padding-top: 10px; }
+.cmp-row.hd span { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd span:first-child { text-align: left; }
+.cmp-row.sep { border-bottom: 0; padding-top: 16px; }
+.cmp-bar { grid-column: 1 / -1; height: 8px; position: relative; background: var(--line); border-radius: 4px; }
+.cmp-bar i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+.cmp-bar::after { content: ""; position: absolute; left: calc(50% - 1px); top: -3px; bottom: -3px; width: 2px; background: var(--ink); }
+.cmp-legend { display: flex; justify-content: space-between; gap: 10px; font-size: 11.5px; color: var(--muted); margin-top: 6px; }
+.cmp-empty { color: var(--muted); font-size: 14px; margin-top: 12px; }
 
 /* lower */
 .duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
@@ -260,6 +289,21 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     </div>
     <div class="cards" id="cards"></div>
     <div class="table-wrap"><table class="board" id="board"></table></div>
+  </section>
+
+  <section class="sec" id="cmp-sec">
+    <h2>How Do I Compare?</h2>
+    <p class="hint">Pick any two cars and see exactly where one gains or loses on the other, light by light.</p>
+    <div class="cmp-mode" role="group" aria-label="Which runs">
+      <button type="button" id="cmp-round" aria-pressed="true">This round</button>
+      <button type="button" id="cmp-best" aria-pressed="false">Best run this weekend</button>
+    </div>
+    <div class="cmp-pick">
+      <select id="cmp-a" aria-label="Your car"></select>
+      <span class="vs">VS</span>
+      <select id="cmp-b" aria-label="Car to compare against"></select>
+    </div>
+    <div id="cmp-out"></div>
   </section>
 
   <div id="ad"></div>
@@ -553,12 +597,102 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       `<li class="${i === FIELD - 1 && q.length > FIELD ? "bump" : ""}${i >= FIELD ? " out" : ""}"><span class="p">${i + 1}</span><span>${esc(x.driver)}</span><span class="t">${t(x.et)} <span style="color:var(--muted)">${t(x.mph, "mph")}</span></span></li>`).join("");
   }
 
+
+  // how do I compare: any two cars, this round or each car's best clean run of the weekend
+  let cmpMode = "round";
+  function readPick(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function savePick(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  const ALLK = ["rt", "mph660", "mph"].concat(P, S);
+  function withSplits(o) {
+    let prev = 0;
+    S.forEach((s, i) => { const v = o[P[i]]; o[s] = v != null && prev != null ? +(v - prev).toFixed(4) : null; prev = v; });
+    return o;
+  }
+  function runFor(name) {
+    if (cmpMode === "round") {
+      const r = R.runs.find((x) => x.driver === name);
+      if (!r) return null;
+      const o = { driver: name, lane: r.lane, clean: r.clean, off_at: r.off_at, label: R.round };
+      ALLK.forEach((k) => { o[k] = (counts(r, k) && !(k === "rt" && r.red)) ? r[k] : null; });
+      return o;
+    }
+    const hist = (D.history[name] || []).filter((h) => h.et != null);
+    if (!hist.length) return null;
+    const clean = hist.filter((h) => h.clean);
+    const pool = clean.length ? clean : hist;
+    const h = pool.reduce((m, x) => x.et < m.et ? x : m);
+    const o = withSplits(Object.assign({ driver: name, label: h.round }, h));
+    if (o.red) o.rt = null;
+    return o;
+  }
+  function renderCompare() {
+    const pool = cmpMode === "round" ? R.runs.map((r) => r.driver) : Object.keys(D.history);
+    const names = pool.slice().sort((a, b) => last(a).localeCompare(last(b)) || a.localeCompare(b));
+    const byEt = R.runs.filter((r) => r.et != null).map((r) => r.driver);
+    let a = readPick("di-cmp-a-" + D.class), b = readPick("di-cmp-b-" + D.class);
+    if (!names.includes(a)) a = byEt[1] || names[0];
+    if (!names.includes(b) || b === a) b = byEt.find((n) => n !== a) || names.find((n) => n !== a);
+    const opts = (cur) => names.map((n) => `<option value="${esc(n)}"${n === cur ? " selected" : ""}>${esc(n)}</option>`).join("");
+    $("cmp-a").innerHTML = opts(a); $("cmp-b").innerHTML = opts(b);
+    $("cmp-a").onchange = () => { savePick("di-cmp-a-" + D.class, $("cmp-a").value); renderCompare(); };
+    $("cmp-b").onchange = () => { savePick("di-cmp-b-" + D.class, $("cmp-b").value); renderCompare(); };
+    const A = runFor(a), B = runFor(b);
+    if (!A || !B || a === b) { $("cmp-out").innerHTML = `<p class="cmp-empty">Pick two different cars.</p>`; return; }
+    const la = last(a), lb = last(b);
+    const head = (r) => `<div class="cmp-car"><div class="n">${esc(r.driver)}</div><div class="e">${t(r.et)}</div><div class="s">${t(r.mph, "mph")} mph · ${r.label} · ${r.lane === "L" ? "Left" : "Right"}${r.clean ? "" : " · went away " + esc(SL[r.off_at] || "")}</div></div>`;
+    const both = (k) => A[k] != null && B[k] != null;
+    const diffOf = (k) => isMph(k) ? A[k] - B[k] : B[k] - A[k];   // positive = first car ahead
+
+    let sum = "";
+    const segOk = S.filter((s) => both(s));
+    if (segOk.length) {
+      const g = segOk.map((s) => [s, diffOf(s)]);
+      const best = g.reduce((m, x) => x[1] > m[1] ? x : m), worst = g.reduce((m, x) => x[1] < m[1] ? x : m);
+      const bits = [];
+      if (best[1] > 0.0005) bits.push(`${la} gains the most ${SL[best[0]]} (${t(best[1])})`);
+      if (worst[1] < -0.0005) bits.push(`gives up the most ${SL[worst[0]]} (${t(-worst[1])})`);
+      if (both("et")) {
+        const d = diffOf("et");
+        bits.push(Math.abs(d) < 0.0005 ? "dead even at the stripe" : d > 0 ? `${t(d)} ahead of ${lb} at the stripe` : `${t(-d)} behind ${lb} at the stripe`);
+      }
+      sum = bits.join(", ");
+      sum = sum ? sum.charAt(0).toUpperCase() + sum.slice(1) + "." : "";
+    }
+    const cap = Math.max(0.03, ...segOk.map((s) => Math.abs(diffOf(s))));
+    const row = (k, l, bars) => {
+      if (A[k] == null && B[k] == null) return "";
+      const ok = both(k), d = ok ? diffOf(k) : null;
+      const aCls = ok && d > 0.0005 ? "ahead" : "", bCls = ok && d < -0.0005 ? "ahead" : "";
+      const dTxt = d == null ? "--" : Math.abs(d) < 0.0005 ? "even" : (d > 0 ? la : lb) + " " + t(Math.abs(d), k);
+      let bar = "";
+      if (bars && ok) {
+        const w = Math.min(Math.abs(d) / cap, 1) * 50;
+        bar = `<div class="cmp-bar"><i style="${d >= 0 ? "right:50%" : "left:50%"};width:${w}%;background:${d >= 0 ? "var(--q)" : "var(--di-red)"}"></i></div>`;
+      }
+      return `<div class="cmp-row"><span class="lbl">${l}</span><span class="v ${aCls}">${t(A[k], k)}</span><span class="v ${bCls}">${t(B[k], k)}</span><span class="d">${dTxt}</span>${bar}</div>`;
+    };
+    const hd = (first) => `<div class="cmp-row hd${first ? "" : " sep"}"><span>${first ? "" : "Splits"}</span><span>${esc(la)}</span><span>${esc(lb)}</span><span>Edge</span></div>`;
+    const pts = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    $("cmp-out").innerHTML = `<div class="cmp-head">${head(A)}${head(B)}</div>${sum ? `<p class="cmp-sum">${esc(sum)}</p>` : ""}
+      <div class="cmp-rows">${hd(true)}${pts.map(([k, l]) => row(k, l, false)).join("")}
+      ${hd(false)}${S.map((s) => row(s, SL[s], true)).join("")}</div>
+      <div class="cmp-legend"><span>Green bar: ${esc(la)} quicker in that split</span><span>Red: ${esc(lb)} quicker</span></div>`;
+  }
+  function setCmpMode(m) {
+    cmpMode = m;
+    $("cmp-round").setAttribute("aria-pressed", m === "round");
+    $("cmp-best").setAttribute("aria-pressed", m === "best");
+    renderCompare();
+  }
+  $("cmp-round").onclick = () => setCmpMode("round");
+  $("cmp-best").onclick = () => setCmpMode("best");
+
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     openDriver = null;
     ceilings();
     try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
-    renderRounds(); renderHero(); renderBoard(); renderLights(); renderLanes(); renderLadder();
+    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderLights(); renderLanes(); renderLadder();
     $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
   }
   function setView(v) {

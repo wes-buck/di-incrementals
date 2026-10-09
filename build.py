@@ -192,7 +192,7 @@ def build(src):
     for rd in rounds:
         for r in rd["runs"]:
             history.setdefault(r["driver"], []).append(
-                {"round": rd["round"], **{k: r[k] for k in points + ["mph", "clean", "win", "opp", "lane"]}})
+                {"round": rd["round"], **{k: r[k] for k in points + ["rt", "red", "mph", "mph660", "clean", "off_at", "win", "opp", "lane"]}})
     first = raws[0]
     return {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),

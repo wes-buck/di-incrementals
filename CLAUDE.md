@@ -4,7 +4,7 @@ Live site: https://wes-buck.github.io/di-incrementals/ (GitHub Pages, gh-pages b
 Owner: Wes Buck, Drag Illustrated. Never use em dashes in anything user-facing.
 
 Where to make a change:
-- Looks, wording, layout, colors, sections: `template.html` (phone first: car cards under 900px, table above. DI black/white/red is brand chrome; data heat scale is green = quickest, then yellow, orange, red. W/L only shown in eliminations)
+- Looks, wording, layout, colors, sections: `template.html` (phone first: car cards under 900px, table above. DI black/white/red is brand chrome; data heat scale is green = quickest, then yellow, orange, red. W/L only shown in eliminations. "How Do I Compare?" picks two cars by name, this round or each car's best clean run of the weekend)
 - Rankings, splits, "went away" rule, per-car read, ladder: `build.py`
 - Reading NHRA's tables: `scrape.py` (header-driven; quarter-mile and 1,000-ft nitro)
 - Which races and classes: `config.json` (`schedule` picks this week's race by start date)
