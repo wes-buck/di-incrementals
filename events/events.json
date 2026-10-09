@@ -1,7 +1,25 @@
-[
- {
-  "slug": "2026-midwest",
-  "name": "NAPA Auto Parts NHRA Midwest Nationals",
-  "year": 2026
- }
-]
+{
+ "live": "2026-midwest-nationals",
+ "events": [
+  {
+   "slug": "2026-midwest-nationals",
+   "id": "73887",
+   "name": "NAPA Auto Parts NHRA Midwest Nationals",
+   "label": "Midwest Nationals",
+   "year": 2026,
+   "date": "2026-10-02",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-midwest",
+   "name": "NAPA Auto Parts NHRA Midwest Nationals",
+   "year": 2026
+  }
+ ]
+}
