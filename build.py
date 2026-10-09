@@ -77,6 +77,9 @@ def build_round(raw, points, segs, seg_label, inc_label):
                    "pair": i + 1, "win": r.get("win", False), "opp": opp[0]["driver"] if opp else None}
             for k in ["rt", "mph660", "mph"] + points:
                 row[k] = r.get(k)
+                # a timer glitch shows up as 0.000; treat it as no reading
+                if k != "rt" and row[k] is not None and row[k] <= 0.5:
+                    row[k] = None
             runs.append(row)
 
     for r in runs:
@@ -92,7 +95,11 @@ def build_round(raw, points, segs, seg_label, inc_label):
     ets = [r["et"] for r in runs if r["et"]]
     low = min(ets) if ets else None
     full = [r for r in runs if r["et"] and low and r["et"] <= low + CLEAN_WINDOW]
-    med = {s: statistics.median([r[s] for r in full if r[s] is not None]) for s in segs} if full else {}
+    med = {}
+    for sg in segs:
+        vals = [r[sg] for r in full if r[sg] is not None]
+        if vals:
+            med[sg] = statistics.median(vals)
 
     for r in runs:
         r["off_at"] = None
@@ -100,7 +107,7 @@ def build_round(raw, points, segs, seg_label, inc_label):
             r["off_at"] = segs[0] if r["et"] is None else None
         else:
             for s in segs:
-                if r[s] is None or r[s] > med[s] * OFF_FACTOR:
+                if r[s] is None or (s in med and r[s] > med[s] * OFF_FACTOR):
                     r["off_at"] = s
                     break
         r["clean"] = r["off_at"] is None

@@ -259,9 +259,59 @@ def backfill(year, only=None, workers=6):
                 print(f"skip {event} {name.strip()}: no results", file=sys.stderr)
                 continue
             slug, label = register(reg, year, event, bundles, cfg)
+            for cls, b in bundles.items():
+                b["leaders"] = leaders_for(cls, b, label, reg, year, b.get("event_date"))
             render_event(os.path.join(site, "events", slug), "../../", bundles, cfg, slug, label, template)
             save_registry(site, reg)
             print(f"archived {slug}: {', '.join(bundles)}", file=sys.stderr)
+
+
+LB_KEYS = ["rt", "ft60", "ft330", "ft660", "ft1000", "back", "gain", "et", "mph"]
+HIGHER = {"mph", "gain"}
+_built = {}
+
+
+def built(path):
+    if path not in _built:
+        _built[path] = build.build(path) if os.path.isdir(path) and any(f.endswith(".json") for f in os.listdir(path)) else None
+    return _built[path]
+
+
+def top_by_key(entries, n=5):
+    """Each driver's best at every block, top n, from (bundle, race label) pairs. Clean runs only."""
+    out = {}
+    for k in LB_KEYS:
+        best = {}
+        for b, race in entries:
+            for rd in b["rounds"]:
+                for r in rd["runs"]:
+                    v = r.get(k)
+                    if v is None or (k == "rt" and (r.get("red") or v < 0)):
+                        continue
+                    if k not in ("et", "mph") and k not in r["valid"]:
+                        continue
+                    if k in ("et", "mph", "rt") and not r["clean"] and k != "rt":
+                        continue
+                    cur = best.get(r["driver"])
+                    better = cur is None or (v > cur["v"] if k in HIGHER else v < cur["v"])
+                    if better:
+                        best[r["driver"]] = {"driver": r["driver"], "v": v, "race": race, "round": rd["round"]}
+        rows = sorted(best.values(), key=lambda x: -x["v"] if k in HIGHER else x["v"])[:n]
+        if rows:
+            out[k] = rows
+    return out
+
+
+def leaders_for(cls, bundle, label, reg, year, upto):
+    """'This race' and 'season to date' leaderboards for one class."""
+    season = []
+    for e in reg["events"]:
+        if e.get("year") != year or cls not in e.get("classes", []) or (e.get("date") or "") > (upto or "9999"):
+            continue
+        b = built(os.path.join(HERE, DATA_ROOT, f"{e['year']}-{e['id']}", cls))
+        if b:
+            season.append((b, e["label"]))
+    return {"race": top_by_key([(bundle, label)]), "season": top_by_key(season), "season_races": len(season)}
 
 
 def rerender_all(site, cfg, template, reg):
@@ -275,9 +325,10 @@ def rerender_all(site, cfg, template, reg):
         for cls in cfg["classes"]:
             d = os.path.join(root, cls)
             if os.path.isdir(d) and any(f.endswith(".json") for f in os.listdir(d)):
-                b = build.build(d)
+                b = built(d)
                 if b:
-                    b["default_round"] = b["rounds"][-1]["round"]
+                    b = dict(b, default_round=b["rounds"][-1]["round"])
+                    b["leaders"] = leaders_for(cls, b, e["label"], reg, e["year"], e.get("date"))
                     bundles[cls] = b
         if bundles:
             render_event(os.path.join(site, "events", e["slug"]), "../../", bundles, cfg, e["slug"], e["label"], template)
@@ -306,6 +357,8 @@ def main():
     if bundles:
         slug, label = register(reg, year, event, bundles, cfg)
         reg["live"] = slug
+        for cls, b in bundles.items():
+            b["leaders"] = leaders_for(cls, b, label, reg, year, b.get("event_date"))
     save_registry(site, reg)
     render_event(site, "", bundles, cfg, slug, label, template, preview=True, waiting_query=cfg["event"], year=year)
     if bundles:

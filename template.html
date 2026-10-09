@@ -264,6 +264,25 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .race::after { bottom: 15px; }
 }
 
+/* leaderboard */
+.lb-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
+.lb-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.lb-mode button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.lb { display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 10px; margin-top: 12px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; padding-bottom: 4px; }
+.lb::-webkit-scrollbar { display: none; }
+.lb-card { scroll-snap-align: start; }
+@media (min-width: 900px) { .lb { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); overflow: visible; } .lb-swipe { display: none; } }
+.lb-card { background: var(--panel); border-radius: 8px; padding: 12px; min-width: 0; }
+.lb-card h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; }
+.lb-card ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.lb-card li { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 8px; align-items: baseline; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+.lb-card li:last-child { border-bottom: 0; }
+.lb-card li:first-child .n, .lb-card li:first-child .v { color: var(--q); font-weight: 700; }
+.lb-card .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
+.lb-card .n { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-card .w { display: block; font-size: 11.5px; color: var(--muted); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-card .v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+
 /* take it with you */
 .keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
 .keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
@@ -287,7 +306,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
   .mast .logo { color: #000; }
   .mast-in { padding: 0 0 6px; }
-  .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
   .wrap { padding: 0; max-width: none; }
   .hero { padding: 6px 0 0; }
   h1 { font-size: 30px; }
@@ -389,6 +408,17 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       <p class="hint" id="ladder-hint"></p>
       <div class="rule"><ol class="ladder" id="ladder"></ol></div>
     </div>
+  </section>
+
+  <section class="sec" id="lb-sec">
+    <h2 id="lb-h">Leaderboard</h2>
+    <p class="hint" id="lb-hint">Top five at every timing block. Each driver's best clean run, one spot per driver.</p>
+    <div class="lb-mode" role="group" aria-label="Leaderboard range">
+      <button type="button" id="lb-race" aria-pressed="false">This race</button>
+      <button type="button" id="lb-season" aria-pressed="true">2026 season</button>
+    </div>
+    <div class="lb" id="lb"></div>
+    <div class="swipe lb-swipe">Swipe for the next block</div>
   </section>
 
   <section class="sec keep-sec" id="keep-sec">
@@ -823,6 +853,28 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   window.addEventListener("beforeprint", renderPrint);
   if (D.csv) { $("dl-csv").href = D.csv; $("dl-csv").setAttribute("download", D.csv.split("/").pop()); }
   if (D.save) { $("dl-page").href = D.self_path || "index.html"; $("dl-page").setAttribute("download", D.save); }
+
+  // leaderboard: this race or season to date, top five per block
+  let lbMode = "season";
+  const LBL = { rt: "Reaction time", ft60: "60'", ft330: "330'", ft660: "660'", ft1000: "1000'", back: "Back half", gain: "Back-half MPH gain", et: "ET", mph: "MPH" };
+  function renderLeaders() {
+    const L = D.leaders;
+    if (!L) { $("lb-sec").hidden = true; return; }
+    const set = lbMode === "season" && L.season && Object.keys(L.season).length ? L.season : L.race;
+    $("lb-race").setAttribute("aria-pressed", set === L.race);
+    $("lb-season").setAttribute("aria-pressed", set !== L.race);
+    $("lb-season").textContent = `${D.year} season`;
+    $("lb-h").textContent = set === L.race ? "Leaderboard: This Race" : `Leaderboard: ${D.year} Season`;
+    $("lb-hint").textContent = set === L.race
+      ? "Top five at every timing block this weekend. Each driver's best clean run, one spot per driver."
+      : `Top five at every timing block across ${L.season_races} race${L.season_races === 1 ? "" : "s"} this season. Each driver's best clean run, one spot per driver.`;
+    const order = ["ft60", "ft330", "ft660", "ft1000", "back", "gain", "et", "mph", "rt"].filter((k) => set[k] && !(k === "back" && !quarter));
+    $("lb").innerHTML = order.map((k) => `<div class="lb-card"><h3>${LBL[k]}</h3><ol>${set[k].map((x, i) =>
+      `<li><span class="p">${i + 1}</span><span class="n">${esc(x.driver)}<span class="w">${set === L.race ? x.round : esc(x.race) + " · " + x.round}</span></span><span class="v">${t(x.v, k)}</span></li>`).join("")}</ol></div>`).join("");
+  }
+  $("lb-race").onclick = () => { lbMode = "race"; renderLeaders(); };
+  $("lb-season").onclick = () => { lbMode = "season"; renderLeaders(); };
+  renderLeaders();
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     openDriver = null;
