@@ -2,7 +2,7 @@
 crunch the numbers, render the pages.
 
 Usage:
-  python3 -I run.py                      # uses config.json
+  python3 -I run.py                      # uses config.json (the event schedule picks this week's race)
   python3 -I run.py 2026 midwest Q1      # one-off: year, event name or id, round to open on
 
 Writes site/index.html (event home) and site/<class>/index.html, each self-contained.
@@ -15,6 +15,8 @@ import re
 import sys
 import time
 import urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -111,6 +113,10 @@ def main():
     if len(sys.argv) > 2:
         cfg["year"], cfg["event"] = int(sys.argv[1]), sys.argv[2]
         cfg["open_round"] = sys.argv[3].upper() if len(sys.argv) > 3 else "LATEST"
+    if "event" not in cfg:
+        today = datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
+        current = [e for e in cfg["schedule"] if e["starts"] <= today]
+        cfg["event"] = (current[-1] if current else cfg["schedule"][0])["event"]
     year, event = cfg["year"], find_event(cfg["year"], cfg["event"])
     site = os.path.join(HERE, cfg.get("out_dir", "site"))
     os.makedirs(site, exist_ok=True)

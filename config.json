@@ -1,6 +1,5 @@
 {
   "year": 2026,
-  "event": "fallnationals",
   "open_round": "LATEST",
   "classes": [
     "pro-mod",
@@ -9,5 +8,27 @@
     "pro-stock",
     "pro-stock-motorcycle"
   ],
-  "out_dir": "site"
+  "out_dir": "site",
+  "schedule": [
+    {
+      "event": "midwest",
+      "starts": "2026-10-01",
+      "note": "NAPA Auto Parts NHRA Midwest Nationals, Oct 2-4"
+    },
+    {
+      "event": "fallnationals",
+      "starts": "2026-10-15",
+      "note": "Texas NHRA FallNationals, Ennis, Oct 16-18"
+    },
+    {
+      "event": "las vegas",
+      "starts": "2026-10-28",
+      "note": "Las Vegas Nationals, Oct 29-Nov 1"
+    },
+    {
+      "event": "nhra finals",
+      "starts": "2026-11-11",
+      "note": "In-N-Out Burger NHRA Finals, Pomona, Nov 12-15"
+    }
+  ]
 }

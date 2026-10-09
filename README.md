@@ -6,10 +6,12 @@ lane averages and the qualifying ladder.
 
 ## Race weekend
 
-1. Edit `config.json`: set `"event"` to a word from the event name (`"fallnationals"`, `"vegas"`, `"finals"`).
-2. Commit. That's it. From Thursday through Sunday the workflow checks NHRA every few minutes and
+1. Nothing to do. `config.json` holds the rest of the 2026 schedule, and each week the page switches
+   to the race whose start date has arrived. Add next season's races there when NHRA posts them.
+2. From Thursday through Sunday the workflow checks NHRA every few minutes and
    publishes to GitHub Pages whenever a round posts. Before Q1 posts, the page says it's waiting.
-3. To force an update: Actions tab > DI Incrementals > Run workflow.
+3. To force an update, or to rebuild a past race: Actions tab > DI Incrementals > Run workflow
+   (type an event such as `midwest` to rebuild that race).
 
 ## How it works
 
