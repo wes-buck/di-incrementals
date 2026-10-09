@@ -87,6 +87,7 @@ def build_round(raw, points, segs, seg_label, inc_label):
             r[key] = r4(v - prev) if (v is not None and prev is not None) else None
             prev = v
         r["back"] = r4(r["et"] - r["ft660"]) if r["et"] and r["ft660"] else None
+        r["gain"] = round(r["mph"] - r["mph660"], 2) if r["mph"] and r["mph660"] else None   # back-half MPH gain
 
     ets = [r["et"] for r in runs if r["et"]]
     low = min(ets) if ets else None
@@ -104,7 +105,7 @@ def build_round(raw, points, segs, seg_label, inc_label):
                     break
         r["clean"] = r["off_at"] is None
         if r["clean"]:
-            ok = {"rt", "mph660", "mph", "back"} | set(points) | set(segs)
+            ok = {"rt", "mph660", "mph", "back", "gain"} | set(points) | set(segs)
         else:
             idx = segs.index(r["off_at"])
             ok = {"rt"} | set(segs[:idx]) | set(points[:idx])
@@ -114,13 +115,13 @@ def build_round(raw, points, segs, seg_label, inc_label):
         r["rank"], r["gap"] = {}, {}
 
     best, order = {}, {}
-    for key in ["rt", "mph660", "mph", "back"] + points + segs:
+    for key in ["rt", "mph660", "mph", "back", "gain"] + points + segs:
         always = key in ("et", "mph")
         pool = [r for r in runs if (always or key in r["valid"]) and r[key] is not None
                 and not (key == "rt" and r["red"])]
         if not pool:
             continue
-        rev = key in ("mph660", "mph")
+        rev = key in ("mph660", "mph", "gain")
         pool.sort(key=lambda r: r[key], reverse=rev)
         best[key] = pool[0][key]
         order[key] = [{"driver": p["driver"], "v": p[key], "gap": r4(abs(p[key] - pool[0][key]))} for p in pool]

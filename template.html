@@ -376,16 +376,16 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 
   function t(v, key) {
     if (v == null) return "--";
-    if (key === "mph" || key === "mph660") return v.toFixed(2);
+    if (key === "mph" || key === "mph660" || key === "gain") return v.toFixed(2);
     const s = v.toFixed(3);
     return s.startsWith("0.") ? s.slice(1) : s.startsWith("-0.") ? "-" + s.slice(2) : s;
   }
-  const plus = (g, k) => g == null || g === 0 ? "" : (k === "mph" || k === "mph660" ? "-" : "+") + t(g, k);
+  const plus = (g, k) => g == null || g === 0 ? "" : (k === "mph" || k === "mph660" || k === "gain" ? "-" : "+") + t(g, k);
   const last = (n) => n.split(" ").slice(-1)[0];
   const ord = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th"));
   const roundName = (r) => r.startsWith("Q") ? "Qualifying " + r.slice(1) : r === "E4" ? "Final" : r === "E3" ? "Semifinals" : r === "E2" ? "Quarterfinals" : "Round 1";
   const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
-  const isMph = (k) => k === "mph" || k === "mph660";
+  const isMph = (k) => k === "mph" || k === "mph660" || k === "gain";
 
   // heat tier from the gap to the quickest, scaled to how spread out this round's clean cars are
   function ceilings() {
@@ -411,14 +411,16 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       return c;
     }
     const c = [["rt", "RT"]].concat(S.map((s) => [s, SL[s]]));
-    if (quarter) c.push(["back", "Back half"]);
-    c.push(["et", "ET"]);
+    if (quarter) c.push(["back", "660-1320"]);
+    c.push(["gain", "MPH gain"], ["et", "ET"]);
     return c;
   }
   // what the phone card strip shows
   function stripCols() {
     if (view === "cum") return [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]));
-    return S.map((s) => [s, SL[s].replace("-1320", "-fin").replace("1000-", "1k-").replace("-1000", "-1k")]);
+    // phone: the front pieces, then the whole back half and the back-half MPH gain
+    const front = S.slice(0, 3).map((s) => [s, SL[s]]);
+    return front.concat(quarter ? [["back", "Back ½"]] : [[S[3], "660-1k"]], [["gain", "MPH +"]]);
   }
 
   function sortedRuns() {
@@ -603,10 +605,12 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   let cmpMode = "round";
   function readPick(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function savePick(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
-  const ALLK = ["rt", "mph660", "mph"].concat(P, S);
+  const ALLK = ["rt", "mph660", "mph", "back", "gain"].concat(P, S);
   function withSplits(o) {
     let prev = 0;
     S.forEach((s, i) => { const v = o[P[i]]; o[s] = v != null && prev != null ? +(v - prev).toFixed(4) : null; prev = v; });
+    o.back = o.et != null && o.ft660 != null ? +(o.et - o.ft660).toFixed(4) : null;
+    o.gain = o.mph != null && o.mph660 != null ? +(o.mph - o.mph660).toFixed(2) : null;
     return o;
   }
   function runFor(name) {
@@ -676,7 +680,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     const pts = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
     $("cmp-out").innerHTML = `<div class="cmp-head">${head(A)}${head(B)}</div>${sum ? `<p class="cmp-sum">${esc(sum)}</p>` : ""}
       <div class="cmp-rows">${hd(true)}${pts.map(([k, l]) => row(k, l, false)).join("")}
-      ${hd(false)}${S.map((s) => row(s, SL[s], true)).join("")}</div>
+      ${hd(false)}${S.map((s) => row(s, SL[s], true)).join("")}${quarter ? row("back", "660-1320", true) : ""}${row("gain", "MPH gain", false)}</div>
       <div class="cmp-legend"><span>Green bar: ${esc(la)} quicker in that split</span><span>Red: ${esc(lb)} quicker</span></div>`;
   }
   function setCmpMode(m) {
