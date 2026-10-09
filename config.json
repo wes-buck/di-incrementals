@@ -1,0 +1,13 @@
+{
+  "year": 2026,
+  "event": "fallnationals",
+  "open_round": "LATEST",
+  "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+  ],
+  "out_dir": "site"
+}

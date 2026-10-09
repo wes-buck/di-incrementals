@@ -1,0 +1,438 @@
+<title>DI Incrementals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: DI black rail with round and class switches, a big round title, the Board as the hero,
+   then Quickest at Every Light, Lane Check and the Ladder. DI red marks the quickest car only. */
+:root {
+  --bg: #ffffff;
+  --panel: #f4f4f3;
+  --ink: #0b0b0b;
+  --muted: #62625f;
+  --line: #e1e1de;
+  --red: #d2141c;           /* DI red: quickest in the field */
+  --red-ink: #ffffff;
+  --red-tint: #fbe3e4;      /* 2nd and 3rd */
+  --rail: #0b0b0b;
+  --rail-ink: #ffffff;
+  --rail-muted: #9a9a96;
+  --off: #a8a8a4;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c0c0c; --panel: #161616; --ink: #f2f2f0; --muted: #9b9b97; --line: #2a2a28;
+    --red: #e3262e; --red-ink: #ffffff; --red-tint: #3a1416; --rail: #000000; --rail-ink: #ffffff;
+    --rail-muted: #8a8a86; --off: #5a5a57; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c0c0c; --panel: #161616; --ink: #f2f2f0; --muted: #9b9b97; --line: #2a2a28;
+  --red: #e3262e; --red-ink: #ffffff; --red-tint: #3a1416; --rail: #000000; --rail-ink: #ffffff;
+  --rail-muted: #8a8a86; --off: #5a5a57; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
+/* rail */
+.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--rail); color: var(--rail-ink); }
+.rail-in { max-width: 1180px; margin: 0 auto; padding: 10px 16px 0; display: grid; gap: 8px; }
+.rail-top { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.brand { font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: .03em; text-transform: uppercase; white-space: nowrap; }
+.brand b { color: var(--red); }
+.scroller { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.scroller::-webkit-scrollbar { display: none; }
+.rbtn { border: 1px solid #333; background: transparent; color: var(--rail-ink); border-radius: 3px; padding: 4px 11px; font-family: var(--font-display); font-weight: 800; font-size: 17px; letter-spacing: .04em; cursor: pointer; }
+.rbtn[aria-pressed="true"] { background: var(--red); border-color: var(--red); }
+.classes { display: flex; gap: 18px; overflow-x: auto; scrollbar-width: none; }
+.classes::-webkit-scrollbar { display: none; }
+.classes a, .classes span { color: var(--rail-muted); text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 6px 0 9px; white-space: nowrap; border-bottom: 3px solid transparent; }
+.classes a:hover { color: var(--rail-ink); }
+.classes a[aria-current="page"] { color: var(--rail-ink); border-bottom-color: var(--red); }
+.classes span { opacity: .45; }
+
+/* hero */
+.hero { padding-block: 26px 6px; display: grid; gap: 12px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(46px, 10vw, 96px); line-height: .86; margin: 0; text-transform: uppercase; text-wrap: balance; }
+h1 span { color: var(--red); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.meta strong { color: var(--ink); font-weight: 600; font-family: var(--font-data); }
+.leaders { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border-top: 3px solid var(--ink); border-bottom: 1px solid var(--line); margin-top: 8px; }
+.lead { padding: 12px 14px 12px 0; display: grid; gap: 2px; min-width: 0; }
+.lead .k { font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.lead .v { font-family: var(--font-data); font-weight: 600; font-size: 28px; line-height: 1.1; }
+.lead .who { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* section heads */
+.sec { margin-top: 36px; }
+.sec-h { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+h2 { font-family: var(--font-display); font-weight: 800; font-size: 32px; line-height: 1; margin: 0 0 4px; text-transform: uppercase; }
+.hint { color: var(--muted); font-size: 13px; max-width: 64ch; margin: 0; }
+.seg { display: inline-flex; border: 1px solid var(--ink); border-radius: 3px; overflow: hidden; }
+.seg button { border: 0; background: transparent; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+/* the board */
+.board-wrap { overflow-x: auto; border-top: 3px solid var(--ink); }
+table.board { border-collapse: collapse; width: 100%; min-width: 760px; }
+.board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
+.board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); background: var(--bg); }
+.board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
+.board thead th[aria-sort] button { color: var(--ink); }
+.board thead th[aria-sort] button::after { content: " \25BE"; color: var(--red); }
+.board .drv { text-align: left; position: sticky; left: 0; background: var(--bg); z-index: 2; box-shadow: 1px 0 0 var(--line); }
+.board tbody tr { border-bottom: 1px solid var(--line); cursor: pointer; }
+.board tbody tr:hover .drv, .board tbody tr.open .drv { background: var(--panel); }
+.drv-in { display: grid; grid-template-columns: 24px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; min-width: 172px; }
+.pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
+.name { font-weight: 600; font-size: 14.5px; line-height: 1.15; }
+.sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+.w { color: var(--red); font-weight: 700; }
+.cell { padding: 8px 10px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.cell .r { display: block; font-size: 10.5px; color: var(--muted); margin-top: 1px; }
+.cell.b1 { background: var(--red); color: var(--red-ink); font-weight: 600; }
+.cell.b1 .r { color: var(--red-ink); opacity: .9; }
+.cell.b2 { background: var(--red-tint); }
+.cell.x { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
+.cell.redlight { color: var(--red); font-weight: 600; }
+.cut td { border-top: 2px dashed var(--red); }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+.sw { display: inline-block; width: 22px; height: 12px; vertical-align: -1px; margin-right: 6px; border-radius: 2px; }
+@media (max-width: 520px) { .drv-in { min-width: 132px; padding-right: 6px; } .name { font-size: 13.5px; } .sub { font-size: 10.5px; } }
+
+/* car slip */
+.slip-row > td { padding: 0; background: var(--panel); }
+.slip { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 22px; padding: 18px 16px; text-align: left; white-space: normal; position: sticky; left: 0; max-width: min(1146px, calc(100vw - 34px)); }
+.slip h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 26px; text-transform: uppercase; }
+.read { font-size: 15.5px; margin: 8px 0 14px; max-width: 60ch; font-weight: 500; }
+.small-h { font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 6px; }
+.bars { display: grid; gap: 7px; }
+.bar { display: grid; grid-template-columns: 82px 1fr 58px; gap: 10px; align-items: center; font-size: 12.5px; }
+.bar .lbl { color: var(--muted); font-family: var(--font-data); }
+.track { height: 12px; background: var(--line); border-radius: 2px; position: relative; overflow: hidden; }
+.fill { position: absolute; inset: 0 auto 0 0; background: var(--ink); border-radius: 2px; }
+.bar .g { text-align: right; font-family: var(--font-data); }
+.bar .g.q { color: var(--red); font-weight: 600; }
+.vs { display: grid; gap: 16px; min-width: 0; }
+.mini { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+.mini th, .mini td { padding: 5px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.mini th:first-child, .mini td:first-child { text-align: left; }
+.mini th { color: var(--muted); font-weight: 600; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.mini td { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.mini td.up { color: var(--red); font-weight: 600; }
+.mini-wrap { overflow-x: auto; }
+
+/* quickest at every light */
+.lights { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; border-top: 3px solid var(--ink); }
+.light { padding: 12px 14px 14px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.light h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; display: flex; align-items: baseline; gap: 8px; }
+.light h3 small { font-family: var(--font-body); font-size: 11px; font-weight: 600; letter-spacing: .1em; color: var(--muted); }
+.light ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 13.5px; }
+.light li { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; padding: 3px 6px; border-radius: 2px; }
+.light li:first-child { background: var(--red); color: var(--red-ink); font-weight: 600; }
+.light li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.light li:not(:first-child) .t { color: var(--muted); }
+
+/* lower */
+.duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+.ladder { columns: 2 210px; column-gap: 20px; font-size: 13.5px; margin: 0; padding: 0; list-style: none; }
+.ladder li { display: grid; grid-template-columns: 24px 1fr auto; gap: 8px; padding: 4px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.ladder li.bump { border-bottom: 2px dashed var(--red); }
+.ladder .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
+.ladder .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.ladder .out { color: var(--muted); }
+.rule { border-top: 3px solid var(--ink); padding-top: 10px; }
+
+.waiting { padding-block: 60px; display: grid; gap: 12px; }
+
+footer { margin-top: 44px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; display: grid; gap: 4px; }
+footer a { color: inherit; }
+@media (max-width: 720px) { .slip { grid-template-columns: 1fr; } h2 { font-size: 27px; } }
+@media (prefers-reduced-motion: no-preference) {
+  .slip { animation: drop .18s ease-out; }
+  @keyframes drop { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<header class="rail">
+  <div class="rail-in">
+    <div class="rail-top">
+      <div class="brand">DI <b>Incrementals</b></div>
+      <nav class="scroller" id="rounds" aria-label="Round"></nav>
+    </div>
+    <nav class="classes" id="classes" aria-label="Class"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <section class="hero">
+    <div class="eyebrow" id="ev"></div>
+    <h1 id="title"></h1>
+    <div class="meta" id="meta"></div>
+    <div class="leaders" id="leaders"></div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-h">
+      <div>
+        <h2>The Board</h2>
+        <p class="hint">Every car at every timing light. Red is quickest in the field, pink is 2nd and 3rd. Tap a column to sort by it. Tap a car to open its slip.</p>
+      </div>
+      <div class="seg" role="group" aria-label="View">
+        <button type="button" id="v-cum" aria-pressed="true">Timing points</button>
+        <button type="button" id="v-seg" aria-pressed="false">Splits</button>
+      </div>
+    </div>
+    <div class="board-wrap"><table class="board" id="board"></table></div>
+    <div class="legend">
+      <span><span class="sw" style="background:var(--red)"></span>Quickest</span>
+      <span><span class="sw" style="background:var(--red-tint)"></span>2nd and 3rd</span>
+      <span>Small number under each time: rank and how far off the quickest</span>
+      <span><span style="text-decoration:line-through;color:var(--off)" class="num">5.555</span>&nbsp; after the car went away, not ranked</span>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>Quickest at Every Light</h2>
+    <p class="hint" style="margin-bottom:12px">The top five cars at each timing light this round, and how far back each one was.</p>
+    <div class="lights" id="lights"></div>
+  </section>
+
+  <section class="sec duo">
+    <div>
+      <h2>Lane Check</h2>
+      <p class="hint" style="margin-bottom:10px">Average of the clean runs in each lane.</p>
+      <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
+    </div>
+    <div id="ladder-sec">
+      <h2 id="ladder-h">The Ladder</h2>
+      <p class="hint" id="ladder-hint" style="margin-bottom:10px"></p>
+      <div class="rule"><ol class="ladder" id="ladder"></ol></div>
+    </div>
+  </section>
+
+  <footer>
+    <div>Timing data from official NHRA results. Splits, rankings and reads computed by Drag Illustrated.</div>
+    <div id="src"></div>
+  </footer>
+</main>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const FIELD = 16;
+
+  // class links
+  const here = D.class;
+  $("classes").innerHTML = (D.nav || []).map((c) => c.live
+    ? `<a href="${D.base}${c.slug}/${location.hash}"${c.slug === here ? ' aria-current="page"' : ""}>${esc(c.name)}</a>`
+    : `<span title="No rounds posted yet">${esc(c.name)}</span>`).join("");
+
+  if (D.waiting) {
+    $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Keep this page open; it updates every few minutes.</p></section>`;
+    return;
+  }
+
+  const P = D.points, S = D.segs, IL = D.inc_label, SL = D.seg_label;
+  const quarter = D.finish === 1320;
+  let view = "cum", sortKey = "et", openDriver = null, R = null;
+
+  function t(v, key) {
+    if (v == null) return "--";
+    if (key === "mph" || key === "mph660") return v.toFixed(2);
+    const s = v.toFixed(3);
+    return s.startsWith("0.") ? s.slice(1) : s.startsWith("-0.") ? "-" + s.slice(2) : s;
+  }
+  const plus = (g, k) => g == null ? "" : g === 0 ? "" : (k === "mph" || k === "mph660" ? "-" : "+") + t(g, k);
+  const last = (n) => n.split(" ").slice(-1)[0];
+  const ord = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th"));
+  const roundName = (r) => r.startsWith("Q") ? "Qualifying " + r.slice(1) : r === "E4" ? "Final" : r === "E3" ? "Semifinals" : r === "E2" ? "Quarterfinals" : "Round 1";
+
+  function cols() {
+    if (view === "cum") {
+      const c = [["rt", "RT"]];
+      P.forEach((p) => { if (p !== "et") c.push([p, IL[p]]); if (p === "ft660") c.push(["mph660", "660 mph"]); });
+      c.push(["et", "ET"], ["mph", "MPH"]);
+      return c;
+    }
+    const c = [["rt", "RT"]].concat(S.map((s) => [s, SL[s]]));
+    if (quarter) c.push(["back", "Back half"]);
+    c.push(["et", "ET"]);
+    return c;
+  }
+  const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
+
+  function renderRounds() {
+    $("rounds").innerHTML = D.rounds.map((r) =>
+      `<button type="button" class="rbtn" data-r="${r.round}" aria-pressed="${r === R}">${r.round}</button>`).join("");
+    $("rounds").querySelectorAll("button").forEach((b) => b.onclick = () => go(b.dataset.r));
+    $("classes").querySelectorAll("a").forEach((a) => a.href = a.href.split("#")[0] + "#" + R.round.toLowerCase());
+  }
+
+  function renderHero() {
+    document.title = `DI Incrementals`;
+    $("ev").textContent = `${D.year} ${D.event_name} · ${roundName(R.round)}`;
+    $("title").innerHTML = `${esc(D.class_name)} <span>${R.round}</span>`;
+    const w = R.weather, m = [`<span><strong>${R.runs.length}</strong> cars, <strong>${R.clean_count}</strong> clean</span>`];
+    if (w) {
+      if (w.track) m.push(`<span>Track <strong>${w.track}°</strong></span>`);
+      if (w.air) m.push(`<span>Air <strong>${w.air}°</strong></span>`);
+      if (w.humidity) m.push(`<span>Humidity <strong>${w.humidity}%</strong></span>`);
+      if (w.baro) m.push(`<span>Baro <strong>${w.baro}</strong></span>`);
+      if (w.altitude) m.push(`<span>Adj. altitude <strong>${Number(w.altitude).toLocaleString()} ft</strong></span>`);
+    } else m.push(`<span>Conditions not posted this round</span>`);
+    $("meta").innerHTML = m.join("");
+    const who = (k) => R.order[k] ? R.order[k][0].driver : "";
+    const tiles = [["et", "Low ET"], ["mph", "Top speed"], ["ft60", "Best 60'"], ["ft330", "Best 330'"], ["rt", "Best light"]];
+    $("leaders").innerHTML = tiles.filter(([k]) => R.best[k] != null).map(([k, l]) =>
+      `<div class="lead"><div class="k">${l}</div><div class="v">${t(R.best[k], k)}</div><div class="who">${esc(who(k))}</div></div>`).join("");
+  }
+
+  function renderBoard() {
+    const C = cols();
+    if (!C.some(([k]) => k === sortKey)) sortKey = "et";
+    const desc = sortKey === "mph" || sortKey === "mph660";
+    const rows = R.runs.slice().sort((a, b) => {
+      const av = counts(a, sortKey) ? a[sortKey] : null, bv = counts(b, sortKey) ? b[sortKey] : null;
+      if (av == null && bv == null) return (a.et ?? 99) - (b.et ?? 99);
+      if (av == null) return 1; if (bv == null) return -1;
+      return desc ? bv - av : av - bv;
+    });
+    let h = "<thead><tr><th class='drv'><button type='button' data-k='et'>Car</button></th>";
+    C.forEach(([k, l]) => h += `<th${k === sortKey ? " aria-sort='" + (desc ? "descending" : "ascending") + "'" : ""}><button type="button" data-k="${k}">${l}</button></th>`);
+    h += "</tr></thead><tbody>";
+    rows.forEach((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      const sub = `#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} · ${r.win ? "<span class='w'>W</span>" : "L"}${r.opp ? " vs " + esc(last(r.opp)) : " solo"}`;
+      h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}${openDriver === r.driver ? " open" : ""}" aria-expanded="${openDriver === r.driver}">`;
+      h += `<td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${sub}</span></div></td>`;
+      C.forEach(([k]) => {
+        const v = r[k], ok = counts(r, k) && v != null && !(k === "rt" && r.red);
+        let cls = "cell", sm = "";
+        if (k === "rt" && r.red) { cls += " redlight"; sm = "<span class='r'>red</span>"; }
+        else if (!ok) cls += v == null ? "" : " x";
+        else {
+          const n = r.rank[k], g = r.gap[k];
+          sm = `<span class="r">${ord(n)}${g ? " · " + plus(g, k) : ""}</span>`;
+          if (n === 1) cls += " b1"; else if (n <= 3) cls += " b2";
+        }
+        h += `<td class="${cls}">${t(v, k)}${sm}</td>`;
+      });
+      h += "</tr>";
+      if (openDriver === r.driver) h += `<tr class="slip-row"><td colspan="${C.length + 1}">${slip(r)}</td></tr>`;
+    });
+    $("board").innerHTML = h + "</tbody>";
+    $("board").querySelectorAll("thead button").forEach((b) => b.onclick = (e) => { e.stopPropagation(); sortKey = b.dataset.k; renderBoard(); });
+    $("board").querySelectorAll("tbody tr[data-d]").forEach((tr) => tr.onclick = () => {
+      openDriver = openDriver === tr.dataset.d ? null : tr.dataset.d; renderBoard();
+    });
+  }
+
+  function slip(r) {
+    const segs = S.map((s) => ({ s, v: r[s], g: r.gap[s], n: r.rank[s], ok: r.valid.includes(s) }));
+    const maxG = Math.max(0.02, ...segs.filter((x) => x.ok && x.g != null).map((x) => x.g));
+    const bars = segs.map((x) => {
+      if (!x.ok || x.v == null) return `<div class="bar"><span class="lbl">${SL[x.s]}</span><div class="track"></div><span class="g" style="color:var(--off)">${x.v == null ? "--" : "off"}</span></div>`;
+      const w = x.g === 0 ? 0 : Math.max(3, x.g / maxG * 100);
+      return `<div class="bar"><span class="lbl">${SL[x.s]}</span><div class="track"><div class="fill" style="width:${w}%"></div></div><span class="g${x.g === 0 ? " q" : ""}">${x.g === 0 ? "quickest" : plus(x.g)}</span></div>`;
+    }).join("");
+
+    const opp = r.opp ? R.runs.find((x) => x.driver === r.opp) : null;
+    let vs = "<p class='small-h'>Solo pass</p>";
+    if (opp) {
+      const rowsV = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+      vs = `<div><p class="small-h">Side by side · pair ${r.pair}</p><div class="mini-wrap"><table class="mini"><tr><th></th><th>${esc(last(r.driver))}</th><th>${esc(last(opp.driver))}</th><th>Diff</th></tr>` +
+        rowsV.map(([k, l]) => {
+          const a = r[k], b = opp[k];
+          const d = a != null && b != null ? (k === "mph" ? a - b : b - a) : null;
+          return `<tr><td>${l}</td><td class="${d > 0 ? "up" : ""}">${t(a, k)}</td><td class="${d < 0 ? "up" : ""}">${t(b, k)}</td><td>${d == null ? "--" : (d >= 0 ? "+" : "-") + t(Math.abs(d), k)}</td></tr>`;
+        }).join("") + `</table></div></div>`;
+    }
+    const hist = D.history[r.driver] || [];
+    let hh = "";
+    if (hist.length > 1) {
+      const hp = P.filter((p) => p !== "et").slice(0, 3);
+      hh = `<div><p class="small-h">This weekend</p><div class="mini-wrap"><table class="mini"><tr><th>Rd</th>${hp.map((p) => `<th>${IL[p]}</th>`).join("")}<th>ET</th><th>MPH</th></tr>` +
+        hist.map((x) => `<tr${x.round === R.round ? " style='font-weight:600'" : ""}><td>${x.round}</td>${hp.map((p) => `<td>${t(x[p])}</td>`).join("")}<td>${t(x.et)}</td><td>${t(x.mph, "mph")}</td></tr>`).join("") +
+        `</table></div></div>`;
+    }
+    const q = r.qpos ? ` · ${ord(r.qpos)} on the ladder after ${R.round}` : "";
+    return `<div class="slip"><div><h3>${esc(r.driver)}</h3><p class="hint">#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} lane${q}</p>
+      <p class="read">${esc(r.read)}</p><p class="small-h">Each split vs the quickest in the field</p><div class="bars">${bars}</div></div>
+      <div class="vs">${vs}${hh}</div></div>`;
+  }
+
+  function renderLights() {
+    const keys = P.filter((p) => p !== "et").concat(["et", "mph"]);
+    $("lights").innerHTML = keys.filter((k) => R.order[k]).map((k) => {
+      const lab = k === "et" ? "ET" : k === "mph" ? "MPH" : IL[k];
+      const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing light";
+      const list = R.order[k].slice(0, 5).map((o, i) =>
+        `<li><span>${esc(o.driver)}</span><span class="t">${i === 0 ? t(o.v, k) : plus(o.gap, k)}</span></li>`).join("");
+      return `<div class="light"><h3>${lab} <small>${sub.toUpperCase()}</small></h3><ol>${list}</ol></div>`;
+    }).join("");
+  }
+
+  function renderLanes() {
+    const keys = [["rt", "RT"]].concat(P.filter((p) => p !== "et" && p !== "ft1000").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    const avg = (lane, k) => {
+      const v = R.runs.filter((r) => r.clean && r.lane === lane && r[k] != null && !(k === "rt" && r.red)).map((r) => r[k]);
+      return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null;
+    };
+    const n = (l) => R.runs.filter((r) => r.clean && r.lane === l).length;
+    let h = `<tr><th></th><th>Left (${n("L")})</th><th>Right (${n("R")})</th><th>Edge</th></tr>`;
+    keys.forEach(([k, l]) => {
+      const a = avg("L", k), b = avg("R", k);
+      let edge = "--";
+      if (a != null && b != null) {
+        const d = k === "mph" ? a - b : b - a;
+        edge = Math.abs(d) < 0.0005 ? "even" : (d > 0 ? "Left " : "Right ") + t(Math.abs(d), k);
+      }
+      h += `<tr><td>${l}</td><td>${t(a, k)}</td><td>${t(b, k)}</td><td>${edge}</td></tr>`;
+    });
+    $("lanes").innerHTML = h;
+  }
+
+  function renderLadder() {
+    const q = D.qualifying[R.round];
+    $("ladder-sec").hidden = !q;
+    if (!q) return;
+    $("ladder-h").textContent = `Ladder after ${R.round}`;
+    $("ladder-hint").textContent = q.length > FIELD ? `Best ET to date, ties go to MPH. Top ${FIELD} make the show.` : "Best ET to date, ties go to MPH.";
+    $("ladder").innerHTML = q.map((x, i) =>
+      `<li class="${i === FIELD - 1 && q.length > FIELD ? "bump" : ""}${i >= FIELD ? " out" : ""}"><span class="p">${i + 1}</span><span>${esc(x.driver)}</span><span class="t">${t(x.et)} <span style="color:var(--muted)">${t(x.mph, "mph")}</span></span></li>`).join("");
+  }
+
+  function go(rd) {
+    R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
+    openDriver = null;
+    try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
+    renderRounds(); renderHero(); renderBoard(); renderLights(); renderLanes(); renderLadder();
+    $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
+  }
+  function setView(v) {
+    view = v;
+    $("v-cum").setAttribute("aria-pressed", v === "cum");
+    $("v-seg").setAttribute("aria-pressed", v === "seg");
+    renderBoard();
+  }
+  $("v-cum").onclick = () => setView("cum");
+  $("v-seg").onclick = () => setView("seg");
+
+  const fromHash = (location.hash || "").slice(1).toUpperCase();
+  go(D.rounds.some((r) => r.round === fromHash) ? fromHash : D.default_round);
+})();
+</script>
