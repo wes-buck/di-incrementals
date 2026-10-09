@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.023,
+     "ft60": 0.939,
+     "ft330": 2.524,
+     "ft660": 3.768,
+     "mph660": 197.45,
+     "ft1000": 4.833,
+     "et": 5.741,
+     "mph": 248.25,
+     "first": 0.0128,
+     "lane": "Left",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0128
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.958,
+     "ft330": 2.534,
+     "ft660": 3.78,
+     "mph660": 198.47,
+     "ft1000": 4.842,
+     "et": 5.737,
+     "mph": 251.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 67 percent, barometer 30.10 inches,\r\nadjusted altitude 2,003 feet, track temperature 102 degrees.\r\n\r\nMenholt and Gray have each won 2 times against the other in prior events. \r\n\r\nMenholt with the starting line advantage and never trailed for the win.  Gray was loose right at the\r\nhit and over by the centerline, he reeled it in, but couldn't chase Menholt down.  Derek Menholt's\r\nMOV: 0.0128 seconds (approximately 5 feet).\r\n\r\nMenholt is advancing to his third final round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.006,
+     "ft60": 0.934,
+     "ft330": 2.531,
+     "ft660": 3.764,
+     "mph660": 199.94,
+     "ft1000": 4.817,
+     "et": 5.709,
+     "mph": 251.95,
+     "first": 0.1263,
+     "lane": "Left",
+     "win": true,
+     "driver": "Lyle Barnett",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1263
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.96,
+     "ft330": 2.558,
+     "ft660": 3.802,
+     "mph660": 197.05,
+     "ft1000": 4.874,
+     "et": 5.776,
+     "mph": 250.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Castellana",
+     "car": "44",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Castellana is 3 - 1 against Barnett in prior events. \r\n\r\nBarnett with a great light and kept it hooked up to get the win.  He will have lane choice over\r\nMenholt in the final.  He is advancing to his fifth final round."
+  }
+ ]
+}

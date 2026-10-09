@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.882,
+     "ft330": 2.304,
+     "ft660": 3.337,
+     "mph660": 241.45,
+     "ft1000": null,
+     "et": 4.212,
+     "mph": 268.97,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.904,
+     "ft330": 2.319,
+     "ft660": 3.294,
+     "mph660": 265.01,
+     "ft1000": null,
+     "et": 4.079,
+     "mph": 311.05,
+     "first": 0.1516,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "1",
+     "mov": 0.1516
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.85 inches, adjusted\r\naltitude 4,045 feet, track temperature 127 degrees.\r\n\r\nProck is 10 - 1 against Hagan in prior events.\r\n\r\nHagan with the starting line advantage and never trailed for the win.  He is advancing to his second final\r\nthis season and 100th final round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.903,
+     "ft330": 2.316,
+     "ft660": 3.274,
+     "mph660": 270.27,
+     "ft1000": null,
+     "et": 4.058,
+     "mph": 299.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.902,
+     "ft330": 2.314,
+     "ft660": 3.265,
+     "mph660": 273.16,
+     "ft1000": null,
+     "et": 4.023,
+     "mph": 320.51,
+     "first": 0.0668,
+     "lane": "Right",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": 0.0668
+    }
+   ],
+   "note": "Capps is 9 - 2 against Wilkerson in prior events. \r\n\r\nWilkerson with the starting line advantage and never trailed for the win.  He is advancing to his first final\r\nround this season and third of his career.  He will have lane choice over Hagan in the final."
+  }
+ ]
+}

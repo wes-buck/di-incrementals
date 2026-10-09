@@ -1,0 +1,401 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.193,
+     "ft60": 1.507,
+     "ft330": 5.802,
+     "ft660": 9.43,
+     "mph660": 70.93,
+     "ft1000": null,
+     "et": 12.364,
+     "mph": 82.33,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 66 percent, barometer 29.83 inches, adjusted\r\naltitude 1,861 feet, track temperature 102 degrees.\r\n\r\nArend is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.129,
+     "ft60": 0.883,
+     "ft330": 2.448,
+     "ft660": 4.309,
+     "mph660": 114.58,
+     "ft1000": null,
+     "et": 6.47,
+     "mph": 104.91,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon starts to over power the track early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 1.084,
+     "ft330": 4.506,
+     "ft660": 8.456,
+     "mph660": 58.12,
+     "ft1000": null,
+     "et": 12.268,
+     "mph": 62.49,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Phil Burkart",
+     "car": "156",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Burkart is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 0.897,
+     "ft330": 2.305,
+     "ft660": 3.242,
+     "mph660": 271.95,
+     "ft1000": null,
+     "et": 4.018,
+     "mph": 312.86,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hyde is straight down the groove with a good clean pass with the quickest pass of the session."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.89,
+     "ft330": 2.277,
+     "ft660": 3.207,
+     "mph660": 279.44,
+     "ft1000": null,
+     "et": 3.945,
+     "mph": 334.15,
+     "first": 3.9573,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 1.456,
+     "ft330": 6.795,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Todd launched hard and kept i hooked up to make his quickest pass this weekend.  He goes to the number three\r\nspot.  J.R. Todd's incremental times: 60ft-0.890 sec., 330ft-2.277, 660ft-3.207/279.44 mph. \r\n\r\nGreen is up in smoke right at the hit and then the engine lets go with a huge explosion.  The explosion broke\r\nthe windshield out.  The word from the track is there is oil on the track.  Chad Green was charged with an\r\noildown, #2 for the season.\r\nThat will cost 10 points."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.122,
+     "ft60": 0.951,
+     "ft330": 3.714,
+     "ft660": 6.794,
+     "mph660": 75.35,
+     "ft1000": null,
+     "et": 9.712,
+     "mph": 81.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.142,
+     "ft60": 0.899,
+     "ft330": 2.295,
+     "ft660": 3.239,
+     "mph660": 276.29,
+     "ft1000": null,
+     "et": 3.984,
+     "mph": 327.27,
+     "first": 5.7085,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson is up in smoke right at the hit and clicked it off.\r\n\r\nRichards kept it hooked up and makes a good looking pass until right in the lights when is was mixing up some\r\ncylinders.  He makes his quickest pass of the weekend and moves into the top half of the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.879,
+     "ft330": 2.27,
+     "ft660": 3.208,
+     "mph660": 268.71,
+     "ft1000": null,
+     "et": 4.061,
+     "mph": 262.64,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.139,
+     "ft60": 0.892,
+     "ft330": 2.289,
+     "ft660": 3.237,
+     "mph660": 273.39,
+     "ft1000": null,
+     "et": 3.999,
+     "mph": 319.14,
+     "first": 0.0113,
+     "lane": "Right",
+     "win": true,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Hagan was on a good clean pass until right after half track when it started to lose traction and drop\r\ncylinders before he clicked it off.\r\n\r\nAlexander kept it hooked up to make his quickest pass this weekend to move up the ladder three spots."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.883,
+     "ft330": 2.354,
+     "ft660": 3.986,
+     "mph660": 130.64,
+     "ft1000": null,
+     "et": 5.888,
+     "mph": 117.43,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.905,
+     "ft330": 2.32,
+     "ft660": 3.284,
+     "mph660": 270.1,
+     "ft1000": null,
+     "et": 4.046,
+     "mph": 319.37,
+     "first": 1.8554,
+     "lane": "Right",
+     "win": true,
+     "driver": "Del Worsham",
+     "car": "750",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria is up in smoke early and clicked it off.\r\n\r\nWorsham kept it hooked up and hitting on all eight with a good pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.071,
+     "ft60": 0.878,
+     "ft330": 2.25,
+     "ft660": 3.347,
+     "mph660": 216.83,
+     "ft1000": null,
+     "et": 4.449,
+     "mph": 201.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.894,
+     "ft330": 2.287,
+     "ft660": 3.207,
+     "mph660": 282.36,
+     "ft1000": null,
+     "et": 3.945,
+     "mph": 328.22,
+     "first": 0.5036,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": 0.5036
+    }
+   ],
+   "note": "Prock is up in smoke and pedals it one time before he clicks it off.\r\n\r\nCapps is straight down the groove with his quickest pass of the weekend.  He goes to the number four spot.\r\nRon Capps' incremental times: 60ft-0.894 sec., 330ft-2.287, 660ft-3.207/282.36 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.882,
+     "ft330": 2.268,
+     "ft660": 3.376,
+     "mph660": 197.86,
+     "ft1000": null,
+     "et": 4.614,
+     "mph": 178.95,
+     "first": 0.5633,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 0.5633
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.888,
+     "ft330": 2.308,
+     "ft660": 3.659,
+     "mph660": 161.92,
+     "ft1000": null,
+     "et": 5.19,
+     "mph": 143.8,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff is up smoke early and clicked it off.\r\n\r\nBeckman starts to lose traction and clicked it off."
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.841,
+     "ft330": 2.119,
+     "ft660": 2.973,
+     "mph660": 297.81,
+     "ft1000": null,
+     "et": 3.689,
+     "mph": 336.74,
+     "first": 0.0161,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "3",
+     "mov": 0.0161
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.848,
+     "ft330": 2.127,
+     "ft660": 2.99,
+     "mph660": 294.05,
+     "ft1000": null,
+     "et": 3.713,
+     "mph": 335.15,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 55 percent, barometer 29.96 inches, adjusted\r\naltitude 1,625 feet. \r\n\r\nTorrence is 4 - 3 against Langdon in prior events. \r\n\r\nTorrence with the starting line advantage, but Langdon has the lead by 330 feet and never trailed from there\r\non for the win.  Langdon with the quickest pass of the event for the win.  Shawn Langdon's MOV: 0.0161 seconds\r\n(approximately 8 feet).\r\n\r\nTorrence with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.845,
+     "ft330": 2.846,
+     "ft660": 5.608,
+     "mph660": 79.32,
+     "ft1000": null,
+     "et": 8.57,
+     "mph": 78.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.837,
+     "ft330": 2.124,
+     "ft660": 2.981,
+     "mph660": 297.48,
+     "ft1000": null,
+     "et": 3.694,
+     "mph": 339.36,
+     "first": 4.9208,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 4.9208
+    }
+   ],
+   "note": "Kalitta is 34 - 23 against Millican in prior events. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.\r\n\r\nMillican is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.058,
+     "ft60": 0.837,
+     "ft330": 2.128,
+     "ft660": 2.993,
+     "mph660": 293.47,
+     "ft1000": null,
+     "et": 3.715,
+     "mph": 337.92,
+     "first": 0.2605,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": 0.2605
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.854,
+     "ft330": 2.152,
+     "ft660": 3.04,
+     "mph660": 273.22,
+     "ft1000": null,
+     "et": 3.968,
+     "mph": 236.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Stewart is 2 - 1 against Hart in prior events. \r\n\r\nStewart with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.  He will give up lane choice to Langdon in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.841,
+     "ft330": 2.126,
+     "ft660": 2.984,
+     "mph660": 295.98,
+     "ft1000": null,
+     "et": 3.703,
+     "mph": 334.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.025,
+     "ft60": 0.843,
+     "ft330": 2.138,
+     "ft660": 3.0,
+     "mph660": 296.05,
+     "ft1000": null,
+     "et": 3.72,
+     "mph": 336.07,
+     "first": 0.0222,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": 0.0222
+    }
+   ],
+   "note": "Pruett and Ashley have each won 8 times against the other in prior events.\r\n\r\nAshley with another great light and the power to hold on for the hole shot win.  Justin Ashley's MOV: 0.0222\r\nseconds (approximately 11 feet). He will give up lane choice to Kalitta in the semifinal.\r\n\r\nPruett with her quickest pass of the weekend in the losing effort."
+  }
+ ]
+}

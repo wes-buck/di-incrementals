@@ -1,0 +1,518 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/funny-car/q4",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "funny-car",
+ "round": "Q4",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.9,
+     "ft330": 2.302,
+     "ft660": 3.235,
+     "mph660": 278.46,
+     "ft1000": null,
+     "et": 3.981,
+     "mph": 327.74,
+     "first": 0.0652,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "2",
+     "mov": 0.0652
+    },
+    {
+     "rt": 0.064,
+     "ft60": 0.889,
+     "ft330": 2.267,
+     "ft660": 3.213,
+     "mph660": 260.86,
+     "ft1000": null,
+     "et": 4.054,
+     "mph": 285.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.89,
+     "ft330": 2.569,
+     "ft660": 4.533,
+     "mph660": 108.85,
+     "ft1000": null,
+     "et": 6.82,
+     "mph": 99.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.913,
+     "ft330": 2.307,
+     "ft660": 3.232,
+     "mph660": 281.3,
+     "ft1000": null,
+     "et": 3.971,
+     "mph": 330.15,
+     "first": 2.8305,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": 2.8305
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.882,
+     "ft330": 2.264,
+     "ft660": 3.334,
+     "mph660": 226.01,
+     "ft1000": null,
+     "et": 4.253,
+     "mph": 252.14,
+     "first": 2.6463,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 2.6463
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.911,
+     "ft330": 2.91,
+     "ft660": 4.737,
+     "mph660": 116.33,
+     "ft1000": null,
+     "et": 6.931,
+     "mph": 98.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.887,
+     "ft330": 2.28,
+     "ft660": 3.21,
+     "mph660": 280.43,
+     "ft1000": null,
+     "et": 3.947,
+     "mph": 331.77,
+     "first": 0.0745,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0745
+    },
+    {
+     "rt": 0.102,
+     "ft60": 0.895,
+     "ft330": 2.293,
+     "ft660": 3.226,
+     "mph660": 279.15,
+     "ft1000": null,
+     "et": 3.976,
+     "mph": 325.22,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.91,
+     "ft330": 2.321,
+     "ft660": 3.301,
+     "mph660": 264.55,
+     "ft1000": null,
+     "et": 4.089,
+     "mph": 305.36,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Smith",
+     "car": "241",
+     "qpos_nhra": "23",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "1:09 p.m. Weather conditions: air temperature 78 degrees, relative humidity 61 percent, barometer 30.00 inches, adjusted altitude 2,822 feet, track temperature 114 degrees.\r\n\r\nTodd goes down the groove with his quickest pass of the weekend but he stays in the ninth spot. Prock has problems near the end of the run and slows."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.099,
+     "ft60": 0.904,
+     "ft330": 2.385,
+     "ft660": 3.751,
+     "mph660": 160.06,
+     "ft1000": null,
+     "et": 5.306,
+     "mph": 141.95,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "23",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Haddock has traction problems and is off of the throttle early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.11,
+     "ft60": 0.902,
+     "ft330": 2.315,
+     "ft660": 3.288,
+     "mph660": 264.03,
+     "ft1000": null,
+     "et": 4.115,
+     "mph": 275.39,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "21",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Alexander lost a cylinder about 300 feet out, the car starts drifting to the left, gets close to the wall and he has to click it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.161,
+     "ft60": 0.901,
+     "ft330": 2.317,
+     "ft660": 3.343,
+     "mph660": 245.49,
+     "ft1000": null,
+     "et": 4.188,
+     "mph": 292.46,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Schriefer",
+     "car": "3007",
+     "qpos_nhra": "22",
+     "mov": null
+    },
+    {
+     "rt": 0.114,
+     "ft60": 0.92,
+     "ft330": 2.348,
+     "ft660": 3.291,
+     "mph660": 275.22,
+     "ft1000": null,
+     "et": 4.054,
+     "mph": 317.05,
+     "first": 0.1818,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Schriefer dropped a cylinder about 400 feet out. The car started moving to the left, gets very close to the wall after the finish line, then his chutes don't deploy. He stands on the brakes and the car come to a stop just just of the sand trap. Pedregon makes a decent pass but he doesn't improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.152,
+     "ft60": 0.89,
+     "ft330": 2.48,
+     "ft660": 4.202,
+     "mph660": 130.96,
+     "ft1000": null,
+     "et": 6.063,
+     "mph": 118.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "21",
+     "mov": null
+    },
+    {
+     "rt": 0.173,
+     "ft60": 0.922,
+     "ft330": 2.352,
+     "ft660": 3.386,
+     "mph660": 231.95,
+     "ft1000": null,
+     "et": 4.442,
+     "mph": 210.01,
+     "first": 1.6001,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dylan Winefsky",
+     "car": "7818",
+     "qpos_nhra": "18",
+     "mov": null
+    }
+   ],
+   "note": "Richards has traction problems early and clicked it off. Winefsky lost a cylinder late in the run and backed off of the throttle early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.891,
+     "ft330": 2.299,
+     "ft660": 3.271,
+     "mph660": 260.51,
+     "ft1000": null,
+     "et": 4.098,
+     "mph": 278.58,
+     "first": 0.2923,
+     "lane": "Left",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.916,
+     "ft330": 2.325,
+     "ft660": 3.351,
+     "mph660": 229.63,
+     "ft1000": null,
+     "et": 99.999,
+     "mph": 216.1,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "22",
+     "mov": null
+    }
+   ],
+   "note": "Bode had a cylinder out about 300 feet down track. The car starts moving around and he backs off of the throttle a little early. He does well enough to get in the show on the bump.\r\n\r\nNataas lost traction late in the run, backed off of the throttle, then made a move to the left and hit the timing block at the end of the track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.9,
+     "ft330": 2.304,
+     "ft660": 3.274,
+     "mph660": 256.8,
+     "ft1000": null,
+     "et": 4.212,
+     "mph": 237.46,
+     "first": 5.1181,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.967,
+     "ft330": 3.363,
+     "ft660": 6.364,
+     "mph660": 75.84,
+     "ft1000": null,
+     "et": 9.325,
+     "mph": 78.36,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": "Lee was on a decent run but drove into smoke about 900 feet out. King had problems at the hit and gave up on the run early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.881,
+     "ft330": 2.272,
+     "ft660": 3.37,
+     "mph660": 202.61,
+     "ft1000": null,
+     "et": 4.588,
+     "mph": 183.24,
+     "first": 0.0464,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.106,
+     "ft60": 0.912,
+     "ft330": 2.326,
+     "ft660": 3.432,
+     "mph660": 202.24,
+     "ft1000": null,
+     "et": 4.654,
+     "mph": 182.03,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff gets about 600 feet out, loses traction, then backs off of the throttle. Arend hazed the tires about 600 feet out, looks like he lost a cylinder, then backed off of the throttle."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.885,
+     "ft330": 2.275,
+     "ft660": 3.507,
+     "mph660": 175.73,
+     "ft1000": null,
+     "et": 4.916,
+     "mph": 157.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.128,
+     "ft60": 0.898,
+     "ft330": 2.325,
+     "ft660": 3.407,
+     "mph660": 206.95,
+     "ft1000": null,
+     "et": 4.602,
+     "mph": 186.18,
+     "first": 0.2598,
+     "lane": "Right",
+     "win": true,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson gets about 500 feet out, strikes the tires, then clicks it off. Green gets about the same spot, loses traction and aborts the run."
+  }
+ ]
+}

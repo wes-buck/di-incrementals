@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 1.083,
+     "ft330": 3.829,
+     "ft660": 5.763,
+     "mph660": 117.9,
+     "ft1000": null,
+     "et": 7.925,
+     "mph": 101.02,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.092,
+     "ft60": 0.874,
+     "ft330": 2.245,
+     "ft660": 3.337,
+     "mph660": 203.77,
+     "ft1000": null,
+     "et": 4.483,
+     "mph": 206.99,
+     "first": 3.4026,
+     "lane": "Right",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "13",
+     "mov": 3.4026
+    }
+   ],
+   "note": "Weather conditions: air temperature 68 degrees, relative humidity 58 percent, barometer 30.07 inches, adjusted\r\naltitude 2,337 feet, track temperature 98 degrees.\r\n\r\nDaniel Wilkerson is 0 - 2 against the Bode family.  Bobby Bode beat Wilkerson in Rd. 1 at Indy in 2024.\r\n\r\nBode is 1 - 0 against Wilkerson in prior events. \r\n\r\nWilkerson with the starting line advantage, but was up in smoke right at the hit and clicked it off.\r\n\r\nBode starts to get loose around half track, but holds on for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.885,
+     "ft330": 2.245,
+     "ft660": 3.165,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.898,
+     "mph": 333.66,
+     "first": 3.9463,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": 3.9463
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.917,
+     "ft330": 2.889,
+     "ft660": 5.113,
+     "mph660": 95.09,
+     "ft1000": null,
+     "et": 7.852,
+     "mph": 77.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "J.R. Todd is 10 - 0 in Rd. 1 this year when he has lane choice.  Spencer Hyde is 1 - 1 against Todd this year.\r\n\r\nTodd is 3 - 1 against Hyde in prior events. \r\n\r\nHyde with the starting line advantage, but was dropping cylinders right at the hit and clicked it off.\r\n\r\nTodd launched hard and kept it hooked to make his quickest pass of the weekend for the win.  He will have lane\r\nchoice over Bode in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.877,
+     "ft330": 2.374,
+     "ft660": 4.06,
+     "mph660": 127.93,
+     "ft1000": null,
+     "et": 6.044,
+     "mph": 110.47,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Jordan Vandergriff's 21 round wins are tied for the most in FC this year (Capps).  Since 2000 the #1 FC\r\nqualifier has won this race three times.\r\n\r\nVandergriff with the bye and he drives into tire smoke and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.888,
+     "ft330": 2.276,
+     "ft660": 3.204,
+     "mph660": 281.01,
+     "ft1000": null,
+     "et": 3.947,
+     "mph": 327.27,
+     "first": 8.1549,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": 8.1549
+    },
+    {
+     "rt": 0.129,
+     "ft60": 1.502,
+     "ft330": 5.628,
+     "ft660": 9.104,
+     "mph660": 72.43,
+     "ft1000": null,
+     "et": 12.032,
+     "mph": 83.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Wyatt",
+     "car": "34",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Austin Prock's 3.881 is his 2nd best qualifying run this year (3.863 at Norwalk).   Jack Wyatt is making his\r\n45th start.\r\n\r\nProck is 1 - 0 against Wyatt in prior events. \r\n\r\nProck with the starting line advantage and never trailed for the win.\r\n\r\nWyatt with problems right at the hit and clicked it off"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.878,
+     "ft330": 2.248,
+     "ft660": 3.16,
+     "mph660": 287.66,
+     "ft1000": null,
+     "et": 3.897,
+     "mph": 326.0,
+     "first": 5.8952,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 5.8952
+    },
+    {
+     "rt": 0.105,
+     "ft60": 1.614,
+     "ft330": 5.124,
+     "ft660": 7.611,
+     "mph660": 103.14,
+     "ft1000": null,
+     "et": 9.727,
+     "mph": 112.27,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hagan starts the day with 599 round wins. Only 4 FC drivers have won 600 or more rounds.  Jim Campbell is\r\nmaking his 138th start.\r\n\r\nHagan is 7 - 2 against Campbell in prior events. \r\n\r\nHagan with the starting line advantage and make the quickest pass of race day.  He makes his quickest pass of\r\nthe weekend.\r\n\r\nCampbell lost traction right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.872,
+     "ft330": 2.297,
+     "ft660": 3.626,
+     "mph660": 180.6,
+     "ft1000": null,
+     "et": 4.867,
+     "mph": 182.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 1.039,
+     "ft330": 3.719,
+     "ft660": 6.015,
+     "mph660": 100.44,
+     "ft1000": null,
+     "et": 4.857,
+     "mph": 176.21,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman set Low E/T in Seattle. He has set LET 40 times, tied for 6th most in FC.  Chad Green is 1 - 2\r\nagainst Beckman in Rd. 1\r\n\r\nBeckman is 5 - 1 against Green in prior events.\r\n\r\nBeckman with the starting line advantage, but then started to lose traction and pedaled it a couple times.\r\nThe car was out the groove and then collected the centerline blocks to give Green the win.  This is the second\r\ntime Beckman has had a centerline violation, so this will cost him 20 points.\r\n\r\nGreen was up in smoke right at the hit and clicked it off, but gets the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.101,
+     "ft60": 0.876,
+     "ft330": 2.237,
+     "ft660": 3.158,
+     "mph660": 277.72,
+     "ft1000": null,
+     "et": 3.919,
+     "mph": 319.98,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.881,
+     "ft330": 2.263,
+     "ft660": 3.19,
+     "mph660": 279.5,
+     "ft1000": null,
+     "et": 3.934,
+     "mph": 325.14,
+     "first": 0.0042,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": 0.0042
+    }
+   ],
+   "note": "The last time Ron Capps lost in Rd. 1 at 3 consecutive races was Phoenix, Pomona & Las Vegas, 2025.  3.906 is\r\nthe best qualifying run for Cruz Pedregon since St. Louis last year. He beat Capps in Rd. 1 in Seattle.\r\n\r\nCapps is 56 - 31 against Pedregon in prior events. \r\n\r\nCapps with the starting line advantage and the power to hold on for the hole shot win in a close one.  Ron\r\nCapps' MOV: 0.0042 seconds (approximately 24 inches).  He will have lane choice over Prock in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.879,
+     "ft330": 2.263,
+     "ft660": 3.184,
+     "mph660": 282.66,
+     "ft1000": null,
+     "et": 3.927,
+     "mph": 328.14,
+     "first": 1.4603,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "8",
+     "mov": 1.4603
+    },
+    {
+     "rt": 0.104,
+     "ft60": 0.892,
+     "ft330": 2.314,
+     "ft660": 3.729,
+     "mph660": 152.4,
+     "ft1000": null,
+     "et": 5.358,
+     "mph": 135.63,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Alexis DeJoria qualified #8 and the #8 FC qualifier is 24 - 19 in Rd. 1 at this event.  This is the 89th start\r\nfor Dave Richards.\r\n\r\nDeJoria and Richards have each won 4 times against the other in prior events. \r\n\r\nDeJoria with the starting line advantage and never trailed for the win.  She will have lane choice over\r\nVandergriff in the next round.\r\n\r\nRichards is up in smoke early and clicked it off."
+  }
+ ]
+}

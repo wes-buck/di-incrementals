@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.881,
+     "ft330": 2.206,
+     "ft660": 3.096,
+     "mph660": 290.07,
+     "ft1000": null,
+     "et": 3.823,
+     "mph": 333.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.867,
+     "ft330": 2.178,
+     "ft660": 3.064,
+     "mph660": 289.76,
+     "ft1000": null,
+     "et": 3.79,
+     "mph": 332.1,
+     "first": 0.0124,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 0.0124
+    }
+   ],
+   "note": "Weather conditions: air temperature 85 degrees, relative humidity 52 percent, barometer 29.79 inches, adjusted\r\naltitude 3,243 feet, track temperature 105 degrees.\r\n\r\nLangdon is 10 - 4 against Hart in prior events. \r\n\r\nHart with the starting line advantage, but Langdon had the lead by 330 feet and never trailed for the win.  He\r\nis advancing to his 55th final round and fourth this season."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.871,
+     "ft330": 2.193,
+     "ft660": 3.076,
+     "mph660": 289.2,
+     "ft1000": null,
+     "et": 3.809,
+     "mph": 328.38,
+     "first": 2.0077,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": 2.0077
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.876,
+     "ft330": 2.336,
+     "ft660": 3.947,
+     "mph660": 131.24,
+     "ft1000": null,
+     "et": 5.81,
+     "mph": 119.9,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Brown and Pruett have each won 19 times against the other in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.  He will give up lane choice to Langdon\r\nin the final.  Brown is advancing to his 145th final round and first this season."
+  }
+ ]
+}

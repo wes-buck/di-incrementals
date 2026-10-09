@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.851,
+     "ft330": 2.15,
+     "ft660": 3.019,
+     "mph660": 294.5,
+     "ft1000": null,
+     "et": 3.733,
+     "mph": 337.83,
+     "first": 0.1374,
+     "lane": "Left",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": 0.1374
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.854,
+     "ft330": 2.193,
+     "ft660": 3.117,
+     "mph660": 276.58,
+     "ft1000": null,
+     "et": 3.877,
+     "mph": 319.6,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 61 percent, barometer 30.03 inches, adjusted altitude 2,197 feet.\r\n\r\nKalitta is 9 - 4 against Hart in prior events and this is the first time they have faced each other in a final round.\r\n\r\nKalitta with a slight starting line advantage, but Hart had the difference made up by 100 feet and never trailed from there on for the win.  Kalitta started to lose traction on the top end.\r\n\r\nHart wins his third National event Wally and second here.\r\n\r\nHart was No. 1 qualifier and the No. 1 qualifier has made the final round 27 times at this event and won it 15 times. \r\n\r\nThe No. 1 TF qualifier has won this race in 4 of the last 5 years.\r\nThis is the first time the No. 1 qualifier has won this event three consecutive years."
+  }
+ ]
+}

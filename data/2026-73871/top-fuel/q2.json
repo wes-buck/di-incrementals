@@ -1,0 +1,362 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/q2",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "Q2",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.839,
+     "ft330": 2.112,
+     "ft660": 2.967,
+     "mph660": 295.92,
+     "ft1000": null,
+     "et": 3.69,
+     "mph": 329.1,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 75 percent, barometer 30.18 inches,\r\nadjusted altitude 1,656 feet. \r\n\r\nPruett launched hard and was skating around from half track on.  she goes to the number one spot.\r\nLeah Pruett's incremental times: 60ft-0.839 sec., 330ft-2.112, 660ft-2.967/295.92 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.101,
+     "ft60": 0.854,
+     "ft330": 2.156,
+     "ft660": 3.054,
+     "mph660": 285.11,
+     "ft1000": null,
+     "et": 3.791,
+     "mph": 329.67,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.124,
+     "ft60": 0.845,
+     "ft330": 2.14,
+     "ft660": 3.017,
+     "mph660": 291.19,
+     "ft1000": null,
+     "et": 3.741,
+     "mph": 334.9,
+     "first": 0.0271,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": "Salinas with a good clean pass, straight down the groove to move up the ladder three spots.\r\n\r\nTorrence was loose right at the hit but got it to hook up to go to the number three spot.  Billy\r\nTorrence's incremental times: 60ft-0.845 sec., 330ft-2.140, 660ft-3.017/291.19 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.851,
+     "ft330": 2.154,
+     "ft660": 3.044,
+     "mph660": 284.39,
+     "ft1000": null,
+     "et": 3.793,
+     "mph": 321.35,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gordon launched hard and was on a great pass until it pushed out a spark plug around 800 feet.  She\r\npicks up three spots on the ladder.  Maddi Gordon's incremental times: 60ft-0.851 sec., 330ft-2.154,\r\n660ft-3.044/284.39 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.843,
+     "ft330": 2.132,
+     "ft660": 2.996,
+     "mph660": 294.95,
+     "ft1000": null,
+     "et": 3.71,
+     "mph": 338.6,
+     "first": 0.0577,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.839,
+     "ft330": 2.146,
+     "ft660": 3.036,
+     "mph660": 283.55,
+     "ft1000": null,
+     "et": 3.79,
+     "mph": 304.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Gary Pritchett",
+     "car": "389",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Schumacher launched hard and kept the candles lit to go to the number two spot. Schumacher runs his\r\ncareer fastest pass here. Tony Schumacher's incremental times: 60ft-0.843 sec., 330ft-2.132,\r\n660ft-2.996/294.95 mph. \r\n\r\nPritchett was on a good looking pass until on the top end when the car gets out of the groove and\r\nover by the wall.  He apparently used up the engine. He still gets off the bubble to the number 11\r\nspot.  The word from the top end is there is oil on the track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.05,
+     "ft60": 0.844,
+     "ft330": 2.114,
+     "ft660": 2.971,
+     "mph660": 293.98,
+     "ft1000": null,
+     "et": 3.694,
+     "mph": 331.85,
+     "first": 5.6791,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.845,
+     "ft330": 3.248,
+     "ft660": 6.256,
+     "mph660": 74.43,
+     "ft1000": null,
+     "et": 9.325,
+     "mph": 72.19,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Gary Pritchett was charged with an oildown, #1 for the season.\r\nThat will cost 5 points.\r\n\r\nBrown launched hard and kept it hooked up to go to the number two spot.  Antron Brown's incremental\r\ntimes: 60ft-0.844 sec., 330ft-2.114, 660ft-2.971/293.98 mph. \r\n\r\nMercier with severe tire shake right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.842,
+     "ft330": 2.14,
+     "ft660": 3.027,
+     "mph660": 284.03,
+     "ft1000": null,
+     "et": 3.773,
+     "mph": 321.35,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.86,
+     "ft330": 2.155,
+     "ft660": 3.022,
+     "mph660": 291.01,
+     "ft1000": null,
+     "et": 3.757,
+     "mph": 325.61,
+     "first": 0.0177,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Millican is straight down the groove with a clean pass.  Clay Millican's incremental times:\r\n60ft-0.842 sec., 330ft-2.140, 660ft-3.027/284.03 mph.\r\nMillican had pushed out a rearend seal.\r\n\r\nReed with a good pass and starts to skate around on the top end, but stays with it. He moves into the\r\ntop half of the show.  Shawn Reed's incremental times: 60ft-0.860 sec., 330ft-2.155,\r\n660ft-3.022/291.01 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.85,
+     "ft330": 2.132,
+     "ft660": 2.995,
+     "mph660": 294.56,
+     "ft1000": null,
+     "et": 3.725,
+     "mph": 323.81,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.842,
+     "ft330": 2.131,
+     "ft660": 2.99,
+     "mph660": 297.02,
+     "ft1000": null,
+     "et": 3.703,
+     "mph": 339.96,
+     "first": 0.0269,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Tatum kept it hooked up and hitting on all eight.  He goes to the number five spot.   Tripp Tatum's\r\nincremental times: 60ft-0.850 sec., 330ft-2.132, 660ft-2.995/294.56 mph. \r\n\r\nStewart launched hard and kept the candles lit all the way down the track to go to the number three\r\nspot.  He makes his career fastest pass.  Stewart set the track speed record.  Tony Stewart's\r\nincremental times: 60ft-0.842 sec., 330ft-2.131, 660ft-2.990/297.02 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.041,
+     "ft60": 0.851,
+     "ft330": 2.171,
+     "ft660": 3.493,
+     "mph660": 160.63,
+     "ft1000": null,
+     "et": 5.065,
+     "mph": 139.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.142,
+     "ft60": 0.83,
+     "ft330": 2.098,
+     "ft660": 2.95,
+     "mph660": 298.93,
+     "ft1000": null,
+     "et": 3.658,
+     "mph": 340.3,
+     "first": 1.3069,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Ashley started to lose traction early and clicked it off.\r\n\r\nHart kept it hooked up and hitting on all eight to go to the number one spot.   Josh Hart's\r\nincremental times: 60ft-0.830 sec., 330ft-2.098, 660ft-2.950/298.93 mph.  Hart makes his career\r\nquickest and fastest pass.  He sets the track speed record."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.837,
+     "ft330": 2.115,
+     "ft660": 2.98,
+     "mph660": 293.22,
+     "ft1000": null,
+     "et": 3.703,
+     "mph": 334.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.843,
+     "ft330": 2.119,
+     "ft660": 2.97,
+     "mph660": 298.21,
+     "ft1000": null,
+     "et": 3.681,
+     "mph": 338.09,
+     "first": 0.0422,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta is straight down the groove to move into the top half of the show.  Doug Kalitta's\r\nincremental times: 60ft-0.837 sec., 330ft-2.115, 660ft-2.980/293.22 mph. \r\n\r\nLangdon launched hard and had the header flames shooting over the rear wing all the down the track.\r\nHe goes to the the number two spot.  Shawn Langdon's incremental times: 60ft-0.843 sec., 330ft-2.119,\r\n660ft-2.970/298.21 mph."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock-motorcycle/e4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock-motorcycle",
+ "round": "E4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 1.058,
+     "ft330": 2.859,
+     "ft660": 4.384,
+     "mph660": 160.5,
+     "ft1000": 5.714,
+     "et": 6.849,
+     "mph": 197.36,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.004,
+     "ft60": 1.057,
+     "ft330": 2.852,
+     "ft660": 4.378,
+     "mph660": 160.38,
+     "ft1000": 5.714,
+     "et": 6.86,
+     "mph": 195.79,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.93 inches, adjusted\r\naltitude 3,177 feet, track temperature 122 degrees.\r\n\r\nHerrera is 5 - 3 against Gadson in prior events and Herrera is 3 - 1 against Gadson in prior final rounds. \r\n\r\nHerrera goes red to give Gadson the win.  He wins his second wally this season and sixth of his career."
+  }
+ ]
+}

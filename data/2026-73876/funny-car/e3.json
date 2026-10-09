@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 0.901,
+     "ft330": 2.288,
+     "ft660": 3.218,
+     "mph660": 277.89,
+     "ft1000": null,
+     "et": 3.969,
+     "mph": 323.66,
+     "first": 0.0732,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": 0.0732
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.894,
+     "ft330": 2.305,
+     "ft660": 3.261,
+     "mph660": 274.55,
+     "ft1000": null,
+     "et": 4.015,
+     "mph": 323.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 85 degrees, relative humidity 52 percent, barometer 29.79 inches, adjusted\r\naltitude 3,243 feet, track temperature 105 degrees.\r\n\r\nProck is 6 - 0 against Green in prior events. \r\n\r\nGreen with the starting line advantage and never trailed for the win.  He is advancing to his sixth final and\r\nsecond this season."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.13,
+     "ft60": 0.899,
+     "ft330": 2.305,
+     "ft660": 3.251,
+     "mph660": 273.44,
+     "ft1000": null,
+     "et": 4.006,
+     "mph": 326.56,
+     "first": 0.0153,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "12",
+     "mov": 0.0153
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.898,
+     "ft330": 2.311,
+     "ft660": 3.282,
+     "mph660": 264.86,
+     "ft1000": null,
+     "et": 4.061,
+     "mph": 315.71,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Hagan is 22 - 13 against DeJoria in prior events. \r\n\r\nHagan with the starting line advantage and dropped a cylinder.  DeJoria chased him down in the lights for the\r\nwin.  She will give up lane choice to Green in the final.  A rematch of the Gainesville final.  This is her\r\n18th final round and second this season."
+  }
+ ]
+}

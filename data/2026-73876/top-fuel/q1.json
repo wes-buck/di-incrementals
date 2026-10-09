@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/top-fuel/q1",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "top-fuel",
+ "round": "Q1",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.896,
+     "ft330": 2.337,
+     "ft660": 3.977,
+     "mph660": 128.37,
+     "ft1000": null,
+     "et": 5.999,
+     "mph": 106.18,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Krista Baldwin",
+     "car": "725",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 52 percent, barometer 29.87 inches, adjusted\r\naltitude 2,057 feet, track temperature 105 degrees.\r\n\r\nKrista Baldwin \r\nThis is her 2nd race at this event:  First was 2024\r\nDNQ here in 2024\r\n\r\nShe is driving a Chris \"the Greek\" Karamesines tribute car this weekend.  Baldwin started to drop a cylinder\r\nor two and was shut off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.115,
+     "ft60": 0.869,
+     "ft330": 2.183,
+     "ft660": 3.316,
+     "mph660": 189.95,
+     "ft1000": null,
+     "et": 4.654,
+     "mph": 160.9,
+     "first": 0.3947,
+     "lane": "Left",
+     "win": true,
+     "driver": "TJ Zizzo",
+     "car": "317",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.867,
+     "ft330": 2.182,
+     "ft660": 3.515,
+     "mph660": 159.51,
+     "ft1000": null,
+     "et": 5.109,
+     "mph": 136.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "T.J. Zizzo\r\nThis is his 18th race at this event:  First was 2004\r\nBest starting spot at this event: #1 (2024)\r\nAverage starting spot at this event: 11.0\r\nOverall record at this event: 9 - 14\r\nBest finish at this event: Semi-finals, 2017 & 2023 \r\n\r\nWill Smith\r\nThis is his 3rd race at this event:  First was 2023\r\nDNQ here in 2023 & 2025\r\n\r\nZizzo is up in smoke and clicked it off.\r\n\r\nSmith starts to haze the tires and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.096,
+     "ft60": 0.856,
+     "ft330": 2.171,
+     "ft660": 3.327,
+     "mph660": 184.6,
+     "ft1000": null,
+     "et": 4.702,
+     "mph": 158.71,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.858,
+     "ft330": 2.185,
+     "ft660": 3.091,
+     "mph660": 283.25,
+     "ft1000": null,
+     "et": 3.83,
+     "mph": 328.7,
+     "first": 0.8693,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Reed\r\nThis is his 4th race at this event:  First was 2019\r\nBest starting spot at this event: #5 (2024)\r\nAverage starting spot at this event: 8.0\r\nOverall record at this event: 2 - 3\r\nBest finish at this event: Quarter-finals, 2024 & 2025\r\n\r\nTony Schumacher\r\nThis is his 24th race at this event:  First was 1998\r\nBest starting spot at this event: #1 (6)\r\nAverage starting spot at this event: 4.7\r\nOverall record at this event: 29 - 19\r\nWon this race in 2003 (Beat L. Dixon), 2008 (Beat R. Fuller), 2013 (Beat C. Millican) & 2015 (Beat L. Dixon)\r\nRunner-up here in 2010 (Lost to L. Dixon)\r\n\r\nReed started to lose traction and clicked it off.\r\n\r\nSchumacher launched hard and kept it hooked up to go to the number one spot.  \r\nTony Schumacher's incremental times: 60ft-0.858 sec., 330ft-2.185, 660ft-3.091/283.25 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.883,
+     "ft330": 2.204,
+     "ft660": 3.275,
+     "mph660": 201.31,
+     "ft1000": null,
+     "et": 4.532,
+     "mph": 173.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.859,
+     "ft330": 2.182,
+     "ft660": 3.093,
+     "mph660": 283.13,
+     "ft1000": null,
+     "et": 3.831,
+     "mph": 329.26,
+     "first": 0.6745,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Antron Brown \r\nThis is his 26th race at this event: (16 in TF\u202610 in PSM) First was 1998 in PSM\r\nBest starting spot at this event: #1 (2009 & 2015 in TF)\r\nAverage starting spot for this event:  5.0\r\nOverall record at this event: 49 - 19    (32 - 11 in TF\u202617 - 8 in PSM)\r\nWon this race in TF in 2012 (Beat S. Torrence), 2014 (Beat B. Force), 2016 (Beat J.R. Todd) & 2024 (Beat S.\r\nLangdon)\r\nWon this race in PSM in 2000 & 2001\r\nRunner-up in TF in 2009 (Lost to S. Massey) & 2017 (Lost to S. Torrence)\r\nRunner-up in PSM in 2002 (Lost to A. Sampey)\r\nAt this track: 9 finals (6 - 3)\r\n1 of 3 Pro drivers to have won this race in 2 classes (G. Scelzi & D. Worsham)\r\n\r\nClay Millican \r\nThis is his 16th race at this event:   First was 1998\r\nBest starting spot at this event: #2 (2024)\r\nAverage starting spot for this event: 7.1\r\nOverall record at this event:  18 - 11\r\nWon this race in 2018 (Beat L. Pruett) & 2023 (Beat J. Hart)\r\nRunner-up here in 2013 (Lost to T. Schumacher)\r\nAt this track: 3 finals (2 - 1)\r\n\r\nBrown started to lose traction and clicked it off.\r\n\r\nMillican kept it hooked up and hitting on all eight to go to the number two spot.  Clay Millican's incremental\r\ntimes: 60ft-0.859 sec., 330ft-2.182, 660ft-3.093/283.13 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.852,
+     "ft330": 2.166,
+     "ft660": 3.069,
+     "mph660": 285.29,
+     "ft1000": null,
+     "et": 3.801,
+     "mph": 332.18,
+     "first": 2.8145,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.848,
+     "ft330": 2.26,
+     "ft660": 4.02,
+     "mph660": 111.91,
+     "ft1000": null,
+     "et": 6.696,
+     "mph": 72.81,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Billy Torrence\r\nThis is his 4th race at this event:  First was 2014\r\nBest starting spot at this event: #10 (2024)\r\nAverage starting spot at this event: 12.7\r\nOverall record at this event: 1 - 3\r\nBest finish at this event: Quarter-finals, 2018\r\n\r\nJustin Ashley\r\nThis is his 4th race at this event:  First was 2023\r\nBest starting spot at this event: #4 (2023)\r\nAverage starting spot at this event: 7.7\r\nOverall record at this event: 4 - 3\r\nRunner-up here in 2025 (Lost to T. Stewart)\r\n\r\nTorrence launched hard and kept it hooked up and hitting on all eight to go to the number one spot.  \r\nBilly Torrence's incremental times: 60ft-0.852 sec., 330ft-2.166, 660ft-3.069/285.29 mph. \r\n\r\nAshley started to mix up cylinders right off the starting line.  The engine let go with a huge fireball.  The\r\nparts went flying into the other lane."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.858,
+     "ft330": 2.173,
+     "ft660": 3.057,
+     "mph660": 291.19,
+     "ft1000": null,
+     "et": 3.779,
+     "mph": 335.32,
+     "first": 3.4916,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.102,
+     "ft60": 0.904,
+     "ft330": 2.52,
+     "ft660": 4.659,
+     "mph660": 97.61,
+     "ft1000": null,
+     "et": 7.235,
+     "mph": 84.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Maddi Gordon \r\nThis is her 6th race in TF\r\nThis is her 1st race at this event\r\n\r\nJosh Hart\r\nThis is his 4th race at this event:   First was 2023\r\nBest starting spot at this event: #8 (2025) \r\nAverage starting spot at this event: 10.7\r\nOverall record at this event: 4 - 3\r\nRunner-up here in 2023 (Lost to C. Millican)\r\nAt this track: 1 final (0 - 1)\r\n\r\nGordon launched hard and kept it hooked up to go to the number one spot.  Maddi Gordon's incremental times:\r\n60ft-0.858 sec., 330ft-2.173, 660ft-3.057/291.19 mph. \r\n\r\nHart started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.875,
+     "ft330": 2.198,
+     "ft660": 3.085,
+     "mph660": 289.88,
+     "ft1000": null,
+     "et": 3.811,
+     "mph": 334.4,
+     "first": 0.8834,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.853,
+     "ft330": 2.158,
+     "ft660": 3.32,
+     "mph660": 183.84,
+     "ft1000": null,
+     "et": 4.691,
+     "mph": 159.61,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Tony Stewart\r\nThis is his 3rd race at this event:  First was 2024\r\nBest starting spot at this event: #2 (2025)\r\nOverall record at this event: 4 - 1\r\nWon this race in 2025 (Beat J. Ashley)\r\n\r\nLeah Pruett\r\nThis is her 8th race at this event:  First was 2013\r\nBest starting spot at this event: #2 (2017)\r\nAverage starting spot at this event: 8.7\r\nOverall record at this event: 7 - 7\r\nRunner-up here in 2018 (Lost to C. Millican)\r\nHas qualified in the top half of the field at 2 of her 7 races at this event\r\nLowest starting spot at this event: #13 (2013)\r\n\r\nStewart kept it hooked up and hitting on all eight to go to the number three spot.  \r\n\r\nTony Stewart's incremental times: 60ft-0.875 sec., 330ft-2.198, 660ft-3.085/289.88 mph.\r\n\r\nPruett started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.849,
+     "ft330": 2.149,
+     "ft660": 3.034,
+     "mph660": 289.82,
+     "ft1000": null,
+     "et": 3.779,
+     "mph": 321.5,
+     "first": 0.3385,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.85,
+     "ft330": 2.143,
+     "ft660": 3.08,
+     "mph660": 245.9,
+     "ft1000": null,
+     "et": 4.105,
+     "mph": 214.28,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta\r\nThis is his 26th race at this event :  First was 1998\r\nBest starting spot at this race: #1 (1999, 2014& 2025)\r\nAverage starting spot for this event: 6.0\r\nOverall record at this event: 27 - 23\r\nWon this race in 2004 (Beat B. Bernstein) & 2006 (Beat M. Troxel)\r\nAt this track: 3 Final rounds (3 - 0)\r\n\r\nShawn Langdon \r\nThis is his 15th race at this event  (13 in TF\u20262 in FC) First was 2009\r\nBest starting spot at this event: #3 (2012 & 2025)\r\nAverage starting spot for this event: 6.8\r\nOverall record at this event: 11 - 14\r\nRunner-up at this event in 2024 (Lost to A. Brown)\r\nAt this track 1 Final (0 - 1)\r\n\r\nKalitta launched hard and kept it hooked up to tie Gordon's E.T., but will give up the position based on\r\nspeed.  Doug Kalitta's incremental times: 60ft-0.849 sec., 330ft-2.149, 660ft-3.034/289.82 mph. \r\n\r\nLangdon was right there with Kalitta until he started to haze the tires and clicked it off."
+  }
+ ]
+}

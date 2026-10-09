@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 0.978,
+     "ft330": 2.735,
+     "ft660": 4.198,
+     "mph660": 168.01,
+     "ft1000": 5.46,
+     "et": 6.525,
+     "mph": 209.75,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Connolly",
+     "car": "51",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.005,
+     "ft60": 0.968,
+     "ft330": 2.719,
+     "ft660": 4.184,
+     "mph660": 167.95,
+     "ft1000": 5.447,
+     "et": 6.515,
+     "mph": 209.07,
+     "first": 0.0301,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0301
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 65 percent, barometer 29.98 inches, adjusted\r\naltitude 1,525 feet, track temperature 83 degrees.\r\n\r\nThis is the 10th time the top four qualifiers have made it to the semifinals, the last time was 2023.\r\n\r\nGlenn is 1 - 0 against Connolly in prior events. \r\n\r\nGlenn with a great light for the win.  Dallas Glenn's MOV: 0.0301 seconds (approximately 9 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.038,
+     "ft60": 0.974,
+     "ft330": 2.716,
+     "ft660": 4.174,
+     "mph660": 168.85,
+     "ft1000": 5.432,
+     "et": 6.495,
+     "mph": 209.79,
+     "first": 0.0133,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0133
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.972,
+     "ft330": 2.724,
+     "ft660": 4.188,
+     "mph660": 168.18,
+     "ft1000": 5.451,
+     "et": 6.517,
+     "mph": 210.31,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 29 - 17 against Stanfield in prior events. \r\n\r\nStanfield with the starting line advantage, but Anderson had the difference made up by 330 feet and never\r\ntrailed for the win.  Greg Anderson's MOV: 0.0133 seconds (approximately 4 feet).  Anderson with have lane\r\nchoice over Glenn in the final round."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 0.954,
+     "ft330": 2.539,
+     "ft660": 3.783,
+     "mph660": 199.08,
+     "ft1000": 4.841,
+     "et": 5.732,
+     "mph": 252.19,
+     "first": 0.0294,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0294
+    },
+    {
+     "rt": 0.023,
+     "ft60": 0.949,
+     "ft330": 2.539,
+     "ft660": 3.794,
+     "mph660": 196.67,
+     "ft1000": 4.868,
+     "et": 5.775,
+     "mph": 248.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Peter Norton",
+     "car": "311",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stavrinos is 2 - 0 against Menholt in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 0.953,
+     "ft330": 2.536,
+     "ft660": 3.764,
+     "mph660": 199.82,
+     "ft1000": 4.823,
+     "et": 5.719,
+     "mph": 250.92,
+     "first": 0.6421,
+     "lane": "Left",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.6421
+    },
+    {
+     "rt": 0.041,
+     "ft60": 0.95,
+     "ft330": 2.536,
+     "ft660": 3.789,
+     "mph660": 186.59,
+     "ft1000": 5.068,
+     "et": 6.354,
+     "mph": 164.39,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 56 percent, barometer 30.10 inches,\r\nadjusted altitude 2,560 feet, track temperature 115 degrees.\r\n\r\nThis is the first time Banaka and Norton have faced each other in eliminations.\r\n\r\nNorton with the starting line advantage, but Banaka chased him down just past half track to take the\r\nwin.  Banaka with his quickest pass of the weekend for the win.Stavrinos is 2 - 0 against Menholt in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.03,
+     "ft60": 0.964,
+     "ft330": 2.534,
+     "ft660": 3.751,
+     "mph660": 209.62,
+     "ft1000": 4.799,
+     "et": 5.684,
+     "mph": 254.47,
+     "first": 0.0459,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0459
+    },
+    {
+     "rt": 0.014,
+     "ft60": 0.958,
+     "ft330": 2.566,
+     "ft660": 3.806,
+     "mph660": 200.14,
+     "ft1000": 4.854,
+     "et": 5.745,
+     "mph": 253.28,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stavrinos is 2 - 0 against Menholt in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win.Bond is 2 - 1 against Shelton in prior events. \r\n\r\nShelton with the starting line advantage, but Bond had the lead by 200 feet and never trailed from\r\nthere on for the win.  He makes the quickest pass of the round for the win and lane choice over\r\nStavrinos in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.039,
+     "ft60": 0.947,
+     "ft330": 2.725,
+     "ft660": 4.83,
+     "mph660": 104.62,
+     "ft1000": 7.119,
+     "et": 9.391,
+     "mph": 94.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.047,
+     "ft60": 0.961,
+     "ft330": 2.539,
+     "ft660": 3.768,
+     "mph660": 200.23,
+     "ft1000": 4.825,
+     "et": 5.729,
+     "mph": 245.0,
+     "first": 3.6542,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.6542
+    }
+   ],
+   "note": "Gray is 3 - 1 against Thielen in prior events. \r\n\r\nThielen with the starting line advantage, but shook and Gray is straight down the groove for the win.\r\nGray will have lane choice over Banaka in the semifinal by 0.003 seconds."
+  }
+ ]
+}

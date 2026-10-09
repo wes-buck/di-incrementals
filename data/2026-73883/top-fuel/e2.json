@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.041,
+     "ft60": 0.853,
+     "ft330": 2.177,
+     "ft660": 3.06,
+     "mph660": 290.13,
+     "ft1000": null,
+     "et": 3.793,
+     "mph": 335.57,
+     "first": 2.6334,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "5",
+     "mov": 2.6334
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.857,
+     "ft330": 2.395,
+     "ft660": 4.177,
+     "mph660": 117.97,
+     "ft1000": null,
+     "et": 6.39,
+     "mph": 96.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 45 percent, barometer 30.05 inches, adjusted\r\naltitude 2,610 feet, track temperature 113 degrees.\r\n\r\nAshley is 10 - 5 against Millican in prior events. \r\n\r\nAshley with the starting line advantage and never trailed for the win.\r\n\r\nMillican is up in smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.848,
+     "ft330": 2.152,
+     "ft660": 3.027,
+     "mph660": 294.37,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 338.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.856,
+     "ft330": 2.152,
+     "ft660": 3.018,
+     "mph660": 296.11,
+     "ft1000": null,
+     "et": 3.74,
+     "mph": 330.72,
+     "first": 0.0383,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": 0.0383
+    }
+   ],
+   "note": "Gordon is 3 - 2 against Stewart in prior events. \r\n\r\nGordon with the starting line advantage and never trailed for the win.\r\n\r\nStewart with a good clean pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.855,
+     "ft330": 2.15,
+     "ft660": 3.019,
+     "mph660": 297.68,
+     "ft1000": null,
+     "et": 3.742,
+     "mph": 326.56,
+     "first": 0.0393,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0393
+    },
+    {
+     "rt": 0.048,
+     "ft60": 0.864,
+     "ft330": 2.173,
+     "ft660": 3.058,
+     "mph660": 289.82,
+     "ft1000": null,
+     "et": 3.796,
+     "mph": 322.81,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Brown is 44 - 40 against Kalitta in prior events. \r\n\r\nBrown with the starting line advantage, but Kalitta has the lead by 330 feet and never trailed from there on\r\nfor the win.  He will have lane choice over Ashley in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.03,
+     "ft60": 0.855,
+     "ft330": 2.174,
+     "ft660": 3.103,
+     "mph660": 243.99,
+     "ft1000": null,
+     "et": 4.158,
+     "mph": 194.49,
+     "first": 0.1288,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": 0.1288
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.855,
+     "ft330": 2.173,
+     "ft660": 3.288,
+     "mph660": 220.12,
+     "ft1000": null,
+     "et": 4.247,
+     "mph": 254.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Langdon is 19 - 9 against Pruett in prior events. \r\n\r\nPruett with the starting line advantage and then she gets loose and pedals it around half track.  She gets it\r\ntook hook up enough for the win, the chutes are out early.  She will give up lane choice to gordon in the\r\nsemifinal.\r\n\r\nLangdon is up in smoke and pedaled it back into smoke and stayed with it.  He couldn't run her down."
+  }
+ ]
+}

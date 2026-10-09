@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.901,
+     "ft330": 2.346,
+     "ft660": 3.647,
+     "mph660": 172.3,
+     "ft1000": null,
+     "et": 5.003,
+     "mph": 167.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.07,
+     "ft60": 0.896,
+     "ft330": 2.29,
+     "ft660": 3.215,
+     "mph660": 279.15,
+     "ft1000": null,
+     "et": 3.959,
+     "mph": 329.91,
+     "first": 1.0543,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "4",
+     "mov": 1.0543
+    }
+   ],
+   "note": "4:12 p.m. Weather conditions: air temperature 82 degrees, relative humidity 61 percent, barometer 30.03 inches, adjusted altitude 2,197 feet.\r\n\r\nGreen is 3 - 2 against DeJoria in prior events and this is the first time they have faced each other in a final round.\r\n\r\nGreen gets the advantage off of the line and starts to pull away. DeJoria gets about 300 feet out, strikes the tires and has to back off of the throttle. Green goes down the groove with a good pass to take the win.\r\n\r\nGreen has 3 national event wins, two here at the Gatornationals in 2025 and 2026."
+  }
+ ]
+}

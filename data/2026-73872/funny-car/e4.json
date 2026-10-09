@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.898,
+     "ft330": 2.354,
+     "ft660": 3.393,
+     "mph660": 236.05,
+     "ft1000": null,
+     "et": 4.326,
+     "mph": 259.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.897,
+     "ft330": 2.33,
+     "ft660": 3.323,
+     "mph660": 260.11,
+     "ft1000": null,
+     "et": 4.124,
+     "mph": 303.23,
+     "first": 0.2118,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.2118
+    }
+   ],
+   "note": "Weather conditions: air temperature 99 degrees, relative humidity 10 percent, barometer 29.69 inches, adjusted\r\naltitude 4,341 feet, track temperature 137 degrees.\r\n\r\nThis is the 2nd time that the #1 & #7 FC qualifiers have met in the Final round at this event. The #7 won in\r\n2010.\r\n\r\nHyde and Capps have each won 2 times against the other in prior events and this is the first time they have\r\nfaced each other in a final round.\r\n\r\nCapps with the starting line advantage and never trailed for the win.  He is straight down the groove with a\r\ngood looking pass for the win.  Capps wins his 78th National event Wally.\r\n\r\nHyde started to lose traction and clicked it off early."
+  }
+ ]
+}

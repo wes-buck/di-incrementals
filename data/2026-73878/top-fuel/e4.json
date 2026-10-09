@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.851,
+     "ft330": 2.175,
+     "ft660": 3.063,
+     "mph660": 288.95,
+     "ft1000": null,
+     "et": 3.794,
+     "mph": 332.43,
+     "first": 0.0474,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "10",
+     "mov": 0.0474
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.855,
+     "ft330": 2.203,
+     "ft660": 3.114,
+     "mph660": 283.49,
+     "ft1000": null,
+     "et": 3.852,
+     "mph": 328.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

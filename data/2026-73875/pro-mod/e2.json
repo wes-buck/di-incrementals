@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.026,
+     "ft60": 0.979,
+     "ft330": 2.894,
+     "ft660": 4.187,
+     "mph660": 194.02,
+     "ft1000": 5.265,
+     "et": 6.179,
+     "mph": 244.21,
+     "first": 0.1875,
+     "lane": "Left",
+     "win": true,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1875
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.953,
+     "ft330": 2.666,
+     "ft660": 4.008,
+     "mph660": 179.4,
+     "ft1000": 5.26,
+     "et": 6.361,
+     "mph": 202.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Rashid Al Balooshi",
+     "car": "202",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 36 percent, barometer 30.10 inches, adjusted\r\naltitude 1,205 feet, track temperature 115 degrees.\r\n\r\nThis is the first time Barnett and alBalooshi have faced each other in eliminations. \r\n\r\nBarnett with the starting line advantage and then got real loose and pedaled it.  He got it to hook up enough\r\nto chase alBalooshi down for the win.\r\n\r\nalBalooshi started to get real loose and over by the wall before he lifted."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.13,
+     "ft60": 0.97,
+     "ft330": 2.542,
+     "ft660": 3.763,
+     "mph660": 202.52,
+     "ft1000": 4.81,
+     "et": 5.693,
+     "mph": 255.39,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Sidnei Frigo",
+     "car": "288",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.945,
+     "ft330": 2.518,
+     "ft660": 3.74,
+     "mph660": 200.65,
+     "ft1000": 4.794,
+     "et": 5.685,
+     "mph": 253.52,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "168",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Frigo and Collins have faced each other in eliminations.\r\n\r\nFrigo goes red to give collins the win.  collins is straight down the groove for the win.  He will have lane\r\nchoice over Barnett in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 0.964,
+     "ft330": 2.648,
+     "ft660": 3.96,
+     "mph660": 193.32,
+     "ft1000": 5.044,
+     "et": 5.952,
+     "mph": 247.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 0.941,
+     "ft330": 2.551,
+     "ft660": 3.779,
+     "mph660": 199.64,
+     "ft1000": 4.835,
+     "et": 5.729,
+     "mph": 251.58,
+     "first": 0.1586,
+     "lane": "Right",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1586
+    }
+   ],
+   "note": "This is the first time Jackson and Menholt have faced each other in eliminations.\r\n\r\nJackson with the starting line advantage, but started to haze the tires on the top end.  Menholt kept it\r\nhooked up and takes the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.028,
+     "ft60": 0.97,
+     "ft330": 2.571,
+     "ft660": 3.798,
+     "mph660": 200.74,
+     "ft1000": 4.852,
+     "et": 5.748,
+     "mph": 250.46,
+     "first": 3.7181,
+     "lane": "Left",
+     "win": true,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.7181
+    },
+    {
+     "rt": 0.027,
+     "ft60": 0.95,
+     "ft330": 2.548,
+     "ft660": 4.286,
+     "mph660": 118.6,
+     "ft1000": 6.591,
+     "et": 9.467,
+     "mph": 68.01,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Thielen and Stavrinos have faced each other in eliminations. \r\n\r\nStavrinos with a tick on the tree, but then the engine let go. \r\n\r\nThielen is straight down the groove for the win.  He will give up lane choice to Menholt in the semifinal."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 0.979,
+     "ft330": 2.724,
+     "ft660": 4.183,
+     "mph660": 168.51,
+     "ft1000": 5.442,
+     "et": 6.505,
+     "mph": 209.88,
+     "first": 0.0062,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0062
+    },
+    {
+     "rt": 0.003,
+     "ft60": 0.987,
+     "ft330": 2.736,
+     "ft660": 4.199,
+     "mph660": 168.2,
+     "ft1000": 5.46,
+     "et": 6.526,
+     "mph": 208.94,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 57 degrees, relative humidity 67 percent, barometer 29.99 inches, adjusted\r\naltitude 1,355 feet. \r\n\r\nAnderson is 14 - 8 against Glenn in prior events and Anderson is 8 - 1 against Glenn in prior final rounds. \r\n\r\nThis is the 12th time the number one and two qualifiers made the final, the last tim was 2017.\r\n\r\nGlenn with a great light, but Anderson had the lead by half track and took the win in a close one.  Greg\r\nAnderson's MOV: 0.0062 seconds (approximately 23 inches).  Anderson wins his 113th Wally."
+  }
+ ]
+}

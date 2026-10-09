@@ -1,0 +1,362 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.128,
+     "ft60": 0.934,
+     "ft330": 2.375,
+     "ft660": 3.355,
+     "mph660": 261.78,
+     "ft1000": null,
+     "et": 4.159,
+     "mph": 299.93,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dylan Winefsky",
+     "car": "7818",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.166,
+     "ft60": 0.902,
+     "ft330": 2.347,
+     "ft660": 3.739,
+     "mph660": 155.49,
+     "ft1000": null,
+     "et": 5.327,
+     "mph": 139.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.114,
+     "ft60": 0.891,
+     "ft330": 2.325,
+     "ft660": 3.324,
+     "mph660": 262.54,
+     "ft1000": null,
+     "et": 4.103,
+     "mph": 315.05,
+     "first": 1.2762,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Rupert",
+     "car": "766",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.89,
+     "ft330": 2.472,
+     "ft660": 4.374,
+     "mph660": 112.24,
+     "ft1000": null,
+     "et": 6.631,
+     "mph": 96.41,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 0.889,
+     "ft330": 2.299,
+     "ft660": 3.256,
+     "mph660": 269.35,
+     "ft1000": null,
+     "et": 4.023,
+     "mph": 317.79,
+     "first": 2.5981,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.884,
+     "ft330": 2.372,
+     "ft660": 3.379,
+     "mph660": 259.66,
+     "ft1000": null,
+     "et": 4.181,
+     "mph": 304.25,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.929,
+     "ft330": 2.383,
+     "ft660": 3.365,
+     "mph660": 261.98,
+     "ft1000": null,
+     "et": 4.165,
+     "mph": 302.82,
+     "first": 0.0238,
+     "lane": "Right",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.88,
+     "ft330": 2.297,
+     "ft660": 3.318,
+     "mph660": 229.27,
+     "ft1000": null,
+     "et": 4.384,
+     "mph": 209.46,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.888,
+     "ft330": 2.313,
+     "ft660": 3.278,
+     "mph660": 270.81,
+     "ft1000": null,
+     "et": 4.041,
+     "mph": 320.05,
+     "first": 0.3526,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.36,
+     "ft60": 0.913,
+     "ft330": 2.949,
+     "ft660": 5.649,
+     "mph660": 82.09,
+     "ft1000": null,
+     "et": 8.511,
+     "mph": 79.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Todd Lesenko",
+     "car": "22",
+     "qpos_nhra": "17",
+     "mov": null
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.888,
+     "ft330": 2.302,
+     "ft660": 3.266,
+     "mph660": 267.0,
+     "ft1000": null,
+     "et": 4.06,
+     "mph": 302.75,
+     "first": 4.7103,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.107,
+     "ft60": 0.887,
+     "ft330": 2.323,
+     "ft660": 3.309,
+     "mph660": 262.79,
+     "ft1000": null,
+     "et": 4.098,
+     "mph": 310.41,
+     "first": 1.2332,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.116,
+     "ft60": 0.872,
+     "ft330": 2.298,
+     "ft660": 3.707,
+     "mph660": 152.37,
+     "ft1000": null,
+     "et": 5.322,
+     "mph": 136.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Hyde kept it hooked up and hitting on all eight with a good pass.\r\n\r\nPedregon started to smoke the tires early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.896,
+     "ft330": 2.324,
+     "ft660": 3.303,
+     "mph660": 262.23,
+     "ft1000": null,
+     "et": 4.107,
+     "mph": 300.33,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.126,
+     "ft60": 0.883,
+     "ft330": 2.287,
+     "ft660": 3.232,
+     "mph660": 274.11,
+     "ft1000": null,
+     "et": 3.99,
+     "mph": 321.04,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff is mixing up cylinders on the top end.\r\n\r\nGreen launched hard and kept it hooked up to make the quickest pass of the session."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.087,
+     "ft60": 0.882,
+     "ft330": 2.285,
+     "ft660": 3.373,
+     "mph660": 204.63,
+     "ft1000": null,
+     "et": 4.575,
+     "mph": 185.08,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.114,
+     "ft60": 0.895,
+     "ft330": 2.31,
+     "ft660": 3.265,
+     "mph660": 272.67,
+     "ft1000": null,
+     "et": 4.024,
+     "mph": 322.58,
+     "first": 0.5244,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 0.5244
+    }
+   ],
+   "note": "DeJoria drives into tire smoke and clicked it off.\r\n\r\nTodd is straight down the groove with his quickest pass of the weekend.  He moves into the top half of the\r\nshow.  He makes the third quickest pass of the session."
+  }
+ ]
+}

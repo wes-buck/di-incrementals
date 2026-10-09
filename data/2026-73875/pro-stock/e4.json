@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 1.053,
+     "ft330": 2.855,
+     "ft660": 4.31,
+     "mph660": 167.86,
+     "ft1000": 5.576,
+     "et": 6.642,
+     "mph": 211.39,
+     "first": 0.0138,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0138
+    },
+    {
+     "rt": 0.045,
+     "ft60": 1.037,
+     "ft330": 2.806,
+     "ft660": 4.284,
+     "mph660": 165.97,
+     "ft1000": 5.564,
+     "et": 6.643,
+     "mph": 208.59,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.06 inches, adjusted\r\naltitude 1,316 feet. \r\n\r\nGlenn is 10 - 3 against Coughlin Jr. in prior events and Coughlin Jr. is 1 - 0 against Glenn in prior final\r\nrounds. \r\n\r\nGlenn with the starting line advantage and kept it hooked up to take the win.  He wins his second Wally this\r\nseason and 23rd of his career."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 1.072,
+     "ft330": 2.847,
+     "ft660": 4.344,
+     "mph660": 163.2,
+     "ft1000": 5.657,
+     "et": 6.783,
+     "mph": 199.14,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.028,
+     "ft60": 1.05,
+     "ft330": 2.825,
+     "ft660": 4.329,
+     "mph660": 162.59,
+     "ft1000": 5.639,
+     "et": 6.756,
+     "mph": 201.46,
+     "first": 0.0484,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0484
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.07 inches, adjusted\r\naltitude 1,292 feet, track temperature 121 degrees.\r\n\r\nHerrera is 4 - 2 against Gadson in prior events. \r\n\r\nGadson with the starting line advantage for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 1.094,
+     "ft330": 2.898,
+     "ft660": 4.409,
+     "mph660": 162.06,
+     "ft1000": 5.731,
+     "et": 6.867,
+     "mph": 196.67,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 1.061,
+     "ft330": 2.827,
+     "ft660": 4.322,
+     "mph660": 164.13,
+     "ft1000": 5.62,
+     "et": 6.729,
+     "mph": 202.61,
+     "first": 0.1231,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1231
+    }
+   ],
+   "note": "M. Smith is 22 - 8 against A. Smith in prior events. \r\n\r\nAngie with the starting line advantage, but Matt chased her down for the win."
+  }
+ ]
+}

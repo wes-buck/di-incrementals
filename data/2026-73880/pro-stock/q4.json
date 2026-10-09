@@ -1,0 +1,269 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock/q4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock",
+ "round": "Q4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.141,
+     "ft60": 0.976,
+     "ft330": 2.766,
+     "ft660": 4.236,
+     "mph660": 165.64,
+     "ft1000": 5.518,
+     "et": 6.594,
+     "mph": 208.04,
+     "first": 0.1833,
+     "lane": "Left",
+     "win": true,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.287,
+     "ft60": 0.991,
+     "ft330": 2.793,
+     "ft660": 4.264,
+     "mph660": 165.78,
+     "ft1000": 5.548,
+     "et": 6.631,
+     "mph": 206.73,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.001,
+     "ft60": 0.979,
+     "ft330": 2.763,
+     "ft660": 4.229,
+     "mph660": 165.9,
+     "ft1000": 5.51,
+     "et": 6.587,
+     "mph": 209.33,
+     "first": 0.0065,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.002,
+     "ft60": 0.986,
+     "ft330": 2.759,
+     "ft660": 4.238,
+     "mph660": 166.76,
+     "ft1000": 5.516,
+     "et": 6.592,
+     "mph": 208.78,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 0.984,
+     "ft330": 2.756,
+     "ft660": 4.241,
+     "mph660": 165.44,
+     "ft1000": 5.522,
+     "et": 6.602,
+     "mph": 206.83,
+     "first": 0.0057,
+     "lane": "Left",
+     "win": true,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.979,
+     "ft330": 2.758,
+     "ft660": 4.219,
+     "mph660": 166.56,
+     "ft1000": 5.496,
+     "et": 6.574,
+     "mph": 207.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.017,
+     "ft60": 0.978,
+     "ft330": 2.75,
+     "ft660": 4.234,
+     "mph660": 165.19,
+     "ft1000": 5.514,
+     "et": 6.591,
+     "mph": 208.46,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.98,
+     "ft330": 2.743,
+     "ft660": 4.221,
+     "mph660": 166.31,
+     "ft1000": 5.502,
+     "et": 6.585,
+     "mph": 206.92,
+     "first": 0.0076,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 1.661,
+     "ft330": 9.372,
+     "ft660": 21.484,
+     "mph660": 84.08,
+     "ft1000": 39.345,
+     "et": 39.345,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.015,
+     "ft60": 0.979,
+     "ft330": 2.757,
+     "ft660": 4.223,
+     "mph660": 165.8,
+     "ft1000": 5.507,
+     "et": 6.585,
+     "mph": 209.1,
+     "first": 6.5486,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.121,
+     "ft60": 0.979,
+     "ft330": 2.763,
+     "ft660": 4.23,
+     "mph660": 165.68,
+     "ft1000": 5.512,
+     "et": 6.591,
+     "mph": 208.2,
+     "first": 0.137,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.974,
+     "ft330": 2.732,
+     "ft660": 4.207,
+     "mph660": 167.43,
+     "ft1000": 5.484,
+     "et": 6.562,
+     "mph": 207.08,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

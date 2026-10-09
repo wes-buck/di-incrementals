@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.897,
+     "ft330": 2.321,
+     "ft660": 3.281,
+     "mph660": 270.27,
+     "ft1000": null,
+     "et": 4.068,
+     "mph": 300.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.1,
+     "ft60": 0.882,
+     "ft330": 2.282,
+     "ft660": 3.223,
+     "mph660": 274.78,
+     "ft1000": null,
+     "et": 3.98,
+     "mph": 324.83,
+     "first": 0.0688,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "4",
+     "mov": 0.0688
+    }
+   ],
+   "note": "2:09 p.m. Weather conditions: air temperature 83 degrees, relative humidity 59 percent, barometer 30.06 inches, adjusted altitude 2,209 feet, track temperature 112 degrees.\r\n\r\nVandergriff gets the advantage off of the line but he loses a cylinder early in the run. The chute deploys about 700 feet out. Green goes down the groove with a good run to take the win.\r\n\r\nGreen is going to his fifth career final round and is the defending Gatornationals Funny Car champion."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.904,
+     "ft330": 2.328,
+     "ft660": 3.284,
+     "mph660": 272.72,
+     "ft1000": null,
+     "et": 4.04,
+     "mph": 325.45,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": -0.099,
+     "ft60": 1.042,
+     "ft330": 2.476,
+     "ft660": 3.446,
+     "mph660": 270.97,
+     "ft1000": null,
+     "et": 4.202,
+     "mph": 326.79,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria is 10 - 8 against Todd in prior events. \r\n\r\nTodd double-steps the throttle and turns on the red bulb giving the win DeJoria. DeJoria goes down the groove with a clean pass to take the win.\r\n\r\nDeJoria is going to her 17th career final round. She will give up lane choice to Green in the final round."
+  }
+ ]
+}

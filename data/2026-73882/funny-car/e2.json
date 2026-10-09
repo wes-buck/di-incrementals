@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.154,
+     "ft60": 0.89,
+     "ft330": 2.5,
+     "ft660": 4.436,
+     "mph660": 110.27,
+     "ft1000": null,
+     "et": 6.726,
+     "mph": 95.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.877,
+     "ft330": 2.276,
+     "ft660": 3.225,
+     "mph660": 268.6,
+     "ft1000": null,
+     "et": 4.065,
+     "mph": 270.48,
+     "first": 2.7494,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 2.7494
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 65 percent, barometer 30.03 inches, adjusted\r\naltitude 1,427 feet, track temperature 96 degrees.\r\n\r\nProck is 1 - 0 against Richards in prior events. \r\n\r\nProck with the starting line advantage, but then the chutes deploys just before half track.  He holds on for\r\nthe win.\r\n\r\nRichards is in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.886,
+     "ft330": 2.298,
+     "ft660": 3.249,
+     "mph660": 274.39,
+     "ft1000": null,
+     "et": 4.002,
+     "mph": 323.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.874,
+     "ft330": 2.25,
+     "ft660": 3.182,
+     "mph660": 280.49,
+     "ft1000": null,
+     "et": 3.93,
+     "mph": 322.19,
+     "first": 0.0873,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0873
+    }
+   ],
+   "note": "Hagan is 14 - 2 against Lee in prior events. \r\n\r\nHagan with the starting line advantage and never trailed for the win.\r\n\r\nLee with a clean pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.867,
+     "ft330": 2.245,
+     "ft660": 3.163,
+     "mph660": 282.72,
+     "ft1000": null,
+     "et": 3.899,
+     "mph": 330.72,
+     "first": 0.2643,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": 0.2643
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.912,
+     "ft330": 2.324,
+     "ft660": 3.259,
+     "mph660": 275.84,
+     "ft1000": null,
+     "et": 4.134,
+     "mph": 255.15,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Beckman is 30 - 17 against Pedregon in prior events. \r\n\r\nBeckman with the starting line advantage and never trailed for the win.  He makes the quickest pass of the\r\nround, he will have lane choice over Prock in the semifinal.\r\n\r\nPedregon started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.881,
+     "ft330": 2.281,
+     "ft660": 3.22,
+     "mph660": 274.61,
+     "ft1000": null,
+     "et": 3.981,
+     "mph": 319.29,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.882,
+     "ft330": 2.288,
+     "ft660": 3.209,
+     "mph660": 285.41,
+     "ft1000": null,
+     "et": 3.939,
+     "mph": 334.4,
+     "first": 0.0302,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 0.0302
+    }
+   ],
+   "note": "Vandergriff is 2 - 1 against Todd in prior events. \r\n\r\nVandergriff with the starting line advantage, but Todd chased him down around 800 feet and takes the win.  He\r\nwill give up lane choice to Hagan in the semifinal."
+  }
+ ]
+}

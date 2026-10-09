@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 0.95,
+     "ft330": 2.543,
+     "ft660": 3.782,
+     "mph660": 199.49,
+     "ft1000": 4.841,
+     "et": 5.736,
+     "mph": 251.81,
+     "first": 1.0557,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.146,
+     "ft60": 0.959,
+     "ft330": 2.552,
+     "ft660": 3.973,
+     "mph660": 155.51,
+     "ft1000": 5.512,
+     "et": 7.055,
+     "mph": 136.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 99 degrees, relative humidity 10 percent, barometer 29.69 inches, adjusted\r\naltitude 4,341 feet. \r\n\r\nJackson is 4 - 1 against Bond in prior events and each has won 1 times against the other in final rounds. \r\n\r\nJackson goes red to give Bond the win.  Bond with his quickest pass of race day.  Bond wins his seventh career\r\nWally."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.843,
+     "ft330": 2.148,
+     "ft660": 3.023,
+     "mph660": 295.14,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 331.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.858,
+     "ft330": 2.168,
+     "ft660": 3.049,
+     "mph660": 291.19,
+     "ft1000": null,
+     "et": 3.772,
+     "mph": 334.98,
+     "first": 0.0024,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "7",
+     "mov": 0.0024
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.837,
+     "ft330": 2.132,
+     "ft660": 3.154,
+     "mph660": 230.84,
+     "ft1000": null,
+     "et": 4.105,
+     "mph": 251.77,
+     "first": 0.8064,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.8064
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.857,
+     "ft330": 2.313,
+     "ft660": 3.591,
+     "mph660": 189.55,
+     "ft1000": null,
+     "et": 4.917,
+     "mph": 164.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

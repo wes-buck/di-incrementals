@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.875,
+     "ft330": 2.215,
+     "ft660": 3.13,
+     "mph660": 279.96,
+     "ft1000": null,
+     "et": 3.887,
+     "mph": 316.52,
+     "first": 0.0019,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": 0.0019
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.861,
+     "ft330": 2.216,
+     "ft660": 3.157,
+     "mph660": 274.78,
+     "ft1000": null,
+     "et": 3.926,
+     "mph": 314.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.879,
+     "ft330": 2.228,
+     "ft660": 3.166,
+     "mph660": 264.03,
+     "ft1000": null,
+     "et": 3.979,
+     "mph": 297.68,
+     "first": 0.4378,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.4378
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.855,
+     "ft330": 2.18,
+     "ft660": 3.224,
+     "mph660": 214.14,
+     "ft1000": null,
+     "et": 4.396,
+     "mph": 187.31,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

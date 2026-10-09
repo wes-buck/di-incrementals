@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/top-fuel/q4",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "top-fuel",
+ "round": "Q4",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.86,
+     "ft330": 2.194,
+     "ft660": 3.11,
+     "mph660": 276.46,
+     "ft1000": null,
+     "et": 4.021,
+     "mph": 241.2,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Keith Murt",
+     "car": "355",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 48 percent, barometer 30.10 inches, adjusted\r\naltitude 2,493 feet, track temperature 110 degrees.\r\n\r\nMurt started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.842,
+     "ft330": 2.456,
+     "ft660": 4.604,
+     "mph660": 97.63,
+     "ft1000": null,
+     "et": 7.034,
+     "mph": 96.03,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Smith is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.136,
+     "ft60": 0.86,
+     "ft330": 2.187,
+     "ft660": 3.092,
+     "mph660": 283.19,
+     "ft1000": null,
+     "et": 3.9,
+     "mph": 274.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.854,
+     "ft330": 2.159,
+     "ft660": 3.029,
+     "mph660": 293.22,
+     "ft1000": null,
+     "et": 3.756,
+     "mph": 329.18,
+     "first": 0.1927,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Millican is hazing the tires early, but stays with it.  He will not improve.\r\n\r\nPruett launched hard and kept it hooked up to move into the top half of the field."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.848,
+     "ft330": 2.374,
+     "ft660": 4.332,
+     "mph660": 106.96,
+     "ft1000": null,
+     "et": 6.799,
+     "mph": 86.12,
+     "first": 0.7165,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.877,
+     "ft330": 2.645,
+     "ft660": 5.046,
+     "mph660": 91.37,
+     "ft1000": null,
+     "et": 7.508,
+     "mph": 95.71,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Reed starts to lose traction and clicked it off.\r\n\r\nSchumacher is dropping cylinders right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.857,
+     "ft330": 2.16,
+     "ft660": 3.042,
+     "mph660": 290.63,
+     "ft1000": null,
+     "et": 3.775,
+     "mph": 325.45,
+     "first": 1.9713,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.848,
+     "ft330": 2.241,
+     "ft660": 3.827,
+     "mph660": 133.7,
+     "ft1000": null,
+     "et": 5.739,
+     "mph": 113.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Brown kept it hooked up and hitting on all eight.  He will not improve.\r\n\r\nStewart is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.85,
+     "ft330": 2.147,
+     "ft660": 3.015,
+     "mph660": 294.24,
+     "ft1000": null,
+     "et": 3.741,
+     "mph": 329.58,
+     "first": 1.2082,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.849,
+     "ft330": 2.172,
+     "ft660": 3.462,
+     "mph660": 164.95,
+     "ft1000": null,
+     "et": 5.003,
+     "mph": 141.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Torrence launched hard and kept it hooked up to make the quickest pass of the session.  He moves up the ladder\r\none spot.  Billy Torrence's incremental times: 60ft-0.850 sec., 330ft-2.147, 660ft-3.015/294.24 mph. \r\n\r\nAshley drives into tire smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.071,
+     "ft60": 0.852,
+     "ft330": 2.144,
+     "ft660": 3.01,
+     "mph660": 297.02,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 330.8,
+     "first": 1.0138,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.835,
+     "ft330": 2.137,
+     "ft660": 3.331,
+     "mph660": 179.33,
+     "ft1000": null,
+     "et": 4.742,
+     "mph": 154.94,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Gordon launched hard and kept it hooked to make the quickest pass of the session.  she will stay in the number\r\ntwo spot.  Maddi Gordon's incremental times: 60ft-0.852 sec., 330ft-2.144, 660ft-3.010/297.02 mph. \r\n\r\nLangdon starts to lose traction and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.106,
+     "ft60": 0.858,
+     "ft330": 2.161,
+     "ft660": 3.188,
+     "mph660": 216.83,
+     "ft1000": null,
+     "et": 4.348,
+     "mph": 191.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.84,
+     "ft330": 2.129,
+     "ft660": 3.002,
+     "mph660": 293.98,
+     "ft1000": null,
+     "et": 3.726,
+     "mph": 329.5,
+     "first": 0.6591,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 0.6591
+    }
+   ],
+   "note": "Hart starts to lose traction and clicked it off.  He will start Sunday from the number 10 spot.\r\n\r\nKalitta launched hard and kept it hooked up to make the quickest pass of the session.  Doug Kalitta's\r\nincremental times: 60ft-0.840 sec., 330ft-2.129, 660ft-3.002/293.98 mph."
+  }
+ ]
+}

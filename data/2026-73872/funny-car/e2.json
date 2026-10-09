@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.105,
+     "ft60": 0.926,
+     "ft330": 2.394,
+     "ft660": 3.412,
+     "mph660": 252.24,
+     "ft1000": null,
+     "et": 4.252,
+     "mph": 286.32,
+     "first": 3.5742,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "6",
+     "mov": 3.5742
+    },
+    {
+     "rt": 0.086,
+     "ft60": 1.044,
+     "ft330": 3.28,
+     "ft660": 5.406,
+     "mph660": 101.01,
+     "ft1000": null,
+     "et": 7.845,
+     "mph": 90.76,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.886,
+     "ft330": 2.348,
+     "ft660": 3.445,
+     "mph660": 207.5,
+     "ft1000": null,
+     "et": 4.621,
+     "mph": 189.71,
+     "first": 0.0402,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0402
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.9,
+     "ft330": 2.316,
+     "ft660": 3.43,
+     "mph660": 200.26,
+     "ft1000": null,
+     "et": 4.65,
+     "mph": 181.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.892,
+     "ft330": 2.35,
+     "ft660": 3.357,
+     "mph660": 258.96,
+     "ft1000": null,
+     "et": 4.157,
+     "mph": 307.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.893,
+     "ft330": 2.31,
+     "ft660": 3.288,
+     "mph660": 255.15,
+     "ft1000": null,
+     "et": 4.144,
+     "mph": 274.39,
+     "first": 0.0277,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.0277
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.901,
+     "ft330": 2.351,
+     "ft660": 3.345,
+     "mph660": 259.91,
+     "ft1000": null,
+     "et": 4.16,
+     "mph": 297.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.893,
+     "ft330": 2.342,
+     "ft660": 3.339,
+     "mph660": 258.57,
+     "ft1000": null,
+     "et": 4.145,
+     "mph": 301.27,
+     "first": 0.0106,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "1",
+     "mov": 0.0106
+    }
+   ],
+   "note": null
+  }
+ ]
+}

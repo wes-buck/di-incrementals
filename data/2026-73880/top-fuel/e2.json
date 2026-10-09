@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.877,
+     "ft330": 2.39,
+     "ft660": 3.777,
+     "mph660": 166.7,
+     "ft1000": null,
+     "et": 5.29,
+     "mph": 144.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.862,
+     "ft330": 2.175,
+     "ft660": 3.245,
+     "mph660": 222.14,
+     "ft1000": null,
+     "et": 4.29,
+     "mph": 213.67,
+     "first": 0.9896,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": 0.9896
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 70 percent, barometer 29.94 inches, adjusted\r\naltitude 3,067 feet, track temperature 114 degrees.\r\n\r\nMillican is 8 - 6 against Hart in prior events. \r\n\r\nHart with the starting line advantage, but is up in smoke.  Millican with the difference made up by the time\r\nthey go by the Christmas tree and then he is up in smoke.  He pedaled it and got it to hook up enough to get\r\nthe win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.863,
+     "ft330": 2.182,
+     "ft660": 3.07,
+     "mph660": 287.35,
+     "ft1000": null,
+     "et": 3.891,
+     "mph": 268.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.864,
+     "ft330": 2.179,
+     "ft660": 3.071,
+     "mph660": 287.66,
+     "ft1000": null,
+     "et": 3.806,
+     "mph": 329.34,
+     "first": 0.0886,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "14",
+     "mov": 0.0886
+    }
+   ],
+   "note": "Brown is 44 - 35 against Schumacher in prior events. \r\n\r\nBrown with a slight starting line advantage and never trailed for the win.  Schumacher is chasing him down\r\nuntil the car goes silent.  Brown with lane choice over Millican in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.859,
+     "ft330": 2.18,
+     "ft660": 3.064,
+     "mph660": 291.76,
+     "ft1000": null,
+     "et": 3.788,
+     "mph": 334.4,
+     "first": 6.4546,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "5",
+     "mov": 6.4546
+    },
+    {
+     "rt": 0.059,
+     "ft60": 1.057,
+     "ft330": 4.188,
+     "ft660": 7.279,
+     "mph660": 78.19,
+     "ft1000": null,
+     "et": 10.253,
+     "mph": 71.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Gordon is 2 - 1 against Stewart in prior events. \r\n\r\nStewart with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nGordon launched hard and kept it hooked up for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.863,
+     "ft330": 2.182,
+     "ft660": 3.101,
+     "mph660": 265.06,
+     "ft1000": null,
+     "et": 3.939,
+     "mph": 279.21,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.86,
+     "ft330": 2.17,
+     "ft660": 3.049,
+     "mph660": 292.27,
+     "ft1000": null,
+     "et": 3.772,
+     "mph": 335.4,
+     "first": 0.2032,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.2032
+    }
+   ],
+   "note": "Langdon is 31 - 22 against Kalitta in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win.  He will have lane choice over Gordon\r\nin the semifinal."
+  }
+ ]
+}

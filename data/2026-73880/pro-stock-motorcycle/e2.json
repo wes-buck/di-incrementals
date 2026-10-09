@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.05,
+     "ft60": 1.084,
+     "ft330": 2.896,
+     "ft660": 4.437,
+     "mph660": 159.02,
+     "ft1000": 5.785,
+     "et": 6.934,
+     "mph": 195.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.03,
+     "ft60": 1.072,
+     "ft330": 2.872,
+     "ft660": 4.4,
+     "mph660": 160.21,
+     "ft1000": 5.739,
+     "et": 6.893,
+     "mph": 194.1,
+     "first": 0.0613,
+     "lane": "Right",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0613
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 70 percent, barometer 29.94 inches, adjusted\r\naltitude 3,067 feet, track temperature 114 degrees.\r\n\r\nGladstone is 1 - 0 against Hall in prior events. \r\n\r\nGladstone with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.022,
+     "ft60": 1.082,
+     "ft330": 2.874,
+     "ft660": 4.398,
+     "mph660": 159.72,
+     "ft1000": 5.731,
+     "et": 6.865,
+     "mph": 197.48,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.041,
+     "ft60": 1.094,
+     "ft330": 2.899,
+     "ft660": 4.433,
+     "mph660": 159.57,
+     "ft1000": 5.776,
+     "et": 6.925,
+     "mph": 195.22,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Brayden Davis",
+     "car": "5",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Smith is 4 - 1 against Davis in prior events. \r\n\r\nDavis goes red to give Smith the win.\r\n\r\nSmith is straight down the groove for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.026,
+     "ft60": 1.064,
+     "ft330": 2.899,
+     "ft660": 4.477,
+     "mph660": 154.69,
+     "ft1000": 5.856,
+     "et": 7.03,
+     "mph": 191.21,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 1.051,
+     "ft330": 2.845,
+     "ft660": 4.368,
+     "mph660": 160.69,
+     "ft1000": 5.699,
+     "et": 6.836,
+     "mph": 197.54,
+     "first": 0.1893,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1893
+    }
+   ],
+   "note": "Gadson is 8 - 5 against Van Sant in prior events. \r\n\r\nVan Sant with a slight starting line advantage, but Gadson has the lead as they go by the Christmas tree and\r\nnever trails from there on for the win.  He will have lane choice over Gladstone in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 1.079,
+     "ft330": 2.887,
+     "ft660": 4.422,
+     "mph660": 159.34,
+     "ft1000": 5.764,
+     "et": 6.906,
+     "mph": 196.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jianna Evaristo",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 1.049,
+     "ft330": 2.838,
+     "ft660": 4.356,
+     "mph660": 161.29,
+     "ft1000": 5.683,
+     "et": 6.816,
+     "mph": 198.35,
+     "first": 0.1168,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1168
+    }
+   ],
+   "note": "Herrera is 6 - 2 against Evaristo in prior events. \r\n\r\nHerrera with the starting line advantage and never trailed for the win.  He will have lane choice over Smith\r\nin the semifinal"
+  }
+ ]
+}

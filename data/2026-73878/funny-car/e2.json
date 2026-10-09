@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.889,
+     "ft330": 2.328,
+     "ft660": 3.3,
+     "mph660": 264.8,
+     "ft1000": null,
+     "et": 4.109,
+     "mph": 285.53,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.905,
+     "ft330": 2.308,
+     "ft660": 3.238,
+     "mph660": 280.66,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 331.53,
+     "first": 0.1273,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "4",
+     "mov": 0.1273
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 61 percent, barometer 29.69 inches, adjusted\r\naltitude 2,069 feet, track temperature 109 degrees.\r\n\r\nTodd is 13 - 2 against Alexander in prior events. \r\n\r\nAlexander with the starting line advantage, but the car starts drifting out of the groove toward the wall\r\nbefore he lifts.\r\n\r\nTodd kept it hooked up and hitting on all eight for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.882,
+     "ft330": 2.31,
+     "ft660": 3.265,
+     "mph660": 273.11,
+     "ft1000": null,
+     "et": 4.02,
+     "mph": 323.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.894,
+     "ft330": 2.28,
+     "ft660": 3.198,
+     "mph660": 281.07,
+     "ft1000": null,
+     "et": 3.943,
+     "mph": 324.75,
+     "first": 0.0678,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": 0.0678
+    }
+   ],
+   "note": "Hagan is 34 - 26 against Beckman in prior events. \r\n\r\nHagan with the starting line advantage, but Beckman has the difference made up b 330 feet and takes the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.907,
+     "ft330": 2.294,
+     "ft660": 3.223,
+     "mph660": 277.83,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 322.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.896,
+     "ft330": 2.278,
+     "ft660": 3.199,
+     "mph660": 281.13,
+     "ft1000": null,
+     "et": 3.942,
+     "mph": 324.51,
+     "first": 0.0331,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": 0.0331
+    }
+   ],
+   "note": "Green and Vandergriff have each won 2 times against the other in prior events. \r\n\r\nThey have identical reaction times, but Vandergriff has the lead from there on for the win.  Jordan\r\nVandergriff's MOV: 0.0331 seconds (approximately 16 feet).  He makes the quickest pass of the round for the\r\nwin and lane choice over Todd in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.056,
+     "ft60": 0.898,
+     "ft330": 2.286,
+     "ft660": 3.211,
+     "mph660": 280.19,
+     "ft1000": null,
+     "et": 3.953,
+     "mph": 328.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.07,
+     "ft60": 0.895,
+     "ft330": 2.283,
+     "ft660": 3.199,
+     "mph660": 282.3,
+     "ft1000": null,
+     "et": 3.938,
+     "mph": 327.11,
+     "first": 0.0018,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "6",
+     "mov": 0.0018
+    }
+   ],
+   "note": "Capps is 31 - 6 against DeJoria in prior events. \r\n\r\nDeJoria with the starting line advantage and the lead until right in the lights when Capps drove around her\r\nfor the win in a close one.  Ron Capps' MOV: 0.0018 seconds (approximately 10 inches).  Capps with the\r\nquickest pass of the round and will have lane choice over Beckman in the semifinal."
+  }
+ ]
+}

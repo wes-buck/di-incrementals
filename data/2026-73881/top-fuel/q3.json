@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/top-fuel/q3",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "top-fuel",
+ "round": "Q3",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.109,
+     "ft60": 0.849,
+     "ft330": 2.161,
+     "ft660": 3.412,
+     "mph660": 170.04,
+     "ft1000": null,
+     "et": 4.908,
+     "mph": 145.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.05,
+     "ft60": 0.859,
+     "ft330": 2.172,
+     "ft660": 3.061,
+     "mph660": 288.77,
+     "ft1000": null,
+     "et": 3.799,
+     "mph": 320.74,
+     "first": 1.1687,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.101,
+     "ft60": 0.848,
+     "ft330": 2.134,
+     "ft660": 3.006,
+     "mph660": 292.52,
+     "ft1000": null,
+     "et": 3.726,
+     "mph": 336.57,
+     "first": 0.0722,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.862,
+     "ft330": 2.195,
+     "ft660": 3.096,
+     "mph660": 284.93,
+     "ft1000": null,
+     "et": 3.84,
+     "mph": 326.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Torrence launched hard and kept it hooked up to go to the number three spot.  Billy Torrence's incremental\r\ntimes: 60ft-0.848 sec., 330ft-2.134, 660ft-3.006/292.52 mph. \r\n\r\nSmith is straight down the groove to move up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.136,
+     "ft60": 0.846,
+     "ft330": 2.319,
+     "ft660": 4.102,
+     "mph660": 120.69,
+     "ft1000": null,
+     "et": 6.163,
+     "mph": 105.69,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.149,
+     "ft60": 0.852,
+     "ft330": 2.309,
+     "ft660": 4.065,
+     "mph660": 121.62,
+     "ft1000": null,
+     "et": 6.12,
+     "mph": 105.36,
+     "first": 0.0306,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Salinas is up in smoke right off the starting line and clicked off.\r\n\r\nHart is up in smoke by 150 feet and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.842,
+     "ft330": 2.42,
+     "ft660": 4.481,
+     "mph660": 103.32,
+     "ft1000": null,
+     "et": 6.908,
+     "mph": 89.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.119,
+     "ft60": 0.846,
+     "ft330": 2.133,
+     "ft660": 3.188,
+     "mph660": 206.45,
+     "ft1000": null,
+     "et": 4.411,
+     "mph": 178.73,
+     "first": 2.4542,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Stewart is up in smoke early and clicked it off.\r\n\r\nPruett drives into tire smoke and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.834,
+     "ft330": 2.113,
+     "ft660": 3.155,
+     "mph660": 209.75,
+     "ft1000": null,
+     "et": 4.352,
+     "mph": 183.74,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.854,
+     "ft330": 2.168,
+     "ft660": 3.074,
+     "mph660": 281.3,
+     "ft1000": null,
+     "et": 3.823,
+     "mph": 323.19,
+     "first": 0.5184,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta started to haze the tires around half track and clicked it off.\r\n\r\nStewart has a hole out, but stays with it."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.844,
+     "ft330": 2.276,
+     "ft660": 3.564,
+     "mph660": 198.73,
+     "ft1000": null,
+     "et": 4.796,
+     "mph": 177.6,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.848,
+     "ft330": 2.163,
+     "ft660": 3.153,
+     "mph660": 225.9,
+     "ft1000": null,
+     "et": 4.274,
+     "mph": 195.68,
+     "first": 0.4942,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": 0.4942
+    }
+   ],
+   "note": "Brown is up in smoke early and clicked it off.\r\n\r\nMillican drives into tire smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.836,
+     "ft330": 2.123,
+     "ft660": 3.031,
+     "mph660": 261.32,
+     "ft1000": null,
+     "et": 3.913,
+     "mph": 252.38,
+     "first": 1.1781,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 1.1781
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.849,
+     "ft330": 2.183,
+     "ft660": 3.501,
+     "mph660": 161.07,
+     "ft1000": null,
+     "et": 5.078,
+     "mph": 138.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Langdon is hazing the tires on the top end.\r\n\r\nGordon is up in smoke early and clicked it off."
+  }
+ ]
+}

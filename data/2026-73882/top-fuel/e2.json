@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.84,
+     "ft330": 2.118,
+     "ft660": 2.971,
+     "mph660": 296.05,
+     "ft1000": null,
+     "et": 3.692,
+     "mph": 330.8,
+     "first": 0.0712,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.0712
+    },
+    {
+     "rt": 0.04,
+     "ft60": 0.846,
+     "ft330": 2.157,
+     "ft660": 3.035,
+     "mph660": 284.09,
+     "ft1000": null,
+     "et": 3.806,
+     "mph": 307.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 65 percent, barometer 30.03 inches, adjusted\r\naltitude 1,427 feet, track temperature 95 degrees.\r\n\r\nAshley is 9 - 8 against Pruett in prior events. \r\n\r\nAshley with the starting line advantage, but Pruett chased him down by half track for the win.  Pruett with\r\nher quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.835,
+     "ft330": 2.126,
+     "ft660": 2.998,
+     "mph660": 291.82,
+     "ft1000": null,
+     "et": 3.725,
+     "mph": 329.99,
+     "first": 0.0334,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": 0.0334
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.842,
+     "ft330": 2.145,
+     "ft660": 3.02,
+     "mph660": 292.52,
+     "ft1000": null,
+     "et": 3.745,
+     "mph": 332.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Brown is 12 - 6 against Torrence in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.844,
+     "ft330": 2.186,
+     "ft660": 3.387,
+     "mph660": 198.93,
+     "ft1000": null,
+     "et": 4.617,
+     "mph": 178.52,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.884,
+     "ft330": 2.197,
+     "ft660": 3.089,
+     "mph660": 285.23,
+     "ft1000": null,
+     "et": 3.834,
+     "mph": 324.12,
+     "first": 0.7861,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": 0.7861
+    }
+   ],
+   "note": "Stewart is 3 - 2 against Hart in prior events. \r\n\r\nHart with the slight starting line advantage and dropped a cylinder or two.  He held on for the win.  He will\r\ngive up lane choice to Pruett in the semifinal.\r\n\r\nStewart is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.849,
+     "ft330": 2.189,
+     "ft660": 3.442,
+     "mph660": 167.8,
+     "ft1000": null,
+     "et": 4.987,
+     "mph": 138.37,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.833,
+     "ft330": 2.11,
+     "ft660": 2.97,
+     "mph660": 296.24,
+     "ft1000": null,
+     "et": 3.69,
+     "mph": 332.75,
+     "first": 1.2927,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 1.2927
+    }
+   ],
+   "note": "Kalitta is 6 - 0 against Salinas in prior events. \r\n\r\nSalinas with a slight starting line advantage, but has a hole out right at the hit.  The car starts mixing up\r\ncylinders and the engine let go with a big fireball. Jasmine Salinas was charged with an oildown, #1 for the\r\nseason.\r\nThat will cost 5 points.\r\n\r\nKalitta launched hard and kept it hooked up to make the quickest pass of the round for the win.    He will\r\nhave lane choice over Brown in the semifinal."
+  }
+ ]
+}

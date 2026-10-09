@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.041,
+     "ft60": 0.992,
+     "ft330": 2.755,
+     "ft660": 4.227,
+     "mph660": 167.28,
+     "ft1000": 5.495,
+     "et": 6.562,
+     "mph": 209.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.993,
+     "ft330": 2.744,
+     "ft660": 4.206,
+     "mph660": 168.18,
+     "ft1000": 5.466,
+     "et": 6.53,
+     "mph": 210.41,
+     "first": 0.0204,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0204
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 61 percent, barometer 30.03 inches, adjusted altitude 2,197 feet.\r\n\r\nKalitta is 9 - 4 against Hart in prior events and this is the first time they have faced each other in a final round.\r\n\r\nKalitta with a slight starting line advantage, but Hart had the difference made up by 100 feet and never trailed from there on for the win.  Kalitta started to lose traction on the top end.\r\n\r\nHart wins his third National event Wally and second here.\r\n\r\nHart was No. 1 qualifier and the No. 1 qualifier has made the final round 27 times at this event and won it 15 times. \r\n\r\nThe No. 1 TF qualifier has won this race in 4 of the last 5 years.\r\nThis is the first time the No. 1 qualifier has won this event three consecutive years."
+  }
+ ]
+}

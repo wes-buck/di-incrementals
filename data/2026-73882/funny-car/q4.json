@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/q4",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "Q4",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.872,
+     "ft330": 2.261,
+     "ft660": 3.198,
+     "mph660": 276.46,
+     "ft1000": null,
+     "et": 3.94,
+     "mph": 329.18,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 58 percent, barometer 29.97 inches, adjusted\r\naltitude 1,476 feet, track temperature 98 degrees.\r\n\r\nCapps with a good clean pass, straight down the groove.  He makes his quickest pass of the weekend to move\r\ninto the top half of the show.  Ron Capps' incremental times: 60ft-0.872 sec., 330ft-2.261, 660ft-3.198/276.46\r\nmph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.178,
+     "ft60": 0.87,
+     "ft330": 2.254,
+     "ft660": 3.225,
+     "mph660": 247.11,
+     "ft1000": null,
+     "et": 4.197,
+     "mph": 229.9,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.883,
+     "ft330": 2.3,
+     "ft660": 3.273,
+     "mph660": 262.69,
+     "ft1000": null,
+     "et": 4.091,
+     "mph": 280.72,
+     "first": 0.2228,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tim Gibbons",
+     "car": "765",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Richards with a good pass early, but then starts to lose traction and clicks it off.\r\n\r\nGibbons with a good pass early the car is drifting out of the groove on the top end and he clicked it off\r\nearly.  He gets off the bump spot to the number 14 spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.882,
+     "ft330": 2.296,
+     "ft660": 3.237,
+     "mph660": 277.32,
+     "ft1000": null,
+     "et": 4.005,
+     "mph": 313.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.863,
+     "ft330": 2.264,
+     "ft660": 3.195,
+     "mph660": 280.72,
+     "ft1000": null,
+     "et": 3.936,
+     "mph": 330.07,
+     "first": 0.0855,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Alexander is straight down the groove with a clean pass.  He will not improve.\r\n\r\nVandergriff launched hard and kept it hooked up to go to the number four spot.  Jordan Vandergriff's\r\nincremental times: 60ft-0.863 sec., 330ft-2.264, 660ft-3.195/280.72 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.862,
+     "ft330": 2.233,
+     "ft660": 3.149,
+     "mph660": 282.3,
+     "ft1000": null,
+     "et": 3.89,
+     "mph": 327.43,
+     "first": 2.4995,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.879,
+     "ft330": 2.415,
+     "ft660": 4.24,
+     "mph660": 117.73,
+     "ft1000": null,
+     "et": 6.394,
+     "mph": 101.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Beckman is straight down the groove with his quickest pass of the weekend.  He goes to the number two spot.\r\nJack Beckman's incremental times: 60ft-0.862 sec., 330ft-2.233, 660ft-3.149/282.30 mph. \r\n\r\nLee lost traction early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.885,
+     "ft330": 2.264,
+     "ft660": 3.174,
+     "mph660": 285.59,
+     "ft1000": null,
+     "et": 3.9,
+     "mph": 337.41,
+     "first": 0.0047,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.866,
+     "ft330": 2.236,
+     "ft660": 3.162,
+     "mph660": 283.31,
+     "ft1000": null,
+     "et": 3.903,
+     "mph": 327.35,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria launched hard and kept it hooked up to go to the number three spot.  She makes her career fastest\r\npass.  Alexis DeJoria's incremental times: 60ft-0.885 sec., 330ft-2.264, 660ft-3.174/285.59 mph. \r\n\r\nHagan is straight down the groove to go to the number four spot.  Matt Hagan's incremental times: 60ft-0.866\r\nsec., 330ft-2.236, 660ft-3.162/283.31 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.109,
+     "ft60": 0.886,
+     "ft330": 2.271,
+     "ft660": 3.187,
+     "mph660": 282.07,
+     "ft1000": null,
+     "et": 3.929,
+     "mph": 328.38,
+     "first": 0.0422,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.136,
+     "ft60": 0.877,
+     "ft330": 2.264,
+     "ft660": 3.196,
+     "mph660": 280.02,
+     "ft1000": null,
+     "et": 3.944,
+     "mph": 325.92,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Hyde kept it hooked up and hitting on all eight to make his quickest pass of the weekend.  He moves up the\r\nladder one spot.\r\n\r\nPedregon is straight down the groove with another good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.099,
+     "ft60": 0.873,
+     "ft330": 2.251,
+     "ft660": 3.176,
+     "mph660": 281.48,
+     "ft1000": null,
+     "et": 3.908,
+     "mph": 336.74,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.886,
+     "ft330": 2.258,
+     "ft660": 3.176,
+     "mph660": 281.48,
+     "ft1000": null,
+     "et": 3.918,
+     "mph": 328.54,
+     "first": 0.0232,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Todd kept it hooked up and hitting on all eight to make another good pass.  He will not improve, but holds on\r\nto the number one spot.\r\n\r\nGreen is straight down the groove with another goo pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.878,
+     "ft330": 2.27,
+     "ft660": 3.186,
+     "mph660": 283.37,
+     "ft1000": null,
+     "et": 3.924,
+     "mph": 327.98,
+     "first": 2.1792,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "1",
+     "mov": 2.1792
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.876,
+     "ft330": 2.517,
+     "ft660": 4.354,
+     "mph660": 123.18,
+     "ft1000": null,
+     "et": 6.11,
+     "mph": 136.59,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson is straight down the groove with his quickest pass of the weekend to move into the top half of the\r\nshow.\r\n\r\nProck is up in smoke and clicked it off."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.825,
+     "ft330": 2.101,
+     "ft660": 2.963,
+     "mph660": 295.21,
+     "ft1000": null,
+     "et": 3.677,
+     "mph": 338.43,
+     "first": 0.0222,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.0222
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.835,
+     "ft330": 2.115,
+     "ft660": 2.969,
+     "mph660": 296.37,
+     "ft1000": null,
+     "et": 3.689,
+     "mph": 333.49,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 47 percent, barometer 30.02 inches, adjusted altitude 1,690 feet, track temperature 111 degrees.\r\n\r\nThe #1 TF qualifier is 11 - 4 in the Final round at this event\r\n\r\nKalitta is 25 - 13 against Pruett in prior events and Pruett is 2 - 1 against Kalitta in prior final rounds. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  Doug Kalitta's MOV: 0.0222 seconds (approximately 11 feet).\r\n\r\nKalitta wins his third Wally this season and 62nd of his career."
+  }
+ ]
+}

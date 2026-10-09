@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.0015,
+     "ft60": 1.0801,
+     "ft330": 2.8482,
+     "ft660": 4.353,
+     "mph660": 162.51,
+     "ft1000": 5.6727,
+     "et": 6.803,
+     "mph": 198.33,
+     "first": 0.0553,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0553
+    },
+    {
+     "rt": -0.0424,
+     "ft60": 1.0793,
+     "ft330": 2.8613,
+     "ft660": 4.369,
+     "mph660": 161.7,
+     "ft1000": 5.6991,
+     "et": 6.8992,
+     "mph": 176.06,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ronald Procopio Jr",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,316 feet, track temperature 92 degrees.\r\n\r\nProcopio goes red to give Hall the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0159,
+     "ft60": 1.0523,
+     "ft330": 2.8233,
+     "ft660": 4.3401,
+     "mph660": 161.12,
+     "ft1000": 5.6638,
+     "et": 6.7973,
+     "mph": 197.89,
+     "first": 3.232,
+     "lane": "Left",
+     "win": true,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.232
+    },
+    {
+     "rt": 0.0552,
+     "ft60": 1.0484,
+     "ft330": 2.898,
+     "ft660": 5.0555,
+     "mph660": 100.85,
+     "ft1000": 7.4828,
+     "et": 9.99,
+     "mph": 84.07,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Ingwersen and Oehler have each won 2 times against the other in prior events. \r\n\r\nIngwersen with the starting line advantage and never trailed for the win.  He will have lane choice\r\nin the final.\r\n\r\nIngwersen is the 74th rider to make a final in PSM."
+  }
+ ]
+}

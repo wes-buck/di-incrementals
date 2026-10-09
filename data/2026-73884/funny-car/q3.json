@@ -1,0 +1,440 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.119,
+     "ft60": 1.121,
+     "ft330": 4.541,
+     "ft660": 8.046,
+     "mph660": 68.68,
+     "ft1000": null,
+     "et": 11.153,
+     "mph": 77.96,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Schriefer",
+     "car": "3007",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "4:41 p.m. Weather conditions: air temperature 90 degrees, relative humidity 59 percent, barometer 29.86 inches, adjusted altitude 3,989 feet, track temperature 142 degrees.\r\n\r\nSchriefer hits the throttle and goes up in smoke."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.896,
+     "ft330": 2.311,
+     "ft660": 3.288,
+     "mph660": 265.64,
+     "ft1000": null,
+     "et": 4.077,
+     "mph": 305.63,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman goes down the groove with a decent run but he had a cylinder out late and he doesn't improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.109,
+     "ft60": 0.929,
+     "ft330": 2.397,
+     "ft660": 3.396,
+     "mph660": 259.71,
+     "ft1000": null,
+     "et": 4.196,
+     "mph": 303.71,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "21",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.925,
+     "ft330": 2.343,
+     "ft660": 3.305,
+     "mph660": 264.65,
+     "ft1000": null,
+     "et": 4.112,
+     "mph": 287.96,
+     "first": 0.1085,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Richards makes a full pass and gets into the field on the bump spot. King was on a good pass but it looked like the header flames disappeared a little early.\r\n\r\nDave Richards was charged with an oildown, #1 for the season. That will cost 5 points."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.112,
+     "ft60": 0.891,
+     "ft330": 2.29,
+     "ft660": 3.233,
+     "mph660": 271.84,
+     "ft1000": null,
+     "et": 4.002,
+     "mph": 315.49,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.095,
+     "ft60": 0.893,
+     "ft330": 2.274,
+     "ft660": 3.19,
+     "mph660": 280.31,
+     "ft1000": null,
+     "et": 3.944,
+     "mph": 319.45,
+     "first": 0.0756,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "6:56 p.m. Weather conditions: air temperature 85 degrees, relative humidity 72 percent, barometer 29.84 inches, adjusted altitude 3,724 feet, track temperature 111 degrees.\r\n\r\nVandergriff makes his quickest pass of the weekend and moves up a spot to tenth. Hyde goes down the groove with a good pass and he moves up to the fourth spot.\r\n\r\nJordan Vandergriff's incremental times: 60ft-0.891 sec., 330ft-2.290, 660ft-3.233/271.84 mph.\r\n\r\nSpencer Hyde's incremental times: 60ft-0.893 sec., 330ft-2.274, 660ft-3.190/280.31 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.894,
+     "ft330": 2.301,
+     "ft660": 3.224,
+     "mph660": 280.02,
+     "ft1000": null,
+     "et": 3.974,
+     "mph": 321.96,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson makes another good pass, his quickest of the weekend, but he stays in the seventh spot.\r\n\r\nDaniel Wilkerson's incremental times: 60ft-0.894 sec., 330ft-2.301, 660ft-3.224/280.02 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.877,
+     "ft330": 2.285,
+     "ft660": 3.257,
+     "mph660": 265.53,
+     "ft1000": null,
+     "et": 4.134,
+     "mph": 252.52,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "21",
+     "mov": null
+    },
+    {
+     "rt": 0.12,
+     "ft60": 0.905,
+     "ft330": 2.309,
+     "ft660": 3.276,
+     "mph660": 263.67,
+     "ft1000": null,
+     "et": 4.076,
+     "mph": 303.78,
+     "first": 0.0247,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.883,
+     "ft330": 2.291,
+     "ft660": 3.234,
+     "mph660": 277.94,
+     "ft1000": null,
+     "et": 3.979,
+     "mph": 327.59,
+     "first": 0.1117,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.121,
+     "ft60": 0.905,
+     "ft330": 2.319,
+     "ft660": 3.277,
+     "mph660": 270.21,
+     "ft1000": null,
+     "et": 4.045,
+     "mph": 318.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "19",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.903,
+     "ft330": 2.324,
+     "ft660": 3.28,
+     "mph660": 272.45,
+     "ft1000": null,
+     "et": 4.037,
+     "mph": 324.05,
+     "first": 0.0678,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.92,
+     "ft330": 2.37,
+     "ft660": 3.317,
+     "mph660": 275.22,
+     "ft1000": null,
+     "et": 4.092,
+     "mph": 298.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "19",
+     "mov": null
+    }
+   ],
+   "note": "Centerline"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.087,
+     "ft60": 0.925,
+     "ft330": 2.36,
+     "ft660": 3.329,
+     "mph660": 264.08,
+     "ft1000": null,
+     "et": 4.121,
+     "mph": 307.65,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.89,
+     "ft330": 2.277,
+     "ft660": 3.227,
+     "mph660": 266.58,
+     "ft1000": null,
+     "et": 4.022,
+     "mph": 302.96,
+     "first": 0.0881,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Green makes a full pass but doesn't improve. \r\n\r\nDeJoria loses a cylinder or two late in the run, raw fuel was coming out of the headers, then bangs the blower as she goes through the lights."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.115,
+     "ft60": 0.884,
+     "ft330": 2.26,
+     "ft660": 3.18,
+     "mph660": 282.6,
+     "ft1000": null,
+     "et": 3.914,
+     "mph": 332.18,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Capps goes down the groove with an impressive pass, the quickest of the weekend, and he takes the top spot for now.\r\n\r\nRon Capps' incremental times: 60ft-0.884 sec., 330ft-2.260, 660ft-3.180/282.60 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.874,
+     "ft330": 2.248,
+     "ft660": 3.166,
+     "mph660": 283.37,
+     "ft1000": null,
+     "et": 3.921,
+     "mph": 317.87,
+     "first": 0.0815,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0815
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.897,
+     "ft330": 2.303,
+     "ft660": 3.251,
+     "mph660": 274.61,
+     "ft1000": null,
+     "et": 4.006,
+     "mph": 325.06,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

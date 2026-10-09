@@ -1,0 +1,245 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/q3",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "Q3",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.873,
+     "ft330": 2.224,
+     "ft660": 3.482,
+     "mph660": 169.19,
+     "ft1000": null,
+     "et": 4.991,
+     "mph": 143.12,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "18",
+     "mov": null
+    }
+   ],
+   "note": "Smith is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.115,
+     "ft60": 0.9,
+     "ft330": 2.293,
+     "ft660": 3.251,
+     "mph660": 267.85,
+     "ft1000": null,
+     "et": 4.051,
+     "mph": 298.73,
+     "first": 0.0542,
+     "lane": "Left",
+     "win": true,
+     "driver": "Scott Farley",
+     "car": "F301",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.859,
+     "ft330": 2.178,
+     "ft660": 3.113,
+     "mph660": 252.24,
+     "ft1000": null,
+     "et": 4.11,
+     "mph": 219.94,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Farley with a good pass early, then it appeared to push out a head gasket.  The engine banged right\r\nin the lights.  He still makes his quickest pass of the weekend, but will not get in the show.\r\n\r\nGordon had a hole out early and then was up in smoke before she clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.172,
+     "ft60": 1.114,
+     "ft330": 2.847,
+     "ft660": 5.004,
+     "mph660": 101.07,
+     "ft1000": null,
+     "et": 7.365,
+     "mph": 95.47,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.097,
+     "ft60": 0.851,
+     "ft330": 2.415,
+     "ft660": 4.427,
+     "mph660": 105.98,
+     "ft1000": null,
+     "et": 6.658,
+     "mph": 100.46,
+     "first": 0.7823,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Ferre is dropping cylinders right at the hit and car pushes out of the groove, it is up in smoke\r\nbefore he clicked it off.\r\n\r\nSalinas is up in smoke right off the starting line and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 1.07,
+     "ft330": 4.393,
+     "ft660": 7.843,
+     "mph660": 70.41,
+     "ft1000": null,
+     "et": 11.216,
+     "mph": 64.55,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.182,
+     "ft60": 0.856,
+     "ft330": 2.24,
+     "ft660": 3.811,
+     "mph660": 133.67,
+     "ft1000": null,
+     "et": 5.754,
+     "mph": 110.19,
+     "first": 5.3984,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Ferre is dropping cylinders right at the hit and car pushes out of the groove, it is up in smoke\r\nbefore he clicked it off.\r\n\r\nSalinas is up in smoke right off the starting line and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.84,
+     "ft330": 2.317,
+     "ft660": 4.107,
+     "mph660": 117.1,
+     "ft1000": null,
+     "et": 6.289,
+     "mph": 101.39,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Gary Pritchett",
+     "car": "389",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.862,
+     "ft330": 2.25,
+     "ft660": 3.766,
+     "mph660": 139.88,
+     "ft1000": null,
+     "et": 5.587,
+     "mph": 119.12,
+     "first": 0.6684,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Mercier is up in smoke right at the hit and clicked it off.\r\n\r\nTatum started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.127,
+     "ft60": 0.86,
+     "ft330": 2.183,
+     "ft660": 3.305,
+     "mph660": 200.11,
+     "ft1000": null,
+     "et": 4.535,
+     "mph": 178.05,
+     "first": 0.4023,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 1.474,
+     "ft330": 5.765,
+     "ft660": 10.016,
+     "mph660": 52.86,
+     "ft1000": null,
+     "et": 14.959,
+     "mph": 42.79,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Torrence starts to lose traction before half track and clicked it off\r\n\r\nPruett is up in smoke right at the hit and clicked it off."
+  }
+ ]
+}

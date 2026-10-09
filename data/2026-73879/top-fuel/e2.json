@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.848,
+     "ft330": 2.167,
+     "ft660": 3.058,
+     "mph660": 287.6,
+     "ft1000": null,
+     "et": 3.805,
+     "mph": 320.05,
+     "first": 0.0472,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0472
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.861,
+     "ft330": 2.195,
+     "ft660": 3.094,
+     "mph660": 286.5,
+     "ft1000": null,
+     "et": 3.826,
+     "mph": 330.88,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 78 degrees, relative humidity 74 percent, barometer 29.90 inches, adjusted\r\naltitude 3,787 feet, track temperature 106 degrees.\r\n\r\nGordon is 2 - 0 against Stewart in prior events. \r\n\r\nStewart with the starting line advantage and never trailed for the win.  Stewart is dropping cylinders right\r\nin the light, but gets the win.\r\n\r\nGordon is straight down the groove with a good pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.848,
+     "ft330": 2.16,
+     "ft660": 3.053,
+     "mph660": 288.64,
+     "ft1000": null,
+     "et": 3.784,
+     "mph": 331.77,
+     "first": 0.1156,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.1156
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.867,
+     "ft330": 2.202,
+     "ft660": 3.114,
+     "mph660": 279.96,
+     "ft1000": null,
+     "et": 3.898,
+     "mph": 287.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "This is the 98th meeting between Schumacher & Kalitta and that's most for any two TF drivers (and 4th most\r\nbetween any 2 Pro drivers)\r\n\r\nSchumacher is 55 - 42 against Kalitta in prior events. \r\n\r\nKalitta with a tick advantage and never trailed for the win.  Kalitta with his quickest pass of the weekend\r\nfor the win.\r\n\r\nSchumacher had a hole out early and stayed with it.  On the top end the engine let go and the word is there is\r\noil.  Tony Schumacher was charged with an oildown, #4 for the season.\r\nThat will cost 15 points."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 0.861,
+     "ft330": 2.177,
+     "ft660": 3.066,
+     "mph660": 288.64,
+     "ft1000": null,
+     "et": 3.799,
+     "mph": 336.57,
+     "first": 0.7781,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": 0.7781
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.87,
+     "ft330": 2.359,
+     "ft660": 3.484,
+     "mph660": 232.51,
+     "ft1000": null,
+     "et": 4.549,
+     "mph": 206.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Brown is 6 - 1 against Reed in prior events. \r\n\r\nBrown with the starting line and never trailed for the win.  He makes his quickest pass of the weekend.  He\r\nwill give up lane choice to Kalitta in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.888,
+     "ft330": 2.244,
+     "ft660": 3.192,
+     "mph660": 269.67,
+     "ft1000": null,
+     "et": 3.977,
+     "mph": 315.12,
+     "first": 8.4853,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 8.4853
+    },
+    {
+     "rt": 0.073,
+     "ft60": 1.319,
+     "ft330": 4.497,
+     "ft660": 8.135,
+     "mph660": 59.9,
+     "ft1000": null,
+     "et": 12.454,
+     "mph": 49.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Leah Pruett is 65 - 66 in Rd. 2\r\n\r\nLangdon is 18 - 9 against Pruett in prior events. \r\n\r\nLangdon with problems with the throttle cable after the burnout.  He is first off the line and he is straight\r\ndown the groove. He is dropping cylinders from half track on.  He still gets the win.  Langdon will give up\r\nlane choice to Stewart in the semifinal.\r\n\r\nPruett is up in smoke right at the hit and pedaled it, but couldn't get it to hook up."
+  }
+ ]
+}

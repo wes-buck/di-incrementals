@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.009,
+     "ft60": 0.957,
+     "ft330": 2.548,
+     "ft660": 3.778,
+     "mph660": 201.58,
+     "ft1000": 4.838,
+     "et": 5.731,
+     "mph": 252.99,
+     "first": 3.9716,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "168",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.9716
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.987,
+     "ft330": 2.964,
+     "ft660": 5.08,
+     "mph660": 103.95,
+     "ft1000": 7.388,
+     "et": 9.682,
+     "mph": 93.34,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.06 inches, adjusted\r\naltitude 1,310 feet, track temperature 116 degrees.\r\n\r\nThis is the first time Collins and Thielen have faced each other in eliminations. \r\n\r\nCollins with a great light and never trailed for the win.  He wins his first Wally in first final round.\r\n\r\nThielen shook and clicked it off."
+  }
+ ]
+}

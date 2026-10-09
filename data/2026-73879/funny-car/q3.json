@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.913,
+     "ft330": 2.373,
+     "ft660": 3.387,
+     "mph660": 237.55,
+     "ft1000": null,
+     "et": 4.429,
+     "mph": 212.86,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 63 percent, barometer 29.99 inches, adjusted\r\naltitude 3,833 feet, track temperature 127 degrees.\r\n\r\nArend starts to lose traction and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.167,
+     "ft60": 0.906,
+     "ft330": 2.345,
+     "ft660": 3.34,
+     "mph660": 262.18,
+     "ft1000": null,
+     "et": 99.999,
+     "mph": 1.0,
+     "first": 0.0211,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.896,
+     "ft330": 2.33,
+     "ft660": 3.331,
+     "mph660": 258.57,
+     "ft1000": null,
+     "et": 4.126,
+     "mph": 309.06,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Richards with problems on the burnout.  He has no burnout, but launched hard and kept it hooked up to go to\r\nthe number two spot.  Dave Richards' incremental times: 60ft-0.906 sec., 330ft-2.345, 660ft-3.340/262.18 mph.   Richards had a bad speed number, then it was decided the throw the run out.\r\n\r\nWilkerson has a cylinder out early, but stays with it.  He goes to the number five spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1,
+     "ft60": 0.896,
+     "ft330": 2.315,
+     "ft660": 3.257,
+     "mph660": 276.46,
+     "ft1000": null,
+     "et": 4.01,
+     "mph": 326.0,
+     "first": 0.3271,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.133,
+     "ft60": 0.901,
+     "ft330": 2.315,
+     "ft660": 3.307,
+     "mph660": 244.69,
+     "ft1000": null,
+     "et": 4.304,
+     "mph": 224.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria launched hard and kept it hooked up to go to the number two spot.  Alexis DeJoria's incremental times:\r\n60ft-0.896 sec., 330ft-2.315, 660ft-3.257/276.46 mph. \r\n\r\nPedregon drives into tire smoke and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.904,
+     "ft330": 2.352,
+     "ft660": 3.343,
+     "mph660": 262.08,
+     "ft1000": null,
+     "et": 4.136,
+     "mph": 309.49,
+     "first": 0.0782,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.096,
+     "ft60": 0.898,
+     "ft330": 2.347,
+     "ft660": 3.366,
+     "mph660": 252.43,
+     "ft1000": null,
+     "et": 4.184,
+     "mph": 299.6,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Green drops a cylinder on top end, but stayed with it.  He makes his quickest pass of the weekend, but will\r\nstay in the number seven spot.\r\n\r\nHyde with a good pass until on the top end when it began to spin the tires and he clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.888,
+     "ft330": 2.303,
+     "ft660": 3.314,
+     "mph660": 236.26,
+     "ft1000": null,
+     "et": 4.357,
+     "mph": 213.03,
+     "first": 2.0307,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.095,
+     "ft60": 0.893,
+     "ft330": 2.485,
+     "ft660": 4.36,
+     "mph660": 117.33,
+     "ft1000": null,
+     "et": 6.352,
+     "mph": 114.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Prock started to break the tires loose just past half track and he clicked it off.\r\n\r\nHagan is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.896,
+     "ft330": 2.32,
+     "ft660": 3.384,
+     "mph660": 211.53,
+     "ft1000": null,
+     "et": 4.548,
+     "mph": 191.73,
+     "first": 4.8155,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 4.8155
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.949,
+     "ft330": 3.64,
+     "ft660": 6.605,
+     "mph660": 79.89,
+     "ft1000": null,
+     "et": 9.363,
+     "mph": 85.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff lost traction and clicked it off.\r\n\r\nTodd is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.895,
+     "ft330": 2.32,
+     "ft660": 3.298,
+     "mph660": 255.24,
+     "ft1000": null,
+     "et": 4.244,
+     "mph": 235.89,
+     "first": 1.0867,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 1.0867
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.901,
+     "ft330": 2.333,
+     "ft660": 3.736,
+     "mph660": 152.93,
+     "ft1000": null,
+     "et": 5.341,
+     "mph": 137.96,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman starts to lose traction on the toop end and is over by the centerline before he clicked it off.\r\n\r\nCapps was really loose early and clicked it off."
+  }
+ ]
+}

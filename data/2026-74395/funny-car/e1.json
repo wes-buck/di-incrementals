@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0237,
+     "ft60": 0.8796,
+     "ft330": 2.2652,
+     "ft660": 3.1712,
+     "mph660": 285.53,
+     "ft1000": null,
+     "et": 3.9098,
+     "mph": 328.23,
+     "first": 0.0101,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dan WIlkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": 0.0101
+    },
+    {
+     "rt": 0.0236,
+     "ft60": 0.8987,
+     "ft330": 2.2741,
+     "ft660": 3.1792,
+     "mph660": 284.09,
+     "ft1000": null,
+     "et": 3.92,
+     "mph": 328.95,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 73 percent, barometer 30.17 inches,\r\nadjusted altitude 1,035 feet. \r\n\r\n13 of the 14 Funny Car wins this year have come from the top half of the field.\r\nAustin Prock's win in Budds Creek (#11) is the only Funny Car win this year from the bottom half of\r\nthe field.\r\n\r\nDaniel Wilkerson is 6-8 in Round 1 this year.\r\nSpencer Hyde has lost in Round 1 at the last three races. His average E.T. in those three losses is\r\n5.456.\r\nThis is the only Funny Car Round 1 matchup in which neither driver has won a race.\r\n\r\nThey leave together and Wilkerson get the win in a close race.  Daniel Wilkerson's MOV: 0.0110\r\nseconds (approximately 5 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0434,
+     "ft60": 0.8835,
+     "ft330": 2.2509,
+     "ft660": 3.1411,
+     "mph660": 291.83,
+     "ft1000": null,
+     "et": 3.8596,
+     "mph": 339.37,
+     "first": 8.2416,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": 8.2416
+    },
+    {
+     "rt": 0.0212,
+     "ft60": 1.4378,
+     "ft330": 5.6034,
+     "ft660": 9.1757,
+     "mph660": 71.82,
+     "ft1000": null,
+     "et": 12.1234,
+     "mph": 80.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Ron Capps' last four losses this year have come against current or former Funny Car World Champions.\r\nHe is 36-18 in Round 1 when qualified #7.\r\nIn his eight races since his win in Chicago, Chad Green is 4-8.\r\n\r\nCapps is 8 - 5 against Green in prior events. \r\n\r\nGreen with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nCapps launched hard and kept it hooked up and makes his career fastest pass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.8767,
+     "ft330": 2.2461,
+     "ft660": 3.1529,
+     "mph660": 285.17,
+     "ft1000": null,
+     "et": 3.8846,
+     "mph": 335.07,
+     "first": 30.5523,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": 30.5523
+    },
+    {
+     "rt": 0.0717,
+     "ft60": 0.878,
+     "ft330": 2.2643,
+     "ft660": 3.2595,
+     "mph660": 229.24,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Alexis DeJoria is 9-5 in Round 1 this year.\r\nHunter Green is 2-5 overall this year.\r\n\r\nGreen with a the starting line advantage and good pass early, then around the half tack the engine\r\nlet go with a huge fireball.  the car made a quick move across the track and hit the left wall.  the\r\ncar bounced off the wall and then back into it before comming to a stop.  Green is out of the car.\r\n\r\nDeJoria is straight down the groove with her quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0988,
+     "ft60": 0.8886,
+     "ft330": 2.2749,
+     "ft660": 3.5868,
+     "mph660": 163.46,
+     "ft1000": null,
+     "et": 5.096,
+     "mph": 145.68,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0908,
+     "ft60": 0.8861,
+     "ft330": 2.2664,
+     "ft660": 3.1976,
+     "mph660": 277.95,
+     "ft1000": null,
+     "et": 3.9597,
+     "mph": 317.35,
+     "first": 1.1443,
+     "lane": "Right",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": 1.1443
+    }
+   ],
+   "note": "Cruz Pedregon is 45-13 in Round 1 when qualified #4.\r\nTerry Haddock is making his 171st career start.\r\n\r\nPedregon is 11 - 0 against Haddock in prior events. \r\n\r\nHaddock with the starting line advantage and never trailed for the win.  He runs his season quickest\r\nand fastest pass for the win.  He gets real loose on the top end and crosses the centerline in the\r\nshut down area.\r\n\r\nPedregon lost traction early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.005,
+     "ft60": 0.8791,
+     "ft330": 2.6607,
+     "ft660": 3.9733,
+     "mph660": 204.17,
+     "ft1000": null,
+     "et": 4.9171,
+     "mph": 273.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0222,
+     "ft60": 1.8318,
+     "ft330": 4.5439,
+     "ft660": 7.3105,
+     "mph660": 81.73,
+     "ft1000": null,
+     "et": 10.1053,
+     "mph": 80.78,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Prock and Vandergriff have each won 3 times against the other in prior events. \r\n\r\nProck goes red to give Vandergriff the win, who is up in smoke right at the hit, but gets the win.\r\nHe will give up lane choice to Wilkerson in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0543,
+     "ft60": 0.8687,
+     "ft330": 2.2154,
+     "ft660": 3.1077,
+     "mph660": 289.76,
+     "ft1000": null,
+     "et": 3.8322,
+     "mph": 337.08,
+     "first": 0.8079,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 0.8079
+    },
+    {
+     "rt": 0.0875,
+     "ft60": 0.9109,
+     "ft330": 2.3364,
+     "ft660": 3.4141,
+     "mph660": 205.76,
+     "ft1000": null,
+     "et": 4.6069,
+     "mph": 187.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Seven of Jack Beckman's 12 losses this year have come against current or former Funny Car World\r\nChampions.\r\nJeff Diehl is making his 102nd career start.\r\n\r\nBeckman is 7 - 0 against Diehl in prior events. \r\n\r\nBeckman is 7 - 0 against Diehl in prior events. \r\n\r\nBeckman with the starting line advantage and never trailed for the win.  He makes the quickest pass\r\nof the season in Funny Car and his fastest of the season for the win.  He will have lane choice over\r\nCapps in the next round.\r\n\r\nDiehl with a good pass early, but lost traction around half track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.872,
+     "ft330": 2.4285,
+     "ft660": 3.4734,
+     "mph660": 251.68,
+     "ft1000": null,
+     "et": 4.2878,
+     "mph": 303.85,
+     "first": 0.3854,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 0.3854
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.9279,
+     "ft330": 2.3951,
+     "ft660": 3.5586,
+     "mph660": 182.04,
+     "ft1000": null,
+     "et": 4.6772,
+     "mph": 218.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Haas",
+     "car": "328",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hagan wins 81% of his Round 1 races when he has lane choice.\r\nJoey Haas advanced to the final round in his last start in Denver in 2021.\r\n\r\nHaas with the starting line advantage, but started to drop cylinders, he pedaled and pulled the front\r\nend.  He pedaled it one more time, but Hagan had the difference made up and took the win.\r\n\r\nHagan with tire shake and pedaled it and got it to hook up enough for the win.  He will give up lane\r\nchoice to DeJoria in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0413,
+     "ft60": 0.8821,
+     "ft330": 2.2704,
+     "ft660": 3.1964,
+     "mph660": 282.31,
+     "ft1000": null,
+     "et": 3.9252,
+     "mph": 336.57,
+     "first": 0.9918,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 0.9918
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.8927,
+     "ft330": 2.5065,
+     "ft660": 3.7334,
+     "mph660": 214.08,
+     "ft1000": null,
+     "et": 4.8763,
+     "mph": 196.25,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "J.R. Todd wins 67% of his Round 1 races when he has lane choice.\r\nDave Richards lost to Todd in Round 1 at Gainesville this year.\r\n\r\nTodd is 2 - 0 against Richards in prior events. \r\n\r\nTodd with the starting line advantage for the win.  He will have lane choice over Haddock in the next\r\nround.\r\n\r\nRichards shook right at the hit and clicked it off."
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.83,
+     "ft330": 2.117,
+     "ft660": 3.221,
+     "mph660": 192.3,
+     "ft1000": null,
+     "et": 4.53,
+     "mph": 168.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 0.834,
+     "ft330": 2.119,
+     "ft660": 2.989,
+     "mph660": 292.01,
+     "ft1000": null,
+     "et": 3.714,
+     "mph": 333.08,
+     "first": 0.8371,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": 0.8371
+    }
+   ],
+   "note": "Weather conditions: air temperature 65 degrees, relative humidity 77 percent, barometer 30.05 inches, adjusted\r\naltitude 1,068 feet, track temperature 83 degrees.\r\n\r\nAntron Brown is 9 - 2 in his last 3 races (he was 7 - 8 in his first 8 races this year).  Tony Schumacher's 43\r\nround wins here are the most for any TF driver.  \r\n\r\nBrown is 46 - 35 against Schumacher in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.\r\n\r\nSchumacher starts to lose traction and clicked it off by half track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.837,
+     "ft330": 2.144,
+     "ft660": 3.033,
+     "mph660": 288.77,
+     "ft1000": null,
+     "et": 3.759,
+     "mph": 333.66,
+     "first": 1.6696,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "11",
+     "mov": 1.6696
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.83,
+     "ft330": 2.354,
+     "ft660": 3.766,
+     "mph660": 153.23,
+     "ft1000": null,
+     "et": 5.42,
+     "mph": 131.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Clay Millican is 1 - 1 against Salinas in Rd. 1.  Jasmine Salinas is 10 - 18 in Rd. 1 overall.\r\n\r\nSalinas and Millican have each won 2 times against the other in prior events. \r\n\r\nSalinas with the starting line advantage and was straight down the groove for the win.\r\n\r\nMillican starts to lose traction and pedals it, but couldn't get it to hook up."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.121,
+     "ft60": 0.831,
+     "ft330": 2.104,
+     "ft660": 2.958,
+     "mph660": 298.54,
+     "ft1000": null,
+     "et": 3.67,
+     "mph": 336.15,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "This is the 1st Bye run in Josh Hart's career.\r\n\r\nHart launched hard and kept it hooked up to make the quickest pass of the event.  Josh Hart's incremental\r\ntimes: 60ft-0.831 sec., 330ft-2.104, 660ft-2.958/298.54 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.909,
+     "ft330": 2.374,
+     "ft660": 4.084,
+     "mph660": 123.6,
+     "ft1000": null,
+     "et": 6.14,
+     "mph": 106.87,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Krista Baldwin",
+     "car": "725",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.835,
+     "ft330": 2.127,
+     "ft660": 2.999,
+     "mph660": 292.71,
+     "ft1000": null,
+     "et": 3.72,
+     "mph": 335.48,
+     "first": 2.4324,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "2",
+     "mov": 2.4324
+    }
+   ],
+   "note": "This (#2) is the best starting spot for Billy Torrence in his last 50 races.  The #2 TF qualifier is 34 - 2 in\r\nRd. 1 at this event.  Krista Baldwin is making her 19th start. \r\n\r\nTorrence with the starting line advantage and is straight down the groove for the win.  He will give up lane\r\nchoice to Brown in the next round.\r\n\r\nBaldwin's car pitched the blower belt by 300 feet and the car went silent."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.826,
+     "ft330": 2.107,
+     "ft660": 2.97,
+     "mph660": 293.22,
+     "ft1000": null,
+     "et": 3.694,
+     "mph": 331.12,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.822,
+     "ft330": 2.095,
+     "ft660": 2.954,
+     "mph660": 297.09,
+     "ft1000": null,
+     "et": 3.669,
+     "mph": 335.82,
+     "first": 0.0441,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.0441
+    }
+   ],
+   "note": "Doug Kalitta is 11 - 0 in Rd. 1 this year (and 28 - 2 in his last 30 races in Rd. 1).  Shawn Reed is 2 - 5\r\nagainst Kalitta in Rd. 1.\r\n\r\nKalitta is 5 - 3 against Reed in prior events. \r\n\r\nKalitta with the starting line advantage and kept it hooked up for the win.  He runs the quickest pass of the\r\nevent for the win.  Doug Kalitta's incremental times: 60ft-0.822 sec., 330ft-2.095, 660ft-2.954/297.09 mph. He\r\nwill have lane choice over Salinas in the next round.\r\n\r\nReed kept it hooked up and makes his quickest pass of the season in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.838,
+     "ft330": 2.145,
+     "ft660": 3.011,
+     "mph660": 294.82,
+     "ft1000": null,
+     "et": 3.732,
+     "mph": 334.07,
+     "first": 0.5475,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": 0.5475
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.831,
+     "ft330": 2.106,
+     "ft660": 3.108,
+     "mph660": 219.04,
+     "ft1000": null,
+     "et": 4.259,
+     "mph": 190.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Langdon wins 73% of his Rd. 1 races when he has lane choice.   In his career Justin Ashley \"leaves\r\nfirst\" 79% of the time (82%) in Rd. 1. \r\n\r\nAshley with the starting line advantage and never trailed for the win.  Ashley kept it hooked up to make his\r\nquickest pass of the weekend.\r\n\r\nLangdon started to drop cylinders and pitched the blower belt before half track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.84,
+     "ft330": 2.546,
+     "ft660": 3.64,
+     "mph660": 252.19,
+     "ft1000": null,
+     "et": 4.444,
+     "mph": 307.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.833,
+     "ft330": 2.312,
+     "ft660": 3.465,
+     "mph660": 220.69,
+     "ft1000": null,
+     "et": 4.403,
+     "mph": 261.07,
+     "first": 0.0187,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.0187
+    }
+   ],
+   "note": "Leah Pruett is 133 - 86 (61%) in Rd. 1.   Will Smith is making his 14th start.\r\n\r\nSmith with the starting line and they both shake right at the hit.  They both pedal the cars, Pruett gets it\r\ntoo hook up.  She gets the win.  Leah Pruett's MOV: 0.0187 seconds (approximately 8 feet).  She will give up\r\nlane choice to Ashley in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.833,
+     "ft330": 2.124,
+     "ft660": 2.987,
+     "mph660": 295.4,
+     "ft1000": null,
+     "et": 3.707,
+     "mph": 334.73,
+     "first": 0.0122,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": 0.0122
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.842,
+     "ft330": 2.14,
+     "ft660": 3.007,
+     "mph660": 295.14,
+     "ft1000": null,
+     "et": 3.727,
+     "mph": 333.49,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Maddi Gordon and Tony Stewart are both 8 - 3 in Rd. 1 this year.  Maddi beat Tony in Rd. 1 in Epping.\r\n\r\nGordon is 3 - 1 against Stewart in prior events. \r\n\r\nGordon with the starting line advantage, but Stewart has the lead when they go by the Christmas tree and never\r\ntrailed from there on for the win.  Tony Stewart's MOV: 0.0122 seconds (approximately 6 feet).  He makes his\r\nquickest pass of the weekend, but will give up lane choice to Hart in the next round."
+  }
+ ]
+}

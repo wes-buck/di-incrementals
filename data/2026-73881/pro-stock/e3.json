@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 1.075,
+     "ft330": 3.116,
+     "ft660": 4.638,
+     "mph660": 163.12,
+     "ft1000": 5.934,
+     "et": 7.016,
+     "mph": 209.07,
+     "first": 4.6978,
+     "lane": "Left",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 4.6978
+    },
+    {
+     "rt": 0.034,
+     "ft60": 1.168,
+     "ft330": 5.27,
+     "ft660": 7.818,
+     "mph660": 103.19,
+     "ft1000": 9.841,
+     "et": 11.712,
+     "mph": 115.07,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 62 percent, barometer 29.92 inches, adjusted\r\naltitude 1,351 feet, track temperature 110 degrees.\r\n\r\nEnders is 12 - 8 against Coughlin Jr. in prior events. \r\n\r\nEnders with a tick advantage on the tree and they both have severe tire shake.  Enders drives through the tire\r\nshake for the win.  She is advancing to his 85th final round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.99,
+     "ft330": 2.744,
+     "ft660": 4.207,
+     "mph660": 167.26,
+     "ft1000": 5.477,
+     "et": 6.544,
+     "mph": 211.16,
+     "first": 3.3215,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.3215
+    },
+    {
+     "rt": 0.019,
+     "ft60": 1.086,
+     "ft330": 3.173,
+     "ft660": 5.445,
+     "mph660": 97.6,
+     "ft1000": 7.805,
+     "et": 9.865,
+     "mph": 105.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Coughlin is 25 - 6 against Stanfield in prior events. \r\n\r\nThey have identical reaction times and Coughlin has severe tire shake and pushed in the clutch.  Stanfield is\r\nstraight down the groove for the win.  He will have lane choice in the final.  He is advancing to his 29th\r\nfinal round."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.969,
+     "ft330": 2.581,
+     "ft660": 3.834,
+     "mph660": 198.55,
+     "ft1000": 4.899,
+     "et": 5.799,
+     "mph": 249.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Rickie Smith",
+     "car": "43",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.027,
+     "ft60": 0.949,
+     "ft330": 2.55,
+     "ft660": 3.803,
+     "mph660": 197.51,
+     "ft1000": 4.875,
+     "et": 5.779,
+     "mph": 249.44,
+     "first": 0.0296,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0296
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 63 percent, barometer 29.82 inches, adjusted\r\naltitude 4,182 feet, track temperature 127 degrees.\r\n\r\nMike Stavrinos is 1 of 2 guys Rickie Smith has raced more than once and not beaten (E. Hoover)\r\n\r\nStavrinos is 2 - 0 against Smith in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win.  Mike Stavrinos' MOV: 0.0296 seconds\r\n(approximately 11 feet).  He is advancing to his second final round this season and seventh of his career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.006,
+     "ft60": 0.952,
+     "ft330": 2.546,
+     "ft660": 3.809,
+     "mph660": 196.16,
+     "ft1000": 4.889,
+     "et": 5.798,
+     "mph": 247.52,
+     "first": 0.0168,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0168
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.958,
+     "ft330": 2.58,
+     "ft660": 3.83,
+     "mph660": 197.05,
+     "ft1000": 4.903,
+     "et": 5.804,
+     "mph": 250.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Collins and Shelton have faced each other in eliminations. \r\n\r\nCollins with a great light and never trails for the win.  Jason Collins' MOV: 0.0168 seconds (approximately 6\r\nfeet).  He is advancing to his third final this season."
+  }
+ ]
+}

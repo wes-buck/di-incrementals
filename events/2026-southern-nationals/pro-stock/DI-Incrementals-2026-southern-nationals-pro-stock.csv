@@ -1,0 +1,79 @@
+Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
+NHRA Southern Nationals,Pro Stock,Q1,1,Left,Brandon Miller,11,,0.04,0.982,2.758,4.242,166.33,5.522,6.6,209.14,0.982,1.776,1.484,1.28,1.078,2.358,42.81,yes,,8,3,8,8
+NHRA Southern Nationals,Pro Stock,Q1,1,Right,Shane Tucker,12,,0.092,1.072,2.883,4.371,165.78,5.652,6.731,209.26,1.072,1.811,1.488,1.281,1.079,2.36,43.48,no,0-60,9,,,
+NHRA Southern Nationals,Pro Stock,Q1,2,Left,Kenny Delco,150,,0.144,1.45,4.173,6.815,83.92,9.645,12.512,73.97,1.45,2.723,2.642,2.83,2.867,5.697,-9.95,no,0-60,11,,,
+NHRA Southern Nationals,Pro Stock,Q1,2,Right,Troy Coughlin Jr,10,,0.064,2.233,7.756,12.948,61.22,15.822,18.18,91.49,2.233,5.523,5.192,2.874,2.358,5.232,30.27,no,0-60,14,,,
+NHRA Southern Nationals,Pro Stock,Q1,3,Left,Deric Kramer,52,,0.031,1.691,,,,,,,1.691,,,,,,,no,0-60,,,,
+NHRA Southern Nationals,Pro Stock,Q1,3,Right,Cody Anderson,17,,0.079,1.001,2.752,4.211,168.53,5.471,6.536,209.82,1.001,1.751,1.459,1.26,1.065,2.325,41.29,yes,,6,9,7,6
+NHRA Southern Nationals,Pro Stock,Q1,4,Left,Eric Latino,7,,0.097,0.977,2.721,4.181,168.6,5.442,6.508,209.75,0.977,1.744,1.46,1.261,1.066,2.327,41.15,yes,,2,2,1,2
+NHRA Southern Nationals,Pro Stock,Q1,4,Right,Jeg Coughlin Jr,8,,0.032,0.992,2.747,4.215,167.53,5.48,6.547,210.57,0.992,1.755,1.468,1.265,1.067,2.332,43.04,yes,,7,8,6,7
+NHRA Southern Nationals,Pro Stock,Q1,5,Left,Aaron Stanfield,4,,0.034,0.976,2.724,4.191,167.97,5.456,6.525,210.6,0.976,1.748,1.467,1.265,1.069,2.334,42.63,yes,,3,1,3,3
+NHRA Southern Nationals,Pro Stock,Q1,5,Right,Erica Enders,6,,0.048,1.617,7.409,11.521,54.49,15.904,20.273,48.94,1.617,5.792,4.112,4.383,4.369,8.752,-5.55,no,0-60,15,,,
+NHRA Southern Nationals,Pro Stock,Q1,6,Left,Matt Latino,16,,0.059,0.985,3.306,6.212,76.14,9.343,12.418,69.98,0.985,2.321,2.906,3.131,3.075,6.206,-6.16,no,60-330,10,6,,
+NHRA Southern Nationals,Pro Stock,Q1,6,Right,Greg Stanfield,445,,0.033,0.983,2.733,4.196,167.78,5.459,6.526,210.5,0.983,1.75,1.463,1.263,1.067,2.33,42.72,yes,,4,5,4,4
+NHRA Southern Nationals,Pro Stock,Q1,7,Left,Cody Coughlin,9,,-0.002,0.985,2.739,4.199,168.56,5.461,6.527,210.5,0.985,1.754,1.46,1.262,1.066,2.328,41.94,yes,,5,7,5,5
+NHRA Southern Nationals,Pro Stock,Q1,7,Right,Matt Hartford,3,,0.222,1.064,4.68,8.811,58.26,12.485,15.804,64.79,1.064,3.616,4.131,3.674,3.319,6.993,6.53,no,0-60,12,,,
+NHRA Southern Nationals,Pro Stock,Q1,8,Left,Greg Anderson,2,,0.072,0.982,2.723,4.18,169.0,5.436,6.498,210.6,0.982,1.741,1.457,1.256,1.062,2.318,41.6,yes,,1,4,2,1
+NHRA Southern Nationals,Pro Stock,Q1,8,Right,Dallas Glenn,1,,0.035,1.522,5.971,9.476,69.64,12.721,15.895,67.68,1.522,4.449,3.505,3.245,3.174,6.419,-1.96,no,0-60,13,,,
+NHRA Southern Nationals,Pro Stock,Q2,1,Left,Erica Enders,6,,,,,,,,,,,,,,,,,no,0-60,,,,
+NHRA Southern Nationals,Pro Stock,Q2,1,Right,Deric Kramer,52,,0.045,1.002,2.779,4.236,167.24,5.509,6.585,209.88,1.002,1.777,1.457,1.273,1.076,2.349,42.64,yes,,7,8,9,7
+NHRA Southern Nationals,Pro Stock,Q2,2,Left,Troy Coughlin Jr,10,,0.042,1.438,5.912,8.638,95.03,10.834,12.901,104.63,1.438,4.474,2.726,2.196,2.067,4.263,9.6,no,0-60,12,,,
+NHRA Southern Nationals,Pro Stock,Q2,2,Right,Kenny Delco,150,,0.159,0.993,2.76,4.237,166.52,5.512,6.591,208.84,0.993,1.767,1.477,1.275,1.079,2.354,42.32,yes,,8,4,7,8
+NHRA Southern Nationals,Pro Stock,Q2,3,Left,Dallas Glenn,1,,0.043,1.416,5.239,8.057,89.82,10.314,12.343,106.34,1.416,3.823,2.818,2.257,2.029,4.286,16.52,no,0-60,11,,,
+NHRA Southern Nationals,Pro Stock,Q2,3,Right,Matt Latino,16,,0.053,1.041,3.986,7.774,57.73,11.963,16.198,50.16,1.041,2.945,3.788,4.189,4.235,8.424,-7.57,no,60-330,13,11,,
+NHRA Southern Nationals,Pro Stock,Q2,4,Left,Matt Hartford,3,,0.254,0.995,2.754,4.216,168.64,5.479,6.544,211.49,0.995,1.759,1.462,1.263,1.065,2.328,42.85,yes,,2,5,4,3
+NHRA Southern Nationals,Pro Stock,Q2,4,Right,Brandon Miller,11,,0.077,0.999,2.778,4.262,165.44,5.539,6.616,209.17,0.999,1.779,1.484,1.277,1.077,2.354,43.73,yes,,9,6,8,9
+NHRA Southern Nationals,Pro Stock,Q2,5,Left,Shane Tucker,12,,0.121,2.891,,,,,,,2.891,,,,,,,no,0-60,,,,
+NHRA Southern Nationals,Pro Stock,Q2,5,Right,Cody Coughlin,9,,0.073,1.004,2.758,4.222,167.57,5.489,6.558,209.75,1.004,1.754,1.464,1.267,1.069,2.336,42.18,yes,,4,9,6,6
+NHRA Southern Nationals,Pro Stock,Q2,6,Left,Jeg Coughlin Jr,8,,0.018,1.028,3.336,6.17,77.92,8.914,11.142,97.01,1.028,2.308,2.834,2.744,2.228,4.972,19.09,no,60-330,10,10,,
+NHRA Southern Nationals,Pro Stock,Q2,6,Right,Aaron Stanfield,4,,0.052,0.991,2.744,4.215,166.54,5.488,6.564,209.33,0.991,1.753,1.471,1.273,1.076,2.349,42.79,yes,,5,3,2,2
+NHRA Southern Nationals,Pro Stock,Q2,7,Left,Cody Anderson,17,,0.071,1.001,2.754,4.218,167.55,5.487,6.557,210.05,1.001,1.753,1.464,1.269,1.07,2.339,42.5,yes,,3,7,5,4
+NHRA Southern Nationals,Pro Stock,Q2,7,Right,Eric Latino,7,,0.157,0.987,2.738,4.203,167.57,5.471,6.541,209.72,0.987,1.751,1.465,1.268,1.07,2.338,42.15,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock,Q2,8,Left,Greg Stanfield,445,,0.038,0.99,2.75,4.22,167.41,5.491,6.565,208.97,0.99,1.76,1.47,1.271,1.074,2.345,41.56,yes,,6,2,3,5
+NHRA Southern Nationals,Pro Stock,Q2,8,Right,Greg Anderson,2,,0.06,1.152,5.775,11.534,47.5,15.325,18.815,61.46,1.152,4.623,5.759,3.791,3.49,7.281,13.96,no,0-60,14,,,
+NHRA Southern Nationals,Pro Stock,Q3,1,Left,Erica Enders,6,,0.049,1.023,3.173,5.732,86.65,8.471,11.141,80.93,1.023,2.15,2.559,2.739,2.67,5.409,-5.72,no,60-330,9,13,,
+NHRA Southern Nationals,Pro Stock,Q3,2,Left,Shane Tucker,12,,0.101,1.955,10.085,14.267,64.19,17.985,21.65,58.57,1.955,8.13,4.182,3.718,3.665,7.383,-5.62,no,0-60,15,,,
+NHRA Southern Nationals,Pro Stock,Q3,3,Left,Troy Coughlin Jr,10,,0.041,1.0,3.242,6.034,79.38,9.028,11.959,73.66,1.0,2.242,2.792,2.994,2.931,5.925,-5.72,no,60-330,13,7,,
+NHRA Southern Nationals,Pro Stock,Q3,3,Right,Brandon Miller,11,,0.05,0.987,3.132,5.755,84.53,8.557,11.288,78.64,0.987,2.145,2.623,2.802,2.731,5.533,-5.89,no,60-330,11,2,,
+NHRA Southern Nationals,Pro Stock,Q3,4,Left,Dallas Glenn,1,,0.084,1.001,2.773,4.239,168.07,5.503,6.569,210.47,1.001,1.772,1.466,1.264,1.066,2.33,42.4,yes,,2,8,2,2
+NHRA Southern Nationals,Pro Stock,Q3,4,Right,Kenny Delco,150,,0.159,1.018,2.829,4.322,162.94,5.774,7.274,138.88,1.018,1.811,1.493,1.452,1.5,2.952,-24.06,no,660-1000,4,12,5,4
+NHRA Southern Nationals,Pro Stock,Q3,5,Left,Jeg Coughlin Jr,8,,0.074,0.997,3.411,6.207,89.76,8.511,10.623,102.42,0.997,2.414,2.796,2.304,2.112,4.416,12.66,no,60-330,6,4,,
+NHRA Southern Nationals,Pro Stock,Q3,5,Right,Deric Kramer,52,,0.051,0.998,3.086,5.648,86.59,8.384,11.05,80.64,0.998,2.088,2.562,2.736,2.666,5.402,-5.95,no,60-330,8,5,,
+NHRA Southern Nationals,Pro Stock,Q3,6,Left,Greg Stanfield,445,,0.048,1.149,5.1,8.247,77.65,11.306,14.3,72.17,1.149,3.951,3.147,3.059,2.994,6.053,-5.48,no,0-60,14,,,
+NHRA Southern Nationals,Pro Stock,Q3,6,Right,Aaron Stanfield,4,,0.041,0.985,3.029,5.511,89.36,8.161,10.748,83.03,0.985,2.044,2.482,2.65,2.587,5.237,-6.33,no,60-330,7,1,,
+NHRA Southern Nationals,Pro Stock,Q3,7,Left,Cody Anderson,17,,0.098,1.002,2.811,4.786,112.56,6.888,8.93,105.87,1.002,1.809,1.975,2.102,2.042,4.144,-6.69,no,330-660,5,11,4,
+NHRA Southern Nationals,Pro Stock,Q3,7,Right,Eric Latino,7,,0.14,0.999,3.09,5.643,86.7,8.438,11.214,76.86,0.999,2.091,2.553,2.795,2.776,5.571,-9.84,no,60-330,10,6,,
+NHRA Southern Nationals,Pro Stock,Q3,8,Left,Matt Latino,16,,0.051,0.996,2.775,4.245,167.61,5.511,6.604,201.64,0.996,1.779,1.47,1.266,1.093,2.359,34.03,yes,,3,3,3,3
+NHRA Southern Nationals,Pro Stock,Q3,8,Right,Cody Coughlin,9,,0.017,1.001,3.177,5.864,82.4,8.746,11.567,76.13,1.001,2.176,2.687,2.882,2.821,5.703,-6.27,no,60-330,12,9,,
+NHRA Southern Nationals,Pro Stock,Q3,9,Left,Matt Hartford,3,,0.102,2.231,7.623,11.027,68.45,15.266,23.271,219.86,2.231,5.392,3.404,4.239,8.005,12.244,151.41,no,0-60,16,,,
+NHRA Southern Nationals,Pro Stock,Q3,9,Right,Greg Anderson,2,,0.055,1.001,2.765,4.233,167.82,5.495,6.56,210.73,1.001,1.764,1.468,1.262,1.065,2.327,42.91,yes,,1,10,1,1
+NHRA Southern Nationals,Pro Stock,E1,1,Left,Dallas Glenn,1,W,0.03,1.141,3.175,4.672,164.39,5.959,7.039,209.23,1.141,2.034,1.497,1.287,1.08,2.367,44.84,no,0-60,9,,,
+NHRA Southern Nationals,Pro Stock,E1,1,Right,Jeg Coughlin Jr,8,L,0.032,1.358,3.504,5.094,155.26,6.607,8.137,137.95,1.358,2.146,1.59,1.513,1.53,3.043,-17.31,no,0-60,13,,,
+NHRA Southern Nationals,Pro Stock,E1,2,Left,Deric Kramer,52,W,0.055,1.002,2.773,4.225,167.8,5.495,6.568,210.77,1.002,1.771,1.452,1.27,1.073,2.343,42.97,yes,,5,5,6,4
+NHRA Southern Nationals,Pro Stock,E1,2,Right,Matt Hartford,3,L,0.08,1.122,3.204,4.77,160.25,6.08,7.239,186.12,1.122,2.082,1.566,1.31,1.159,2.469,25.87,no,0-60,11,,,
+NHRA Southern Nationals,Pro Stock,E1,3,Left,Kenny Delco,150,W,0.093,1.143,3.179,4.683,163.53,5.979,7.079,198.88,1.143,2.036,1.504,1.296,1.1,2.396,35.35,no,0-60,10,,,
+NHRA Southern Nationals,Pro Stock,E1,3,Right,Cody Anderson,17,L,0.077,1.086,4.817,9.827,42.97,15.59,21.679,34.14,1.086,3.731,5.01,5.763,6.089,11.852,-8.83,no,0-60,16,,,
+NHRA Southern Nationals,Pro Stock,E1,4,Left,Brandon Miller,11,W,0.059,1.117,4.348,6.297,138.26,7.861,9.37,142.96,1.117,3.231,1.949,1.564,1.509,3.073,4.7,no,0-60,14,,,
+NHRA Southern Nationals,Pro Stock,E1,4,Right,Cody Coughlin,9,L,0.042,0.995,3.465,6.124,92.96,8.347,10.485,97.65,0.995,2.47,2.659,2.223,2.138,4.361,4.69,no,60-330,15,3,,
+NHRA Southern Nationals,Pro Stock,E1,5,Left,Shane Tucker,12,L,0.067,1.501,3.644,5.176,162.24,6.475,7.569,203.46,1.501,2.143,1.532,1.299,1.094,2.393,41.22,no,0-60,12,,,
+NHRA Southern Nationals,Pro Stock,E1,5,Right,Greg Stanfield,445,W,0.056,1.0,2.752,4.208,168.58,5.468,6.532,211.23,1.0,1.752,1.456,1.26,1.064,2.324,42.65,yes,,2,4,2,2
+NHRA Southern Nationals,Pro Stock,E1,6,Left,Troy Coughlin Jr,10,W,0.048,1.013,2.789,4.264,167.36,5.535,6.609,209.98,1.013,1.776,1.475,1.271,1.074,2.345,42.62,yes,,8,7,8,8
+NHRA Southern Nationals,Pro Stock,E1,6,Right,Eric Latino,7,L,-0.006,0.988,2.771,4.255,166.35,5.529,6.603,209.26,0.988,1.783,1.484,1.274,1.074,2.348,42.91,yes,,7,1,5,7
+NHRA Southern Nationals,Pro Stock,E1,7,Left,Matt Latino,16,W,0.024,1.012,2.759,4.218,168.66,5.481,6.548,211.23,1.012,1.747,1.459,1.263,1.067,2.33,42.57,yes,,3,6,3,3
+NHRA Southern Nationals,Pro Stock,E1,7,Right,Greg Anderson,2,L,0.068,0.99,2.734,4.188,168.91,5.448,6.512,211.39,0.99,1.744,1.454,1.26,1.064,2.324,42.48,yes,,1,2,1,1
+NHRA Southern Nationals,Pro Stock,E1,8,Left,Erica Enders,6,W,0.038,1.015,2.769,4.228,168.62,5.488,6.552,211.33,1.015,1.754,1.459,1.26,1.064,2.324,42.71,yes,,4,9,4,5
+NHRA Southern Nationals,Pro Stock,E1,8,Right,Aaron Stanfield,4,L,0.015,1.014,2.774,4.24,167.97,5.51,6.584,209.59,1.014,1.76,1.466,1.27,1.074,2.344,41.62,yes,,6,8,7,6
+NHRA Southern Nationals,Pro Stock,E2,1,Left,Troy Coughlin Jr,10,W,0.047,1.043,2.812,4.28,167.2,5.555,6.632,209.46,1.043,1.769,1.468,1.275,1.077,2.352,42.26,yes,,3,3,3,3
+NHRA Southern Nationals,Pro Stock,E2,1,Right,Deric Kramer,52,L,0.04,1.195,3.476,5.627,102.88,7.928,10.172,96.03,1.195,2.281,2.151,2.301,2.244,4.545,-6.85,no,0-60,6,,,
+NHRA Southern Nationals,Pro Stock,E2,2,Left,Kenny Delco,150,L,0.073,1.166,4.377,8.539,52.44,13.201,17.963,44.36,1.166,3.211,4.162,4.662,4.762,9.424,-8.08,no,0-60,7,,,
+NHRA Southern Nationals,Pro Stock,E2,2,Right,Erica Enders,6,W,0.084,1.086,3.113,4.636,163.16,5.931,7.015,208.84,1.086,2.027,1.523,1.295,1.084,2.379,45.68,no,0-60,4,,,
+NHRA Southern Nationals,Pro Stock,E2,3,Left,Dallas Glenn,1,W,0.032,1.023,2.787,4.248,167.93,5.517,6.587,210.34,1.023,1.764,1.461,1.269,1.07,2.339,42.41,yes,,2,2,2,2
+NHRA Southern Nationals,Pro Stock,E2,3,Right,Matt Latino,16,L,0.064,1.011,2.767,4.228,168.32,5.493,6.562,210.97,1.011,1.756,1.461,1.265,1.069,2.334,42.65,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock,E2,4,Left,Brandon Miller,11,L,0.076,1.114,5.209,10.787,38.38,17.352,24.517,28.61,1.114,4.095,5.578,6.565,7.165,13.73,-9.77,no,0-60,8,,,
+NHRA Southern Nationals,Pro Stock,E2,4,Right,Greg Stanfield,445,W,0.05,1.098,3.029,4.537,162.47,5.962,7.345,156.21,1.098,1.931,1.508,1.425,1.383,2.808,-6.26,no,0-60,5,,,
+NHRA Southern Nationals,Pro Stock,E3,1,Left,Erica Enders,6,L,0.029,1.182,5.546,11.675,34.22,19.298,28.224,22.05,1.182,4.364,6.129,7.623,8.926,16.549,-12.17,no,0-60,4,,,
+NHRA Southern Nationals,Pro Stock,E3,1,Right,Troy Coughlin Jr,10,W,0.052,1.036,2.801,4.274,166.56,5.553,6.636,206.83,1.036,1.765,1.473,1.279,1.083,2.362,40.27,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock,E3,2,Left,Greg Stanfield,445,L,0.033,1.151,3.847,5.752,142.76,7.173,8.437,167.78,1.151,2.696,1.905,1.421,1.264,2.685,25.02,no,0-60,3,,,
+NHRA Southern Nationals,Pro Stock,E3,2,Right,Dallas Glenn,1,W,0.037,1.122,3.765,5.584,145.88,6.978,8.121,196.07,1.122,2.643,1.819,1.394,1.143,2.537,50.19,no,0-60,2,,,
+NHRA Southern Nationals,Pro Stock,E4,1,Left,Dallas Glenn,1,W,0.033,1.053,2.855,4.31,167.86,5.576,6.642,211.39,1.053,1.802,1.455,1.266,1.066,2.332,43.53,yes,,1,2,2,2
+NHRA Southern Nationals,Pro Stock,E4,1,Right,Troy Coughlin Jr,10,L,0.045,1.037,2.806,4.284,165.97,5.564,6.643,208.59,1.037,1.769,1.478,1.28,1.079,2.359,42.62,yes,,2,1,1,1

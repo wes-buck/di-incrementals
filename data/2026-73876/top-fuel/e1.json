@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.868,
+     "ft330": 2.175,
+     "ft660": 3.065,
+     "mph660": 288.95,
+     "ft1000": null,
+     "et": 3.796,
+     "mph": 329.99,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "TJ Zizzo",
+     "car": "317",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.049,
+     "ft60": 0.864,
+     "ft330": 2.164,
+     "ft660": 3.045,
+     "mph660": 288.52,
+     "ft1000": null,
+     "et": 3.777,
+     "mph": 329.18,
+     "first": 0.0549,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": 0.0549
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.873,
+     "ft330": 2.177,
+     "ft660": 3.058,
+     "mph660": 289.82,
+     "ft1000": null,
+     "et": 3.785,
+     "mph": 333.82,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.849,
+     "ft330": 2.153,
+     "ft660": 3.02,
+     "mph660": 292.84,
+     "ft1000": null,
+     "et": 3.742,
+     "mph": 334.48,
+     "first": 0.0414,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": 0.0414
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 0.889,
+     "ft330": 2.197,
+     "ft660": 3.074,
+     "mph660": 293.6,
+     "ft1000": null,
+     "et": 3.79,
+     "mph": 338.26,
+     "first": 0.0044,
+     "lane": "Left",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "4",
+     "mov": 0.0044
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.851,
+     "ft330": 2.15,
+     "ft660": 3.037,
+     "mph660": 285.59,
+     "ft1000": null,
+     "et": 3.785,
+     "mph": 322.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.86,
+     "ft330": 2.174,
+     "ft660": 3.198,
+     "mph660": 220.58,
+     "ft1000": null,
+     "et": 4.347,
+     "mph": 192.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Krista Baldwin",
+     "car": "725",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.859,
+     "ft330": 2.182,
+     "ft660": 3.079,
+     "mph660": 286.5,
+     "ft1000": null,
+     "et": 3.813,
+     "mph": 329.58,
+     "first": 0.5535,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": 0.5535
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.833,
+     "ft330": 2.125,
+     "ft660": 3.006,
+     "mph660": 290.88,
+     "ft1000": null,
+     "et": 3.736,
+     "mph": 327.98,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta has had a Bye run 6 times in round 1 (including SGMP) and never went on to win the race.\r\n\r\nKalitta launched hard and kept it hooked up to make the second quickest of the event.  Doug Kalitta's\r\nincremental times: 60ft-0.833 sec., 330ft-2.125, 660ft-3.006/290.88 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.871,
+     "ft330": 2.176,
+     "ft660": 3.048,
+     "mph660": 292.52,
+     "ft1000": null,
+     "et": 3.776,
+     "mph": 331.45,
+     "first": 0.055,
+     "lane": "Left",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": 0.055
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.855,
+     "ft330": 2.167,
+     "ft660": 3.065,
+     "mph660": 287.11,
+     "ft1000": null,
+     "et": 3.795,
+     "mph": 332.92,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Billy Torrence wins 85% of his Rd. 1 races when he has lane choice.  The #14 TF qualifier is 6 - 19 in Rd. 1\r\nat this event.\r\n\r\nThis is the first time Smith and Torrence have faced each other in eliminations. \r\n\r\nSmith with the starting line advantage and is straight down the groove for the win.  He makes his quickest\r\npass of the weekend for the win.\r\n\r\nTorrence with a clean pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.87,
+     "ft330": 2.176,
+     "ft660": 3.058,
+     "mph660": 289.57,
+     "ft1000": null,
+     "et": 3.868,
+     "mph": 272.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.847,
+     "ft330": 2.139,
+     "ft660": 3.006,
+     "mph660": 293.15,
+     "ft1000": null,
+     "et": 3.739,
+     "mph": 326.16,
+     "first": 0.1468,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": 0.1468
+    }
+   ],
+   "note": "Leah Pruett is 5 - 0 in Rd. 1 this year.  Clay Millican is 5 - 5 against Pruett in Rd. 1\r\n\r\nPruett is 15 - 10 against Millican in prior events.\r\n\r\nPruett with the starting line and is dropping cylinders on the top end.  She makes her quickest pass this\r\nweekend for the win.  She will have lane choice over Smith in the next round.\r\n\r\nMillican started to mix up cylinders and then past half track it banged the blower."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.85,
+     "ft330": 2.148,
+     "ft660": 3.022,
+     "mph660": 293.6,
+     "ft1000": null,
+     "et": 3.739,
+     "mph": 338.68,
+     "first": 0.14,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 0.14
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.878,
+     "ft330": 2.186,
+     "ft660": 3.085,
+     "mph660": 274.5,
+     "ft1000": null,
+     "et": 3.886,
+     "mph": 296.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Reed is 0 - 5 against Langdon in Rd. 1.  This is just the 6th time in his last 45 races that Shawn\r\nLangdon has been in the bottom half of the field.\r\n\r\nLangdon is 6 - 1 against Reed in prior events. \r\n\r\nReed with the starting line advantage, but Langdon has the lead as they go by the Christmas tree.  He never\r\ntrailed from there on for the win. He will give up lane choice to Kalitta by 0.003 seconds in the next round.\r\n\r\nReed started to spin the tires on the top end."
+  }
+ ]
+}

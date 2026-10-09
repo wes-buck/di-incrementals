@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.12,
+     "ft60": 1.234,
+     "ft330": 5.084,
+     "ft660": 7.421,
+     "mph660": 107.39,
+     "ft1000": 9.635,
+     "et": 11.845,
+     "mph": 96.49,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 70 percent, barometer 29.94 inches, adjusted\r\naltitude 3,067 feet, track temperature 114 degrees.\r\n\r\nThe holeshot win over Greg Anderson was Delco's 10th holeshot in his career and his first since Atlanta, 2021.\r\nThe .001 R/T was his best ever.\r\n\r\nDelco shook right at the hit and pushed in the clutch."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.02,
+     "ft60": 1.001,
+     "ft330": 2.798,
+     "ft660": 4.273,
+     "mph660": 164.57,
+     "ft1000": 5.564,
+     "et": 6.649,
+     "mph": 207.27,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 1.0,
+     "ft330": 2.783,
+     "ft660": 4.249,
+     "mph660": 166.44,
+     "ft1000": 5.529,
+     "et": 6.608,
+     "mph": 207.66,
+     "first": 0.0083,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0083
+    }
+   ],
+   "note": "Coughlin is 12 - 6 against Hartford in prior events. \r\n\r\nCoughlin with the starting line advantage, but Hartford chased him down by 1000 feet and took the win.  Matt\r\nHartford's MOV: 0.0083 seconds (approximately 3 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 1.023,
+     "ft330": 2.858,
+     "ft660": 4.355,
+     "mph660": 164.31,
+     "ft1000": 5.646,
+     "et": 6.732,
+     "mph": 206.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.998,
+     "ft330": 2.773,
+     "ft660": 4.257,
+     "mph660": 166.07,
+     "ft1000": 5.542,
+     "et": 6.627,
+     "mph": 205.94,
+     "first": 0.1641,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1641
+    }
+   ],
+   "note": "Glenn is 5 - 0 against Latino in prior events. \r\n\r\nGlenn with a great light and never tailed for the win.  Glenn will give up lane choice to Hartford in the\r\nsemifinal.\r\n\r\nLatino spun right at the hit and the car made a move toward the centerline, but he reeled it in."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.001,
+     "ft60": 0.991,
+     "ft330": 2.77,
+     "ft660": 4.259,
+     "mph660": 164.37,
+     "ft1000": 5.548,
+     "et": 6.63,
+     "mph": 207.53,
+     "first": 0.0185,
+     "lane": "Left",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.01,
+     "ft60": 1.002,
+     "ft330": 2.8,
+     "ft660": 4.278,
+     "mph660": 164.71,
+     "ft1000": 5.57,
+     "et": 6.659,
+     "mph": 206.39,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield is 1 - 0 against Anderson in prior events. \r\n\r\nAnderson goes red to give Stanfield the win.  \r\n\r\nStanfield with a near perfect light for the win.  He will have lane choice over Delco in the semifinal."
+  }
+ ]
+}

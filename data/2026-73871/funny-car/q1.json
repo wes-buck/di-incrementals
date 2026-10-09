@@ -1,0 +1,362 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/funny-car/q1",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "funny-car",
+ "round": "Q1",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.881,
+     "ft330": 2.454,
+     "ft660": 4.272,
+     "mph660": 116.94,
+     "ft1000": null,
+     "et": 6.401,
+     "mph": 103.47,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff is making his debut for John Force Racing. He is driving the car driven by Austin Prock last year.\r\n\r\nVandergriff leaves the line, gets about 100 feet out, and loses traction."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.136,
+     "ft60": 0.901,
+     "ft330": 2.375,
+     "ft660": 3.992,
+     "mph660": 132.02,
+     "ft1000": null,
+     "et": 5.872,
+     "mph": 118.48,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.154,
+     "ft60": 0.891,
+     "ft330": 2.298,
+     "ft660": 3.405,
+     "mph660": 203.37,
+     "ft1000": null,
+     "et": 4.6,
+     "mph": 187.89,
+     "first": 1.2543,
+     "lane": "Right",
+     "win": true,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Haddock gets about 300 feet out and strikes the tires. Nataas gets a little further and goes up in smoke."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.129,
+     "ft60": 0.883,
+     "ft330": 2.311,
+     "ft660": 3.279,
+     "mph660": 267.75,
+     "ft1000": null,
+     "et": 4.048,
+     "mph": 318.77,
+     "first": 2.4425,
+     "lane": "Left",
+     "win": true,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.137,
+     "ft60": 0.918,
+     "ft330": 2.479,
+     "ft660": 4.308,
+     "mph660": 116.43,
+     "ft1000": null,
+     "et": 6.482,
+     "mph": 100.61,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Buddy Hull",
+     "car": "323",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Green goes down the groove with a full pass and he takes the early pole. Hull has traction problems and is off of the throttle early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.296,
+     "ft60": 0.946,
+     "ft330": 2.522,
+     "ft660": 4.34,
+     "mph660": 116.7,
+     "ft1000": null,
+     "et": 6.491,
+     "mph": 101.47,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.118,
+     "ft60": 0.89,
+     "ft330": 2.421,
+     "ft660": 4.095,
+     "mph660": 128.1,
+     "ft1000": null,
+     "et": 6.045,
+     "mph": 112.65,
+     "first": 0.6242,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria is driving the fourth car for john Force racing. Her crew chiefs are Mike Neff and Jonnie Lindberg.\r\n\r\nRichards gets about 300 feet out and goes up in smoke. DeJoria gets a little further and strikes the tires."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.901,
+     "ft330": 2.321,
+     "ft660": 3.273,
+     "mph660": 272.56,
+     "ft1000": null,
+     "et": 4.027,
+     "mph": 325.69,
+     "first": 2.1054,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.102,
+     "ft60": 0.872,
+     "ft330": 2.391,
+     "ft660": 4.105,
+     "mph660": 124.67,
+     "ft1000": null,
+     "et": 6.122,
+     "mph": 108.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Todd goes down the grove with a good run for the conditions and he takes the top spot for now. Hyde gets about 300 feet out and goes up in smoke."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.134,
+     "ft60": 0.897,
+     "ft330": 2.361,
+     "ft660": 3.793,
+     "mph660": 148.71,
+     "ft1000": null,
+     "et": 5.452,
+     "mph": 132.41,
+     "first": 0.8161,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.884,
+     "ft330": 2.416,
+     "ft660": 4.194,
+     "mph660": 119.56,
+     "ft1000": null,
+     "et": 6.321,
+     "mph": 102.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon gets about 300 feet out and goes up in smoke. Same story for Green."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.887,
+     "ft330": 2.299,
+     "ft660": 3.297,
+     "mph660": 257.14,
+     "ft1000": null,
+     "et": 4.131,
+     "mph": 272.01,
+     "first": 0.7674,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.113,
+     "ft60": 0.9,
+     "ft330": 2.332,
+     "ft660": 3.517,
+     "mph660": 183.54,
+     "ft1000": null,
+     "et": 4.868,
+     "mph": 163.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Lee was on a decent pass but the car nosed over a little early. Wilkerson had traction problems."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.887,
+     "ft330": 2.391,
+     "ft660": 4.241,
+     "mph660": 107.42,
+     "ft1000": null,
+     "et": 6.769,
+     "mph": 83.48,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.876,
+     "ft330": 2.443,
+     "ft660": 3.95,
+     "mph660": 147.15,
+     "ft1000": null,
+     "et": 5.644,
+     "mph": 130.49,
+     "first": 1.0936,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Capps rattles the tires off of the line and the chute deploys about 300 feet out. Beckman gets about 500 feet out and has problems."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.888,
+     "ft330": 2.308,
+     "ft660": 3.271,
+     "mph660": 267.91,
+     "ft1000": null,
+     "et": 4.031,
+     "mph": 323.35,
+     "first": 0.8064,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.912,
+     "ft330": 2.527,
+     "ft660": 3.791,
+     "mph660": 205.35,
+     "ft1000": null,
+     "et": 4.836,
+     "mph": 217.74,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Prock left John Force Racing and is now driving for Tasca.\r\n\r\nHagan was mixing up cylinders late in the run but he makes a full pass and gets in the second spot to end this session. Prock had traction problems and was off of the throttle early.\r\n\r\nMatt Hagan's incremental times: 60ft-0.888 sec., 330ft-2.308, 660ft-3.271/267.91 mph."
+  }
+ ]
+}

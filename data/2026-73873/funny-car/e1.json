@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.9,
+     "ft330": 3.039,
+     "ft660": 5.81,
+     "mph660": 78.93,
+     "ft1000": null,
+     "et": 8.897,
+     "mph": 72.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 0.898,
+     "ft330": 2.3,
+     "ft660": 3.219,
+     "mph660": 281.77,
+     "ft1000": null,
+     "et": 3.963,
+     "mph": 326.87,
+     "first": 4.9497,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "6",
+     "mov": 4.9497
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.114,
+     "ft60": 0.921,
+     "ft330": 2.391,
+     "ft660": 3.936,
+     "mph660": 138.76,
+     "ft1000": null,
+     "et": 5.735,
+     "mph": 123.7,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.874,
+     "ft330": 2.245,
+     "ft660": 3.156,
+     "mph660": 284.45,
+     "ft1000": null,
+     "et": 3.89,
+     "mph": 332.75,
+     "first": 1.8691,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": 1.8691
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.127,
+     "ft60": 0.895,
+     "ft330": 2.779,
+     "ft660": 4.787,
+     "mph660": 114.24,
+     "ft1000": null,
+     "et": 6.817,
+     "mph": 114.15,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dylan Winefsky",
+     "car": "7818",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.871,
+     "ft330": 2.499,
+     "ft660": 3.712,
+     "mph660": 193.85,
+     "ft1000": null,
+     "et": 4.977,
+     "mph": 177.16,
+     "first": 1.8885,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": 1.8885
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.9,
+     "ft330": 2.34,
+     "ft660": 3.286,
+     "mph660": 273.16,
+     "ft1000": null,
+     "et": 4.049,
+     "mph": 317.87,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.873,
+     "ft330": 2.253,
+     "ft660": 3.164,
+     "mph660": 286.56,
+     "ft1000": null,
+     "et": 3.889,
+     "mph": 337.16,
+     "first": 0.1598,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 0.1598
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.888,
+     "ft330": 2.48,
+     "ft660": 3.645,
+     "mph660": 206.95,
+     "ft1000": null,
+     "et": 4.841,
+     "mph": 185.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.882,
+     "ft330": 2.252,
+     "ft660": 3.161,
+     "mph660": 285.23,
+     "ft1000": null,
+     "et": 3.894,
+     "mph": 334.57,
+     "first": 0.9322,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.9322
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 1.067,
+     "ft330": 4.14,
+     "ft660": 6.757,
+     "mph660": 95.6,
+     "ft1000": null,
+     "et": 9.122,
+     "mph": 94.49,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.871,
+     "ft330": 2.244,
+     "ft660": 3.157,
+     "mph660": 284.33,
+     "ft1000": null,
+     "et": 3.892,
+     "mph": 332.92,
+     "first": 5.2492,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 5.2492
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.897,
+     "ft330": 2.309,
+     "ft660": 3.345,
+     "mph660": 225.56,
+     "ft1000": null,
+     "et": 4.286,
+     "mph": 245.9,
+     "first": 0.6494,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jason Rupert",
+     "car": "766",
+     "qpos_nhra": "12",
+     "mov": 0.6494
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.891,
+     "ft330": 2.284,
+     "ft660": 3.53,
+     "mph660": 173.99,
+     "ft1000": null,
+     "et": 4.945,
+     "mph": 157.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.113,
+     "ft60": 0.898,
+     "ft330": 2.743,
+     "ft660": 4.732,
+     "mph660": 118.48,
+     "ft1000": null,
+     "et": 6.818,
+     "mph": 105.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.888,
+     "ft330": 2.26,
+     "ft660": 3.171,
+     "mph660": 283.73,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 330.07,
+     "first": 2.9152,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "7",
+     "mov": 2.9152
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 0.864,
+     "ft330": 2.189,
+     "ft660": 3.099,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.839,
+     "mph": 329.02,
+     "first": 0.0565,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": 0.0565
+    },
+    {
+     "rt": 0.104,
+     "ft60": 0.869,
+     "ft330": 2.197,
+     "ft660": 3.114,
+     "mph660": 280.66,
+     "ft1000": null,
+     "et": 3.853,
+     "mph": 327.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.846,
+     "ft330": 2.161,
+     "ft660": 3.054,
+     "mph660": 288.09,
+     "ft1000": null,
+     "et": 3.786,
+     "mph": 330.8,
+     "first": 0.633,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": 0.633
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.884,
+     "ft330": 2.221,
+     "ft660": 3.404,
+     "mph660": 194.52,
+     "ft1000": null,
+     "et": 4.499,
+     "mph": 206.29,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.861,
+     "ft330": 2.178,
+     "ft660": 3.07,
+     "mph660": 289.45,
+     "ft1000": null,
+     "et": 3.798,
+     "mph": 333.16,
+     "first": 0.0556,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": 0.0556
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.865,
+     "ft330": 2.202,
+     "ft660": 3.118,
+     "mph660": 282.48,
+     "ft1000": null,
+     "et": 3.86,
+     "mph": 327.35,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.847,
+     "ft330": 2.166,
+     "ft660": 3.061,
+     "mph660": 288.77,
+     "ft1000": null,
+     "et": 3.791,
+     "mph": 331.45,
+     "first": 2.0933,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 2.0933
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.861,
+     "ft330": 2.399,
+     "ft660": 3.976,
+     "mph660": 134.7,
+     "ft1000": null,
+     "et": 5.901,
+     "mph": 114.27,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

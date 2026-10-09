@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.94,
+     "ft330": 2.514,
+     "ft660": 3.745,
+     "mph660": 200.95,
+     "ft1000": 4.808,
+     "et": 5.708,
+     "mph": 250.23,
+     "first": 3.788,
+     "lane": "Left",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.788
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.946,
+     "ft330": 2.751,
+     "ft660": 4.903,
+     "mph660": 102.88,
+     "ft1000": 7.216,
+     "et": 9.486,
+     "mph": 94.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 58 percent, barometer 29.82 inches, adjusted\r\naltitude 3,102 feet, track temperature 105 degrees.\r\n\r\nMenholt is 3 - 2 against Gray in prior events. \r\n\r\nMenholt with the starting line advantage and never trailed for the win.\r\n\r\nGray shook and shut it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.024,
+     "ft60": 0.949,
+     "ft330": 2.528,
+     "ft660": 3.783,
+     "mph660": 195.0,
+     "ft1000": 4.903,
+     "et": 6.026,
+     "mph": 180.55,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.021,
+     "ft60": 0.943,
+     "ft330": 2.537,
+     "ft660": 3.791,
+     "mph660": 196.19,
+     "ft1000": 4.864,
+     "et": 5.772,
+     "mph": 248.07,
+     "first": 0.2574,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.2574
+    }
+   ],
+   "note": "This is the first time Stavrinos and Collins have faced each other in eliminations. \r\n\r\nCollins with the starting line advantage, but Stavrinos had the lead at half track.  Collins drove back around\r\nhim for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 0.956,
+     "ft330": 2.56,
+     "ft660": 3.802,
+     "mph660": 204.45,
+     "ft1000": 4.866,
+     "et": 5.763,
+     "mph": 250.55,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.954,
+     "ft330": 2.53,
+     "ft660": 3.772,
+     "mph660": 198.76,
+     "ft1000": 4.834,
+     "et": 5.73,
+     "mph": 251.63,
+     "first": 0.0055,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0055
+    }
+   ],
+   "note": "Barnett is 2 - 0 against Bond in prior events. \r\n\r\nBarnett with the starting line advantage, but Bond chased him down by 330 feet and takes the win.  He will\r\ngive up lane choice to Menholt in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.046,
+     "ft60": 0.97,
+     "ft330": 2.549,
+     "ft660": 3.79,
+     "mph660": 199.64,
+     "ft1000": 4.849,
+     "et": 5.741,
+     "mph": 252.9,
+     "first": 0.0239,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0239
+    },
+    {
+     "rt": 0.038,
+     "ft60": 0.951,
+     "ft330": 2.533,
+     "ft660": 3.788,
+     "mph660": 197.13,
+     "ft1000": 4.861,
+     "et": 5.772,
+     "mph": 246.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Banaka and Thielen have faced each other in eliminations. \r\n\r\nThielen with the starting line advantage, but Banaka chased him down by 1000 feet and takes the win.  He will\r\nhave lane choice over Collins in the semifinal."
+  }
+ ]
+}

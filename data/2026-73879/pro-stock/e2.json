@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.022,
+     "ft60": 1.015,
+     "ft330": 2.81,
+     "ft660": 4.314,
+     "mph660": 163.45,
+     "ft1000": 5.612,
+     "et": 6.704,
+     "mph": 204.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.028,
+     "ft60": 0.999,
+     "ft330": 2.784,
+     "ft660": 4.278,
+     "mph660": 164.47,
+     "ft1000": 5.567,
+     "et": 6.654,
+     "mph": 205.82,
+     "first": 0.0443,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0443
+    }
+   ],
+   "note": "Weather conditions: air temperature 78 degrees, relative humidity 74 percent, barometer 29.90 inches, adjusted\r\naltitude 3,787 feet, track temperature 106 degrees.\r\n\r\nThis is the first time Hartford and Anderson have faced each other in eliminations. \r\n\r\n\r\nAnderson with the starting line advantage, but Hartford has the lead as they go by the Christmas tree and\r\nnever trailed from there on for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.027,
+     "ft60": 1.0,
+     "ft330": 2.794,
+     "ft660": 4.292,
+     "mph660": 164.45,
+     "ft1000": 5.585,
+     "et": 6.676,
+     "mph": 204.48,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson drove through some tire shake early on the bye run."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.029,
+     "ft60": 1.0,
+     "ft330": 2.794,
+     "ft660": 4.292,
+     "mph660": 164.31,
+     "ft1000": 5.586,
+     "et": 6.676,
+     "mph": 205.26,
+     "first": 0.0088,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0088
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.988,
+     "ft330": 2.783,
+     "ft660": 4.283,
+     "mph660": 164.05,
+     "ft1000": 5.579,
+     "et": 6.671,
+     "mph": 205.1,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Matt Latino's average R/T this year is .029.  \r\n\r\nGreg Stanfield's average R/T this year is .037\r\n\r\nStanfield is 2 - 1 against Latino in prior events. \r\n\r\nLatino is out of the gate first and has the power to hold on for the hole shot win.  Matt Latino's MOV: 0.0088\r\nseconds (approximately 3 feet).  He ties Anderson's E.T. and will have lane choice based on the faster speed."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.026,
+     "ft60": 0.99,
+     "ft330": 2.782,
+     "ft660": 4.28,
+     "mph660": 164.13,
+     "ft1000": 5.574,
+     "et": 6.665,
+     "mph": 205.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.991,
+     "ft330": 2.79,
+     "ft660": 4.293,
+     "mph660": 163.49,
+     "ft1000": 5.588,
+     "et": 6.677,
+     "mph": 206.61,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Dallas Glenn's average R/T against Aaron Stanfield is .029\r\n\r\nAaron Stanfield's average R/T against Dallas Glenn is .028\r\n\r\nGlenn is 16 - 7 against Stanfield in prior events. \r\n\r\nGlenn goes red to give Stanfield the win.\r\n\r\nStanfield is straight down the groove with a good looking pass.  He will give up lane choice to Hartford in\r\nthe semifinal."
+  }
+ ]
+}

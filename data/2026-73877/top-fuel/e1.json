@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.864,
+     "ft330": 2.174,
+     "ft660": 3.139,
+     "mph660": 247.25,
+     "ft1000": null,
+     "et": 4.026,
+     "mph": 268.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.866,
+     "ft330": 2.183,
+     "ft660": 3.087,
+     "mph660": 285.95,
+     "ft1000": null,
+     "et": 3.823,
+     "mph": 330.39,
+     "first": 0.2078,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": 0.2078
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.852,
+     "ft330": 2.174,
+     "ft660": 3.071,
+     "mph660": 287.66,
+     "ft1000": null,
+     "et": 3.805,
+     "mph": 330.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.881,
+     "ft330": 2.189,
+     "ft660": 3.067,
+     "mph660": 291.07,
+     "ft1000": null,
+     "et": 3.802,
+     "mph": 327.03,
+     "first": 0.0561,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "11",
+     "mov": 0.0561
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.846,
+     "ft330": 2.161,
+     "ft660": 3.05,
+     "mph660": 288.27,
+     "ft1000": null,
+     "et": 3.786,
+     "mph": 323.97,
+     "first": 2.5607,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": 2.5607
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.866,
+     "ft330": 2.427,
+     "ft660": 4.267,
+     "mph660": 117.03,
+     "ft1000": null,
+     "et": 6.364,
+     "mph": 104.02,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Leah Pruett is 1 - 7 against Massey is her worst record against any opponent (minimum 3 starts).  This is\r\nSpencer Massey's 5th starts since 2023 (and 2nd start this year) \r\n\r\nMassey with the starting line advantage, but was up in smoke right at the hit.\r\n\r\nPruett kept it hooked up and hitting on all eight for the win.  She will have lane choice over Smith in the\r\nnext round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.838,
+     "ft330": 2.131,
+     "ft660": 3.001,
+     "mph660": 294.95,
+     "ft1000": null,
+     "et": 3.718,
+     "mph": 338.0,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Langdon had a Bye run in Rd. 1 at Gainesville this year and went on to win the race.\r\n\r\nLangdon launched hard and kept it hooked up with the quickest and fastest pass of the event.  Shawn Langdon's\r\nincremental times: 60ft-0.838 sec., 330ft-2.131, 660ft-3.001/294.95 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.058,
+     "ft60": 0.849,
+     "ft330": 2.151,
+     "ft660": 3.035,
+     "mph660": 290.88,
+     "ft1000": null,
+     "et": 3.76,
+     "mph": 334.4,
+     "first": 0.1154,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": 0.1154
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.866,
+     "ft330": 2.199,
+     "ft660": 3.113,
+     "mph660": 279.85,
+     "ft1000": null,
+     "et": 3.867,
+     "mph": 320.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Lex Joon",
+     "car": "222",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta has won at 32 different race tracks.  Lex Joon is making his 20th start.\r\n\r\nKalitta with the starting line advantage and never trailed for the win.  Kalitta with his quickest and fastest\r\npass of the weekend for the win.  He will have lane choice over Millican in the next round.\r\n\r\nJoon kept it hooked up and hitting on all eight to make his career fastest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.862,
+     "ft330": 2.185,
+     "ft660": 3.312,
+     "mph660": 208.49,
+     "ft1000": null,
+     "et": 4.411,
+     "mph": 215.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.871,
+     "ft330": 2.219,
+     "ft660": 3.3,
+     "mph660": 226.92,
+     "ft1000": null,
+     "et": 4.219,
+     "mph": 267.06,
+     "first": 0.1951,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "13",
+     "mov": 0.1951
+    }
+   ],
+   "note": "Tony Stewart is 31 - 14 in Rd. 1 in his career.  Shawn Reed lost to Stewart in Rd. 1 in Phoenix.\r\n\r\nStewart is 3 - 2 against Reed in prior events. \r\n\r\nReed with the slight starting line advantage, but dropped a cylinder.  He started to smoke the tires and\r\nstayed with it to get the win.\r\n\r\nStewart starts to lose traction and pedals the car.  It pulls the front end before he clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 0.853,
+     "ft330": 2.172,
+     "ft660": 3.124,
+     "mph660": 243.33,
+     "ft1000": null,
+     "et": 3.997,
+     "mph": 286.44,
+     "first": 0.9007,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": 0.9007
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.863,
+     "ft330": 2.191,
+     "ft660": 3.425,
+     "mph660": 174.96,
+     "ft1000": null,
+     "et": 4.877,
+     "mph": 150.06,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Billy Torrence wins 84% of his Rd. 1 races when he has lane choice.  Tony Schumacher is 1 - 4 against Torrence\r\nin Rd. 1.\r\n\r\nTorrence is 6 - 4 against Schumacher in prior events. \r\n\r\nTorrence with a great light and never trailed for the win.  Torrence started to lose traction and pedaled it a\r\ncouple times and got it too hook up enough for the win.   He will have lane choice over Reed in the next\r\nround.\r\n\r\nSchumacher is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.863,
+     "ft330": 2.194,
+     "ft660": 3.136,
+     "mph660": 255.97,
+     "ft1000": null,
+     "et": 3.995,
+     "mph": 276.52,
+     "first": 0.056,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": 0.056
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.863,
+     "ft330": 2.187,
+     "ft660": 3.169,
+     "mph660": 243.37,
+     "ft1000": null,
+     "et": 4.03,
+     "mph": 283.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Brown is 12 - 11 against Ashley in prior events.\r\n\r\nAshley with the starting line advantage, but started to spin the tires in the lights for the win.\r\n\r\nBrown started to lose traction around half track and stayed with it."
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.878,
+     "ft330": 2.25,
+     "ft660": 3.155,
+     "mph660": 287.9,
+     "ft1000": null,
+     "et": 3.884,
+     "mph": 332.34,
+     "first": 3.0491,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": 3.0491
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.879,
+     "ft330": 2.597,
+     "ft660": 4.593,
+     "mph660": 107.2,
+     "ft1000": null,
+     "et": 6.941,
+     "mph": 95.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 55 percent, barometer 29.96 inches, adjusted\r\naltitude 1,625 feet. \r\n\r\nCapps is 29 - 6 against DeJoria in prior events. \r\n\r\nDeJoria with a slight starting line advantage, but lost traction right at the hit and clicked it off.\r\n\r\nCapps is straight down the groove with his quickest pass of the weekend."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.114,
+     "ft60": 0.901,
+     "ft330": 2.304,
+     "ft660": 3.223,
+     "mph660": 280.95,
+     "ft1000": null,
+     "et": 3.97,
+     "mph": 325.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.894,
+     "ft330": 2.268,
+     "ft660": 3.178,
+     "mph660": 285.47,
+     "ft1000": null,
+     "et": 3.914,
+     "mph": 330.63,
+     "first": 0.1093,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.1093
+    }
+   ],
+   "note": "Green is 1 - 0 against Vandergriff in prior events. \r\n\r\nVandergriff with the starting line advantage and never trailed for the win.  He makes another good looking\r\npass for the win.  He will give up lane choice to Capps in the semifinal.\r\n\r\nGreen with a good pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 0.946,
+     "ft330": 3.534,
+     "ft660": 6.491,
+     "mph660": 76.82,
+     "ft1000": null,
+     "et": 9.479,
+     "mph": 78.47,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jason Rupert",
+     "car": "766",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.07,
+     "ft60": 0.869,
+     "ft330": 2.25,
+     "ft660": 3.169,
+     "mph660": 284.03,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 329.34,
+     "first": 5.5167,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 5.5167
+    }
+   ],
+   "note": "Hagan is 1 - 0 against Rupert in prior events. \r\n\r\nRupert with a great light and is up in smoke right at the hit.  Hagan kept it hooked up with a good looking\r\npass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.872,
+     "ft330": 2.48,
+     "ft660": 3.606,
+     "mph660": 213.43,
+     "ft1000": null,
+     "et": 4.76,
+     "mph": 193.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.879,
+     "ft330": 2.264,
+     "ft660": 3.183,
+     "mph660": 286.07,
+     "ft1000": null,
+     "et": 3.914,
+     "mph": 334.65,
+     "first": 0.8517,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 0.8517
+    }
+   ],
+   "note": "Beckman is 11 - 7 against Todd in prior events. \r\n\r\nTodd with the starting line advantage and never trailed for the win.  He will give up lane choice to Hagan in\r\nthe semifinal.\r\n\r\nBeckman lost traction early and clicked it off."
+  }
+ ]
+}

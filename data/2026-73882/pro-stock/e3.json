@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.022,
+     "ft60": 0.999,
+     "ft330": 2.781,
+     "ft660": 4.254,
+     "mph660": 166.19,
+     "ft1000": 5.526,
+     "et": 6.594,
+     "mph": 209.95,
+     "first": 6.2685,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.2685
+    },
+    {
+     "rt": 0.014,
+     "ft60": 1.02,
+     "ft330": 3.432,
+     "ft660": 6.421,
+     "mph660": 73.97,
+     "ft1000": 9.667,
+     "et": 12.87,
+     "mph": 66.89,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 57 percent, barometer 30.03 inches, adjusted\r\naltitude 1,673 feet, track temperature 99 degrees.\r\n\r\nThat was the 5th perfect reaction time for Erica Enders.\r\n\r\nErica is 14 - 12 against Anderson in Rd. 3.\r\n\r\nAnderson and Enders have each won 31 times against the other in prior events. \r\n\r\nEnders with the starting line advantage, but has severe tire shake and the car is sideways before she pushes\r\nin the clutch.\r\n\r\nAnderson drives through tire shake for the win.  Anderson is advancing to his sixth final this season and\r\n197th career final."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 0.972,
+     "ft330": 2.724,
+     "ft660": 4.188,
+     "mph660": 167.72,
+     "ft1000": 5.451,
+     "et": 6.514,
+     "mph": 210.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.973,
+     "ft330": 2.729,
+     "ft660": 4.177,
+     "mph660": 167.97,
+     "ft1000": 5.442,
+     "et": 6.508,
+     "mph": 211.03,
+     "first": 0.0215,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0215
+    }
+   ],
+   "note": "Dallas Glenn is 4 - 1 against Greg Stanfield overall.\r\n\r\nIn their 5 races each driver has fouled out once and they have had the identical R/T once.\r\n\r\nStanfield with the starting line advantage and never trailed for the win.  He will have lane choice over\r\nAnderson in the final.  He is advancing to his second final this season and 30th of his career."
+  }
+ ]
+}

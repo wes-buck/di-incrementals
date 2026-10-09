@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.891,
+     "ft330": 2.261,
+     "ft660": 3.175,
+     "mph660": 284.87,
+     "ft1000": null,
+     "et": 99.999,
+     "mph": 1.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.05,
+     "ft60": 0.911,
+     "ft330": 2.856,
+     "ft660": 4.47,
+     "mph660": 133.14,
+     "ft1000": null,
+     "et": 3.964,
+     "mph": 315.86,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 47 percent, barometer 30.04 inches, adjusted\r\naltitude 2,629 feet, track temperature 113 degrees.\r\n\r\nProck is 7 - 2 against Capps in prior events. \r\n\r\nProck with the starting line advantage, but was up in smoke right at the hit.\r\n\r\nCapps dropped a cylinder and the car starts to drift out of the groove and then collects the top end blocks,\r\nHe is DQ'ed to give Prock the win.  This will cost Capps 10 points."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.899,
+     "ft330": 2.279,
+     "ft660": 3.213,
+     "mph660": 281.77,
+     "ft1000": null,
+     "et": 3.953,
+     "mph": 330.63,
+     "first": 0.0138,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": 0.0138
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.887,
+     "ft330": 2.268,
+     "ft660": 3.199,
+     "mph660": 278.58,
+     "ft1000": null,
+     "et": 3.954,
+     "mph": 318.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Todd is 2 - 1 against Bode in prior events.\r\n\r\nTodd with the starting line advantage, but Bode had the lead at 660 feet.  Todd drove back around for the win\r\non the top end.  J.R. Todd's MOV: 0.0138 seconds (approximately 6 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.881,
+     "ft330": 2.263,
+     "ft660": 3.192,
+     "mph660": 281.3,
+     "ft1000": null,
+     "et": 3.944,
+     "mph": 320.05,
+     "first": 0.2813,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 0.2813
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.943,
+     "ft330": 2.388,
+     "ft660": 3.361,
+     "mph660": 264.13,
+     "ft1000": null,
+     "et": 4.191,
+     "mph": 275.0,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Hagan is 9 - 5 against Green in prior events. \r\n\r\nHagan with the starting line advantage and never trailed for the win.  He will have lane choice over Prock in\r\nthe semifinal.\r\n\r\nGreen was dropping cylinders right at the hit and then mixing them up on the top end."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.087,
+     "ft60": 0.883,
+     "ft330": 2.27,
+     "ft660": 3.204,
+     "mph660": 279.21,
+     "ft1000": null,
+     "et": 3.944,
+     "mph": 320.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.892,
+     "ft330": 2.28,
+     "ft660": 3.205,
+     "mph660": 279.09,
+     "ft1000": null,
+     "et": 4.191,
+     "mph": 275.0,
+     "first": 0.0292,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": 0.0292
+    }
+   ],
+   "note": "Vandergriff is 2 - 0 against DeJoria in prior events. \r\n\r\nVandergriff with the starting line advantage and wins the hole shot win as they both run identical E.T.s.\r\nVandergriff will give up lane choice to Todd in the semifinal."
+  }
+ ]
+}

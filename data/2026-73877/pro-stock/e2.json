@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 1.011,
+     "ft330": 3.502,
+     "ft660": 6.598,
+     "mph660": 71.65,
+     "ft1000": 9.926,
+     "et": 13.181,
+     "mph": 66.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.997,
+     "ft330": 2.752,
+     "ft660": 4.212,
+     "mph660": 168.96,
+     "ft1000": 5.473,
+     "et": 6.535,
+     "mph": 211.23,
+     "first": 6.6648,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.6648
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 0.989,
+     "ft330": 2.729,
+     "ft660": 4.178,
+     "mph660": 169.93,
+     "ft1000": 5.431,
+     "et": 6.487,
+     "mph": 212.33,
+     "first": 0.0496,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0496
+    },
+    {
+     "rt": 0.024,
+     "ft60": 0.996,
+     "ft330": 2.75,
+     "ft660": 4.207,
+     "mph660": 168.96,
+     "ft1000": 5.466,
+     "et": 6.525,
+     "mph": 211.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 0.984,
+     "ft330": 2.721,
+     "ft660": 4.166,
+     "mph660": 170.71,
+     "ft1000": 5.413,
+     "et": 6.464,
+     "mph": 212.79,
+     "first": 4.3901,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 4.3901
+    },
+    {
+     "rt": 0.019,
+     "ft60": 1.003,
+     "ft330": 3.148,
+     "ft660": 5.646,
+     "mph660": 89.06,
+     "ft1000": 8.307,
+     "et": 10.887,
+     "mph": 83.72,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 0.996,
+     "ft330": 2.738,
+     "ft660": 4.186,
+     "mph660": 170.51,
+     "ft1000": 5.435,
+     "et": 6.488,
+     "mph": 212.23,
+     "first": 0.0019,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0019
+    },
+    {
+     "rt": 0.018,
+     "ft60": 0.984,
+     "ft330": 2.734,
+     "ft660": 4.19,
+     "mph660": 169.27,
+     "ft1000": 5.446,
+     "et": 6.503,
+     "mph": 211.99,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

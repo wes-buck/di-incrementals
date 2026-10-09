@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.885,
+     "ft330": 2.286,
+     "ft660": 3.22,
+     "mph660": 277.2,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 323.27,
+     "first": 0.0412,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "5",
+     "mov": 0.0412
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.888,
+     "ft330": 2.281,
+     "ft660": 3.249,
+     "mph660": 268.49,
+     "ft1000": null,
+     "et": 4.016,
+     "mph": 319.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 68 degrees, relative humidity 46 percent, barometer 30.12 inches, adjusted\r\naltitude 798 feet. \r\n\r\nChad Green wins 64% of his Rd. 1 races when he has lane choice.  Paul Lee is 4 - 5 against Green in Rd. 1\r\n\r\nGreen is 7 - 5 against Lee in prior events. \r\n\r\nThey have identical reaction times, Green has the lead at 100 feet, but Lee is back in the lead at 330 feet.\r\nGreen drives back around by half track and never trailed for the win.  Green with his quickest pass of the\r\nweekend for the win.\r\n\r\nLee with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.102,
+     "ft60": 0.873,
+     "ft330": 2.261,
+     "ft660": 3.275,
+     "mph660": 231.32,
+     "ft1000": null,
+     "et": 4.171,
+     "mph": 277.89,
+     "first": 0.0737,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "3",
+     "mov": 0.0737
+    },
+    {
+     "rt": 0.043,
+     "ft60": 0.888,
+     "ft330": 2.289,
+     "ft660": 3.278,
+     "mph660": 241.5,
+     "ft1000": null,
+     "et": 4.303,
+     "mph": 216.2,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "This is the 3rd time this year Spencer Hyde has been in the top half of the field.  Daniel Wilkerson is 29 -\r\n30 in Rd. 1\r\n\r\nWilkerson is 2 - 0 against Hyde in prior events. \r\n\r\nWilkerson with the starting line advantage, but lost traction.  Hyde had lost traction early and pedaled it.\r\nHe got it to hook up enough for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.875,
+     "ft330": 2.259,
+     "ft660": 3.189,
+     "mph660": 278.52,
+     "ft1000": null,
+     "et": 3.939,
+     "mph": 325.69,
+     "first": 1.0204,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": 1.0204
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.967,
+     "ft330": 2.45,
+     "ft660": 3.651,
+     "mph660": 180.12,
+     "ft1000": null,
+     "et": 5.027,
+     "mph": 161.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joe Morrison",
+     "car": "171",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman is 31 - 3 in Rd. 1 when #1 qualifier.  This is Joe Morrison's 1st start since Reading, 2025\r\n\r\nMorrison with the starting line advantage, but the car went silent by half track.  Beckman with the lead by\r\nthe time they go by the Christmas tree and never trailed from there on for the win.  He make the second\r\nquickest pass of the weekend for the win.\r\n\r\nMorrison with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.878,
+     "ft330": 2.28,
+     "ft660": 3.23,
+     "mph660": 272.72,
+     "ft1000": null,
+     "et": 3.988,
+     "mph": 322.27,
+     "first": 0.3835,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "4",
+     "mov": 0.3835
+    },
+    {
+     "rt": 0.125,
+     "ft60": 1.619,
+     "ft330": 6.302,
+     "ft660": 10.594,
+     "mph660": 58.6,
+     "ft1000": null,
+     "et": 14.327,
+     "mph": 64.45,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Jordan Vandergriff is 5 - 1 in Rd. 1 this year.   Dave Richards is making his 83rd start\r\n\r\nVandergriff with the starting line advantage and is straight down the groove for the win.  He will give up\r\nlane choice to Green in the next round.\r\n\r\nRichards was up in smoke and sideways right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.888,
+     "ft330": 2.29,
+     "ft660": 3.247,
+     "mph660": 271.79,
+     "ft1000": null,
+     "et": 4.016,
+     "mph": 316.6,
+     "first": 0.0903,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "2",
+     "mov": 0.0903
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.9,
+     "ft330": 2.302,
+     "ft660": 3.249,
+     "mph660": 266.64,
+     "ft1000": null,
+     "et": 4.127,
+     "mph": 254.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Del Worsham",
+     "car": "750",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Cruz Pedregon is 40 - 6 in Rd. 1 when qualified #2.   Del Worsham's 513 FC round wins are tied for 7th most in\r\nthe class history.\r\n\r\nPedregon is 27 - 17 against Worsham in prior events. \r\n\r\nWorsham with the starting line advantage, but the car went silent and the chutes were out around 800 feet.\r\n\r\nPedregon was able to chase Worsham down right in the lights for the win.  He was spin his tires right in the\r\nlight but got the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.897,
+     "ft330": 2.323,
+     "ft660": 3.329,
+     "mph660": 233.28,
+     "ft1000": null,
+     "et": 4.388,
+     "mph": 202.48,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.878,
+     "ft330": 2.266,
+     "ft660": 3.219,
+     "mph660": 272.94,
+     "ft1000": null,
+     "et": 3.977,
+     "mph": 323.19,
+     "first": 0.4201,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.4201
+    }
+   ],
+   "note": "Matt Hagan's 1 - 9 record against Prock is his worst against any driver (minimum 5 races).  This is the 1st\r\ntime these two have met in Rd. 1.\r\n\r\nProck with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.  He will have lane choice over Hyde in the next round.\r\n\r\nHagan dropped a cylinder just before half track and the engine let go with a quick fireball."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.102,
+     "ft60": 0.897,
+     "ft330": 2.307,
+     "ft660": 3.257,
+     "mph660": 275.51,
+     "ft1000": null,
+     "et": 4.009,
+     "mph": 326.56,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.888,
+     "ft330": 2.295,
+     "ft660": 3.24,
+     "mph660": 275.62,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 321.12,
+     "first": 0.0313,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": 0.0313
+    }
+   ],
+   "note": "Her 30 round losses to Capps are the most for Alexis DeJoria against any opponent.  Ron Capps is 12 - 4\r\nagainst Alexis in Rd. 1\r\n\r\nCapps with the starting line advantage and he makes his quickest pass of the weekend for the win.  Ron Capps'\r\nMOV: 0.0313 seconds (approximately 15 feet).  He will have lane choice over Pedregon in the next round.\r\n\r\nDeJoria is straight down the groove with her second quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.896,
+     "ft330": 2.312,
+     "ft660": 3.266,
+     "mph660": 273.88,
+     "ft1000": null,
+     "et": 4.015,
+     "mph": 328.14,
+     "first": 0.8518,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "8",
+     "mov": 0.8518
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.896,
+     "ft330": 2.333,
+     "ft660": 3.53,
+     "mph660": 183.02,
+     "ft1000": null,
+     "et": 4.878,
+     "mph": 165.25,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "In FC J.R. Todd is 226 - 177 in Rd. 1.   Blake Alexander is 1 - 11 in Rd. 1 against Todd.\r\n\r\nTodd is 12 - 2 against Alexander in prior events.\r\n\r\nAlexander with the starting line advantage, but drives into tire smoke and clicked it off.\r\n\r\nTodd is straight down the groove, just off his qualifying time for the win.  He will give up lane choice to\r\nBeckman in the next round."
+  }
+ ]
+}

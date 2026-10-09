@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.984,
+     "ft330": 2.724,
+     "ft660": 4.171,
+     "mph660": 170.32,
+     "ft1000": 5.42,
+     "et": 6.472,
+     "mph": 212.46,
+     "first": 8.047,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 8.047
+    },
+    {
+     "rt": 0.027,
+     "ft60": 1.049,
+     "ft330": 3.78,
+     "ft660": 7.21,
+     "mph660": 64.42,
+     "ft1000": 10.925,
+     "et": 14.576,
+     "mph": 58.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 32 percent, barometer 29.99 inches, adjusted\r\naltitude 1,394 feet. \r\n\r\nAnderson is 15 - 8 against Glenn in prior events and Anderson is 9 - 1 against Glenn in prior final rounds. \r\n\r\nGlenn with the starting line advantage, but has severe tire shake before he pushed in the clutch.  Anderson is\r\nstraight down the groove with his quickest pass of the weekend for the win.  He wins his second Wally this\r\nseason and 114th of his career."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.011,
+     "ft60": 1.05,
+     "ft330": 2.824,
+     "ft660": 4.323,
+     "mph660": 163.91,
+     "ft1000": 5.63,
+     "et": 6.751,
+     "mph": 199.94,
+     "first": 6.6565,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.6565
+    },
+    {
+     "rt": 0.106,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chip Ellis",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 1.077,
+     "ft330": 2.828,
+     "ft660": 4.3,
+     "mph660": 166.03,
+     "ft1000": 5.593,
+     "et": 6.702,
+     "mph": 201.49,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.021,
+     "ft60": 1.095,
+     "ft330": 2.864,
+     "ft660": 4.356,
+     "mph660": 164.51,
+     "ft1000": 5.655,
+     "et": 6.767,
+     "mph": 201.73,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Brayden Davis",
+     "car": "5",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.02,
+     "ft60": 1.077,
+     "ft330": 2.854,
+     "ft660": 4.342,
+     "mph660": 165.64,
+     "ft1000": 5.636,
+     "et": 6.746,
+     "mph": 202.06,
+     "first": 0.0427,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jianna Evaristo",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0427
+    },
+    {
+     "rt": 0.03,
+     "ft60": 1.076,
+     "ft330": 2.858,
+     "ft660": 4.356,
+     "mph660": 164.11,
+     "ft1000": 5.66,
+     "et": 6.778,
+     "mph": 199.35,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 1.051,
+     "ft330": 2.826,
+     "ft660": 4.32,
+     "mph660": 164.29,
+     "ft1000": 5.622,
+     "et": 6.734,
+     "mph": 201.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 1.067,
+     "ft330": 2.821,
+     "ft660": 4.306,
+     "mph660": 165.25,
+     "ft1000": 5.595,
+     "et": 6.697,
+     "mph": 203.12,
+     "first": 0.0322,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0322
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0366,
+     "ft60": 1.06,
+     "ft330": 2.8419,
+     "ft660": 4.3613,
+     "mph660": 160.94,
+     "ft1000": 5.6911,
+     "et": 6.8256,
+     "mph": 198.06,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0353,
+     "ft60": 1.0387,
+     "ft330": 2.816,
+     "ft660": 4.3279,
+     "mph660": 161.99,
+     "ft1000": 5.6573,
+     "et": 6.7905,
+     "mph": 198.85,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0364
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0296,
+     "ft60": 1.0652,
+     "ft330": 2.8376,
+     "ft660": 4.3426,
+     "mph660": 162.93,
+     "ft1000": 5.6575,
+     "et": 6.7911,
+     "mph": 197.89,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0284,
+     "ft60": 1.0385,
+     "ft330": 2.7998,
+     "ft660": 4.2929,
+     "mph660": 164.53,
+     "ft1000": 5.5974,
+     "et": 6.7148,
+     "mph": 201.16,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0775
+    }
+   ],
+   "note": null
+  }
+ ]
+}

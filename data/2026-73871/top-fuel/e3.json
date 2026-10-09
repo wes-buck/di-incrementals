@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.859,
+     "ft330": 2.388,
+     "ft660": 3.594,
+     "mph660": 213.84,
+     "ft1000": null,
+     "et": 4.488,
+     "mph": 289.51,
+     "first": 0.0221,
+     "lane": "Left",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": 0.0221
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.853,
+     "ft330": 2.319,
+     "ft660": 3.56,
+     "mph660": 206.7,
+     "ft1000": null,
+     "et": 4.552,
+     "mph": 246.93,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 59 percent, barometer 30.06 inches,\r\nadjusted altitude 2,209 feet, track temperature 112 degrees.\r\n\r\nBrown is 5 - 2 against Hart in prior events. \r\n\r\nBrown with problems in the pit between rounds, but makes to the starting line.\r\n\r\nBrown with the starting line advantage and the lead until right in the lights when Hart chased him\r\ndown for the win in a close one.  Josh Hart's MOV: 0.0221 seconds (approximately 8 feet).\r\n\r\nThey both smoked the tires and they both pedaled it a couple times.\r\n\r\nHart is advancing to his sixth final round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 0.86,
+     "ft330": 2.178,
+     "ft660": 3.308,
+     "mph660": 191.02,
+     "ft1000": null,
+     "et": 4.63,
+     "mph": 165.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.845,
+     "ft330": 2.149,
+     "ft660": 3.03,
+     "mph660": 291.26,
+     "ft1000": null,
+     "et": 3.754,
+     "mph": 333.91,
+     "first": 0.9427,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": 0.9427
+    }
+   ],
+   "note": "Kalitta with the starting line advantage and never tailed for the win.  Gordon started to haze the\r\ntires and clicked it off.\r\n\r\nKalitta is advancing to his 127th final round and will have lane choice over Hart."
+  }
+ ]
+}

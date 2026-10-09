@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 0.8652,
+     "ft330": 2.2252,
+     "ft660": 3.1253,
+     "mph660": 286.81,
+     "ft1000": null,
+     "et": 3.8587,
+     "mph": 329.43,
+     "first": 4.4775,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 4.4775
+    },
+    {
+     "rt": 0.0155,
+     "ft60": 0.9198,
+     "ft330": 3.2447,
+     "ft660": 5.6133,
+     "mph660": 89.18,
+     "ft1000": null,
+     "et": 8.3577,
+     "mph": 84.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,331 feet. \r\n\r\nHagan is 2 - 1 against Vandergriff in prior events and Hagan is 1 - 0 against Vandergriff in prior\r\nfinal rounds. \r\n\r\nThis is the first #3 (Hagan) vs. #16 (Vandergriff) met in the FC final round since Memphis, 1999 M.\r\n(Dunn vs. Hoover)\r\n\r\nHagan with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nVandergriff is straight down the groove with his quickest pass of the weekend for the win.  He wins\r\nhis third Wally, all this season"
+  }
+ ]
+}

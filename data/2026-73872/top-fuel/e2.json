@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.86,
+     "ft330": 2.225,
+     "ft660": 3.177,
+     "mph660": 271.9,
+     "ft1000": null,
+     "et": 3.987,
+     "mph": 282.24,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.872,
+     "ft330": 2.21,
+     "ft660": 3.12,
+     "mph660": 283.31,
+     "ft1000": null,
+     "et": 3.859,
+     "mph": 329.02,
+     "first": 0.1549,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.1549
+    }
+   ],
+   "note": "Weather conditions: air temperature 94 degrees, relative humidity 13 percent, barometer 29.78 inches, adjusted\r\naltitude 3,954 feet, track temperature 130 degrees.\r\n\r\nSchumacher is 22 - 17 against Langdon in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win.\r\n\r\nSchumacher with a good pass early and then started to spin the tires and it banged the blower in the lights."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.869,
+     "ft330": 2.21,
+     "ft660": 3.201,
+     "mph660": 242.23,
+     "ft1000": null,
+     "et": 4.081,
+     "mph": 275.62,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.867,
+     "ft330": 2.209,
+     "ft660": 3.13,
+     "mph660": 277.94,
+     "ft1000": null,
+     "et": 3.887,
+     "mph": 319.52,
+     "first": 0.1717,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": 0.1717
+    }
+   ],
+   "note": "Hart is 5 - 1 against Pruett in prior events. \r\n\r\nHart with the starting line advantage, but drives into tire smoke by 300 feet and he clicks it off.\r\n\r\nPruett is straight down the groove with a good clean pass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.863,
+     "ft330": 2.194,
+     "ft660": 3.104,
+     "mph660": 281.48,
+     "ft1000": null,
+     "et": 3.851,
+     "mph": 324.83,
+     "first": 0.0838,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "4",
+     "mov": 0.0838
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.869,
+     "ft330": 2.231,
+     "ft660": 3.171,
+     "mph660": 272.17,
+     "ft1000": null,
+     "et": 3.95,
+     "mph": 311.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Stewart with the starting line advantage, but around 330 feet the car spun and dropped a cylinder.  \r\n\r\nGordon drove around him and never trailed from there on for the win.  She will have lane choice over Langdon\r\nin the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.131,
+     "ft60": 0.887,
+     "ft330": 2.259,
+     "ft660": 3.198,
+     "mph660": 275.79,
+     "ft1000": null,
+     "et": 3.953,
+     "mph": 321.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.858,
+     "ft330": 2.21,
+     "ft660": 3.13,
+     "mph660": 280.84,
+     "ft1000": null,
+     "et": 3.874,
+     "mph": 327.59,
+     "first": 0.1305,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.1305
+    }
+   ],
+   "note": "Torrence is 8 - 7 against Kalitta in prior events. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  He will have lane choice over Pruett\r\nin the semifinal."
+  }
+ ]
+}

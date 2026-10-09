@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0855,
+     "ft60": 0.8482,
+     "ft330": 2.1292,
+     "ft660": 2.9989,
+     "mph660": 293.54,
+     "ft1000": null,
+     "et": 3.7362,
+     "mph": 312.07,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 75 percent, barometer 30.17 inches,\r\nadjusted altitude 987 feet.\r\n\r\n13 of the 14 Top Fuel wins this year have come from the top half of the field.\r\nShawn Langdon's win in Chicago (#9) is the only Top Fuel win this year from the bottom half of the\r\nfield.\r\n\r\nJustin Ashley will not be racing today in observance of Yom Kippur \r\nBilly Torrence is 6-5 in Round 1 when starting ninth (0-2 this year).\r\n\r\ntorrence starts to lose traction on the top end and clicks it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0346,
+     "ft60": 0.8351,
+     "ft330": 2.1075,
+     "ft660": 2.9585,
+     "mph660": 296.83,
+     "ft1000": null,
+     "et": 3.7257,
+     "mph": 289.95,
+     "first": 0.0037,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0499,
+     "ft60": 0.8514,
+     "ft330": 2.1292,
+     "ft660": 2.9878,
+     "mph660": 294.12,
+     "ft1000": null,
+     "et": 3.7141,
+     "mph": 332.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kyle Wurtzel",
+     "car": "386",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Tony Stewart has qualified in the top half of the field at 13 of his 15 races this year.\r\nThis is Kyle Wurtzel's first race since St. Louis last year.\r\n\r\nStewart is 2 - 0 against Wurtzel in prior events. \r\n\r\nStewart with the starting line advantage and the power to hold on for the hole shot win in a close\r\none.  Tony Stewart's MOV: 0.0040 seconds (approximately 23 inches).\r\n\r\n\r\nWurtzel with his season quickest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.0051,
+     "ft60": 0.8944,
+     "ft330": 2.4855,
+     "ft660": 3.4766,
+     "mph660": 264.08,
+     "ft1000": null,
+     "et": 4.2768,
+     "mph": 304.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0573,
+     "ft60": 0.9253,
+     "ft330": 3.365,
+     "ft660": 6.1131,
+     "mph660": 74.48,
+     "ft1000": null,
+     "et": 9.2966,
+     "mph": 74.22,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Since his win in Gainesville, Josh Hart has only advanced past the second round twice.\r\nShawn Reed is 2-11 in Round 1 this year.\r\n\r\nReed is 1 - 0 against Hart in prior events. \r\n\r\nReed goes red and Hart goes up in smoke, but still get the win.  He will give up lane choice to\r\nMassey in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0288,
+     "ft60": 0.8233,
+     "ft330": 2.0861,
+     "ft660": 2.9415,
+     "mph660": 297.03,
+     "ft1000": null,
+     "et": 3.6619,
+     "mph": 333.09,
+     "first": 1.3307,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0147,
+     "ft60": 0.8986,
+     "ft330": 2.2639,
+     "ft660": 3.413,
+     "mph660": 184.65,
+     "ft1000": null,
+     "et": 5.0067,
+     "mph": 122.65,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kyle Satenstein",
+     "car": "1980",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta has won 36 rounds this year. He won 39 rounds during his entire 2025 championship\r\nseason.\r\nThis is the fourth start for Kyle Satenstein.\r\n\r\nThis is the first time Kalitta and Satenstein have faced each other in eliminations. \r\n\r\nSatenstein with a great light and then started to mix up cylinders by 330 feet.  The engine lets go\r\naround half tack with a big fireball.\r\n\r\nKalitta launched hard and kept it hooked up to make the second quickest pass of the weekend.  He will\r\nhave lane choice over Torrence in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0462,
+     "ft60": 0.8637,
+     "ft330": 2.1409,
+     "ft660": 3.0777,
+     "mph660": 233.77,
+     "ft1000": null,
+     "et": 4.2065,
+     "mph": 187.27,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Shumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0241,
+     "ft60": 0.8493,
+     "ft330": 2.1201,
+     "ft660": 2.9876,
+     "mph660": 292.4,
+     "ft1000": null,
+     "et": 3.7223,
+     "mph": 329.67,
+     "first": 0.5063,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "--",
+     "mov": 0.5063
+    }
+   ],
+   "note": "In his last 11 starts, Tony Schumacher is 2-9 in Round 1.\r\nSpence Massey is 2-0 against Schumacher in Round 1. Their last Round 1 meeting was in Topeka in 2014.\r\n\r\nMassey is 15 - 10 against Schumacher in prior events. \r\n\r\nMassey with the starting line advantage and never trailed for the win.\r\n\r\nSchumacher started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0154,
+     "ft60": 0.8532,
+     "ft330": 2.1072,
+     "ft660": 2.9672,
+     "mph660": 296.44,
+     "ft1000": null,
+     "et": 3.6827,
+     "mph": 339.62,
+     "first": 6.2614,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": 6.2614
+    },
+    {
+     "rt": 0.0599,
+     "ft60": 0.9297,
+     "ft330": 3.7517,
+     "ft660": 6.8727,
+     "mph660": 74.69,
+     "ft1000": null,
+     "et": 9.8996,
+     "mph": 78.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Antron Brown has won 20 rounds this year. In his first 14 races last year, he won 16 rounds.\r\nClay Millican's average E.T. in his last seven losses is 6.233.\r\n\r\nBrown is 36 - 9 against Millican in prior events. \r\n\r\nBrown with a great light and makes his career fastest pass for the win.  He will have lane choice\r\nover Stewart in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0449,
+     "ft60": 0.841,
+     "ft330": 2.0978,
+     "ft660": 2.945,
+     "mph660": 300.2,
+     "ft1000": null,
+     "et": 3.6525,
+     "mph": 344.04,
+     "first": 1.1822,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 1.1822
+    },
+    {
+     "rt": 0.0184,
+     "ft60": 0.8541,
+     "ft330": 2.4353,
+     "ft660": 3.5829,
+     "mph660": 198.41,
+     "ft1000": null,
+     "et": 4.8612,
+     "mph": 171.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Langdon's 34 round wins are already the fourth-most he has recorded in a single season. He is\r\nthe only Top Fuel driver to \"sweep\" an event this year (MIR).\r\nMaddi Gordon's 17 round wins are the sixth-most in Top Fuel this year.\r\n\r\nGordon is 2 - 1 against Langdon in prior events. \r\n\r\nGordon with a great light, but starts to shake right at the hit and pedaled it.  she couldn't get it\r\nto hook up and clicked it off.\r\n\r\nLangdon launched hard and kept it hooked up and make the quickest pass of the weekend for the win.\r\nHe makes the second fastest pass in Top Fuel History."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.008,
+     "ft60": 0.8423,
+     "ft330": 2.1255,
+     "ft660": 2.9817,
+     "mph660": 297.03,
+     "ft1000": null,
+     "et": 3.6992,
+     "mph": 336.83,
+     "first": 0.0832,
+     "lane": "Left",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": 0.0832
+    },
+    {
+     "rt": 0.0238,
+     "ft60": 0.8439,
+     "ft330": 2.1266,
+     "ft660": 3.0105,
+     "mph660": 284.27,
+     "ft1000": null,
+     "et": 3.7666,
+     "mph": 318.47,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "This is just the second time in his 23 races that Will Smith has qualified in the top half of the\r\nfield.\r\nLeah Pruett is 136-96 in Round 1 races.\r\n\r\nPruett is 4 - 0 against Smith in prior events.\r\n\r\nSmith with a great light and makes his career quickest and fastest pass for the win.  He will give up\r\nlane choice to langdon in the next round.\r\n\r\nPruett with a great light and good clean pass in the losing effort."
+  }
+ ]
+}

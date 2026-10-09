@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.895,
+     "ft330": 2.291,
+     "ft660": 3.241,
+     "mph660": 273.66,
+     "ft1000": null,
+     "et": 3.998,
+     "mph": 323.12,
+     "first": 0.0293,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.0293
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.888,
+     "ft330": 2.302,
+     "ft660": 3.252,
+     "mph660": 273.39,
+     "ft1000": null,
+     "et": 4.014,
+     "mph": 320.28,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 33 percent, barometer 30.02 inches, adjusted\r\naltitude 1,346 feet, track temperature 128 degrees.\r\n\r\nProck is 5 - 2 against Capps in prior events.\r\n\r\nProck with the starting line advantage and never trailed for the win.  Austin Prock's MOV: 0.0293 seconds\r\n(approximately 14 feet).   He is advancing to his first final this season and 33rd career final."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.888,
+     "ft330": 2.29,
+     "ft660": 3.236,
+     "mph660": 268.54,
+     "ft1000": null,
+     "et": 4.122,
+     "mph": 250.83,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.872,
+     "ft330": 2.258,
+     "ft660": 3.18,
+     "mph660": 280.89,
+     "ft1000": null,
+     "et": 3.923,
+     "mph": 328.22,
+     "first": 0.2046,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": 0.2046
+    }
+   ],
+   "note": "Vandergriff is 1 - 0 against Beckman in prior events. \r\n\r\nBeckman with the starting line advantage and never trailed for the win.  He runs low E.T. of the event for the\r\nwin.  He will have lane choice over Prock in the final.  Beckman is going to his second final this season and\r\n82nd career.\r\n\r\nVandergriff dropped cylinders on the top end and the car pushed over the centerline after 1000 feet."
+  }
+ ]
+}

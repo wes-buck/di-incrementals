@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.851,
+     "ft330": 2.17,
+     "ft660": 3.052,
+     "mph660": 291.63,
+     "ft1000": null,
+     "et": 3.775,
+     "mph": 335.9,
+     "first": 0.4354,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 0.4354
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.861,
+     "ft330": 2.159,
+     "ft660": 3.163,
+     "mph660": 227.46,
+     "ft1000": null,
+     "et": 4.225,
+     "mph": 206.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 57 percent, barometer 29.80 inches, adjusted\r\naltitude 3,131 feet. \r\n\r\nBrown is 35 - 29 against Langdon in prior events and Brown is 6 - 3 against Langdon in prior final rounds. \r\n\r\nBrown with the starting line advantage, but started to haze the tires.  Langdon chased him down around half\r\ntrack and takes the win.  Langdon wins his 25th Wally and his third this season"
+  }
+ ]
+}

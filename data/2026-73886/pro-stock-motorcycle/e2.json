@@ -1,0 +1,226 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0643,
+     "ft60": 1.0893,
+     "ft330": 2.8967,
+     "ft660": 4.4169,
+     "mph660": 161.29,
+     "ft1000": 5.7406,
+     "et": 6.8707,
+     "mph": 198.68,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0
+    },
+    {
+     "rt": -0.0149,
+     "ft60": 1.0719,
+     "ft330": 2.8523,
+     "ft660": 4.3602,
+     "mph660": 162.57,
+     "ft1000": 5.6869,
+     "et": 6.8595,
+     "mph": 182.63,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.181,
+     "ft60": 1.0765,
+     "ft330": 2.8542,
+     "ft660": 4.7668,
+     "mph660": 113.41,
+     "ft1000": 6.9488,
+     "et": 9.2191,
+     "mph": 92.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.014,
+     "ft60": 1.0724,
+     "ft330": 2.8551,
+     "ft660": 4.3583,
+     "mph660": 163.34,
+     "ft1000": 5.673,
+     "et": 6.7972,
+     "mph": 200.09,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 2.2269
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0162,
+     "ft60": 1.0676,
+     "ft330": 2.8465,
+     "ft660": 4.3594,
+     "mph660": 161.58,
+     "ft1000": 5.6924,
+     "et": 6.8769,
+     "mph": 181.16,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.742
+    },
+    {
+     "rt": 0.0905,
+     "ft60": 1.0869,
+     "ft330": 2.8581,
+     "ft660": 4.3602,
+     "mph660": 159.35,
+     "ft1000": 5.9021,
+     "et": 7.5446,
+     "mph": 125.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "7200",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0,
+     "ft60": 1.0581,
+     "ft330": 2.8347,
+     "ft660": 4.3508,
+     "mph660": 161.35,
+     "ft1000": 5.6798,
+     "et": 6.8223,
+     "mph": 196.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0292,
+     "ft60": 1.0311,
+     "ft330": 2.7873,
+     "ft660": 4.2782,
+     "mph660": 164.77,
+     "ft1000": 5.5827,
+     "et": 6.6996,
+     "mph": 201.25,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0935
+    }
+   ],
+   "note": null
+  }
+ ]
+}

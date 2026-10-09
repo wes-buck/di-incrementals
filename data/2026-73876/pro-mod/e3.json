@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.941,
+     "ft330": 2.513,
+     "ft660": 3.755,
+     "mph660": 199.61,
+     "ft1000": 4.825,
+     "et": 5.73,
+     "mph": 249.3,
+     "first": 0.0224,
+     "lane": "Left",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0224
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.954,
+     "ft330": 2.538,
+     "ft660": 3.794,
+     "mph660": 196.36,
+     "ft1000": 4.866,
+     "et": 5.769,
+     "mph": 249.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 0.96,
+     "ft330": 2.671,
+     "ft660": 4.597,
+     "mph660": 112.92,
+     "ft1000": 6.736,
+     "et": 8.833,
+     "mph": 102.49,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.003,
+     "ft60": 0.945,
+     "ft330": 2.518,
+     "ft660": 3.769,
+     "mph660": 196.67,
+     "ft1000": 4.841,
+     "et": 5.748,
+     "mph": 248.43,
+     "first": 3.1255,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.1255
+    }
+   ],
+   "note": null
+  }
+ ]
+}

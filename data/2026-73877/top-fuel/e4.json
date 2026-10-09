@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.056,
+     "ft60": 0.854,
+     "ft330": 2.159,
+     "ft660": 3.037,
+     "mph660": 292.33,
+     "ft1000": null,
+     "et": 3.762,
+     "mph": 334.9,
+     "first": 0.0002,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0002
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.854,
+     "ft330": 2.166,
+     "ft660": 3.043,
+     "mph660": 292.96,
+     "ft1000": null,
+     "et": 3.766,
+     "mph": 334.24,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 32 percent, barometer 29.99 inches, adjusted\r\naltitude 1,394 feet.\r\n\r\nLangdon is 29 - 22 against Kalitta in prior events and Langdon is 4 - 2 against Kalitta in prior final rounds.\r\n\r\n\r\nKalitta with a slight starting line advantage, but Langdon chased him down right in the light for a close drag\r\nrace.  Shawn Langdon's MOV: 0.0002 seconds (approximately 1 inches).\r\n\r\nLangdon wins his third Wally in a row for the first time in his career.  He wins his fourth Wally this season\r\nand the 26th time in his career."
+  }
+ ]
+}

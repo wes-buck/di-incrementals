@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.96,
+     "ft330": 2.541,
+     "ft660": 3.795,
+     "mph660": 197.19,
+     "ft1000": 4.863,
+     "et": 5.759,
+     "mph": 251.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.049,
+     "ft60": 0.955,
+     "ft330": 2.517,
+     "ft660": 3.753,
+     "mph660": 200.02,
+     "ft1000": 4.81,
+     "et": 5.701,
+     "mph": 252.47,
+     "first": 0.0452,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0452
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 49 percent, barometer 30.05 inches,\r\nadjusted altitude 2,877 feet.\r\n\r\nBond and Gray have each won 4 times against the other in prior events and Bond is 1 - 0 against Gray\r\nin prior final rounds. \r\n\r\nBond with the starting line advantage and started drifting out of the groove over by the centerline.\r\nGray had the lead by 150 feet and never trailed from there on for the win.  He wins his first Wally\r\nthis season and sixth of his career."
+  }
+ ]
+}

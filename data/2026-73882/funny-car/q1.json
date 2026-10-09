@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/q1",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "Q1",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.103,
+     "ft60": 0.951,
+     "ft330": 3.749,
+     "ft660": 6.861,
+     "mph660": 75.12,
+     "ft1000": null,
+     "et": 9.77,
+     "mph": 80.33,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tim Gibbons",
+     "car": "765",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.106,
+     "ft60": 0.88,
+     "ft330": 2.3,
+     "ft660": 3.243,
+     "mph660": 275.51,
+     "ft1000": null,
+     "et": 3.997,
+     "mph": 325.22,
+     "first": 5.7708,
+     "lane": "Right",
+     "win": true,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 48 percent, barometer 29.89 inches, adjusted\r\naltitude 2,253 feet, track temperature 129 degrees.\r\n\r\nGibbons is up in smoke right at the hit and the car is sideways and clicked it off.\r\n\r\nAlexander is back in the car after sitting out last weekend.  He is straight down groove with a good clean\r\npass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.107,
+     "ft60": 0.874,
+     "ft330": 2.277,
+     "ft660": 3.229,
+     "mph660": 270.21,
+     "ft1000": null,
+     "et": 4.074,
+     "mph": 265.01,
+     "first": 0.0578,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.13,
+     "ft60": 0.92,
+     "ft330": 2.363,
+     "ft660": 3.325,
+     "mph660": 267.11,
+     "ft1000": null,
+     "et": 4.108,
+     "mph": 309.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Lee with a good pass early and then started to lose traction around half track and clicked it off early.\r\n\r\nArend is straight down the groove with a clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.165,
+     "ft60": 0.867,
+     "ft330": 2.251,
+     "ft660": 3.178,
+     "mph660": 278.52,
+     "ft1000": null,
+     "et": 3.926,
+     "mph": 325.61,
+     "first": 3.9618,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Cruz Pedregon's incremental times: 60ft-0.867 sec., 330ft-2.251, 660ft-3.178/278.52 mph. \r\n\r\nRichards with problems after the burnout, can't get the car move forward and the car is shut off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 0.88,
+     "ft330": 2.288,
+     "ft660": 3.231,
+     "mph660": 274.11,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 313.37,
+     "first": 1.1309,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.142,
+     "ft60": 0.887,
+     "ft330": 2.301,
+     "ft660": 3.575,
+     "mph660": 171.64,
+     "ft1000": null,
+     "et": 5.02,
+     "mph": 151.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson with a good pass early and then starts to lose taction on the top end and clicked it off early.\r\n\r\nHyde drives into tire smoke by half track and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.883,
+     "ft330": 2.286,
+     "ft660": 3.232,
+     "mph660": 275.62,
+     "ft1000": null,
+     "et": 3.988,
+     "mph": 319.98,
+     "first": 2.2897,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.094,
+     "ft60": 0.887,
+     "ft330": 2.429,
+     "ft660": 4.188,
+     "mph660": 122.36,
+     "ft1000": null,
+     "et": 6.249,
+     "mph": 107.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Prock kept it hooked up and is on a good pass, until it dropped a cylinders in the lights.  He still goes to\r\nthe number two spot.  Austin Prock's incremental times: 60ft-0.883 sec., 330ft-2.286, 660ft-3.232/275.62 mph. \r\n\r\nDeJoria is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.887,
+     "ft330": 2.311,
+     "ft660": 3.257,
+     "mph660": 273.72,
+     "ft1000": null,
+     "et": 4.016,
+     "mph": 321.04,
+     "first": 0.3069,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.891,
+     "ft330": 2.302,
+     "ft660": 3.296,
+     "mph660": 236.75,
+     "ft1000": null,
+     "et": 4.335,
+     "mph": 214.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Green with the Rottler colors this weekend.  He kept it hooked up to go to the number five spot.\r\n\r\nTodd started to lose traction around the 1/8th mile mark and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.886,
+     "ft330": 2.307,
+     "ft660": 3.268,
+     "mph660": 272.17,
+     "ft1000": null,
+     "et": 4.026,
+     "mph": 322.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 0.872,
+     "ft330": 2.283,
+     "ft660": 3.227,
+     "mph660": 275.96,
+     "ft1000": null,
+     "et": 3.982,
+     "mph": 322.73,
+     "first": 0.0366,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hagan is straight down the groove with a good clean pass.\r\n\r\nBeckman launched hard and kept it hooked up to go to the number two spot.  Jack Beckman's incremental times:\r\n60ft-0.872 sec., 330ft-2.283, 660ft-3.227/275.96 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.88,
+     "ft330": 2.28,
+     "ft660": 3.371,
+     "mph660": 203.4,
+     "ft1000": null,
+     "et": 4.574,
+     "mph": 185.36,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.887,
+     "ft330": 2.278,
+     "ft660": 3.251,
+     "mph660": 251.06,
+     "ft1000": null,
+     "et": 4.206,
+     "mph": 233.76,
+     "first": 0.3545,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff coming off his second win of the season last weekend.  Vandergriff pulls the tires lose by half\r\ntrack and clicked it off.\r\n\r\nCapps started to spin the tires around half track and clicked it off."
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock-motorcycle/q2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock-motorcycle",
+ "round": "Q2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.046,
+     "ft60": 1.085,
+     "ft330": 2.888,
+     "ft660": 4.408,
+     "mph660": 161.52,
+     "ft1000": 5.73,
+     "et": 6.855,
+     "mph": 199.46,
+     "first": 2.1491,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.052,
+     "ft60": 1.139,
+     "ft330": 3.152,
+     "ft660": 4.986,
+     "mph660": 124.06,
+     "ft1000": 6.987,
+     "et": 9.102,
+     "mph": 98.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Odolph Daniels",
+     "car": "363",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 59 percent, barometer 30.07 inches, adjusted\r\naltitude 2,618 feet. \r\n\r\nHall kept it hooked up and moves into the top half of the show.\r\n\r\nDaniels clicked it off early, but gets a time on the sheet."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 1.083,
+     "ft330": 2.917,
+     "ft660": 4.491,
+     "mph660": 154.83,
+     "ft1000": 5.878,
+     "et": 7.064,
+     "mph": 188.7,
+     "first": 0.0029,
+     "lane": "Left",
+     "win": true,
+     "driver": "Wesley Wells",
+     "car": "371",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 1.075,
+     "ft330": 2.896,
+     "ft660": 4.443,
+     "mph660": 157.83,
+     "ft1000": 5.801,
+     "et": 7.09,
+     "mph": 163.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wells improves, but stays in the number 11 spot.\r\n\r\nIngwersen with a good pass early, but clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 1.113,
+     "ft330": 2.946,
+     "ft660": 4.489,
+     "mph660": 158.74,
+     "ft1000": 5.833,
+     "et": 6.981,
+     "mph": 195.36,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 1.071,
+     "ft330": 2.894,
+     "ft660": 4.434,
+     "mph660": 159.31,
+     "ft1000": 5.773,
+     "et": 6.914,
+     "mph": 197.1,
+     "first": 0.0875,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Scali with a clean pass, but will not improve.\r\n\r\nVan Sant is straight down the groove to the number 10 spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.028,
+     "ft60": 1.102,
+     "ft330": 2.9,
+     "ft660": 4.412,
+     "mph660": 161.94,
+     "ft1000": 5.737,
+     "et": 6.876,
+     "mph": 196.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jianna Evaristo",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.025,
+     "ft60": 1.063,
+     "ft330": 2.856,
+     "ft660": 4.372,
+     "mph660": 161.73,
+     "ft1000": 5.694,
+     "et": 6.829,
+     "mph": 197.94,
+     "first": 0.0505,
+     "lane": "Right",
+     "win": true,
+     "driver": "Brayden Davis",
+     "car": "5",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Evaristo kept it hooked up and is straight down the groove with her quickest pass today.  She will stay in the\r\nnumber eight spot.\r\n\r\nDavis with a good looking pass to move into the top half of the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 1.057,
+     "ft330": 2.847,
+     "ft660": 4.372,
+     "mph660": 160.44,
+     "ft1000": 5.703,
+     "et": 6.841,
+     "mph": 196.76,
+     "first": 0.0304,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 1.055,
+     "ft330": 2.851,
+     "ft660": 4.384,
+     "mph660": 159.82,
+     "ft1000": 5.725,
+     "et": 6.877,
+     "mph": 194.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Oehler kept it hooked up and is straight down the groove to move up the ladder one spot.\r\n\r\nJohnson with his quickest pass, but stays in the number nine spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.02,
+     "ft60": 1.058,
+     "ft330": 2.85,
+     "ft660": 4.369,
+     "mph660": 161.0,
+     "ft1000": 5.697,
+     "et": 6.831,
+     "mph": 197.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.01,
+     "ft60": 1.087,
+     "ft330": 2.878,
+     "ft660": 4.384,
+     "mph660": 162.96,
+     "ft1000": 5.703,
+     "et": 6.833,
+     "mph": 198.85,
+     "first": 0.0082,
+     "lane": "Right",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gadson with another good pass, but will not improve.\r\n\r\nSmith is straight down the groove, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 1.049,
+     "ft330": 2.831,
+     "ft660": 4.342,
+     "mph660": 162.02,
+     "ft1000": 5.661,
+     "et": 6.785,
+     "mph": 199.26,
+     "first": 0.0546,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.047,
+     "ft60": 1.065,
+     "ft330": 2.854,
+     "ft660": 4.364,
+     "mph660": 162.24,
+     "ft1000": 5.688,
+     "et": 6.829,
+     "mph": 196.44,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera with the quickest pass of the round and will not improve.  He holds on to the number one spot.  Gaige\r\nHerrera's incremental times: 60ft-1.049 sec., 330ft-2.831, 660ft-4.342/162.02 mph, 1,000ft-5.661. \r\n\r\nGladstone with another good pass, but will not improve."
+  }
+ ]
+}

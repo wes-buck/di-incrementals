@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.038,
+     "ft60": 1.001,
+     "ft330": 2.786,
+     "ft660": 4.273,
+     "mph660": 165.21,
+     "ft1000": 5.559,
+     "et": 6.646,
+     "mph": 207.11,
+     "first": 1.3283,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Coughlin",
+     "car": "9",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.3283
+    },
+    {
+     "rt": 0.233,
+     "ft60": 1.086,
+     "ft330": 3.278,
+     "ft660": 4.847,
+     "mph660": 158.67,
+     "ft1000": 6.317,
+     "et": 7.779,
+     "mph": 143.64,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris McGaha",
+     "car": "4264",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.017,
+     "ft60": 1.07,
+     "ft330": 3.534,
+     "ft660": 6.464,
+     "mph660": 75.49,
+     "ft1000": 9.608,
+     "et": 12.697,
+     "mph": 69.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 1.074,
+     "ft330": 3.212,
+     "ft660": 5.144,
+     "mph660": 127.55,
+     "ft1000": 6.717,
+     "et": 7.962,
+     "mph": 183.54,
+     "first": 4.6975,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 4.6975
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.045,
+     "ft60": 0.98,
+     "ft330": 2.757,
+     "ft660": 4.241,
+     "mph660": 165.62,
+     "ft1000": 5.525,
+     "et": 6.61,
+     "mph": 207.59,
+     "first": 0.0376,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0376
+    },
+    {
+     "rt": 0.047,
+     "ft60": 1.014,
+     "ft330": 2.792,
+     "ft660": 4.278,
+     "mph660": 165.5,
+     "ft1000": 5.561,
+     "et": 6.645,
+     "mph": 208.39,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.993,
+     "ft330": 2.772,
+     "ft660": 4.26,
+     "mph660": 164.67,
+     "ft1000": 5.547,
+     "et": 6.633,
+     "mph": 206.54,
+     "first": 0.0042,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0042
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.992,
+     "ft330": 2.777,
+     "ft660": 4.27,
+     "mph660": 164.15,
+     "ft1000": 5.556,
+     "et": 6.642,
+     "mph": 207.34,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

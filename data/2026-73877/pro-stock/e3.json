@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.051,
+     "ft60": 0.987,
+     "ft330": 2.73,
+     "ft660": 4.183,
+     "mph660": 169.87,
+     "ft1000": 5.436,
+     "et": 6.492,
+     "mph": 212.16,
+     "first": 0.0318,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0318
+    },
+    {
+     "rt": 0.024,
+     "ft60": 1.004,
+     "ft330": 2.757,
+     "ft660": 4.22,
+     "mph660": 168.37,
+     "ft1000": 5.485,
+     "et": 6.55,
+     "mph": 210.9,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 33 percent, barometer 30.02 inches, adjusted\r\naltitude 1,346 feet, track temperature 128 degrees.\r\n\r\nGlenn is 12 - 3 against Coughlin Jr. in prior events. \r\n\r\nCoughlin Jr. with the starting line advantage, but Glenn has the difference made up by 330 feet and takes the\r\nwin.  Dallas Glenn's MOV: 0.0318 seconds (approximately 10 feet).  He is advancing to his fourth final this\r\nseason and 44th career final."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.987,
+     "ft330": 2.733,
+     "ft660": 4.183,
+     "mph660": 170.06,
+     "ft1000": 5.433,
+     "et": 6.488,
+     "mph": 212.53,
+     "first": 0.0098,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0098
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.991,
+     "ft330": 2.734,
+     "ft660": 4.186,
+     "mph660": 169.49,
+     "ft1000": 5.443,
+     "et": 6.501,
+     "mph": 212.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 30 - 17 against Stanfield in prior events. \r\n\r\nStanfield with a slight starting line advantage, but Anderson chased him down by half track and took the the\r\nwin.  He will have lane choice over Glenn in the final.  He is advancing to his fourth final this season and\r\n195th career final."
+  }
+ ]
+}

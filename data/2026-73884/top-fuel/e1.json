@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 0.846,
+     "ft330": 2.147,
+     "ft660": 3.018,
+     "mph660": 292.01,
+     "ft1000": null,
+     "et": 3.75,
+     "mph": 329.58,
+     "first": 0.612,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": 0.612
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.887,
+     "ft330": 2.502,
+     "ft660": 3.501,
+     "mph660": 260.56,
+     "ft1000": null,
+     "et": 4.358,
+     "mph": 258.37,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 67 degrees, relative humidity 78 percent, barometer 30.11 inches,\r\nadjusted altitude 1,914 feet, track temperature 89 degrees.\r\n\r\nJustin Ashley wins 76% of his Rd. 1 races when he has lane choice. The #9 TF qualifier is 6 - 4 in\r\nRd. 1 here in the last 10 years.\r\n\r\nAshley is 3 - 0 against Reed in prior events. \r\n\r\nA couple great lights, but Reed shook hard right at the hit and clicked it off.\r\nAshley is straight down the groove with his quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.138,
+     "ft60": 0.855,
+     "ft330": 2.157,
+     "ft660": 3.066,
+     "mph660": 253.71,
+     "ft1000": null,
+     "et": 4.086,
+     "mph": 203.12,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.849,
+     "ft330": 2.144,
+     "ft660": 3.005,
+     "mph660": 296.31,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 332.02,
+     "first": 0.4199,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "11",
+     "mov": 0.4199
+    }
+   ],
+   "note": "Jasmine Salinas's 332.75 in qualifying is her fastest run ever at this event.  Tripp Tatum  is 9 - 11\r\nin Rd. 1.\r\n\r\nThis is the first time Salinas and Tatum have faced each other in eliminations. \r\n\r\nTatum with the starting line advantage and never trailed for the win.  He makes his quickest pass of\r\nthe weekend for the win.\r\nSalinas overpowers the track around half tack and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.839,
+     "ft330": 2.13,
+     "ft660": 2.996,
+     "mph660": 295.59,
+     "ft1000": null,
+     "et": 3.717,
+     "mph": 334.4,
+     "first": 0.0833,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": 0.0833
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.861,
+     "ft330": 2.159,
+     "ft660": 3.04,
+     "mph660": 290.76,
+     "ft1000": null,
+     "et": 3.768,
+     "mph": 333.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "TJ Zizzo",
+     "car": "317",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Tony Stewart is 4 - 0 in Rd. 1 when qualified #2. The #15 TF qualifier has won twice in Rd. 1 in the\r\nlast 3 years here.\r\n\r\nZizzo is 1 - 0 against Stewart in prior events. \r\n\r\nStewart with the starting line advantage and never trailed for the win.  He makes the quickest pas of\r\nthe event for the win.\r\n\r\nZizzo was straight down the groove with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.842,
+     "ft330": 2.126,
+     "ft660": 2.995,
+     "mph660": 294.18,
+     "ft1000": null,
+     "et": 3.709,
+     "mph": 340.22,
+     "first": 4.3168,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 4.3168
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.902,
+     "ft330": 2.837,
+     "ft660": 5.266,
+     "mph660": 87.35,
+     "ft1000": null,
+     "et": 8.012,
+     "mph": 83.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Shawn Langdon's 404 round wins in TF are the 9th most in class history.  Clay Millican's 343 round\r\nwins are 10th most in TF. The last time the #16 TF qualifier won a round here was 2017.\r\n\r\nLangdon is 19 - 16 against Millican in prior events. \r\n\r\nLangdon with the starting line advantage and makes the quickest and fastest pass of the event for the\r\nwin.  Shawn Langdon's incremental times: 60ft-0.842 sec., 330ft-2.126, 660ft-2.995/294.18 mph. \r\nHe will have lane choice over Ashley in the next round.\r\n\r\nMillican is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.839,
+     "ft330": 2.118,
+     "ft660": 2.971,
+     "mph660": 298.27,
+     "ft1000": null,
+     "et": 3.681,
+     "mph": 341.68,
+     "first": 0.1255,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.1255
+    },
+    {
+     "rt": 0.041,
+     "ft60": 0.864,
+     "ft330": 2.196,
+     "ft660": 3.08,
+     "mph660": 289.76,
+     "ft1000": null,
+     "et": 3.812,
+     "mph": 331.2,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta is 55 - 17 in Rd. 1 when qualified #3. The #14 TF qualifier has upset the #3 qualifier\r\nin each of the last 2 years. \r\n\r\nKalitta is 3 - 0 against Smith in prior events. \r\n\r\nSmith with the starting line advantage, but Kalitta was right there with and had the lead by the time\r\nthey go by the Christmas tree.  He runs the quickest and fastest pass of the event for the win.  He\r\nwill have lane choice over Tatum in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.864,
+     "ft330": 2.182,
+     "ft660": 3.051,
+     "mph660": 292.33,
+     "ft1000": null,
+     "et": 3.774,
+     "mph": 334.98,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.864,
+     "ft330": 2.168,
+     "ft660": 3.044,
+     "mph660": 293.09,
+     "ft1000": null,
+     "et": 3.763,
+     "mph": 336.99,
+     "first": 0.0566,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "13",
+     "mov": 0.0566
+    }
+   ],
+   "note": "Billy Torrence has been in the top half of the field at 11 of his 14 races this year. Maddi Gordon\r\nbeat Torrence is Rd. 1 at Bristol.\r\n\r\nGordon is 1 - 0 against Torrence in prior events. \r\n\r\nGordon with a great light and never trailed for the win.  She makes her quickest and fastest pass\r\nthis weekend for the win.\r\n\r\nTorrence with a good clean pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.853,
+     "ft330": 2.136,
+     "ft660": 2.992,
+     "mph660": 295.14,
+     "ft1000": null,
+     "et": 3.713,
+     "mph": 333.66,
+     "first": 0.1444,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.1444
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.868,
+     "ft330": 2.174,
+     "ft660": 3.073,
+     "mph660": 283.07,
+     "ft1000": null,
+     "et": 3.869,
+     "mph": 282.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Leah Pruett set Top Speed in Brainerd, just the 6th time in her career she has done that. Josh Hart\r\nis 4 - 2 against Pruett in Rd. 1 races (0 - 1 this year).\r\n\r\nHart is 5 - 4 against Pruett in prior events. \r\n\r\nHart with the starting line advantage, but is dropping cylinders early, but stays with it.\r\n\r\nPruett kept it hooked up an hitting on all eight for the win and her quickest and fastest pass.  She\r\nwill have lane choice over Gordon in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 0.847,
+     "ft330": 2.141,
+     "ft660": 3.343,
+     "mph660": 177.28,
+     "ft1000": null,
+     "et": 4.76,
+     "mph": 154.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ida Zetterstrom",
+     "car": "13",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.846,
+     "ft330": 2.135,
+     "ft660": 3.012,
+     "mph660": 292.27,
+     "ft1000": null,
+     "et": 3.737,
+     "mph": 333.74,
+     "first": 1.0766,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": 1.0766
+    }
+   ],
+   "note": "Ida Zetterstrom is #7 & the #7 TF qualifier has never won this race. The only other TF qualifier to\r\nnever win this race is #16.  Antron Brown is 14 - 8 in Rd. 1 when #10 (2 - 0 this year).\r\n\r\nZetterstrom is 2 - 1 against Brown in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.  He makes his quickest and\r\nfastest pass of the weekend for the win.  He will give up lane choice to stewart in the next round.\r\n\r\nZetterstrom started to lose traction and drop cylinders before she clicked it off."
+  }
+ ]
+}

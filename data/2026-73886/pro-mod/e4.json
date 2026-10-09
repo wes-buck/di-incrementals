@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.9604,
+     "ft330": 2.525,
+     "ft660": 3.7345,
+     "mph660": 203.07,
+     "ft1000": 4.7768,
+     "et": 5.6562,
+     "mph": 257.29,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0397,
+     "ft60": 0.9397,
+     "ft330": 2.5078,
+     "ft660": 3.7275,
+     "mph660": 202.34,
+     "ft1000": 4.7769,
+     "et": 5.6643,
+     "mph": 254.09,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0012
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 36 percent, barometer 29.80 inches,\r\nadjusted altitude 2,334 feet, track temperature 113 degrees.\r\n\r\nBond and Stavrinos have each won 1 times against the other in prior events and this is the first time\r\nthey have faced each other in a final round.  Mike Stavrinos' MOV: 0.0020 seconds (approximately 9\r\ninches).\r\n\r\nStavrinos with the starting line advantage and the power to hold on for the hole shot win.  He wins\r\nhis second Wally this season and fifth of his career."
+  }
+ ]
+}

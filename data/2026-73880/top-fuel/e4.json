@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.857,
+     "ft330": 2.174,
+     "ft660": 3.061,
+     "mph660": 290.44,
+     "ft1000": null,
+     "et": 3.786,
+     "mph": 333.16,
+     "first": 0.0297,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "5",
+     "mov": 0.0297
+    },
+    {
+     "rt": 0.05,
+     "ft60": 0.876,
+     "ft330": 2.209,
+     "ft660": 3.104,
+     "mph660": 287.11,
+     "ft1000": null,
+     "et": 3.84,
+     "mph": 328.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.93 inches, adjusted\r\naltitude 3,177 feet, track temperature 122 degrees.\r\n\r\nBrown is 1 - 0 against Gordon in prior events and this is the first time they have faced each other in a final\r\nround.\r\n\r\nBrown with the starting line advantage, but Gordon has the lead by 330 feet and never trailed from there on\r\nfor the win.  Maddi Gordon's MOV: 0.0297 seconds (approximately 14 feet).\r\n\r\nGordon wins her first Wally in Top Fuel in her first final round.  Ron Capps Motorsports doubles up here.  She\r\nalso wins on the same day her Father wins the Top Alcohol Funny Car Wally."
+  }
+ ]
+}

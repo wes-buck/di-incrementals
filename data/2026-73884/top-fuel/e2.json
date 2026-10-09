@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 0.853,
+     "ft330": 2.15,
+     "ft660": 3.021,
+     "mph660": 293.86,
+     "ft1000": null,
+     "et": 3.74,
+     "mph": 336.74,
+     "first": 0.0995,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": 0.0995
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.862,
+     "ft330": 2.169,
+     "ft660": 3.078,
+     "mph660": 279.15,
+     "ft1000": null,
+     "et": 3.838,
+     "mph": 319.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 56 percent, barometer 30.10 inches,\r\nadjusted altitude 2,560 feet, track temperature 115 degrees.\r\n\r\nBrown is 4 - 3 against Stewart in prior events. \r\n\r\nStewart with a tick advantage on the tree and trailed for the win.  Stewart kept it hooked up all the\r\nway down the track for the win.\r\n\r\nBrown had a hole on the top end."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.859,
+     "ft330": 2.151,
+     "ft660": 3.089,
+     "mph660": 251.3,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 265.38,
+     "first": 0.1365,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.1365
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.859,
+     "ft330": 2.163,
+     "ft660": 3.11,
+     "mph660": 247.11,
+     "ft1000": null,
+     "et": 4.126,
+     "mph": 216.24,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Pruett is 2 - 1 against Gordon in prior events. \r\n\r\nGordon with the starting line advantage, but starts to spin the tires, she stays with it.  Pruett\r\nstarts to lose traction and pedals it an gets it to hook up enough for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 0.854,
+     "ft330": 2.171,
+     "ft660": 3.061,
+     "mph660": 290.07,
+     "ft1000": null,
+     "et": 3.791,
+     "mph": 323.19,
+     "first": 0.7239,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.7239
+    },
+    {
+     "rt": 0.034,
+     "ft60": 0.854,
+     "ft330": 2.183,
+     "ft660": 3.331,
+     "mph660": 209.92,
+     "ft1000": null,
+     "et": 4.533,
+     "mph": 181.74,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Ashley is 17 - 14 against Langdon in prior events. \r\n\r\nAshley with the starting line advantage, but started to lose traction and clicked it off.\r\n\r\nLangdon launched hard and then in the lights the engine let go with a huge explosion.  there was a\r\nquick fireball and parts flying off the car.  He still gets the win and will have lane choice over\r\nPruett in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.849,
+     "ft330": 2.141,
+     "ft660": 3.156,
+     "mph660": 233.32,
+     "ft1000": null,
+     "et": 4.209,
+     "mph": 210.24,
+     "first": 0.1158,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.1158
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.862,
+     "ft330": 2.202,
+     "ft660": 3.315,
+     "mph660": 215.89,
+     "ft1000": null,
+     "et": 4.304,
+     "mph": 245.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Tatum is 1 - 0 against Kalitta in prior events. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  Kalitta started to haze the\r\ntires around half track, but stayed with it to get the win.  Apparently the word is Kalitta broke a\r\nrear end, but there was no fluids on the track.  He will give up lane choice to Stewart in the\r\nsemifinal.\r\n\r\nTatum lost traction early and pedaled it, but couldn't chase Kalitta down."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.022,
+     "ft60": 1.049,
+     "ft330": 2.846,
+     "ft660": 4.373,
+     "mph660": 160.27,
+     "ft1000": 5.706,
+     "et": 6.85,
+     "mph": 195.93,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.052,
+     "ft60": 1.078,
+     "ft330": 2.852,
+     "ft660": 4.349,
+     "mph660": 163.41,
+     "ft1000": 5.657,
+     "et": 6.774,
+     "mph": 200.35,
+     "first": 0.0462,
+     "lane": "Right",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0462
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.188,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Brayden Davis",
+     "car": "5",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.038,
+     "ft60": 1.077,
+     "ft330": 2.869,
+     "ft660": 4.384,
+     "mph660": 161.59,
+     "ft1000": 5.699,
+     "et": 6.823,
+     "mph": 199.58,
+     "first": 6.6731,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.6731
+    }
+   ],
+   "note": null
+  }
+ ]
+}

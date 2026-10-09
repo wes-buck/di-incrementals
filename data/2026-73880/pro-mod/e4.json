@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.946,
+     "ft330": 2.537,
+     "ft660": 3.762,
+     "mph660": 209.01,
+     "ft1000": 4.82,
+     "et": 5.714,
+     "mph": 251.53,
+     "first": 0.0416,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kevin Rivenbark",
+     "car": "225",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0416
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.956,
+     "ft330": 2.546,
+     "ft660": 3.771,
+     "mph660": 200.71,
+     "ft1000": 4.828,
+     "et": 5.716,
+     "mph": 252.33,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.93 inches, adjusted\r\naltitude 3,177 feet, track temperature 122 degrees.\r\n\r\nBanaka is 1 - 0 against Rivenbark in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nRivenbark with the starting line advantage and never trailed for the win.  Rivenbark wins his second Wally and\r\nfirst this season.\r\n\r\nBanaka tags the wall on the top end after he has his chutes out."
+  }
+ ]
+}

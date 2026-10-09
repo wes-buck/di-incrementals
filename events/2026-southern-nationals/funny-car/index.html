@@ -1,0 +1,847 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>DI Incrementals</title>
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: phone first. DI masthead, one slim sticky bar (class + rounds), round title, presented-by strip,
+   the Board as stacked car cards on phones and a full table on wide screens, then an ad slot,
+   Quickest at Every Block, Lane Check and the Ladder.
+   Color: DI black/white/red is the brand chrome. The data uses a separate heat scale:
+   green = quickest, then yellow, orange, red as a car falls further off the quickest. */
+:root {
+  --bg: #ffffff;
+  --panel: #f3f3f1;
+  --ink: #0b0b0b;
+  --muted: #62625f;
+  --line: #e0e0dd;
+  --di-red: #d2141c;
+  --bar: #000000;
+  --bar-ink: #ffffff;
+  --bar-muted: #9a9a96;
+  --q: #12904c;  --q-ink: #ffffff;           /* quickest */
+  --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1;   /* close, mid, back, way back */
+  --off: #a8a8a4;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+    --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+    --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+    --off: #5a5a57; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+  --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+  --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+  --off: #5a5a57; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.4; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 0 40px; }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
+.mono { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+
+/* masthead (scrolls away) */
+.mast { background: var(--bar); color: var(--bar-ink); }
+.mast-in { max-width: 1180px; margin: 0 auto; padding: 14px 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--bar-ink); text-decoration: none; min-width: 0; }
+.logo svg { height: 34px; width: auto; display: block; flex: none; }
+.logo .tag { font-family: var(--font-display); font-weight: 900; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--di-red); border-left: 1px solid #333; padding-left: 10px; line-height: 1; }
+
+/* sticky bar: class + rounds */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bar); color: var(--bar-ink); border-bottom: 1px solid #222; }
+.bar-in { max-width: 1180px; margin: 0 auto; padding: 8px 20px 10px; display: flex; align-items: center; gap: 10px; }
+.cls { position: relative; flex: none; }
+.cls select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 8px 28px 8px 10px; font-weight: 700; font-size: 14px; letter-spacing: .02em; text-transform: uppercase; }
+.cls::after { content: ""; position: absolute; right: 11px; top: 50%; width: 7px; height: 7px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
+.rounds { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; min-width: 0; scroll-snap-type: x proximity; }
+.rounds::-webkit-scrollbar { display: none; }
+.rbtn { flex: none; border: 1px solid #333; background: transparent; color: var(--bar-ink); border-radius: 6px; min-width: 44px; height: 38px; padding: 0 10px; font-family: var(--font-display); font-weight: 800; font-size: 18px; letter-spacing: .03em; cursor: pointer; scroll-snap-align: start; }
+.rbtn[aria-pressed="true"] { background: var(--di-red); border-color: var(--di-red); }
+
+/* hero */
+.hero { padding-block: 18px 4px; display: grid; gap: 8px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(44px, 13vw, 96px); line-height: .86; margin: 0; text-transform: uppercase; }
+h1 span { color: var(--di-red); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
+.meta strong { color: var(--ink); font-weight: 600; font-family: var(--font-data); }
+.leaders { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(132px, 1fr); overflow-x: auto; scrollbar-width: none; gap: 8px; margin-top: 6px; padding-bottom: 2px; scroll-snap-type: x proximity; }
+.leaders::-webkit-scrollbar { display: none; }
+.lead { background: var(--panel); border-radius: 8px; padding: 10px 12px; display: grid; gap: 1px; min-width: 0; scroll-snap-align: start; }
+.lead .k { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.lead .v { font-family: var(--font-data); font-weight: 600; font-size: 24px; line-height: 1.15; }
+.lead .who { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* sponsor slots */
+.presented { margin-top: 14px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; min-height: 56px; }
+.presented .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.presented img { max-height: 36px; max-width: 60%; width: auto; display: block; }
+.presented a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.slot-empty { color: var(--muted); font-size: 13px; }
+.slot-empty b { color: var(--ink); }
+.ad { margin-top: 28px; border-radius: 8px; overflow: hidden; display: block; }
+.ad img { width: 100%; height: auto; display: block; }
+.ad.empty { border: 1px dashed var(--line); padding: 26px 16px; text-align: center; color: var(--muted); font-size: 13px; }
+.ad.empty .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 4px; }
+
+/* section heads */
+.sec { margin-top: 28px; }
+h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-height: 1; margin: 0 0 4px; text-transform: uppercase; }
+.hint { color: var(--muted); font-size: 13px; margin: 0; max-width: 64ch; }
+
+/* board controls */
+.controls { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 20; background: var(--bg); padding-block: 10px 8px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+.toggle { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; }
+.toggle button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.sortrow { display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.sortrow::-webkit-scrollbar { display: none; }
+.sortrow .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; flex: none; margin-right: 2px; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.scale { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+.scale i { display: inline-block; width: 18px; height: 10px; border-radius: 2px; }
+
+/* heat tiers (shared by cards and table) */
+.tq, .cell.tq, .tc.tq { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.t1, .cell.t1 { background: var(--h1); }
+.t2, .cell.t2 { background: var(--h2); }
+.t3, .cell.t3 { background: var(--h3); }
+.t4, .cell.t4 { background: var(--h4); }
+.gone { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
+.rl { color: var(--di-red); font-weight: 700; }
+
+/* phone cards */
+.cards { display: grid; gap: 0; }
+.car { border-bottom: 8px solid var(--panel); padding: 16px 6px 16px 0; cursor: pointer; }
+.car-top { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; align-items: center; }
+.car .pos { font-family: var(--font-display); font-weight: 900; font-size: 30px; line-height: 1; text-align: right; }
+.car .name { font-weight: 700; font-size: 16.5px; line-height: 1.15; }
+.car .sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.car .w { color: var(--q); font-weight: 700; }
+.car .et { text-align: right; }
+.car .et .v { font-family: var(--font-data); font-weight: 600; font-size: 21px; line-height: 1.1; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+.car .et .m { font-family: var(--font-data); font-size: 12.5px; color: var(--muted); }
+.strip { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 4px; margin-top: 10px; margin-left: 40px; }
+.cell { border-radius: 5px; padding: 5px 4px 6px; text-align: center; min-width: 0; position: relative; background: var(--panel); }
+.cell .l { display: block; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.cell.tq .l { color: var(--q-ink); opacity: .85; }
+.cell .v { display: block; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14.5px; font-weight: 500; line-height: 1.25; }
+.cell .r { display: block; font-family: var(--font-data); font-size: 10.5px; color: var(--muted); line-height: 1.2; }
+.cell.tq .r { color: var(--q-ink); opacity: .9; }
+.cell.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
+.car.open { background: var(--panel); margin-inline: -20px; padding-inline: 20px 26px; border-bottom-color: var(--line); }
+.car.open .cell { box-shadow: 0 0 0 1px var(--line); }
+
+/* wide-screen table */
+.table-wrap { display: none; overflow-x: auto; border-top: 3px solid var(--ink); }
+table.board { border-collapse: collapse; width: 100%; }
+.board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
+.board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); }
+.board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
+.board thead th[aria-sort] button { color: var(--ink); }
+.board thead th[aria-sort] button::after { content: " \25BE"; color: var(--di-red); }
+.board .drv { text-align: left; }
+.board tbody tr { border-bottom: 1px solid var(--line); cursor: pointer; }
+.board tbody tr:hover .drv { background: var(--panel); }
+.drv-in { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; }
+.drv-in .pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
+.drv-in .name { font-weight: 600; font-size: 14.5px; }
+.drv-in .sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+.drv-in .w { color: var(--q); font-weight: 700; }
+.tc { padding: 8px 10px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.tc .r { display: block; font-size: 10.5px; color: var(--muted); }
+.tc.tq .r { color: var(--q-ink); opacity: .9; }
+.cut td { border-top: 2px dashed var(--di-red); }
+
+/* car slip */
+.slip { display: grid; gap: 18px; padding-block: 14px 4px; text-align: left; white-space: normal; }
+.read { font-size: 15px; margin: 0; font-weight: 500; }
+.small-h { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 6px; }
+.bars { display: grid; gap: 7px; }
+.bar-r { display: grid; grid-template-columns: 76px 1fr 64px; gap: 10px; align-items: center; font-size: 12.5px; }
+.bar-r .lbl { color: var(--muted); font-family: var(--font-data); }
+.track { height: 12px; background: var(--line); border-radius: 3px; position: relative; overflow: hidden; }
+.fill { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.bar-r .g { text-align: right; font-family: var(--font-data); }
+.mini { border-collapse: collapse; width: 100%; font-size: 13px; }
+.mini th, .mini td { padding: 6px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.mini th:first-child, .mini td:first-child { text-align: left; }
+.mini th { color: var(--muted); font-weight: 700; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+.mini td { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.mini td.up { color: var(--q); font-weight: 700; }
+.mini-wrap { overflow-x: auto; }
+.slip-td { padding: 0 16px 16px !important; background: var(--panel); }
+.slip-td .slip { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+
+/* quickest at every light */
+.lights { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(230px, 1fr); gap: 10px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
+.lights::-webkit-scrollbar { display: none; }
+.light { background: var(--panel); border-radius: 8px; padding: 12px; min-width: 0; scroll-snap-align: start; }
+.light h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 24px; text-transform: uppercase; display: flex; align-items: baseline; gap: 8px; }
+.light h3 small { font-family: var(--font-body); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; color: var(--muted); }
+.light ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 14px; }
+.light li { display: grid; grid-template-columns: minmax(0, 1fr) auto 3.6em; gap: 8px; align-items: baseline; padding: 5px 8px; border-radius: 4px; }
+.light .g { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 11.5px; text-align: right; opacity: .75; }
+.light li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 13px; }
+.swipe { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* how do I compare */
+.cmp-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
+.cmp-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.cmp-mode button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.cmp-pick { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; align-items: center; margin-top: 10px; }
+.cmp-pick select { width: 100%; min-width: 0; appearance: none; -webkit-appearance: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 11px 10px; font-weight: 700; font-size: 15px; }
+.cmp-pick .vs { font-family: var(--font-display); font-weight: 900; font-size: 20px; color: var(--muted); }
+.cmp-head { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.cmp-car { background: var(--panel); border-radius: 8px; padding: 10px 12px; min-width: 0; }
+.cmp-car .n { font-weight: 700; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-car .e { font-family: var(--font-data); font-weight: 600; font-size: 22px; }
+.cmp-car .s { font-size: 12px; color: var(--muted); }
+.cmp-sum { font-size: 15px; font-weight: 500; margin: 12px 0 0; }
+.cmp-rows { margin-top: 10px; border-top: 3px solid var(--ink); }
+.cmp-row { display: grid; grid-template-columns: 70px 1fr 1fr 1.15fr; gap: 6px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.cmp-row .lbl { font-family: var(--font-body); font-size: 12px; font-weight: 700; color: var(--muted); }
+.cmp-row .v { text-align: right; padding: 3px 6px; border-radius: 4px; }
+.cmp-row .v.ahead { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.cmp-row .d { text-align: right; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd { font-family: var(--font-body); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; padding-top: 10px; }
+.cmp-row.hd span { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd span:first-child { text-align: left; }
+.cmp-row.sep { border-bottom: 0; padding-top: 16px; }
+.cmp-bar { grid-column: 1 / -1; height: 8px; position: relative; background: var(--line); border-radius: 4px; }
+.cmp-bar i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+.cmp-bar::after { content: ""; position: absolute; left: calc(50% - 1px); top: -3px; bottom: -3px; width: 2px; background: var(--ink); }
+.cmp-legend { display: flex; justify-content: space-between; gap: 10px; font-size: 11.5px; color: var(--muted); margin-top: 6px; }
+.cmp-empty { color: var(--muted); font-size: 14px; margin-top: 12px; }
+
+/* lower */
+.duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+.ladder { columns: 1; font-size: 14px; margin: 0; padding: 0; list-style: none; }
+.ladder li { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.ladder li.bump { border-bottom: 2px dashed var(--di-red); }
+.ladder .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
+.ladder .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.ladder .out { color: var(--muted); }
+.rule { border-top: 3px solid var(--ink); padding-top: 6px; margin-top: 10px; }
+
+.waiting { padding-block: 40px; display: grid; gap: 12px; }
+footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; display: grid; gap: 6px; }
+footer a { color: inherit; }
+footer svg { height: 20px; width: auto; color: var(--ink); }
+
+@media (min-width: 900px) {
+  .cards { display: none; }
+  .table-wrap { display: block; }
+  .controls { position: static; border-bottom: 0; grid-template-columns: auto 1fr; align-items: center; }
+  .sortrow .lbl, .sortrow .chip { display: none; }
+  .ladder { columns: 2 220px; column-gap: 20px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); overflow: visible; }
+  .swipe { display: none; }
+  .logo svg { height: 40px; }
+}
+/* race picker */
+.race { position: relative; display: grid; gap: 2px; min-width: 0; max-width: 52vw; }
+.race-k { font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--bar-muted); font-weight: 700; }
+.race select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 7px 26px 7px 9px; font-weight: 700; font-size: 13.5px; max-width: 100%; text-overflow: ellipsis; }
+.race::after { content: ""; position: absolute; right: 10px; bottom: 14px; width: 6px; height: 6px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: rotate(45deg); pointer-events: none; }
+.past a b { display: block; }
+.past a small { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+
+@media (max-width: 600px) {
+  .mast-in { flex-wrap: wrap; row-gap: 10px; }
+  .race { max-width: none; width: 100%; grid-template-columns: auto 1fr; align-items: center; gap: 10px; }
+  .race::after { bottom: 15px; }
+}
+
+/* take it with you */
+.keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
+.keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
+.keep small { display: block; font-weight: 500; font-size: 12px; color: var(--muted); }
+.keep svg { width: 22px; height: 22px; flex: none; }
+.past { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.past a { display: flex; justify-content: space-between; gap: 10px; color: var(--ink); text-decoration: none; padding: 11px 12px; border: 1px solid var(--line); border-radius: 8px; font-weight: 600; }
+.past a span { color: var(--muted); font-weight: 500; }
+#print { display: none; }
+#board-sec { break-inside: auto; }
+
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
+    --bg: #ffffff; --panel: #f3f3f1; --ink: #000000; --muted: #555555; --line: #cccccc;
+    --q: #12904c; --q-ink: #ffffff; --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1; --off: #999999;
+    color-scheme: light;
+  }
+  @page { size: landscape; margin: 10mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10px; }
+  .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
+  .mast .logo { color: #000; }
+  .mast-in { padding: 0 0 6px; }
+  .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  .wrap { padding: 0; max-width: none; }
+  .hero { padding: 6px 0 0; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 18px; }
+  .sec { margin-top: 10px; break-inside: avoid; }
+  #board-sec > h2 { display: none; }
+  #print { display: block; }
+  #print h3 { font-family: var(--font-display); font-size: 15px; text-transform: uppercase; margin: 8px 0 3px; }
+  #print table { border-collapse: collapse; width: 100%; font-family: var(--font-data); font-size: 9.5px; }
+  #print th, #print td { border: 1px solid #bbb; padding: 2px 4px; text-align: right; white-space: nowrap; }
+  #print th { font-family: var(--font-body); font-size: 8.5px; text-transform: uppercase; background: #eee; }
+  #print td:nth-child(2), #print th:nth-child(2) { text-align: left; font-family: var(--font-body); }
+  #print td small { color: #444; font-size: 7.5px; margin-left: 2px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(3, 1fr); overflow: visible; gap: 6px; }
+  .presented:has(.slot-empty) { display: none; }
+  #board-sec { break-after: page; }
+  .light { padding: 6px; } .light h3 { font-size: 14px; } .light ol { font-size: 9.5px; }
+  .ladder { columns: 2; }
+  .presented { margin-top: 4px; padding: 4px 8px; min-height: 0; }
+  .slot-empty { display: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .slip { animation: drop .18s ease-out; }
+  @keyframes drop { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <a class="logo" href="https://www.dragillustrated.com/" target="_blank" rel="noopener" aria-label="Drag Illustrated"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 562 167.3" style="enable-background:new 0 0 562 167.3;" xml:space="preserve"> <style type="text/css"> .st1{fill:currentColor;} </style> <g id="logos"> <g> <g> <path class="st1" d="M62,72.5h4.5l7.9-45H70L72.5,13c1.5,0,4.5,0,28.3,0c23.2,0,25.2,4.3,19.5,36.5c-5.7,32.2-9.8,36.9-32.5,36.9 c-20.9,0-26.7,0.1-28.4,0.1L62,72.5z M90.7,73.6c6.4,0,7.9-2.8,11-20.3c0.2-1.1,1.1-6.1,1.3-7.2c3.1-17.5,2.5-19.8-3.9-19.8 c-1.2,0-6.3,0-6.3,0l-8.3,47.2C84.4,73.6,89.4,73.6,90.7,73.6z"></path> <path class="st1" d="M119.7,74.6h3.8l6.7-38h-3.8l2.2-12.2c0,0,13.7,0,28.1,0c12.2,0,16.3,3.6,13.6,18.7 c-1.4,7.8-3.7,15.5-11.8,17.8l5.6,13.9h3.4l-2.1,11.9h-19.6l1-5.9l0.7-4.1l-5.1-13.8h-1.7l-2.2,12.7h4.6l-2,11.2h-23.4 L119.7,74.6z M149.3,53.1c3,0,4.6-1.8,5.9-9.2s-0.1-8.2-3-8.2c-2.2,0-6.8,0-6.8,0l-3.1,17.4C146.1,53.1,147.6,53.1,149.3,53.1z"></path> <path class="st1" d="M185.5,75.3h6.5l-2,11.2h-21.3l2.1-11.9h3.3l23.5-50.7h15.6l5.7,50.7h3.3L220,86.5h-25.4l2-11.2h6.6 l-0.7-7.6h-13.7L185.5,75.3z M201.2,51.2c-0.3-4-0.6-7.3-0.7-10.3c-1,2.7-2.6,6.3-4.4,10.3l-3.1,7h8.8L201.2,51.2z"></path> <path class="st1" d="M226.9,55.4c4.8-27.2,10.2-31.9,28.1-31.9c6.2,0,16.5,1,18.7,1.5l-4,22.7h-13.4l2.1-12.2 c-0.9-0.2-3.7-0.2-5.8-0.2c-5.7,0-7,0.9-9.7,16.4c-0.1,0.4-1.2,6.8-1.4,8c-2.7,15.4-1.5,16.2,4.1,16.2c1.4,0,5.3-0.1,6.5-0.3 l1.4-8h-5.6l2-11.6h20.5l-2,11.6h-2.3l-3.2,18.2c-4.2,0.8-13.1,1.5-19.4,1.5C225.6,87.2,222.1,82.7,226.9,55.4z"></path> </g> <g> <path class="st1" d="M16.4,139.4h5.7L30,94.5h-5.7L26.9,80h29.4l-2.5,14.5h-5.7l-7.9,44.9h5.7l-2.5,14.1H13.9L16.4,139.4z"></path> <path class="st1" d="M49.7,141.6h3.8l6.7-38h-3.8l2.2-12.2h25.2l-2.2,12.2h-6.1l-6.8,38.8h11l2.4-13.4h14.3L92,153.5H47.6 L49.7,141.6z"></path> <path class="st1" d="M98,141.6h3.8l6.7-38h-3.8l2.2-12.2H132l-2.2,12.2h-6.1l-6.8,38.8h11l2.4-13.4h14.3l-4.3,24.6H95.9L98,141.6 z"></path> <path class="st1" d="M148.6,131.7c1.6-9,5-28.1,5-28.1H150l2.2-12.2h23.7l-2.2,12.2h-4.8c0,0-4.2,23.6-5.1,28.9 c-1.4,8.1,0,9.6,5.2,9.6s6.9-1.3,8.3-9.4c0-0.2,5.1-29.1,5.1-29.1h-4.1l2.2-12.2h22.1l-2.2,12.2h-3.6c0,0-3.3,18.9-4.9,28 c-3.2,18.2-7.3,22.8-25.3,22.8C148.5,154.3,145.3,150.2,148.6,131.7z"></path> <path class="st1" d="M195.9,153l3.7-20.9h13.9l-2,11.2c1.1,0.2,4.4,0.3,6.3,0.3c5.9,0,7.2-0.7,8.3-6.9c0.9-5.1-0.6-6.1-7.8-8.4 c-14.2-4.6-17.1-6.8-14.6-20.4c2.4-13.4,7.6-17.5,23.4-17.5c7.9,0,17.3,0.8,20,1.7l-3.3,18.7h-13.9l1.6-9 c-1.1-0.2-4.3-0.3-6.5-0.3c-3.6,0-5.4,0.6-6.4,5.9c-0.8,4.7,1,5.8,7.7,7.9c14.3,4.3,17.4,7.3,15.1,20.5 c-2.5,14.4-7.4,18.7-25.7,18.7C206.3,154.3,198.2,153.4,195.9,153z"></path> <path class="st1" d="M255.4,141.6h4.7l7-39.8h-4.9l-2.3,12.8h-12.9l4.1-23.3H302l-4.1,23.4H285l2.3-12.8h-4.9l-7,39.8h4.6 l-2.1,11.8h-24.5L255.4,141.6z"></path> <path class="st1" d="M297,141.6h3.8l6.7-38h-3.8l2.2-12.2c0,0,13.7,0,28.1,0c12.2,0,16.3,3.6,13.6,18.7 c-1.4,7.8-3.7,15.5-11.8,17.8l5.6,13.9h3.4l-2.1,11.9h-19.6l1-5.9l0.7-4.1l-5.1-13.8h-1.7l-2.2,12.7h4.6l-2,11.2h-23.4L297,141.6 z M326.5,120.1c3,0,4.6-1.8,5.9-9.2c1.3-7.4-0.1-8.2-3-8.2c-2.2,0-6.8,0-6.8,0l-3.1,17.4C323.4,120.1,324.9,120.1,326.5,120.1z"></path> <path class="st1" d="M362.8,142.3h6.5l-2,11.2H346l2.1-11.9h3.3l23.5-50.7h15.5l5.7,50.7h3.3l-2.1,11.9H372l2-11.2h6.6l-0.7-7.6 h-13.7L362.8,142.3z M378.5,118.2c-0.3-4-0.6-7.3-0.7-10.3c-1,2.7-2.6,6.3-4.4,10.3l-3.1,7h8.8L378.5,118.2z"></path> <path class="st1" d="M406.6,141.6h4.7l7-39.8h-4.9l-2.3,12.8h-12.9l4.1-23.3h50.7l-4.1,23.4h-12.9l2.3-12.8h-4.9l-7,39.8h4.6 l-2.1,11.8h-24.5L406.6,141.6z"></path> <path class="st1" d="M448.2,141.6h3.8l6.7-38h-3.8l2.2-12.2h44.4l-4.1,23.4h-13.9l2.1-12.1h-11.4l-2.4,13.9h7.2l-2,11.5h-7.2 l-2.6,14.5h11.4l2.4-13.6h13.9l-4.3,24.6h-44.4L448.2,141.6z"></path> <path class="st1" d="M496.4,141.7h3.8l6.7-38.1h-3.8l2.2-12.2c1.3,0,3.8,0,24,0c19.6,0,21.3,3.6,16.5,30.9s-8.3,31.3-27.5,31.3 c-17.7,0-22.6,0.1-24,0.1L496.4,141.7z M520.7,142.6c5.4,0,6.7-2.4,9.3-17.2c0.2-0.9,0.9-5.2,1.1-6.1c2.6-14.8,2.1-16.7-3.3-16.7 c-1,0-5.3,0-5.3,0l-7,40C515.4,142.6,519.6,142.6,520.7,142.6z"></path> </g> </g> </g> </svg> <span class="tag">Incrementals</span></a>
+    <label class="race" id="race-wrap" hidden><span class="race-k">Race</span><select id="race" aria-label="Race"></select></label>
+  </div>
+</header>
+<div class="bar">
+  <div class="bar-in">
+    <label class="cls"><span hidden>Class</span><select id="cls" aria-label="Class"></select></label>
+    <nav class="rounds" id="rounds" aria-label="Round"></nav>
+  </div>
+</div>
+
+<main class="wrap" id="app">
+  <section class="hero">
+    <div class="eyebrow" id="ev"></div>
+    <h1 id="title"></h1>
+    <div class="meta" id="meta"></div>
+    <div class="leaders" id="leaders"></div>
+    <div class="presented" id="presented"></div>
+  </section>
+
+  <section class="sec" id="board-sec">
+    <h2>The Board</h2>
+    <p class="hint">Every car at every timing block. Tap a car for its full slip.</p>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="View">
+        <button type="button" id="v-cum" aria-pressed="true">Timing points</button>
+        <button type="button" id="v-seg" aria-pressed="false">Splits</button>
+      </div>
+      <div class="sortrow" id="sortrow"></div>
+      <div class="scale" aria-label="Color scale"><i class="tq"></i>Quickest <i class="t1"></i><i class="t2"></i><i class="t3"></i><i class="t4"></i>further off</div>
+    </div>
+    <div class="cards" id="cards"></div>
+    <div class="table-wrap"><table class="board" id="board"></table></div>
+    <div id="print" aria-hidden="true"></div>
+  </section>
+
+  <section class="sec" id="cmp-sec">
+    <h2>How Do I Compare?</h2>
+    <p class="hint">Pick any two cars and see exactly where one gains or loses on the other, block by block.</p>
+    <div class="cmp-mode" role="group" aria-label="Which runs">
+      <button type="button" id="cmp-round" aria-pressed="true">This round</button>
+      <button type="button" id="cmp-best" aria-pressed="false">Best run this weekend</button>
+    </div>
+    <div class="cmp-pick">
+      <select id="cmp-a" aria-label="Your car"></select>
+      <span class="vs">VS</span>
+      <select id="cmp-b" aria-label="Car to compare against"></select>
+    </div>
+    <div id="cmp-out"></div>
+  </section>
+
+  <div id="ad"></div>
+
+  <section class="sec">
+    <h2>Quickest at Every Block</h2>
+    <p class="hint">Top five at each timing block: each car's time, and how far back it was.</p>
+    <div class="lights" id="lights"></div>
+    <div class="swipe">Swipe for the next block</div>
+  </section>
+
+  <section class="sec duo">
+    <div>
+      <h2>Lane Check</h2>
+      <p class="hint">Average of the clean runs in each lane.</p>
+      <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
+    </div>
+    <div id="ladder-sec">
+      <h2 id="ladder-h">The Ladder</h2>
+      <p class="hint" id="ladder-hint"></p>
+      <div class="rule"><ol class="ladder" id="ladder"></ol></div>
+    </div>
+  </section>
+
+  <section class="sec keep-sec" id="keep-sec">
+    <h2>Take It With You</h2>
+    <p class="hint">Print this round, or keep the whole weekend on your own computer. Saved copies work with no internet.</p>
+    <div class="keep">
+      <button type="button" id="do-print"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="7"/></svg><span>Print this round<small>Every car, every block and split</small></span></button>
+      <a id="dl-csv" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h8"/></svg><span>Download spreadsheet<small>Every run this weekend, opens in Excel</small></span></a>
+      <a id="dl-page" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg><span>Save this page<small>The whole weekend, works offline</small></span></a>
+    </div>
+    <div id="past-wrap" hidden>
+      <h2 style="margin-top:22px">Past Races</h2>
+      <ul class="past" id="past"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <div>Timing data from official NHRA results. Splits, rankings and reads by Drag Illustrated.</div>
+    <div id="src"></div>
+  </footer>
+</main>
+
+<script type="application/json" id="data">{"generated":"2026-10-09T21:26:50+00:00","event_name":"NHRA Southern Nationals","event_id":"73875","year":2026,"event_date":"2026-05-01","class":"funny-car","finish":1000,"points":["ft60","ft330","ft660","et"],"segs":["s1","s2","s3","s4"],"inc_label":{"ft60":"60'","ft330":"330'","ft660":"660'","et":"ET"},"seg_label":{"s1":"0-60","s2":"60-330","s3":"330-660","s4":"660-1000"},"rounds":[{"round":"Q1","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/q1","weather":{"air":"74","humidity":"53","baro":"29.92","altitude":"1708","track":"88"},"low_et":3.887,"best":{"rt":0.067,"mph660":284.56,"mph":339.28,"back":0.727,"gain":54.72,"ft60":0.871,"ft330":2.243,"ft660":3.16,"et":3.887,"s1":0.871,"s2":1.367,"s3":0.916,"s4":0.727},"order":{"rt":[{"driver":"Alexis DeJoria","v":0.067,"gap":0.0},{"driver":"Austin Prock","v":0.071,"gap":0.004},{"driver":"Ron Capps","v":0.081,"gap":0.014},{"driver":"Daniel Wilkerson","v":0.086,"gap":0.019},{"driver":"Jack Beckman","v":0.088,"gap":0.021},{"driver":"Chad Green","v":0.089,"gap":0.022},{"driver":"JR Todd","v":0.089,"gap":0.022},{"driver":"Matt Hagan","v":0.093,"gap":0.026},{"driver":"Hunter Green","v":0.101,"gap":0.034},{"driver":"Spencer Hyde","v":0.103,"gap":0.036},{"driver":"Jeff Arend","v":0.104,"gap":0.037},{"driver":"Cruz Pedregon","v":0.131,"gap":0.064},{"driver":"Jordan Vandergriff","v":0.133,"gap":0.066},{"driver":"Dave Richards","v":0.142,"gap":0.075}],"mph660":[{"driver":"JR Todd","v":284.56,"gap":0.0},{"driver":"Jordan Vandergriff","v":278.98,"gap":5.58},{"driver":"Cruz Pedregon","v":277.49,"gap":7.07},{"driver":"Hunter Green","v":275.96,"gap":8.6},{"driver":"Spencer Hyde","v":275.45,"gap":9.11},{"driver":"Jeff Arend","v":271.62,"gap":12.94}],"mph":[{"driver":"JR Todd","v":339.28,"gap":0.0},{"driver":"Jordan Vandergriff","v":325.14,"gap":14.14},{"driver":"Hunter Green","v":322.65,"gap":16.63},{"driver":"Spencer Hyde","v":322.42,"gap":16.86},{"driver":"Jeff Arend","v":311.41,"gap":27.87},{"driver":"Cruz Pedregon","v":307.16,"gap":32.12},{"driver":"Ron Capps","v":200.08,"gap":139.2},{"driver":"Alexis DeJoria","v":159.08,"gap":180.2},{"driver":"Chad Green","v":139.01,"gap":200.27},{"driver":"Austin Prock","v":132.14,"gap":207.14},{"driver":"Daniel Wilkerson","v":84.0,"gap":255.28},{"driver":"Matt Hagan","v":79.6,"gap":259.68},{"driver":"Dave Richards","v":79.32,"gap":259.96},{"driver":"Jack Beckman","v":75.82,"gap":263.46}],"back":[{"driver":"JR Todd","v":0.727,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.746,"gap":0.019},{"driver":"Spencer Hyde","v":0.755,"gap":0.028},{"driver":"Hunter Green","v":0.759,"gap":0.032},{"driver":"Cruz Pedregon","v":0.76,"gap":0.033},{"driver":"Jeff Arend","v":0.774,"gap":0.047}],"gain":[{"driver":"JR Todd","v":54.72,"gap":0.0},{"driver":"Spencer Hyde","v":46.97,"gap":7.75},{"driver":"Hunter Green","v":46.69,"gap":8.03},{"driver":"Jordan Vandergriff","v":46.16,"gap":8.56},{"driver":"Jeff Arend","v":39.79,"gap":14.93},{"driver":"Cruz Pedregon","v":29.67,"gap":25.05}],"ft60":[{"driver":"Austin Prock","v":0.871,"gap":0.0},{"driver":"Ron Capps","v":0.871,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.873,"gap":0.002},{"driver":"Hunter Green","v":0.874,"gap":0.003},{"driver":"Cruz Pedregon","v":0.875,"gap":0.004},{"driver":"Spencer Hyde","v":0.877,"gap":0.006},{"driver":"JR Todd","v":0.877,"gap":0.006},{"driver":"Chad Green","v":0.881,"gap":0.01},{"driver":"Jeff Arend","v":0.889,"gap":0.018},{"driver":"Alexis DeJoria","v":0.895,"gap":0.024},{"driver":"Dave Richards","v":0.896,"gap":0.025},{"driver":"Matt Hagan","v":0.926,"gap":0.055}],"ft330":[{"driver":"Ron Capps","v":2.243,"gap":0.0},{"driver":"JR Todd","v":2.244,"gap":0.001},{"driver":"Cruz Pedregon","v":2.253,"gap":0.01},{"driver":"Jordan Vandergriff","v":2.254,"gap":0.011},{"driver":"Spencer Hyde","v":2.268,"gap":0.025},{"driver":"Hunter Green","v":2.269,"gap":0.026},{"driver":"Alexis DeJoria","v":2.28,"gap":0.037},{"driver":"Austin Prock","v":2.285,"gap":0.042},{"driver":"Chad Green","v":2.285,"gap":0.042},{"driver":"Jeff Arend","v":2.307,"gap":0.064}],"ft660":[{"driver":"JR Todd","v":3.16,"gap":0.0},{"driver":"Jordan Vandergriff","v":3.178,"gap":0.018},{"driver":"Cruz Pedregon","v":3.188,"gap":0.028},{"driver":"Hunter Green","v":3.199,"gap":0.039},{"driver":"Spencer Hyde","v":3.208,"gap":0.048},{"driver":"Jeff Arend","v":3.261,"gap":0.101}],"et":[{"driver":"JR Todd","v":3.887,"gap":0.0},{"driver":"Jordan Vandergriff","v":3.924,"gap":0.037},{"driver":"Cruz Pedregon","v":3.948,"gap":0.061},{"driver":"Hunter Green","v":3.958,"gap":0.071},{"driver":"Spencer Hyde","v":3.963,"gap":0.076},{"driver":"Jeff Arend","v":4.035,"gap":0.148},{"driver":"Ron Capps","v":4.399,"gap":0.512},{"driver":"Alexis DeJoria","v":4.865,"gap":0.978},{"driver":"Chad Green","v":5.228,"gap":1.341},{"driver":"Austin Prock","v":5.407,"gap":1.52},{"driver":"Dave Richards","v":8.499,"gap":4.612},{"driver":"Matt Hagan","v":9.587,"gap":5.7},{"driver":"Daniel Wilkerson","v":10.572,"gap":6.685},{"driver":"Jack Beckman","v":10.709,"gap":6.822}],"s1":[{"driver":"Austin Prock","v":0.871,"gap":0.0},{"driver":"Ron Capps","v":0.871,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.873,"gap":0.002},{"driver":"Hunter Green","v":0.874,"gap":0.003},{"driver":"Cruz Pedregon","v":0.875,"gap":0.004},{"driver":"Spencer Hyde","v":0.877,"gap":0.006},{"driver":"JR Todd","v":0.877,"gap":0.006},{"driver":"Chad Green","v":0.881,"gap":0.01},{"driver":"Jeff Arend","v":0.889,"gap":0.018},{"driver":"Alexis DeJoria","v":0.895,"gap":0.024},{"driver":"Dave Richards","v":0.896,"gap":0.025},{"driver":"Matt Hagan","v":0.926,"gap":0.055}],"s2":[{"driver":"JR Todd","v":1.367,"gap":0.0},{"driver":"Ron Capps","v":1.372,"gap":0.005},{"driver":"Cruz Pedregon","v":1.378,"gap":0.011},{"driver":"Jordan Vandergriff","v":1.381,"gap":0.014},{"driver":"Alexis DeJoria","v":1.385,"gap":0.018},{"driver":"Spencer Hyde","v":1.391,"gap":0.024},{"driver":"Hunter Green","v":1.395,"gap":0.028},{"driver":"Chad Green","v":1.404,"gap":0.037},{"driver":"Austin Prock","v":1.414,"gap":0.047},{"driver":"Jeff Arend","v":1.418,"gap":0.051}],"s3":[{"driver":"JR Todd","v":0.916,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.924,"gap":0.008},{"driver":"Hunter Green","v":0.93,"gap":0.014},{"driver":"Cruz Pedregon","v":0.935,"gap":0.019},{"driver":"Spencer Hyde","v":0.94,"gap":0.024},{"driver":"Jeff Arend","v":0.954,"gap":0.038}],"s4":[{"driver":"JR Todd","v":0.727,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.746,"gap":0.019},{"driver":"Spencer Hyde","v":0.755,"gap":0.028},{"driver":"Hunter Green","v":0.759,"gap":0.032},{"driver":"Cruz Pedregon","v":0.76,"gap":0.033},{"driver":"Jeff Arend","v":0.774,"gap":0.047}]},"clean_count":6,"runs":[{"driver":"JR Todd","car":"373","lane":"R","pair":6,"win":true,"opp":"Chad Green","rt":0.089,"mph660":284.56,"mph":339.28,"ft60":0.877,"ft330":2.244,"ft660":3.16,"et":3.887,"red":false,"s1":0.877,"s2":1.367,"s3":0.916,"s4":0.727,"back":0.727,"gain":54.72,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":7,"mph660":1,"mph":1,"back":1,"gain":1,"ft60":7,"ft330":2,"ft660":1,"et":1,"s1":7,"s2":1,"s3":1,"s4":1},"gap":{"rt":0.022,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.006,"ft330":0.001,"ft660":0.0,"et":0.0,"s1":0.006,"s2":0.0,"s3":0.0,"s4":0.0},"read":"Low ET of the round. Quickest in the field 60-330, 330-660, 660-1000. Gave up the most 0-60, +.006 off the quickest.","qpos":1},{"driver":"Jordan Vandergriff","car":"24","lane":"R","pair":5,"win":true,"opp":"Alexis DeJoria","rt":0.133,"mph660":278.98,"mph":325.14,"ft60":0.873,"ft330":2.254,"ft660":3.178,"et":3.924,"red":false,"s1":0.873,"s2":1.381,"s3":0.924,"s4":0.746,"back":0.746,"gain":46.16,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":13,"mph660":2,"mph":2,"back":2,"gain":4,"ft60":3,"ft330":4,"ft660":2,"et":2,"s1":3,"s2":4,"s3":2,"s4":2},"gap":{"rt":0.066,"mph660":5.58,"mph":14.14,"back":0.019,"gain":8.56,"ft60":0.002,"ft330":0.011,"ft660":0.018,"et":0.037,"s1":0.002,"s2":0.014,"s3":0.008,"s4":0.019},"read":"Gave up the most 660-1000, +.019 off the quickest.","qpos":2},{"driver":"Cruz Pedregon","car":"71","lane":"R","pair":2,"win":true,"opp":"Austin Prock","rt":0.131,"mph660":277.49,"mph":307.16,"ft60":0.875,"ft330":2.253,"ft660":3.188,"et":3.948,"red":false,"s1":0.875,"s2":1.378,"s3":0.935,"s4":0.76,"back":0.76,"gain":29.67,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":12,"mph660":3,"mph":6,"back":5,"gain":6,"ft60":5,"ft330":3,"ft660":3,"et":3,"s1":5,"s2":3,"s3":4,"s4":5},"gap":{"rt":0.064,"mph660":7.07,"mph":32.12,"back":0.033,"gain":25.05,"ft60":0.004,"ft330":0.01,"ft660":0.028,"et":0.061,"s1":0.004,"s2":0.011,"s3":0.019,"s4":0.033},"read":"Gave up the most 660-1000, +.033 off the quickest.","qpos":3},{"driver":"Hunter Green","car":"4494","lane":"R","pair":1,"win":true,"opp":"Jeff Arend","rt":0.101,"mph660":275.96,"mph":322.65,"ft60":0.874,"ft330":2.269,"ft660":3.199,"et":3.958,"red":false,"s1":0.874,"s2":1.395,"s3":0.93,"s4":0.759,"back":0.759,"gain":46.69,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":9,"mph660":4,"mph":3,"back":4,"gain":3,"ft60":4,"ft330":6,"ft660":4,"et":4,"s1":4,"s2":7,"s3":3,"s4":4},"gap":{"rt":0.034,"mph660":8.6,"mph":16.63,"back":0.032,"gain":8.03,"ft60":0.003,"ft330":0.026,"ft660":0.039,"et":0.071,"s1":0.003,"s2":0.028,"s3":0.014,"s4":0.032},"read":"Gave up the most 660-1000, +.032 off the quickest.","qpos":4},{"driver":"Spencer Hyde","car":"9","lane":"R","pair":4,"win":true,"opp":"Jack Beckman","rt":0.103,"mph660":275.45,"mph":322.42,"ft60":0.877,"ft330":2.268,"ft660":3.208,"et":3.963,"red":false,"s1":0.877,"s2":1.391,"s3":0.94,"s4":0.755,"back":0.755,"gain":46.97,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":10,"mph660":5,"mph":4,"back":3,"gain":2,"ft60":6,"ft330":5,"ft660":5,"et":5,"s1":6,"s2":6,"s3":5,"s4":3},"gap":{"rt":0.036,"mph660":9.11,"mph":16.86,"back":0.028,"gain":7.75,"ft60":0.006,"ft330":0.025,"ft660":0.048,"et":0.076,"s1":0.006,"s2":0.024,"s3":0.024,"s4":0.028},"read":"Gave up the most 660-1000, +.028 off the quickest.","qpos":5},{"driver":"Jeff Arend","car":"170","lane":"L","pair":1,"win":false,"opp":"Hunter Green","rt":0.104,"mph660":271.62,"mph":311.41,"ft60":0.889,"ft330":2.307,"ft660":3.261,"et":4.035,"red":false,"s1":0.889,"s2":1.418,"s3":0.954,"s4":0.774,"back":0.774,"gain":39.79,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":11,"mph660":6,"mph":5,"back":6,"gain":5,"ft60":9,"ft330":10,"ft660":6,"et":6,"s1":9,"s2":10,"s3":6,"s4":6},"gap":{"rt":0.037,"mph660":12.94,"mph":27.87,"back":0.047,"gain":14.93,"ft60":0.018,"ft330":0.064,"ft660":0.101,"et":0.148,"s1":0.018,"s2":0.051,"s3":0.038,"s4":0.047},"read":"Gave up the most 60-330, +.051 off the quickest.","qpos":6},{"driver":"Ron Capps","car":"28","lane":"R","pair":7,"win":true,"opp":"Matt Hagan","rt":0.081,"mph660":217.6,"mph":200.08,"ft60":0.871,"ft330":2.243,"ft660":3.276,"et":4.399,"red":false,"s1":0.871,"s2":1.372,"s3":1.033,"s4":1.123,"back":1.123,"gain":-17.52,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":3,"mph":7,"ft60":2,"ft330":1,"et":7,"s1":2,"s2":2},"gap":{"rt":0.014,"mph":139.2,"ft60":0.0,"ft330":0.0,"et":0.512,"s1":0.0,"s2":0.005},"read":"Went away 330-660. Was 1st to the 330' before that.","qpos":7},{"driver":"Alexis DeJoria","car":"771","lane":"L","pair":5,"win":false,"opp":"Jordan Vandergriff","rt":0.067,"mph660":180.36,"mph":159.08,"ft60":0.895,"ft330":2.28,"ft660":3.482,"et":4.865,"red":false,"s1":0.895,"s2":1.385,"s3":1.202,"s4":1.383,"back":1.383,"gain":-21.28,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":1,"mph":8,"ft60":10,"ft330":7,"et":8,"s1":10,"s2":5},"gap":{"rt":0.0,"mph":180.2,"ft60":0.024,"ft330":0.037,"et":0.978,"s1":0.024,"s2":0.018},"read":"Went away 330-660. Was 7th to the 330' before that.","qpos":8},{"driver":"Chad Green","car":"7","lane":"L","pair":6,"win":false,"opp":"JR Todd","rt":0.089,"mph660":157.95,"mph":139.01,"ft60":0.881,"ft330":2.285,"ft660":3.647,"et":5.228,"red":false,"s1":0.881,"s2":1.404,"s3":1.362,"s4":1.581,"back":1.581,"gain":-18.94,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":6,"mph":9,"ft60":8,"ft330":9,"et":9,"s1":8,"s2":8},"gap":{"rt":0.022,"mph":200.27,"ft60":0.01,"ft330":0.042,"et":1.341,"s1":0.01,"s2":0.037},"read":"Went away 330-660. Was 9th to the 330' before that.","qpos":9},{"driver":"Austin Prock","car":"1","lane":"L","pair":2,"win":false,"opp":"Cruz Pedregon","rt":0.071,"mph660":148.85,"mph":132.14,"ft60":0.871,"ft330":2.285,"ft660":3.735,"et":5.407,"red":false,"s1":0.871,"s2":1.414,"s3":1.45,"s4":1.672,"back":1.672,"gain":-16.71,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":2,"mph":10,"ft60":1,"ft330":8,"et":10,"s1":1,"s2":9},"gap":{"rt":0.004,"mph":207.14,"ft60":0.0,"ft330":0.042,"et":1.52,"s1":0.0,"s2":0.047},"read":"Went away 330-660. Was 8th to the 330' before that.","qpos":10},{"driver":"Dave Richards","car":"139","lane":"L","pair":3,"win":true,"opp":"Daniel Wilkerson","rt":0.142,"mph660":79.52,"mph":79.32,"ft60":0.896,"ft330":2.855,"ft660":5.527,"et":8.499,"red":false,"s1":0.896,"s2":1.959,"s3":2.672,"s4":2.972,"back":2.972,"gain":-0.2,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":14,"mph":13,"ft60":11,"et":11,"s1":11},"gap":{"rt":0.075,"mph":259.96,"ft60":0.025,"et":4.612,"s1":0.025},"read":"Went away 60-330. Was 11th to the 60' before that.","qpos":11},{"driver":"Matt Hagan","car":"14","lane":"L","pair":7,"win":false,"opp":"Ron Capps","rt":0.093,"mph660":76.64,"mph":79.6,"ft60":0.926,"ft330":3.594,"ft660":6.665,"et":9.587,"red":false,"s1":0.926,"s2":2.668,"s3":3.071,"s4":2.922,"back":2.922,"gain":2.96,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":8,"mph":12,"ft60":12,"et":12,"s1":12},"gap":{"rt":0.026,"mph":259.68,"ft60":0.055,"et":5.7,"s1":0.055},"read":"Went away 60-330. Was 12th to the 60' before that.","qpos":12},{"driver":"Daniel Wilkerson","car":"5","lane":"R","pair":3,"win":false,"opp":"Dave Richards","rt":0.086,"mph660":71.93,"mph":84.0,"ft60":1.044,"ft330":4.286,"ft660":7.625,"et":10.572,"red":false,"s1":1.044,"s2":3.242,"s3":3.339,"s4":2.947,"back":2.947,"gain":12.07,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":4,"mph":11,"et":13},"gap":{"rt":0.019,"mph":255.28,"et":6.685},"read":"Went away 0-60.","qpos":13},{"driver":"Jack Beckman","car":"3","lane":"L","pair":4,"win":false,"opp":"Spencer Hyde","rt":0.088,"mph660":68.55,"mph":75.82,"ft60":0.991,"ft330":4.077,"ft660":7.5,"et":10.709,"red":false,"s1":0.991,"s2":3.086,"s3":3.423,"s4":3.209,"back":3.209,"gain":7.27,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":5,"mph":14,"et":14},"gap":{"rt":0.021,"mph":263.46,"et":6.822},"read":"Went away 0-60.","qpos":14}]},{"round":"Q2","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/q2","weather":{"air":"77","humidity":"55","baro":"29.90","altitude":"2005","track":"108"},"low_et":3.93,"best":{"rt":0.071,"mph660":285.05,"mph":334.57,"back":0.735,"gain":56.17,"ft60":0.866,"ft330":2.255,"ft660":3.185,"et":3.93,"s1":0.866,"s2":1.387,"s3":0.919,"s4":0.735},"order":{"rt":[{"driver":"Austin Prock","v":0.071,"gap":0.0},{"driver":"Ron Capps","v":0.073,"gap":0.002},{"driver":"Jordan Vandergriff","v":0.075,"gap":0.004},{"driver":"Alexis DeJoria","v":0.075,"gap":0.004},{"driver":"Daniel Wilkerson","v":0.076,"gap":0.005},{"driver":"Spencer Hyde","v":0.078,"gap":0.007},{"driver":"Hunter Green","v":0.088,"gap":0.017},{"driver":"JR Todd","v":0.09,"gap":0.019},{"driver":"Matt Hagan","v":0.099,"gap":0.028},{"driver":"Jack Beckman","v":0.101,"gap":0.03},{"driver":"Cruz Pedregon","v":0.111,"gap":0.04},{"driver":"Chad Green","v":0.112,"gap":0.041},{"driver":"Dave Richards","v":0.127,"gap":0.056}],"mph660":[{"driver":"JR Todd","v":285.05,"gap":0.0},{"driver":"Matt Hagan","v":279.79,"gap":5.26},{"driver":"Chad Green","v":279.44,"gap":5.61},{"driver":"Austin Prock","v":279.38,"gap":5.67},{"driver":"Dave Richards","v":278.4,"gap":6.65},{"driver":"Alexis DeJoria","v":277.2,"gap":7.85},{"driver":"Jack Beckman","v":276.24,"gap":8.81},{"driver":"Spencer Hyde","v":276.24,"gap":8.81},{"driver":"Cruz Pedregon","v":272.56,"gap":12.49}],"mph":[{"driver":"Dave Richards","v":334.57,"gap":0.0},{"driver":"JR Todd","v":332.67,"gap":1.9},{"driver":"Austin Prock","v":331.94,"gap":2.63},{"driver":"Matt Hagan","v":328.78,"gap":5.79},{"driver":"Alexis DeJoria","v":326.63,"gap":7.94},{"driver":"Jack Beckman","v":326.24,"gap":8.33},{"driver":"Chad Green","v":318.24,"gap":16.33},{"driver":"Cruz Pedregon","v":316.23,"gap":18.34},{"driver":"Spencer Hyde","v":315.86,"gap":18.71},{"driver":"Daniel Wilkerson","v":134.58,"gap":199.99},{"driver":"Hunter Green","v":89.99,"gap":244.58},{"driver":"Jordan Vandergriff","v":66.99,"gap":267.58},{"driver":"Ron Capps","v":59.85,"gap":274.72}],"back":[{"driver":"JR Todd","v":0.735,"gap":0.0},{"driver":"Dave Richards","v":0.738,"gap":0.003},{"driver":"Austin Prock","v":0.74,"gap":0.005},{"driver":"Matt Hagan","v":0.741,"gap":0.006},{"driver":"Alexis DeJoria","v":0.749,"gap":0.014},{"driver":"Jack Beckman","v":0.752,"gap":0.017},{"driver":"Chad Green","v":0.761,"gap":0.026},{"driver":"Spencer Hyde","v":0.763,"gap":0.028},{"driver":"Cruz Pedregon","v":0.768,"gap":0.033}],"gain":[{"driver":"Dave Richards","v":56.17,"gap":0.0},{"driver":"Austin Prock","v":52.56,"gap":3.61},{"driver":"Jack Beckman","v":50.0,"gap":6.17},{"driver":"Alexis DeJoria","v":49.43,"gap":6.74},{"driver":"Matt Hagan","v":48.99,"gap":7.18},{"driver":"JR Todd","v":47.62,"gap":8.55},{"driver":"Cruz Pedregon","v":43.67,"gap":12.5},{"driver":"Spencer Hyde","v":39.62,"gap":16.55},{"driver":"Chad Green","v":38.8,"gap":17.37}],"ft60":[{"driver":"Matt Hagan","v":0.866,"gap":0.0},{"driver":"Cruz Pedregon","v":0.867,"gap":0.001},{"driver":"Chad Green","v":0.876,"gap":0.01},{"driver":"Jack Beckman","v":0.881,"gap":0.015},{"driver":"Spencer Hyde","v":0.884,"gap":0.018},{"driver":"JR Todd","v":0.885,"gap":0.019},{"driver":"Alexis DeJoria","v":0.886,"gap":0.02},{"driver":"Austin Prock","v":0.887,"gap":0.021},{"driver":"Hunter Green","v":0.889,"gap":0.023},{"driver":"Daniel Wilkerson","v":0.894,"gap":0.028},{"driver":"Dave Richards","v":0.895,"gap":0.029},{"driver":"Jordan Vandergriff","v":0.93,"gap":0.064}],"ft330":[{"driver":"Cruz Pedregon","v":2.255,"gap":0.0},{"driver":"Matt Hagan","v":2.26,"gap":0.005},{"driver":"Chad Green","v":2.263,"gap":0.008},{"driver":"JR Todd","v":2.276,"gap":0.021},{"driver":"Jack Beckman","v":2.282,"gap":0.027},{"driver":"Austin Prock","v":2.282,"gap":0.027},{"driver":"Spencer Hyde","v":2.284,"gap":0.029},{"driver":"Alexis DeJoria","v":2.284,"gap":0.029},{"driver":"Dave Richards","v":2.286,"gap":0.031}],"ft660":[{"driver":"Chad Green","v":3.185,"gap":0.0},{"driver":"Matt Hagan","v":3.192,"gap":0.007},{"driver":"JR Todd","v":3.195,"gap":0.01},{"driver":"Cruz Pedregon","v":3.207,"gap":0.022},{"driver":"Austin Prock","v":3.216,"gap":0.031},{"driver":"Spencer Hyde","v":3.219,"gap":0.034},{"driver":"Alexis DeJoria","v":3.219,"gap":0.034},{"driver":"Jack Beckman","v":3.221,"gap":0.036},{"driver":"Dave Richards","v":3.221,"gap":0.036}],"et":[{"driver":"JR Todd","v":3.93,"gap":0.0},{"driver":"Matt Hagan","v":3.933,"gap":0.003},{"driver":"Chad Green","v":3.946,"gap":0.016},{"driver":"Austin Prock","v":3.956,"gap":0.026},{"driver":"Dave Richards","v":3.959,"gap":0.029},{"driver":"Alexis DeJoria","v":3.968,"gap":0.038},{"driver":"Jack Beckman","v":3.973,"gap":0.043},{"driver":"Cruz Pedregon","v":3.975,"gap":0.045},{"driver":"Spencer Hyde","v":3.982,"gap":0.052},{"driver":"Daniel Wilkerson","v":6.468,"gap":2.538},{"driver":"Hunter Green","v":7.425,"gap":3.495},{"driver":"Jordan Vandergriff","v":9.559,"gap":5.629},{"driver":"Ron Capps","v":10.956,"gap":7.026}],"s1":[{"driver":"Matt Hagan","v":0.866,"gap":0.0},{"driver":"Cruz Pedregon","v":0.867,"gap":0.001},{"driver":"Chad Green","v":0.876,"gap":0.01},{"driver":"Jack Beckman","v":0.881,"gap":0.015},{"driver":"Spencer Hyde","v":0.884,"gap":0.018},{"driver":"JR Todd","v":0.885,"gap":0.019},{"driver":"Alexis DeJoria","v":0.886,"gap":0.02},{"driver":"Austin Prock","v":0.887,"gap":0.021},{"driver":"Hunter Green","v":0.889,"gap":0.023},{"driver":"Daniel Wilkerson","v":0.894,"gap":0.028},{"driver":"Dave Richards","v":0.895,"gap":0.029},{"driver":"Jordan Vandergriff","v":0.93,"gap":0.064}],"s2":[{"driver":"Chad Green","v":1.387,"gap":0.0},{"driver":"Cruz Pedregon","v":1.388,"gap":0.001},{"driver":"Dave Richards","v":1.391,"gap":0.004},{"driver":"JR Todd","v":1.391,"gap":0.004},{"driver":"Matt Hagan","v":1.394,"gap":0.007},{"driver":"Austin Prock","v":1.395,"gap":0.008},{"driver":"Alexis DeJoria","v":1.398,"gap":0.011},{"driver":"Spencer Hyde","v":1.4,"gap":0.013},{"driver":"Jack Beckman","v":1.401,"gap":0.014}],"s3":[{"driver":"JR Todd","v":0.919,"gap":0.0},{"driver":"Chad Green","v":0.922,"gap":0.003},{"driver":"Matt Hagan","v":0.932,"gap":0.013},{"driver":"Austin Prock","v":0.934,"gap":0.015},{"driver":"Spencer Hyde","v":0.935,"gap":0.016},{"driver":"Dave Richards","v":0.935,"gap":0.016},{"driver":"Alexis DeJoria","v":0.935,"gap":0.016},{"driver":"Jack Beckman","v":0.939,"gap":0.02},{"driver":"Cruz Pedregon","v":0.952,"gap":0.033}],"s4":[{"driver":"JR Todd","v":0.735,"gap":0.0},{"driver":"Dave Richards","v":0.738,"gap":0.003},{"driver":"Austin Prock","v":0.74,"gap":0.005},{"driver":"Matt Hagan","v":0.741,"gap":0.006},{"driver":"Alexis DeJoria","v":0.749,"gap":0.014},{"driver":"Jack Beckman","v":0.752,"gap":0.017},{"driver":"Chad Green","v":0.761,"gap":0.026},{"driver":"Spencer Hyde","v":0.763,"gap":0.028},{"driver":"Cruz Pedregon","v":0.768,"gap":0.033}]},"clean_count":9,"runs":[{"driver":"JR Todd","car":"373","lane":"L","pair":7,"win":true,"opp":null,"rt":0.09,"mph660":285.05,"mph":332.67,"ft60":0.885,"ft330":2.276,"ft660":3.195,"et":3.93,"red":false,"s1":0.885,"s2":1.391,"s3":0.919,"s4":0.735,"back":0.735,"gain":47.62,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":8,"mph660":1,"mph":2,"back":1,"gain":6,"ft60":6,"ft330":4,"ft660":3,"et":1,"s1":6,"s2":4,"s3":1,"s4":1},"gap":{"rt":0.019,"mph660":0.0,"mph":1.9,"back":0.0,"gain":8.55,"ft60":0.019,"ft330":0.021,"ft660":0.01,"et":0.0,"s1":0.019,"s2":0.004,"s3":0.0,"s4":0.0},"read":"Low ET of the round. Quickest in the field 330-660, 660-1000. Gave up the most 0-60, +.019 off the quickest.","qpos":1},{"driver":"Matt Hagan","car":"14","lane":"R","pair":2,"win":true,"opp":"Ron Capps","rt":0.099,"mph660":279.79,"mph":328.78,"ft60":0.866,"ft330":2.26,"ft660":3.192,"et":3.933,"red":false,"s1":0.866,"s2":1.394,"s3":0.932,"s4":0.741,"back":0.741,"gain":48.99,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":9,"mph660":2,"mph":4,"back":4,"gain":5,"ft60":1,"ft330":2,"ft660":2,"et":2,"s1":1,"s2":5,"s3":3,"s4":4},"gap":{"rt":0.028,"mph660":5.26,"mph":5.79,"back":0.006,"gain":7.18,"ft60":0.0,"ft330":0.005,"ft660":0.007,"et":0.003,"s1":0.0,"s2":0.007,"s3":0.013,"s4":0.006},"read":"Quickest in the field 0-60. Gave up the most 330-660, +.013 off the quickest.","qpos":3},{"driver":"Chad Green","car":"7","lane":"R","pair":5,"win":true,"opp":"Cruz Pedregon","rt":0.112,"mph660":279.44,"mph":318.24,"ft60":0.876,"ft330":2.263,"ft660":3.185,"et":3.946,"red":false,"s1":0.876,"s2":1.387,"s3":0.922,"s4":0.761,"back":0.761,"gain":38.8,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":12,"mph660":3,"mph":7,"back":7,"gain":9,"ft60":3,"ft330":3,"ft660":1,"et":3,"s1":3,"s2":1,"s3":2,"s4":7},"gap":{"rt":0.041,"mph660":5.61,"mph":16.33,"back":0.026,"gain":17.37,"ft60":0.01,"ft330":0.008,"ft660":0.0,"et":0.016,"s1":0.01,"s2":0.0,"s3":0.003,"s4":0.026},"read":"Quickest in the field 60-330. Gave up the most 660-1000, +.026 off the quickest.","qpos":4},{"driver":"Austin Prock","car":"1","lane":"R","pair":4,"win":true,"opp":"Hunter Green","rt":0.071,"mph660":279.38,"mph":331.94,"ft60":0.887,"ft330":2.282,"ft660":3.216,"et":3.956,"red":false,"s1":0.887,"s2":1.395,"s3":0.934,"s4":0.74,"back":0.74,"gain":52.56,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":1,"mph660":4,"mph":3,"back":3,"gain":2,"ft60":8,"ft330":6,"ft660":5,"et":4,"s1":8,"s2":6,"s3":4,"s4":3},"gap":{"rt":0.0,"mph660":5.67,"mph":2.63,"back":0.005,"gain":3.61,"ft60":0.021,"ft330":0.027,"ft660":0.031,"et":0.026,"s1":0.021,"s2":0.008,"s3":0.015,"s4":0.005},"read":"Gave up the most 0-60, +.021 off the quickest.","qpos":6},{"driver":"Dave Richards","car":"139","lane":"R","pair":3,"win":false,"opp":"Spencer Hyde","rt":0.127,"mph660":278.4,"mph":334.57,"ft60":0.895,"ft330":2.286,"ft660":3.221,"et":3.959,"red":false,"s1":0.895,"s2":1.391,"s3":0.935,"s4":0.738,"back":0.738,"gain":56.17,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":13,"mph660":5,"mph":1,"back":2,"gain":1,"ft60":11,"ft330":9,"ft660":9,"et":5,"s1":11,"s2":3,"s3":6,"s4":2},"gap":{"rt":0.056,"mph660":6.65,"mph":0.0,"back":0.003,"gain":0.0,"ft60":0.029,"ft330":0.031,"ft660":0.036,"et":0.029,"s1":0.029,"s2":0.004,"s3":0.016,"s4":0.003},"read":"Gave up the most 0-60, +.029 off the quickest.","qpos":8},{"driver":"Alexis DeJoria","car":"771","lane":"R","pair":6,"win":true,"opp":"Jordan Vandergriff","rt":0.075,"mph660":277.2,"mph":326.63,"ft60":0.886,"ft330":2.284,"ft660":3.219,"et":3.968,"red":false,"s1":0.886,"s2":1.398,"s3":0.935,"s4":0.749,"back":0.749,"gain":49.43,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":4,"mph660":6,"mph":5,"back":5,"gain":4,"ft60":7,"ft330":8,"ft660":7,"et":6,"s1":7,"s2":7,"s3":7,"s4":5},"gap":{"rt":0.004,"mph660":7.85,"mph":7.94,"back":0.014,"gain":6.74,"ft60":0.02,"ft330":0.029,"ft660":0.034,"et":0.038,"s1":0.02,"s2":0.011,"s3":0.016,"s4":0.014},"read":"Gave up the most 0-60, +.020 off the quickest.","qpos":10},{"driver":"Jack Beckman","car":"3","lane":"R","pair":1,"win":true,"opp":"Daniel Wilkerson","rt":0.101,"mph660":276.24,"mph":326.24,"ft60":0.881,"ft330":2.282,"ft660":3.221,"et":3.973,"red":false,"s1":0.881,"s2":1.401,"s3":0.939,"s4":0.752,"back":0.752,"gain":50.0,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":10,"mph660":7,"mph":6,"back":6,"gain":3,"ft60":4,"ft330":5,"ft660":8,"et":7,"s1":4,"s2":9,"s3":8,"s4":6},"gap":{"rt":0.03,"mph660":8.81,"mph":8.33,"back":0.017,"gain":6.17,"ft60":0.015,"ft330":0.027,"ft660":0.036,"et":0.043,"s1":0.015,"s2":0.014,"s3":0.02,"s4":0.017},"read":"Gave up the most 330-660, +.020 off the quickest.","qpos":11},{"driver":"Cruz Pedregon","car":"71","lane":"L","pair":5,"win":false,"opp":"Chad Green","rt":0.111,"mph660":272.56,"mph":316.23,"ft60":0.867,"ft330":2.255,"ft660":3.207,"et":3.975,"red":false,"s1":0.867,"s2":1.388,"s3":0.952,"s4":0.768,"back":0.768,"gain":43.67,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":11,"mph660":9,"mph":8,"back":9,"gain":7,"ft60":2,"ft330":1,"ft660":4,"et":8,"s1":2,"s2":2,"s3":9,"s4":9},"gap":{"rt":0.04,"mph660":12.49,"mph":18.34,"back":0.033,"gain":12.5,"ft60":0.001,"ft330":0.0,"ft660":0.022,"et":0.045,"s1":0.001,"s2":0.001,"s3":0.033,"s4":0.033},"read":"Gave up the most 330-660, +.033 off the quickest.","qpos":5},{"driver":"Spencer Hyde","car":"9","lane":"L","pair":3,"win":true,"opp":"Dave Richards","rt":0.078,"mph660":276.24,"mph":315.86,"ft60":0.884,"ft330":2.284,"ft660":3.219,"et":3.982,"red":false,"s1":0.884,"s2":1.4,"s3":0.935,"s4":0.763,"back":0.763,"gain":39.62,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":6,"mph660":8,"mph":9,"back":8,"gain":8,"ft60":5,"ft330":7,"ft660":6,"et":9,"s1":5,"s2":8,"s3":5,"s4":8},"gap":{"rt":0.007,"mph660":8.81,"mph":18.71,"back":0.028,"gain":16.55,"ft60":0.018,"ft330":0.029,"ft660":0.034,"et":0.052,"s1":0.018,"s2":0.013,"s3":0.016,"s4":0.028},"read":"Gave up the most 660-1000, +.028 off the quickest.","qpos":9},{"driver":"Daniel Wilkerson","car":"5","lane":"L","pair":1,"win":false,"opp":"Jack Beckman","rt":0.076,"mph660":127.43,"mph":134.58,"ft60":0.894,"ft330":2.818,"ft660":4.729,"et":6.468,"red":false,"s1":0.894,"s2":1.924,"s3":1.911,"s4":1.739,"back":1.739,"gain":7.15,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":5,"mph":10,"ft60":10,"et":10,"s1":10},"gap":{"rt":0.005,"mph":199.99,"ft60":0.028,"et":2.538,"s1":0.028},"read":"Went away 60-330. Was 10th to the 60' before that.","qpos":14},{"driver":"Hunter Green","car":"4494","lane":"L","pair":4,"win":false,"opp":"Austin Prock","rt":0.088,"mph660":94.46,"mph":89.99,"ft60":0.889,"ft330":2.607,"ft660":4.853,"et":7.425,"red":false,"s1":0.889,"s2":1.718,"s3":2.246,"s4":2.572,"back":2.572,"gain":-4.47,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":7,"mph":11,"ft60":9,"et":11,"s1":9},"gap":{"rt":0.017,"mph":244.58,"ft60":0.023,"et":3.495,"s1":0.023},"read":"Went away 60-330. Was 9th to the 60' before that.","qpos":7},{"driver":"Jordan Vandergriff","car":"24","lane":"L","pair":6,"win":false,"opp":"Alexis DeJoria","rt":0.075,"mph660":79.64,"mph":66.99,"ft60":0.93,"ft330":3.475,"ft660":6.341,"et":9.559,"red":false,"s1":0.93,"s2":2.545,"s3":2.866,"s4":3.218,"back":3.218,"gain":-12.65,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":3,"mph":12,"ft60":12,"et":12,"s1":12},"gap":{"rt":0.004,"mph":267.58,"ft60":0.064,"et":5.629,"s1":0.064},"read":"Went away 60-330. Was 12th to the 60' before that.","qpos":2},{"driver":"Ron Capps","car":"28","lane":"L","pair":2,"win":false,"opp":"Matt Hagan","rt":0.073,"mph660":66.67,"mph":59.85,"ft60":0.987,"ft330":3.958,"ft660":7.244,"et":10.956,"red":false,"s1":0.987,"s2":2.971,"s3":3.286,"s4":3.712,"back":3.712,"gain":-6.82,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":2,"mph":13,"et":13},"gap":{"rt":0.002,"mph":274.72,"et":7.026},"read":"Went away 0-60.","qpos":13}]},{"round":"Q3","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/q3","weather":null,"low_et":3.894,"best":{"rt":0.075,"mph660":283.79,"mph":323.89,"back":0.749,"gain":40.1,"ft60":0.872,"ft330":2.239,"ft660":3.145,"et":3.894,"s1":0.872,"s2":1.366,"s3":0.906,"s4":0.749},"order":{"rt":[{"driver":"Chad Green","v":0.075,"gap":0.0},{"driver":"Austin Prock","v":0.083,"gap":0.008},{"driver":"Jordan Vandergriff","v":0.084,"gap":0.009},{"driver":"Matt Hagan","v":0.086,"gap":0.011},{"driver":"JR Todd","v":0.089,"gap":0.014},{"driver":"Ron Capps","v":0.091,"gap":0.016},{"driver":"Jack Beckman","v":0.095,"gap":0.02},{"driver":"Spencer Hyde","v":0.098,"gap":0.023},{"driver":"Alexis DeJoria","v":0.104,"gap":0.029},{"driver":"Daniel Wilkerson","v":0.104,"gap":0.029},{"driver":"Hunter Green","v":0.109,"gap":0.034},{"driver":"Dave Richards","v":0.158,"gap":0.083}],"mph660":[{"driver":"Chad Green","v":283.79,"gap":0.0}],"mph":[{"driver":"Chad Green","v":323.89,"gap":0.0},{"driver":"JR Todd","v":217.07,"gap":106.82},{"driver":"Austin Prock","v":147.18,"gap":176.71},{"driver":"Ron Capps","v":94.23,"gap":229.66},{"driver":"Hunter Green","v":93.3,"gap":230.59},{"driver":"Alexis DeJoria","v":86.56,"gap":237.33},{"driver":"Dave Richards","v":85.36,"gap":238.53},{"driver":"Jack Beckman","v":82.27,"gap":241.62},{"driver":"Jordan Vandergriff","v":78.5,"gap":245.39},{"driver":"Spencer Hyde","v":59.82,"gap":264.07},{"driver":"Daniel Wilkerson","v":59.66,"gap":264.23},{"driver":"Matt Hagan","v":51.43,"gap":272.46}],"back":[{"driver":"Chad Green","v":0.749,"gap":0.0}],"gain":[{"driver":"Chad Green","v":40.1,"gap":0.0}],"ft60":[{"driver":"JR Todd","v":0.872,"gap":0.0},{"driver":"Chad Green","v":0.873,"gap":0.001},{"driver":"Ron Capps","v":0.876,"gap":0.004},{"driver":"Jack Beckman","v":0.88,"gap":0.008},{"driver":"Alexis DeJoria","v":0.885,"gap":0.013},{"driver":"Dave Richards","v":0.891,"gap":0.019},{"driver":"Jordan Vandergriff","v":0.894,"gap":0.022},{"driver":"Hunter Green","v":0.895,"gap":0.023},{"driver":"Spencer Hyde","v":0.902,"gap":0.03},{"driver":"Austin Prock","v":0.911,"gap":0.039}],"ft330":[{"driver":"Chad Green","v":2.239,"gap":0.0},{"driver":"JR Todd","v":2.245,"gap":0.006}],"ft660":[{"driver":"Chad Green","v":3.145,"gap":0.0}],"et":[{"driver":"Chad Green","v":3.894,"gap":0.0},{"driver":"JR Todd","v":4.261,"gap":0.367},{"driver":"Austin Prock","v":5.847,"gap":1.953},{"driver":"Hunter Green","v":7.184,"gap":3.29},{"driver":"Alexis DeJoria","v":7.658,"gap":3.764},{"driver":"Ron Capps","v":7.749,"gap":3.855},{"driver":"Dave Richards","v":7.814,"gap":3.92},{"driver":"Jack Beckman","v":8.125,"gap":4.231},{"driver":"Jordan Vandergriff","v":8.15,"gap":4.256},{"driver":"Spencer Hyde","v":8.988,"gap":5.094},{"driver":"Matt Hagan","v":13.416,"gap":9.522},{"driver":"Daniel Wilkerson","v":14.335,"gap":10.441}],"s1":[{"driver":"JR Todd","v":0.872,"gap":0.0},{"driver":"Chad Green","v":0.873,"gap":0.001},{"driver":"Ron Capps","v":0.876,"gap":0.004},{"driver":"Jack Beckman","v":0.88,"gap":0.008},{"driver":"Alexis DeJoria","v":0.885,"gap":0.013},{"driver":"Dave Richards","v":0.891,"gap":0.019},{"driver":"Jordan Vandergriff","v":0.894,"gap":0.022},{"driver":"Hunter Green","v":0.895,"gap":0.023},{"driver":"Spencer Hyde","v":0.902,"gap":0.03},{"driver":"Austin Prock","v":0.911,"gap":0.039}],"s2":[{"driver":"Chad Green","v":1.366,"gap":0.0},{"driver":"JR Todd","v":1.373,"gap":0.007}],"s3":[{"driver":"Chad Green","v":0.906,"gap":0.0}],"s4":[{"driver":"Chad Green","v":0.749,"gap":0.0}]},"clean_count":1,"runs":[{"driver":"Chad Green","car":"7","lane":"R","pair":5,"win":true,"opp":null,"rt":0.075,"mph660":283.79,"mph":323.89,"ft60":0.873,"ft330":2.239,"ft660":3.145,"et":3.894,"red":false,"s1":0.873,"s2":1.366,"s3":0.906,"s4":0.749,"back":0.749,"gain":40.1,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":1,"mph660":1,"mph":1,"back":1,"gain":1,"ft60":2,"ft330":1,"ft660":1,"et":1,"s1":2,"s2":1,"s3":1,"s4":1},"gap":{"rt":0.0,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.001,"ft330":0.0,"ft660":0.0,"et":0.0,"s1":0.001,"s2":0.0,"s3":0.0,"s4":0.0},"read":"Low ET of the round. Quickest in the field 60-330, 330-660, 660-1000. Gave up the most 0-60, +.001 off the quickest.","qpos":2},{"driver":"JR Todd","car":"373","lane":"R","pair":7,"win":true,"opp":"Ron Capps","rt":0.089,"mph660":236.42,"mph":217.07,"ft60":0.872,"ft330":2.245,"ft660":3.225,"et":4.261,"red":false,"s1":0.872,"s2":1.373,"s3":0.98,"s4":1.036,"back":1.036,"gain":-19.35,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":5,"mph":2,"ft60":1,"ft330":2,"et":2,"s1":1,"s2":2},"gap":{"rt":0.014,"mph":106.82,"ft60":0.0,"ft330":0.006,"et":0.367,"s1":0.0,"s2":0.007},"read":"Went away 330-660. Was 2nd to the 330' before that.","qpos":1},{"driver":"Austin Prock","car":"1","lane":"R","pair":4,"win":true,"opp":"Spencer Hyde","rt":0.083,"mph660":131.19,"mph":147.18,"ft60":0.911,"ft330":2.508,"ft660":4.241,"et":5.847,"red":false,"s1":0.911,"s2":1.597,"s3":1.733,"s4":1.606,"back":1.606,"gain":15.99,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":2,"mph":3,"ft60":10,"et":3,"s1":10},"gap":{"rt":0.008,"mph":176.71,"ft60":0.039,"et":1.953,"s1":0.039},"read":"Went away 60-330. Was 10th to the 60' before that.","qpos":6},{"driver":"Hunter Green","car":"4494","lane":"L","pair":2,"win":true,"opp":"Alexis DeJoria","rt":0.109,"mph660":99.33,"mph":93.3,"ft60":0.895,"ft330":2.565,"ft660":4.708,"et":7.184,"red":false,"s1":0.895,"s2":1.67,"s3":2.143,"s4":2.476,"back":2.476,"gain":-6.03,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":11,"mph":5,"ft60":8,"et":4,"s1":8},"gap":{"rt":0.034,"mph":230.59,"ft60":0.023,"et":3.29,"s1":0.023},"read":"Went away 60-330. Was 8th to the 60' before that.","qpos":7},{"driver":"Alexis DeJoria","car":"771","lane":"R","pair":2,"win":false,"opp":"Hunter Green","rt":0.104,"mph660":90.84,"mph":86.56,"ft60":0.885,"ft330":2.651,"ft660":4.992,"et":7.658,"red":false,"s1":0.885,"s2":1.766,"s3":2.341,"s4":2.666,"back":2.666,"gain":-4.28,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":9,"mph":6,"ft60":5,"et":5,"s1":5},"gap":{"rt":0.029,"mph":237.33,"ft60":0.013,"et":3.764,"s1":0.013},"read":"Went away 60-330. Was 5th to the 60' before that.","qpos":10},{"driver":"Ron Capps","car":"28","lane":"L","pair":7,"win":false,"opp":"JR Todd","rt":0.091,"mph660":89.67,"mph":94.23,"ft60":0.876,"ft330":2.778,"ft660":5.257,"et":7.749,"red":false,"s1":0.876,"s2":1.902,"s3":2.479,"s4":2.492,"back":2.492,"gain":4.56,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":6,"mph":4,"ft60":3,"et":6,"s1":3},"gap":{"rt":0.016,"mph":229.66,"ft60":0.004,"et":3.855,"s1":0.004},"read":"Went away 60-330. Was 3rd to the 60' before that.","qpos":13},{"driver":"Dave Richards","car":"139","lane":"R","pair":3,"win":true,"opp":"Daniel Wilkerson","rt":0.158,"mph660":87.48,"mph":85.36,"ft60":0.891,"ft330":2.665,"ft660":5.06,"et":7.814,"red":false,"s1":0.891,"s2":1.774,"s3":2.395,"s4":2.754,"back":2.754,"gain":-2.12,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":12,"mph":7,"ft60":6,"et":7,"s1":6},"gap":{"rt":0.083,"mph":238.53,"ft60":0.019,"et":3.92,"s1":0.019},"read":"Went away 60-330. Was 6th to the 60' before that.","qpos":8},{"driver":"Jack Beckman","car":"3","lane":"L","pair":6,"win":true,"opp":"Matt Hagan","rt":0.095,"mph660":85.62,"mph":82.27,"ft60":0.88,"ft330":2.798,"ft660":5.347,"et":8.125,"red":false,"s1":0.88,"s2":1.918,"s3":2.549,"s4":2.778,"back":2.778,"gain":-3.35,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":7,"mph":8,"ft60":4,"et":8,"s1":4},"gap":{"rt":0.02,"mph":241.62,"ft60":0.008,"et":4.231,"s1":0.008},"read":"Went away 60-330. Was 4th to the 60' before that.","qpos":11},{"driver":"Jordan Vandergriff","car":"24","lane":"L","pair":1,"win":true,"opp":null,"rt":0.084,"mph660":83.83,"mph":78.5,"ft60":0.894,"ft330":2.75,"ft660":5.275,"et":8.15,"red":false,"s1":0.894,"s2":1.856,"s3":2.525,"s4":2.875,"back":2.875,"gain":-5.33,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":3,"mph":9,"ft60":7,"et":9,"s1":7},"gap":{"rt":0.009,"mph":245.39,"ft60":0.022,"et":4.256,"s1":0.022},"read":"Went away 60-330. Was 7th to the 60' before that.","qpos":3},{"driver":"Spencer Hyde","car":"9","lane":"L","pair":4,"win":false,"opp":"Austin Prock","rt":0.098,"mph660":77.48,"mph":59.82,"ft60":0.902,"ft330":2.84,"ft660":5.525,"et":8.988,"red":false,"s1":0.902,"s2":1.938,"s3":2.685,"s4":3.463,"back":3.463,"gain":-17.66,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":8,"mph":10,"ft60":9,"et":10,"s1":9},"gap":{"rt":0.023,"mph":264.07,"ft60":0.03,"et":5.094,"s1":0.03},"read":"Went away 60-330. Was 9th to the 60' before that.","qpos":9},{"driver":"Matt Hagan","car":"14","lane":"R","pair":6,"win":false,"opp":"Jack Beckman","rt":0.086,"mph660":63.9,"mph":51.43,"ft60":1.451,"ft330":5.579,"ft660":9.326,"et":13.416,"red":false,"s1":1.451,"s2":4.128,"s3":3.747,"s4":4.09,"back":4.09,"gain":-12.47,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":4,"mph":12,"et":11},"gap":{"rt":0.011,"mph":272.46,"et":9.522},"read":"Went away 0-60.","qpos":4},{"driver":"Daniel Wilkerson","car":"5","lane":"L","pair":3,"win":false,"opp":"Dave Richards","rt":0.104,"mph660":60.51,"mph":59.66,"ft60":1.666,"ft330":6.417,"ft660":10.61,"et":14.335,"red":false,"s1":1.666,"s2":4.751,"s3":4.193,"s4":3.725,"back":3.725,"gain":-0.85,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":10,"mph":11,"et":12},"gap":{"rt":0.029,"mph":264.23,"et":10.441},"read":"Went away 0-60.","qpos":14}]},{"round":"E1","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e1","weather":{"air":"66","humidity":"54","baro":"30.13","altitude":"835","track":"97"},"low_et":3.925,"best":{"rt":0.049,"mph660":283.25,"mph":334.32,"back":0.734,"gain":51.77,"ft60":0.878,"ft330":2.258,"ft660":3.177,"et":3.925,"s1":0.878,"s2":1.371,"s3":0.919,"s4":0.734},"order":{"rt":[{"driver":"Spencer Hyde","v":0.049,"gap":0.0},{"driver":"JR Todd","v":0.068,"gap":0.019},{"driver":"Daniel Wilkerson","v":0.069,"gap":0.02},{"driver":"Jordan Vandergriff","v":0.076,"gap":0.027},{"driver":"Ron Capps","v":0.077,"gap":0.028},{"driver":"Austin Prock","v":0.078,"gap":0.029},{"driver":"Jeff Arend","v":0.079,"gap":0.03},{"driver":"Matt Hagan","v":0.079,"gap":0.03},{"driver":"Chad Green","v":0.089,"gap":0.04},{"driver":"Jack Beckman","v":0.089,"gap":0.04},{"driver":"Hunter Green","v":0.092,"gap":0.043},{"driver":"Alexis DeJoria","v":0.095,"gap":0.046},{"driver":"Cruz Pedregon","v":0.097,"gap":0.048},{"driver":"Dave Richards","v":0.118,"gap":0.069}],"mph660":[{"driver":"JR Todd","v":283.25,"gap":0.0},{"driver":"Chad Green","v":280.78,"gap":2.47},{"driver":"Jordan Vandergriff","v":279.5,"gap":3.75},{"driver":"Alexis DeJoria","v":279.38,"gap":3.87},{"driver":"Matt Hagan","v":276.29,"gap":6.96},{"driver":"Spencer Hyde","v":275.17,"gap":8.08},{"driver":"Hunter Green","v":273.77,"gap":9.48},{"driver":"Daniel Wilkerson","v":273.44,"gap":9.81},{"driver":"Austin Prock","v":269.03,"gap":14.22},{"driver":"Jeff Arend","v":265.06,"gap":18.19},{"driver":"Cruz Pedregon","v":260.46,"gap":22.79}],"mph":[{"driver":"JR Todd","v":334.32,"gap":0.0},{"driver":"Jordan Vandergriff","v":330.63,"gap":3.69},{"driver":"Matt Hagan","v":328.06,"gap":6.26},{"driver":"Chad Green","v":326.95,"gap":7.37},{"driver":"Alexis DeJoria","v":325.61,"gap":8.71},{"driver":"Spencer Hyde","v":322.81,"gap":11.51},{"driver":"Hunter Green","v":321.65,"gap":12.67},{"driver":"Austin Prock","v":319.82,"gap":14.5},{"driver":"Jeff Arend","v":309.77,"gap":24.55},{"driver":"Daniel Wilkerson","v":303.3,"gap":31.02},{"driver":"Cruz Pedregon","v":237.8,"gap":96.52},{"driver":"Jack Beckman","v":183.24,"gap":151.08},{"driver":"Dave Richards","v":109.15,"gap":225.17},{"driver":"Ron Capps","v":35.73,"gap":298.59}],"back":[{"driver":"JR Todd","v":0.734,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.743,"gap":0.009},{"driver":"Alexis DeJoria","v":0.747,"gap":0.013},{"driver":"Chad Green","v":0.748,"gap":0.014},{"driver":"Matt Hagan","v":0.75,"gap":0.016},{"driver":"Spencer Hyde","v":0.756,"gap":0.022},{"driver":"Hunter Green","v":0.761,"gap":0.027},{"driver":"Austin Prock","v":0.77,"gap":0.036},{"driver":"Daniel Wilkerson","v":0.776,"gap":0.042},{"driver":"Jeff Arend","v":0.786,"gap":0.052}],"gain":[{"driver":"Matt Hagan","v":51.77,"gap":0.0},{"driver":"Jordan Vandergriff","v":51.13,"gap":0.64},{"driver":"JR Todd","v":51.07,"gap":0.7},{"driver":"Austin Prock","v":50.79,"gap":0.98},{"driver":"Hunter Green","v":47.88,"gap":3.89},{"driver":"Spencer Hyde","v":47.64,"gap":4.13},{"driver":"Alexis DeJoria","v":46.23,"gap":5.54},{"driver":"Chad Green","v":46.17,"gap":5.6},{"driver":"Jeff Arend","v":44.71,"gap":7.06},{"driver":"Daniel Wilkerson","v":29.86,"gap":21.91}],"ft60":[{"driver":"Matt Hagan","v":0.878,"gap":0.0},{"driver":"Chad Green","v":0.881,"gap":0.003},{"driver":"Alexis DeJoria","v":0.882,"gap":0.004},{"driver":"Jordan Vandergriff","v":0.882,"gap":0.004},{"driver":"Spencer Hyde","v":0.885,"gap":0.007},{"driver":"Cruz Pedregon","v":0.89,"gap":0.012},{"driver":"Daniel Wilkerson","v":0.89,"gap":0.012},{"driver":"JR Todd","v":0.89,"gap":0.012},{"driver":"Jack Beckman","v":0.892,"gap":0.014},{"driver":"Hunter Green","v":0.9,"gap":0.022},{"driver":"Dave Richards","v":0.902,"gap":0.024},{"driver":"Austin Prock","v":0.919,"gap":0.041},{"driver":"Jeff Arend","v":0.926,"gap":0.048}],"ft330":[{"driver":"Chad Green","v":2.258,"gap":0.0},{"driver":"Cruz Pedregon","v":2.261,"gap":0.003},{"driver":"Alexis DeJoria","v":2.272,"gap":0.014},{"driver":"Spencer Hyde","v":2.277,"gap":0.019},{"driver":"Jordan Vandergriff","v":2.278,"gap":0.02},{"driver":"Jack Beckman","v":2.282,"gap":0.024},{"driver":"JR Todd","v":2.287,"gap":0.029},{"driver":"Matt Hagan","v":2.292,"gap":0.034},{"driver":"Hunter Green","v":2.304,"gap":0.046},{"driver":"Daniel Wilkerson","v":2.32,"gap":0.062},{"driver":"Austin Prock","v":2.366,"gap":0.108},{"driver":"Jeff Arend","v":2.388,"gap":0.13}],"ft660":[{"driver":"Chad Green","v":3.177,"gap":0.0},{"driver":"Cruz Pedregon","v":3.196,"gap":0.019},{"driver":"Alexis DeJoria","v":3.199,"gap":0.022},{"driver":"Jordan Vandergriff","v":3.207,"gap":0.03},{"driver":"JR Todd","v":3.21,"gap":0.033},{"driver":"Spencer Hyde","v":3.222,"gap":0.045},{"driver":"Matt Hagan","v":3.238,"gap":0.061},{"driver":"Hunter Green","v":3.246,"gap":0.069},{"driver":"Daniel Wilkerson","v":3.271,"gap":0.094},{"driver":"Austin Prock","v":3.331,"gap":0.154},{"driver":"Jeff Arend","v":3.368,"gap":0.191}],"et":[{"driver":"Chad Green","v":3.925,"gap":0.0},{"driver":"JR Todd","v":3.944,"gap":0.019},{"driver":"Alexis DeJoria","v":3.946,"gap":0.021},{"driver":"Jordan Vandergriff","v":3.95,"gap":0.025},{"driver":"Spencer Hyde","v":3.978,"gap":0.053},{"driver":"Matt Hagan","v":3.988,"gap":0.063},{"driver":"Hunter Green","v":4.007,"gap":0.082},{"driver":"Daniel Wilkerson","v":4.047,"gap":0.122},{"driver":"Austin Prock","v":4.101,"gap":0.176},{"driver":"Cruz Pedregon","v":4.135,"gap":0.21},{"driver":"Jeff Arend","v":4.154,"gap":0.229},{"driver":"Jack Beckman","v":4.598,"gap":0.673},{"driver":"Dave Richards","v":6.47,"gap":2.545},{"driver":"Ron Capps","v":16.631,"gap":12.706}],"s1":[{"driver":"Matt Hagan","v":0.878,"gap":0.0},{"driver":"Chad Green","v":0.881,"gap":0.003},{"driver":"Alexis DeJoria","v":0.882,"gap":0.004},{"driver":"Jordan Vandergriff","v":0.882,"gap":0.004},{"driver":"Spencer Hyde","v":0.885,"gap":0.007},{"driver":"Cruz Pedregon","v":0.89,"gap":0.012},{"driver":"Daniel Wilkerson","v":0.89,"gap":0.012},{"driver":"JR Todd","v":0.89,"gap":0.012},{"driver":"Jack Beckman","v":0.892,"gap":0.014},{"driver":"Hunter Green","v":0.9,"gap":0.022},{"driver":"Dave Richards","v":0.902,"gap":0.024},{"driver":"Austin Prock","v":0.919,"gap":0.041},{"driver":"Jeff Arend","v":0.926,"gap":0.048}],"s2":[{"driver":"Cruz Pedregon","v":1.371,"gap":0.0},{"driver":"Chad Green","v":1.377,"gap":0.006},{"driver":"Alexis DeJoria","v":1.39,"gap":0.019},{"driver":"Jack Beckman","v":1.39,"gap":0.019},{"driver":"Spencer Hyde","v":1.392,"gap":0.021},{"driver":"Jordan Vandergriff","v":1.396,"gap":0.025},{"driver":"JR Todd","v":1.397,"gap":0.026},{"driver":"Hunter Green","v":1.404,"gap":0.033},{"driver":"Matt Hagan","v":1.414,"gap":0.043},{"driver":"Daniel Wilkerson","v":1.43,"gap":0.059},{"driver":"Austin Prock","v":1.447,"gap":0.076},{"driver":"Jeff Arend","v":1.462,"gap":0.091}],"s3":[{"driver":"Chad Green","v":0.919,"gap":0.0},{"driver":"JR Todd","v":0.923,"gap":0.004},{"driver":"Alexis DeJoria","v":0.927,"gap":0.008},{"driver":"Jordan Vandergriff","v":0.929,"gap":0.01},{"driver":"Cruz Pedregon","v":0.935,"gap":0.016},{"driver":"Hunter Green","v":0.942,"gap":0.023},{"driver":"Spencer Hyde","v":0.945,"gap":0.026},{"driver":"Matt Hagan","v":0.946,"gap":0.027},{"driver":"Daniel Wilkerson","v":0.951,"gap":0.032},{"driver":"Austin Prock","v":0.965,"gap":0.046},{"driver":"Jeff Arend","v":0.98,"gap":0.061}],"s4":[{"driver":"JR Todd","v":0.734,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.743,"gap":0.009},{"driver":"Alexis DeJoria","v":0.747,"gap":0.013},{"driver":"Chad Green","v":0.748,"gap":0.014},{"driver":"Matt Hagan","v":0.75,"gap":0.016},{"driver":"Spencer Hyde","v":0.756,"gap":0.022},{"driver":"Hunter Green","v":0.761,"gap":0.027},{"driver":"Austin Prock","v":0.77,"gap":0.036},{"driver":"Daniel Wilkerson","v":0.776,"gap":0.042},{"driver":"Jeff Arend","v":0.786,"gap":0.052}]},"clean_count":10,"runs":[{"driver":"Chad Green","car":"7","lane":"R","pair":1,"win":true,"opp":"Ron Capps","rt":0.089,"mph660":280.78,"mph":326.95,"ft60":0.881,"ft330":2.258,"ft660":3.177,"et":3.925,"red":false,"s1":0.881,"s2":1.377,"s3":0.919,"s4":0.748,"back":0.748,"gain":46.17,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":9,"mph660":2,"mph":4,"back":4,"gain":8,"ft60":2,"ft330":1,"ft660":1,"et":1,"s1":2,"s2":2,"s3":1,"s4":4},"gap":{"rt":0.04,"mph660":2.47,"mph":7.37,"back":0.014,"gain":5.6,"ft60":0.003,"ft330":0.0,"ft660":0.0,"et":0.0,"s1":0.003,"s2":0.006,"s3":0.0,"s4":0.014},"read":"Low ET of the round. Quickest in the field 330-660. Gave up the most 660-1000, +.014 off the quickest."},{"driver":"JR Todd","car":"373","lane":"R","pair":4,"win":true,"opp":"Daniel Wilkerson","rt":0.068,"mph660":283.25,"mph":334.32,"ft60":0.89,"ft330":2.287,"ft660":3.21,"et":3.944,"red":false,"s1":0.89,"s2":1.397,"s3":0.923,"s4":0.734,"back":0.734,"gain":51.07,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":2,"mph660":1,"mph":1,"back":1,"gain":3,"ft60":8,"ft330":7,"ft660":5,"et":2,"s1":8,"s2":7,"s3":2,"s4":1},"gap":{"rt":0.019,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.7,"ft60":0.012,"ft330":0.029,"ft660":0.033,"et":0.019,"s1":0.012,"s2":0.026,"s3":0.004,"s4":0.0},"read":"Quickest in the field 660-1000. Gave up the most 60-330, +.026 off the quickest."},{"driver":"Alexis DeJoria","car":"771","lane":"L","pair":2,"win":true,"opp":"Cruz Pedregon","rt":0.095,"mph660":279.38,"mph":325.61,"ft60":0.882,"ft330":2.272,"ft660":3.199,"et":3.946,"red":false,"s1":0.882,"s2":1.39,"s3":0.927,"s4":0.747,"back":0.747,"gain":46.23,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":12,"mph660":4,"mph":5,"back":3,"gain":7,"ft60":3,"ft330":3,"ft660":3,"et":3,"s1":3,"s2":3,"s3":3,"s4":3},"gap":{"rt":0.046,"mph660":3.87,"mph":8.71,"back":0.013,"gain":5.54,"ft60":0.004,"ft330":0.014,"ft660":0.022,"et":0.021,"s1":0.004,"s2":0.019,"s3":0.008,"s4":0.013},"read":"Gave up the most 60-330, +.019 off the quickest."},{"driver":"Jordan Vandergriff","car":"24","lane":"R","pair":3,"win":true,"opp":"Jeff Arend","rt":0.076,"mph660":279.5,"mph":330.63,"ft60":0.882,"ft330":2.278,"ft660":3.207,"et":3.95,"red":false,"s1":0.882,"s2":1.396,"s3":0.929,"s4":0.743,"back":0.743,"gain":51.13,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":4,"mph660":3,"mph":2,"back":2,"gain":2,"ft60":4,"ft330":5,"ft660":4,"et":4,"s1":4,"s2":6,"s3":4,"s4":2},"gap":{"rt":0.027,"mph660":3.75,"mph":3.69,"back":0.009,"gain":0.64,"ft60":0.004,"ft330":0.02,"ft660":0.03,"et":0.025,"s1":0.004,"s2":0.025,"s3":0.01,"s4":0.009},"read":"Gave up the most 60-330, +.025 off the quickest."},{"driver":"Spencer Hyde","car":"9","lane":"L","pair":6,"win":true,"opp":"Austin Prock","rt":0.049,"mph660":275.17,"mph":322.81,"ft60":0.885,"ft330":2.277,"ft660":3.222,"et":3.978,"red":false,"s1":0.885,"s2":1.392,"s3":0.945,"s4":0.756,"back":0.756,"gain":47.64,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":1,"mph660":6,"mph":6,"back":6,"gain":6,"ft60":5,"ft330":4,"ft660":6,"et":5,"s1":5,"s2":5,"s3":7,"s4":6},"gap":{"rt":0.0,"mph660":8.08,"mph":11.51,"back":0.022,"gain":4.13,"ft60":0.007,"ft330":0.019,"ft660":0.045,"et":0.053,"s1":0.007,"s2":0.021,"s3":0.026,"s4":0.022},"read":"Gave up the most 330-660, +.026 off the quickest."},{"driver":"Matt Hagan","car":"14","lane":"R","pair":5,"win":true,"opp":"Jack Beckman","rt":0.079,"mph660":276.29,"mph":328.06,"ft60":0.878,"ft330":2.292,"ft660":3.238,"et":3.988,"red":false,"s1":0.878,"s2":1.414,"s3":0.946,"s4":0.75,"back":0.75,"gain":51.77,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":8,"mph660":5,"mph":3,"back":5,"gain":1,"ft60":1,"ft330":8,"ft660":7,"et":6,"s1":1,"s2":9,"s3":8,"s4":5},"gap":{"rt":0.03,"mph660":6.96,"mph":6.26,"back":0.016,"gain":0.0,"ft60":0.0,"ft330":0.034,"ft660":0.061,"et":0.063,"s1":0.0,"s2":0.043,"s3":0.027,"s4":0.016},"read":"Quickest in the field 0-60. Gave up the most 60-330, +.043 off the quickest."},{"driver":"Hunter Green","car":"4494","lane":"R","pair":7,"win":true,"opp":"Dave Richards","rt":0.092,"mph660":273.77,"mph":321.65,"ft60":0.9,"ft330":2.304,"ft660":3.246,"et":4.007,"red":false,"s1":0.9,"s2":1.404,"s3":0.942,"s4":0.761,"back":0.761,"gain":47.88,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":11,"mph660":7,"mph":7,"back":7,"gain":5,"ft60":10,"ft330":9,"ft660":8,"et":7,"s1":10,"s2":8,"s3":6,"s4":7},"gap":{"rt":0.043,"mph660":9.48,"mph":12.67,"back":0.027,"gain":3.89,"ft60":0.022,"ft330":0.046,"ft660":0.069,"et":0.082,"s1":0.022,"s2":0.033,"s3":0.023,"s4":0.027},"read":"Gave up the most 60-330, +.033 off the quickest."},{"driver":"Daniel Wilkerson","car":"5","lane":"L","pair":4,"win":false,"opp":"JR Todd","rt":0.069,"mph660":273.44,"mph":303.3,"ft60":0.89,"ft330":2.32,"ft660":3.271,"et":4.047,"red":false,"s1":0.89,"s2":1.43,"s3":0.951,"s4":0.776,"back":0.776,"gain":29.86,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":3,"mph660":8,"mph":10,"back":9,"gain":10,"ft60":7,"ft330":10,"ft660":9,"et":8,"s1":7,"s2":10,"s3":9,"s4":9},"gap":{"rt":0.02,"mph660":9.81,"mph":31.02,"back":0.042,"gain":21.91,"ft60":0.012,"ft330":0.062,"ft660":0.094,"et":0.122,"s1":0.012,"s2":0.059,"s3":0.032,"s4":0.042},"read":"Gave up the most 60-330, +.059 off the quickest."},{"driver":"Austin Prock","car":"1","lane":"R","pair":6,"win":false,"opp":"Spencer Hyde","rt":0.078,"mph660":269.03,"mph":319.82,"ft60":0.919,"ft330":2.366,"ft660":3.331,"et":4.101,"red":false,"s1":0.919,"s2":1.447,"s3":0.965,"s4":0.77,"back":0.77,"gain":50.79,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":6,"mph660":9,"mph":8,"back":8,"gain":4,"ft60":12,"ft330":11,"ft660":10,"et":9,"s1":12,"s2":11,"s3":10,"s4":8},"gap":{"rt":0.029,"mph660":14.22,"mph":14.5,"back":0.036,"gain":0.98,"ft60":0.041,"ft330":0.108,"ft660":0.154,"et":0.176,"s1":0.041,"s2":0.076,"s3":0.046,"s4":0.036},"read":"Gave up the most 60-330, +.076 off the quickest."},{"driver":"Cruz Pedregon","car":"71","lane":"R","pair":2,"win":false,"opp":"Alexis DeJoria","rt":0.097,"mph660":260.46,"mph":237.8,"ft60":0.89,"ft330":2.261,"ft660":3.196,"et":4.135,"red":false,"s1":0.89,"s2":1.371,"s3":0.935,"s4":0.939,"back":0.939,"gain":-22.66,"off_at":"s4","clean":false,"valid":["ft330","ft60","ft660","mph660","rt","s1","s2","s3"],"rank":{"rt":13,"mph660":11,"mph":11,"ft60":6,"ft330":2,"ft660":2,"et":10,"s1":6,"s2":1,"s3":5},"gap":{"rt":0.048,"mph660":22.79,"mph":96.52,"ft60":0.012,"ft330":0.003,"ft660":0.019,"et":0.21,"s1":0.012,"s2":0.0,"s3":0.016},"read":"Went away 660-1000. Was 2nd to the 660' before that."},{"driver":"Jeff Arend","car":"170","lane":"L","pair":3,"win":false,"opp":"Jordan Vandergriff","rt":0.079,"mph660":265.06,"mph":309.77,"ft60":0.926,"ft330":2.388,"ft660":3.368,"et":4.154,"red":false,"s1":0.926,"s2":1.462,"s3":0.98,"s4":0.786,"back":0.786,"gain":44.71,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":7,"mph660":10,"mph":9,"back":10,"gain":9,"ft60":13,"ft330":12,"ft660":11,"et":11,"s1":13,"s2":12,"s3":11,"s4":10},"gap":{"rt":0.03,"mph660":18.19,"mph":24.55,"back":0.052,"gain":7.06,"ft60":0.048,"ft330":0.13,"ft660":0.191,"et":0.229,"s1":0.048,"s2":0.091,"s3":0.061,"s4":0.052},"read":"Gave up the most 60-330, +.091 off the quickest."},{"driver":"Jack Beckman","car":"3","lane":"L","pair":5,"win":false,"opp":"Matt Hagan","rt":0.089,"mph660":204.54,"mph":183.24,"ft60":0.892,"ft330":2.282,"ft660":3.39,"et":4.598,"red":false,"s1":0.892,"s2":1.39,"s3":1.108,"s4":1.208,"back":1.208,"gain":-21.3,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":10,"mph":12,"ft60":9,"ft330":6,"et":12,"s1":9,"s2":4},"gap":{"rt":0.04,"mph":151.08,"ft60":0.014,"ft330":0.024,"et":0.673,"s1":0.014,"s2":0.019},"read":"Went away 330-660. Was 6th to the 330' before that."},{"driver":"Dave Richards","car":"139","lane":"L","pair":7,"win":false,"opp":"Hunter Green","rt":0.118,"mph660":119.4,"mph":109.15,"ft60":0.902,"ft330":2.563,"ft660":4.448,"et":6.47,"red":false,"s1":0.902,"s2":1.661,"s3":1.885,"s4":2.022,"back":2.022,"gain":-10.25,"off_at":"s2","clean":false,"valid":["ft60","rt","s1"],"rank":{"rt":14,"mph":13,"ft60":11,"et":13,"s1":11},"gap":{"rt":0.069,"mph":225.17,"ft60":0.024,"et":2.545,"s1":0.024},"read":"Went away 60-330. Was 11th to the 60' before that."},{"driver":"Ron Capps","car":"28","lane":"L","pair":1,"win":false,"opp":"Chad Green","rt":0.077,"mph660":45.25,"mph":35.73,"ft60":1.539,"ft330":6.077,"ft660":10.733,"et":16.631,"red":false,"s1":1.539,"s2":4.538,"s3":4.656,"s4":5.898,"back":5.898,"gain":-9.52,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":5,"mph":14,"et":14},"gap":{"rt":0.028,"mph":298.59,"et":12.706},"read":"Went away 0-60."}]},{"round":"E2","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e2","weather":{"air":"71","humidity":"38","baro":"30.10","altitude":"1132","track":"115"},"low_et":3.956,"best":{"rt":0.072,"mph660":279.67,"mph":335.07,"back":0.739,"gain":55.8,"ft60":0.885,"ft330":2.287,"ft660":3.216,"et":3.956,"s1":0.885,"s2":1.402,"s3":0.929,"s4":0.739},"order":{"rt":[{"driver":"Hunter Green","v":0.072,"gap":0.0},{"driver":"Matt Hagan","v":0.074,"gap":0.002},{"driver":"Spencer Hyde","v":0.08,"gap":0.008},{"driver":"Alexis DeJoria","v":0.08,"gap":0.008},{"driver":"Jordan Vandergriff","v":0.083,"gap":0.011},{"driver":"Chad Green","v":0.087,"gap":0.015},{"driver":"JR Todd","v":0.089,"gap":0.017}],"mph660":[{"driver":"Jordan Vandergriff","v":279.67,"gap":0.0},{"driver":"JR Todd","v":279.27,"gap":0.4},{"driver":"Alexis DeJoria","v":275.06,"gap":4.61},{"driver":"Hunter Green","v":268.6,"gap":11.07}],"mph":[{"driver":"JR Todd","v":335.07,"gap":0.0},{"driver":"Jordan Vandergriff","v":332.34,"gap":2.73},{"driver":"Alexis DeJoria","v":314.68,"gap":20.39},{"driver":"Hunter Green","v":310.13,"gap":24.94},{"driver":"Chad Green","v":184.77,"gap":150.3},{"driver":"Matt Hagan","v":83.83,"gap":251.24},{"driver":"Spencer Hyde","v":63.76,"gap":271.31}],"back":[{"driver":"JR Todd","v":0.739,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.74,"gap":0.001},{"driver":"Alexis DeJoria","v":0.761,"gap":0.022},{"driver":"Hunter Green","v":0.784,"gap":0.045}],"gain":[{"driver":"JR Todd","v":55.8,"gap":0.0},{"driver":"Jordan Vandergriff","v":52.67,"gap":3.13},{"driver":"Hunter Green","v":41.53,"gap":14.27},{"driver":"Alexis DeJoria","v":39.62,"gap":16.18}],"ft60":[{"driver":"Jordan Vandergriff","v":0.885,"gap":0.0},{"driver":"Chad Green","v":0.887,"gap":0.002},{"driver":"Alexis DeJoria","v":0.894,"gap":0.009},{"driver":"JR Todd","v":0.894,"gap":0.009},{"driver":"Hunter Green","v":0.904,"gap":0.019}],"ft330":[{"driver":"Jordan Vandergriff","v":2.287,"gap":0.0},{"driver":"Chad Green","v":2.294,"gap":0.007},{"driver":"JR Todd","v":2.297,"gap":0.01},{"driver":"Alexis DeJoria","v":2.31,"gap":0.023},{"driver":"Hunter Green","v":2.332,"gap":0.045}],"ft660":[{"driver":"Jordan Vandergriff","v":3.216,"gap":0.0},{"driver":"JR Todd","v":3.233,"gap":0.017},{"driver":"Alexis DeJoria","v":3.255,"gap":0.039},{"driver":"Hunter Green","v":3.292,"gap":0.076}],"et":[{"driver":"Jordan Vandergriff","v":3.956,"gap":0.0},{"driver":"JR Todd","v":3.972,"gap":0.016},{"driver":"Alexis DeJoria","v":4.016,"gap":0.06},{"driver":"Hunter Green","v":4.076,"gap":0.12},{"driver":"Chad Green","v":4.595,"gap":0.639},{"driver":"Matt Hagan","v":10.211,"gap":6.255},{"driver":"Spencer Hyde","v":12.015,"gap":8.059}],"s1":[{"driver":"Jordan Vandergriff","v":0.885,"gap":0.0},{"driver":"Chad Green","v":0.887,"gap":0.002},{"driver":"Alexis DeJoria","v":0.894,"gap":0.009},{"driver":"JR Todd","v":0.894,"gap":0.009},{"driver":"Hunter Green","v":0.904,"gap":0.019}],"s2":[{"driver":"Jordan Vandergriff","v":1.402,"gap":0.0},{"driver":"JR Todd","v":1.403,"gap":0.001},{"driver":"Chad Green","v":1.407,"gap":0.005},{"driver":"Alexis DeJoria","v":1.416,"gap":0.014},{"driver":"Hunter Green","v":1.428,"gap":0.026}],"s3":[{"driver":"Jordan Vandergriff","v":0.929,"gap":0.0},{"driver":"JR Todd","v":0.936,"gap":0.007},{"driver":"Alexis DeJoria","v":0.945,"gap":0.016},{"driver":"Hunter Green","v":0.96,"gap":0.031}],"s4":[{"driver":"JR Todd","v":0.739,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.74,"gap":0.001},{"driver":"Alexis DeJoria","v":0.761,"gap":0.022},{"driver":"Hunter Green","v":0.784,"gap":0.045}]},"clean_count":4,"runs":[{"driver":"Jordan Vandergriff","car":"24","lane":"R","pair":2,"win":true,"opp":"Spencer Hyde","rt":0.083,"mph660":279.67,"mph":332.34,"ft60":0.885,"ft330":2.287,"ft660":3.216,"et":3.956,"red":false,"s1":0.885,"s2":1.402,"s3":0.929,"s4":0.74,"back":0.74,"gain":52.67,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":5,"mph660":1,"mph":2,"back":2,"gain":2,"ft60":1,"ft330":1,"ft660":1,"et":1,"s1":1,"s2":1,"s3":1,"s4":2},"gap":{"rt":0.011,"mph660":0.0,"mph":2.73,"back":0.001,"gain":3.13,"ft60":0.0,"ft330":0.0,"ft660":0.0,"et":0.0,"s1":0.0,"s2":0.0,"s3":0.0,"s4":0.001},"read":"Low ET of the round. Quickest in the field 0-60, 60-330, 330-660. Gave up the most 660-1000, +.001 off the quickest."},{"driver":"JR Todd","car":"373","lane":"R","pair":4,"win":true,"opp":null,"rt":0.089,"mph660":279.27,"mph":335.07,"ft60":0.894,"ft330":2.297,"ft660":3.233,"et":3.972,"red":false,"s1":0.894,"s2":1.403,"s3":0.936,"s4":0.739,"back":0.739,"gain":55.8,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":7,"mph660":2,"mph":1,"back":1,"gain":1,"ft60":4,"ft330":3,"ft660":2,"et":2,"s1":4,"s2":2,"s3":2,"s4":1},"gap":{"rt":0.017,"mph660":0.4,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.009,"ft330":0.01,"ft660":0.017,"et":0.016,"s1":0.009,"s2":0.001,"s3":0.007,"s4":0.0},"read":"Quickest in the field 660-1000. Gave up the most 0-60, +.009 off the quickest."},{"driver":"Alexis DeJoria","car":"771","lane":"R","pair":3,"win":true,"opp":"Matt Hagan","rt":0.08,"mph660":275.06,"mph":314.68,"ft60":0.894,"ft330":2.31,"ft660":3.255,"et":4.016,"red":false,"s1":0.894,"s2":1.416,"s3":0.945,"s4":0.761,"back":0.761,"gain":39.62,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":4,"mph660":3,"mph":3,"back":3,"gain":4,"ft60":3,"ft330":4,"ft660":3,"et":3,"s1":3,"s2":4,"s3":3,"s4":3},"gap":{"rt":0.008,"mph660":4.61,"mph":20.39,"back":0.022,"gain":16.18,"ft60":0.009,"ft330":0.023,"ft660":0.039,"et":0.06,"s1":0.009,"s2":0.014,"s3":0.016,"s4":0.022},"read":"Gave up the most 660-1000, +.022 off the quickest."},{"driver":"Hunter Green","car":"4494","lane":"L","pair":1,"win":true,"opp":"Chad Green","rt":0.072,"mph660":268.6,"mph":310.13,"ft60":0.904,"ft330":2.332,"ft660":3.292,"et":4.076,"red":false,"s1":0.904,"s2":1.428,"s3":0.96,"s4":0.784,"back":0.784,"gain":41.53,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":1,"mph660":4,"mph":4,"back":4,"gain":3,"ft60":5,"ft330":5,"ft660":4,"et":4,"s1":5,"s2":5,"s3":4,"s4":4},"gap":{"rt":0.0,"mph660":11.07,"mph":24.94,"back":0.045,"gain":14.27,"ft60":0.019,"ft330":0.045,"ft660":0.076,"et":0.12,"s1":0.019,"s2":0.026,"s3":0.031,"s4":0.045},"read":"Gave up the most 660-1000, +.045 off the quickest."},{"driver":"Chad Green","car":"7","lane":"R","pair":1,"win":false,"opp":"Hunter Green","rt":0.087,"mph660":204.54,"mph":184.77,"ft60":0.887,"ft330":2.294,"ft660":3.387,"et":4.595,"red":false,"s1":0.887,"s2":1.407,"s3":1.093,"s4":1.208,"back":1.208,"gain":-19.77,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":6,"mph":5,"ft60":2,"ft330":2,"et":5,"s1":2,"s2":3},"gap":{"rt":0.015,"mph":150.3,"ft60":0.002,"ft330":0.007,"et":0.639,"s1":0.002,"s2":0.005},"read":"Went away 330-660. Was 2nd to the 330' before that."},{"driver":"Matt Hagan","car":"14","lane":"L","pair":3,"win":false,"opp":"Alexis DeJoria","rt":0.074,"mph660":79.85,"mph":83.83,"ft60":1.391,"ft330":4.522,"ft660":7.422,"et":10.211,"red":false,"s1":1.391,"s2":3.131,"s3":2.9,"s4":2.789,"back":2.789,"gain":3.98,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":2,"mph":6,"et":6},"gap":{"rt":0.002,"mph":251.24,"et":6.255},"read":"Went away 0-60."},{"driver":"Spencer Hyde","car":"9","lane":"L","pair":2,"win":false,"opp":"Jordan Vandergriff","rt":0.08,"mph660":67.27,"mph":63.76,"ft60":1.225,"ft330":4.971,"ft660":8.634,"et":12.015,"red":false,"s1":1.225,"s2":3.746,"s3":3.663,"s4":3.381,"back":3.381,"gain":-3.51,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":3,"mph":7,"et":7},"gap":{"rt":0.008,"mph":271.31,"et":8.059},"read":"Went away 0-60."}]},{"round":"E3","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e3","weather":{"air":"73","humidity":"35","baro":"30.07","altitude":"1292","track":"121"},"low_et":3.964,"best":{"rt":0.075,"mph660":279.67,"mph":331.36,"back":0.74,"gain":51.69,"ft60":0.896,"ft330":2.295,"ft660":3.224,"et":3.964,"s1":0.896,"s2":1.399,"s3":0.929,"s4":0.74},"order":{"rt":[{"driver":"JR Todd","v":0.075,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.09,"gap":0.015},{"driver":"Hunter Green","v":0.123,"gap":0.048},{"driver":"Alexis DeJoria","v":0.131,"gap":0.056}],"mph660":[{"driver":"Jordan Vandergriff","v":279.67,"gap":0.0},{"driver":"Hunter Green","v":263.92,"gap":15.75}],"mph":[{"driver":"Jordan Vandergriff","v":331.36,"gap":0.0},{"driver":"Hunter Green","v":306.53,"gap":24.83},{"driver":"JR Todd","v":245.67,"gap":85.69},{"driver":"Alexis DeJoria","v":104.28,"gap":227.08}],"back":[{"driver":"Jordan Vandergriff","v":0.74,"gap":0.0},{"driver":"Hunter Green","v":0.797,"gap":0.057}],"gain":[{"driver":"Jordan Vandergriff","v":51.69,"gap":0.0},{"driver":"Hunter Green","v":42.61,"gap":9.08}],"ft60":[{"driver":"Jordan Vandergriff","v":0.896,"gap":0.0},{"driver":"Hunter Green","v":0.923,"gap":0.027}],"ft330":[{"driver":"Jordan Vandergriff","v":2.295,"gap":0.0},{"driver":"Hunter Green","v":2.376,"gap":0.081}],"ft660":[{"driver":"Jordan Vandergriff","v":3.224,"gap":0.0},{"driver":"Hunter Green","v":3.354,"gap":0.13}],"et":[{"driver":"Jordan Vandergriff","v":3.964,"gap":0.0},{"driver":"Hunter Green","v":4.151,"gap":0.187},{"driver":"JR Todd","v":6.188,"gap":2.224},{"driver":"Alexis DeJoria","v":7.878,"gap":3.914}],"s1":[{"driver":"Jordan Vandergriff","v":0.896,"gap":0.0},{"driver":"Hunter Green","v":0.923,"gap":0.027}],"s2":[{"driver":"Jordan Vandergriff","v":1.399,"gap":0.0},{"driver":"Hunter Green","v":1.453,"gap":0.054}],"s3":[{"driver":"Jordan Vandergriff","v":0.929,"gap":0.0},{"driver":"Hunter Green","v":0.978,"gap":0.049}],"s4":[{"driver":"Jordan Vandergriff","v":0.74,"gap":0.0},{"driver":"Hunter Green","v":0.797,"gap":0.057}]},"clean_count":2,"runs":[{"driver":"Jordan Vandergriff","car":"24","lane":"R","pair":2,"win":true,"opp":"Hunter Green","rt":0.09,"mph660":279.67,"mph":331.36,"ft60":0.896,"ft330":2.295,"ft660":3.224,"et":3.964,"red":false,"s1":0.896,"s2":1.399,"s3":0.929,"s4":0.74,"back":0.74,"gain":51.69,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":2,"mph660":1,"mph":1,"back":1,"gain":1,"ft60":1,"ft330":1,"ft660":1,"et":1,"s1":1,"s2":1,"s3":1,"s4":1},"gap":{"rt":0.015,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.0,"ft330":0.0,"ft660":0.0,"et":0.0,"s1":0.0,"s2":0.0,"s3":0.0,"s4":0.0},"read":"Low ET of the round. Quickest in the field 0-60, 60-330, 330-660, 660-1000."},{"driver":"Hunter Green","car":"4494","lane":"L","pair":2,"win":false,"opp":"Jordan Vandergriff","rt":0.123,"mph660":263.92,"mph":306.53,"ft60":0.923,"ft330":2.376,"ft660":3.354,"et":4.151,"red":false,"s1":0.923,"s2":1.453,"s3":0.978,"s4":0.797,"back":0.797,"gain":42.61,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":3,"mph660":2,"mph":2,"back":2,"gain":2,"ft60":2,"ft330":2,"ft660":2,"et":2,"s1":2,"s2":2,"s3":2,"s4":2},"gap":{"rt":0.048,"mph660":15.75,"mph":24.83,"back":0.057,"gain":9.08,"ft60":0.027,"ft330":0.081,"ft660":0.13,"et":0.187,"s1":0.027,"s2":0.054,"s3":0.049,"s4":0.057},"read":"Gave up the most 660-1000, +.057 off the quickest."},{"driver":"JR Todd","car":"373","lane":"R","pair":1,"win":true,"opp":"Alexis DeJoria","rt":0.075,"mph660":192.38,"mph":245.67,"ft60":1.243,"ft330":3.781,"ft660":5.158,"et":6.188,"red":false,"s1":1.243,"s2":2.538,"s3":1.377,"s4":1.03,"back":1.03,"gain":53.29,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":1,"mph":3,"et":3},"gap":{"rt":0.0,"mph":85.69,"et":2.224},"read":"Went away 0-60."},{"driver":"Alexis DeJoria","car":"771","lane":"L","pair":1,"win":false,"opp":"JR Todd","rt":0.131,"mph660":123.43,"mph":104.28,"ft60":1.143,"ft330":3.815,"ft660":5.792,"et":7.878,"red":false,"s1":1.143,"s2":2.672,"s3":1.977,"s4":2.086,"back":2.086,"gain":-19.15,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":4,"mph":4,"et":4},"gap":{"rt":0.056,"mph":227.08,"et":3.914},"read":"Went away 0-60."}]},{"round":"E4","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e4","weather":{"air":"73","humidity":"35","baro":"30.06","altitude":"1310","track":"116"},"low_et":4.007,"best":{"rt":0.069,"mph660":272.12,"mph":314.17,"back":0.769,"gain":42.05,"ft60":0.89,"ft330":2.294,"ft660":3.238,"et":4.007,"s1":0.89,"s2":1.402,"s3":0.944,"s4":0.769},"order":{"rt":[{"driver":"JR Todd","v":0.069,"gap":0.0},{"driver":"Jordan Vandergriff","v":0.078,"gap":0.009}],"mph660":[{"driver":"Jordan Vandergriff","v":272.12,"gap":0.0}],"mph":[{"driver":"Jordan Vandergriff","v":314.17,"gap":0.0},{"driver":"JR Todd","v":169.89,"gap":144.28}],"back":[{"driver":"Jordan Vandergriff","v":0.769,"gap":0.0}],"gain":[{"driver":"Jordan Vandergriff","v":42.05,"gap":0.0}],"ft60":[{"driver":"Jordan Vandergriff","v":0.89,"gap":0.0},{"driver":"JR Todd","v":0.908,"gap":0.018}],"ft330":[{"driver":"Jordan Vandergriff","v":2.294,"gap":0.0},{"driver":"JR Todd","v":2.31,"gap":0.016}],"ft660":[{"driver":"Jordan Vandergriff","v":3.238,"gap":0.0}],"et":[{"driver":"Jordan Vandergriff","v":4.007,"gap":0.0},{"driver":"JR Todd","v":4.784,"gap":0.777}],"s1":[{"driver":"Jordan Vandergriff","v":0.89,"gap":0.0},{"driver":"JR Todd","v":0.908,"gap":0.018}],"s2":[{"driver":"JR Todd","v":1.402,"gap":0.0},{"driver":"Jordan Vandergriff","v":1.404,"gap":0.002}],"s3":[{"driver":"Jordan Vandergriff","v":0.944,"gap":0.0}],"s4":[{"driver":"Jordan Vandergriff","v":0.769,"gap":0.0}]},"clean_count":1,"runs":[{"driver":"Jordan Vandergriff","car":"24","lane":"R","pair":1,"win":true,"opp":"JR Todd","rt":0.078,"mph660":272.12,"mph":314.17,"ft60":0.89,"ft330":2.294,"ft660":3.238,"et":4.007,"red":false,"s1":0.89,"s2":1.404,"s3":0.944,"s4":0.769,"back":0.769,"gain":42.05,"off_at":null,"clean":true,"valid":["back","et","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4"],"rank":{"rt":2,"mph660":1,"mph":1,"back":1,"gain":1,"ft60":1,"ft330":1,"ft660":1,"et":1,"s1":1,"s2":2,"s3":1,"s4":1},"gap":{"rt":0.009,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.0,"ft330":0.0,"ft660":0.0,"et":0.0,"s1":0.0,"s2":0.002,"s3":0.0,"s4":0.0},"read":"Low ET of the round. Quickest in the field 0-60, 330-660, 660-1000. Gave up the most 60-330, +.002 off the quickest."},{"driver":"JR Todd","car":"373","lane":"L","pair":1,"win":false,"opp":"Jordan Vandergriff","rt":0.069,"mph660":188.6,"mph":169.89,"ft60":0.908,"ft330":2.31,"ft660":3.476,"et":4.784,"red":false,"s1":0.908,"s2":1.402,"s3":1.166,"s4":1.308,"back":1.308,"gain":-18.71,"off_at":"s3","clean":false,"valid":["ft330","ft60","rt","s1","s2"],"rank":{"rt":1,"mph":2,"ft60":2,"ft330":2,"et":2,"s1":2,"s2":1},"gap":{"rt":0.0,"mph":144.28,"ft60":0.018,"ft330":0.016,"et":0.777,"s1":0.018,"s2":0.0},"read":"Went away 330-660. Was 2nd to the 330' before that."}]}],"qualifying":{"Q1":[{"driver":"JR Todd","et":3.887,"mph":339.28,"round":"Q1"},{"driver":"Jordan Vandergriff","et":3.924,"mph":325.14,"round":"Q1"},{"driver":"Cruz Pedregon","et":3.948,"mph":307.16,"round":"Q1"},{"driver":"Hunter Green","et":3.958,"mph":322.65,"round":"Q1"},{"driver":"Spencer Hyde","et":3.963,"mph":322.42,"round":"Q1"},{"driver":"Jeff Arend","et":4.035,"mph":311.41,"round":"Q1"},{"driver":"Ron Capps","et":4.399,"mph":200.08,"round":"Q1"},{"driver":"Alexis DeJoria","et":4.865,"mph":159.08,"round":"Q1"},{"driver":"Chad Green","et":5.228,"mph":139.01,"round":"Q1"},{"driver":"Austin Prock","et":5.407,"mph":132.14,"round":"Q1"},{"driver":"Dave Richards","et":8.499,"mph":79.32,"round":"Q1"},{"driver":"Matt Hagan","et":9.587,"mph":79.6,"round":"Q1"},{"driver":"Daniel Wilkerson","et":10.572,"mph":84.0,"round":"Q1"},{"driver":"Jack Beckman","et":10.709,"mph":75.82,"round":"Q1"}],"Q2":[{"driver":"JR Todd","et":3.887,"mph":339.28,"round":"Q1"},{"driver":"Jordan Vandergriff","et":3.924,"mph":325.14,"round":"Q1"},{"driver":"Matt Hagan","et":3.933,"mph":328.78,"round":"Q2"},{"driver":"Chad Green","et":3.946,"mph":318.24,"round":"Q2"},{"driver":"Cruz Pedregon","et":3.948,"mph":307.16,"round":"Q1"},{"driver":"Austin Prock","et":3.956,"mph":331.94,"round":"Q2"},{"driver":"Hunter Green","et":3.958,"mph":322.65,"round":"Q1"},{"driver":"Dave Richards","et":3.959,"mph":334.57,"round":"Q2"},{"driver":"Spencer Hyde","et":3.963,"mph":322.42,"round":"Q1"},{"driver":"Alexis DeJoria","et":3.968,"mph":326.63,"round":"Q2"},{"driver":"Jack Beckman","et":3.973,"mph":326.24,"round":"Q2"},{"driver":"Jeff Arend","et":4.035,"mph":311.41,"round":"Q1"},{"driver":"Ron Capps","et":4.399,"mph":200.08,"round":"Q1"},{"driver":"Daniel Wilkerson","et":6.468,"mph":134.58,"round":"Q2"}],"Q3":[{"driver":"JR Todd","et":3.887,"mph":339.28,"round":"Q1"},{"driver":"Chad Green","et":3.894,"mph":323.89,"round":"Q3"},{"driver":"Jordan Vandergriff","et":3.924,"mph":325.14,"round":"Q1"},{"driver":"Matt Hagan","et":3.933,"mph":328.78,"round":"Q2"},{"driver":"Cruz Pedregon","et":3.948,"mph":307.16,"round":"Q1"},{"driver":"Austin Prock","et":3.956,"mph":331.94,"round":"Q2"},{"driver":"Hunter Green","et":3.958,"mph":322.65,"round":"Q1"},{"driver":"Dave Richards","et":3.959,"mph":334.57,"round":"Q2"},{"driver":"Spencer Hyde","et":3.963,"mph":322.42,"round":"Q1"},{"driver":"Alexis DeJoria","et":3.968,"mph":326.63,"round":"Q2"},{"driver":"Jack Beckman","et":3.973,"mph":326.24,"round":"Q2"},{"driver":"Jeff Arend","et":4.035,"mph":311.41,"round":"Q1"},{"driver":"Ron Capps","et":4.399,"mph":200.08,"round":"Q1"},{"driver":"Daniel Wilkerson","et":6.468,"mph":134.58,"round":"Q2"}]},"history":{"JR Todd":[{"round":"Q1","ft60":0.877,"ft330":2.244,"ft660":3.16,"et":3.887,"rt":0.089,"red":false,"mph":339.28,"mph660":284.56,"clean":true,"off_at":null,"win":true,"opp":"Chad Green","lane":"R"},{"round":"Q2","ft60":0.885,"ft330":2.276,"ft660":3.195,"et":3.93,"rt":0.09,"red":false,"mph":332.67,"mph660":285.05,"clean":true,"off_at":null,"win":true,"opp":null,"lane":"L"},{"round":"Q3","ft60":0.872,"ft330":2.245,"ft660":3.225,"et":4.261,"rt":0.089,"red":false,"mph":217.07,"mph660":236.42,"clean":false,"off_at":"s3","win":true,"opp":"Ron Capps","lane":"R"},{"round":"E1","ft60":0.89,"ft330":2.287,"ft660":3.21,"et":3.944,"rt":0.068,"red":false,"mph":334.32,"mph660":283.25,"clean":true,"off_at":null,"win":true,"opp":"Daniel Wilkerson","lane":"R"},{"round":"E2","ft60":0.894,"ft330":2.297,"ft660":3.233,"et":3.972,"rt":0.089,"red":false,"mph":335.07,"mph660":279.27,"clean":true,"off_at":null,"win":true,"opp":null,"lane":"R"},{"round":"E3","ft60":1.243,"ft330":3.781,"ft660":5.158,"et":6.188,"rt":0.075,"red":false,"mph":245.67,"mph660":192.38,"clean":false,"off_at":"s1","win":true,"opp":"Alexis DeJoria","lane":"R"},{"round":"E4","ft60":0.908,"ft330":2.31,"ft660":3.476,"et":4.784,"rt":0.069,"red":false,"mph":169.89,"mph660":188.6,"clean":false,"off_at":"s3","win":false,"opp":"Jordan Vandergriff","lane":"L"}],"Jordan Vandergriff":[{"round":"Q1","ft60":0.873,"ft330":2.254,"ft660":3.178,"et":3.924,"rt":0.133,"red":false,"mph":325.14,"mph660":278.98,"clean":true,"off_at":null,"win":true,"opp":"Alexis DeJoria","lane":"R"},{"round":"Q2","ft60":0.93,"ft330":3.475,"ft660":6.341,"et":9.559,"rt":0.075,"red":false,"mph":66.99,"mph660":79.64,"clean":false,"off_at":"s2","win":false,"opp":"Alexis DeJoria","lane":"L"},{"round":"Q3","ft60":0.894,"ft330":2.75,"ft660":5.275,"et":8.15,"rt":0.084,"red":false,"mph":78.5,"mph660":83.83,"clean":false,"off_at":"s2","win":true,"opp":null,"lane":"L"},{"round":"E1","ft60":0.882,"ft330":2.278,"ft660":3.207,"et":3.95,"rt":0.076,"red":false,"mph":330.63,"mph660":279.5,"clean":true,"off_at":null,"win":true,"opp":"Jeff Arend","lane":"R"},{"round":"E2","ft60":0.885,"ft330":2.287,"ft660":3.216,"et":3.956,"rt":0.083,"red":false,"mph":332.34,"mph660":279.67,"clean":true,"off_at":null,"win":true,"opp":"Spencer Hyde","lane":"R"},{"round":"E3","ft60":0.896,"ft330":2.295,"ft660":3.224,"et":3.964,"rt":0.09,"red":false,"mph":331.36,"mph660":279.67,"clean":true,"off_at":null,"win":true,"opp":"Hunter Green","lane":"R"},{"round":"E4","ft60":0.89,"ft330":2.294,"ft660":3.238,"et":4.007,"rt":0.078,"red":false,"mph":314.17,"mph660":272.12,"clean":true,"off_at":null,"win":true,"opp":"JR Todd","lane":"R"}],"Cruz Pedregon":[{"round":"Q1","ft60":0.875,"ft330":2.253,"ft660":3.188,"et":3.948,"rt":0.131,"red":false,"mph":307.16,"mph660":277.49,"clean":true,"off_at":null,"win":true,"opp":"Austin Prock","lane":"R"},{"round":"Q2","ft60":0.867,"ft330":2.255,"ft660":3.207,"et":3.975,"rt":0.111,"red":false,"mph":316.23,"mph660":272.56,"clean":true,"off_at":null,"win":false,"opp":"Chad Green","lane":"L"},{"round":"E1","ft60":0.89,"ft330":2.261,"ft660":3.196,"et":4.135,"rt":0.097,"red":false,"mph":237.8,"mph660":260.46,"clean":false,"off_at":"s4","win":false,"opp":"Alexis DeJoria","lane":"R"}],"Hunter Green":[{"round":"Q1","ft60":0.874,"ft330":2.269,"ft660":3.199,"et":3.958,"rt":0.101,"red":false,"mph":322.65,"mph660":275.96,"clean":true,"off_at":null,"win":true,"opp":"Jeff Arend","lane":"R"},{"round":"Q2","ft60":0.889,"ft330":2.607,"ft660":4.853,"et":7.425,"rt":0.088,"red":false,"mph":89.99,"mph660":94.46,"clean":false,"off_at":"s2","win":false,"opp":"Austin Prock","lane":"L"},{"round":"Q3","ft60":0.895,"ft330":2.565,"ft660":4.708,"et":7.184,"rt":0.109,"red":false,"mph":93.3,"mph660":99.33,"clean":false,"off_at":"s2","win":true,"opp":"Alexis DeJoria","lane":"L"},{"round":"E1","ft60":0.9,"ft330":2.304,"ft660":3.246,"et":4.007,"rt":0.092,"red":false,"mph":321.65,"mph660":273.77,"clean":true,"off_at":null,"win":true,"opp":"Dave Richards","lane":"R"},{"round":"E2","ft60":0.904,"ft330":2.332,"ft660":3.292,"et":4.076,"rt":0.072,"red":false,"mph":310.13,"mph660":268.6,"clean":true,"off_at":null,"win":true,"opp":"Chad Green","lane":"L"},{"round":"E3","ft60":0.923,"ft330":2.376,"ft660":3.354,"et":4.151,"rt":0.123,"red":false,"mph":306.53,"mph660":263.92,"clean":true,"off_at":null,"win":false,"opp":"Jordan Vandergriff","lane":"L"}],"Spencer Hyde":[{"round":"Q1","ft60":0.877,"ft330":2.268,"ft660":3.208,"et":3.963,"rt":0.103,"red":false,"mph":322.42,"mph660":275.45,"clean":true,"off_at":null,"win":true,"opp":"Jack Beckman","lane":"R"},{"round":"Q2","ft60":0.884,"ft330":2.284,"ft660":3.219,"et":3.982,"rt":0.078,"red":false,"mph":315.86,"mph660":276.24,"clean":true,"off_at":null,"win":true,"opp":"Dave Richards","lane":"L"},{"round":"Q3","ft60":0.902,"ft330":2.84,"ft660":5.525,"et":8.988,"rt":0.098,"red":false,"mph":59.82,"mph660":77.48,"clean":false,"off_at":"s2","win":false,"opp":"Austin Prock","lane":"L"},{"round":"E1","ft60":0.885,"ft330":2.277,"ft660":3.222,"et":3.978,"rt":0.049,"red":false,"mph":322.81,"mph660":275.17,"clean":true,"off_at":null,"win":true,"opp":"Austin Prock","lane":"L"},{"round":"E2","ft60":1.225,"ft330":4.971,"ft660":8.634,"et":12.015,"rt":0.08,"red":false,"mph":63.76,"mph660":67.27,"clean":false,"off_at":"s1","win":false,"opp":"Jordan Vandergriff","lane":"L"}],"Jeff Arend":[{"round":"Q1","ft60":0.889,"ft330":2.307,"ft660":3.261,"et":4.035,"rt":0.104,"red":false,"mph":311.41,"mph660":271.62,"clean":true,"off_at":null,"win":false,"opp":"Hunter Green","lane":"L"},{"round":"E1","ft60":0.926,"ft330":2.388,"ft660":3.368,"et":4.154,"rt":0.079,"red":false,"mph":309.77,"mph660":265.06,"clean":true,"off_at":null,"win":false,"opp":"Jordan Vandergriff","lane":"L"}],"Ron Capps":[{"round":"Q1","ft60":0.871,"ft330":2.243,"ft660":3.276,"et":4.399,"rt":0.081,"red":false,"mph":200.08,"mph660":217.6,"clean":false,"off_at":"s3","win":true,"opp":"Matt Hagan","lane":"R"},{"round":"Q2","ft60":0.987,"ft330":3.958,"ft660":7.244,"et":10.956,"rt":0.073,"red":false,"mph":59.85,"mph660":66.67,"clean":false,"off_at":"s1","win":false,"opp":"Matt Hagan","lane":"L"},{"round":"Q3","ft60":0.876,"ft330":2.778,"ft660":5.257,"et":7.749,"rt":0.091,"red":false,"mph":94.23,"mph660":89.67,"clean":false,"off_at":"s2","win":false,"opp":"JR Todd","lane":"L"},{"round":"E1","ft60":1.539,"ft330":6.077,"ft660":10.733,"et":16.631,"rt":0.077,"red":false,"mph":35.73,"mph660":45.25,"clean":false,"off_at":"s1","win":false,"opp":"Chad Green","lane":"L"}],"Alexis DeJoria":[{"round":"Q1","ft60":0.895,"ft330":2.28,"ft660":3.482,"et":4.865,"rt":0.067,"red":false,"mph":159.08,"mph660":180.36,"clean":false,"off_at":"s3","win":false,"opp":"Jordan Vandergriff","lane":"L"},{"round":"Q2","ft60":0.886,"ft330":2.284,"ft660":3.219,"et":3.968,"rt":0.075,"red":false,"mph":326.63,"mph660":277.2,"clean":true,"off_at":null,"win":true,"opp":"Jordan Vandergriff","lane":"R"},{"round":"Q3","ft60":0.885,"ft330":2.651,"ft660":4.992,"et":7.658,"rt":0.104,"red":false,"mph":86.56,"mph660":90.84,"clean":false,"off_at":"s2","win":false,"opp":"Hunter Green","lane":"R"},{"round":"E1","ft60":0.882,"ft330":2.272,"ft660":3.199,"et":3.946,"rt":0.095,"red":false,"mph":325.61,"mph660":279.38,"clean":true,"off_at":null,"win":true,"opp":"Cruz Pedregon","lane":"L"},{"round":"E2","ft60":0.894,"ft330":2.31,"ft660":3.255,"et":4.016,"rt":0.08,"red":false,"mph":314.68,"mph660":275.06,"clean":true,"off_at":null,"win":true,"opp":"Matt Hagan","lane":"R"},{"round":"E3","ft60":1.143,"ft330":3.815,"ft660":5.792,"et":7.878,"rt":0.131,"red":false,"mph":104.28,"mph660":123.43,"clean":false,"off_at":"s1","win":false,"opp":"JR Todd","lane":"L"}],"Chad Green":[{"round":"Q1","ft60":0.881,"ft330":2.285,"ft660":3.647,"et":5.228,"rt":0.089,"red":false,"mph":139.01,"mph660":157.95,"clean":false,"off_at":"s3","win":false,"opp":"JR Todd","lane":"L"},{"round":"Q2","ft60":0.876,"ft330":2.263,"ft660":3.185,"et":3.946,"rt":0.112,"red":false,"mph":318.24,"mph660":279.44,"clean":true,"off_at":null,"win":true,"opp":"Cruz Pedregon","lane":"R"},{"round":"Q3","ft60":0.873,"ft330":2.239,"ft660":3.145,"et":3.894,"rt":0.075,"red":false,"mph":323.89,"mph660":283.79,"clean":true,"off_at":null,"win":true,"opp":null,"lane":"R"},{"round":"E1","ft60":0.881,"ft330":2.258,"ft660":3.177,"et":3.925,"rt":0.089,"red":false,"mph":326.95,"mph660":280.78,"clean":true,"off_at":null,"win":true,"opp":"Ron Capps","lane":"R"},{"round":"E2","ft60":0.887,"ft330":2.294,"ft660":3.387,"et":4.595,"rt":0.087,"red":false,"mph":184.77,"mph660":204.54,"clean":false,"off_at":"s3","win":false,"opp":"Hunter Green","lane":"R"}],"Austin Prock":[{"round":"Q1","ft60":0.871,"ft330":2.285,"ft660":3.735,"et":5.407,"rt":0.071,"red":false,"mph":132.14,"mph660":148.85,"clean":false,"off_at":"s3","win":false,"opp":"Cruz Pedregon","lane":"L"},{"round":"Q2","ft60":0.887,"ft330":2.282,"ft660":3.216,"et":3.956,"rt":0.071,"red":false,"mph":331.94,"mph660":279.38,"clean":true,"off_at":null,"win":true,"opp":"Hunter Green","lane":"R"},{"round":"Q3","ft60":0.911,"ft330":2.508,"ft660":4.241,"et":5.847,"rt":0.083,"red":false,"mph":147.18,"mph660":131.19,"clean":false,"off_at":"s2","win":true,"opp":"Spencer Hyde","lane":"R"},{"round":"E1","ft60":0.919,"ft330":2.366,"ft660":3.331,"et":4.101,"rt":0.078,"red":false,"mph":319.82,"mph660":269.03,"clean":true,"off_at":null,"win":false,"opp":"Spencer Hyde","lane":"R"}],"Dave Richards":[{"round":"Q1","ft60":0.896,"ft330":2.855,"ft660":5.527,"et":8.499,"rt":0.142,"red":false,"mph":79.32,"mph660":79.52,"clean":false,"off_at":"s2","win":true,"opp":"Daniel Wilkerson","lane":"L"},{"round":"Q2","ft60":0.895,"ft330":2.286,"ft660":3.221,"et":3.959,"rt":0.127,"red":false,"mph":334.57,"mph660":278.4,"clean":true,"off_at":null,"win":false,"opp":"Spencer Hyde","lane":"R"},{"round":"Q3","ft60":0.891,"ft330":2.665,"ft660":5.06,"et":7.814,"rt":0.158,"red":false,"mph":85.36,"mph660":87.48,"clean":false,"off_at":"s2","win":true,"opp":"Daniel Wilkerson","lane":"R"},{"round":"E1","ft60":0.902,"ft330":2.563,"ft660":4.448,"et":6.47,"rt":0.118,"red":false,"mph":109.15,"mph660":119.4,"clean":false,"off_at":"s2","win":false,"opp":"Hunter Green","lane":"L"}],"Matt Hagan":[{"round":"Q1","ft60":0.926,"ft330":3.594,"ft660":6.665,"et":9.587,"rt":0.093,"red":false,"mph":79.6,"mph660":76.64,"clean":false,"off_at":"s2","win":false,"opp":"Ron Capps","lane":"L"},{"round":"Q2","ft60":0.866,"ft330":2.26,"ft660":3.192,"et":3.933,"rt":0.099,"red":false,"mph":328.78,"mph660":279.79,"clean":true,"off_at":null,"win":true,"opp":"Ron Capps","lane":"R"},{"round":"Q3","ft60":1.451,"ft330":5.579,"ft660":9.326,"et":13.416,"rt":0.086,"red":false,"mph":51.43,"mph660":63.9,"clean":false,"off_at":"s1","win":false,"opp":"Jack Beckman","lane":"R"},{"round":"E1","ft60":0.878,"ft330":2.292,"ft660":3.238,"et":3.988,"rt":0.079,"red":false,"mph":328.06,"mph660":276.29,"clean":true,"off_at":null,"win":true,"opp":"Jack Beckman","lane":"R"},{"round":"E2","ft60":1.391,"ft330":4.522,"ft660":7.422,"et":10.211,"rt":0.074,"red":false,"mph":83.83,"mph660":79.85,"clean":false,"off_at":"s1","win":false,"opp":"Alexis DeJoria","lane":"L"}],"Daniel Wilkerson":[{"round":"Q1","ft60":1.044,"ft330":4.286,"ft660":7.625,"et":10.572,"rt":0.086,"red":false,"mph":84.0,"mph660":71.93,"clean":false,"off_at":"s1","win":false,"opp":"Dave Richards","lane":"R"},{"round":"Q2","ft60":0.894,"ft330":2.818,"ft660":4.729,"et":6.468,"rt":0.076,"red":false,"mph":134.58,"mph660":127.43,"clean":false,"off_at":"s2","win":false,"opp":"Jack Beckman","lane":"L"},{"round":"Q3","ft60":1.666,"ft330":6.417,"ft660":10.61,"et":14.335,"rt":0.104,"red":false,"mph":59.66,"mph660":60.51,"clean":false,"off_at":"s1","win":false,"opp":"Dave Richards","lane":"L"},{"round":"E1","ft60":0.89,"ft330":2.32,"ft660":3.271,"et":4.047,"rt":0.069,"red":false,"mph":303.3,"mph660":273.44,"clean":true,"off_at":null,"win":false,"opp":"JR Todd","lane":"L"}],"Jack Beckman":[{"round":"Q1","ft60":0.991,"ft330":4.077,"ft660":7.5,"et":10.709,"rt":0.088,"red":false,"mph":75.82,"mph660":68.55,"clean":false,"off_at":"s1","win":false,"opp":"Spencer Hyde","lane":"L"},{"round":"Q2","ft60":0.881,"ft330":2.282,"ft660":3.221,"et":3.973,"rt":0.101,"red":false,"mph":326.24,"mph660":276.24,"clean":true,"off_at":null,"win":true,"opp":"Daniel Wilkerson","lane":"R"},{"round":"Q3","ft60":0.88,"ft330":2.798,"ft660":5.347,"et":8.125,"rt":0.095,"red":false,"mph":82.27,"mph660":85.62,"clean":false,"off_at":"s2","win":true,"opp":"Matt Hagan","lane":"L"},{"round":"E1","ft60":0.892,"ft330":2.282,"ft660":3.39,"et":4.598,"rt":0.089,"red":false,"mph":183.24,"mph660":204.54,"clean":false,"off_at":"s3","win":false,"opp":"Matt Hagan","lane":"L"}]},"default_round":"E4","nav":[{"slug":"pro-mod","name":"Pro Mod","live":true},{"slug":"top-fuel","name":"Top Fuel","live":true},{"slug":"funny-car","name":"Funny Car","live":true},{"slug":"pro-stock","name":"Pro Stock","live":true},{"slug":"pro-stock-motorcycle","name":"Pro Stock Motorcycle","live":true}],"sponsor":{"_how_to":"To sell the spots: drop the sponsor's logo or ad image into assets/, then fill in name, logo (file name) and url. Set show_placeholders to false to hide empty spots.","presented_by":{"name":"","logo":"","url":""},"ad":{"name":"","logo":"","url":""},"contact":"jt@dragillustrated.com","show_placeholders":true},"slug":"2026-southern-nationals","label":"Southern Nationals","class_name":"Funny Car","base":"../","root":"../../../","csv":"DI-Incrementals-2026-southern-nationals-funny-car.csv","save":"DI-Incrementals-2026-southern-nationals-funny-car.html","self_path":"index.html"}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const FIELD = 16;
+  const SP = D.sponsor || {};
+
+  // class picker
+  const sel = $("cls");
+  sel.innerHTML = (D.nav || []).map((c) => `<option value="${c.slug}"${c.slug === D.class ? " selected" : ""}${c.live ? "" : " disabled"}>${esc(c.name)}</option>`).join("");
+  sel.onchange = () => { location.href = `${D.base}${sel.value}/${location.hash}`; };
+
+  function slotHTML(s, kind) {
+    if (s && s.logo) {
+      const img = `<img src="${D.base}assets/${esc(s.logo)}" alt="${esc(s.name || "")}">`;
+      return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener sponsored">${img}</a>` : img;
+    }
+    if (SP.show_placeholders === false) return "";
+    return kind === "presented"
+      ? `<span class="slot-empty">Presenting partner spot available. <b>${esc(SP.contact || "")}</b></span>`
+      : `<span class="k">Advertise here</span>Reach every crew chief in the pits, every round. ${esc(SP.contact || "")}`;
+  }
+  const pres = slotHTML(SP.presented_by, "presented");
+  if (pres) $("presented").innerHTML = `<span class="k">Presented by</span>${pres}`; else $("presented").hidden = true;
+  const adh = SP.ad && SP.ad.logo ? slotHTML(SP.ad, "ad") : slotHTML(null, "ad");
+  if (adh) { $("ad").className = "ad" + (SP.ad && SP.ad.logo ? "" : " empty"); $("ad").innerHTML = adh; }
+
+  // race picker and past races, read from the site's race registry (skipped quietly when offline)
+  (function races() {
+    const root = D.root || "";
+    let reg;
+    try { reg = fetch(root + "events/events.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null); } catch (e) { return; }
+    reg.then((R0) => {
+      if (!R0 || !R0.events || !R0.events.length) return;
+      const evs = R0.events, here = D.slug;
+      const fmt = (d) => { try { return new Date(d + "T12:00:00").toLocaleDateString([], { month: "short", day: "numeric" }); } catch (e) { return ""; } };
+      const target = (e) => {
+        const base = e.slug === R0.live ? root : root + "events/" + e.slug + "/";
+        return base + (D.class && (e.classes || []).includes(D.class) ? D.class + "/" : "");
+      };
+      const sel = document.getElementById("race");
+      const known = evs.some((e) => e.slug === here);
+      sel.innerHTML = (known ? "" : `<option selected>${esc(D.label || "This race")}</option>`) + evs.map((e) =>
+        `<option value="${esc(target(e))}"${e.slug === here ? " selected" : ""}>${esc(e.label || e.name)}${e.date ? " · " + fmt(e.date) : ""}${e.slug === R0.live ? " (latest)" : ""}</option>`).join("");
+      sel.onchange = () => { if (sel.value) location.href = sel.value; };
+      document.getElementById("race-wrap").hidden = false;
+      const past = evs.filter((e) => e.slug !== here && e.slug !== R0.live);
+      const list = past.map((e) => `<li><a href="${esc(target(e))}"><span><b>${esc(e.label || e.name)}</b><small>${esc(e.name)}</small></span><span>${e.date ? fmt(e.date) + ", " + e.year : e.year}</span></a></li>`).join("");
+      if (!list) return;
+      const pw = document.getElementById("past-wrap");
+      if (pw) { pw.hidden = false; document.getElementById("past").innerHTML = list; }
+      else {
+        const w = document.querySelector(".waiting");
+        if (w) w.insertAdjacentHTML("beforeend", `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`);
+      }
+    }).catch(() => {});
+  })();
+
+  if (D.waiting) {
+    $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p></section>`;
+    return;
+  }
+
+  const P = D.points, S = D.segs, IL = D.inc_label, SL = D.seg_label;
+  const quarter = D.finish === 1320;
+  let view = "cum", sortKey = "et", openDriver = null, R = null, CEIL = {};
+
+  function t(v, key) {
+    if (v == null) return "--";
+    if (key === "mph" || key === "mph660" || key === "gain") return v.toFixed(2);
+    const s = v.toFixed(3);
+    return s.startsWith("0.") ? s.slice(1) : s.startsWith("-0.") ? "-" + s.slice(2) : s;
+  }
+  const plus = (g, k) => g == null || g === 0 ? "" : (k === "mph" || k === "mph660" || k === "gain" ? "-" : "+") + t(g, k);
+  const last = (n) => n.split(" ").slice(-1)[0];
+  const ord = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th"));
+  const roundName = (r) => r.startsWith("Q") ? "Qualifying " + r.slice(1) : r === "E4" ? "Final" : r === "E3" ? "Semifinals" : r === "E2" ? "Quarterfinals" : "Round 1";
+  const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
+  const isMph = (k) => k === "mph" || k === "mph660" || k === "gain";
+
+  // heat tier from the gap to the quickest, scaled to how spread out this round's clean cars are
+  function ceilings() {
+    CEIL = {};
+    Object.keys(R.order).forEach((k) => {
+      const g = R.runs.filter((r) => r.clean && r.gap[k] != null).map((r) => r.gap[k]).sort((a, b) => a - b);
+      CEIL[k] = Math.max(g[Math.floor((g.length - 1) * .85)] || 0, isMph(k) ? 2 : k === "rt" ? 0.06 : 0.012);
+    });
+  }
+  function tier(r, k) {
+    if (k === "rt" && r.red) return "rl";
+    if (!counts(r, k) || r[k] == null) return r[k] == null ? "" : "gone";
+    if (r.rank[k] === 1) return "tq";
+    const x = r.gap[k] / CEIL[k];
+    return x < .25 ? "t1" : x < .5 ? "t2" : x < .85 ? "t3" : "t4";
+  }
+
+  function cols() {
+    if (view === "cum") {
+      const c = [["rt", "RT"]];
+      P.forEach((p) => { if (p !== "et") c.push([p, IL[p]]); if (p === "ft660") c.push(["mph660", "660 mph"]); });
+      c.push(["et", "ET"], ["mph", "MPH"]);
+      return c;
+    }
+    const c = [["rt", "RT"]].concat(S.map((s) => [s, SL[s]]));
+    if (quarter) c.push(["back", "660-1320"]);
+    c.push(["gain", "MPH gain"], ["et", "ET"]);
+    return c;
+  }
+  // what the phone card strip shows
+  function stripCols() {
+    if (view === "cum") return [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]));
+    // phone: the front pieces, then the whole back half and the back-half MPH gain
+    const front = S.slice(0, 3).map((s) => [s, SL[s]]);
+    return front.concat(quarter ? [["back", "Back ½"]] : [[S[3], "660-1k"]], [["gain", "MPH +"]]);
+  }
+
+  function sortedRuns() {
+    const desc = isMph(sortKey);
+    return R.runs.slice().sort((a, b) => {
+      const av = counts(a, sortKey) && !(sortKey === "rt" && a.red) ? a[sortKey] : null;
+      const bv = counts(b, sortKey) && !(sortKey === "rt" && b.red) ? b[sortKey] : null;
+      if (av == null && bv == null) return (a.et ?? 99) - (b.et ?? 99);
+      if (av == null) return 1; if (bv == null) return -1;
+      return desc ? bv - av : av - bv;
+    });
+  }
+
+  function renderRounds() {
+    $("rounds").innerHTML = D.rounds.map((r) =>
+      `<button type="button" class="rbtn" data-r="${r.round}" aria-pressed="${r === R}">${r.round}</button>`).join("");
+    $("rounds").querySelectorAll("button").forEach((b) => b.onclick = () => go(b.dataset.r));
+    const on = $("rounds").querySelector('[aria-pressed="true"]');
+    if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
+  }
+
+  function renderHero() {
+    $("ev").textContent = `${D.year} ${D.event_name} · ${roundName(R.round)}`;
+    $("title").innerHTML = `${esc(D.class_name)} <span>${R.round}</span>`;
+    const w = R.weather, m = [`<span><strong>${R.runs.length}</strong> cars, <strong>${R.clean_count}</strong> clean</span>`];
+    if (w) {
+      if (w.track) m.push(`<span>Track <strong>${w.track}°</strong></span>`);
+      if (w.air) m.push(`<span>Air <strong>${w.air}°</strong></span>`);
+      if (w.humidity) m.push(`<span>Hum. <strong>${w.humidity}%</strong></span>`);
+      if (w.baro) m.push(`<span>Baro <strong>${w.baro}</strong></span>`);
+      if (w.altitude) m.push(`<span>Adj. alt. <strong>${Number(w.altitude).toLocaleString()}'</strong></span>`);
+    } else m.push(`<span>Conditions not posted this round</span>`);
+    $("meta").innerHTML = m.join("");
+    const who = (k) => R.order[k] ? R.order[k][0].driver : "";
+    const tiles = [["et", "Low ET"], ["mph", "Top speed"], ["ft60", "Best 60'"], ["ft330", "Best 330'"], ["rt", "Best light"]];
+    $("leaders").innerHTML = tiles.filter(([k]) => R.best[k] != null).map(([k, l]) =>
+      `<div class="lead"><div class="k">${l}</div><div class="v">${t(R.best[k], k)}</div><div class="who">${esc(who(k))}</div></div>`).join("");
+  }
+
+  function renderSortRow() {
+    const C = cols().filter(([k]) => k !== "mph660");
+    $("sortrow").innerHTML = `<span class="lbl">Rank by</span>` + C.map(([k, l]) =>
+      `<button type="button" class="chip" data-k="${k}" aria-pressed="${k === sortKey}">${l}</button>`).join("");
+    $("sortrow").querySelectorAll("button").forEach((b) => b.onclick = () => { sortKey = b.dataset.k; renderBoard(); });
+  }
+
+  function subLine(r) {
+    const lane = `#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} lane`;
+    if (R.round.startsWith("Q")) return lane;   // win/loss means nothing in qualifying
+    return `${lane} · ${r.win ? "<span class='w'>W</span>" : "L"}${r.opp ? " vs " + esc(last(r.opp)) : " solo"}`;
+  }
+
+  function renderBoard() {
+    const C = cols();
+    if (!C.some(([k]) => k === sortKey)) sortKey = "et";
+    renderSortRow();
+    const rows = sortedRuns();
+    const SC = stripCols();
+
+    // phone cards
+    $("cards").innerHTML = rows.map((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      const strip = SC.map(([k, l]) => {
+        const tr = tier(r, k), v = r[k];
+        const rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : (tr === "rl" ? "red" : "");
+        return `<div class="cell ${tr}${k === sortKey ? " sorted" : ""}"><span class="l">${l}</span><span class="v">${t(v, k)}</span><span class="r">${rk || "&nbsp;"}</span></div>`;
+      }).join("");
+      const open = openDriver === r.driver;
+      return `<div class="car${open ? " open" : ""}"${cut ? ' style="border-top:2px dashed var(--di-red)"' : ""} data-d="${esc(r.driver)}" role="button" tabindex="0" aria-expanded="${open}">
+        <div class="car-top"><span class="pos">${i + 1}</span><div style="min-width:0"><div class="name">${esc(r.driver)}</div><div class="sub">${subLine(r)}</div></div>
+        <div class="et"><span class="v ${tier(r, "et")}">${t(r.et)}</span><div class="m">${t(r.mph, "mph")} mph</div></div></div>
+        <div class="strip" style="--n:${SC.length}">${strip}</div>${open ? slip(r) : ""}</div>`;
+    }).join("");
+    $("cards").querySelectorAll(".car").forEach((el) => {
+      const flip = () => { openDriver = openDriver === el.dataset.d ? null : el.dataset.d; renderBoard(); };
+      el.onclick = (e) => { if (!e.target.closest(".slip")) flip(); };
+      el.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
+    });
+
+    // wide table
+    const desc = isMph(sortKey);
+    let h = "<thead><tr><th class='drv'><button type='button' data-k='et'>Car</button></th>";
+    C.forEach(([k, l]) => h += `<th${k === sortKey ? " aria-sort='" + (desc ? "descending" : "ascending") + "'" : ""}><button type="button" data-k="${k}">${l}</button></th>`);
+    h += "</tr></thead><tbody>";
+    rows.forEach((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}"><td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${subLine(r)}</span></div></td>`;
+      C.forEach(([k]) => {
+        const tr = tier(r, k);
+        const sm = tr === "rl" ? "<span class='r'>red</span>" : tr && tr !== "gone" ? `<span class="r">${ord(r.rank[k])}${r.gap[k] ? " " + plus(r.gap[k], k) : ""}</span>` : "";
+        h += `<td class="tc ${tr}">${t(r[k], k)}${sm}</td>`;
+      });
+      h += "</tr>";
+      if (openDriver === r.driver) h += `<tr><td class="slip-td" colspan="${C.length + 1}">${slip(r)}</td></tr>`;
+    });
+    $("board").innerHTML = h + "</tbody>";
+    $("board").querySelectorAll("thead button").forEach((b) => b.onclick = (e) => { e.stopPropagation(); sortKey = b.dataset.k; renderBoard(); });
+    $("board").querySelectorAll("tbody tr[data-d]").forEach((tr) => tr.onclick = () => {
+      openDriver = openDriver === tr.dataset.d ? null : tr.dataset.d; renderBoard();
+    });
+  }
+
+  function slip(r) {
+    const segs = S.map((s) => ({ s, v: r[s], g: r.gap[s], ok: r.valid.includes(s) }));
+    const maxG = Math.max(0.02, ...segs.filter((x) => x.ok && x.g != null).map((x) => x.g));
+    const bars = segs.map((x) => {
+      if (!x.ok || x.v == null) return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"></div><span class="g" style="color:var(--off)">${x.v == null ? "--" : "off"}</span></div>`;
+      const tr = tier(r, x.s);
+      const w = x.g === 0 ? 100 : Math.max(4, x.g / maxG * 100);
+      const color = { tq: "var(--q)", t1: "var(--h1)", t2: "var(--h2)", t3: "var(--h3)", t4: "var(--h4)" }[tr] || "var(--ink)";
+      return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"><div class="fill" style="width:${w}%;background:${color};${tr !== "tq" ? "box-shadow:inset 0 0 0 1px var(--muted)" : ""}"></div></div><span class="g"${x.g === 0 ? ' style="color:var(--q);font-weight:700"' : ""}>${x.g === 0 ? "quickest" : plus(x.g)}</span></div>`;
+    }).join("");
+    const opp = r.opp ? R.runs.find((x) => x.driver === r.opp) : null;
+    let vs = "<p class='small-h'>Solo pass</p>";
+    if (opp) {
+      const rowsV = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+      vs = `<div><p class="small-h">Side by side, pair ${r.pair}</p><div class="mini-wrap"><table class="mini"><tr><th></th><th>${esc(last(r.driver))}</th><th>${esc(last(opp.driver))}</th><th>Diff</th></tr>` +
+        rowsV.map(([k, l]) => {
+          const a = r[k], b = opp[k];
+          const d = a != null && b != null ? (k === "mph" ? a - b : b - a) : null;
+          return `<tr><td>${l}</td><td class="${d > 0 ? "up" : ""}">${t(a, k)}</td><td class="${d < 0 ? "up" : ""}">${t(b, k)}</td><td>${d == null ? "--" : (d >= 0 ? "+" : "-") + t(Math.abs(d), k)}</td></tr>`;
+        }).join("") + `</table></div></div>`;
+    }
+    const hist = D.history[r.driver] || [];
+    let hh = "";
+    if (hist.length > 1) {
+      const hp = P.filter((p) => p !== "et").slice(0, 3);
+      hh = `<div><p class="small-h">This weekend</p><div class="mini-wrap"><table class="mini"><tr><th>Rd</th>${hp.map((p) => `<th>${IL[p]}</th>`).join("")}<th>ET</th><th>MPH</th></tr>` +
+        hist.map((x) => `<tr${x.round === R.round ? " style='font-weight:700'" : ""}><td>${x.round}</td>${hp.map((p) => `<td>${t(x[p])}</td>`).join("")}<td>${t(x.et)}</td><td>${t(x.mph, "mph")}</td></tr>`).join("") +
+        `</table></div></div>`;
+    }
+    const q = r.qpos ? `${ord(r.qpos)} on the ladder after ${R.round}. ` : "";
+    return `<div class="slip"><div><p class="read">${esc(q + r.read)}</p></div>
+      <div><p class="small-h">Each split vs the quickest</p><div class="bars">${bars}</div></div>${vs}${hh}</div>`;
+  }
+
+  function renderLights() {
+    const keys = P.filter((p) => p !== "et").concat(["et", "mph"]);
+    $("lights").innerHTML = keys.filter((k) => R.order[k]).map((k) => {
+      const lab = k === "et" ? "ET" : k === "mph" ? "MPH" : IL[k];
+      const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing block";
+      const list = R.order[k].slice(0, 5).map((o, i) => {
+        const run = R.runs.find((r) => r.driver === o.driver);
+        return `<li class="${run ? tier(run, k) : ""}"><span>${esc(o.driver)}</span><span class="t">${t(o.v, k)}</span><span class="g">${i === 0 ? "" : plus(o.gap, k)}</span></li>`;
+      }).join("");
+      return `<div class="light"><h3>${lab} <small>${sub.toUpperCase()}</small></h3><ol>${list}</ol></div>`;
+    }).join("");
+  }
+
+  function renderLanes() {
+    const keys = [["rt", "RT"]].concat(P.filter((p) => p !== "et" && p !== "ft1000").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    const avg = (lane, k) => {
+      const v = R.runs.filter((r) => r.clean && r.lane === lane && r[k] != null && !(k === "rt" && r.red)).map((r) => r[k]);
+      return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null;
+    };
+    const n = (l) => R.runs.filter((r) => r.clean && r.lane === l).length;
+    let h = `<tr><th></th><th>Left (${n("L")})</th><th>Right (${n("R")})</th><th>Edge</th></tr>`;
+    keys.forEach(([k, l]) => {
+      const a = avg("L", k), b = avg("R", k);
+      let edge = "--";
+      if (a != null && b != null) {
+        const d = k === "mph" ? a - b : b - a;
+        edge = Math.abs(d) < 0.0005 ? "even" : (d > 0 ? "Left " : "Right ") + t(Math.abs(d), k);
+      }
+      h += `<tr><td>${l}</td><td>${t(a, k)}</td><td>${t(b, k)}</td><td>${edge}</td></tr>`;
+    });
+    $("lanes").innerHTML = h;
+  }
+
+  function renderLadder() {
+    const q = D.qualifying[R.round];
+    $("ladder-sec").hidden = !q;
+    if (!q) return;
+    $("ladder-h").textContent = `Ladder after ${R.round}`;
+    $("ladder-hint").textContent = q.length > FIELD ? `Best ET to date, ties go to MPH. Top ${FIELD} make the show.` : "Best ET to date, ties go to MPH.";
+    $("ladder").innerHTML = q.map((x, i) =>
+      `<li class="${i === FIELD - 1 && q.length > FIELD ? "bump" : ""}${i >= FIELD ? " out" : ""}"><span class="p">${i + 1}</span><span>${esc(x.driver)}</span><span class="t">${t(x.et)} <span style="color:var(--muted)">${t(x.mph, "mph")}</span></span></li>`).join("");
+  }
+
+
+  // how do I compare: any two cars, this round or each car's best clean run of the weekend
+  let cmpMode = "round";
+  function readPick(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function savePick(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  const ALLK = ["rt", "mph660", "mph", "back", "gain"].concat(P, S);
+  function withSplits(o) {
+    let prev = 0;
+    S.forEach((s, i) => { const v = o[P[i]]; o[s] = v != null && prev != null ? +(v - prev).toFixed(4) : null; prev = v; });
+    o.back = o.et != null && o.ft660 != null ? +(o.et - o.ft660).toFixed(4) : null;
+    o.gain = o.mph != null && o.mph660 != null ? +(o.mph - o.mph660).toFixed(2) : null;
+    return o;
+  }
+  function runFor(name) {
+    if (cmpMode === "round") {
+      const r = R.runs.find((x) => x.driver === name);
+      if (!r) return null;
+      const o = { driver: name, lane: r.lane, clean: r.clean, off_at: r.off_at, label: R.round };
+      ALLK.forEach((k) => { o[k] = (counts(r, k) && !(k === "rt" && r.red)) ? r[k] : null; });
+      return o;
+    }
+    const hist = (D.history[name] || []).filter((h) => h.et != null);
+    if (!hist.length) return null;
+    const clean = hist.filter((h) => h.clean);
+    const pool = clean.length ? clean : hist;
+    const h = pool.reduce((m, x) => x.et < m.et ? x : m);
+    const o = withSplits(Object.assign({ driver: name, label: h.round }, h));
+    if (o.red) o.rt = null;
+    return o;
+  }
+  function renderCompare() {
+    const pool = cmpMode === "round" ? R.runs.map((r) => r.driver) : Object.keys(D.history);
+    const names = pool.slice().sort((a, b) => last(a).localeCompare(last(b)) || a.localeCompare(b));
+    const byEt = R.runs.filter((r) => r.et != null).map((r) => r.driver);
+    let a = readPick("di-cmp-a-" + D.class), b = readPick("di-cmp-b-" + D.class);
+    if (!names.includes(a)) a = byEt[1] || names[0];
+    if (!names.includes(b) || b === a) b = byEt.find((n) => n !== a) || names.find((n) => n !== a);
+    const opts = (cur) => names.map((n) => `<option value="${esc(n)}"${n === cur ? " selected" : ""}>${esc(n)}</option>`).join("");
+    $("cmp-a").innerHTML = opts(a); $("cmp-b").innerHTML = opts(b);
+    $("cmp-a").onchange = () => { savePick("di-cmp-a-" + D.class, $("cmp-a").value); renderCompare(); };
+    $("cmp-b").onchange = () => { savePick("di-cmp-b-" + D.class, $("cmp-b").value); renderCompare(); };
+    const A = runFor(a), B = runFor(b);
+    if (!A || !B || a === b) { $("cmp-out").innerHTML = `<p class="cmp-empty">Pick two different cars.</p>`; return; }
+    const la = last(a), lb = last(b);
+    const head = (r) => `<div class="cmp-car"><div class="n">${esc(r.driver)}</div><div class="e">${t(r.et)}</div><div class="s">${t(r.mph, "mph")} mph · ${r.label} · ${r.lane === "L" ? "Left" : "Right"}${r.clean ? "" : " · went away " + esc(SL[r.off_at] || "")}</div></div>`;
+    const both = (k) => A[k] != null && B[k] != null;
+    const diffOf = (k) => isMph(k) ? A[k] - B[k] : B[k] - A[k];   // positive = first car ahead
+
+    let sum = "";
+    const segOk = S.filter((s) => both(s));
+    if (segOk.length) {
+      const g = segOk.map((s) => [s, diffOf(s)]);
+      const best = g.reduce((m, x) => x[1] > m[1] ? x : m), worst = g.reduce((m, x) => x[1] < m[1] ? x : m);
+      const bits = [];
+      if (best[1] > 0.0005) bits.push(`${la} gains the most ${SL[best[0]]} (${t(best[1])})`);
+      if (worst[1] < -0.0005) bits.push(`gives up the most ${SL[worst[0]]} (${t(-worst[1])})`);
+      if (both("et")) {
+        const d = diffOf("et");
+        bits.push(Math.abs(d) < 0.0005 ? "dead even at the stripe" : d > 0 ? `${t(d)} ahead of ${lb} at the stripe` : `${t(-d)} behind ${lb} at the stripe`);
+      }
+      sum = bits.join(", ");
+      sum = sum ? sum.charAt(0).toUpperCase() + sum.slice(1) + "." : "";
+    }
+    const cap = Math.max(0.03, ...segOk.map((s) => Math.abs(diffOf(s))));
+    const row = (k, l, bars) => {
+      if (A[k] == null && B[k] == null) return "";
+      const ok = both(k), d = ok ? diffOf(k) : null;
+      const aCls = ok && d > 0.0005 ? "ahead" : "", bCls = ok && d < -0.0005 ? "ahead" : "";
+      const dTxt = d == null ? "--" : Math.abs(d) < 0.0005 ? "even" : (d > 0 ? la : lb) + " " + t(Math.abs(d), k);
+      let bar = "";
+      if (bars && ok) {
+        const w = Math.min(Math.abs(d) / cap, 1) * 50;
+        bar = `<div class="cmp-bar"><i style="${d >= 0 ? "right:50%" : "left:50%"};width:${w}%;background:${d >= 0 ? "var(--q)" : "var(--di-red)"}"></i></div>`;
+      }
+      return `<div class="cmp-row"><span class="lbl">${l}</span><span class="v ${aCls}">${t(A[k], k)}</span><span class="v ${bCls}">${t(B[k], k)}</span><span class="d">${dTxt}</span>${bar}</div>`;
+    };
+    const hd = (first) => `<div class="cmp-row hd${first ? "" : " sep"}"><span>${first ? "" : "Splits"}</span><span>${esc(la)}</span><span>${esc(lb)}</span><span>Edge</span></div>`;
+    const pts = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    $("cmp-out").innerHTML = `<div class="cmp-head">${head(A)}${head(B)}</div>${sum ? `<p class="cmp-sum">${esc(sum)}</p>` : ""}
+      <div class="cmp-rows">${hd(true)}${pts.map(([k, l]) => row(k, l, false)).join("")}
+      ${hd(false)}${S.map((s) => row(s, SL[s], true)).join("")}${quarter ? row("back", "660-1320", true) : ""}${row("gain", "MPH gain", false)}</div>
+      <div class="cmp-legend"><span>Green bar: ${esc(la)} quicker in that split</span><span>Red: ${esc(lb)} quicker</span></div>`;
+  }
+  function setCmpMode(m) {
+    cmpMode = m;
+    $("cmp-round").setAttribute("aria-pressed", m === "round");
+    $("cmp-best").setAttribute("aria-pressed", m === "best");
+    renderCompare();
+  }
+  $("cmp-round").onclick = () => setCmpMode("round");
+  $("cmp-best").onclick = () => setCmpMode("best");
+
+
+  // printing and saving
+  function renderPrint() {
+    const runs = sortedRunsBy("et");
+    const table = (title, C) => {
+      let h = `<h3>${esc(title)}</h3><table><tr><th>#</th><th>Driver</th>${C.map(([, l]) => `<th>${l}</th>`).join("")}</tr>`;
+      runs.forEach((r, i) => {
+        h += `<tr><td>${i + 1}</td><td>${esc(r.driver)} <small>#${esc(r.car)} ${r.lane}</small></td>`;
+        C.forEach(([k]) => {
+          const tr = tier(r, k), rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : "";
+          h += `<td class="${tr}">${t(r[k], k)}${rk ? `<small>${rk}</small>` : ""}</td>`;
+        });
+        h += "</tr>";
+      });
+      return h + "</table>";
+    };
+    const v = view; view = "cum"; const cum = cols(); view = "seg"; const seg = cols(); view = v;
+    $("print").innerHTML = table("Timing blocks", cum) + table("Splits", seg);
+  }
+  function sortedRunsBy(k) { const keep = sortKey; sortKey = k; const r = sortedRuns(); sortKey = keep; return r; }
+  $("do-print").onclick = () => { renderPrint(); window.print(); };
+  window.addEventListener("beforeprint", renderPrint);
+  if (D.csv) { $("dl-csv").href = D.csv; $("dl-csv").setAttribute("download", D.csv.split("/").pop()); }
+  if (D.save) { $("dl-page").href = D.self_path || "index.html"; $("dl-page").setAttribute("download", D.save); }
+  function go(rd) {
+    R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
+    openDriver = null;
+    ceilings();
+    try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
+    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderLights(); renderLanes(); renderLadder();
+    $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
+  }
+  function setView(v) {
+    view = v;
+    $("v-cum").setAttribute("aria-pressed", v === "cum");
+    $("v-seg").setAttribute("aria-pressed", v === "seg");
+    renderBoard();
+  }
+  $("v-cum").onclick = () => setView("cum");
+  $("v-seg").onclick = () => setView("seg");
+
+  const fromHash = (location.hash || "").slice(1).toUpperCase();
+  go(D.rounds.some((r) => r.round === fromHash) ? fromHash : D.default_round);
+})();
+</script>
+</body></html>

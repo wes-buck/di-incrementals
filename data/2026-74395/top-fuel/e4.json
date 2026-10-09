@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0354,
+     "ft60": 0.8442,
+     "ft330": 2.1158,
+     "ft660": 2.9592,
+     "mph660": 301.41,
+     "ft1000": null,
+     "et": 3.6647,
+     "mph": 346.15,
+     "first": 0.0866,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 0.0866
+    },
+    {
+     "rt": 0.0224,
+     "ft60": 0.856,
+     "ft330": 2.1472,
+     "ft660": 3.0253,
+     "mph660": 288.65,
+     "ft1000": null,
+     "et": 3.7643,
+     "mph": 327.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,331 feet.\r\n\r\nSpencer Massey is 2 - 0 against Langdon in Final rounds.\r\nLangdon's 7 - 17 (29.2%) record against Massey is his 2nd worst record against any TF driver (Minimum\r\n5 starts - C. McClenathan, 26.7%)\r\nSpencer's 17 wins against Langdon are the most for him against any opponent.\r\n\r\nMassey with the starting line advantage, but Langdon had the difference made up early and kept it\r\nhooked up for the win.  Another big top end speed for the win.  Langdon wins his sixth Wally this\r\nseason and 28th in his career.  He is now the point leader."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.847,
+     "ft330": 2.144,
+     "ft660": 3.019,
+     "mph660": 293.79,
+     "ft1000": null,
+     "et": 3.747,
+     "mph": 329.18,
+     "first": 0.0337,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0337
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.858,
+     "ft330": 2.185,
+     "ft660": 3.068,
+     "mph660": 289.88,
+     "ft1000": null,
+     "et": 3.805,
+     "mph": 327.74,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 42 percent, barometer 30.00 inches, adjusted\r\naltitude 2,812 feet, track temperature 117 degrees.\r\n\r\nAshley is 15 - 8 against Kalitta in prior events. \r\n\r\nAshley with the starting line advantage, but Kalitta has the difference made up by 330 feet and takes the win.\r\nHe is advancing to his seventh final this season and 133rd career final.\r\n\r\nAshley with a good clean pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 0.861,
+     "ft330": 2.173,
+     "ft660": 3.045,
+     "mph660": 293.86,
+     "ft1000": null,
+     "et": 3.77,
+     "mph": 329.91,
+     "first": 0.0209,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": 0.0209
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.855,
+     "ft330": 2.166,
+     "ft660": 3.04,
+     "mph660": 291.51,
+     "ft1000": null,
+     "et": 3.776,
+     "mph": 325.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Pruett is 2 - 0 against Gordon in prior events. \r\n\r\nGordon with the starting line advantage and never trailed for the win.  She is advancing to her second Top\r\nFuel final round.  She will give up lane choice to Kalitta in the final."
+  }
+ ]
+}

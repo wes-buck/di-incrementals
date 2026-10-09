@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.901,
+     "ft330": 2.355,
+     "ft660": 3.376,
+     "mph660": 251.77,
+     "ft1000": null,
+     "et": 4.211,
+     "mph": 286.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 0.894,
+     "ft330": 2.342,
+     "ft660": 3.353,
+     "mph660": 251.44,
+     "ft1000": null,
+     "et": 4.185,
+     "mph": 292.65,
+     "first": 0.0165,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "1",
+     "mov": 0.0165
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.914,
+     "ft330": 2.372,
+     "ft660": 3.39,
+     "mph660": 252.43,
+     "ft1000": null,
+     "et": 4.24,
+     "mph": 271.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.886,
+     "ft330": 2.315,
+     "ft660": 3.318,
+     "mph660": 255.97,
+     "ft1000": null,
+     "et": 4.124,
+     "mph": 303.09,
+     "first": 0.1153,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.1153
+    }
+   ],
+   "note": null
+  }
+ ]
+}

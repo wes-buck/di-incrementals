@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/top-fuel/q4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "top-fuel",
+ "round": "Q4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.137,
+     "ft60": 0.894,
+     "ft330": 2.335,
+     "ft660": 3.971,
+     "mph660": 128.37,
+     "ft1000": null,
+     "et": 6.378,
+     "mph": 78.84,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Scott Farley",
+     "car": "F301",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.847,
+     "ft330": 2.134,
+     "ft660": 3.003,
+     "mph660": 292.9,
+     "ft1000": null,
+     "et": 3.741,
+     "mph": 310.2,
+     "first": 0.0484,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 0.862,
+     "ft330": 2.189,
+     "ft660": 3.065,
+     "mph660": 290.07,
+     "ft1000": null,
+     "et": 3.801,
+     "mph": 328.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.857,
+     "ft330": 2.171,
+     "ft660": 3.056,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.784,
+     "mph": 332.26,
+     "first": 0.0071,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.06,
+     "ft60": 0.857,
+     "ft330": 2.164,
+     "ft660": 3.064,
+     "mph660": 281.6,
+     "ft1000": null,
+     "et": 3.825,
+     "mph": 310.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 0.866,
+     "ft330": 2.178,
+     "ft660": 3.052,
+     "mph660": 290.63,
+     "ft1000": null,
+     "et": 3.788,
+     "mph": 326.32,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.846,
+     "ft330": 2.15,
+     "ft660": 3.051,
+     "mph660": 284.93,
+     "ft1000": null,
+     "et": 3.788,
+     "mph": 329.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.851,
+     "ft330": 2.146,
+     "ft660": 3.014,
+     "mph660": 295.92,
+     "ft1000": null,
+     "et": 3.734,
+     "mph": 332.75,
+     "first": 0.0743,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.108,
+     "ft60": 0.845,
+     "ft330": 2.127,
+     "ft660": 3.0,
+     "mph660": 293.54,
+     "ft1000": null,
+     "et": 3.722,
+     "mph": 332.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.848,
+     "ft330": 2.15,
+     "ft660": 3.017,
+     "mph660": 292.58,
+     "ft1000": null,
+     "et": 3.746,
+     "mph": 331.69,
+     "first": 0.0056,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.846,
+     "ft330": 2.141,
+     "ft660": 3.011,
+     "mph660": 293.15,
+     "ft1000": null,
+     "et": 3.734,
+     "mph": 334.32,
+     "first": 0.8423,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 0.851,
+     "ft330": 2.126,
+     "ft660": 3.238,
+     "mph660": 193.02,
+     "ft1000": null,
+     "et": 4.557,
+     "mph": 165.31,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.045,
+     "ft60": 0.833,
+     "ft330": 2.118,
+     "ft660": 2.977,
+     "mph660": 296.57,
+     "ft1000": null,
+     "et": 3.695,
+     "mph": 333.08,
+     "first": 1.9407,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 1.9407
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.84,
+     "ft330": 2.22,
+     "ft660": 3.797,
+     "mph660": 135.71,
+     "ft1000": null,
+     "et": 5.624,
+     "mph": 121.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

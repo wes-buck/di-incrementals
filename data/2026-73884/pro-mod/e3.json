@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.957,
+     "ft330": 2.529,
+     "ft660": 3.75,
+     "mph660": 202.79,
+     "ft1000": 4.802,
+     "et": 5.688,
+     "mph": 254.23,
+     "first": 0.3151,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.3151
+    },
+    {
+     "rt": 0.023,
+     "ft60": 0.972,
+     "ft330": 2.55,
+     "ft660": 3.789,
+     "mph660": 197.31,
+     "ft1000": 4.923,
+     "et": 6.02,
+     "mph": 195.96,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 48 percent, barometer 30.07 inches,\r\nadjusted altitude 2,764 feet, track temperature 129 degrees.\r\n\r\nStavrinos is 1 - 0 against Bond in prior events. \r\n\r\nStavrinos with the starting line advantage, but Bond has the lead by 330 feet and never trailed from\r\nthere on for the win.  He is advancing to his third final the season and 14th of his career.\r\n\r\nStavrinos used up a bullet on the top end."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 0.958,
+     "ft330": 2.538,
+     "ft660": 3.766,
+     "mph660": 199.14,
+     "ft1000": 4.825,
+     "et": 5.719,
+     "mph": 251.53,
+     "first": 0.4521,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.025,
+     "ft60": 0.964,
+     "ft330": 2.565,
+     "ft660": 3.811,
+     "mph660": 199.43,
+     "ft1000": 4.951,
+     "et": 6.229,
+     "mph": 151.63,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gray is 2 - 1 against Banaka in prior events. \r\n\r\nBanaka goes red to give Gray the win.  Gray is straight down the groove to advance to his first final\r\nthis season and 12th of his career."
+  }
+ ]
+}

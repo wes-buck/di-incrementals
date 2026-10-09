@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.016,
+     "ft60": 1.078,
+     "ft330": 2.898,
+     "ft660": 4.428,
+     "mph660": 160.21,
+     "ft1000": 5.765,
+     "et": 6.915,
+     "mph": 193.85,
+     "first": 0.0974,
+     "lane": "Left",
+     "win": true,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0974
+    },
+    {
+     "rt": 0.065,
+     "ft60": 1.093,
+     "ft330": 2.926,
+     "ft660": 4.473,
+     "mph660": 158.65,
+     "ft1000": 5.817,
+     "et": 6.963,
+     "mph": 195.31,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kelly Clontz",
+     "car": "1981",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 69 percent, barometer 29.87 inches, adjusted\r\naltitude 4,023 feet, track temperature 106 degrees.\r\n\r\nJohnson with the starting line advantage for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.005,
+     "ft60": 1.097,
+     "ft330": 2.914,
+     "ft660": 4.442,
+     "mph660": 160.86,
+     "ft1000": 5.769,
+     "et": 6.903,
+     "mph": 197.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.026,
+     "ft60": 1.1,
+     "ft330": 2.935,
+     "ft660": 4.484,
+     "mph660": 158.39,
+     "ft1000": 5.833,
+     "et": 6.986,
+     "mph": 194.58,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chris Bostick",
+     "car": "10",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Smith is 7 - 2 against Bostick in prior events. \r\n\r\nSmith goes red to give Bostick the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 1.051,
+     "ft330": 2.859,
+     "ft660": 4.386,
+     "mph660": 160.69,
+     "ft1000": 5.716,
+     "et": 6.851,
+     "mph": 197.45,
+     "first": 0.7671,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.7671
+    },
+    {
+     "rt": 0.027,
+     "ft60": 1.075,
+     "ft330": 2.913,
+     "ft660": 4.475,
+     "mph660": 153.11,
+     "ft1000": 6.041,
+     "et": 7.616,
+     "mph": 134.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gadson is 7 - 5 against Van Sant in prior events. \r\n\r\nGadson with a couple ticks on the tree and never trailed for the win.  He will have lane choice over Bostick\r\nin the semifinal.\r\n\r\nVan Sant pulled in the clutch."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.017,
+     "ft60": 1.046,
+     "ft330": 2.84,
+     "ft660": 4.355,
+     "mph660": 161.87,
+     "ft1000": 5.675,
+     "et": 6.804,
+     "mph": 198.67,
+     "first": 0.1415,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1415
+    },
+    {
+     "rt": 0.054,
+     "ft60": 1.078,
+     "ft330": 2.902,
+     "ft660": 4.433,
+     "mph660": 160.35,
+     "ft1000": 5.768,
+     "et": 6.908,
+     "mph": 196.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera is 2 - 0 against Gladstone in prior events. \r\n\r\nHerrera with the starting line advantage for the win.  He makes the quickest pass of the event for the win.\r\nHe will have lane choice over Johnson in the semifinal."
+  }
+ ]
+}

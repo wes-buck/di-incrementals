@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0404,
+     "ft60": 0.8796,
+     "ft330": 2.2557,
+     "ft660": 3.1723,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.8998,
+     "mph": 336.83,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0079,
+     "ft60": 0.8857,
+     "ft330": 2.2497,
+     "ft660": 3.1579,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.8964,
+     "mph": 327.75,
+     "first": 0.0359,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 0.0359
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,316 feet, track temperature 92 degrees.\r\n\r\nJ.R. Todd's  average R/T against Vandergriff is .058.\r\n\r\nJordan's average R/T against Todd is .055\r\n\r\nVandergriff is 4 - 2 against Todd in prior events. \r\n\r\nVandergriff with a great light and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0417,
+     "ft60": 0.8699,
+     "ft330": 2.2309,
+     "ft660": 3.1297,
+     "mph660": 284.81,
+     "ft1000": null,
+     "et": 3.8642,
+     "mph": 333.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0296,
+     "ft60": 0.8688,
+     "ft330": 2.2236,
+     "ft660": 3.134,
+     "mph660": 286.08,
+     "ft1000": null,
+     "et": 3.8642,
+     "mph": 333.09,
+     "first": 0.0121,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 0.0121
+    }
+   ],
+   "note": "Hagan is 34 - 28 against Beckman in prior events. \r\n\r\nMatt Hagan is 6 - 2 against Jack Beckman in semi-final races. In their 62 races overall Hagan has\r\n\"left first\"  38 times.\r\n\r\nHagan with the starting line advantage for the hole shot win as they run identical E.T.s and speeds.\r\nHe will have lane choice over Vandergriff in the final.  Hagan will leave here with the point lead."
+  }
+ ]
+}

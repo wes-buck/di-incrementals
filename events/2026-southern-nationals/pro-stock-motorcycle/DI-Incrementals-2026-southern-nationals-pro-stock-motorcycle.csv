@@ -1,0 +1,74 @@
+Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,1,Right,Charles Poskey,201,,0.045,1.124,2.961,4.504,158.46,5.849,7.005,193.18,1.124,1.837,1.543,1.345,1.156,2.501,34.72,yes,,13,14,14,13
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,2,Left,Geno Scali,351,,0.133,1.087,2.879,4.39,162.16,5.711,6.842,198.82,1.087,1.792,1.511,1.321,1.131,2.452,36.66,yes,,12,13,13,12
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,2,Right,Marc Ingwersen,370,,0.086,1.059,2.842,4.355,161.3,5.676,6.806,198.58,1.059,1.783,1.513,1.321,1.13,2.451,37.28,yes,,8,6,5,7
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,3,Left,Kelly Clontz,1981,,0.099,1.064,2.849,4.372,161.44,5.693,6.82,199.32,1.064,1.785,1.523,1.321,1.127,2.448,37.88,yes,,9,8,7,10
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,3,Right,Brayden Davis,5,,0.069,1.085,2.874,4.384,162.08,5.701,6.83,198.93,1.085,1.789,1.51,1.317,1.129,2.446,36.85,yes,,11,12,12,11
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,4,Left,Jianna Evaristo,7,,0.137,1.084,2.863,4.354,164.63,5.659,6.778,200.29,1.084,1.779,1.491,1.305,1.119,2.424,35.66,yes,,5,11,10,6
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,4,Right,Ryan Oehler,3284,,0.119,1.083,2.865,4.371,162.31,5.692,6.828,197.19,1.083,1.782,1.506,1.321,1.136,2.457,34.88,yes,,10,10,11,9
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,5,Left,Steve Johnson,9,,0.099,1.054,2.846,4.534,133.5,6.404,8.393,104.83,1.054,1.792,1.688,1.87,1.989,3.859,-28.67,no,330-660,14,3,6,
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,5,Right,Matt Smith,3,,0.052,1.056,2.823,4.305,165.46,5.596,6.699,203.03,1.056,1.767,1.482,1.291,1.103,2.394,37.57,yes,,1,5,3,2
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,6,Left,Angie Smith,4,,0.046,1.081,2.855,4.341,165.15,5.641,6.757,200.65,1.081,1.774,1.486,1.3,1.116,2.416,35.5,yes,,4,9,9,5
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,6,Right,Chase Van Sant,8,,0.046,1.055,2.831,4.338,162.43,5.652,6.778,199.35,1.055,1.776,1.507,1.314,1.126,2.44,36.92,yes,,6,4,4,4
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,7,Left,Clayton Howey,7002,,0.041,1.063,2.851,4.361,162.47,5.674,6.795,200.53,1.063,1.788,1.51,1.313,1.121,2.434,38.06,yes,,7,7,8,8
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,7,Right,John Hall,6,,,,,,,,,,,,,,,,,no,0-60,,,,
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,8,Left,Gaige Herrera,79,,0.043,1.045,2.806,4.298,164.27,5.602,6.723,200.23,1.045,1.761,1.492,1.304,1.121,2.425,35.96,yes,,2,2,1,1
+NHRA Southern Nationals,Pro Stock Motorcycle,Q1,8,Right,Richard Gadson,1,,0.057,1.04,2.813,4.311,163.65,5.615,6.73,201.37,1.04,1.773,1.498,1.304,1.115,2.419,37.72,yes,,3,1,2,3
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,1,Left,John Hall,6,,0.088,1.095,2.881,4.391,162.24,5.712,6.841,198.82,1.095,1.786,1.51,1.321,1.129,2.45,36.58,yes,,10,13,12,11
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,2,Left,Charles Poskey,201,,0.05,1.136,3.037,4.607,156.3,5.974,7.165,187.83,1.136,1.901,1.57,1.367,1.191,2.558,31.53,no,0-60,15,,,
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,2,Right,Steve Johnson,9,,0.117,1.041,2.824,4.348,160.27,5.685,6.837,193.9,1.041,1.783,1.524,1.337,1.152,2.489,33.63,yes,,9,1,3,5
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,3,Left,Brayden Davis,5,,0.046,1.075,2.897,4.432,159.51,5.771,6.932,187.6,1.075,1.822,1.535,1.339,1.161,2.5,28.09,yes,,14,9,14,14
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,3,Right,Geno Scali,351,,0.035,1.088,2.888,4.41,160.46,5.748,6.908,192.8,1.088,1.8,1.522,1.338,1.16,2.498,32.34,yes,,13,12,13,13
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,4,Left,Ryan Oehler,3284,,0.109,1.083,2.863,4.373,162.02,5.698,6.841,196.04,1.083,1.78,1.51,1.325,1.143,2.468,34.02,yes,,11,11,9,10
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,4,Right,Kelly Clontz,1981,,0.196,1.056,2.842,4.359,161.4,5.683,6.815,198.23,1.056,1.786,1.517,1.324,1.132,2.456,36.83,yes,,7,5,6,7
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,5,Left,Marc Ingwersen,370,,0.058,1.068,2.849,4.364,161.29,5.692,6.831,197.22,1.068,1.781,1.515,1.328,1.139,2.467,35.93,yes,,8,8,7,9
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,5,Right,Clayton Howey,7002,,0.055,1.052,2.83,4.342,161.67,5.664,6.795,198.5,1.052,1.778,1.512,1.322,1.131,2.453,36.83,yes,,5,4,5,4
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,6,Left,Chase Van Sant,8,,0.06,1.067,2.864,4.391,160.54,5.723,6.869,195.87,1.067,1.797,1.527,1.332,1.146,2.478,35.33,yes,,12,7,10,12
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,6,Right,Jianna Evaristo,7,,0.148,1.081,2.854,4.356,162.86,5.672,6.8,198.55,1.081,1.773,1.502,1.316,1.128,2.444,35.69,yes,,6,10,8,6
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,7,Left,Richard Gadson,1,,0.032,1.047,2.82,4.321,163.22,5.633,6.754,200.5,1.047,1.773,1.501,1.312,1.121,2.433,37.28,yes,,2,3,2,3
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,7,Right,Angie Smith,4,,0.057,1.096,2.866,4.361,163.67,5.669,6.788,200.17,1.096,1.77,1.495,1.308,1.119,2.427,36.5,yes,,4,14,11,8
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,8,Left,Matt Smith,3,,0.06,1.062,2.826,4.312,164.95,5.607,6.716,202.27,1.062,1.764,1.486,1.295,1.109,2.404,37.32,yes,,1,6,4,1
+NHRA Southern Nationals,Pro Stock Motorcycle,Q2,8,Right,Gaige Herrera,79,,0.061,1.045,2.813,4.316,162.57,5.632,6.765,197.97,1.045,1.768,1.503,1.316,1.133,2.449,35.4,yes,,3,2,1,2
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,1,Left,Charles Poskey,201,,0.339,1.153,3.023,4.57,158.82,5.918,7.075,194.13,1.153,1.87,1.547,1.348,1.157,2.505,35.31,no,0-60,12,,,
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,2,Left,Brayden Davis,5,,0.021,1.084,2.89,4.408,161.46,5.728,6.86,198.47,1.084,1.806,1.518,1.32,1.132,2.452,37.01,yes,,11,11,11,12
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,2,Right,Geno Scali,351,,0.057,1.095,2.894,4.402,162.06,5.72,6.852,198.06,1.095,1.799,1.508,1.318,1.132,2.45,36.0,yes,,10,12,12,10
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,3,Left,Ryan Oehler,3284,,0.121,1.056,2.846,4.363,161.19,5.767,7.211,146.05,1.056,1.79,1.517,1.404,1.444,2.848,-15.14,no,660-1000,13,4,6,8
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,3,Right,Steve Johnson,9,,0.095,1.06,2.852,4.487,140.42,6.242,8.077,114.26,1.06,1.792,1.635,1.755,1.835,3.59,-26.16,no,330-660,14,6,8,
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,4,Left,John Hall,6,,0.095,1.072,2.845,4.332,164.85,5.627,6.734,202.88,1.072,1.773,1.487,1.295,1.107,2.402,38.03,yes,,3,8,5,3
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,5,Left,Marc Ingwersen,370,,0.032,1.075,2.877,4.389,161.83,5.709,6.844,196.42,1.075,1.802,1.512,1.32,1.135,2.455,34.59,yes,,8,9,10,9
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,5,Right,Jianna Evaristo,7,,0.105,1.112,2.904,4.405,162.78,5.722,6.851,198.79,1.112,1.792,1.501,1.317,1.129,2.446,36.01,yes,,9,13,13,11
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,6,Left,Matt Smith,3,,0.031,1.056,2.823,4.312,165.13,5.611,6.728,199.29,1.056,1.767,1.489,1.299,1.117,2.416,34.16,yes,,2,5,2,2
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,6,Right,Angie Smith,4,,0.104,1.082,2.853,4.348,163.26,5.653,6.772,199.7,1.082,1.771,1.495,1.305,1.119,2.424,36.44,yes,,5,10,9,6
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,7,Left,Clayton Howey,7002,,0.014,1.054,2.833,4.34,162.39,5.654,6.775,200.35,1.054,1.779,1.507,1.314,1.121,2.435,37.96,yes,,6,3,3,5
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,7,Right,Chase Van Sant,8,,0.05,1.06,2.846,4.357,162.27,5.671,6.794,199.7,1.06,1.786,1.511,1.314,1.123,2.437,37.43,yes,,7,7,7,7
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,8,Left,Richard Gadson,1,,0.045,1.048,2.835,4.338,163.35,5.645,6.761,201.61,1.048,1.787,1.503,1.307,1.116,2.423,38.26,yes,,4,2,4,4
+NHRA Southern Nationals,Pro Stock Motorcycle,Q3,8,Right,Gaige Herrera,79,,0.032,1.044,2.809,4.3,164.45,5.596,6.705,202.3,1.044,1.765,1.491,1.296,1.109,2.405,37.85,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,1,Left,Marc Ingwersen,370,L,0.024,1.128,3.004,4.558,157.43,5.917,7.088,191.38,1.128,1.876,1.554,1.359,1.171,2.53,33.95,yes,,12,14,12,12
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,1,Right,Chase Van Sant,8,W,0.048,1.095,2.901,4.418,161.29,5.744,6.883,196.96,1.095,1.806,1.517,1.326,1.139,2.465,35.67,yes,,7,7,9,8
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,2,Left,Brayden Davis,5,L,0.047,1.073,2.965,4.903,111.48,7.107,9.392,92.13,1.073,1.892,1.938,2.204,2.285,4.489,-19.35,no,60-330,14,4,,
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,2,Right,Angie Smith,4,W,0.061,1.098,2.868,4.355,164.25,5.661,6.779,200.02,1.098,1.77,1.487,1.306,1.118,2.424,35.77,yes,,4,10,5,4
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,3,Left,Kelly Clontz,1981,L,0.11,1.095,2.897,4.415,161.83,5.745,7.079,157.65,1.095,1.802,1.518,1.33,1.334,2.664,-4.18,no,1000-1320,11,8,7,7
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,3,Right,Jianna Evaristo,7,W,0.055,1.09,2.984,4.584,155.81,5.937,7.091,194.16,1.09,1.894,1.6,1.353,1.154,2.507,38.35,no,60-330,13,6,,
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,4,Left,Ryan Oehler,3284,L,0.079,1.085,2.855,4.359,162.29,5.677,6.806,198.41,1.085,1.77,1.504,1.318,1.129,2.447,36.12,yes,,5,5,4,5
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,4,Right,Clayton Howey,7002,W,0.022,1.058,2.83,4.336,162.53,5.65,6.775,199.58,1.058,1.772,1.506,1.314,1.125,2.439,37.05,yes,,3,3,2,3
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,5,Left,John Hall,6,W,0.031,1.097,2.881,4.38,163.18,5.692,6.809,200.74,1.097,1.784,1.499,1.312,1.117,2.429,37.56,yes,,6,9,6,6
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,5,Right,Steve Johnson,9,L,0.031,1.105,2.898,4.423,160.35,5.759,6.907,195.19,1.105,1.793,1.525,1.336,1.148,2.484,34.84,yes,,8,12,8,9
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,6,Left,Geno Scali,351,L,0.045,1.115,2.924,4.448,160.18,5.788,6.94,194.77,1.115,1.809,1.524,1.34,1.152,2.492,34.59,yes,,10,13,11,10
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,6,Right,Richard Gadson,1,W,0.032,1.057,2.835,4.335,163.28,5.642,6.759,201.4,1.057,1.778,1.5,1.307,1.117,2.424,38.12,yes,,2,2,3,2
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,7,Left,Charles Poskey,201,L,0.014,1.102,2.919,4.449,160.12,5.788,6.935,195.53,1.102,1.817,1.53,1.339,1.147,2.486,35.41,yes,,9,11,10,11
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,7,Right,Gaige Herrera,79,W,0.075,1.046,2.799,4.286,164.35,5.587,6.707,199.52,1.046,1.753,1.487,1.301,1.12,2.421,35.17,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock Motorcycle,E1,8,Right,Matt Smith,3,W,0.037,1.56,5.353,10.599,40.49,16.902,24.124,27.76,1.56,3.793,5.246,6.303,7.222,13.525,-12.73,no,0-60,15,,,
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,1,Left,John Hall,6,L,0.045,1.097,2.875,4.373,163.0,5.685,6.804,200.8,1.097,1.778,1.498,1.312,1.119,2.431,37.8,yes,,6,6,6,6
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,1,Right,Angie Smith,4,W,0.03,1.077,2.83,4.316,164.39,5.621,6.745,198.96,1.077,1.753,1.486,1.305,1.124,2.429,34.57,yes,,2,5,2,2
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,2,Left,Matt Smith,3,W,0.037,1.06,2.81,4.288,165.7,5.58,6.685,203.06,1.06,1.75,1.478,1.292,1.105,2.397,37.36,yes,,1,1,1,1
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,2,Right,Chase Van Sant,8,L,0.044,1.103,2.967,4.511,158.69,5.852,7.101,170.0,1.103,1.864,1.544,1.341,1.249,2.59,11.31,no,1000-1320,8,7,8,8
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,3,Left,Clayton Howey,7002,L,-0.005,1.074,2.855,4.364,162.59,5.679,6.801,200.26,1.074,1.781,1.509,1.315,1.122,2.437,37.67,yes,,5,4,5,5
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,3,Right,Richard Gadson,1,W,0.021,1.061,2.839,4.345,162.74,5.654,6.77,201.4,1.061,1.778,1.506,1.309,1.116,2.425,38.66,yes,,3,2,4,4
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,4,Left,Jianna Evaristo,7,L,0.054,1.103,2.904,4.407,162.74,5.725,6.847,200.44,1.103,1.801,1.503,1.318,1.122,2.44,37.7,yes,,7,8,7,7
+NHRA Southern Nationals,Pro Stock Motorcycle,E2,4,Right,Gaige Herrera,79,W,0.054,1.063,2.832,4.335,162.31,5.649,6.775,199.4,1.063,1.769,1.503,1.314,1.126,2.44,37.09,yes,,4,3,3,3
+NHRA Southern Nationals,Pro Stock Motorcycle,E3,1,Left,Gaige Herrera,79,L,0.049,1.072,2.847,4.344,163.2,5.657,6.783,199.14,1.072,1.775,1.497,1.313,1.126,2.439,35.94,yes,,3,3,3,3
+NHRA Southern Nationals,Pro Stock Motorcycle,E3,1,Right,Richard Gadson,1,W,0.028,1.05,2.825,4.329,162.59,5.639,6.756,201.46,1.05,1.775,1.504,1.31,1.117,2.427,38.87,yes,,2,1,1,2
+NHRA Southern Nationals,Pro Stock Motorcycle,E3,2,Left,Angie Smith,4,L,0.021,1.094,2.898,4.409,162.06,5.731,6.867,196.67,1.094,1.804,1.511,1.322,1.136,2.458,34.61,yes,,4,4,4,4
+NHRA Southern Nationals,Pro Stock Motorcycle,E3,2,Right,Matt Smith,3,W,0.036,1.061,2.827,4.322,164.13,5.62,6.729,202.61,1.061,1.766,1.495,1.298,1.109,2.407,38.48,yes,,1,2,2,1
+NHRA Southern Nationals,Pro Stock Motorcycle,E4,1,Left,Richard Gadson,1,L,0.044,1.076,2.86,4.369,162.08,5.695,6.834,193.24,1.076,1.784,1.509,1.326,1.139,2.465,31.16,yes,,2,2,2,2
+NHRA Southern Nationals,Pro Stock Motorcycle,E4,1,Right,Matt Smith,3,W,0.067,1.061,2.824,4.313,164.49,5.613,6.724,202.06,1.061,1.763,1.489,1.3,1.111,2.411,37.57,yes,,1,1,1,1

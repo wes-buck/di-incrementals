@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.893,
+     "ft330": 2.276,
+     "ft660": 3.196,
+     "mph660": 279.79,
+     "ft1000": null,
+     "et": 3.945,
+     "mph": 324.75,
+     "first": 0.0267,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": 0.0267
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.895,
+     "ft330": 2.293,
+     "ft660": 3.22,
+     "mph660": 278.35,
+     "ft1000": null,
+     "et": 3.965,
+     "mph": 328.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 57 percent, barometer 29.80 inches, adjusted\r\naltitude 3,131 feet. \r\n\r\nGreen is 4 - 2 against DeJoria in prior events and Green is 1 - 0 against DeJoria in prior final rounds. \r\n\r\nGreen with the starting line advantage and never trailed for the win.  Chad Green's MOV: 0.0267 seconds\r\n(approximately 13 feet).  Green wins his fourth Wally and his second this season."
+  }
+ ]
+}

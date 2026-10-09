@@ -1,0 +1,362 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Haas",
+     "car": "328",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "BYE",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Haas",
+     "car": "328",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.8908,
+     "ft330": 2.2946,
+     "ft660": 3.2196,
+     "mph660": 279.5,
+     "ft1000": null,
+     "et": 3.9704,
+     "mph": 325.14,
+     "first": 0.1362,
+     "lane": "Left",
+     "win": true,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "--",
+     "mov": 0.1362
+    },
+    {
+     "rt": 0.0917,
+     "ft60": 0.9063,
+     "ft330": 2.3273,
+     "ft660": 3.2841,
+     "mph660": 268.34,
+     "ft1000": null,
+     "et": 4.0719,
+     "mph": 307.8,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Haas",
+     "car": "328",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Green kept it hooked up to make his quickest pass this weekend, he used up and engine in the shut\r\ndown area.  He moves up the ladder three spots.\r\n\r\nHaas was straight down the groove with a nice pass to move up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0948,
+     "ft60": 0.8831,
+     "ft330": 2.2583,
+     "ft660": 3.5165,
+     "mph660": 172.55,
+     "ft1000": null,
+     "et": 4.9398,
+     "mph": 156.74,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.8747,
+     "ft330": 2.9,
+     "ft660": 5.5824,
+     "mph660": 83.04,
+     "ft1000": null,
+     "et": 8.4293,
+     "mph": 77.59,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Richards drives into tire shake and clicked it off.\r\n\r\nVandergriff shook right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0568,
+     "ft60": 0.8843,
+     "ft330": 2.2765,
+     "ft660": 3.1982,
+     "mph660": 284.63,
+     "ft1000": null,
+     "et": 3.9349,
+     "mph": 329.91,
+     "first": 7.8112,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 7.8112
+    },
+    {
+     "rt": 0.0628,
+     "ft60": 1.3603,
+     "ft330": 5.3615,
+     "ft660": 8.7788,
+     "mph660": 74.26,
+     "ft1000": null,
+     "et": 11.7401,
+     "mph": 79.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hagan kept it hooked up to move into the top half of the show.\r\n\r\nGreen is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0392,
+     "ft60": 0.8735,
+     "ft330": 2.2306,
+     "ft660": 3.128,
+     "mph660": 287.17,
+     "ft1000": null,
+     "et": 3.8616,
+     "mph": 332.1,
+     "first": 4.6699,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 4.6699
+    },
+    {
+     "rt": 0.0798,
+     "ft60": 0.8871,
+     "ft330": 3.0605,
+     "ft660": 5.7775,
+     "mph660": 83.4,
+     "ft1000": null,
+     "et": 8.4909,
+     "mph": 88.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman launched hard and kept it hooked up to go to the number one spot.\r\n\r\nCapps shook right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0886,
+     "ft60": 0.8865,
+     "ft330": 2.9066,
+     "ft660": 5.6192,
+     "mph660": 80.5,
+     "ft1000": null,
+     "et": 8.5145,
+     "mph": 79.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0798,
+     "ft60": 0.9004,
+     "ft330": 2.2805,
+     "ft660": 3.1889,
+     "mph660": 282.31,
+     "ft1000": null,
+     "et": 3.9333,
+     "mph": 327.99,
+     "first": 4.59,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": 4.59
+    }
+   ],
+   "note": "DeJoria with tire shake right at the hit and clicked it off.\r\n\r\nHyde is straight down the groove and makes a good pass.  He will not improve, but makes the second\r\nquickest pass of the session."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0591,
+     "ft60": 0.8872,
+     "ft330": 2.832,
+     "ft660": 5.3725,
+     "mph660": 86.66,
+     "ft1000": null,
+     "et": 8.1038,
+     "mph": 83.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan WIlkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.034,
+     "ft60": 0.8691,
+     "ft330": 2.2326,
+     "ft660": 3.1275,
+     "mph660": 288.28,
+     "ft1000": null,
+     "et": 3.8599,
+     "mph": 331.61,
+     "first": 4.269,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 4.269
+    }
+   ],
+   "note": "Wilkerson shook right at the hit and clicked it off.\r\n\r\nProck launched hard and kept it hooked up to go to the number one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0241,
+     "ft60": 0.8796,
+     "ft330": 2.2545,
+     "ft660": 3.2837,
+     "mph660": 220.7,
+     "ft1000": null,
+     "et": 4.3927,
+     "mph": 202.34,
+     "first": 4.6885,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 4.6885
+    },
+    {
+     "rt": 0.0738,
+     "ft60": 0.8857,
+     "ft330": 3.0148,
+     "ft660": 5.9302,
+     "mph660": 74.27,
+     "ft1000": null,
+     "et": 9.0315,
+     "mph": 75.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Todd with a good pass early, but then started to spin the tires on the top end and clicked it off.\r\n\r\nPedregon is up in smoke right at the hi and clicked it off"
+  }
+ ]
+}

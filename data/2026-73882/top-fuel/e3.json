@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.861,
+     "ft330": 2.163,
+     "ft660": 3.049,
+     "mph660": 289.2,
+     "ft1000": null,
+     "et": 3.777,
+     "mph": 331.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.84,
+     "ft330": 2.133,
+     "ft660": 2.994,
+     "mph660": 294.24,
+     "ft1000": null,
+     "et": 3.717,
+     "mph": 332.51,
+     "first": 0.0598,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.0598
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 57 percent, barometer 30.03 inches, adjusted\r\naltitude 1,673 feet, track temperature 111 degrees.\r\n\r\nLeah Pruett is 26 - 36 in Rd. 3 races.\r\n\r\nHart is 0 - 2 against Pruett this year.\r\n\r\nHart is 5 - 3 against Pruett in prior events. \r\n\r\nHart with a tick advantage, but never trailed from there on for the win.  She is just off her quickest pass of\r\nthe weekend for the win.  She is advancing to her 28th final round and third this season."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.051,
+     "ft60": 0.847,
+     "ft330": 2.311,
+     "ft660": 3.924,
+     "mph660": 130.32,
+     "ft1000": null,
+     "et": 5.897,
+     "mph": 109.57,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.06,
+     "ft60": 0.834,
+     "ft330": 2.129,
+     "ft660": 3.004,
+     "mph660": 292.65,
+     "ft1000": null,
+     "et": 3.726,
+     "mph": 334.57,
+     "first": 2.1625,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 2.1625
+    }
+   ],
+   "note": "This is the 85th meeting between Doug Kalitta and Antron Brown and that is the 2nd most between any two TF\r\nracers. (Schumacher & Kalitta - 98)\r\n\r\nIn their 83 previous races Antron has \"left first: 57 times.\r\n\r\nBrown is 44 - 39 against Kalitta in prior events. \r\n\r\nBrown with the starting line advantage, but lost traction and pedaled it but couldn't get it to hook up.\r\n\r\nKalitta will give up lane choice to Pruett in the final.  He is advancing to his sixth final round this season\r\nand 132nd of his career."
+  }
+ ]
+}

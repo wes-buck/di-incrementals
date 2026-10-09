@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.131,
+     "ft60": 1.143,
+     "ft330": 3.815,
+     "ft660": 5.792,
+     "mph660": 123.43,
+     "ft1000": null,
+     "et": 7.878,
+     "mph": 104.28,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 1.243,
+     "ft330": 3.781,
+     "ft660": 5.158,
+     "mph660": 192.38,
+     "ft1000": null,
+     "et": 6.188,
+     "mph": 245.67,
+     "first": 1.7467,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 1.7467
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.07 inches, adjusted\r\naltitude 1,292 feet, track temperature 121 degrees.\r\n\r\nDeJoria is 11 - 8 against Todd in prior events. \r\n\r\nTodd with the starting line advantage, but they both are up in smoke at the same time.  They both pedal and\r\nTodd gets it hooked up enough to get the win"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.123,
+     "ft60": 0.923,
+     "ft330": 2.376,
+     "ft660": 3.354,
+     "mph660": 263.92,
+     "ft1000": null,
+     "et": 4.151,
+     "mph": 306.53,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.896,
+     "ft330": 2.295,
+     "ft660": 3.224,
+     "mph660": 279.67,
+     "ft1000": null,
+     "et": 3.964,
+     "mph": 331.36,
+     "first": 0.2207,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.2207
+    }
+   ],
+   "note": "This is the first time Green and Vandergriff have faced each other in eliminations.\r\n\r\nVandergriff with the starting line advantage and never trailed for the win.  He will have lane choice over\r\nTodd in the final."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.888,
+     "ft330": 2.291,
+     "ft660": 3.227,
+     "mph660": 275.34,
+     "ft1000": null,
+     "et": 3.982,
+     "mph": 322.73,
+     "first": 0.7213,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "4",
+     "mov": 0.7213
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.895,
+     "ft330": 2.496,
+     "ft660": 3.751,
+     "mph660": 215.44,
+     "ft1000": null,
+     "et": 4.698,
+     "mph": 243.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 67 percent, barometer 29.94 inches, adjusted\r\naltitude 3,219 feet, track temperature 114 degrees.\r\n\r\nProck is 6 - 4 against Beckman in prior events. \r\n\r\nBeckman with the starting line advantage and never trailed for the win.\r\n\r\nProck is up in smoke and pedaled it a couple times, but couldn't get it to hook up."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.892,
+     "ft330": 2.293,
+     "ft660": 3.523,
+     "mph660": 178.45,
+     "ft1000": null,
+     "et": 4.905,
+     "mph": 160.81,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.898,
+     "ft330": 2.309,
+     "ft660": 3.272,
+     "mph660": 269.4,
+     "ft1000": null,
+     "et": 4.051,
+     "mph": 310.13,
+     "first": 0.8523,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "3",
+     "mov": 0.8523
+    }
+   ],
+   "note": "Capps is 32 - 6 against DeJoria in prior events. \r\n\r\nDeJoria with a couple ticks on the tree, but lost traction right at the hit and clicked it off.\r\n\r\nCapps is straight down the groove for the win.  He will give up lane choice to Beckman in the final."
+  }
+ ]
+}

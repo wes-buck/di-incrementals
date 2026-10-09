@@ -1,0 +1,84 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73874/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73874",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NHRA 4-Wide Nationals",
+ "event_date": "2026-04-23",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.855,
+     "ft330": 2.142,
+     "ft660": 2.998,
+     "mph660": 296.18,
+     "ft1000": null,
+     "et": 3.724,
+     "mph": 329.42,
+     "first": null,
+     "lane": "1",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": 0.0146
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.861,
+     "ft330": 2.156,
+     "ft660": 3.014,
+     "mph660": 297.22,
+     "ft1000": null,
+     "et": 3.727,
+     "mph": 338.51,
+     "first": null,
+     "lane": "2",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0146
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.84,
+     "ft330": 2.125,
+     "ft660": 2.98,
+     "mph660": 297.81,
+     "ft1000": null,
+     "et": 3.692,
+     "mph": 342.98,
+     "first": 0.0146,
+     "lane": "3",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 1.01,
+     "ft330": 4.15,
+     "ft660": 7.482,
+     "mph660": 72.43,
+     "ft1000": null,
+     "et": 10.663,
+     "mph": 66.89,
+     "first": null,
+     "lane": "4",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches,\r\nadjusted altitude 1,877 feet, track temperature 102 degrees.\r\n\r\nKalitta is third off the line and the power to chase them down for the win.  He has a big top end\r\nspeed.  Doug Kalitta's incremental times: 60ft-0.840 sec., 330ft-2.125, 660ft-2.980/297.81 mph. \r\nHe sets the track speed record.  This is the third fastest pass in Top Fuel.\r\nHe wins first Wally this season and 60th of his career.\r\nLangdon with the starting line advantage and the power to hold on for the hole shot win over Pruett\r\nfor the runner-up.\r\nPruett is straight down the groove for third place.\r\nStewart is second off the line, but up in smoke right at the hit and clicks it off.\r\n\r\nFinish Order & Margins: 1. Doug Kalitta was 0.0146 sec./about 7 feet ahead of 2. Shawn Langdon, who\r\nwas 0.040 sec./about 19 feet ahead of 3. Leah Pruett, who was 6.901 sec./more than 100 feet ahead of\r\n4. Tony Stewart Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches,\r\nadjusted altitude 1,877 feet, track temperature 102 degrees.\r\n\r\nKalitta is third off the line and the power to chase them down for the win.  He has a big top end\r\nspeed.  Doug Kalitta's incremental times: 60ft-0.840 sec., 330ft-2.125, 660ft-2.980/297.81 mph. \r\nHe sets the track speed record.  This is the third fastest pass in Top Fuel.\r\nHe wins first Wally this season and 60th of his career.\r\nLangdon with the starting line advantage and the power to hold on for the hole shot win over Pruett\r\nfor the runner-up.\r\nPruett is straight down the groove for third place.\r\nStewart is second off the line, but up in smoke right at the hit and clicks it off.\r\n\r\nFinish Order & Margins: 1. Doug Kalitta was 0.0146 sec./about 7 feet ahead of 2. Shawn Langdon, who\r\nwas 0.040 sec./about 19 feet ahead of 3. Leah Pruett, who was 6.901 sec./more than 100 feet ahead of\r\n4. Tony Stewart"
+  }
+ ]
+}

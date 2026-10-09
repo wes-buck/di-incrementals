@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/q3",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "funny-car",
+ "round": "Q3",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.894,
+     "ft330": 2.75,
+     "ft660": 5.275,
+     "mph660": 83.83,
+     "ft1000": null,
+     "et": 8.15,
+     "mph": 78.5,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 63 percent, barometer 29.87 inches, adjusted\r\naltitude 1,993 feet. \r\n\r\nVandergriff lost traction right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.109,
+     "ft60": 0.895,
+     "ft330": 2.565,
+     "ft660": 4.708,
+     "mph660": 99.33,
+     "ft1000": null,
+     "et": 7.184,
+     "mph": 93.3,
+     "first": 0.4698,
+     "lane": "Left",
+     "win": true,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.104,
+     "ft60": 0.885,
+     "ft330": 2.651,
+     "ft660": 4.992,
+     "mph660": 90.84,
+     "ft1000": null,
+     "et": 7.658,
+     "mph": 86.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Green lost traction early and clicked it off.\r\n\r\nDeJori is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.104,
+     "ft60": 1.666,
+     "ft330": 6.417,
+     "ft660": 10.61,
+     "mph660": 60.51,
+     "ft1000": null,
+     "et": 14.335,
+     "mph": 59.66,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.158,
+     "ft60": 0.891,
+     "ft330": 2.665,
+     "ft660": 5.06,
+     "mph660": 87.48,
+     "ft1000": null,
+     "et": 7.814,
+     "mph": 85.36,
+     "first": 6.4674,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson is up in smoke right at the hit and clicked it off.\r\n\r\nRichards started to lose taction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 0.902,
+     "ft330": 2.84,
+     "ft660": 5.525,
+     "mph660": 77.48,
+     "ft1000": null,
+     "et": 8.988,
+     "mph": 59.82,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.911,
+     "ft330": 2.508,
+     "ft660": 4.241,
+     "mph660": 131.19,
+     "ft1000": null,
+     "et": 5.847,
+     "mph": 147.18,
+     "first": 3.1567,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Hyde los traction and clicked it off.\r\n\r\nProck started to haze the tires on the top end and clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.873,
+     "ft330": 2.239,
+     "ft660": 3.145,
+     "mph660": 283.79,
+     "ft1000": null,
+     "et": 3.894,
+     "mph": 323.89,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Green launched hard and kept it hooked up with a great pass.  Chad Green's incremental times: 60ft-0.873 sec.,"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.88,
+     "ft330": 2.798,
+     "ft660": 5.347,
+     "mph660": 85.62,
+     "ft1000": null,
+     "et": 8.125,
+     "mph": 82.27,
+     "first": 5.2828,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 5.2828
+    },
+    {
+     "rt": 0.086,
+     "ft60": 1.451,
+     "ft330": 5.579,
+     "ft660": 9.326,
+     "mph660": 63.9,
+     "ft1000": null,
+     "et": 13.416,
+     "mph": 51.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman lost traction and clicked it off.\r\n\r\nHagan with severe tire shake right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.876,
+     "ft330": 2.778,
+     "ft660": 5.257,
+     "mph660": 89.67,
+     "ft1000": null,
+     "et": 7.749,
+     "mph": 94.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.089,
+     "ft60": 0.872,
+     "ft330": 2.245,
+     "ft660": 3.225,
+     "mph660": 236.42,
+     "ft1000": null,
+     "et": 4.261,
+     "mph": 217.07,
+     "first": 3.4904,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 3.4904
+    }
+   ],
+   "note": "Capps lost traction and clicked it off.\r\n\r\nTodd started to haze the tires on the top end and clicked it off."
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.904,
+     "ft330": 2.332,
+     "ft660": 3.292,
+     "mph660": 268.6,
+     "ft1000": null,
+     "et": 4.076,
+     "mph": 310.13,
+     "first": 0.5345,
+     "lane": "Left",
+     "win": true,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "7",
+     "mov": 0.5345
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.887,
+     "ft330": 2.294,
+     "ft660": 3.387,
+     "mph660": 204.54,
+     "ft1000": null,
+     "et": 4.595,
+     "mph": 184.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 38 percent, barometer 30.10 inches, adjusted\r\naltitude 1,132 feet, track temperature 115 degrees.\r\n\r\nC. Green is 1 - 0 against H. Green in prior events. \r\n\r\nHunter with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 1.225,
+     "ft330": 4.971,
+     "ft660": 8.634,
+     "mph660": 67.27,
+     "ft1000": null,
+     "et": 12.015,
+     "mph": 63.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.885,
+     "ft330": 2.287,
+     "ft660": 3.216,
+     "mph660": 279.67,
+     "ft1000": null,
+     "et": 3.956,
+     "mph": 332.34,
+     "first": 8.0563,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 8.0563
+    }
+   ],
+   "note": "This is the first time Hyde and Vandergriff have faced each other in eliminations. \r\n\r\nHyde with the starting line advantage, but was up in smoke right at the hit and clicked it off.  He will have\r\nlane choice over Hunter Green in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 1.391,
+     "ft330": 4.522,
+     "ft660": 7.422,
+     "mph660": 79.85,
+     "ft1000": null,
+     "et": 10.211,
+     "mph": 83.83,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.894,
+     "ft330": 2.31,
+     "ft660": 3.255,
+     "mph660": 275.06,
+     "ft1000": null,
+     "et": 4.016,
+     "mph": 314.68,
+     "first": 6.1894,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "10",
+     "mov": 6.1894
+    }
+   ],
+   "note": "Hagan is 22 - 12 against DeJoria in prior events. \r\n\r\nHagan with the starting line advantage, but was up in smoke right at the hit and clicked it off.  DeJoria with\r\na good pass early, appearing to haze the tires on the top end and gets the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.089,
+     "ft60": 0.894,
+     "ft330": 2.297,
+     "ft660": 3.233,
+     "mph660": 279.27,
+     "ft1000": null,
+     "et": 3.972,
+     "mph": 335.07,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Todd with the bye and he launched hard and kept it hooked up to get lane choice over DeJoria in the semifinal."
+  }
+ ]
+}

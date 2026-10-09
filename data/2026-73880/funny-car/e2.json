@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.901,
+     "ft330": 2.461,
+     "ft660": 3.911,
+     "mph660": 149.58,
+     "ft1000": null,
+     "et": 5.56,
+     "mph": 133.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.894,
+     "ft330": 2.276,
+     "ft660": 3.2,
+     "mph660": 282.3,
+     "ft1000": null,
+     "et": 3.943,
+     "mph": 329.91,
+     "first": 1.6193,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "3",
+     "mov": 1.6193
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 70 percent, barometer 29.94 inches, adjusted\r\naltitude 3,067 feet, track temperature 114 degrees.\r\n\r\nCapps is 21 - 12 against Todd in prior events. \r\n\r\nCapps with a couple ticks on the tree and never trailed for the win.\r\n\r\nTodd is up in smoke early and pedaled it one time, but was up in smoke again."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 1.37,
+     "ft330": 4.814,
+     "ft660": 8.351,
+     "mph660": 66.98,
+     "ft1000": null,
+     "et": 11.55,
+     "mph": 76.39,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.889,
+     "ft330": 2.29,
+     "ft660": 3.226,
+     "mph660": 277.89,
+     "ft1000": null,
+     "et": 3.981,
+     "mph": 323.19,
+     "first": 7.5421,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "4",
+     "mov": 7.5421
+    }
+   ],
+   "note": "Beckman is 8 - 4 against Wilkerson in prior events. \r\n\r\nWilkerson with the starting line advantage, but is up in moke right at the hit and clicked it off.\r\n\r\nBeckman is straight down the groove with a good clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 1.482,
+     "ft330": 6.064,
+     "ft660": 10.624,
+     "mph660": 53.21,
+     "ft1000": null,
+     "et": 14.588,
+     "mph": 62.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.896,
+     "ft330": 2.284,
+     "ft660": 3.213,
+     "mph660": 279.61,
+     "ft1000": null,
+     "et": 3.958,
+     "mph": 329.18,
+     "first": 0.6133,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": 0.6133
+    }
+   ],
+   "note": "Green is 5 - 2 against DeJoria in prior events. \r\n\r\nGreen with the starting line advantage, but is up in smoke right at the hit.  the car is sideways before he\r\nclicked it off.\r\n\r\nDeJoria is straight down the groove with a good clean pass for the win.  She will give up lane choice to Capps\r\nin the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.051,
+     "ft60": 0.885,
+     "ft330": 2.268,
+     "ft660": 3.203,
+     "mph660": 276.92,
+     "ft1000": null,
+     "et": 3.948,
+     "mph": 326.95,
+     "first": 4.9101,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 4.9101
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.946,
+     "ft330": 3.358,
+     "ft660": 6.118,
+     "mph660": 83.51,
+     "ft1000": null,
+     "et": 8.81,
+     "mph": 85.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Del Worsham",
+     "car": "750",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Prock and Worsham have faced each other in eliminations. \r\n\r\nProck with the starting line advantage and never trailed for the win.   He will have lane choice over Beckman\r\nin the semifinal.\r\n\r\nWorsham is up  in smoke right at the hit and pedals it a couple times.  The second time he pedaled it the car\r\nwas completely sideway and took out the 330-foot timing block"
+  }
+ ]
+}

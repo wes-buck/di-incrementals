@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/top-fuel/q1",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "top-fuel",
+ "round": "Q1",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.123,
+     "ft60": 0.868,
+     "ft330": 2.415,
+     "ft660": 4.405,
+     "mph660": 104.69,
+     "ft1000": null,
+     "et": 6.942,
+     "mph": 83.45,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron August Jr",
+     "car": "7727",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.88,
+     "ft330": 2.604,
+     "ft660": 4.163,
+     "mph660": 136.36,
+     "ft1000": null,
+     "et": 6.331,
+     "mph": 89.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.878,
+     "ft330": 2.227,
+     "ft660": 3.132,
+     "mph660": 283.01,
+     "ft1000": null,
+     "et": 3.879,
+     "mph": 324.2,
+     "first": 2.4732,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.873,
+     "ft330": 2.38,
+     "ft660": 4.265,
+     "mph660": 111.45,
+     "ft1000": null,
+     "et": 6.61,
+     "mph": 91.15,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.86,
+     "ft330": 2.25,
+     "ft660": 3.803,
+     "mph660": 135.74,
+     "ft1000": null,
+     "et": 5.711,
+     "mph": 112.54,
+     "first": 0.9021,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.895,
+     "ft330": 2.26,
+     "ft660": 3.513,
+     "mph660": 169.3,
+     "ft1000": null,
+     "et": 5.016,
+     "mph": 144.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.132,
+     "ft60": 0.858,
+     "ft330": 2.213,
+     "ft660": 3.14,
+     "mph660": 278.29,
+     "ft1000": null,
+     "et": 3.893,
+     "mph": 320.66,
+     "first": 1.0331,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.096,
+     "ft60": 0.88,
+     "ft330": 2.253,
+     "ft660": 3.67,
+     "mph660": 149.7,
+     "ft1000": null,
+     "et": 5.339,
+     "mph": 132.82,
+     "first": 0.6818,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.866,
+     "ft330": 2.33,
+     "ft660": 4.051,
+     "mph660": 124.94,
+     "ft1000": null,
+     "et": 6.044,
+     "mph": 113.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.846,
+     "ft330": 2.172,
+     "ft660": 3.072,
+     "mph660": 285.23,
+     "ft1000": null,
+     "et": 3.815,
+     "mph": 325.85,
+     "first": 0.4858,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.841,
+     "ft330": 2.144,
+     "ft660": 3.151,
+     "mph660": 221.85,
+     "ft1000": null,
+     "et": 4.294,
+     "mph": 188.33,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.851,
+     "ft330": 2.167,
+     "ft660": 3.066,
+     "mph660": 283.43,
+     "ft1000": null,
+     "et": 3.808,
+     "mph": 325.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.848,
+     "ft330": 2.167,
+     "ft660": 3.068,
+     "mph660": 286.32,
+     "ft1000": null,
+     "et": 3.798,
+     "mph": 332.59,
+     "first": 0.0185,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.861,
+     "ft330": 2.329,
+     "ft660": 4.096,
+     "mph660": 119.61,
+     "ft1000": null,
+     "et": 6.271,
+     "mph": 98.66,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.867,
+     "ft330": 2.184,
+     "ft660": 3.07,
+     "mph660": 289.76,
+     "ft1000": null,
+     "et": 3.799,
+     "mph": 331.85,
+     "first": 2.5521,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

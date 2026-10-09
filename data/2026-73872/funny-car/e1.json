@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.892,
+     "ft330": 2.386,
+     "ft660": 3.46,
+     "mph660": 218.34,
+     "ft1000": null,
+     "et": 4.583,
+     "mph": 198.7,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.883,
+     "ft330": 2.292,
+     "ft660": 3.245,
+     "mph660": 271.68,
+     "ft1000": null,
+     "et": 4.014,
+     "mph": 315.64,
+     "first": 0.5604,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "1",
+     "mov": 0.5604
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.888,
+     "ft330": 2.299,
+     "ft660": 3.245,
+     "mph660": 274.72,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 322.04,
+     "first": 0.0264,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "15",
+     "mov": 0.0264
+    },
+    {
+     "rt": 0.091,
+     "ft60": 0.875,
+     "ft330": 2.27,
+     "ft660": 3.207,
+     "mph660": 276.92,
+     "ft1000": null,
+     "et": 4.021,
+     "mph": 273.88,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.127,
+     "ft60": 0.906,
+     "ft330": 2.351,
+     "ft660": 3.768,
+     "mph660": 153.18,
+     "ft1000": null,
+     "et": 5.369,
+     "mph": 138.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dylan Winefsky",
+     "car": "7818",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.889,
+     "ft330": 2.302,
+     "ft660": 3.251,
+     "mph660": 273.11,
+     "ft1000": null,
+     "et": 4.011,
+     "mph": 320.97,
+     "first": 1.3844,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "3",
+     "mov": 1.3844
+    }
+   ],
+   "note": "Chad Green is 40 - 46 in Rd. 1.   Dylan Winefsky is making his 2nd start.\r\n\r\nGreen with the starting line advantage and never trailed for the win.\r\n\r\nWinefsky started to lose traction and"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.896,
+     "ft330": 2.322,
+     "ft660": 3.296,
+     "mph660": 262.74,
+     "ft1000": null,
+     "et": 4.1,
+     "mph": 299.53,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.892,
+     "ft330": 2.316,
+     "ft660": 3.275,
+     "mph660": 273.16,
+     "ft1000": null,
+     "et": 4.031,
+     "mph": 322.34,
+     "first": 0.0764,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0764
+    }
+   ],
+   "note": "Matt Hagan is 34 - 9 in Rd. 1 when qualified #4.  Cruz Pedregon is 6 - 15 against Hagan in Rd. 1\r\n\r\nHagan is 31 - 11 against Pedregon in prior events. \r\n\r\nHagan with the starting line advantage and never trailed for the win.\r\n\r\nPedregon started to lose traction and drop cylinders before he clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.196,
+     "ft60": 4.011,
+     "ft330": 8.969,
+     "ft660": 13.456,
+     "mph660": 55.39,
+     "ft1000": null,
+     "et": 17.223,
+     "mph": 60.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.034,
+     "ft60": 0.886,
+     "ft330": 2.289,
+     "ft660": 3.229,
+     "mph660": 274.78,
+     "ft1000": null,
+     "et": 3.984,
+     "mph": 318.62,
+     "first": 3.0093,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Jordan Vandergriff is #5 and the last time the #5 FC lost in Rd. 1 here was 2012 (J. Force).  Alexis DeJoria\r\nis the 21st FC driver to win 200 or more rounds.\r\n\r\nDeJoria turned on the red light and then just drove it down the lane.\r\n\r\nVandergriff kept it hooked up and hitting on all eight to make his quickest pass of the weekend.  He will have\r\nlane choice over Hagan in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.112,
+     "ft60": 0.895,
+     "ft330": 2.302,
+     "ft660": 3.435,
+     "mph660": 204.88,
+     "ft1000": null,
+     "et": 4.548,
+     "mph": 206.83,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.095,
+     "ft60": 0.896,
+     "ft330": 2.309,
+     "ft660": 3.284,
+     "mph660": 266.69,
+     "ft1000": null,
+     "et": 4.054,
+     "mph": 318.17,
+     "first": 0.5111,
+     "lane": "Right",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "6",
+     "mov": 0.5111
+    }
+   ],
+   "note": "Paul Lee won this race last year. Only 3 FC drivers have won this race in back-to-back years.  Dave Richards\r\nhas lost twice to Lee and both were in Rd. 1.\r\n\r\nLee with the starting line advantage and never trailed for the win.  He will give up lane choice to Green in\r\nthe next round.\r\n\r\nRichards car just went silent around half track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.11,
+     "ft60": 0.931,
+     "ft330": 2.366,
+     "ft660": 3.473,
+     "mph660": 203.25,
+     "ft1000": null,
+     "et": 4.672,
+     "mph": 186.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jason Rupert",
+     "car": "766",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.883,
+     "ft330": 2.286,
+     "ft660": 3.229,
+     "mph660": 275.67,
+     "ft1000": null,
+     "et": 3.98,
+     "mph": 323.19,
+     "first": 0.7299,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.7299
+    }
+   ],
+   "note": "Ron Capps has set Low E/T 37 times including in Gainesville. His 37 Low E/T's are 6th most in FC history.\r\nThis (#10) is the best starting spot for Jason Rupert.\r\n\r\nCapps with the starting line advantage and never trailed for the win.  He runs low E.T. of the round and will\r\nhave lane choice over Wilkerson in the next round.\r\n\r\nRupert started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.896,
+     "ft330": 2.311,
+     "ft660": 3.383,
+     "mph660": 227.54,
+     "ft1000": null,
+     "et": 4.307,
+     "mph": 261.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.891,
+     "ft330": 2.326,
+     "ft660": 3.286,
+     "mph660": 272.61,
+     "ft1000": null,
+     "et": 4.043,
+     "mph": 321.19,
+     "first": 0.2531,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "8",
+     "mov": 0.2531
+    }
+   ],
+   "note": "J.R. Todd was 0 - 3 against Prock last year.  This is the 1st time Austin Prock  has raced Todd in Rd. 1.\r\n\r\nProck with the starting line advantage, but then started to spin the tires around half track.  Todd is\r\nstraight down the groove with a good clean pass for the win.  He will give up lane choice to Hyde in the next\r\nround."
+  }
+ ]
+}

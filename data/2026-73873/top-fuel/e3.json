@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 0.846,
+     "ft330": 2.125,
+     "ft660": 2.972,
+     "mph660": 296.63,
+     "ft1000": null,
+     "et": 3.705,
+     "mph": 326.24,
+     "first": 0.0097,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": 0.0097
+    },
+    {
+     "rt": 0.034,
+     "ft60": 0.845,
+     "ft330": 2.135,
+     "ft660": 2.992,
+     "mph660": 297.16,
+     "ft1000": null,
+     "et": 3.705,
+     "mph": 340.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 65 percent, barometer 29.98 inches, adjusted\r\naltitude 1,525 feet, track temperature 83 degrees.\r\n\r\nAshley is 14 - 7 against Kalitta in prior events. \r\n\r\nAshley with another great light and the power to hold on for the hole shot win.  Justin Ashley's MOV: 0.0097\r\nseconds (approximately 5 feet).  Ashley is advancing to his 33rd final round.  He makes his quickest pass of\r\nthe weekend for the win.\r\n\r\nKalitta with the first Top Fuel to run 340 mph at Pomona for the track record in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.846,
+     "ft330": 2.139,
+     "ft660": 3.003,
+     "mph660": 296.18,
+     "ft1000": null,
+     "et": 3.718,
+     "mph": 339.53,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.833,
+     "ft330": 2.113,
+     "ft660": 2.979,
+     "mph660": 294.56,
+     "ft1000": null,
+     "et": 3.701,
+     "mph": 334.98,
+     "first": 0.0235,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": 0.0235
+    }
+   ],
+   "note": "Langdon is 4 - 2 against Stewart in prior events. \r\n\r\nStewart with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.  He will have lane choice over Ashley in the final.  He is advancing to his seventh final\r\nround."
+  }
+ ]
+}

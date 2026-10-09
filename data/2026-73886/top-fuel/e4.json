@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0242,
+     "ft60": 0.8582,
+     "ft330": 2.148,
+     "ft660": 3.0185,
+     "mph660": 293.54,
+     "ft1000": null,
+     "et": 3.7396,
+     "mph": 342.73,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 0.0111
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.8354,
+     "ft330": 2.1273,
+     "ft660": 2.9961,
+     "mph660": 293.93,
+     "ft1000": null,
+     "et": 3.7229,
+     "mph": 330.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 36 percent, barometer 29.80 inches,\r\nadjusted altitude 2,334 feet, track temperature 112 degrees.\r\n\r\nLangdon is 32 - 22 against Kalitta in prior events and Langdon is 5 - 2 against Kalitta in prior\r\nfinal rounds.\r\n\r\nIn their 55 rounds overall Shawn has \"left first\" 38 times (69%).\r\nDoug Kalitta is 13-14 in the Final round when starting No. 1.\r\n\r\nLangdon with the starting line advantage and the power to hold on for the hole shot win.  Shawn\r\nLangdon's MOV: 0.0110 seconds (approximately 5 feet).\r\n\r\nLangdon with a big top end speed in the final.  This is the third consecutive win for Langdon and the\r\nsecond time this season he has done that.  Langdon wins his seventh Wally this season and 29th of his\r\ncareer."
+  }
+ ]
+}

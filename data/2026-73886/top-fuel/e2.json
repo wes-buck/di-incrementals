@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0457,
+     "ft60": 0.9147,
+     "ft330": 2.2615,
+     "ft660": 3.3042,
+     "mph660": 207.18,
+     "ft1000": null,
+     "et": 4.5225,
+     "mph": 179.64,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0538,
+     "ft60": 0.8661,
+     "ft330": 2.2009,
+     "ft660": 3.1012,
+     "mph660": 284.81,
+     "ft1000": null,
+     "et": 3.8512,
+     "mph": 323.97,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": 0.6632
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0605,
+     "ft60": 0.8454,
+     "ft330": 2.1524,
+     "ft660": 3.0339,
+     "mph660": 288.46,
+     "ft1000": null,
+     "et": 3.7722,
+     "mph": 327.75,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0139,
+     "ft60": 0.8551,
+     "ft330": 2.1748,
+     "ft660": 3.0471,
+     "mph660": 294.5,
+     "ft1000": null,
+     "et": 3.7722,
+     "mph": 333.33,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": 0.0466
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0448,
+     "ft60": 0.8532,
+     "ft330": 2.172,
+     "ft660": 3.0585,
+     "mph660": 289.39,
+     "ft1000": null,
+     "et": 3.7906,
+     "mph": 328.95,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0538,
+     "ft60": 0.838,
+     "ft330": 2.1393,
+     "ft660": 3.0305,
+     "mph660": 289.2,
+     "ft1000": null,
+     "et": 3.763,
+     "mph": 331.61,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 0.0186
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.1824,
+     "ft60": 0.8784,
+     "ft330": 3.1159,
+     "ft660": 5.0007,
+     "mph660": 144.69,
+     "ft1000": null,
+     "et": 6.528,
+     "mph": 144.97,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.8446,
+     "ft330": 2.1682,
+     "ft660": 3.1873,
+     "mph660": 214.69,
+     "ft1000": null,
+     "et": 4.3736,
+     "mph": 183.97,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 1.941
+    }
+   ],
+   "note": null
+  }
+ ]
+}

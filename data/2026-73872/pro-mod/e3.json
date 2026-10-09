@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.964,
+     "ft330": 2.614,
+     "ft660": 3.872,
+     "mph660": 198.35,
+     "ft1000": 4.951,
+     "et": 5.865,
+     "mph": 247.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.967,
+     "ft330": 2.565,
+     "ft660": 3.818,
+     "mph660": 197.71,
+     "ft1000": 4.888,
+     "et": 5.793,
+     "mph": 248.48,
+     "first": 0.0287,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0287
+    }
+   ],
+   "note": "Weather conditions: air temperature 99 degrees, relative humidity 11 percent, barometer 29.72 inches, adjusted\r\naltitude 4,314 feet, track temperature 147 degrees.\r\n\r\nMenholt is 1 - 0 against Bond in prior events. \r\n\r\nMenholt with the starting line advantage, but Bond chased him down for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.949,
+     "ft330": 2.577,
+     "ft660": 3.82,
+     "mph660": 205.6,
+     "ft1000": 4.887,
+     "et": 5.788,
+     "mph": 250.13,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 0.964,
+     "ft330": 2.553,
+     "ft660": 3.799,
+     "mph660": 198.17,
+     "ft1000": 4.864,
+     "et": 5.766,
+     "mph": 250.83,
+     "first": 0.0333,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0333
+    }
+   ],
+   "note": "Jackson is 3 - 2 against Barnett in prior events. \r\n\r\nJackson with the starting line advantage and never trailed for the win.  He will have lane choice over Bond in\r\nthe final."
+  }
+ ]
+}

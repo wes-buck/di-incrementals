@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.023,
+     "ft60": 0.948,
+     "ft330": 2.711,
+     "ft660": 4.597,
+     "mph660": 127.09,
+     "ft1000": 6.576,
+     "et": 8.681,
+     "mph": 98.82,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.005,
+     "ft60": 0.95,
+     "ft330": 2.543,
+     "ft660": 3.793,
+     "mph660": 198.06,
+     "ft1000": 4.862,
+     "et": 5.763,
+     "mph": 250.0,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 67 percent, barometer 29.80 inches, adjusted\r\naltitude 4,064 feet. \r\n\r\nCollins is 1 - 0 against Stavrinos in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nStavrinos goes red to give Collins the win.  Collins lost traction right at the hit, he apparently didn't see\r\nthe red light.  He gets back on the throttle and is real loose and close to the centerline.  He kept it in his\r\nlane and he gets the win  He wins his third Wally."
+  }
+ ]
+}

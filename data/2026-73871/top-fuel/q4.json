@@ -1,0 +1,362 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/q4",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "Q4",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.056,
+     "ft60": 0.876,
+     "ft330": 2.271,
+     "ft660": 3.289,
+     "mph660": 252.76,
+     "ft1000": null,
+     "et": 4.248,
+     "mph": 228.15,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 86 degrees, relative humidity 45 percent, barometer 30.09 inches,\r\nadjusted altitude 2,296 feet, track temperature 109 degrees.\r\n\r\nSmith is stright down the groove until on the top end when the car went silent.  He will not get in\r\nthe show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.132,
+     "ft60": 0.859,
+     "ft330": 2.169,
+     "ft660": 3.064,
+     "mph660": 286.19,
+     "ft1000": null,
+     "et": 3.797,
+     "mph": 328.06,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gordon launched hard and kept it hooked up, but will not improve.  She stays in the number 15 spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.111,
+     "ft60": 0.856,
+     "ft330": 2.891,
+     "ft660": 5.642,
+     "mph660": 83.02,
+     "ft1000": null,
+     "et": 8.314,
+     "mph": 88.6,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.112,
+     "ft60": 0.91,
+     "ft330": 2.37,
+     "ft660": 3.847,
+     "mph660": 144.92,
+     "ft1000": null,
+     "et": 5.833,
+     "mph": 99.7,
+     "first": 2.4807,
+     "lane": "Right",
+     "win": true,
+     "driver": "Scott Farley",
+     "car": "F301",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": "Salinas is up in smoke right at the hit and clicked it off.\r\n\r\nFarley banged the blower with a quick flash of flames around 300 feet.  He will not get in the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.854,
+     "ft330": 2.326,
+     "ft660": 4.197,
+     "mph660": 112.07,
+     "ft1000": null,
+     "et": 6.555,
+     "mph": 89.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.133,
+     "ft60": 0.856,
+     "ft330": 2.174,
+     "ft660": 3.319,
+     "mph660": 195.53,
+     "ft1000": null,
+     "et": 4.609,
+     "mph": 169.51,
+     "first": 1.9083,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Tatum starts to haze the tires around 200 feet and clicked it off.\r\n\r\nMercier is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.868,
+     "ft330": 2.205,
+     "ft660": 3.472,
+     "mph660": 168.3,
+     "ft1000": null,
+     "et": 4.964,
+     "mph": 146.67,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.85,
+     "ft330": 2.179,
+     "ft660": 3.093,
+     "mph660": 279.56,
+     "ft1000": null,
+     "et": 3.907,
+     "mph": 270.27,
+     "first": 1.0799,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gary Pritchett",
+     "car": "389",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Schumacher starts to lose traction just before half track and clicked it off.\r\n\r\nPritchett with with a clean pass early and started to lose traction on the top end."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.106,
+     "ft60": 1.985,
+     "ft330": 5.681,
+     "ft660": 8.699,
+     "mph660": 77.07,
+     "ft1000": null,
+     "et": 11.618,
+     "mph": 80.25,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.86,
+     "ft330": 2.184,
+     "ft660": 3.332,
+     "mph660": 187.0,
+     "ft1000": null,
+     "et": 4.673,
+     "mph": 163.91,
+     "first": 6.9932,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta was up in smoke right at the hit.\r\n\r\nAshley starts to lose traction and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 0.915,
+     "ft330": 3.598,
+     "ft660": 6.807,
+     "mph660": 72.28,
+     "ft1000": null,
+     "et": 10.123,
+     "mph": 62.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 0.862,
+     "ft330": 2.225,
+     "ft660": 3.637,
+     "mph660": 152.62,
+     "ft1000": null,
+     "et": 5.234,
+     "mph": 138.47,
+     "first": 4.8551,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Stewart is up in smoke early and clicked it off.\r\n\r\nReed starts to lose traction just before half track and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.106,
+     "ft60": 0.869,
+     "ft330": 2.203,
+     "ft660": 3.188,
+     "mph660": 227.54,
+     "ft1000": null,
+     "et": 4.293,
+     "mph": 198.17,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.106,
+     "ft60": 0.873,
+     "ft330": 2.203,
+     "ft660": 3.102,
+     "mph660": 286.8,
+     "ft1000": null,
+     "et": 3.831,
+     "mph": 333.49,
+     "first": 0.4626,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Pruett starts to haze the tires around half track and clicked it off.\r\n\r\nTorrence launched hard and kept it hooked up and kept it hooked up to make the quickest pass of the"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.85,
+     "ft330": 2.348,
+     "ft660": 4.26,
+     "mph660": 109.48,
+     "ft1000": null,
+     "et": 6.603,
+     "mph": 97.24,
+     "first": 2.4123,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.185,
+     "ft60": 0.881,
+     "ft330": 3.22,
+     "ft660": 6.026,
+     "mph660": 81.65,
+     "ft1000": null,
+     "et": 8.909,
+     "mph": 75.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Brown started to haze the tires and he pedaled it, he will not improve.\r\n\r\nMillican started to haze the tires around half track and clicked it off."
+  }
+ ]
+}

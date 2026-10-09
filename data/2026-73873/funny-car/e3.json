@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.888,
+     "ft330": 2.737,
+     "ft660": 5.102,
+     "mph660": 89.88,
+     "ft1000": null,
+     "et": 7.861,
+     "mph": 82.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.064,
+     "ft60": 0.87,
+     "ft330": 2.241,
+     "ft660": 3.152,
+     "mph660": 286.13,
+     "ft1000": null,
+     "et": 3.886,
+     "mph": 330.39,
+     "first": 3.9796,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 3.9796
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 65 percent, barometer 29.98 inches, adjusted\r\naltitude 1,525 feet, track temperature 83 degrees.\r\n\r\nHagan is 20 - 7 against Todd in prior events. \r\n\r\nThis is just the fifth time that all top four qualifiers made the semifinals, the last time was 2022.\r\n\r\nHagan with a slight starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.\r\n\r\nTodd is up in smoke early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.866,
+     "ft330": 2.234,
+     "ft660": 3.135,
+     "mph660": 289.51,
+     "ft1000": null,
+     "et": 3.863,
+     "mph": 330.31,
+     "first": 0.0344,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": 0.0344
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.872,
+     "ft330": 2.246,
+     "ft660": 3.154,
+     "mph660": 286.38,
+     "ft1000": null,
+     "et": 3.889,
+     "mph": 334.15,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Capps and Vandergriff have faced each other in eliminations. \r\n\r\nCapps with a slight starting line advantage and never trailed for the win.  He make the quickest pass of the\r\nevent for the win.  He advances to his 159th final round.  Capps will have lane choice over Hagan in the\r\nfinal.\r\n\r\nVandergriff with his career quickest pass in the losing effort."
+  }
+ ]
+}

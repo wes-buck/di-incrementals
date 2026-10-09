@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0165,
+     "ft60": 0.9551,
+     "ft330": 2.5362,
+     "ft660": 3.7528,
+     "mph660": 201.88,
+     "ft1000": 4.8001,
+     "et": 5.6911,
+     "mph": 252.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Wilson",
+     "car": "211",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0278,
+     "ft60": 0.9591,
+     "ft330": 2.5302,
+     "ft660": 3.7433,
+     "mph660": 203.44,
+     "ft1000": 4.7896,
+     "et": 5.6716,
+     "mph": 256.12,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0082
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0517,
+     "ft60": 0.9465,
+     "ft330": 2.5145,
+     "ft660": 3.7532,
+     "mph660": 200.09,
+     "ft1000": 4.8108,
+     "et": 5.7026,
+     "mph": 253.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Nick Januik",
+     "car": "729",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0505,
+     "ft60": 0.9396,
+     "ft330": 2.5081,
+     "ft660": 3.7313,
+     "mph660": 200.62,
+     "ft1000": 4.7916,
+     "et": 5.6912,
+     "mph": 249.03,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0126
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.4,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.9531,
+     "ft330": 2.5201,
+     "ft660": 3.7422,
+     "mph660": 203.9,
+     "ft1000": 4.783,
+     "et": 5.6696,
+     "mph": 251.68,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Rickie Smith",
+     "car": "43",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.008,
+     "ft60": 0.979,
+     "ft330": 3.5788,
+     "ft660": 6.9611,
+     "mph660": 64.77,
+     "ft1000": 10.6938,
+     "et": 14.4512,
+     "mph": 56.66,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0103,
+     "ft60": 0.9402,
+     "ft330": 2.5029,
+     "ft660": 3.7276,
+     "mph660": 202.89,
+     "ft1000": 4.7771,
+     "et": 5.6644,
+     "mph": 254.52,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 8.7845
+    }
+   ],
+   "note": null
+  }
+ ]
+}

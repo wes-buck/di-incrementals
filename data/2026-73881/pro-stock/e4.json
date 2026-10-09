@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.015,
+     "ft60": 0.998,
+     "ft330": 2.756,
+     "ft660": 4.22,
+     "mph660": 167.74,
+     "ft1000": 5.486,
+     "et": 6.551,
+     "mph": 211.3,
+     "first": 0.0166,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0166
+    },
+    {
+     "rt": 0.032,
+     "ft60": 0.996,
+     "ft330": 2.75,
+     "ft660": 4.216,
+     "mph660": 167.84,
+     "ft1000": 5.484,
+     "et": 6.55,
+     "mph": 210.87,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 59 percent, barometer 29.90 inches, adjusted\r\naltitude 1,459 feet, track temperature 110 degrees.\r\n\r\nErica Enders is 10 - 5 in Final rounds when starting #3.\r\n\r\nEnders is 4 - 1 against Stanfield in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nStanfield with the starting line advantage and the power to hold on for hole shot win.  Greg Stanfield's MOV:\r\n0.0166 seconds (approximately 5 feet).  Stanfield wins his first Wally this season and seventh career, six in\r\nPro Stock.  He wins back-to-back here."
+  }
+ ]
+}

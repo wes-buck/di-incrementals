@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.869,
+     "ft330": 2.257,
+     "ft660": 3.181,
+     "mph660": 282.72,
+     "ft1000": null,
+     "et": 3.913,
+     "mph": 335.32,
+     "first": 0.0022,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 0.0022
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.893,
+     "ft330": 2.261,
+     "ft660": 3.185,
+     "mph660": 284.45,
+     "ft1000": null,
+     "et": 3.929,
+     "mph": 324.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 57 percent, barometer 30.03 inches, adjusted\r\naltitude 1,673 feet, track temperature 99 degrees.\r\n\r\nMatt Hagan is 9 - 2 against Todd in Rd. 3 races.\r\n\r\nHagan is 22 - 7 against Todd in prior events. \r\n\r\nHagan with the starting line advantage, but Todd chased him down in the lights for the win in a close one.\r\nJ.R. Todd's MOV: 0.0022 seconds (approximately 13 inches).\r\n\r\nTodd is advancing to his second final this season and 51st career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.872,
+     "ft330": 2.253,
+     "ft660": 3.172,
+     "mph660": 281.89,
+     "ft1000": null,
+     "et": 3.918,
+     "mph": 325.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.886,
+     "ft330": 2.264,
+     "ft660": 3.192,
+     "mph660": 281.89,
+     "ft1000": null,
+     "et": 3.937,
+     "mph": 327.66,
+     "first": 0.0116,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.0116
+    }
+   ],
+   "note": "Beckman beat Prock in the semi-finals in Norwalk and lost to him in the Final round at MIR.\r\n\r\nProck is 6 - 5 against Beckman in prior events. \r\n\r\nProck with the starting line advantage and the power to hold on for the hole shot win.  Austin Prock's MOV:\r\n0.0116 seconds (approximately 6 feet).\r\n\r\nProck will give up lane choice to Todd in the final.  He is advancing to his second final round this season\r\nand 34th career."
+  }
+ ]
+}

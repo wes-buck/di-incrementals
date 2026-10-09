@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.91,
+     "ft330": 3.234,
+     "ft660": 5.577,
+     "mph660": 89.04,
+     "ft1000": null,
+     "et": 8.34,
+     "mph": 81.64,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.05,
+     "ft60": 0.871,
+     "ft330": 2.577,
+     "ft660": 3.727,
+     "mph660": 236.26,
+     "ft1000": null,
+     "et": 4.587,
+     "mph": 287.11,
+     "first": 3.7822,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "14",
+     "mov": 3.7822
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 67 percent, barometer 29.94 inches, adjusted\r\naltitude 3,219 feet, track temperature 122 degrees.\r\n\r\nBrown is 35 - 9 against Millican in prior events. \r\n\r\nBrown with the starting line advantage, but was up in smoke right at the hit and pedal it a couple times, but\r\ngot it to hook up enough for the win.\r\n\r\nMillican is up in smoke and pedaled it, but couldn't get it too hook up."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.861,
+     "ft330": 2.193,
+     "ft660": 3.293,
+     "mph660": 224.51,
+     "ft1000": null,
+     "et": 4.25,
+     "mph": 251.25,
+     "first": 1.5793,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "5",
+     "mov": 1.5793
+    },
+    {
+     "rt": 0.047,
+     "ft60": 1.02,
+     "ft330": 3.205,
+     "ft660": 4.48,
+     "mph660": 182.5,
+     "ft1000": null,
+     "et": 5.871,
+     "mph": 156.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Gordon and Langdon have each won 1 times against the other in prior events. \r\n\r\nLangdon with the starting line advantage, but is up in smoke and clicked it off.\r\n\r\n\r\nGordon starts to lose traction around half track and pedaled it for the win.  She will have lane choice over\r\nBrown in the final."
+  }
+ ]
+}

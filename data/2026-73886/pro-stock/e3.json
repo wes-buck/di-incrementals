@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.022,
+     "ft60": 1.012,
+     "ft330": 2.9181,
+     "ft660": 4.4431,
+     "mph660": 163.34,
+     "ft1000": 5.7378,
+     "et": 6.8215,
+     "mph": 208.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0545,
+     "ft60": 1.0027,
+     "ft330": 2.7552,
+     "ft660": 4.2216,
+     "mph660": 167.85,
+     "ft1000": 5.4917,
+     "et": 6.5626,
+     "mph": 209.59,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.2264
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0051,
+     "ft60": 0.9756,
+     "ft330": 2.7234,
+     "ft660": 4.1909,
+     "mph660": 166.85,
+     "ft1000": 5.4628,
+     "et": 6.5328,
+     "mph": 210.77,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0696
+    },
+    {
+     "rt": 0.0526,
+     "ft60": 0.9886,
+     "ft330": 2.7425,
+     "ft660": 4.2103,
+     "mph660": 168.16,
+     "ft1000": 5.4833,
+     "et": 6.5549,
+     "mph": 209.69,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

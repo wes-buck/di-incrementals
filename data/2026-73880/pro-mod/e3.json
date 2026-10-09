@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.967,
+     "ft330": 2.553,
+     "ft660": 3.799,
+     "mph660": 198.52,
+     "ft1000": 4.859,
+     "et": 5.749,
+     "mph": 252.47,
+     "first": 4.4098,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 4.4098
+    },
+    {
+     "rt": 0.02,
+     "ft60": 0.953,
+     "ft330": 2.856,
+     "ft660": 5.161,
+     "mph660": 95.8,
+     "ft1000": 7.668,
+     "et": 10.178,
+     "mph": 84.87,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.94 inches, adjusted\r\naltitude 3,239 feet, track temperature 122 degrees.\r\n\r\nBanaka is 1 - 0 against Thielen in prior events. \r\n\r\nThielen with the starting line advantage, but with severe tire shake and clicked it off.\r\n\r\nBanaka kept it hooked up and was straight down the groove for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.943,
+     "ft330": 2.541,
+     "ft660": 3.772,
+     "mph660": 207.46,
+     "ft1000": 4.834,
+     "et": 5.732,
+     "mph": 250.64,
+     "first": 0.0125,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kevin Rivenbark",
+     "car": "225",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0125
+    },
+    {
+     "rt": 0.025,
+     "ft60": 0.954,
+     "ft330": 2.557,
+     "ft660": 3.795,
+     "mph660": 206.1,
+     "ft1000": 4.86,
+     "et": 5.761,
+     "mph": 250.04,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Barnett is 2 - 0 against Rivenbark in prior events. \r\n\r\nBarnett with the starting line advantage, but Rivenbark has the difference made up by 330 feet.  He never\r\ntrailed from the there on for the win.  Kevin Rivenbark's MOV: 0.0125 seconds (approximately 5 feet).\r\n\r\nHe will have lane choice over Banaka in the final."
+  }
+ ]
+}

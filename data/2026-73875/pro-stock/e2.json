@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 1.043,
+     "ft330": 2.812,
+     "ft660": 4.28,
+     "mph660": 167.2,
+     "ft1000": 5.555,
+     "et": 6.632,
+     "mph": 209.46,
+     "first": 3.5337,
+     "lane": "Left",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 3.5337
+    },
+    {
+     "rt": 0.04,
+     "ft60": 1.195,
+     "ft330": 3.476,
+     "ft660": 5.627,
+     "mph660": 102.88,
+     "ft1000": 7.928,
+     "et": 10.172,
+     "mph": 96.03,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 36 percent, barometer 30.10 inches, adjusted\r\naltitude 1,205 feet, track temperature 115 degrees.\r\n\r\nCoughlin Jr. is 8 - 2 against Kramer in prior events. \r\n\r\nKramer with the starting line advantage, but had severe tire shake right at the hit and pushed in the clutch.\r\n\r\nCoughlin is straight down the groove with a clean pass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 1.166,
+     "ft330": 4.377,
+     "ft660": 8.539,
+     "mph660": 52.44,
+     "ft1000": 13.201,
+     "et": 17.963,
+     "mph": 44.36,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 1.086,
+     "ft330": 3.113,
+     "ft660": 4.636,
+     "mph660": 163.16,
+     "ft1000": 5.931,
+     "et": 7.015,
+     "mph": 208.84,
+     "first": 0.9376,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.9376
+    }
+   ],
+   "note": "Enders is 11 - 0 against Delco in prior events. \r\n\r\nDelco with the starting line advantage, but was real loose and sideways before he pushed in the clutch.\r\n\r\nEnders shook and she drove through it for the win.  She will give up lane choice to Troy Coughlin Jr. in the\r\nsemifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 1.023,
+     "ft330": 2.787,
+     "ft660": 4.248,
+     "mph660": 167.93,
+     "ft1000": 5.517,
+     "et": 6.587,
+     "mph": 210.34,
+     "first": 0.0071,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0071
+    },
+    {
+     "rt": 0.064,
+     "ft60": 1.011,
+     "ft330": 2.767,
+     "ft660": 4.228,
+     "mph660": 168.32,
+     "ft1000": 5.493,
+     "et": 6.562,
+     "mph": 210.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn is 4 - 0 against Latino in prior events. \r\n\r\nGlenn with the starting line advantage and the power to hold on for the hole shot win in a close one.  Dallas\r\nGlenn's MOV: 0.0071 seconds (approximately 2 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 1.114,
+     "ft330": 5.209,
+     "ft660": 10.787,
+     "mph660": 38.38,
+     "ft1000": 17.352,
+     "et": 24.517,
+     "mph": 28.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Brandon Miller",
+     "car": "11",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.05,
+     "ft60": 1.098,
+     "ft330": 3.029,
+     "ft660": 4.537,
+     "mph660": 162.47,
+     "ft1000": 5.962,
+     "et": 7.345,
+     "mph": 156.21,
+     "first": 7.1983,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 7.1983
+    }
+   ],
+   "note": "This is the first time Miller and Stanfield have faced each other in eliminations. \r\n\r\nStanfield with the starting line advantage, but shook and pedaled it to get the win.\r\n\r\nMiller with severe tire shake right at the hit and clicked it off."
+  }
+ ]
+}

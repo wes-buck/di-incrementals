@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/top-fuel/q2",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "top-fuel",
+ "round": "Q2",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 0.0,
+     "ft330": 2.116,
+     "ft660": 2.983,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.744,
+     "mph": 293.73,
+     "first": 0.8784,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.849,
+     "ft330": 2.168,
+     "ft660": 3.262,
+     "mph660": 196.42,
+     "ft1000": null,
+     "et": 4.67,
+     "mph": 138.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 59 degrees, relative humidity 81 percent, barometer 29.93 inches, adjusted\r\naltitude 422 feet. \r\n\r\nSchumacher launched hard and kept it hooked up.  The car pitched the blower belt around 800 feet.  He still\r\ngoes to the number four spot.\r\n\r\nMillican breaks the rear end early and then bangs the blower.  There is rear end oil on the track.  Clay\r\nMillican was charged with an oildown, #4 for the season.\r\nThat will cost 15 points.\r\n\r\nThe cars have been sent back to pits, because they have run up against the curfew."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

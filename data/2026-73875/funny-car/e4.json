@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.908,
+     "ft330": 2.31,
+     "ft660": 3.476,
+     "mph660": 188.6,
+     "ft1000": null,
+     "et": 4.784,
+     "mph": 169.89,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.89,
+     "ft330": 2.294,
+     "ft660": 3.238,
+     "mph660": 272.12,
+     "ft1000": null,
+     "et": 4.007,
+     "mph": 314.17,
+     "first": 0.7685,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.7685
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.06 inches, adjusted\r\naltitude 1,310 feet, track temperature 116 degrees.\r\n\r\nThis is the first time Todd and Vandergriff have faced each other in eliminations. \r\n\r\nTodd with the starting line advantage, but started to lose traction and clicked it off.\r\n\r\nVandergriff is straight down the groove for the win.  He wins hs first National event Wally."
+  }
+ ]
+}

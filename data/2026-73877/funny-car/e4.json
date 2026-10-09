@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.879,
+     "ft330": 2.277,
+     "ft660": 3.217,
+     "mph660": 276.29,
+     "ft1000": null,
+     "et": 3.971,
+     "mph": 323.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.881,
+     "ft330": 2.261,
+     "ft660": 3.202,
+     "mph660": 276.41,
+     "ft1000": null,
+     "et": 3.956,
+     "mph": 324.2,
+     "first": 0.0281,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.0281
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 32 percent, barometer 29.99 inches, adjusted\r\naltitude 1,394 feet. \r\n\r\nProck is 5 - 4 against Beckman in prior events and Prock is 3 - 2 against Beckman in prior final rounds. \r\n\r\nProck with the starting line advantage and never trailed for the win.  Austin Prock's MOV: 0.0281 seconds\r\n(approximately 13 feet).  Prock with his quickest pass of the weekend for the win.  He wins his first Wally\r\nthis season and 22nd of his career."
+  }
+ ]
+}

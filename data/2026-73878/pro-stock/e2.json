@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.029,
+     "ft60": 0.997,
+     "ft330": 2.762,
+     "ft660": 4.23,
+     "mph660": 166.91,
+     "ft1000": 5.501,
+     "et": 6.57,
+     "mph": 209.82,
+     "first": 0.0073,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0073
+    },
+    {
+     "rt": 0.018,
+     "ft60": 1.005,
+     "ft330": 2.769,
+     "ft660": 4.241,
+     "mph660": 166.64,
+     "ft1000": 5.515,
+     "et": 6.588,
+     "mph": 209.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 61 percent, barometer 29.70 inches, adjusted\r\naltitude 2,112 feet, track temperature 109 degrees.\r\n\r\nStanfield and Latino have each won 1 times against the other in prior events. \r\n\r\nLatino with the starting line advantage, but Stanfield chased him down by half track and doesn't trail from\r\nthere on for the win.  Greg Stanfield's MOV: 0.0073 seconds (approximately 2 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 0.986,
+     "ft330": 2.757,
+     "ft660": 4.233,
+     "mph660": 165.74,
+     "ft1000": 5.508,
+     "et": 6.581,
+     "mph": 209.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.023,
+     "ft60": 0.989,
+     "ft330": 2.75,
+     "ft660": 4.22,
+     "mph660": 167.05,
+     "ft1000": 5.491,
+     "et": 6.562,
+     "mph": 209.62,
+     "first": 0.0212,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0212
+    }
+   ],
+   "note": "Glenn with the slight starting line advantage and never trailed for the win.  Dallas Glenn's MOV: 0.0212\r\nseconds (approximately 6 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.08,
+     "ft60": 0.99,
+     "ft330": 2.75,
+     "ft660": 4.22,
+     "mph660": 166.68,
+     "ft1000": 5.491,
+     "et": 6.562,
+     "mph": 209.95,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.019,
+     "ft60": 0.997,
+     "ft330": 2.765,
+     "ft660": 4.243,
+     "mph660": 166.52,
+     "ft1000": 5.515,
+     "et": 6.587,
+     "mph": 209.56,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hartford is 3 - 0 against Latino in prior events. \r\n\r\nLatino goes red to give Hartford the win. He will give up lane choice to Stanfield in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.217,
+     "ft60": 1.575,
+     "ft330": 5.076,
+     "ft660": 7.54,
+     "mph660": 99.79,
+     "ft1000": 9.837,
+     "et": 12.083,
+     "mph": 94.39,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.992,
+     "ft330": 2.747,
+     "ft660": 4.213,
+     "mph660": 167.51,
+     "ft1000": 5.479,
+     "et": 6.546,
+     "mph": 209.75,
+     "first": 5.2856,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 65 - 50 against Coughlin in prior events. \r\n\r\nCoughlin with problems on the starting line and went red.\r\n\r\nAnderson launched hard and was straight down the groove with the quickest pass of the round for the win.  He\r\nwill have lane choice over Glenn in the semifinal."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0085,
+     "ft60": 0.9311,
+     "ft330": 2.4987,
+     "ft660": 3.7276,
+     "mph660": 199.73,
+     "ft1000": 4.7898,
+     "et": 5.6895,
+     "mph": 250.56,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0203,
+     "ft60": 0.957,
+     "ft330": 2.5291,
+     "ft660": 3.7427,
+     "mph660": 207.09,
+     "ft1000": 4.7908,
+     "et": 5.6747,
+     "mph": 255.68,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.003
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.013,
+     "ft60": 0.9558,
+     "ft330": 2.5206,
+     "ft660": 3.7459,
+     "mph660": 202.7,
+     "ft1000": 4.7903,
+     "et": 5.6801,
+     "mph": 251.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Rickie Smith",
+     "car": "43",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0715,
+     "ft60": 0.944,
+     "ft330": 2.5077,
+     "ft660": 3.7342,
+     "mph660": 203.16,
+     "ft1000": 4.7842,
+     "et": 5.6719,
+     "mph": 254.52,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.864,
+     "ft330": 2.207,
+     "ft660": 3.129,
+     "mph660": 279.61,
+     "ft1000": null,
+     "et": 3.877,
+     "mph": 325.45,
+     "first": 0.0543,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0543
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.89,
+     "ft330": 2.243,
+     "ft660": 3.171,
+     "mph660": 277.15,
+     "ft1000": null,
+     "et": 3.93,
+     "mph": 317.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 99 degrees, relative humidity 10 percent, barometer 29.69 inches, adjusted\r\naltitude 4,341 feet, track temperature 137 degrees.\r\n\r\nThis is the 115th time that the #1 & 2 TF qualifiers have met in the Final round. The #1 qualifier has won 63\r\nof those meetings.\r\n \r\nLangdon is 17 - 8 against Pruett in prior events and each has won 1 times against the other in final rounds. \r\n\r\nLangdon with a tick advantage on the tree and never trailed for the win.  Langdon is the first Top Fuel driver\r\nto win this event in three consecutive years.  He wins his 23rd National event Wally."
+  }
+ ]
+}

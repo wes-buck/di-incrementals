@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0281,
+     "ft60": 0.8419,
+     "ft330": 2.131,
+     "ft660": 3.0067,
+     "mph660": 287.72,
+     "ft1000": null,
+     "et": 3.7485,
+     "mph": 327.99,
+     "first": 3.7771,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "--",
+     "mov": 3.7771
+    },
+    {
+     "rt": 0.0421,
+     "ft60": 0.8479,
+     "ft330": 2.5264,
+     "ft660": 4.8548,
+     "mph660": 90.4,
+     "ft1000": null,
+     "et": 7.5116,
+     "mph": 82.71,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 62 degrees, relative humidity 69 percent, barometer 30.16 inches,\r\nadjusted altitude 1,235 feet, track temperature 89 degrees.\r\n\r\nHart is 3 - 0 against Massey in prior events. \r\n\r\nMassey with the starting line advantage and never trailed for the win.\r\n\r\nHart lost traction right at the hit."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0164,
+     "ft60": 0.8419,
+     "ft330": 2.0991,
+     "ft660": 3.0079,
+     "mph660": 247.39,
+     "ft1000": null,
+     "et": 4.0546,
+     "mph": 212.46,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0394,
+     "ft60": 0.8334,
+     "ft330": 2.1027,
+     "ft660": 2.9435,
+     "mph660": 301.2,
+     "ft1000": null,
+     "et": 3.6534,
+     "mph": 343.51,
+     "first": 0.3782,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 0.3782
+    }
+   ],
+   "note": "Brown and Stewart have each won 4 times against the other in prior events. \r\n\r\nBrown with the starting line advantage, but lost traction and clicked it off early\r\n\r\nStewart launched hard and kept it hooked up to his career quickest and fastest pass for the win.  He\r\nwill have lane choice over Massey in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0299,
+     "ft60": 0.8367,
+     "ft330": 2.1219,
+     "ft660": 2.98,
+     "mph660": 297.82,
+     "ft1000": null,
+     "et": 3.6933,
+     "mph": 339.88,
+     "first": 0.0243,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 0.0243
+    },
+    {
+     "rt": 0.0615,
+     "ft60": 0.834,
+     "ft330": 2.1143,
+     "ft660": 2.9722,
+     "mph660": 296.44,
+     "ft1000": null,
+     "et": 3.6861,
+     "mph": 339.62,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "In the 17 meetings between Doug & Billy Torrence Doug Kalitta has \"left first\" 16 times.\r\n\r\nKalitta is 9 - 8 against Torrence in prior events. \r\n\r\nKalitta with the starting line advantage and the power to hold on for the hole shot win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0194,
+     "ft60": 0.8426,
+     "ft330": 2.1201,
+     "ft660": 2.9709,
+     "mph660": 299.0,
+     "ft1000": null,
+     "et": 3.6865,
+     "mph": 342.73,
+     "first": 0.0645,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 0.0645
+    },
+    {
+     "rt": 0.0475,
+     "ft60": 0.8464,
+     "ft330": 2.1399,
+     "ft660": 3.0025,
+     "mph660": 295.47,
+     "ft1000": null,
+     "et": 3.7229,
+     "mph": 335.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Langdon is 1 - 0 against Smith in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win.  He will have lane choice\r\nover Kalitta in the semifinal."
+  }
+ ]
+}

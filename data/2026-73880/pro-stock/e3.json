@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 1.046,
+     "ft330": 3.073,
+     "ft660": 4.61,
+     "mph660": 160.67,
+     "ft1000": 5.922,
+     "et": 7.017,
+     "mph": 206.39,
+     "first": 1.4728,
+     "lane": "Left",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.4728
+    },
+    {
+     "rt": 0.019,
+     "ft60": 1.151,
+     "ft330": 3.373,
+     "ft660": 5.01,
+     "mph660": 141.28,
+     "ft1000": 6.721,
+     "et": 8.51,
+     "mph": 117.02,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.94 inches, adjusted\r\naltitude 3,239 feet, track temperature 122 degrees.\r\n\r\nStanfield is 7 - 0 against Delco in prior events. \r\n\r\nDelco with the starting line advantage, but shook and clicked it off.  Stanfield with tire shake right at the\r\nhit and pedaled it.  He got it to hook up enough for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.199,
+     "ft60": 1.0,
+     "ft330": 2.776,
+     "ft660": 4.256,
+     "mph660": 165.88,
+     "ft1000": 5.538,
+     "et": 6.618,
+     "mph": 207.75,
+     "first": 6.7773,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn is 14 - 8 against Hartford in prior events. \r\n\r\nGlenn has a fuel leak after the burnout and is shut off.\r\n\r\nHartford is straight down th groove with the win.  He will have lane choice over Stanfield in the final."
+  }
+ ]
+}

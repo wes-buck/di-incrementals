@@ -1,0 +1,479 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/q5",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "Q5",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.425,
+     "ft60": 0.988,
+     "ft330": 4.449,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lex Joon",
+     "car": "222",
+     "qpos_nhra": "21",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 43 percent, barometer 30.00 inches,\r\nadjusted altitude 2,860 feet, track temperature 114 degrees.\r\n\r\nJoon was up in smoke right at the hit and then it banged the blower with a quick fire.  He came to a\r\nstop on the track about 400 feet out."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.885,
+     "ft330": 2.212,
+     "ft660": 3.118,
+     "mph660": 278.92,
+     "ft1000": null,
+     "et": 3.894,
+     "mph": 295.66,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Krista Baldwin",
+     "car": "725",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Baldwin with another good clean pass, but will not get in the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 1.032,
+     "ft330": 4.03,
+     "ft660": 7.084,
+     "mph660": 76.95,
+     "ft1000": null,
+     "et": 9.967,
+     "mph": 81.79,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jake Sanders",
+     "car": "666",
+     "qpos_nhra": "17",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Sanders is up  in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.104,
+     "ft60": 0.882,
+     "ft330": 2.234,
+     "ft660": 3.161,
+     "mph660": 278.92,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 326.87,
+     "first": 7.5128,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.116,
+     "ft60": 1.229,
+     "ft330": 4.803,
+     "ft660": 8.252,
+     "mph660": 70.76,
+     "ft1000": null,
+     "et": 11.406,
+     "mph": 74.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jacob Opatrny",
+     "car": "3113",
+     "qpos_nhra": "22",
+     "mov": null
+    }
+   ],
+   "note": "Millican is straight down the groove with a clean pass, but will not get off the bump spot.\r\n\r\nOpatrny is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.865,
+     "ft330": 2.193,
+     "ft660": 3.12,
+     "mph660": 275.45,
+     "ft1000": null,
+     "et": 3.885,
+     "mph": 316.97,
+     "first": 0.0419,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.106,
+     "ft60": 0.87,
+     "ft330": 2.204,
+     "ft660": 3.131,
+     "mph660": 278.46,
+     "ft1000": null,
+     "et": 3.883,
+     "mph": 323.19,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "20",
+     "mov": null
+    }
+   ],
+   "note": "Brown drops a cylinder around half track, but stays with it.  He will not improve and will start no\r\nbetter than the number 10 spot.\r\n\r\nSchumacher with a good pass early, but then drops a cylinder and banged the blower with quick\r\nfireball.  Schumacher will not get in the show.  He had qualified for 456 consecutive races, last DQ\r\nwas Topeka in 2003 (he didn't race all those years)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.862,
+     "ft330": 2.192,
+     "ft660": 3.085,
+     "mph660": 287.17,
+     "ft1000": null,
+     "et": 3.824,
+     "mph": 326.08,
+     "first": 0.7525,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.154,
+     "ft60": 0.865,
+     "ft330": 2.198,
+     "ft660": 3.266,
+     "mph660": 211.23,
+     "ft1000": null,
+     "et": 4.464,
+     "mph": 182.7,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "18",
+     "mov": null
+    }
+   ],
+   "note": "Ashley is straight down the groove with a good clean pass, but will not improve.\r\n\r\nMercier starts to haze the tires before half track and clicked it off, he will not get in the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.117,
+     "ft60": 0.874,
+     "ft330": 2.202,
+     "ft660": 3.118,
+     "mph660": 267.96,
+     "ft1000": null,
+     "et": 4.062,
+     "mph": 230.06,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ida Zetterstrom",
+     "car": "13",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.048,
+     "ft60": 0.865,
+     "ft330": 2.197,
+     "ft660": 3.087,
+     "mph660": 287.72,
+     "ft1000": null,
+     "et": 3.828,
+     "mph": 325.45,
+     "first": 0.3033,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Zetterstrom launched hard and then with no warning the engine let go with a big fireball.  She did a\r\ngreat job getting the car slowed down and in her lane.  Ida Zetterstrom was charged with an oildown,\r\n#1 for the season. That will cost 5 points.\r\n\r\nSmith launched hard and kept it hooked up to make his quickest pass of the weekend.  He moves up the\r\nladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.13,
+     "ft60": 0.864,
+     "ft330": 2.195,
+     "ft660": 3.113,
+     "mph660": 276.58,
+     "ft1000": null,
+     "et": 3.949,
+     "mph": 262.44,
+     "first": 0.2781,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 0.873,
+     "ft330": 2.207,
+     "ft660": 3.184,
+     "mph660": 235.15,
+     "ft1000": null,
+     "et": 4.252,
+     "mph": 205.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "TJ Zizzo",
+     "car": "317",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Salinas with a good looking pass early, but starts to spin the tires and drop cylinders before she\r\nclicked it off early.\r\n\r\nZizzo had a hole out early and then clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.853,
+     "ft330": 2.164,
+     "ft660": 3.055,
+     "mph660": 285.89,
+     "ft1000": null,
+     "et": 3.799,
+     "mph": 322.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.875,
+     "ft330": 2.205,
+     "ft660": 3.096,
+     "mph660": 288.58,
+     "ft1000": null,
+     "et": 3.825,
+     "mph": 332.18,
+     "first": 0.0082,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "The five women at Indy equals the most women ever in Top Fuel at a single race.  There were five at\r\nDallas in 1997 (although only 1 qualified).\r\n\r\nThis is seventh time four women have qualified for a Top Fuel field, this is the third time this\r\nyear.\r\n\r\nPruett launched hard and kept it hooked up to make the quickest pass of the session.\r\n\r\nGordon is straight down the groove with another good looking pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.879,
+     "ft330": 2.224,
+     "ft660": 3.129,
+     "mph660": 282.9,
+     "ft1000": null,
+     "et": 3.875,
+     "mph": 323.97,
+     "first": 0.0279,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.104,
+     "ft60": 0.875,
+     "ft330": 2.212,
+     "ft660": 3.131,
+     "mph660": 279.27,
+     "ft1000": null,
+     "et": 3.882,
+     "mph": 322.96,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Torrence is straight down the groove with another good pass, but will not improve.\r\n\r\nHart kept it hooked up, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.852,
+     "ft330": 2.174,
+     "ft660": 3.218,
+     "mph660": 209.88,
+     "ft1000": null,
+     "et": 4.417,
+     "mph": 182.7,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": -0.008,
+     "ft60": 0.866,
+     "ft330": 2.18,
+     "ft660": 3.065,
+     "mph660": 287.23,
+     "ft1000": null,
+     "et": 3.807,
+     "mph": 321.81,
+     "first": 0.6876,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Stewart started to haze the tires just past half track and clicked it off early.\r\n\r\nTatum kept it hooked up and was straight down the groove.  He  makes the second quickest pass of the\r\nsession.  Tripp Tatum's incremental times: 60ft-0.866 sec., 330ft-2.180, 660ft-3.065/287.23 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.865,
+     "ft330": 2.203,
+     "ft660": 3.11,
+     "mph660": 283.37,
+     "ft1000": null,
+     "et": 3.848,
+     "mph": 329.75,
+     "first": 2.1001,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.89,
+     "ft330": 2.341,
+     "ft660": 4.029,
+     "mph660": 128.08,
+     "ft1000": null,
+     "et": 5.958,
+     "mph": 115.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Langdon is straight down the groove with a good clean pass.  He will not improve.  He holds on to the\r\nnumber one spot for the sixth time this season and 28th of his career.\r\n\r\nKalitta had a hole out right at the hit and shut it off."
+  }
+ ]
+}

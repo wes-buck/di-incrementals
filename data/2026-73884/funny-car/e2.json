@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.889,
+     "ft330": 2.281,
+     "ft660": 3.218,
+     "mph660": 278.12,
+     "ft1000": null,
+     "et": 3.959,
+     "mph": 330.96,
+     "first": 0.0483,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": 0.0483
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.905,
+     "ft330": 2.307,
+     "ft660": 3.253,
+     "mph660": 274.89,
+     "ft1000": null,
+     "et": 4.007,
+     "mph": 323.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "1:01 p.m. Weather conditions: air temperature 77 degrees, relative humidity 56 percent, barometer 30.10 inches, adjusted altitude 2,560 feet, track temperature 115 degrees.\r\n\r\nHagan is 15 - 2 against Lee in prior events. \r\n\r\nThey leave the line together but Hagan starts pulling away and extends his lead all the way through the run. Lee makes a decent pass.\r\n\r\nMatt Hagan's incremental margins: 60ft(0.016), 330 ft(0.026), 660ft(0.035).  MOV: 0.0483 seconds (approximately 23 feet).\r\n\r\nMatt Hagan's incremental times: 60ft-0.889 sec., 330ft-2.281, 660ft-3.218/278.12 mph.\r\n\r\nPaul Lee's incremental times: 60ft-0.905 sec., 330ft-2.307, 660ft-3.253/274.89 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.086,
+     "ft60": 0.894,
+     "ft330": 2.292,
+     "ft660": 3.233,
+     "mph660": 275.62,
+     "ft1000": null,
+     "et": 3.989,
+     "mph": 320.97,
+     "first": 3.8196,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
+     "mov": 3.8196
+    },
+    {
+     "rt": 0.059,
+     "ft60": 1.288,
+     "ft330": 3.77,
+     "ft660": 5.623,
+     "mph660": 115.36,
+     "ft1000": null,
+     "et": 7.835,
+     "mph": 98.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Capps is 9 - 3 against Wilkerson in prior events. \r\n\r\nWilkerson hits the throttle and goes up in smoke. He gets back on the throttle, then gives up on the run. Capps goes down the groove with a good pass to take the win.\r\n\r\nCapps will give up lane choice to Hagan in the next round with the points lead on the line."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.875,
+     "ft330": 2.259,
+     "ft660": 3.183,
+     "mph660": 279.79,
+     "ft1000": null,
+     "et": 3.924,
+     "mph": 329.75,
+     "first": 1.4175,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "3",
+     "mov": 1.4175
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.89,
+     "ft330": 2.31,
+     "ft660": 3.712,
+     "mph660": 154.09,
+     "ft1000": null,
+     "et": 5.323,
+     "mph": 137.44,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Beckman is 19 - 6 against DeJoria in prior events. \r\n\r\nBeckman goes down the groove with another good run to take the win. DeJoria gets about 400 feet out and strikes the tires."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.888,
+     "ft330": 2.308,
+     "ft660": 3.278,
+     "mph660": 267.37,
+     "ft1000": null,
+     "et": 4.055,
+     "mph": 314.46,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.049,
+     "ft60": 0.896,
+     "ft330": 2.274,
+     "ft660": 3.196,
+     "mph660": 283.55,
+     "ft1000": null,
+     "et": 3.935,
+     "mph": 328.86,
+     "first": 0.1445,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": 0.1445
+    }
+   ],
+   "note": "Vandergriff is 3 - 2 against Prock in prior events. \r\n\r\nProck gets off of the line first, starts pulling away, and extends his lead all the way through the run.\r\n\r\nBeckman will have lane choice over Prock in the next round.\r\n\r\nWith Vandergriff's loss, the race between Capps and Hagan in the next round will determine the regular season championship."
+  }
+ ]
+}

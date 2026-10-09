@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.071,
+     "ft60": 1.132,
+     "ft330": 5.294,
+     "ft660": 10.922,
+     "mph660": 38.23,
+     "ft1000": 17.464,
+     "et": 24.484,
+     "mph": 29.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 1.007,
+     "ft330": 2.797,
+     "ft660": 4.292,
+     "mph660": 164.59,
+     "ft1000": 5.584,
+     "et": 6.672,
+     "mph": 205.6,
+     "first": 7.8374,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 7.8374
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 63 percent, barometer 29.82 inches, adjusted\r\naltitude 4,182 feet, track temperature 127 degrees.\r\n\r\nAnderson is 21 - 6 against Hartford in prior events and Hartford is 3 - 2 against Anderson in prior final\r\nrounds. \r\n\r\nHartford with the starting line advantage and never trailed for the win.  Hartford wins his third Wally this\r\nseason and 11th of his career.\r\n\r\nAnderson with severe tire shake and clicked it off."
+  }
+ ]
+}

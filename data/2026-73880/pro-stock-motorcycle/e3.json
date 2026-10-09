@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.002,
+     "ft60": 1.064,
+     "ft330": 2.866,
+     "ft660": 4.397,
+     "mph660": 160.16,
+     "ft1000": 5.73,
+     "et": 6.868,
+     "mph": 196.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 1.053,
+     "ft330": 2.853,
+     "ft660": 4.381,
+     "mph660": 160.31,
+     "ft1000": 5.715,
+     "et": 6.857,
+     "mph": 196.82,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.94 inches, adjusted\r\naltitude 3,239 feet, track temperature 122 degrees.\r\n\r\nGladstone is 1 - 0 against Gadson in prior events. \r\n\r\nGladstone goes red to give Gadson the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.029,
+     "ft60": 1.084,
+     "ft330": 2.878,
+     "ft660": 4.405,
+     "mph660": 160.21,
+     "ft1000": 5.739,
+     "et": 6.875,
+     "mph": 197.1,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.027,
+     "ft60": 1.058,
+     "ft330": 2.853,
+     "ft660": 4.377,
+     "mph660": 160.84,
+     "ft1000": 5.707,
+     "et": 6.843,
+     "mph": 197.68,
+     "first": 0.0347,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0347
+    }
+   ],
+   "note": "Herrera is 13 - 2 against Smith in prior events. \r\n\r\nHerrera with a couple ticks on the tree and never trailed for the win.  He will have lane choice over Gadson\r\nin the final."
+  }
+ ]
+}

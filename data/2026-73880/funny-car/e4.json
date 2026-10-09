@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.912,
+     "ft330": 2.303,
+     "ft660": 3.228,
+     "mph660": 280.25,
+     "ft1000": null,
+     "et": 3.969,
+     "mph": 328.54,
+     "first": 0.0458,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "3",
+     "mov": 0.0458
+    },
+    {
+     "rt": 0.051,
+     "ft60": 0.916,
+     "ft330": 2.323,
+     "ft660": 3.256,
+     "mph660": 278.46,
+     "ft1000": null,
+     "et": 4.011,
+     "mph": 323.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.93 inches, adjusted\r\naltitude 3,177 feet, track temperature 122 degrees.\r\n\r\nCapps is 41 - 27 against Beckman in prior events and each has won 5 times against the other in final rounds. \r\n\r\nCapps with a slight starting line advantage and never trailed for the win.  Ron Capps' MOV: 0.0458 seconds\r\n(approximately 22 feet).\r\n\r\nCapps wins his third Wally this season and 80th career."
+  }
+ ]
+}

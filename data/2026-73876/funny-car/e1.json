@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.096,
+     "ft60": 0.891,
+     "ft330": 2.279,
+     "ft660": 3.202,
+     "mph660": 281.6,
+     "ft1000": null,
+     "et": 3.947,
+     "mph": 326.48,
+     "first": 5.9961,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "12",
+     "mov": 5.9961
+    },
+    {
+     "rt": 0.07,
+     "ft60": 1.06,
+     "ft330": 4.264,
+     "ft660": 7.217,
+     "mph660": 83.36,
+     "ft1000": null,
+     "et": 9.969,
+     "mph": 80.24,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 1.016,
+     "ft330": 3.923,
+     "ft660": 6.653,
+     "mph660": 90.09,
+     "ft1000": null,
+     "et": 9.138,
+     "mph": 95.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.881,
+     "ft330": 2.277,
+     "ft660": 3.198,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.934,
+     "mph": 330.31,
+     "first": 5.2084,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 5.2084
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.92,
+     "ft330": 2.337,
+     "ft660": 3.363,
+     "mph660": 244.43,
+     "ft1000": null,
+     "et": 4.233,
+     "mph": 270.64,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.875,
+     "ft330": 2.271,
+     "ft660": 3.198,
+     "mph660": 279.61,
+     "ft1000": null,
+     "et": 3.945,
+     "mph": 325.53,
+     "first": 0.2817,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": 0.2817
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 0.936,
+     "ft330": 2.395,
+     "ft660": 3.475,
+     "mph660": 206.26,
+     "ft1000": null,
+     "et": 4.659,
+     "mph": 188.62,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.885,
+     "ft330": 2.288,
+     "ft660": 3.215,
+     "mph660": 281.36,
+     "ft1000": null,
+     "et": 3.978,
+     "mph": 301.47,
+     "first": 0.6643,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": 0.6643
+    }
+   ],
+   "note": "Ron Capps is 54 - 7 in Rd. 1 when qualified #2.  Bobby Bode is 0 - 2 against Capps in Rd. 1\r\n\r\nCapps is 5 - 0 against Bode in prior events. \r\n\r\nBode with the starting line advantage, but dropped cylinders right at the hit.\r\n\r\nCapps had the lead as they went by the Christmas tree and never trailed from there on for the win.  Capps car\r\nwent silent right in the lights."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.151,
+     "ft60": 0.903,
+     "ft330": 2.315,
+     "ft660": 3.255,
+     "mph660": 277.2,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 329.83,
+     "first": 3.7008,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": 3.7008
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.914,
+     "ft330": 2.701,
+     "ft660": 5.089,
+     "mph660": 88.16,
+     "ft1000": null,
+     "et": 7.791,
+     "mph": 82.81,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "The last time Cruz Pedregon did not win a round in the first 5 races of the year was 2017.  Dave Richards is 0\r\n- 3 against Pedregon in Rd. 1.\r\n\r\nPedregon is 3 - 1 against Richards in prior events. \r\n\r\nPedregon with the starting line advantage, but lost traction and clicked it off.\r\n\r\nRichards is straight down the groove with his quickest pass of the weekend for the win.  He will give up lane\r\nchoice to DeJoria in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.9,
+     "ft330": 2.291,
+     "ft660": 3.472,
+     "mph660": 184.75,
+     "ft1000": null,
+     "et": 4.808,
+     "mph": 166.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.893,
+     "ft330": 2.294,
+     "ft660": 3.221,
+     "mph660": 281.07,
+     "ft1000": null,
+     "et": 3.957,
+     "mph": 334.48,
+     "first": 0.8397,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "6",
+     "mov": 0.8397
+    }
+   ],
+   "note": "J.R. Todd has set Top Speed at 4 of the 5 races this year (and has Top Speed here - 334.73).   Dan Wilkerson s\r\n0 - 3 in his last 3 starts.  \r\n\r\nTodd is 3 - 2 against Wilkerson in prior events. \r\n\r\nWilkerson with the starting line advantage, but lost traction and clicked it off.\r\n\r\nTodd kept it hooked up and make the third quickest pass of the session.  He will give up lane choice to Prock\r\nin the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.901,
+     "ft330": 2.297,
+     "ft660": 3.212,
+     "mph660": 284.51,
+     "ft1000": null,
+     "et": 3.952,
+     "mph": 328.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.904,
+     "ft330": 2.283,
+     "ft660": 3.197,
+     "mph660": 281.83,
+     "ft1000": null,
+     "et": 3.943,
+     "mph": 324.12,
+     "first": 0.0219,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": 0.0219
+    }
+   ],
+   "note": "Chad Green has won 9 consecutive Rd. 1 races.   Jordan Vandergriff is the 35th FC driver to win in a Chevrolet\r\n\r\nVandergriff and Green have each won 1 times against the other in prior events. \r\n\r\nGreen with the starting line advantage and never trailed for the win.  Green kept it hooked up and makes his\r\nquickest pass of the weekend for the win.  He will have lane choice over Capps in the next round.\r\n\r\nVandergriff with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.882,
+     "ft330": 2.276,
+     "ft660": 3.203,
+     "mph660": 281.71,
+     "ft1000": null,
+     "et": 3.95,
+     "mph": 326.4,
+     "first": 0.6138,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": 0.6138
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.891,
+     "ft330": 2.292,
+     "ft660": 3.375,
+     "mph660": 206.7,
+     "ft1000": null,
+     "et": 4.562,
+     "mph": 187.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Blake Alexander wins 71% of his Rd. 1 races when starting from the top of the field.  Matt Hagan is 10 - 14 in\r\nRd. 1 when starting 9th \r\n\r\nHagan is 13 - 6 against Alexander in prior events. \r\n\r\nHagan with a tick on the tree and never trailed for the win.  Hagan kept it hooked up and hitting on all eight\r\nfor the win.  He makes his quickest pass of the weekend for the win. He will give up lane choice to Beckman in\r\nthe next round."
+  }
+ ]
+}

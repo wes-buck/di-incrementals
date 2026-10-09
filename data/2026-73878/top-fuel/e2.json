@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.853,
+     "ft330": 2.164,
+     "ft660": 3.049,
+     "mph660": 290.44,
+     "ft1000": null,
+     "et": 3.775,
+     "mph": 332.92,
+     "first": 0.3038,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.3038
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.885,
+     "ft330": 2.239,
+     "ft660": 3.142,
+     "mph660": 280.84,
+     "ft1000": null,
+     "et": 4.033,
+     "mph": 246.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 61 percent, barometer 29.69 inches, adjusted\r\naltitude 2,069 feet, track temperature 109 degrees.\r\n\r\nIn the 34 meetings between Shawn Langdon and Clay Millican, Langdon has left first 25 times.\r\n\r\nLangdon is 18 - 16 against Millican in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win.\r\n\r\nMillican started to drift out of the groove before he clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.89,
+     "ft330": 2.214,
+     "ft660": 3.124,
+     "mph660": 282.9,
+     "ft1000": null,
+     "et": 3.861,
+     "mph": 331.04,
+     "first": 0.0155,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "6",
+     "mov": 0.0155
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.875,
+     "ft330": 2.208,
+     "ft660": 3.121,
+     "mph660": 283.37,
+     "ft1000": null,
+     "et": 3.856,
+     "mph": 332.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Torrence is 4 - 0 against Hart in prior events. \r\n\r\nTorrence with the starting line advantage and the power to hold on for th hole shot win.  Billy Torrence's\r\nMOV: 0.0155 seconds (approximately 8 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.853,
+     "ft330": 2.293,
+     "ft660": 3.588,
+     "mph660": 194.74,
+     "ft1000": null,
+     "et": 4.696,
+     "mph": 200.08,
+     "first": 0.8986,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": 0.8986
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.87,
+     "ft330": 2.892,
+     "ft660": 4.454,
+     "mph660": 179.06,
+     "ft1000": null,
+     "et": 5.623,
+     "mph": 191.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Pruett and Gordon have faced each other in eliminations. \r\n\r\nGordon with the starting line, but is up in smoke and she is off the throttle.  Then Pruett is up in smoke and\r\nGordon tries to get back on, but couldn't get it to hook up.  Pruett pedals it and gets it to hook up enough\r\nfor the win.  She will give up lane choice to Torrence in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.856,
+     "ft330": 2.171,
+     "ft660": 3.071,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.808,
+     "mph": 329.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.847,
+     "ft330": 2.151,
+     "ft660": 3.034,
+     "mph660": 290.01,
+     "ft1000": null,
+     "et": 3.762,
+     "mph": 330.23,
+     "first": 0.0514,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 0.0514
+    }
+   ],
+   "note": "In the 80 meetings between Doug Kalitta and Antron Brown Antron has left first 55 times.\r\n\r\nBrown is 43 - 37 against Kalitta in prior events. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  He will have lane choice over Langdon\r\nin the semifinal."
+  }
+ ]
+}

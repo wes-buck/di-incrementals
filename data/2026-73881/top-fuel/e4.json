@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.844,
+     "ft330": 2.145,
+     "ft660": 3.016,
+     "mph660": 294.43,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 339.96,
+     "first": 0.0682,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0682
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.847,
+     "ft330": 2.159,
+     "ft660": 3.058,
+     "mph660": 280.25,
+     "ft1000": null,
+     "et": 3.815,
+     "mph": 319.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 59 percent, barometer 29.90 inches, adjusted\r\naltitude 1,459 feet.\r\n\r\nThe #1 TF qualifier is 8 - 4 in the Final round at this event. The last time the #1 TF qualifier won this race was 2015.\r\n\r\nDoug Kalitta is 11 - 14 in Final round when starting #1. He is 2 - 0 at this event in Final rounds when starting #1 (1998 & 2004)\r\n\r\nKalitta is 5 - 0 against Salinas in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nSalinas with the starting line advantage, but Kalitta has the lead by half tack and takes the win  He wins his\r\nsecond Wally this season and 61st career.\r\n\r\nSalinas had the lead until it dropped a cylinder..."
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/top-fuel/q4",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "top-fuel",
+ "round": "Q4",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.861,
+     "ft330": 2.372,
+     "ft660": 3.811,
+     "mph660": 146.64,
+     "ft1000": null,
+     "et": 5.785,
+     "mph": 98.91,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.108,
+     "ft60": 0.864,
+     "ft330": 2.177,
+     "ft660": 3.292,
+     "mph660": 190.78,
+     "ft1000": null,
+     "et": 4.613,
+     "mph": 165.92,
+     "first": 4.6583,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron August Jr",
+     "car": "7727",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "August with his quickest pass of the weekend to move up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.847,
+     "ft330": 2.168,
+     "ft660": 3.093,
+     "mph660": 271.41,
+     "ft1000": null,
+     "et": 4.022,
+     "mph": 236.38,
+     "first": 0.0983,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.856,
+     "ft330": 2.201,
+     "ft660": 3.163,
+     "mph660": 258.42,
+     "ft1000": null,
+     "et": 4.14,
+     "mph": 224.25,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Millican has holes out early and clicked id off.\r\n\r\nBrown started to mix up the cylinders and clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.87,
+     "ft330": 2.191,
+     "ft660": 3.087,
+     "mph660": 285.95,
+     "ft1000": null,
+     "et": 3.826,
+     "mph": 327.98,
+     "first": 0.1592,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 0.877,
+     "ft330": 2.2,
+     "ft660": 3.101,
+     "mph660": 279.96,
+     "ft1000": null,
+     "et": 3.986,
+     "mph": 247.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Ashley is straight down the groove with his quickest pass of the weekend.  He stays in the number nine spot.\r\n\r\nSmith is dropping cylinders early and clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.843,
+     "ft330": 2.135,
+     "ft660": 3.072,
+     "mph660": 243.41,
+     "ft1000": null,
+     "et": 4.111,
+     "mph": 211.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.112,
+     "ft60": 0.855,
+     "ft330": 2.173,
+     "ft660": 3.054,
+     "mph660": 291.32,
+     "ft1000": null,
+     "et": 3.778,
+     "mph": 334.65,
+     "first": 0.2805,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Stewart with a good pass early, but then started to haze the tires around half track and dropped cylinders\r\nbefore he clicked it off.\r\n\r\nTorrence with a good looking pass, straight down the groove.  He makes the quickest pass of the session."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.128,
+     "ft60": 0.836,
+     "ft330": 2.131,
+     "ft660": 3.395,
+     "mph660": 168.89,
+     "ft1000": null,
+     "et": 4.884,
+     "mph": 147.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.893,
+     "ft330": 2.271,
+     "ft660": 3.209,
+     "mph660": 271.02,
+     "ft1000": null,
+     "et": 4.014,
+     "mph": 285.41,
+     "first": 0.8884,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Hart drives into tire smoke around half track and clicked it off.\r\n\r\nReed with a good looking pass until right in the light when it started to haze the tires."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 0.855,
+     "ft330": 2.173,
+     "ft660": 3.06,
+     "mph660": 288.46,
+     "ft1000": null,
+     "et": 3.794,
+     "mph": 328.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.851,
+     "ft330": 2.159,
+     "ft660": 3.038,
+     "mph660": 291.89,
+     "ft1000": null,
+     "et": 3.761,
+     "mph": 335.65,
+     "first": 0.0727,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Pruett kept it hooked up and is straight down the groove, with the third quickest pass of the session.  Leah\r\nPruett's incremental times: 60ft-0.855 sec., 330ft-2.173, 660ft-3.060/288.46 mph. \r\n\r\nLangdon launched hard and kept it hooked up to make the quickest pass of the session.  Shawn Langdon's\r\nincremental times: 60ft-0.851 sec., 330ft-2.159, 660ft-3.038/291.89 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.853,
+     "ft330": 2.152,
+     "ft660": 3.024,
+     "mph660": 292.96,
+     "ft1000": null,
+     "et": 3.747,
+     "mph": 333.66,
+     "first": 0.0742,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 0.0742
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.842,
+     "ft330": 2.16,
+     "ft660": 3.062,
+     "mph660": 285.89,
+     "ft1000": null,
+     "et": 3.798,
+     "mph": 327.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta launched hard and kept it hooked up to make his quickest pass of the weekend.  He makes the quickest\r\nof the session.  Doug Kalitta's incremental times: 60ft-0.853 sec., 330ft-2.152, 660ft-3.024/292.96 mph. \r\n\r\nGordon is straight down the groove with her quickest pass of the weekend.  She stays in the number eight spot."
+  }
+ ]
+}

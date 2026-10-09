@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.011,
+     "ft60": 0.959,
+     "ft330": 2.587,
+     "ft660": 3.832,
+     "mph660": 198.44,
+     "ft1000": 4.886,
+     "et": 5.786,
+     "mph": 250.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chip King",
+     "car": "9",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.032,
+     "ft60": 0.945,
+     "ft330": 2.52,
+     "ft660": 3.753,
+     "mph660": 203.4,
+     "ft1000": 4.817,
+     "et": 5.718,
+     "mph": 250.13,
+     "first": 0.0476,
+     "lane": "Right",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0476
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 66 percent, barometer 30.10 inches,\r\nadjusted altitude 1,948 feet. \r\n\r\nThis is the first time King and Menholt have faced each other in eliminations. \r\n\r\nKing with a great light and the starting line advantage.  Menholt chased him down by 150 feet and\r\nnever trailed from there on for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 0.953,
+     "ft330": 2.53,
+     "ft660": 3.776,
+     "mph660": 198.23,
+     "ft1000": 4.841,
+     "et": 5.738,
+     "mph": 251.11,
+     "first": 0.1962,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1962
+    },
+    {
+     "rt": 0.012,
+     "ft60": 0.978,
+     "ft330": 2.686,
+     "ft660": 3.961,
+     "mph660": 195.85,
+     "ft1000": 5.034,
+     "et": 5.94,
+     "mph": 247.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alex Laughlin",
+     "car": "40",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gray is 2 - 0 against Laughlin in prior events. \r\n\r\nA couple great lights with Laughlin getting the advantage, but lost traction right at the hit.  He\r\npedaled it, but Gray had the lead by the time they go by the Christmas tree and never trailed from\r\nthere on for the win.  He will give up lane choice to Menholt in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 0.937,
+     "ft330": 2.525,
+     "ft660": 3.758,
+     "mph660": 198.44,
+     "ft1000": 4.81,
+     "et": 5.703,
+     "mph": 252.24,
+     "first": 0.1184,
+     "lane": "Left",
+     "win": true,
+     "driver": "Lyle Barnett",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1184
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.953,
+     "ft330": 2.543,
+     "ft660": 3.797,
+     "mph660": 196.9,
+     "ft1000": 4.871,
+     "et": 5.78,
+     "mph": 247.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kevin Rivenbark",
+     "car": "225",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Barnett is 1 - 0 against Rivenbark in prior events. \r\n\r\nBarnett with a great light and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.036,
+     "ft60": 0.937,
+     "ft330": 2.525,
+     "ft660": 3.77,
+     "mph660": 196.42,
+     "ft1000": 4.848,
+     "et": 5.755,
+     "mph": 247.84,
+     "first": 0.0078,
+     "lane": "Left",
+     "win": true,
+     "driver": "Mike Castellana",
+     "car": "44",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0078
+    },
+    {
+     "rt": 0.043,
+     "ft60": 0.965,
+     "ft330": 2.55,
+     "ft660": 3.792,
+     "mph660": 198.96,
+     "ft1000": 4.855,
+     "et": 5.755,
+     "mph": 249.53,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Sidnei Frigo",
+     "car": "288",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Castellana is 8 - 2 against Frigo in prior events. \r\n\r\nCastellana with the starting line advantage and they run identical E.T.s so Castellana picks up the\r\nhole shot win in a close one.  Mike Castellana's MOV: 0.0078 seconds (approximately 3 feet).\r\n\r\nHe will give up lane choice to Barnett in the semifinal."
+  }
+ ]
+}

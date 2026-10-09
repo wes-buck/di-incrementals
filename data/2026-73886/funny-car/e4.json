@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0472,
+     "ft60": 0.8803,
+     "ft330": 2.2617,
+     "ft660": 3.1854,
+     "mph660": 283.02,
+     "ft1000": null,
+     "et": 3.9221,
+     "mph": 327.75,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 0.5871
+    },
+    {
+     "rt": 0.0224,
+     "ft60": 0.8807,
+     "ft330": 2.2627,
+     "ft660": 3.3337,
+     "mph660": 211.07,
+     "ft1000": null,
+     "et": 4.534,
+     "mph": 183.37,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 36 percent, barometer 29.80 inches,\r\nadjusted altitude 2,334 feet, track temperature 112 degrees.\r\n\r\nThe last time Matt Hagan went to four Final rounds in a row was in 2022 (Phoenix, Gainesville, Las\r\nVegas 4-Wide and Houston). He has never been to four consecutive Final rounds at \"traditional races.\"\r\n\r\nThis is the 16th time in Funny Car history that the No. 7 and No. 8 qualifiers have met in the Final\r\nround.\r\nPaul Lee's 16 losses to Hagan are the most for him against any opponent.\r\n\r\nHagan is 16 - 2 against Lee in prior events and this is the first time they have faced each other in\r\na final round.\r\n\r\nLee with the starting line advantage and then got real loose.  The car made a move toward the wall,\r\nhe never hit the wall, but did cross the outer boundary line. \r\n\r\nHagan kept it hooked up and hitting on all eight for the win.  He wins his fourth Wally this season\r\nand 59th of his career."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.003,
+     "ft60": 0.94,
+     "ft330": 2.523,
+     "ft660": 4.102,
+     "mph660": 137.64,
+     "ft1000": 5.828,
+     "et": 7.508,
+     "mph": 128.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lyle Barnett",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.935,
+     "ft330": 2.501,
+     "ft660": 3.73,
+     "mph660": 203.43,
+     "ft1000": 4.792,
+     "et": 5.69,
+     "mph": 251.02,
+     "first": 1.7627,
+     "lane": "Right",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 61 percent, barometer 30.03 inches, adjusted altitude 2,197 feet.\r\n\r\nThis is the first time Barnett and Menholt have faced each other in eliminations. \r\n\r\nBarnett is a few ticks too quick on the tree and goes red to give Menholt the win.  Menholt wins his second National event Wally"
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/funny-car/q1",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "funny-car",
+ "round": "Q1",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.161,
+     "ft60": 0.919,
+     "ft330": 2.339,
+     "ft660": 3.298,
+     "mph660": 272.45,
+     "ft1000": null,
+     "et": 4.066,
+     "mph": 314.17,
+     "first": 4.1951,
+     "lane": "Right",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 53 percent, barometer 29.97 inches, adjusted\r\naltitude 3,096 feet. \r\n\r\nThis is Jim Campbell 155th race overall, his 9th race at this event, first was 2017.\r\nBest starting spot at this event is #7 (2018) and best starting spot of his career is #7.\r\nAverage starting spot at this event is 13.1 and average starting spot of his career: 13.3.\r\nCampbell's overall record at this event is 0 - 7.\r\nThis is his 2nd race this year, and this is his 6th consecutive year of competing at this event.\r\n\r\nThis is Dave Richards 104th race overall, his 4th race at this event, first was 2023.\r\nBest starting spot at this event is #14 (2023 & 2024), best starting spot of his career is #8 (2 times).\r\nHis average starting spot at this event is 14.7, average starting spot for his career is 13.3.\r\nRichards overall record at this event is 1 - 3, his best finish at this event is Quarter-finals, 2023.\r\nLowest starting spot at this event: #16 (2025).\r\nThis is Dave Richards 104th race overall, his 4th race at this event, first was 2023.\r\nBest starting spot at this event is #14 (2023 & 2024), best starting spot of his career is #8 (2 times).\r\nHis average starting spot at this event is 14.7, average starting spot for his career is 13.3.\r\nRichards overall record at this event is 1 - 3, his best finish at this event is Quarter-finals, 2023.\r\nLowest starting spot at this event: #16 (2025).\r\n\r\nCampbell breaks on the burnout and is shut off.\r\n\r\nRichards is straight down the groove with a good pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 1.536,
+     "ft330": 5.898,
+     "ft660": 9.503,
+     "mph660": 71.63,
+     "ft1000": null,
+     "et": 12.456,
+     "mph": 82.89,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Cruz Pedregon has 40 national event wins in FC, last win was Reading, 2025.\r\nThis is his 718th race overall, his 32nd race at this event and first was 1991 (in TF).\r\nBest starting spot at this event is #1 (1993, 1993 & 1998), best starting spot of his career is #1 (65\r\ntimes). \r\nHis average starting spot at this event is 7.9, average starting spot for career is 7.5.\r\nPedregon's overall record at this event is 20 - 28, won this race in 1992 (Beat M. Oswald), runner-up here in\r\n1993 (Lost to C. Etchells) & 2021 (Lost to M. Hagan).\r\nHas qualified in the top half of the field at 16 of his 31 races here and his lowest starting spot at this\r\nevent is #16 (2018), he also DNQ here in 2002 & 2007.\r\n\r\nPedregon lost traction right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.886,
+     "ft330": 2.278,
+     "ft660": 3.192,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.942,
+     "mph": 319.52,
+     "first": 0.9493,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.889,
+     "ft330": 2.267,
+     "ft660": 3.495,
+     "mph660": 178.05,
+     "ft1000": null,
+     "et": 4.876,
+     "mph": 160.0,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 53 percent, barometer 29.97 inches, adjusted\r\naltitude 3,096 feet, track temperature 108 degrees.\r\n\r\nDaniel Wilkerson has 5 National event Final rounds including 2 Finals in 2026, last Final was Sonoma,\r\n2026.\r\nThis is his 66th race overall, this is his 3rd race at this event, first was 2024.\r\nBest starting spot at this event is #9 (2025), best starting spot of his career is #3.\r\nHis average starting spot at this event is 10.5, average starting spot for his career is 8.9.\r\nWilkerson's overall record at this event is 2 - 2, his best finish at this event is Quarter-finals, 2024 &\r\n2025.\r\nLowest starting spot at this event is #12 (2024).\r\n\r\nSpencer Hyde has 3 National event Final rounds, his last Final was Phoenix, 2026.\r\nThis is his 34th race overall, his 2nd race at this event, first was 2025.\r\nHe qualified #11 here in 2025, best starting spot of his career is #1 (2 times).\r\nAverage starting spot of his career is 8.6.\r\nHyde's overall record at this event is 1 - 1, best finish at this event is Quarter-finals, 2025.\r\n\r\nWilkerson launched hard and kept it hooked up to go to the number one spot.  Daniel Wilkerson's incremental\r\ntimes: 60ft-0.886 sec., 330ft-2.278, 660ft-3.192/285.05 mph. \r\n\r\nHyde is right there with Wilkerson early, but starts to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.909,
+     "ft330": 2.309,
+     "ft660": 3.229,
+     "mph660": 284.75,
+     "ft1000": null,
+     "et": 3.969,
+     "mph": 325.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.883,
+     "ft330": 2.285,
+     "ft660": 3.218,
+     "mph660": 277.66,
+     "ft1000": null,
+     "et": 3.971,
+     "mph": 322.42,
+     "first": 0.0032,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Alexis DeJoria has six wins in FC, her last win was in Bristol, 2021.\r\nThis is her 267th race overall, this is her 11th race at this event, first was  in 2012.\r\nBest starting spot at this event is #3 (2015), best starting spot for her career is #1 (6 times).\r\nAverage starting spot at this event is 8.0, her Average starting spot for her career is 8.0.\r\nHer overall record at this event is 8 - 9, she won this race in 2017 (Beat T. Johnson Jr.).\r\nHas qualified in the top half of the field at 6 of her 10 races here, lowest starting spot at this event is\r\n#14 (2013).\r\nDeJoria set Top Speed in Seattle (337.41), her 1st Top Speed since Denver, 2023.\r\nBack-to-back Rd. 1 losses have dropped her to 8th place, her lowest spot of the year.\r\n\r\nAustin Prock has 22 National event wins (4 in TF and 18 in FC), last win as at MIR, 2026.\r\nThis is his 122nd race overall, this is his 6th race at this event, his first was 2019.\r\nBest starting spot at this event was  #1 (2024), best starting spot for his career is #1 (26 times).\r\nAverage starting spot at this event is 5.4 and average starting spot for his career is 6.1.\r\nHis overall record at this event is 7 - 4, he won this race in 2025 (Beat J.R. Todd).\r\nProck has qualified in the top half of the field at all 5 of his races here, lowest starting spot at this\r\nevent was #8 (3 times).\r\nHe has moved up to 7th place, his highest spot in the points of the year.\r\n\r\nDeJoria kept it hooked up and hitting on all eight to go to the number two spot.  \r\nAlexis DeJoria's incremental times: 60ft-0.909 sec., 330ft-2.309, 660ft-3.229/284.75 mph. \r\n\r\nProck is straight down the groove, hooked up all the way down the track.  He goes to the number three spot.\r\nAustin Prock's incremental times: 60ft-0.883 sec., 330ft-2.285, 660ft-3.218/277.66 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.883,
+     "ft330": 2.277,
+     "ft660": 3.213,
+     "mph660": 278.52,
+     "ft1000": null,
+     "et": 3.972,
+     "mph": 318.99,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Chad Green has four National event wins in FC, 2 wins in 2026, his last win was Chicago, 2026.\r\nThis is his 101st race overall, and his 5th race at this event, first was 2022.\r\nBest starting spot at this event is #10 (2023 & 2024), best starting spot for his career is #1 (Epping,\r\n2023).\r\nHis average starting spot at this event is 11.3 and average starting spot for his career is: 8.6.\r\nLowest starting spot at this event was #14 (2025).\r\nGreen's overall record at this event is 5 - 4, his best finish at this event is: Semi-finals, 2024 & 2025.\r\n\r\nGreen launched hard and with a great pass until right in the lights when it dropped a cylinder.  He goes to\r\nthe number four spot.  Chad Green's incremental times: 60ft-0.883 sec., 330ft-2.277, 660ft-3.213/278.52 mph. \r\n\r\nHagan pulled out of line and went back to the pits."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.873,
+     "ft330": 2.262,
+     "ft660": 3.196,
+     "mph660": 276.92,
+     "ft1000": null,
+     "et": 4.035,
+     "mph": 265.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.899,
+     "ft330": 2.297,
+     "ft660": 3.227,
+     "mph660": 280.84,
+     "ft1000": null,
+     "et": 3.976,
+     "mph": 321.88,
+     "first": 0.0718,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Jordan Vandergriff has 2 National event wins, both this season, last win: Sonoma, 2026.\r\nThis is his 26th race overall, this is his 2nd race at this event, first was 2025 in TF.\r\nHe qualified #3 here in 2025, best starting spot of his career is #1 (2 times).\r\nHis average starting spot of his career is 6.7.\r\nVandergriff's overall record at this event is 1 - 1, best finish at this event is Quarter-finals, 2025.\r\n\r\nJ.R. Todd has 23 National event wins (9 in TF and 14 in FC), last win was Seattle, 2026.\r\nThis is his 350th race overall, his 15th race at this event, first was 2006 in TF.\r\nHis best starting spot at this event is #2 (2023), best starting spot of his career is #1 (17 times). \r\nAverage starting spot at this event is 9.6 and average starting spot for his career is 7.5.\r\nOverall record at this event is 12 - 14, runner-up here in 2025 (Lost to A. Prock).\r\nHas qualified in the top half of the field at 4 of his 14 races here, lowest starting spot at this event is\r\n#16 (2014).\r\nHe ran career best (3.852) here in 2025.\r\nHis 14 wins are tied for 19th most in FC.\r\n\r\nVandergriff with a good pass early, but dropped a cylinder or two and moved out of the groove before he\r\nclicked it off.\r\n\r\nTodd launched hard and kept it hooked with a good clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.873,
+     "ft330": 2.244,
+     "ft660": 3.158,
+     "mph660": 284.27,
+     "ft1000": null,
+     "et": 3.903,
+     "mph": 324.67,
+     "first": 1.2928,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.909,
+     "ft330": 2.321,
+     "ft660": 3.666,
+     "mph660": 161.98,
+     "ft1000": null,
+     "et": 5.184,
+     "mph": 146.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman has 38 National event wins in FC, last win was Epping, 2026.\r\nThis is his 375th race, this is his 16th race at this event, first was 2005.\r\nBest starting spot at this event is #1 (2012, 2013, 2015 & 2025), best starting spot for his career is #1 (35\r\ntimes).\r\nAverage starting spot at this event is 6.1 and average starting spot for his career is 6.3.\r\nBeckman's overall record at this event is 24 - 15, he won this race in 2018 (Beat T. Johnson Jr.), runner-up\r\nhere in 2008 (Lost to T. Pedregon) & 2010 (Lost to B. Bode).\r\nHas qualified in the top half of the field at 11 of his 15 events here, lowest starting spot at this event is\r\n#16 (2009).\r\nHe moved up to 2nd place in points, his highest spot of the year.\r\n\r\nRon Capps has 80 national event wins (79 in FC and 1 in TF), last win was Norwalk, 2026.\r\nThis is his 681st race overall and his 29th race at this event, first was 1997.\r\nHIs best starting spot at this event is #1 (2000 & 2023), best starting spot of his career is #1 (39\r\ntimes).\r\nAverage starting spot at this event is 5.4,  his average starting spot for career is 6.5.\r\nCapps' overall record at this event is 53 - 19*, he won this race in 1998 (Beat D. Skuza), 2001 (Beat W.\r\nBazemore), 2012 (Beat J. Force), 2013 (Beat M. Hagan), 2014 (Beat J. Force), 2019 (Beat T. Johnson Jr.) & 2023\r\n(Beat R. Hight) and was runner-up here in 1997 (Lost to J. Force), 2009 (Lost to T. Pedregon), 2011 (Lost to\r\nJ. Gray) & 2022 (Lost to B. Tasca).\r\n*53 round wins are tied for the most for him at any event (Pomona-1, 53).\r\nHe has qualified in the top half of the field at 22 of his 28 races here, lowest starting spot at this event\r\nis #16 (2008).\r\nHe set Top Speed (333.08) here in 2023.\r\nHis 7 wins here are the 2nd most for him at any event (Bristol - 8).\r\n\r\nBeckman launched hard and had it hitting on all eight to go to the number one spot.  Jack Beckman's\r\nincremental times: 60ft-0.873 sec., 330ft-2.244, 660ft-3.158/284.27 mph. \r\n\r\nCapps shuts off around half track."
+  }
+ ]
+}

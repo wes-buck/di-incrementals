@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0312,
+     "ft60": 0.981,
+     "ft330": 2.7215,
+     "ft660": 4.1864,
+     "mph660": 167.85,
+     "ft1000": 5.4545,
+     "et": 6.5272,
+     "mph": 208.14,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0202,
+     "ft60": 0.9657,
+     "ft330": 2.7064,
+     "ft660": 4.1724,
+     "mph660": 167.35,
+     "ft1000": 5.4433,
+     "et": 6.5158,
+     "mph": 209.69,
+     "first": 0.0224,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0224
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,331 feet. \r\n\r\nThis is the 1st time the #6 & 12 PSM qualifiers have met in the Final round\r\nIn the last 10 years the #6 PSM qualifier has won 4 times.\r\n\r\nHartford is 4 - 3 against Coughlin Jr. in prior events and this is the first time they have faced\r\neach other in a final round.\r\n\r\nThey both take their time staging, finally both go in.  Coughlin Jr. with the starting line advantage\r\nand never trailed for the win.\r\n\r\nHe wins for the first time 41 races and wins his sixth Pro Stock Wally."
+  }
+ ]
+}

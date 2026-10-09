@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.052,
+     "ft60": 1.293,
+     "ft330": 5.69,
+     "ft660": 8.963,
+     "mph660": 75.18,
+     "ft1000": 12.098,
+     "et": 15.207,
+     "mph": 66.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0,
+     "ft60": 1.103,
+     "ft330": 3.344,
+     "ft660": 5.794,
+     "mph660": 90.37,
+     "ft1000": 8.427,
+     "et": 11.001,
+     "mph": 83.56,
+     "first": 4.1549,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 65 percent, barometer 30.03 inches, adjusted\r\naltitude 1,427 feet, track temperature 95 degrees.\r\n\r\nCoughlin is 22 - 12 against Enders in prior events.\r\n\r\nCoughlin goes red to give Enders the win.  Enders with a perfect light for the win.  They both have severe\r\ntire shake right at the hit.  Enders coast to the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.009,
+     "ft60": 0.97,
+     "ft330": 2.709,
+     "ft660": 4.168,
+     "mph660": 167.82,
+     "ft1000": 5.433,
+     "et": 6.497,
+     "mph": 210.6,
+     "first": 0.0277,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0277
+    },
+    {
+     "rt": 0.028,
+     "ft60": 0.975,
+     "ft330": 2.715,
+     "ft660": 4.174,
+     "mph660": 168.22,
+     "ft1000": 5.439,
+     "et": 6.505,
+     "mph": 210.21,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield and Anderson have each won 1 times against the other in prior events. \r\n\r\nStanfield with a great light and never trailed for the win.  Greg Stanfield's MOV: 0.0277 seconds\r\n(approximately 9 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.981,
+     "ft330": 2.729,
+     "ft660": 4.186,
+     "mph660": 168.07,
+     "ft1000": 5.445,
+     "et": 6.507,
+     "mph": 209.98,
+     "first": 0.6035,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.6035
+    },
+    {
+     "rt": 0.063,
+     "ft60": 1.039,
+     "ft330": 4.108,
+     "ft660": 8.123,
+     "mph660": 54.37,
+     "ft1000": 12.584,
+     "et": 17.091,
+     "mph": 47.07,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 5 - 2 against Latino in prior events. \r\n\r\nAnderson with the starting line advantage and is straight down the groove for the win.  He will have lane\r\nchoice over Enders in the semifinal.\r\n\r\nLatino with severe tire shake right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.966,
+     "ft330": 2.709,
+     "ft660": 4.167,
+     "mph660": 168.58,
+     "ft1000": 5.425,
+     "et": 6.485,
+     "mph": 211.36,
+     "first": 5.6203,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.023,
+     "ft60": 1.9,
+     "ft330": 5.955,
+     "ft660": 8.166,
+     "mph660": 113.11,
+     "ft1000": 10.196,
+     "et": 12.168,
+     "mph": 109.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn is 13 - 3 against Coughlin Jr. in prior events. \r\n\r\nCoughlin Jr. goes red to give Glenn the win.  Glenn kept it hooked up and hitting on all eight to make the\r\nquickest pass of the round.  He will have lane choice over Greg stanfield in the semifinal."
+  }
+ ]
+}

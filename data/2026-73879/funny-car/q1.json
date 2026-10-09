@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/q1",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "Q1",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.116,
+     "ft60": 0.924,
+     "ft330": 2.359,
+     "ft660": 3.515,
+     "mph660": 189.84,
+     "ft1000": null,
+     "et": 4.81,
+     "mph": 171.29,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 87 degrees, relative humidity 58 percent, barometer 29.91 inches, adjusted\r\naltitude 4,475 feet, track temperature 135 degrees.\r\n\r\nArend with a good pass early, but then started to haze the tires around half track and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.117,
+     "ft60": 0.899,
+     "ft330": 2.36,
+     "ft660": 3.824,
+     "mph660": 147.33,
+     "ft1000": null,
+     "et": 5.512,
+     "mph": 130.82,
+     "first": 5.5724,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon has an oil leak after the burnout and he is shut off.  Cruz Pedregon was charged with an oildown, #3\r\nfor the season.  That will cost 15 points.\r\n\r\nRichards drives into tire smoke around 330 feet and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 0.897,
+     "ft330": 2.333,
+     "ft660": 3.394,
+     "mph660": 224.43,
+     "ft1000": null,
+     "et": 4.503,
+     "mph": 201.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.885,
+     "ft330": 2.297,
+     "ft660": 3.405,
+     "mph660": 222.44,
+     "ft1000": null,
+     "et": 4.382,
+     "mph": 238.34,
+     "first": 0.1693,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson dropped a cylinder and started to lose traction before he clicked it off.\r\n\r\nProck with a good pass early, started to lose traction and pedaled it one time before he clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1,
+     "ft60": 0.889,
+     "ft330": 2.363,
+     "ft660": 3.852,
+     "mph660": 144.91,
+     "ft1000": null,
+     "et": 5.596,
+     "mph": 124.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.064,
+     "ft60": 0.905,
+     "ft330": 2.356,
+     "ft660": 3.801,
+     "mph660": 148.99,
+     "ft1000": null,
+     "et": 5.455,
+     "mph": 133.67,
+     "first": 0.1776,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hyde started to lose traction around half track and clicked it off.\r\n\r\nDeJoria started to spin the tires and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1,
+     "ft60": 0.902,
+     "ft330": 2.405,
+     "ft660": 4.015,
+     "mph660": 133.68,
+     "ft1000": null,
+     "et": 5.889,
+     "mph": 117.8,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.895,
+     "ft330": 2.304,
+     "ft660": 3.271,
+     "mph660": 256.11,
+     "ft1000": null,
+     "et": 4.189,
+     "mph": 242.84,
+     "first": 1.7257,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman started to smoke the tires around 330 feet and clicked it off.\r\n\r\nGreen with a good pass until around 1/8th mile when it dropped a cylinder or two.  He still goes to the number\r\none spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.09,
+     "ft60": 0.894,
+     "ft330": 2.372,
+     "ft660": 3.907,
+     "mph660": 140.74,
+     "ft1000": null,
+     "et": 5.67,
+     "mph": 126.19,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.892,
+     "ft330": 2.333,
+     "ft660": 3.738,
+     "mph660": 153.49,
+     "ft1000": null,
+     "et": 5.357,
+     "mph": 136.07,
+     "first": 0.3198,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hagan started to smoke the tires and clicked it off.\r\n\r\nVandergriff started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.093,
+     "ft60": 0.9,
+     "ft330": 2.371,
+     "ft660": 3.834,
+     "mph660": 147.71,
+     "ft1000": null,
+     "et": 5.507,
+     "mph": 132.69,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.115,
+     "ft60": 0.875,
+     "ft330": 2.323,
+     "ft660": 3.737,
+     "mph660": 152.45,
+     "ft1000": null,
+     "et": 5.346,
+     "mph": 137.82,
+     "first": 0.1397,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Todd starts to drive into tire smoke and clicked it off.\r\n\r\nCapps also started to smoke the tires and clicked it off."
+  }
+ ]
+}

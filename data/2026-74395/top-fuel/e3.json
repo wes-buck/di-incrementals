@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0447,
+     "ft60": 0.8372,
+     "ft330": 2.1132,
+     "ft660": 2.9551,
+     "mph660": 301.41,
+     "ft1000": null,
+     "et": 3.6633,
+     "mph": 346.95,
+     "first": 1.8459,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 1.8459
+    },
+    {
+     "rt": 0.0145,
+     "ft60": 0.8442,
+     "ft330": 2.4764,
+     "ft660": 3.9379,
+     "mph660": 153.53,
+     "ft1000": null,
+     "et": 5.5394,
+     "mph": 139.02,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,316 feet, track \r\ntemperature 92 degrees.\r\n\r\nHis win in Rd. 2 was Doug Kalitta's 47th holeshot win.\r\n \r\nIn the 54 races between Kalitta and Langdon Shawn has \"left first\" 38 times \r\n\r\nLangdon is 32 - 22 against Kalitta in prior events. \r\n\r\nKalitta with a great light, but shook and clicked it off early.\r\n\r\nLangdon launched hard and kept it hooked up for the win.  He makes the fastest pass in the history of\r\nthe sport for the win.  \r\n\r\nShawn Langdon's incremental times: 60ft-0.837 sec., 330ft-2.113, 660ft-2.955/301.41 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0454,
+     "ft60": 0.8436,
+     "ft330": 2.128,
+     "ft660": 3.2572,
+     "mph660": 187.89,
+     "ft1000": null,
+     "et": 4.5944,
+     "mph": 165.81,
+     "first": 4.879,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "--",
+     "mov": 4.879
+    },
+    {
+     "rt": 0.0298,
+     "ft60": 0.9224,
+     "ft330": 3.6698,
+     "ft660": 6.6325,
+     "mph660": 80.04,
+     "ft1000": null,
+     "et": 9.489,
+     "mph": 77.59,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Spencer Massey is 30 - 30 in Rd. 3 races.\r\n\r\nThis is the first time Massey and Stewart have faced each other in eliminations. \r\n\r\nStewart with the starting line advantage, but was up in smoke right at the hit and pedaled it before\r\nhe clicked it off.\r\n\r\nMassey was on a good pass until the engine let go on the top end.  He coast to the win.  He will give\r\nup lane choice to Langdon in the final."
+  }
+ ]
+}

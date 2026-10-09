@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.002,
+     "ft60": 0.989,
+     "ft330": 2.747,
+     "ft660": 4.212,
+     "mph660": 167.86,
+     "ft1000": 5.476,
+     "et": 6.543,
+     "mph": 209.39,
+     "first": 0.0267,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0267
+    },
+    {
+     "rt": 0.021,
+     "ft60": 0.996,
+     "ft330": 2.753,
+     "ft660": 4.219,
+     "mph660": 167.59,
+     "ft1000": 5.483,
+     "et": 6.55,
+     "mph": 209.92,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 71 percent, barometer 29.73 inches, adjusted\r\naltitude 1,776 feet. \r\n\r\nGlenn is 13 - 8 against Hartford in prior events and Glenn is 2 - 1 against Hartford in prior final rounds. \r\n\r\nGlenn with a near perfect light and never trailed for the win.  Dallas Glenn's MOV: 0.0267 seconds\r\n(approximately 8 feet).  Glenn wins his third Wally this season and 24th of his career in Pro Stock."
+  }
+ ]
+}

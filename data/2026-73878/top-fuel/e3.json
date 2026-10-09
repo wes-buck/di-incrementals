@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.849,
+     "ft330": 2.157,
+     "ft660": 3.04,
+     "mph660": 290.13,
+     "ft1000": null,
+     "et": 3.77,
+     "mph": 331.28,
+     "first": 0.0267,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "2",
+     "mov": 0.0267
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.864,
+     "ft330": 2.178,
+     "ft660": 3.088,
+     "mph660": 282.36,
+     "ft1000": null,
+     "et": 3.826,
+     "mph": 329.5,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 70 percent, barometer 29.71 inches, adjusted\r\naltitude 1,739 feet, track temperature 99 degrees.\r\n\r\nTorrence with the starting line advantage, but Pruett chased him down for the win.  Leah Pruett's MOV: 0.0267 seconds\r\n(approximately 13 feet).  Pruett is advancing to her second final round this season and 27th in her career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.856,
+     "ft330": 2.161,
+     "ft660": 3.035,
+     "mph660": 293.35,
+     "ft1000": null,
+     "et": 3.755,
+     "mph": 336.74,
+     "first": 0.0496,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0496
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.856,
+     "ft330": 2.151,
+     "ft660": 3.023,
+     "mph660": 293.54,
+     "ft1000": null,
+     "et": 3.796,
+     "mph": 284.99,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Langdon is 30 - 22 against Kalitta in prior events. \r\n\r\nLangdon with the slight starting line advantage and never trailed for the win.  He will have lane choice over\r\nPruett in the final.  Langdon is advancing to his sixth final this season and 57th career."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0032,
+     "ft60": 1.0537,
+     "ft330": 4.2188,
+     "ft660": 7.7617,
+     "mph660": 73.25,
+     "ft1000": 10.5721,
+     "et": 13.1598,
+     "mph": 83.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0153,
+     "ft60": 1.0002,
+     "ft330": 2.7626,
+     "ft660": 4.23,
+     "mph660": 168.22,
+     "ft1000": 5.4978,
+     "et": 6.5646,
+     "mph": 210.87,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.5831
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0048,
+     "ft60": 1.0539,
+     "ft330": 4.0185,
+     "ft660": 7.8448,
+     "mph660": 57.65,
+     "ft1000": 12.0122,
+     "et": 16.144,
+     "mph": 51.89,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0268,
+     "ft60": 0.9757,
+     "ft330": 2.7229,
+     "ft660": 4.1888,
+     "mph660": 167.79,
+     "ft1000": 5.4603,
+     "et": 6.5311,
+     "mph": 210.28,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 9.5909
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0268,
+     "ft60": 0.9792,
+     "ft330": 2.7337,
+     "ft660": 4.2106,
+     "mph660": 165.87,
+     "ft1000": 5.4896,
+     "et": 6.5682,
+     "mph": 209.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0209,
+     "ft60": 0.976,
+     "ft330": 2.7258,
+     "ft660": 4.1871,
+     "mph660": 169.24,
+     "ft1000": 5.4519,
+     "et": 6.5183,
+     "mph": 210.48,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0558
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0341,
+     "ft60": 0.9836,
+     "ft330": 2.7298,
+     "ft660": 4.195,
+     "mph660": 167.85,
+     "ft1000": 5.4624,
+     "et": 6.5323,
+     "mph": 209.3,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 5.5208
+    },
+    {
+     "rt": 0.0603,
+     "ft60": 1.001,
+     "ft330": 3.2626,
+     "ft660": 6.076,
+     "mph660": 79.16,
+     "ft1000": 9.0903,
+     "et": 12.0269,
+     "mph": 73.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/funny-car/q2",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "funny-car",
+ "round": "Q2",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.894,
+     "ft330": 2.818,
+     "ft660": 4.729,
+     "mph660": 127.43,
+     "ft1000": null,
+     "et": 6.468,
+     "mph": 134.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.881,
+     "ft330": 2.282,
+     "ft660": 3.221,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.973,
+     "mph": 326.24,
+     "first": 2.4704,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 55 percent, barometer 29.90 inches, adjusted\r\naltitude 2,005 feet, track temperature 108 degrees.\r\n\r\nWilkerson shook early and clicked it off.\r\n\r\nBeckman kept it hooked up and hitting on all eight to go to the number six spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.987,
+     "ft330": 3.958,
+     "ft660": 7.244,
+     "mph660": 66.67,
+     "ft1000": null,
+     "et": 10.956,
+     "mph": 59.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.866,
+     "ft330": 2.26,
+     "ft660": 3.192,
+     "mph660": 279.79,
+     "ft1000": null,
+     "et": 3.933,
+     "mph": 328.78,
+     "first": 6.9976,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Capps is up in smoke right at the hit and clicks it off.\r\n\r\nHagan launched hard and kept it hooked to go to the number three spot.  Matt Hagan's incremental times:\r\n60ft-0.866 sec., 330ft-2.260, 660ft-3.192/279.79 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.884,
+     "ft330": 2.284,
+     "ft660": 3.219,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.982,
+     "mph": 315.86,
+     "first": 0.026,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.127,
+     "ft60": 0.895,
+     "ft330": 2.286,
+     "ft660": 3.221,
+     "mph660": 278.4,
+     "ft1000": null,
+     "et": 3.959,
+     "mph": 334.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Hyde is straight down the groove with another good pass.\r\n\r\nRichards launched hard and kept it hooked up to make his career fastest pass.  Dave Richards' incremental\r\ntimes: 60ft-0.895 sec., 330ft-2.286, 660ft-3.221/278.40 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.088,
+     "ft60": 0.889,
+     "ft330": 2.607,
+     "ft660": 4.853,
+     "mph660": 94.46,
+     "ft1000": null,
+     "et": 7.425,
+     "mph": 89.99,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.887,
+     "ft330": 2.282,
+     "ft660": 3.216,
+     "mph660": 279.38,
+     "ft1000": null,
+     "et": 3.956,
+     "mph": 331.94,
+     "first": 3.4868,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Green starts to lose traction and clicked it off.\r\n\r\nProck kept it hooked up and hitting on all eight to make his quickest and fastest pass this season.  Austin\r\nProck's incremental times: 60ft-0.887 sec., 330ft-2.282, 660ft-3.216/279.38 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.111,
+     "ft60": 0.867,
+     "ft330": 2.255,
+     "ft660": 3.207,
+     "mph660": 272.56,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 316.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.112,
+     "ft60": 0.876,
+     "ft330": 2.263,
+     "ft660": 3.185,
+     "mph660": 279.44,
+     "ft1000": null,
+     "et": 3.946,
+     "mph": 318.24,
+     "first": 0.0284,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon with a good, clean pass, but will not improve.\r\n\r\nGreen kept it hooked up and he goes to the number four spot.  Chad Green's incremental times: 60ft-0.876 sec.,\r\n330ft-2.263, 660ft-3.185/279.44 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.93,
+     "ft330": 3.475,
+     "ft660": 6.341,
+     "mph660": 79.64,
+     "ft1000": null,
+     "et": 9.559,
+     "mph": 66.99,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.886,
+     "ft330": 2.284,
+     "ft660": 3.219,
+     "mph660": 277.2,
+     "ft1000": null,
+     "et": 3.968,
+     "mph": 326.63,
+     "first": 5.5914,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Vandergriff is up in smoke right at the hit and clicked it off.\r\n\r\nDeJoria kept it hitting on all eight and was using up all her lane.  She stayed with it to move up to the\r\nnumber 10 spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.09,
+     "ft60": 0.885,
+     "ft330": 2.276,
+     "ft660": 3.195,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.93,
+     "mph": 332.67,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Todd with another great pass, straight down the groove.  He makes the quickest pass of the session and holds\r\non to the number one spot.  J.R. Todd's incremental times: 60ft-0.885 sec., 330ft-2.276, 660ft-3.195/285.05\r\nmph."
+  }
+ ]
+}

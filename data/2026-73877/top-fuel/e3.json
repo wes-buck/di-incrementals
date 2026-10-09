@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.071,
+     "ft60": 0.854,
+     "ft330": 2.16,
+     "ft660": 3.047,
+     "mph660": 290.88,
+     "ft1000": null,
+     "et": 3.772,
+     "mph": 334.57,
+     "first": 0.0972,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0972
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.866,
+     "ft330": 2.183,
+     "ft660": 3.101,
+     "mph660": 275.62,
+     "ft1000": null,
+     "et": 3.86,
+     "mph": 318.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 33 percent, barometer 30.02 inches, adjusted\r\naltitude 1,346 feet, track temperature 128 degrees.\r\n\r\nLangdon and Torrence have each won 4 times against the other in prior events. \r\n\r\nLangdon with the starting line and never trailed for the win.  He is advancing to his fifth final this season\r\nand 56th career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.846,
+     "ft330": 2.159,
+     "ft660": 3.052,
+     "mph660": 286.98,
+     "ft1000": null,
+     "et": 3.787,
+     "mph": 329.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.848,
+     "ft330": 2.152,
+     "ft660": 3.045,
+     "mph660": 289.63,
+     "ft1000": null,
+     "et": 3.772,
+     "mph": 334.15,
+     "first": 0.0466,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": 0.0466
+    }
+   ],
+   "note": "Kalitta is 24 - 13 against Pruett in prior events. \r\n\r\nKalitta with the starting line advantage and never trailed for the win.  He matches Langdon's E.T., but will\r\ngive up the lane choice based on speed.  Kalitta is advancing to his fourth final this season and 130th\r\ncareer.\r\n\r\nPruett with another good pass in the losing effort."
+  }
+ ]
+}

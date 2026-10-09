@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.865,
+     "ft330": 2.188,
+     "ft660": 3.077,
+     "mph660": 289.01,
+     "ft1000": null,
+     "et": 3.804,
+     "mph": 333.82,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.859,
+     "ft330": 2.165,
+     "ft660": 3.046,
+     "mph660": 290.51,
+     "ft1000": null,
+     "et": 3.774,
+     "mph": 332.18,
+     "first": 0.0356,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "7",
+     "mov": 0.0356
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 58 percent, barometer 29.82 inches, adjusted\r\naltitude 3,102 feet, track temperature 105 degrees.\r\n\r\nThis is the first time Gordon and Brown have faced each other in eliminations.\r\n\r\nBrown with a slight starting line advantage and never trailed for the win. Antron Brown's MOV: 0.0356 seconds\r\n(approximately 17 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.866,
+     "ft330": 2.176,
+     "ft660": 3.055,
+     "mph660": 292.84,
+     "ft1000": null,
+     "et": 3.782,
+     "mph": 330.63,
+     "first": 2.5968,
+     "lane": "Left",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "4",
+     "mov": 2.5968
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.853,
+     "ft330": 2.337,
+     "ft660": 4.15,
+     "mph660": 115.74,
+     "ft1000": null,
+     "et": 6.384,
+     "mph": 95.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Stewart is 3 - 1 against Hart in prior events. \r\n\r\nStewart with the starting line advantage, but was up in smoke right at the hit and he clicked it off.\r\n\r\nHart is straight down the groove with a good clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.046,
+     "ft60": 1.363,
+     "ft330": 7.88,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.852,
+     "ft330": 2.151,
+     "ft660": 3.131,
+     "mph660": 233.68,
+     "ft1000": null,
+     "et": 4.201,
+     "mph": 205.16,
+     "first": 4.2277,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": 4.2277
+    }
+   ],
+   "note": "This is the first time Smith and Pruett have faced each other in eliminations. \r\n\r\nSmith won his first Top Fuel round in round one.\r\n\r\nSmith with the starting line advantage, but then has problems right at the hit.  The word is there is oil in\r\nhis lane.   Will Smith was charged with an oildown, #1 for the season.\r\nThat will cost 5 points.\r\n\r\n\r\nPruett was on a good pass early and then started to smoke the tire, but got the win.  She will give up lane\r\nchoice to Brown in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.853,
+     "ft330": 2.289,
+     "ft660": 3.412,
+     "mph660": 232.07,
+     "ft1000": null,
+     "et": 4.408,
+     "mph": 220.84,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.858,
+     "ft330": 2.176,
+     "ft660": 3.063,
+     "mph660": 289.57,
+     "ft1000": null,
+     "et": 3.789,
+     "mph": 333.49,
+     "first": 0.6056,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 0.6056
+    }
+   ],
+   "note": "Langdon is 28 - 22 against Kalitta in prior events. \r\n\r\nKalitta with the starting line advantage, but lost traction early and clicked it off.\r\n\r\nLangdon launched hard and kept it hooked up for the win.  He will give up lane choice to Hart in the\r\nsemifinal."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.006,
+     "ft60": 1.06,
+     "ft330": 2.843,
+     "ft660": 4.362,
+     "mph660": 161.17,
+     "ft1000": 5.682,
+     "et": 6.808,
+     "mph": 198.82,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.021,
+     "ft60": 1.05,
+     "ft330": 2.824,
+     "ft660": 4.331,
+     "mph660": 162.55,
+     "ft1000": 5.64,
+     "et": 6.757,
+     "mph": 200.59,
+     "first": 0.0364,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0364
+    }
+   ],
+   "note": "1:04 p.m. Weather conditions: air temperature 80 degrees, relative humidity 67 percent, barometer 30.10 inches, adjusted altitude 2,003 feet, track temperature 102 degrees.\r\n\r\nGadson is 6 - 5 against Van Sant in prior events. \r\n\r\nVan Sant gets the advantage off of the line but he can't hold off Gadson. Gadson goes around him before they reach the 330 foot mark and pulls away for the win.\r\n\r\nRichard Gadson's incremental margins (negative if behind): 60ft(-0.005), 330 ft(0.004), 660ft(0.016), 1,000ft(0.027).  MOV: 0.0364 seconds (approximately 11 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.14,
+     "ft60": 1.069,
+     "ft330": 2.837,
+     "ft660": 4.346,
+     "mph660": 161.81,
+     "ft1000": 5.667,
+     "et": 6.796,
+     "mph": 198.52,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 1.072,
+     "ft330": 2.872,
+     "ft660": 4.392,
+     "mph660": 160.88,
+     "ft1000": 5.723,
+     "et": 6.863,
+     "mph": 196.36,
+     "first": 0.0203,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0203
+    }
+   ],
+   "note": "Smith is 18 - 12 against Johnson in prior events. \r\n\r\nJohnson gets the holeshot but Smith starts reeling him in quickly. She makes up ground but runs out of race track. Johnson hangs on for the holeshot win.\r\n\r\nSteve Johnson's incremental margins: 60ft(0.084), 330 ft(0.052), 660ft(0.041), 1,000ft(0.031).  MOV: 0.0203 seconds (approximately 6 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.002,
+     "ft60": 1.066,
+     "ft330": 2.833,
+     "ft660": 4.327,
+     "mph660": 163.81,
+     "ft1000": 5.632,
+     "et": 6.748,
+     "mph": 200.68,
+     "first": 0.0126,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0126
+    },
+    {
+     "rt": 0.004,
+     "ft60": 1.055,
+     "ft330": 2.827,
+     "ft660": 4.331,
+     "mph660": 162.61,
+     "ft1000": 5.641,
+     "et": 6.758,
+     "mph": 200.65,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera is 9 - 4 against Hall in prior events. \r\n\r\nThis was a good side-by-side. Not much difference between the two off of the line, Herrera gets the early lead. Hall reels him in just before they reach the 660 foot mark, then he goes around and takes the stripe for the win.\r\n\r\nJohn Hall's incremental margins (negative if behind): 60ft(-0.009), 330 ft(-0.004), 660ft(0.006), 1,000ft(0.011).  MOV: 0.0126 seconds (approximately 4 feet).\r\n\r\nHall will have lane choice over Johnson in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.017,
+     "ft60": 1.064,
+     "ft330": 2.85,
+     "ft660": 4.365,
+     "mph660": 161.21,
+     "ft1000": 5.687,
+     "et": 6.822,
+     "mph": 197.33,
+     "first": 0.0534,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0534
+    },
+    {
+     "rt": 0.056,
+     "ft60": 1.089,
+     "ft330": 2.878,
+     "ft660": 4.392,
+     "mph660": 162.29,
+     "ft1000": 5.71,
+     "et": 6.836,
+     "mph": 199.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Smith is 1 - 0 against Howey in prior events. \r\n\r\nHowey gets the advantage off of the line, extends his lead to the 330 foot mark, then Smith starts making up ground. howey hangs on and takes the stripe for the win.\r\n\r\nClayton Howey's incremental margins: 60ft(0.064), 330 ft(0.067), 660ft(0.066), 1,000ft(0.062).  MOV: 0.0534 seconds (approximately 16 feet).\r\n\r\nGadson will have lane choice over Howey in the next round."
+  }
+ ]
+}

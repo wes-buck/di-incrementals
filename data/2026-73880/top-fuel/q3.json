@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/top-fuel/q3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "top-fuel",
+ "round": "Q3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.848,
+     "ft330": 2.145,
+     "ft660": 3.02,
+     "mph660": 290.57,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 331.69,
+     "first": 0.6281,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.07,
+     "ft60": 0.862,
+     "ft330": 2.176,
+     "ft660": 3.209,
+     "mph660": 210.6,
+     "ft1000": null,
+     "et": 4.386,
+     "mph": 188.12,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 0.862,
+     "ft330": 2.213,
+     "ft660": 3.147,
+     "mph660": 274.0,
+     "ft1000": null,
+     "et": 4.039,
+     "mph": 244.21,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.848,
+     "ft330": 2.157,
+     "ft660": 3.043,
+     "mph660": 290.26,
+     "ft1000": null,
+     "et": 3.772,
+     "mph": 333.49,
+     "first": 0.2741,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.876,
+     "ft330": 2.207,
+     "ft660": 3.086,
+     "mph660": 288.7,
+     "ft1000": null,
+     "et": 3.826,
+     "mph": 326.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 0.858,
+     "ft330": 2.164,
+     "ft660": 3.056,
+     "mph660": 287.41,
+     "ft1000": null,
+     "et": 3.793,
+     "mph": 329.91,
+     "first": 0.0417,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.847,
+     "ft330": 2.147,
+     "ft660": 3.009,
+     "mph660": 297.09,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 334.07,
+     "first": 0.0465,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.859,
+     "ft330": 2.157,
+     "ft660": 3.036,
+     "mph660": 292.27,
+     "ft1000": null,
+     "et": 3.765,
+     "mph": 326.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Leah Pruett's incremental times: 60ft-0.847 sec., 330ft-2.147, 660ft-3.009/297.09 mph. \r\n\r\nHart is straight down the groove with his quickest pass this weekend.  He goes to the number four spot.  Josh\r\nHart's incremental times: 60ft-0.859 sec., 330ft-2.157, 660ft-3.036/292.27 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.856,
+     "ft330": 2.165,
+     "ft660": 3.044,
+     "mph660": 293.35,
+     "ft1000": null,
+     "et": 3.76,
+     "mph": 339.79,
+     "first": 0.0492,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.861,
+     "ft330": 2.182,
+     "ft660": 3.07,
+     "mph660": 289.32,
+     "ft1000": null,
+     "et": 3.802,
+     "mph": 331.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Gordon launched hard and kept it hooked up and makes and big top end speed charge.  She goes to the number\r\nfour spot and sets the track speed record.  Maddi Gordon's incremental times: 60ft-0.856 sec., 330ft-2.165,\r\n660ft-3.044/293.35 mph. \r\n\r\nMillican is straight down the groove with another good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.835,
+     "ft330": 2.115,
+     "ft660": 2.981,
+     "mph660": 294.69,
+     "ft1000": null,
+     "et": 3.696,
+     "mph": 339.7,
+     "first": 0.0768,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 0.0768
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.844,
+     "ft330": 2.145,
+     "ft660": 3.025,
+     "mph660": 292.08,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 333.08,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Langdon launched hard and kept it hooked up to go back at to the number one spot.  Shawn Langdon's incremental\r\ntimes: 60ft-0.835 sec., 330ft-2.115, 660ft-2.981/294.69 mph. He also has a big top end speed.\r\n\r\nStewart kept it hooked up to go tot eh number three spot with his quickest pass this weekend.  \r\nTony Stewart's incremental times: 60ft-0.844 sec., 330ft-2.145, 660ft-3.025/292.08 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.862,
+     "ft330": 2.74,
+     "ft660": 5.224,
+     "mph660": 89.52,
+     "ft1000": null,
+     "et": 8.045,
+     "mph": 75.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.047,
+     "ft60": 0.85,
+     "ft330": 2.149,
+     "ft660": 3.028,
+     "mph660": 292.39,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 336.07,
+     "first": 4.3064,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 4.3064
+    }
+   ],
+   "note": "Brown lost traction and clicked it off.\r\n\r\nKalitta kept it hooked up and hitting on all eight to go to the number three spot.  Doug Kalitta's incremental\r\ntimes: 60ft-0.850 sec., 330ft-2.149, 660ft-3.028/292.39 mph."
+  }
+ ]
+}

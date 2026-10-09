@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.008,
+     "ft60": 0.992,
+     "ft330": 4.298,
+     "ft660": 8.497,
+     "mph660": 57.06,
+     "ft1000": 11.935,
+     "et": 15.183,
+     "mph": 65.86,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 0.987,
+     "ft330": 2.735,
+     "ft660": 4.191,
+     "mph660": 169.61,
+     "ft1000": 5.448,
+     "et": 6.508,
+     "mph": 211.0,
+     "first": 8.6273,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 47 percent, barometer 30.02 inches, adjusted altitude 1,690 feet, track temperature 111 degrees.\r\nThe #2 PS qualifier is 7 - 6 in the Final round at this event.\r\n\r\nGreg Anderson is 23 - 12 in Final rounds when qualified #2. (Won here from the #2 spot in 2004).\r\n\r\nAnderson is 31 - 17 against Stanfield in prior events and Anderson is 3 - 0 against Stanfield in prior final rounds. \r\n\r\nStanfield goes red to give Anderson the win.  He wins his third Wally this season and 115th of his career.  He has won here four time."
+  }
+ ]
+}

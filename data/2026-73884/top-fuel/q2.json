@@ -1,0 +1,401 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/q2",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "Q2",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.966,
+     "ft330": 3.233,
+     "ft660": 4.905,
+     "mph660": 155.58,
+     "ft1000": null,
+     "et": 6.289,
+     "mph": 169.25,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "17",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 87 degrees, relative humidity 61 percent, barometer 29.89 inches,\r\nadjusted altitude 3,734 feet, track temperature 127 degrees.\r\n\r\nTorrence is up in smoke right at the hit, he was off the throttle and got back on it."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.865,
+     "ft330": 2.181,
+     "ft660": 3.066,
+     "mph660": 288.77,
+     "ft1000": null,
+     "et": 3.797,
+     "mph": 330.07,
+     "first": 4.3335,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.1,
+     "ft60": 0.906,
+     "ft330": 2.68,
+     "ft660": 5.169,
+     "mph660": 83.01,
+     "ft1000": null,
+     "et": 8.1,
+     "mph": 81.92,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jacob Opatrny",
+     "car": "3113",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Brown launched hard and kept it hooked up and then dropped a cylinder or two on the top end.  He\r\nstill goes to the number six spot.\r\n\r\nJacob Opatrny will make his sixth race overall and his first race at this event. His best starting\r\nposition of his career is No. 15, achieved at Reading in 2023, and he has failed to qualify in four\r\nof his five previous races. This will be his first race since St. Louis in 2024.\r\n\r\nOpatrny shook and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.116,
+     "ft60": 0.87,
+     "ft330": 2.408,
+     "ft660": 4.374,
+     "mph660": 98.83,
+     "ft1000": null,
+     "et": 7.303,
+     "mph": 72.79,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jake Sanders",
+     "car": "666",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.868,
+     "ft330": 2.325,
+     "ft660": 4.031,
+     "mph660": 123.84,
+     "ft1000": null,
+     "et": 6.12,
+     "mph": 103.23,
+     "first": 1.2466,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Sanders is up in smoke right at the hit the car is sideways before he clicked it off.  The chutes\r\ndeploy.\r\n\r\nSmith is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.872,
+     "ft330": 2.199,
+     "ft660": 3.126,
+     "mph660": 266.85,
+     "ft1000": null,
+     "et": 4.031,
+     "mph": 243.77,
+     "first": 3.6127,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.876,
+     "ft330": 2.439,
+     "ft660": 4.562,
+     "mph660": 91.09,
+     "ft1000": null,
+     "et": 7.634,
+     "mph": 71.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "TJ Zizzo",
+     "car": "317",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Millican with a good pass early and then started to lose traction on the top half and clicked it off\r\nearly.\r\n\r\nZizzo is up in smoke right off the starting line advantage and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.9,
+     "ft330": 2.294,
+     "ft660": 3.758,
+     "mph660": 144.6,
+     "ft1000": null,
+     "et": 5.527,
+     "mph": 122.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ida Zetterstrom",
+     "car": "13",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.094,
+     "ft60": 0.872,
+     "ft330": 2.229,
+     "ft660": 3.575,
+     "mph660": 158.48,
+     "ft1000": null,
+     "et": 5.154,
+     "mph": 141.83,
+     "first": 0.3548,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Zetterstrom is up in smoke right at the hit and clicked it off.\r\n\r\nSchumacher lost traction right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.104,
+     "ft60": 0.872,
+     "ft330": 2.227,
+     "ft660": 3.161,
+     "mph660": 274.61,
+     "ft1000": null,
+     "et": 3.923,
+     "mph": 319.67,
+     "first": 0.7677,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.127,
+     "ft60": 0.881,
+     "ft330": 2.228,
+     "ft660": 3.364,
+     "mph660": 193.71,
+     "ft1000": null,
+     "et": 4.667,
+     "mph": 168.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Salinas with a good looking pass early and then started to haze the tires on the top end.\r\n\r\nMercier is up in smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.866,
+     "ft330": 2.413,
+     "ft660": 4.415,
+     "mph660": 104.51,
+     "ft1000": null,
+     "et": 6.885,
+     "mph": 86.54,
+     "first": 2.2616,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.103,
+     "ft60": 0.895,
+     "ft330": 3.325,
+     "ft660": 6.202,
+     "mph660": 80.25,
+     "ft1000": null,
+     "et": 9.118,
+     "mph": 74.76,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Stewart starting to shake right off the starting line and clicked it off.\r\n\r\nHart is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.868,
+     "ft330": 2.214,
+     "ft660": 3.535,
+     "mph660": 161.34,
+     "ft1000": null,
+     "et": 5.105,
+     "mph": 138.98,
+     "first": 0.5943,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.119,
+     "ft60": 0.863,
+     "ft330": 2.242,
+     "ft660": 3.783,
+     "mph660": 137.33,
+     "ft1000": null,
+     "et": 5.655,
+     "mph": 115.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Langdon drives into tire smoke and clicks it off.\r\n\r\nTatum starts to haze the tires early and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.863,
+     "ft330": 2.188,
+     "ft660": 3.162,
+     "mph660": 243.41,
+     "ft1000": null,
+     "et": 4.189,
+     "mph": 214.04,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.866,
+     "ft330": 2.188,
+     "ft660": 3.09,
+     "mph660": 285.95,
+     "ft1000": null,
+     "et": 3.825,
+     "mph": 331.12,
+     "first": 0.3507,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 0.3507
+    }
+   ],
+   "note": "Ashley started to haze the tires and clicked it off.\r\n\r\nKalitta kept it hooked up and was straight down the groove to get in the show. He goes to the number\r\n11 spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 0.863,
+     "ft330": 2.181,
+     "ft660": 3.187,
+     "mph660": 240.81,
+     "ft1000": null,
+     "et": 4.083,
+     "mph": 263.2,
+     "first": 0.2128,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": 0.2128
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.874,
+     "ft330": 2.216,
+     "ft660": 3.196,
+     "mph660": 238.68,
+     "ft1000": null,
+     "et": 4.242,
+     "mph": 210.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Pruett starts to haze the tires on the top end and clicked it off early.\r\n\r\nGordon started to lose traction and clicked it off."
+  }
+ ]
+}

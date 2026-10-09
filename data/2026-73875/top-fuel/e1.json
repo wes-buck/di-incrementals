@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 0.841,
+     "ft330": 2.139,
+     "ft660": 3.017,
+     "mph660": 290.38,
+     "ft1000": null,
+     "et": 3.746,
+     "mph": 331.94,
+     "first": 0.0094,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": 0.0094
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.846,
+     "ft330": 2.134,
+     "ft660": 3.002,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.727,
+     "mph": 333.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 66 degrees, relative humidity 54 percent, barometer 30.13 inches, adjusted\r\naltitude 835 feet, track temperature 97 degrees.\r\n\r\nShawn Reed is 0 - 3 in Rd. 1 this year.  Antron Brown is 397 - 146 in Rd. 1 races.\r\nBrown is 4 - 1 against Reed in prior events. \r\n\r\nBrown with the starting line advantage and the power to hold on for the hole shot win.  Brown with his\r\nquickest pass of the weekend for the win.\r\n\r\nReed with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 0.973,
+     "ft330": 3.399,
+     "ft660": 6.214,
+     "mph660": 81.12,
+     "ft1000": null,
+     "et": 8.933,
+     "mph": 83.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.859,
+     "ft330": 2.174,
+     "ft660": 3.076,
+     "mph660": 285.59,
+     "ft1000": null,
+     "et": 3.812,
+     "mph": 327.74,
+     "first": 5.0728,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "6",
+     "mov": 5.0728
+    }
+   ],
+   "note": "Clay Millican's 38 losses to Tony are the most losses for him against any driver.  Tony Schumacher starts the\r\nday with 900 round wins.\r\n\r\nSchumacher is 38 - 18 against Millican in prior events. \r\n\r\nSchumacher with a great light, but is up in smoke right at the hit and clicked it off.  Millican with a good\r\nclean pass until on the top end when it slowed."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.041,
+     "ft60": 0.863,
+     "ft330": 2.184,
+     "ft660": 3.172,
+     "mph660": 242.8,
+     "ft1000": null,
+     "et": 4.073,
+     "mph": 254.81,
+     "first": 6.5597,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": 6.5597
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.97,
+     "ft330": 3.941,
+     "ft660": 7.315,
+     "mph660": 69.04,
+     "ft1000": null,
+     "et": 10.598,
+     "mph": 66.69,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Tony Stewart is 30 - 13 in Rd. 1 races.  In Rd. 1 Justin Ashley \"leaves first\" 82% of the time.\r\n\r\nStewart is 5 - 4 against Ashley in prior events. \r\n\r\nAshley with the starting line advantage and never trailed for the win.  He started to haze the tires and had a\r\nflash of flames on the top end, but gets the win.\r\n\r\nStewart is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.042,
+     "ft60": 0.871,
+     "ft330": 2.243,
+     "ft660": 3.204,
+     "mph660": 268.54,
+     "ft1000": null,
+     "et": 4.056,
+     "mph": 258.12,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.844,
+     "ft330": 2.145,
+     "ft660": 3.012,
+     "mph660": 295.46,
+     "ft1000": null,
+     "et": 3.728,
+     "mph": 340.22,
+     "first": 0.291,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "4",
+     "mov": 0.291
+    }
+   ],
+   "note": "This (#4) equals the best starting spot for Maddi Gordon.  Will Smith set a career best 3.748 in Charlotte.\r\n\r\nThis is the first time Smith and Gordon have faced each other in eliminations. \r\n\r\nSmith with the starting line advantage, but started to drop cylinders early and then the banged the blower on\r\nthe top end.\r\n\r\nGordon launched hard and kept it hooked up to make her career quickest and fastest pass for the win.  She will\r\nhave lane choice over Ashley in the nest round."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.839,
+     "ft330": 2.139,
+     "ft660": 3.014,
+     "mph660": 293.41,
+     "ft1000": null,
+     "et": 3.732,
+     "mph": 338.94,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Doug Kalitta set Top Speed in Charlotte.  He is the 3rd TF driver with 80 or more Top Speeds.\r\n\r\nKalitta on the bye and is straight down the groove with a great pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.087,
+     "ft60": 0.876,
+     "ft330": 2.56,
+     "ft660": 4.481,
+     "mph660": 112.49,
+     "ft1000": null,
+     "et": 6.65,
+     "mph": 103.35,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 0.849,
+     "ft330": 2.14,
+     "ft660": 3.189,
+     "mph660": 227.77,
+     "ft1000": null,
+     "et": 4.151,
+     "mph": 249.72,
+     "first": 2.4814,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "2",
+     "mov": 2.4814
+    }
+   ],
+   "note": "Shawn Langdon is 10 - 2 in Rd. 1 when qualified #2.  Cameron Ferre is making his 49th start.\r\n\r\nLangdon is 2 - 0 against Ferre in prior events.\r\n\r\nFerre with the starting line advantage, but was dropping cylinders right at the hit and clicked it off.\r\n\r\nLangdon started to lose traction and pedaled it for the win.  He will give up lane choice to Brown in the next\r\nround."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.966,
+     "ft330": 3.732,
+     "ft660": 6.556,
+     "mph660": 83.87,
+     "ft1000": null,
+     "et": 9.198,
+     "mph": 88.29,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 0.842,
+     "ft330": 2.142,
+     "ft660": 3.02,
+     "mph660": 293.22,
+     "ft1000": null,
+     "et": 3.742,
+     "mph": 335.82,
+     "first": 5.4433,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "3",
+     "mov": 5.4433
+    }
+   ],
+   "note": "This (#3) is the best starting spot for Billy Torrence in his last 24 starts.  The #14 TF qualifier has won 4\r\ntimes in Rd. 1 at this event.\r\n\r\nThis is the first time Mercier and Torrence have faced each other in eliminations. \r\n\r\nMercier with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nTorrence is straight down the groove for the win.  He will have lane choice over Millican in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.869,
+     "ft330": 2.478,
+     "ft660": 4.582,
+     "mph660": 98.69,
+     "ft1000": null,
+     "et": 7.296,
+     "mph": 77.48,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.094,
+     "ft60": 0.848,
+     "ft330": 2.143,
+     "ft660": 3.151,
+     "mph660": 247.43,
+     "ft1000": null,
+     "et": 3.996,
+     "mph": 287.78,
+     "first": 3.2832,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "8",
+     "mov": 3.2832
+    }
+   ],
+   "note": "Leah Pruett is #8 and the #8 TF qualifier is 22 - 18 in Rd.1 at this event.  Josh Hart is 4 - 1 against Pruett\r\nin Rd. 1\r\n\r\nHart is 5 - 2 against Pruett in prior events.\r\n\r\nHart with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nPruett started to haze the tires and pedaled it for the win.  She will give up lane choice to Kalitta in the\r\nnext round."
+  }
+ ]
+}

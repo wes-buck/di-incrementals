@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.899,
+     "ft330": 2.323,
+     "ft660": 3.283,
+     "mph660": 271.19,
+     "ft1000": null,
+     "et": 4.04,
+     "mph": 324.59,
+     "first": 0.0323,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "11",
+     "mov": 0.0323
+    },
+    {
+     "rt": 0.097,
+     "ft60": 0.893,
+     "ft330": 2.31,
+     "ft660": 3.285,
+     "mph660": 266.0,
+     "ft1000": null,
+     "et": 4.066,
+     "mph": 314.39,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "12:33 p.m. Weather conditions: air temperature 80 degrees, relative humidity 67 percent, barometer 30.10 inches, adjusted altitude 2,003 feet, track temperature 102 degrees.\r\n\r\nHyde is 2 - 0 against DeJoria in prior events. \r\n\r\nA good side-by-side, both down the groove with clean, straight passes. DeJoria gets the advantage off of the line, Hyde pulls ahead after the 60 foot mark, then DeJoria powers back around and pulls away for the win.\r\n\r\nAlexis DeJoria's incremental margins (negative if behind): 60ft(0.000), 330 ft(-0.007), 660ft(0.008).  MOV: 0.0323 seconds (approximately 15 feet).\r\n\r\nAlexis DeJoria's incremental times: 60ft-0.899 sec., 330ft-2.323, 660ft-3.283/271.19 mph.\r\n\r\nSpencer Hyde's incremental times: 60ft-0.893 sec., 330ft-2.310, 660ft-3.285/266.00 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.919,
+     "ft330": 2.361,
+     "ft660": 3.319,
+     "mph660": 269.13,
+     "ft1000": null,
+     "et": 4.154,
+     "mph": 267.43,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.072,
+     "ft60": 0.897,
+     "ft330": 2.325,
+     "ft660": 3.281,
+     "mph660": 273.16,
+     "ft1000": null,
+     "et": 4.033,
+     "mph": 326.95,
+     "first": 0.1314,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "2",
+     "mov": 0.1314
+    }
+   ],
+   "note": "Wilkerson is 2 - 1 against Todd in prior events. \r\n\r\nTodd gets out of the gate first and starts to pull away. Wilkerson lost a cylinder early in the run, then clicked it off a little early.\r\n\r\nDaniel Wilkerson's incremental times: 60ft-0.919 sec., 330ft-2.361, 660ft-3.319/269.13 mph.\r\n\r\nJ.R. Todd's incremental times: 60ft-0.897 sec., 330ft-2.325, 660ft-3.281/273.16 mph. \r\n\r\nTodd will have lane choice over DeJoria in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.897,
+     "ft330": 2.312,
+     "ft660": 3.249,
+     "mph660": 278.75,
+     "ft1000": null,
+     "et": 3.993,
+     "mph": 327.82,
+     "first": 2.8958,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "8",
+     "mov": 2.8958
+    },
+    {
+     "rt": 0.204,
+     "ft60": 0.914,
+     "ft330": 2.588,
+     "ft660": 4.527,
+     "mph660": 109.89,
+     "ft1000": null,
+     "et": 6.767,
+     "mph": 100.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "John Smith",
+     "car": "241",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "This is the first time Vandergriff and Smith have faced each other in eliminations. \r\n\r\nVandergriff gets the holeshot and goes down the groove with a good run to take the win. Smith lost traction early and was off of the throttle."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.884,
+     "ft330": 2.29,
+     "ft660": 3.225,
+     "mph660": 278.4,
+     "ft1000": null,
+     "et": 3.967,
+     "mph": 328.14,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.06,
+     "ft60": 0.89,
+     "ft330": 2.285,
+     "ft660": 3.222,
+     "mph660": 275.67,
+     "ft1000": null,
+     "et": 3.975,
+     "mph": 326.08,
+     "first": 0.0085,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "4",
+     "mov": 0.0085
+    }
+   ],
+   "note": "Hagan is 9 - 4 against Green in prior events. \r\n\r\nGreen gets out of the gate first and extends his lead to the 330 foot mark. Hagan starts to make up ground but green hangs on and takes the stripe for the holeshot win.\r\n\r\nChad Green's incremental margins: 60ft(0.010), 330 ft(0.021), 660ft(0.019).  MOV: 0.0085 seconds (approximately 4 feet).\r\n\r\nGreen will have lane choice over Vandergriff in the next round."
+  }
+ ]
+}

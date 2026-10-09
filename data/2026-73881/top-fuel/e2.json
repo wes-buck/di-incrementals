@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.858,
+     "ft330": 2.173,
+     "ft660": 3.052,
+     "mph660": 290.94,
+     "ft1000": null,
+     "et": 3.776,
+     "mph": 335.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.842,
+     "ft330": 2.157,
+     "ft660": 3.035,
+     "mph660": 290.76,
+     "ft1000": null,
+     "et": 3.775,
+     "mph": 309.91,
+     "first": 0.0222,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "7",
+     "mov": 0.0222
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.841,
+     "ft330": 2.138,
+     "ft660": 3.011,
+     "mph660": 297.02,
+     "ft1000": null,
+     "et": 3.73,
+     "mph": 338.0,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.842,
+     "ft330": 2.341,
+     "ft660": 4.225,
+     "mph660": 112.05,
+     "ft1000": null,
+     "et": 6.499,
+     "mph": 94.9,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.881,
+     "ft330": 2.22,
+     "ft660": 3.273,
+     "mph660": 232.71,
+     "ft1000": null,
+     "et": 4.175,
+     "mph": 265.95,
+     "first": 2.3422,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": 2.3422
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.18,
+     "ft60": 0.842,
+     "ft330": 2.141,
+     "ft660": 3.022,
+     "mph660": 289.32,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 332.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.85,
+     "ft330": 2.16,
+     "ft660": 3.037,
+     "mph660": 290.19,
+     "ft1000": null,
+     "et": 3.766,
+     "mph": 330.23,
+     "first": 0.0971,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "9",
+     "mov": 0.0971
+    }
+   ],
+   "note": null
+  }
+ ]
+}

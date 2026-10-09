@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.096,
+     "ft60": 0.987,
+     "ft330": 2.75,
+     "ft660": 4.225,
+     "mph660": 166.62,
+     "ft1000": 5.5,
+     "et": 6.573,
+     "mph": 208.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 0.996,
+     "ft330": 2.764,
+     "ft660": 4.243,
+     "mph660": 166.48,
+     "ft1000": 5.519,
+     "et": 6.595,
+     "mph": 208.46,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 57 percent, barometer 29.80 inches, adjusted\r\naltitude 3,131 feet. \r\n\r\nStanfield is 16 - 9 against Anderson in prior events and Stanfield is 3 - 1 against Anderson in prior final\r\nrounds. \r\n\r\nAnderson goes red to give Stanfield the win.  Stanfield wins his 15th Pro Stock wally."
+  }
+ ]
+}

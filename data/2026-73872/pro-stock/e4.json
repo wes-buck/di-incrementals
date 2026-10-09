@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.027,
+     "ft60": 0.993,
+     "ft330": 2.775,
+     "ft660": 4.26,
+     "mph660": 165.44,
+     "ft1000": 5.541,
+     "et": 6.627,
+     "mph": 206.39,
+     "first": 0.0508,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0508
+    },
+    {
+     "rt": 0.03,
+     "ft60": 1.022,
+     "ft330": 2.814,
+     "ft660": 4.304,
+     "mph660": 165.09,
+     "ft1000": 5.589,
+     "et": 6.674,
+     "mph": 207.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Coughlin",
+     "car": "9",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 99 degrees, relative humidity 10 percent, barometer 29.69 inches, adjusted\r\naltitude 4,341 feet, track temperature 137 degrees.\r\n\r\nThis is the 2nd time the #3 & #8 PS qualifiers have met in the Final round at this event. The #3 qualifier won\r\nin 2001.\r\n\r\nGlenn is 3 - 0 against Coughlin in prior events and Glenn is 1 - 0 against Coughlin in prior final rounds. \r\n\r\nGlenn with a slight starting line advantage and never trailed for the win.  He wins his 22nd National event\r\nWally."
+  }
+ ]
+}

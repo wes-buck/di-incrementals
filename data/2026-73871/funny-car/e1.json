@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.881,
+     "ft330": 2.288,
+     "ft660": 3.25,
+     "mph660": 266.95,
+     "ft1000": null,
+     "et": 4.022,
+     "mph": 316.6,
+     "first": 2.6997,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "4",
+     "mov": 2.6997
+    },
+    {
+     "rt": 0.136,
+     "ft60": 0.906,
+     "ft330": 2.56,
+     "ft660": 4.549,
+     "mph660": 110.33,
+     "ft1000": null,
+     "et": 6.65,
+     "mph": 110.15,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "10:31 a.m. Weather conditions: air temperature 72 degrees, relative humidity 82 percent, barometer 30.12 inches, adjusted altitude 1,472 feet, track temperature 87 degrees.\r\n\r\nGreen is 4 - 2 against Haddock in prior events. \r\n\r\nGreen gets out of the gate first and goes down the groove with a clean, straight pass. Haddock rattles the tires at the hit, gets about 200 feet out and clicks it off.\r\n\r\nChad Green's incremental times: 60ft-0.881 sec., 330ft-2.288, 660ft-3.250/266.95 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.888,
+     "ft330": 2.448,
+     "ft660": 3.735,
+     "mph660": 216.06,
+     "ft1000": null,
+     "et": 4.632,
+     "mph": 281.54,
+     "first": 2.3374,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "14",
+     "mov": 2.3374
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.877,
+     "ft330": 2.498,
+     "ft660": 4.544,
+     "mph660": 103.38,
+     "ft1000": null,
+     "et": 6.956,
+     "mph": 92.91,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Paul Lee was 11 \u2013 8 in Rd. 1 last year. \r\n\r\nSpencer Hyde DNQ here last year.\r\n\r\nHyde is 1 - 0 against Lee in prior events. \r\n\r\nHyde gets the advantage off of the line, gets about 200 feet out and strikes the tires. lee broke the tires loose at about the same spot and backed off of the throttle. Hyde pedaled it a few times and went on through for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.885,
+     "ft330": 2.365,
+     "ft660": 3.573,
+     "mph660": 210.18,
+     "ft1000": null,
+     "et": 4.509,
+     "mph": 268.49,
+     "first": 1.3564,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "2",
+     "mov": 1.3564
+    },
+    {
+     "rt": 0.15,
+     "ft60": 0.913,
+     "ft330": 2.536,
+     "ft660": 4.114,
+     "mph660": 148.09,
+     "ft1000": null,
+     "et": 5.788,
+     "mph": 133.24,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "This (#2) matches the best starting spot for J.R. Todd in his last 30 races. \r\n\r\nDave Richards is making his 77th start.\r\n\r\nThe #15 FC qualifier has won once in the last 10 years at this event.\r\n\r\nTodd is 1 - 0 against Richards in prior events. \r\n\r\nTodd gets a big holeshot, gets about 200 feet out and strikes the tires. He pedals a few times and takes the win. Richards breaks the tires loose about 200 feet out and gives up on the run."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.901,
+     "ft330": 2.545,
+     "ft660": 3.686,
+     "mph660": 237.17,
+     "ft1000": null,
+     "et": 4.511,
+     "mph": 303.64,
+     "first": 0.5481,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Smith",
+     "car": "241",
+     "qpos_nhra": "16",
+     "mov": 0.5481
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.879,
+     "ft330": 2.348,
+     "ft660": 3.662,
+     "mph660": 175.02,
+     "ft1000": null,
+     "et": 5.074,
+     "mph": 158.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Ron Capps\u2019s 38 #1 spots ties him with Kenny Bernstein for 6th most in FC. \r\n\r\nThe last time the #16 FC qualifier won in Rd. 1 here was 2014. (J. Force)\r\n\r\nCapps is 2 - 0 against Smith in prior events. \r\n\r\nCapps gets out of the gate first but rattles the tires, loses a cylinder, then has to back off of the throttle. Smith gets about 200 feet out, pedals once, then the slicks bite and he goes on through for the upset win.\r\n\r\nJohn Smith's incremental margins (negative if behind): 60ft(-0.037), 330 ft(-0.212), 660ft(-0.039).  MOV: 0.5481 seconds (more than 100 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.882,
+     "ft330": 2.294,
+     "ft660": 3.231,
+     "mph660": 276.8,
+     "ft1000": null,
+     "et": 3.976,
+     "mph": 326.63,
+     "first": 1.1177,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": 1.1177
+    },
+    {
+     "rt": 0.111,
+     "ft60": 0.914,
+     "ft330": 2.343,
+     "ft660": 3.623,
+     "mph660": 170.95,
+     "ft1000": null,
+     "et": 5.059,
+     "mph": 155.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hagan wins 81% of his Rd. 1 races when he has lane choice.\r\n\r\nJulie Nataas is making her 4th Pro start.\r\n\r\nHagan goes down the groove with the quickest pass of the round and takes the win. Nataas gets about 300 feet out, drives into smoke, then backs off of the throttle.\r\n\r\nMatt Hagan's incremental times: 60ft-0.882 sec., 330ft-2.294, 660ft-3.231/276.80 mph. \r\n\r\nHagan will have lane choice over Green in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.05,
+     "ft60": 0.927,
+     "ft330": 2.318,
+     "ft660": 3.526,
+     "mph660": 177.56,
+     "ft1000": null,
+     "et": 4.898,
+     "mph": 162.78,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.109,
+     "ft60": 0.898,
+     "ft330": 2.589,
+     "ft660": 3.496,
+     "mph660": 163.55,
+     "ft1000": null,
+     "et": 4.545,
+     "mph": 298.4,
+     "first": 0.2941,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "11",
+     "mov": 0.2941
+    }
+   ],
+   "note": "Cruz Pedregon is 19 \u2013 14 in Rd. 1 at this event.\r\n\r\nAlexis DeJoria is 3 \u2013 7 against Pedregon in Rd. 1.\r\n\r\nDeJoria is 13 - 12 against Pedregon in prior events. \r\n\r\nPedregon gets the holeshot and starts to pull away. He gets out of the groove, makes a hard move to the right, then takes out the 660 foot timing block.\r\n\r\nDeJoria strikes the tires early in the run, pedals, then gets the slicks to bite and goes on through for the win.\r\n\r\nDeJoria will have lane choice over Hyde in the next rond."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.903,
+     "ft330": 2.321,
+     "ft660": 3.263,
+     "mph660": 274.16,
+     "ft1000": null,
+     "et": 4.027,
+     "mph": 317.79,
+     "first": 0.2379,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "7",
+     "mov": 0.2379
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.902,
+     "ft330": 2.397,
+     "ft660": 3.429,
+     "mph660": 249.76,
+     "ft1000": null,
+     "et": 4.263,
+     "mph": 294.95,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Daniel Wilkerson is 27 \u2013 26 in Rd.1. \r\n\r\nHunter Green is making his 10th start.\r\n\r\nThis is the first time Wilkerson and Green have faced each other in eliminations. \r\n\r\nA close one off of the line, they are even at the 60 foot mark. Green loses a cylinder on the right side about 200 feet out and starts falling back. Wilkerson goes down the groove with a clean, straight pass and he takes the win.\r\n\r\nDaniel Wilkerson's incremental margins: 60ft(0.000), 330 ft(0.077), 660ft(0.167).  MOV: 0.2379 seconds (more than 100 feet).\r\n\r\nWilkerson will have lane choice over Todd in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.889,
+     "ft330": 2.292,
+     "ft660": 3.225,
+     "mph660": 277.94,
+     "ft1000": null,
+     "et": 3.97,
+     "mph": 327.35,
+     "first": 0.0554,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "8",
+     "mov": 0.0554
+    },
+    {
+     "rt": 0.108,
+     "ft60": 0.882,
+     "ft330": 2.289,
+     "ft660": 3.236,
+     "mph660": 275.17,
+     "ft1000": null,
+     "et": 3.987,
+     "mph": 326.87,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman wins 78% of his Rd. 1 races when he has lane choice. \r\n\r\nJordan Vandergriff is the 402nd driver to qualify in FC.\r\n\r\nA good side-by-side, both down the groove with clean, straight passes. Vandergriff gets the holeshot and extends his lead all the way through the run. Beckman makes the third quickest pass of the session in the loss.\r\n\r\nJordan Vandergriff's incremental margins: 60ft(0.031), 330 ft(0.035), 660ft(0.049).  MOV: 0.0554 seconds (approximately 27 feet).\r\n\r\n\r\nJordan Vandergriff's incremental times: 60ft-0.889 sec., 330ft-2.292, 660ft-3.225/277.94 mph.\r\n\r\nJack Beckman's incremental times: 60ft-0.882 sec., 330ft-2.289, 660ft-3.236/275.17 mph. \r\n\r\nVandergriff will have lane choice over Smith in the next round."
+  }
+ ]
+}

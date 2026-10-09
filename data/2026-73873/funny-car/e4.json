@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.887,
+     "ft330": 2.259,
+     "ft660": 3.165,
+     "mph660": 287.11,
+     "ft1000": null,
+     "et": 3.893,
+     "mph": 334.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.893,
+     "ft330": 2.242,
+     "ft660": 3.144,
+     "mph660": 287.66,
+     "ft1000": null,
+     "et": 3.876,
+     "mph": 330.39,
+     "first": 0.0071,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0071
+    }
+   ],
+   "note": "Weather conditions: air temperature 57 degrees, relative humidity 67 percent, barometer 29.99 inches, adjusted\r\naltitude 1,355 feet. \r\n\r\nCapps is 43 - 41 against Hagan in prior events and Hagan is 9 - 6 against Capps in prior final rounds. \r\n\r\nCapps with the starting line advantage, but Hagan has the lead by 330 feet and never trailed from there on for\r\nthe win in a close one.  Matt Hagan's MOV: 0.0071 seconds (approximately 3 feet).  Hagan with his quickest\r\npass of the weekend for the win."
+  }
+ ]
+}

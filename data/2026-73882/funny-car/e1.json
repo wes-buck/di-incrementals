@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.876,
+     "ft330": 2.25,
+     "ft660": 3.189,
+     "mph660": 276.41,
+     "ft1000": null,
+     "et": 3.938,
+     "mph": 324.36,
+     "first": 6.4136,
+     "lane": "Left",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "12",
+     "mov": 6.4136
+    },
+    {
+     "rt": 0.071,
+     "ft60": 1.176,
+     "ft330": 4.575,
+     "ft660": 7.584,
+     "mph660": 81.23,
+     "ft1000": null,
+     "et": 10.346,
+     "mph": 84.81,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 65 degrees, relative humidity 77 percent, barometer 30.05 inches, adjusted\r\naltitude 1,068 feet, track temperature 83 degrees.\r\n\r\nChad Green is 2 - 1 against Paul Lee in Rd. 1.  This is the 5th straight start where Paul Lee has faced Chad\r\nGreen.\r\n\r\nGreen is 8 - 6 against Lee in prior events. \r\n\r\nLee with the starting line advantage and never trailed for the win.  He makes his quickest pass of the weekend\r\nfor the win.\r\n\r\nGreen is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 1.228,
+     "ft330": 3.471,
+     "ft660": 5.088,
+     "mph660": 133.42,
+     "ft1000": null,
+     "et": 6.936,
+     "mph": 120.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.876,
+     "ft330": 2.626,
+     "ft660": 3.952,
+     "mph660": 204.57,
+     "ft1000": null,
+     "et": 4.899,
+     "mph": 269.46,
+     "first": 2.0341,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 2.0341
+    }
+   ],
+   "note": "Daniel Wilkerson wins 58% of hid Rd. 1 races when he has lane choice.  Austin Prock's 1st win came at this\r\nrace in 2019 in TF.  \r\n\r\nProck is 3 - 1 against Wilkerson in prior events. \r\n\r\nWilkerson with a slight starting line advantage is up inn smoke right at the hit.  Prock then starts to lose\r\ntraction and pedals it.  He gets it to hook up enough to get the win.\r\n\r\nWilkerson pedaled it a coupled times, but couldn't get it to hook up."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.865,
+     "ft330": 2.227,
+     "ft660": 3.129,
+     "mph660": 286.19,
+     "ft1000": null,
+     "et": 3.858,
+     "mph": 333.49,
+     "first": 0.2062,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": 0.2062
+    },
+    {
+     "rt": 0.123,
+     "ft60": 0.889,
+     "ft330": 2.288,
+     "ft660": 3.243,
+     "mph660": 271.19,
+     "ft1000": null,
+     "et": 4.019,
+     "mph": 307.02,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tim Gibbons",
+     "car": "765",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman is 264 - 102 (72%) in Rd. 1 races overall (and 8 - 3 this year).  The #15 FC qualifier is 8 - 28\r\nin Rd. 1 at this event.   This is the 6th start for Tim Gibbons and his 2nd at this event.\r\n\r\nThis is the first time Beckman and Gibbons have faced each other in eliminations. \r\n\r\nBeckman with the starting line advantage and kept it hooked up to make the quickest pass of the event for the\r\nwin.  Jack Beckman's incremental times: 60ft-0.865 sec., 330ft-2.227, 660ft-3.129/286.19 mph. \r\n\r\nGibbons is straight down the groove with his career quickest and fastest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 0.899,
+     "ft330": 2.313,
+     "ft660": 3.256,
+     "mph660": 274.16,
+     "ft1000": null,
+     "et": 4.019,
+     "mph": 316.75,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.878,
+     "ft330": 2.252,
+     "ft660": 3.174,
+     "mph660": 283.25,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 335.82,
+     "first": 0.1352,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": 0.1352
+    }
+   ],
+   "note": "This is the 17th #1 spot for J. R. Todd. He has won once when starting from the #1 spot.  Jeff Arend is 4 - 24\r\nin Rd. 1 when qualified #16\r\n\r\nThis is the first time Arend and Todd have faced each other in eliminations. \r\n\r\nTodd with the starting line advantage and never trailed for the win.\r\n\r\nArend is straight down the groove with his quickest pass this weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.879,
+     "ft330": 2.59,
+     "ft660": 4.661,
+     "mph660": 102.16,
+     "ft1000": null,
+     "et": 7.125,
+     "mph": 90.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.116,
+     "ft60": 0.886,
+     "ft330": 2.361,
+     "ft660": 3.64,
+     "mph660": 219.94,
+     "ft1000": null,
+     "et": 4.54,
+     "mph": 269.89,
+     "first": 2.5602,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "14",
+     "mov": 2.5602
+    }
+   ],
+   "note": "Alexis DeJoria has been in the top half of the field at 8 races this year.   This is the 88th start for Dave\r\nRichards\r\n\r\nDeJoria is 4 - 3 against Richards in prior events. \r\n\r\nDeJoria with the starting line advantage, but both cars are up in smoke right at the hit.   Richards pedals it\r\nand gets the car to hook up enough for the win.  He will have lane choice over Prock in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.871,
+     "ft330": 2.267,
+     "ft660": 3.198,
+     "mph660": 278.46,
+     "ft1000": null,
+     "et": 3.946,
+     "mph": 326.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.878,
+     "ft330": 2.258,
+     "ft660": 3.187,
+     "mph660": 281.25,
+     "ft1000": null,
+     "et": 3.936,
+     "mph": 326.0,
+     "first": 0.0278,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": 0.0278
+    }
+   ],
+   "note": "Matt Hagan wins 81% of his Rd. 1 races when he has lane choice.  Blake Alexander is 2 - 7 against Hagan in\r\nRd.1 \r\n\r\nHagan is 14 - 6 against Alexander in prior events. \r\n\r\nHagan with the starting line advantage and never trailed for the win.  He will have lane choice over Lee in\r\nthe next round by 0.002 seconds\r\n\r\nAlexander with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 0.871,
+     "ft330": 2.493,
+     "ft660": 4.035,
+     "mph660": 139.43,
+     "ft1000": null,
+     "et": 5.812,
+     "mph": 124.81,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.122,
+     "ft60": 0.897,
+     "ft330": 2.267,
+     "ft660": 3.176,
+     "mph660": 285.11,
+     "ft1000": null,
+     "et": 3.914,
+     "mph": 330.63,
+     "first": 1.8672,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "7",
+     "mov": 1.8672
+    }
+   ],
+   "note": "Ron Capps's 1st win came at this event in 1995 in TF.  This (3.926) is the best qualifying run ever for Cruz\r\nPedregon at this event. He is 14 - 19 against Capps in Rd. 1.\r\n\r\nCapps is 56 - 30 against Pedregon in prior events. \r\n\r\nCapps with the starting line advantage, but is up in smoke, he pedals it.  He can't get it to hook up and\r\nclicks it off.\r\n\r\nPedregon launched hard and was straight down the groove with his quickest pass of the weekend for the win.  He\r\nwill give up lane choice to Beckman in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.878,
+     "ft330": 2.278,
+     "ft660": 3.37,
+     "mph660": 216.58,
+     "ft1000": null,
+     "et": 4.397,
+     "mph": 220.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.884,
+     "ft330": 2.262,
+     "ft660": 3.173,
+     "mph660": 284.56,
+     "ft1000": null,
+     "et": 3.913,
+     "mph": 327.19,
+     "first": 0.5114,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "9",
+     "mov": 0.5114
+    }
+   ],
+   "note": "Spencer Hyde qualified #8 and the #8 FC qualifier is 17 - 19 in Rd. 1 at this event.  This is the 4th time\r\nthis year Jordan Vandergriff has been in the bottom half of the field \r\n\r\nVandergriff is 1 - 0 against Hyde in prior events. \r\n\r\nVandergriff with the starting line advantage and makes his quickest pass of the weekend for the win.  He will\r\ngive up lane choice to Todd in the next round.\r\n\r\nHyde is up in smoke early and clicked it off."
+  }
+ ]
+}

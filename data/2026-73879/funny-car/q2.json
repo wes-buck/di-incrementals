@@ -1,0 +1,245 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/q2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "Q2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.882,
+     "ft330": 2.77,
+     "ft660": 5.287,
+     "mph660": 85.18,
+     "ft1000": null,
+     "et": 8.078,
+     "mph": 83.62,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.9,
+     "ft330": 2.368,
+     "ft660": 3.412,
+     "mph660": 228.54,
+     "ft1000": null,
+     "et": 4.484,
+     "mph": 207.11,
+     "first": 3.5757,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria lost traction right off the starting line and clicked it off.\r\n\r\nPedregon starts mixing up cylinders and the crew shut him off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.095,
+     "ft60": 0.885,
+     "ft330": 2.446,
+     "ft660": 4.139,
+     "mph660": 126.85,
+     "ft1000": null,
+     "et": 6.104,
+     "mph": 113.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.898,
+     "ft330": 2.314,
+     "ft660": 3.254,
+     "mph660": 276.29,
+     "ft1000": null,
+     "et": 4.009,
+     "mph": 319.6,
+     "first": 2.1228,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Capps is up in smoke and the car is sideways before he clicked it off.\r\n\r\nHagan launched hard and kept it hooked up to go to the number one spot.  Matt Hagan's incremental times:\r\n60ft-0.898 sec., 330ft-2.314, 660ft-3.254/276.29 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.886,
+     "ft330": 2.301,
+     "ft660": 3.263,
+     "mph660": 270.05,
+     "ft1000": null,
+     "et": 4.03,
+     "mph": 319.07,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Hyde kept the candle lit all the way down the track to go to the number two spot.  Spencer Hyde's incremental\r\ntimes: 60ft-0.886 sec., 330ft-2.301, 660ft-3.263/270.05 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.071,
+     "ft60": 0.884,
+     "ft330": 2.48,
+     "ft660": 4.026,
+     "mph660": 147.46,
+     "ft1000": null,
+     "et": 5.637,
+     "mph": 137.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.931,
+     "ft330": 2.386,
+     "ft660": 3.671,
+     "mph660": 167.93,
+     "ft1000": null,
+     "et": 5.127,
+     "mph": 153.13,
+     "first": 0.5109,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Prock started to lose traction and drop cylinders and they shut the car off.\r\n\r\nTodd had a hole out early and he was shut off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.894,
+     "ft330": 2.468,
+     "ft660": 4.336,
+     "mph660": 114.38,
+     "ft1000": null,
+     "et": 6.527,
+     "mph": 100.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.098,
+     "ft60": 0.893,
+     "ft330": 2.343,
+     "ft660": 3.442,
+     "mph660": 205.72,
+     "ft1000": null,
+     "et": 4.636,
+     "mph": 186.43,
+     "first": 1.8754,
+     "lane": "Right",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Green is up in smoke early and clicked it off.\r\n\r\nWilkerson started to lose traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.88,
+     "ft330": 2.428,
+     "ft660": 4.206,
+     "mph660": 120.61,
+     "ft1000": null,
+     "et": 6.291,
+     "mph": 106.68,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.884,
+     "ft330": 2.303,
+     "ft660": 3.253,
+     "mph660": 272.17,
+     "ft1000": null,
+     "et": 4.017,
+     "mph": 318.54,
+     "first": 2.2913,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": 2.2913
+    }
+   ],
+   "note": null
+  }
+ ]
+}

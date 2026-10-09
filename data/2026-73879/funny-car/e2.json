@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.894,
+     "ft330": 2.318,
+     "ft660": 3.435,
+     "mph660": 197.62,
+     "ft1000": null,
+     "et": 4.673,
+     "mph": 180.6,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 78 degrees, relative humidity 74 percent, barometer 29.90 inches, adjusted\r\naltitude 3,787 feet, track temperature 106 degrees.\r\n\r\nMatt Hagan has had 10 Bye runs and went on to win the race 4 times.\r\n\r\nHagan drives into tire smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.885,
+     "ft330": 2.285,
+     "ft660": 3.24,
+     "mph660": 272.83,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 321.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.887,
+     "ft330": 2.286,
+     "ft660": 3.232,
+     "mph660": 274.39,
+     "ft1000": null,
+     "et": 3.986,
+     "mph": 323.5,
+     "first": 0.0461,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "5",
+     "mov": 0.0461
+    }
+   ],
+   "note": "Prock is 3 - 2 against Hyde in prior events. \r\n\r\nProck with the starting line advantage and never trailed for the win.  Prock makes his quickest pass of the\r\nweekend for the win.  He will have lane choice over Hagan in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.901,
+     "ft330": 2.312,
+     "ft660": 3.237,
+     "mph660": 282.78,
+     "ft1000": null,
+     "et": 3.98,
+     "mph": 327.43,
+     "first": 0.0388,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.0388
+    },
+    {
+     "rt": 0.043,
+     "ft60": 0.887,
+     "ft330": 2.299,
+     "ft660": 3.246,
+     "mph660": 273.44,
+     "ft1000": null,
+     "et": 4.04,
+     "mph": 285.29,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Ron Capps beat Jordan Vandergriff in the semi-finals in Pomona.\r\n\r\nVandergriff with the starting line advantage, but Capps chased him down on the top end for the win.  Ron\r\nCapps' MOV: 0.0388 seconds (approximately 16 feet).  Capps kept it hooked up and makes the quickest pass of\r\nthe event for the win.\r\n\r\nVandergriff with a good looking pass until the car went silent on the top end."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.897,
+     "ft330": 2.337,
+     "ft660": 3.299,
+     "mph660": 270.75,
+     "ft1000": null,
+     "et": 4.065,
+     "mph": 319.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.896,
+     "ft330": 2.327,
+     "ft660": 3.279,
+     "mph660": 273.27,
+     "ft1000": null,
+     "et": 4.041,
+     "mph": 319.52,
+     "first": 0.0426,
+     "lane": "Right",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": 0.0426
+    }
+   ],
+   "note": "Beckman is 8 - 3 against Wilkerson in prior events. \r\n\r\nWilkerson with the starting line advantage and is straight down the groove for the win.  He will give up lane\r\nchoice to Capps in the semifinal."
+  }
+ ]
+}

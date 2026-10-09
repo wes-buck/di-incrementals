@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.029,
+     "ft60": 1.182,
+     "ft330": 5.546,
+     "ft660": 11.675,
+     "mph660": 34.22,
+     "ft1000": 19.298,
+     "et": 28.224,
+     "mph": 22.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.052,
+     "ft60": 1.036,
+     "ft330": 2.801,
+     "ft660": 4.274,
+     "mph660": 166.56,
+     "ft1000": 5.553,
+     "et": 6.636,
+     "mph": 206.83,
+     "first": 1.5658,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.5658
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.07 inches, adjusted\r\naltitude 1,292 feet, track temperature 121 degrees.\r\n\r\nEnders is 11 - 7 against Coughlin Jr. in prior events. \r\n\r\nEnders with the staring line advantage, but had severe tire shake right at the hit and she pushed in the\r\nclutch.\r\n\r\nCoughlin is straight down the groove for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 1.151,
+     "ft330": 3.847,
+     "ft660": 5.752,
+     "mph660": 142.76,
+     "ft1000": 7.173,
+     "et": 8.437,
+     "mph": 167.78,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.037,
+     "ft60": 1.122,
+     "ft330": 3.765,
+     "ft660": 5.584,
+     "mph660": 145.88,
+     "ft1000": 6.978,
+     "et": 8.121,
+     "mph": 196.07,
+     "first": 0.3126,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.3126
+    }
+   ],
+   "note": "Glenn is 3 - 0 against Stanfield in prior events. \r\n\r\nStanfield with the starting line advantage.  They both shook right off the starting line and they both pedal\r\nthem.  glenn got it too hook up enough to get the win.  He will give up lane choice to Coughlin Jr. in the\r\nfinal."
+  }
+ ]
+}

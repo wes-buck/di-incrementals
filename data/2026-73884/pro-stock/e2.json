@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 1.054,
+     "ft330": 3.055,
+     "ft660": 4.628,
+     "mph660": 149.2,
+     "ft1000": 6.212,
+     "et": 7.752,
+     "mph": 140.08,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 1.006,
+     "ft330": 2.818,
+     "ft660": 4.316,
+     "mph660": 164.11,
+     "ft1000": 5.608,
+     "et": 6.691,
+     "mph": 208.65,
+     "first": 1.0633,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.0633
+    }
+   ],
+   "note": "Weather conditions: air temperature 77 degrees, relative humidity 56 percent, barometer 30.10 inches,\r\nadjusted altitude 2,560 feet, track temperature 115 degrees.\r\n\r\nEnders is 2 - 1 against Anderson in prior events. \r\n\r\nEnders with the slight starting line advantage and never trailed for the win.  Anderson with severe\r\ntire shake right at the hit and he pedaled it.  He couldn't chase Enders down."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 1.012,
+     "ft330": 2.782,
+     "ft660": 4.259,
+     "mph660": 166.01,
+     "ft1000": 5.54,
+     "et": 6.621,
+     "mph": 207.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 1.006,
+     "ft330": 2.773,
+     "ft660": 4.253,
+     "mph660": 166.07,
+     "ft1000": 5.537,
+     "et": 6.622,
+     "mph": 207.43,
+     "first": 0.0092,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0092
+    }
+   ],
+   "note": "Anderson is 66 - 50 against Coughlin in prior events. \r\n\r\nCoughlin with the starting line advantage and the power to hold on for the hole shot win.  Jeg\r\nCoughlin's MOV: 0.0092 seconds (approximately 3 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.991,
+     "ft330": 2.751,
+     "ft660": 4.225,
+     "mph660": 166.46,
+     "ft1000": 5.502,
+     "et": 6.581,
+     "mph": 207.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.03,
+     "ft60": 0.996,
+     "ft330": 2.757,
+     "ft660": 4.235,
+     "mph660": 166.17,
+     "ft1000": 5.515,
+     "et": 6.596,
+     "mph": 207.82,
+     "first": 0.0035,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0035
+    }
+   ],
+   "note": "Glenn is 6 - 0 against Latino in prior events. \r\n\r\nGlenn with the starting line advantage and the power to hold on for the hole shot win in a close one.\r\nDallas Glenn's MOV: 0.0035 seconds (approximately 13 inches).  He will have lane choice over Enders\r\nin the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.015,
+     "ft60": 1.027,
+     "ft330": 4.55,
+     "ft660": 8.713,
+     "mph660": 62.5,
+     "ft1000": 11.987,
+     "et": 15.141,
+     "mph": 68.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.027,
+     "ft60": 1.006,
+     "ft330": 2.768,
+     "ft660": 4.241,
+     "mph660": 167.59,
+     "ft1000": 5.51,
+     "et": 6.58,
+     "mph": 209.17,
+     "first": 8.5198,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield and Hartford have each won 1 times against the other in prior events. \r\n\r\nHartford goes red to give Hartford the win.  Hartford with the quickest pass of the round and he will\r\nhave lane choice over Coughlin in the semifinal."
+  }
+ ]
+}

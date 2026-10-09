@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73872/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73872",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+ "event_date": "2026-03-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.045,
+     "ft60": 1.023,
+     "ft330": 2.821,
+     "ft660": 4.315,
+     "mph660": 164.55,
+     "ft1000": 5.606,
+     "et": 6.697,
+     "mph": 206.1,
+     "first": 0.0442,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Coughlin",
+     "car": "9",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0442
+    },
+    {
+     "rt": 0.058,
+     "ft60": 1.039,
+     "ft330": 2.848,
+     "ft660": 4.346,
+     "mph660": 164.21,
+     "ft1000": 5.637,
+     "et": 6.728,
+     "mph": 206.99,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 1.001,
+     "ft330": 2.785,
+     "ft660": 4.272,
+     "mph660": 164.97,
+     "ft1000": 5.558,
+     "et": 6.646,
+     "mph": 205.91,
+     "first": 0.0498,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0498
+    },
+    {
+     "rt": 0.05,
+     "ft60": 1.012,
+     "ft330": 2.808,
+     "ft660": 4.302,
+     "mph660": 164.09,
+     "ft1000": 5.595,
+     "et": 6.685,
+     "mph": 206.73,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn is 2 - 0 against Stanfield in prior events. \r\n\r\nGlenn with the starting line advantage and never trailed for the win.  He will have lane choice over Coughlin\r\nin the final."
+  }
+ ]
+}

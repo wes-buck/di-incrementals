@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.863,
+     "ft330": 2.183,
+     "ft660": 3.076,
+     "mph660": 287.84,
+     "ft1000": null,
+     "et": 3.804,
+     "mph": 333.99,
+     "first": 0.1111,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.1111
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.873,
+     "ft330": 2.214,
+     "ft660": 3.137,
+     "mph660": 276.29,
+     "ft1000": null,
+     "et": 3.904,
+     "mph": 315.27,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 49 percent, barometer 30.05 inches,\r\nadjusted altitude 2,877 feet. \r\n\r\nLangdon is 5 - 3 against Stewart in prior events and this is the first time they have faced each\r\nother in a final round.\r\n\r\nLangdon with the starting line advantage and never trailed for the win.  Langdon wins his fourth Indy\r\nWally, third in Top Fuel.  This is Langdon's fifth win this season and 27th in his career.\r\n\r\nStewart dropped a cylinder on the top end."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0425,
+     "ft60": 0.9861,
+     "ft330": 2.7343,
+     "ft660": 4.196,
+     "mph660": 168.29,
+     "ft1000": 5.4585,
+     "et": 6.5252,
+     "mph": 209.99,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0198,
+     "ft60": 0.9826,
+     "ft330": 2.7324,
+     "ft660": 4.198,
+     "mph660": 167.72,
+     "ft1000": 5.4688,
+     "et": 6.5378,
+     "mph": 210.48,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0101
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 36 percent, barometer 29.80 inches,\r\nadjusted altitude 2,334 feet, track temperature 113 degrees.\r\n\r\nGreg Stanfield is the 37th driver to lead the Pro Stock points. \r\n\r\nStanfield with the starting line advantage and the power to hold on for the hole shot win.  Greg\r\nStanfield's MOV: 0.0110 seconds (approximately 3 feet).  Stanfield wins his second Wally this season\r\nand eighth of his career in Pro categories."
+  }
+ ]
+}

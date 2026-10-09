@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.834,
+     "ft330": 2.108,
+     "ft660": 2.961,
+     "mph660": 296.57,
+     "ft1000": null,
+     "et": 3.683,
+     "mph": 332.51,
+     "first": 0.0204,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "7",
+     "mov": 0.0204
+    },
+    {
+     "rt": 0.036,
+     "ft60": 0.851,
+     "ft330": 2.129,
+     "ft660": 2.982,
+     "mph660": 294.82,
+     "ft1000": null,
+     "et": 3.714,
+     "mph": 328.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 57 degrees, relative humidity 67 percent, barometer 29.99 inches, adjusted\r\naltitude 1,355 feet. \r\n\r\nStewart and Ashley have each won 4 times against the other in prior events and each has won 1 times against\r\nthe other in final rounds. \r\n\r\nAshley with the starting line advantage and never trailed for the win.  Tony Stewart's MOV: 0.0204 seconds\r\n(approximately 10 feet).  Stewart with the quickest pass of the event for the win.  He wins his third National\r\nevent Wally."
+  }
+ ]
+}

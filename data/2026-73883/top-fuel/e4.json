@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.842,
+     "ft330": 2.144,
+     "ft660": 3.02,
+     "mph660": 293.6,
+     "ft1000": null,
+     "et": 3.743,
+     "mph": 333.74,
+     "first": 0.0113,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0113
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.849,
+     "ft330": 2.162,
+     "ft660": 3.04,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.77,
+     "mph": 328.78,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 42 percent, barometer 30.00 inches, adjusted\r\naltitude 2,859 feet, track temperature 117 degrees.\r\n\r\nKalitta is 1 - 0 against Gordon in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nGordon with the starting line advantage, but Kalitta had the lead by 330 feet and never trailed from there on\r\nfor the win.  Doug Kalitta's MOV: 0.0113 seconds (approximately 5 feet).  Kalitta wins fourth Wally this\r\nseason and 63rd of his career."
+  }
+ ]
+}

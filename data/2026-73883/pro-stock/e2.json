@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.02,
+     "ft60": 0.973,
+     "ft330": 2.734,
+     "ft660": 4.212,
+     "mph660": 166.17,
+     "ft1000": 5.494,
+     "et": 6.577,
+     "mph": 206.89,
+     "first": 0.6273,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.6273
+    },
+    {
+     "rt": 0.038,
+     "ft60": 1.104,
+     "ft330": 3.189,
+     "ft660": 4.753,
+     "mph660": 159.01,
+     "ft1000": 6.078,
+     "et": 7.186,
+     "mph": 203.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 74 degrees, relative humidity 46 percent, barometer 30.03 inches, adjusted\r\naltitude 2,696 feet, track temperature 113 degrees.\r\n\r\nThis is the first time Vang and Coughlin have faced each other in eliminations. \r\n\r\nVang with the starting line advantage and never trailed for the win.\r\n\r\nCoughlin shook right at the hit."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 0.978,
+     "ft330": 2.738,
+     "ft660": 4.22,
+     "mph660": 165.7,
+     "ft1000": 5.505,
+     "et": 6.587,
+     "mph": 207.5,
+     "first": 0.0301,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0301
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.986,
+     "ft330": 2.741,
+     "ft660": 4.222,
+     "mph660": 165.56,
+     "ft1000": 5.508,
+     "et": 6.594,
+     "mph": 207.15,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "G. Stanfield is 4 - 1 against A. Stanfield in prior events. \r\n\r\nGreg with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 0.979,
+     "ft330": 2.737,
+     "ft660": 4.215,
+     "mph660": 166.89,
+     "ft1000": 5.494,
+     "et": 6.572,
+     "mph": 207.69,
+     "first": 0.2724,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.2724
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.974,
+     "ft330": 2.756,
+     "ft660": 4.261,
+     "mph660": 162.98,
+     "ft1000": 5.584,
+     "et": 6.844,
+     "mph": 166.05,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 13 - 5 against Coughlin Jr. in prior events. \r\n\r\nThey have identical reaction times and Anderson has the lead at 100 feet and never trailed from there on for\r\nthe win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.02,
+     "ft60": 0.976,
+     "ft330": 2.736,
+     "ft660": 4.211,
+     "mph660": 167.01,
+     "ft1000": 5.485,
+     "et": 6.561,
+     "mph": 206.89,
+     "first": 0.0144,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0144
+    },
+    {
+     "rt": 0.038,
+     "ft60": 0.986,
+     "ft330": 2.746,
+     "ft660": 4.218,
+     "mph660": 166.76,
+     "ft1000": 5.488,
+     "et": 6.557,
+     "mph": 209.07,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hartford is 1 - 0 against Anderson in prior events. \r\n\r\nAnderson with the starting line advantage and the power to hold on for the hole shot win.  He will have lane\r\nchoice over Vang in the semifinal."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73874/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73874",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "NHRA 4-Wide Nationals",
+ "event_date": "2026-04-23",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.056,
+     "ft60": 0.896,
+     "ft330": 2.286,
+     "ft660": 3.208,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.947,
+     "mph": 330.55,
+     "first": null,
+     "lane": "1",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 0.0167
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.891,
+     "ft330": 2.269,
+     "ft660": 3.178,
+     "mph660": 284.09,
+     "ft1000": null,
+     "et": 3.917,
+     "mph": 329.5,
+     "first": null,
+     "lane": "2",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "6",
+     "mov": 0.0167
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.924,
+     "ft330": 2.351,
+     "ft660": 3.291,
+     "mph660": 274.66,
+     "ft1000": null,
+     "et": 4.05,
+     "mph": 323.81,
+     "first": null,
+     "lane": "3",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.891,
+     "ft330": 2.267,
+     "ft660": 3.176,
+     "mph660": 286.19,
+     "ft1000": null,
+     "et": 3.905,
+     "mph": 334.9,
+     "first": 0.0167,
+     "lane": "4",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "5:14 p.m. Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches, adjusted altitude 1,877 feet, track temperature 102 degrees.\r\n\r\nHagan goes down the groove with a good run but crosses the line in third place.\r\n\r\nBeckman makes a good pass and will runner-up.\r\n\r\nTodd was falling behind all the way through the run.\r\n\r\nCapps gets the holeshot and goes down the groove with the quickest pass of the quad to take the win. This is Capps' 79th career victory, his second this year.\r\n\r\n\r\nFinish Order & Margins: 1. Ron Capps was 0.0167 sec./about 8 feet ahead of 2. Jack Beckman, who was 0.028 sec./about 14 feet ahead of 3. Matt Hagan, who was 0.120 sec./about 57 feet ahead of 4. J.R. Todd 5:14 p.m. Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches, adjusted altitude 1,877 feet, track temperature 102 degrees.\r\n\r\nHagan goes down the groove with a good run but crosses the line in third place.\r\n\r\nBeckman makes a good pass and will runner-up.\r\n\r\nTodd was falling behind all the way through the run.\r\n\r\nCapps gets the holeshot and goes down the groove with the quickest pass of the quad to take the win. This is Capps' 79th career victory, his second this year.\r\n\r\n\r\nFinish Order & Margins: 1. Ron Capps was 0.0167 sec./about 8 feet ahead of 2. Jack Beckman, who was 0.028 sec./about 14 feet ahead of 3. Matt Hagan, who was 0.120 sec./about 57 feet ahead of 4. J.R. Todd"
+  }
+ ]
+}

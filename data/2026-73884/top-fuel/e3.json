@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.87,
+     "ft330": 2.19,
+     "ft660": 3.085,
+     "mph660": 286.8,
+     "ft1000": null,
+     "et": 3.816,
+     "mph": 332.51,
+     "first": 1.3422,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 1.3422
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.906,
+     "ft330": 2.666,
+     "ft660": 3.97,
+     "mph660": 191.16,
+     "ft1000": null,
+     "et": 5.172,
+     "mph": 183.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 48 percent, barometer 30.07 inches,\r\nadjusted altitude 2,764 feet, track temperature 129 degrees.\r\n\r\nLangdon is 19 - 10 against Pruett in prior events. \r\n\r\nShawn Langdon and Leah Pruett have raced 29 times.  Langdon has \"left first\" 19 times.\r\nIn those 29 races Langdon's average R/T is  .060\r\nIn those 29 races Pruett's average R/T is .073\r\n\r\nLeah with the starting line advantage, but is up in smoke right at the hit and pedaled it.\r\n\r\nLangdon with a good pass early, but started mixing up cylinders on the top end.  He gets the win.\r\nLangdon is advancing to eighth final round this season and 29th of his career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 0.861,
+     "ft330": 2.179,
+     "ft660": 3.089,
+     "mph660": 279.67,
+     "ft1000": null,
+     "et": 3.885,
+     "mph": 279.56,
+     "first": 1.5842,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": 1.5842
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.89,
+     "ft330": 2.896,
+     "ft660": 4.223,
+     "mph660": 195.45,
+     "ft1000": null,
+     "et": 5.473,
+     "mph": 176.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta is 5 - 1 against Stewart in prior events. \r\n\r\nKalitta with a slight starting line advantage, but is up in smoke right at the hit and pedals it.\r\nKalitta will win the season championship and $150,000 and will go into the countdown as the number\r\none seed.\r\n\r\nStewart has a hole or two out on the top end, but gets the win.  He will give up lane choice to\r\nLangdon in the final.  He is advancing to his second final this season and eighth of his career."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 0.947,
+     "ft330": 2.566,
+     "ft660": 3.836,
+     "mph660": 195.51,
+     "ft1000": 4.919,
+     "et": 5.831,
+     "mph": 246.71,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4334",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.954,
+     "ft330": 2.573,
+     "ft660": 3.824,
+     "mph660": 197.19,
+     "ft1000": 4.897,
+     "et": 5.799,
+     "mph": 249.67,
+     "first": 0.0245,
+     "lane": "Right",
+     "win": true,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0245
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.85 inches, adjusted\r\naltitude 4,045 feet, track temperature 127 degrees.\r\n\r\nStanfield with the starting line advantage, but shelton chased him down by half track and never trailed from\r\nthere on for the win.  Shelton with a great pass for the win.  Stan Shelton's MOV: 0.0245 seconds\r\n(approximately 9 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.05,
+     "ft60": 0.967,
+     "ft330": 2.581,
+     "ft660": 3.834,
+     "mph660": 198.99,
+     "ft1000": 4.896,
+     "et": 5.796,
+     "mph": 249.12,
+     "first": 0.0505,
+     "lane": "Left",
+     "win": true,
+     "driver": "Rickie Smith",
+     "car": "43",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0505
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.96,
+     "ft330": 2.563,
+     "ft660": 3.822,
+     "mph660": 195.34,
+     "ft1000": 4.906,
+     "et": 5.823,
+     "mph": 245.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Menholt is 1 - 0 against Smith in prior events. \r\n\r\nSmith with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.039,
+     "ft60": 0.967,
+     "ft330": 2.583,
+     "ft660": 4.17,
+     "mph660": 138.94,
+     "ft1000": 5.908,
+     "et": 7.62,
+     "mph": 125.2,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Travis Harvey",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.091,
+     "ft60": 0.95,
+     "ft330": 2.541,
+     "ft660": 3.802,
+     "mph660": 196.56,
+     "ft1000": 4.879,
+     "et": 5.786,
+     "mph": 247.79,
+     "first": 1.7823,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.7823
+    }
+   ],
+   "note": "This is the first time Harvey and Collins have faced each other in eliminations. \r\n\r\nCollins got real loose on the burnout and hit the sign in front of the Christmas tree.  He didn't hurt the car\r\nand stages the car.  Harvey with the starting line advantage, but then got real loose and made a move toward\r\nthe centerline before he clicked it off.\r\n\r\nCollins tells the top end interview the steering wheel came off.  He still gets the win.  He will have lane\r\nchoice over Shelton in the final."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.95,
+     "ft330": 2.546,
+     "ft660": 3.805,
+     "mph660": 196.93,
+     "ft1000": 4.879,
+     "et": 5.786,
+     "mph": 247.84,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.023,
+     "ft60": 0.957,
+     "ft330": 2.562,
+     "ft660": 3.817,
+     "mph660": 197.22,
+     "ft1000": 4.887,
+     "et": 5.79,
+     "mph": 249.63,
+     "first": 0.0334,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0334
+    }
+   ],
+   "note": "Gray is 2 - 1 against Stavrinos in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win.  He will have lane choice over Smith\r\nin the semifinal.\r\n\r\nGray with his quickest pass of the weekend in the losing effort."
+  }
+ ]
+}

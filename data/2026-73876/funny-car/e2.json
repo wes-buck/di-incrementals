@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 1.411,
+     "ft330": 3.878,
+     "ft660": 5.505,
+     "mph660": 133.7,
+     "ft1000": null,
+     "et": 7.351,
+     "mph": 120.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 1.162,
+     "ft330": 3.577,
+     "ft660": 4.887,
+     "mph660": 199.05,
+     "ft1000": null,
+     "et": 6.102,
+     "mph": 182.58,
+     "first": 1.2393,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": 1.2393
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 58 percent, barometer 29.82 inches, adjusted\r\naltitude 3,102 feet, track temperature 105 degrees.\r\n\r\nCapps is 7 - 4 against Green in prior events. \r\n\r\nCapps with the starting line advantage.  They both cars are up in smoke right at the hit.  They both pedal the\r\ncar.  Green gets it to hook up enough to get the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.07,
+     "ft60": 0.906,
+     "ft330": 2.319,
+     "ft660": 3.272,
+     "mph660": 274.44,
+     "ft1000": null,
+     "et": 4.026,
+     "mph": 324.75,
+     "first": 8.2795,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": 8.2795
+    },
+    {
+     "rt": 0.084,
+     "ft60": 1.273,
+     "ft330": 4.866,
+     "ft660": 8.66,
+     "mph660": 62.26,
+     "ft1000": null,
+     "et": 12.291,
+     "mph": 61.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Hagan is 33 - 26 against Beckman in prior events. \r\n\r\nHagan with the starting line advantage and never trailed for the win.\r\n\r\nBeckman is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 1.078,
+     "ft330": 3.356,
+     "ft660": 4.748,
+     "mph660": 167.16,
+     "ft1000": null,
+     "et": 6.141,
+     "mph": 164.83,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.893,
+     "ft330": 2.313,
+     "ft660": 3.337,
+     "mph660": 230.88,
+     "ft1000": null,
+     "et": 4.255,
+     "mph": 267.8,
+     "first": 1.8808,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": 1.8808
+    }
+   ],
+   "note": "Prock is 7 - 3 against Todd in prior events. \r\n\r\nTodd with a slight starting line advantage, but was up in smoke right at the hit.  He pedaled it, but couldn't\r\nchase Prock down.  Prock started to haze the tires around half track and drop cylinders.  He stays with it for\r\nthe win.  He will have lane choice over Green in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.101,
+     "ft60": 0.905,
+     "ft330": 2.314,
+     "ft660": 3.255,
+     "mph660": 276.07,
+     "ft1000": null,
+     "et": 4.005,
+     "mph": 327.98,
+     "first": 8.3534,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "12",
+     "mov": 8.3534
+    },
+    {
+     "rt": 0.13,
+     "ft60": 1.197,
+     "ft330": 4.95,
+     "ft660": 8.889,
+     "mph660": 61.1,
+     "ft1000": null,
+     "et": 12.329,
+     "mph": 71.05,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria and Richards have each won 3 times against the other in prior events. \r\n\r\nDeJoria with the starting line advantage and never trailed for the win.  DeJoria is straight down the groove\r\nwith the quickest pass of the round.  she will have lane choice over Hagan in the semifinal.\r\n\r\nRichards is up in smoke right at the hit and clicked it off."
+  }
+ ]
+}

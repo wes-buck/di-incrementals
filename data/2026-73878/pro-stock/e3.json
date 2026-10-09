@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.028,
+     "ft60": 0.99,
+     "ft330": 2.747,
+     "ft660": 4.215,
+     "mph660": 167.07,
+     "ft1000": 5.485,
+     "et": 6.555,
+     "mph": 209.39,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 0.993,
+     "ft330": 2.742,
+     "ft660": 4.207,
+     "mph660": 167.49,
+     "ft1000": 5.472,
+     "et": 6.54,
+     "mph": 209.88,
+     "first": 0.0077,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0077
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 70 percent, barometer 29.71 inches, adjusted\r\naltitude 1,739 feet, track temperature 99 degrees.\r\n\r\nStanfield is 1 - 0 against Hartford in prior events. \r\n\r\nStanfield with the starting line advantage, but Hartford chased him down in the lights for the win in a close\r\none.  Matt Hartford's MOV: 0.0077 seconds (approximately 2 feet).  Hartford is advancing to his third final\r\nthis season and 24th of his career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.011,
+     "ft60": 0.996,
+     "ft330": 2.752,
+     "ft660": 4.22,
+     "mph660": 167.24,
+     "ft1000": 5.488,
+     "et": 6.556,
+     "mph": 209.49,
+     "first": 0.0206,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0206
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.996,
+     "ft330": 2.749,
+     "ft660": 4.214,
+     "mph660": 167.45,
+     "ft1000": 5.48,
+     "et": 6.548,
+     "mph": 209.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 16 - 8 against Glenn in prior events. \r\n\r\nGlenn with a great light and the starting line advantage and the power to hold on for the hole shot win.\r\nDallas Glenn's MOV: 0.0206 seconds (approximately 6 feet).  Glenn will give up lane choice to Hartford in the\r\nfinal.   Glenn is advancing to his fifth final this season and 45th in his career."
+  }
+ ]
+}

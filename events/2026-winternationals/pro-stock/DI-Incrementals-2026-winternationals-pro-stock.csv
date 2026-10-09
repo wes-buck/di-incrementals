@@ -1,0 +1,107 @@
+Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,1,Right,Dave Connolly,51,,0.063,1.008,2.786,4.261,167.05,5.534,6.607,209.85,1.008,1.778,1.475,1.273,1.073,2.346,42.8,yes,,5,16,10,6
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,2,Left,Joey Grose,703,,0.094,1.004,2.808,4.3,164.81,5.586,6.669,208.17,1.004,1.804,1.492,1.286,1.083,2.369,43.36,yes,,16,13,15,16
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,2,Right,Mason McGaha,400,,0.1,1.007,2.809,4.302,165.13,5.587,6.67,207.88,1.007,1.802,1.493,1.285,1.083,2.368,42.75,yes,,17,15,16,17
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,3,Left,Chris Vang,5707,,0.026,0.988,2.774,4.262,165.01,5.545,6.627,207.08,0.988,1.786,1.488,1.283,1.082,2.365,42.07,yes,,9,3,4,8
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,3,Right,Kenny Delco,150,,0.142,0.989,2.784,4.275,165.36,5.557,6.637,208.36,0.989,1.795,1.491,1.282,1.08,2.362,43.0,yes,,12,4,8,11
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,4,Left,Stephen Bell,439,,0.17,1.002,2.789,4.275,164.91,5.556,6.635,208.04,1.002,1.787,1.486,1.281,1.079,2.36,43.13,yes,,11,12,12,12
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,4,Right,Troy Coughlin Jr,10,,0.033,0.999,2.788,4.272,165.82,5.551,6.629,207.69,0.999,1.789,1.484,1.279,1.078,2.357,41.87,yes,,10,10,11,10
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,5,Left,Eric Latino,7,,0.088,0.991,2.768,4.245,166.83,5.516,6.588,209.65,0.991,1.777,1.477,1.271,1.072,2.343,42.82,yes,,2,6,2,2
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,5,Right,Deric Kramer,52,,0.046,0.998,2.783,4.263,166.5,5.537,6.613,207.27,0.998,1.785,1.48,1.274,1.076,2.35,40.77,yes,,8,9,7,9
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,6,Left,Chris McGaha,4264,,0.044,0.982,2.796,4.287,165.09,5.566,6.643,209.3,0.982,1.814,1.491,1.279,1.077,2.356,44.21,yes,,13,1,13,13
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,6,Right,Cody Anderson,17,,0.066,0.992,2.776,4.256,166.35,5.533,6.608,208.71,0.992,1.784,1.48,1.277,1.075,2.352,42.36,yes,,6,8,5,4
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,7,Left,Aaron Stanfield,4,,0.013,0.991,2.777,4.259,166.21,5.535,6.609,209.69,0.991,1.786,1.482,1.276,1.074,2.35,43.48,yes,,7,7,6,5
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,7,Right,Jeg Coughlin Jr,8,,0.043,1.016,2.833,4.32,165.86,5.599,6.675,209.23,1.016,1.817,1.487,1.279,1.076,2.355,43.37,yes,,18,18,18,18
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,8,Left,Matt Latino,16,,0.034,1.012,2.81,4.294,166.03,5.571,6.647,209.33,1.012,1.798,1.484,1.277,1.076,2.353,43.3,yes,,15,17,17,15
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,8,Right,Greg Stanfield,445,,0.035,0.987,2.767,4.251,165.56,5.528,6.605,208.01,0.987,1.78,1.484,1.277,1.077,2.354,42.45,yes,,4,2,1,3
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,9,Left,Erica Enders,6,,0.044,1.006,2.807,4.292,165.54,5.569,6.644,209.3,1.006,1.801,1.485,1.277,1.075,2.352,43.76,yes,,14,14,14,14
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,9,Right,Greg Anderson,2,,0.04,0.99,2.769,4.243,166.48,5.513,6.583,209.52,0.99,1.779,1.474,1.27,1.07,2.34,43.04,yes,,1,5,3,1
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,10,Left,Matt Hartford,3,,0.099,1.031,3.522,5.643,117.58,7.542,9.448,109.32,1.031,2.491,2.121,1.899,1.906,3.805,-8.26,no,60-330,19,19,,
+Lucas Oil NHRA Winternationals,Pro Stock,Q1,10,Right,Dallas Glenn,1,,0.0,1.001,2.785,4.261,166.97,5.532,6.603,209.43,1.001,1.784,1.476,1.271,1.071,2.342,42.46,yes,,3,11,9,7
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,1,Left,Jeg Coughlin Jr,8,,0.07,1.069,3.014,5.237,100.09,7.597,9.977,87.86,1.069,1.945,2.223,2.36,2.38,4.74,-12.23,no,0-60,18,,,
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,2,Left,Mason McGaha,400,,0.211,1.012,2.813,4.305,165.64,5.591,6.676,208.23,1.012,1.801,1.492,1.286,1.085,2.371,42.59,yes,,16,17,17,16
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,2,Right,Matt Hartford,3,,0.134,0.995,2.761,4.235,167.45,5.504,6.575,209.98,0.995,1.766,1.474,1.269,1.071,2.34,42.53,yes,,5,12,9,9
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,3,Left,Kenny Delco,150,,0.359,1.0,2.784,4.268,166.07,5.546,6.624,208.84,1.0,1.784,1.484,1.278,1.078,2.356,42.77,yes,,14,15,16,15
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,3,Right,Joey Grose,703,,0.081,1.003,2.78,4.26,166.17,5.539,6.616,208.46,1.003,1.777,1.48,1.279,1.077,2.356,42.29,yes,,13,16,15,13
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,4,Left,Troy Coughlin Jr,10,,0.032,0.998,2.772,4.25,166.31,5.524,6.6,207.98,0.998,1.774,1.478,1.274,1.076,2.35,41.67,yes,,12,14,14,12
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,4,Right,Matt Latino,16,,0.023,0.994,2.759,4.231,167.01,5.503,6.575,209.52,0.994,1.765,1.472,1.272,1.072,2.344,42.51,yes,,6,11,8,5
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,5,Left,Deric Kramer,52,,0.061,0.988,2.764,4.239,167.01,5.51,6.584,207.91,0.988,1.776,1.475,1.271,1.074,2.345,40.9,yes,,10,10,10,10
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,5,Right,Erica Enders,6,,0.068,0.995,2.767,4.244,166.54,5.517,6.59,208.68,0.995,1.772,1.477,1.273,1.073,2.346,42.14,yes,,11,13,11,11
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,6,Left,Cody Anderson,17,,0.074,0.984,2.755,4.232,166.74,5.505,6.579,208.36,0.984,1.771,1.477,1.273,1.074,2.347,41.62,yes,,8,6,6,7
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,6,Right,Chris McGaha,4264,,0.025,1.299,5.974,12.009,36.48,18.564,25.005,33.4,1.299,4.675,6.035,6.555,6.441,12.996,-3.08,no,0-60,19,,,
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,7,Left,Dave Connolly,51,,0.055,0.98,2.754,4.231,166.87,5.507,6.58,210.01,0.98,1.774,1.477,1.276,1.073,2.349,43.14,yes,,9,3,4,6
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,7,Right,Stephen Bell,439,,0.074,0.986,2.771,4.262,164.73,5.547,6.628,207.46,0.986,1.785,1.491,1.285,1.081,2.366,42.73,yes,,15,7,13,14
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,8,Left,Greg Stanfield,445,,0.045,0.987,2.754,4.227,167.05,5.497,6.568,209.07,0.987,1.767,1.473,1.27,1.071,2.341,42.02,yes,,3,9,5,3
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,8,Right,Chris Vang,5707,,0.014,0.977,2.769,4.625,119.88,6.768,9.272,80.19,0.977,1.792,1.856,2.143,2.504,4.647,-39.69,no,330-660,17,1,12,
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,9,Left,Dallas Glenn,1,,0.018,0.981,2.748,4.218,167.41,5.485,6.553,209.17,0.981,1.767,1.47,1.267,1.068,2.335,41.76,yes,,2,4,2,2
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,9,Right,Aaron Stanfield,4,,0.007,0.982,2.752,4.227,166.72,5.499,6.572,208.94,0.982,1.77,1.475,1.272,1.073,2.345,42.22,yes,,4,5,3,4
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,10,Left,Greg Anderson,2,,0.031,0.978,2.741,4.21,167.51,5.476,6.544,209.39,0.978,1.763,1.469,1.266,1.068,2.334,41.88,yes,,1,2,1,1
+Lucas Oil NHRA Winternationals,Pro Stock,Q2,10,Right,Eric Latino,7,,0.127,0.986,2.758,4.232,167.07,5.504,6.575,209.39,0.986,1.772,1.474,1.272,1.071,2.343,42.32,yes,,7,8,7,8
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,1,Right,Chris McGaha,4264,,0.207,0.99,2.765,4.242,166.87,5.514,6.586,209.59,0.99,1.775,1.477,1.272,1.072,2.344,42.72,yes,,13,15,15,14
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,2,Left,Mason McGaha,400,,0.079,0.986,2.768,4.253,165.99,5.532,6.611,209.23,0.986,1.782,1.485,1.279,1.079,2.358,43.24,yes,,16,9,16,15
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,2,Right,Chris Vang,5707,,0.016,0.982,2.764,4.255,164.79,5.539,6.618,208.33,0.982,1.782,1.491,1.284,1.079,2.363,43.54,yes,,17,7,14,17
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,3,Left,Kenny Delco,150,,0.209,0.988,2.759,4.237,166.35,5.512,6.589,207.62,0.988,1.771,1.478,1.275,1.077,2.352,41.27,yes,,14,12,13,13
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,3,Right,Stephen Bell,439,,0.173,0.986,2.75,4.224,166.91,5.494,6.567,208.68,0.986,1.764,1.474,1.27,1.073,2.343,41.77,yes,,10,10,8,8
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,4,Left,Troy Coughlin Jr,10,,0.021,0.989,2.752,4.226,166.64,5.499,6.572,209.14,0.989,1.763,1.474,1.273,1.073,2.346,42.5,yes,,11,14,10,11
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,4,Right,Joey Grose,703,,0.03,1.007,2.78,4.254,166.6,5.529,6.604,207.78,1.007,1.773,1.474,1.275,1.075,2.35,41.18,yes,,15,18,17,16
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,5,Left,Deric Kramer,52,,0.083,0.984,2.746,4.216,167.53,5.484,6.554,209.65,0.984,1.762,1.47,1.268,1.07,2.338,42.12,yes,,7,8,7,7
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,5,Right,Erica Enders,6,,0.061,1.086,5.009,10.027,44.07,15.451,20.803,39.99,1.086,3.923,5.018,5.424,5.352,10.776,-4.08,no,0-60,19,,,
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,6,Left,Dave Connolly,51,,0.04,0.979,2.736,4.203,167.59,5.469,6.536,209.75,0.979,1.757,1.467,1.266,1.067,2.333,42.16,yes,,3,3,3,3
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,6,Right,Eric Latino,7,,0.073,0.986,2.744,4.213,167.51,5.481,6.55,209.43,0.986,1.758,1.469,1.268,1.069,2.337,41.92,yes,,5,11,6,6
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,7,Left,Cody Anderson,17,,0.039,0.981,2.74,4.209,167.55,5.477,6.547,209.43,0.981,1.759,1.469,1.268,1.07,2.338,41.88,yes,,4,5,4,4
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,7,Right,Matt Latino,16,,0.022,0.988,2.752,4.224,167.05,5.494,6.565,209.43,0.988,1.764,1.472,1.27,1.071,2.341,42.38,yes,,9,13,11,9
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,8,Left,Greg Anderson,2,,0.581,0.978,2.73,4.192,168.3,5.452,6.516,209.69,0.978,1.752,1.462,1.26,1.064,2.324,41.39,yes,,1,2,2,1
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,8,Right,Matt Hartford,3,,0.097,0.998,2.785,4.272,166.29,5.545,6.619,208.07,0.998,1.787,1.487,1.273,1.074,2.347,41.78,yes,,18,17,18,18
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,9,Left,Jeg Coughlin Jr,8,,0.053,0.981,2.75,4.226,166.66,5.5,6.573,208.94,0.981,1.769,1.476,1.274,1.073,2.347,42.28,yes,,12,6,9,12
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,9,Right,Aaron Stanfield,4,,0.027,0.979,2.74,4.212,167.03,5.482,6.553,209.85,0.979,1.761,1.472,1.27,1.071,2.341,42.82,yes,,6,4,5,5
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,10,Left,Dallas Glenn,1,,0.027,0.972,2.727,4.195,167.45,5.46,6.529,209.17,0.972,1.755,1.468,1.265,1.069,2.334,41.72,yes,,2,1,1,2
+Lucas Oil NHRA Winternationals,Pro Stock,Q3,10,Right,Greg Stanfield,445,,0.009,0.99,2.753,4.224,167.18,5.493,6.563,209.56,0.99,1.763,1.471,1.269,1.07,2.339,42.38,yes,,8,16,12,10
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,1,Left,Chris Vang,5707,,0.065,0.97,2.735,4.208,166.89,5.479,6.553,208.01,0.97,1.765,1.473,1.271,1.074,2.345,41.12,yes,,5,1,4,5
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,2,Left,Joey Grose,703,,0.169,0.987,2.758,4.235,166.48,5.565,6.844,168.28,0.987,1.771,1.477,1.33,1.279,2.609,1.8,no,1000-1320,16,11,14,13
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,2,Right,Mason McGaha,400,,0.065,0.99,2.774,4.26,165.9,5.539,6.617,208.23,0.99,1.784,1.486,1.279,1.078,2.357,42.33,yes,,14,15,18,18
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,3,Left,Erica Enders,6,,0.015,0.981,2.739,4.214,166.89,5.485,6.554,210.41,0.981,1.758,1.475,1.271,1.069,2.34,43.52,yes,,7,8,6,7
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,3,Right,Kenny Delco,150,,0.131,0.987,2.755,4.232,166.66,5.507,6.583,207.62,0.987,1.768,1.477,1.275,1.076,2.351,40.96,yes,,11,12,13,12
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,4,Left,Chris McGaha,4264,,0.132,0.987,2.761,4.24,166.72,5.513,6.587,209.2,0.987,1.774,1.479,1.273,1.074,2.347,42.48,yes,,13,13,16,16
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,4,Right,Jeg Coughlin Jr,8,,0.002,0.981,2.746,4.22,166.91,5.492,6.565,208.91,0.981,1.765,1.474,1.272,1.073,2.345,42.0,yes,,10,9,8,9
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,5,Left,Matt Hartford,3,,0.152,0.991,2.767,4.254,164.03,5.542,6.625,207.34,0.991,1.776,1.487,1.288,1.083,2.371,43.31,yes,,15,16,17,17
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,5,Right,Troy Coughlin Jr,10,,0.015,0.989,2.758,4.236,166.48,5.511,6.586,209.2,0.989,1.769,1.478,1.275,1.075,2.35,42.72,yes,,12,14,15,14
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,6,Left,Stephen Bell,439,,0.18,0.976,2.747,4.238,161.05,5.716,7.165,147.29,0.976,1.771,1.491,1.478,1.449,2.927,-13.76,no,660-1000,18,5,9,15
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,6,Right,Deric Kramer,52,,0.096,0.975,2.736,4.205,167.43,5.472,6.542,209.14,0.975,1.761,1.469,1.267,1.07,2.337,41.71,yes,,3,4,5,4
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,7,Left,Matt Latino,16,,0.019,0.992,2.751,4.218,167.57,5.484,6.553,208.65,0.992,1.759,1.467,1.266,1.069,2.335,41.08,yes,,6,17,10,8
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,7,Right,Cody Anderson,17,,0.036,0.992,2.752,4.226,167.36,5.493,6.563,208.17,0.992,1.76,1.474,1.267,1.07,2.337,40.81,yes,,8,18,11,10
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,8,Left,Greg Stanfield,445,,0.04,0.972,2.73,4.201,167.34,5.47,6.541,209.33,0.972,1.758,1.471,1.269,1.071,2.34,41.99,yes,,2,2,3,2
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,8,Right,Dave Connolly,51,,0.018,0.98,2.743,4.212,167.51,5.48,6.549,209.46,0.98,1.763,1.469,1.268,1.069,2.337,41.95,yes,,4,7,7,6
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,9,Left,Eric Latino,7,,0.088,0.984,2.754,4.226,167.22,5.494,6.564,208.88,0.984,1.77,1.472,1.268,1.07,2.338,41.66,yes,,9,10,12,11
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,9,Right,Greg Anderson,2,,0.028,0.979,2.729,4.203,161.94,5.659,7.066,153.37,0.979,1.75,1.474,1.456,1.407,2.863,-8.57,no,660-1000,17,6,1,3
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,10,Left,Dallas Glenn,1,,0.019,0.974,2.729,4.194,168.03,5.457,6.525,208.55,0.974,1.755,1.465,1.263,1.068,2.331,40.52,yes,,1,3,2,1
+Lucas Oil NHRA Winternationals,Pro Stock,Q4,10,Right,Aaron Stanfield,4,,0.027,1.939,8.204,11.828,67.94,15.305,18.685,63.74,1.939,6.265,3.624,3.477,3.38,6.857,-4.2,no,0-60,19,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E1,1,Left,Matt Latino,16,W,0.003,0.986,2.742,4.21,167.41,5.48,6.551,209.39,0.986,1.756,1.468,1.27,1.071,2.341,41.98,yes,,10,10,8,9
+Lucas Oil NHRA Winternationals,Pro Stock,E1,1,Right,Aaron Stanfield,4,L,0.019,0.981,2.738,4.207,167.36,5.474,6.542,210.01,0.981,1.757,1.469,1.267,1.068,2.335,42.65,yes,,5,8,6,5
+Lucas Oil NHRA Winternationals,Pro Stock,E1,2,Left,Eric Latino,7,W,0.097,0.99,2.743,4.208,168.05,5.474,6.542,209.14,0.99,1.753,1.465,1.266,1.068,2.334,41.09,yes,,6,11,9,6
+Lucas Oil NHRA Winternationals,Pro Stock,E1,2,Right,Chris Vang,5707,L,-0.006,1.068,3.616,6.562,75.36,9.715,12.79,69.9,1.068,2.548,2.946,3.153,3.075,6.228,-5.46,no,0-60,13,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E1,3,Left,Cody Anderson,17,L,0.018,0.98,2.745,4.213,167.84,5.478,6.546,209.59,0.98,1.765,1.468,1.265,1.068,2.333,41.75,yes,,8,6,10,10
+Lucas Oil NHRA Winternationals,Pro Stock,E1,3,Right,Erica Enders,6,W,0.014,0.979,2.737,4.209,167.36,5.477,6.547,209.33,0.979,1.758,1.472,1.268,1.07,2.338,41.97,yes,,9,5,5,7
+Lucas Oil NHRA Winternationals,Pro Stock,E1,4,Left,Deric Kramer,52,L,0.039,1.005,2.779,4.264,165.09,5.585,6.864,163.06,1.005,1.774,1.485,1.321,1.279,2.6,-2.03,no,1000-1320,12,12,12,12
+Lucas Oil NHRA Winternationals,Pro Stock,E1,4,Right,Jeg Coughlin Jr,8,W,0.028,0.98,2.745,4.218,166.99,5.489,6.561,208.33,0.98,1.765,1.473,1.271,1.072,2.343,41.34,yes,,11,7,11,11
+Lucas Oil NHRA Winternationals,Pro Stock,E1,5,Left,Greg Stanfield,445,W,0.022,0.975,2.728,4.194,167.51,5.457,6.523,210.54,0.975,1.753,1.466,1.263,1.066,2.329,43.03,yes,,4,4,4,4
+Lucas Oil NHRA Winternationals,Pro Stock,E1,5,Right,Stephen Bell,439,L,-0.049,1.064,4.206,8.202,55.57,12.46,16.604,51.83,1.064,3.142,3.996,4.258,4.144,8.402,-3.74,no,0-60,15,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E1,6,Left,Dallas Glenn,1,W,0.017,0.968,2.718,4.18,168.3,5.442,6.508,209.43,0.968,1.75,1.462,1.262,1.066,2.328,41.13,yes,,3,1,1,3
+Lucas Oil NHRA Winternationals,Pro Stock,E1,6,Right,Matt Hartford,3,L,0.027,2.497,11.611,18.741,36.61,23.529,27.687,51.68,2.497,9.114,7.13,4.788,4.158,8.946,15.07,no,0-60,16,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E1,7,Left,Greg Anderson,2,W,0.028,0.971,2.718,4.176,168.62,5.434,6.496,210.41,0.971,1.747,1.458,1.258,1.062,2.32,41.79,yes,,1,2,2,1
+Lucas Oil NHRA Winternationals,Pro Stock,E1,7,Right,Kenny Delco,150,L,0.071,1.545,3.997,7.024,73.49,10.241,13.358,69.13,1.545,2.452,3.027,3.217,3.117,6.334,-4.36,no,0-60,14,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E1,8,Left,Dave Connolly,51,W,0.017,0.971,2.72,4.179,168.51,5.439,6.502,210.21,0.971,1.749,1.459,1.26,1.063,2.323,41.7,yes,,2,3,3,2
+Lucas Oil NHRA Winternationals,Pro Stock,E1,8,Right,Troy Coughlin Jr,10,L,0.057,0.981,2.74,4.209,168.2,5.473,6.542,208.36,0.981,1.759,1.469,1.264,1.069,2.333,40.16,yes,,7,9,7,8
+Lucas Oil NHRA Winternationals,Pro Stock,E2,1,Left,Greg Stanfield,445,W,0.044,0.982,2.735,4.198,168.43,5.462,6.527,209.92,0.982,1.753,1.463,1.264,1.065,2.329,41.49,yes,,5,4,5,5
+Lucas Oil NHRA Winternationals,Pro Stock,E2,1,Right,Jeg Coughlin Jr,8,L,-0.012,1.38,6.37,9.572,79.87,12.265,14.927,77.8,1.38,4.99,3.202,2.693,2.662,5.355,-2.07,no,0-60,7,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E2,2,Left,Dallas Glenn,1,W,0.019,0.98,2.73,4.192,168.16,5.453,6.52,209.2,0.98,1.75,1.462,1.261,1.067,2.328,41.04,yes,,3,3,3,3
+Lucas Oil NHRA Winternationals,Pro Stock,E2,2,Right,Eric Latino,7,L,0.094,0.985,2.733,4.196,168.3,5.459,6.525,208.62,0.985,1.748,1.463,1.263,1.066,2.329,40.32,yes,,4,5,4,4
+Lucas Oil NHRA Winternationals,Pro Stock,E2,3,Left,Dave Connolly,51,W,0.126,0.968,2.714,4.173,168.72,5.432,6.496,210.14,0.968,1.746,1.459,1.259,1.064,2.323,41.42,yes,,2,2,2,2
+Lucas Oil NHRA Winternationals,Pro Stock,E2,3,Right,Erica Enders,6,L,0.034,2.163,9.163,13.914,47.59,18.925,23.861,42.18,2.163,7.0,4.751,5.011,4.936,9.947,-5.41,no,0-60,8,,,
+Lucas Oil NHRA Winternationals,Pro Stock,E2,4,Left,Greg Anderson,2,W,0.031,0.967,2.709,4.168,168.66,5.425,6.487,209.82,0.967,1.742,1.459,1.257,1.062,2.319,41.16,yes,,1,1,1,1
+Lucas Oil NHRA Winternationals,Pro Stock,E2,4,Right,Matt Latino,16,L,0.007,0.987,2.739,4.204,167.8,5.47,6.537,209.75,0.987,1.752,1.465,1.266,1.067,2.333,41.95,yes,,6,6,6,6
+Lucas Oil NHRA Winternationals,Pro Stock,E3,1,Left,Dave Connolly,51,L,0.025,0.978,2.735,4.198,168.01,5.46,6.525,209.75,0.978,1.757,1.463,1.262,1.065,2.327,41.74,yes,,4,4,4,4
+Lucas Oil NHRA Winternationals,Pro Stock,E3,1,Right,Dallas Glenn,1,W,0.005,0.968,2.719,4.184,167.95,5.447,6.515,209.07,0.968,1.751,1.465,1.263,1.068,2.331,41.12,yes,,2,1,2,2
+Lucas Oil NHRA Winternationals,Pro Stock,E3,2,Left,Greg Anderson,2,W,0.038,0.974,2.716,4.174,168.85,5.432,6.495,209.79,0.974,1.742,1.458,1.258,1.063,2.321,40.94,yes,,1,3,1,1
+Lucas Oil NHRA Winternationals,Pro Stock,E3,2,Right,Greg Stanfield,445,L,0.029,0.972,2.724,4.188,168.18,5.451,6.517,210.31,0.972,1.752,1.464,1.263,1.066,2.329,42.13,yes,,3,2,3,3
+Lucas Oil NHRA Winternationals,Pro Stock,E4,1,Left,Greg Anderson,2,W,0.018,0.979,2.724,4.183,168.51,5.442,6.505,209.88,0.979,1.745,1.459,1.259,1.063,2.322,41.37,yes,,1,1,1,1
+Lucas Oil NHRA Winternationals,Pro Stock,E4,1,Right,Dallas Glenn,1,L,0.003,0.987,2.736,4.199,168.2,5.46,6.526,208.94,0.987,1.749,1.463,1.261,1.066,2.327,40.74,yes,,2,2,2,2

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 0.939,
+     "ft330": 2.537,
+     "ft660": 3.794,
+     "mph660": 194.6,
+     "ft1000": 4.881,
+     "et": 5.798,
+     "mph": 245.27,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "445",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.955,
+     "ft330": 2.521,
+     "ft660": 3.768,
+     "mph660": 198.73,
+     "ft1000": 4.836,
+     "et": 5.745,
+     "mph": 246.08,
+     "first": 0.0258,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0258
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.058,
+     "ft60": 1.026,
+     "ft330": 3.746,
+     "ft660": 6.378,
+     "mph660": 84.79,
+     "ft1000": 9.234,
+     "et": 12.067,
+     "mph": 75.49,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.013,
+     "ft60": 0.966,
+     "ft330": 2.613,
+     "ft660": 3.908,
+     "mph660": 193.88,
+     "ft1000": 4.988,
+     "et": 5.892,
+     "mph": 249.44,
+     "first": 6.2207,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Banaka",
+     "car": "2",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.2207
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.008,
+     "ft60": 0.944,
+     "ft330": 2.539,
+     "ft660": 3.77,
+     "mph660": 208.14,
+     "ft1000": 4.833,
+     "et": 5.73,
+     "mph": 250.78,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kevin Rivenbark",
+     "car": "225",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.011,
+     "ft60": 0.946,
+     "ft330": 2.52,
+     "ft660": 3.75,
+     "mph660": 199.23,
+     "ft1000": 4.817,
+     "et": 5.721,
+     "mph": 248.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.947,
+     "ft330": 2.535,
+     "ft660": 3.77,
+     "mph660": 206.1,
+     "ft1000": 4.834,
+     "et": 5.732,
+     "mph": 250.74,
+     "first": 0.0403,
+     "lane": "Left",
+     "win": true,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0403
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.945,
+     "ft330": 2.535,
+     "ft660": 3.759,
+     "mph660": 200.5,
+     "ft1000": 4.816,
+     "et": 5.708,
+     "mph": 253.33,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

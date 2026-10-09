@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 1.0,
+     "ft330": 2.764,
+     "ft660": 4.244,
+     "mph660": 165.84,
+     "ft1000": 5.526,
+     "et": 6.607,
+     "mph": 207.5,
+     "first": 7.2253,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 7.2253
+    },
+    {
+     "rt": 0.039,
+     "ft60": 1.155,
+     "ft330": 3.767,
+     "ft660": 6.945,
+     "mph660": 69.46,
+     "ft1000": 10.401,
+     "et": 13.826,
+     "mph": 62.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 48 percent, barometer 30.07 inches,\r\nadjusted altitude 2,764 feet, track temperature 129 degrees.\r\n\r\nGlenn and Enders have each won 12 times against the other in prior events. \r\n\r\nGlenn with the starting line advantage and never trailed for the win.  He is advancing to his sixth\r\nfinal this season and 46th career.\r\n\r\nEnders shook right at the hit and pushed in the clutch"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 1.057,
+     "ft330": 2.978,
+     "ft660": 4.488,
+     "mph660": 164.23,
+     "ft1000": 5.776,
+     "et": 6.856,
+     "mph": 207.98,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 1.009,
+     "ft330": 2.786,
+     "ft660": 4.271,
+     "mph660": 165.56,
+     "ft1000": 5.558,
+     "et": 6.643,
+     "mph": 207.34,
+     "first": 0.2757,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.2757
+    }
+   ],
+   "note": "Coughlin is 14 - 7 against Hartford in prior events. \r\n\r\nCoughlin with the starting line advantage and never trailed for the win.  He will give up lane choice\r\nto Glenn in the final.  He is advancing to his first final this season and 122nd career final."
+  }
+ ]
+}

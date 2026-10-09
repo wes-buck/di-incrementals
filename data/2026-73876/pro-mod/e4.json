@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.012,
+     "ft60": 0.931,
+     "ft330": 2.495,
+     "ft660": 3.726,
+     "mph660": 203.25,
+     "ft1000": 4.791,
+     "et": 5.692,
+     "mph": 250.23,
+     "first": 1.7177,
+     "lane": "Left",
+     "win": true,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 1.7177
+    },
+    {
+     "rt": 0.004,
+     "ft60": 0.937,
+     "ft330": 2.52,
+     "ft660": 4.033,
+     "mph660": 144.67,
+     "ft1000": 5.708,
+     "et": 7.417,
+     "mph": 121.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 57 percent, barometer 29.80 inches, adjusted\r\naltitude 3,131 feet. \r\n\r\nThis is the first time Menholt and Collins have faced each other in eliminations. \r\n\r\nCollins with a great light, but starts to shake and clicked it off.\r\n\r\nMenholt is straight down the groove for the win.  He wins his third Wally and second this season."
+  }
+ ]
+}

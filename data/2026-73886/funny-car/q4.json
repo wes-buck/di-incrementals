@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/funny-car/q4",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "funny-car",
+ "round": "Q4",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.1223,
+     "ft60": 0.9705,
+     "ft330": 3.8269,
+     "ft660": 7.1785,
+     "mph660": 68.82,
+     "ft1000": null,
+     "et": 10.3919,
+     "mph": 74.71,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.8648,
+     "ft330": 2.2415,
+     "ft660": 3.1614,
+     "mph660": 282.49,
+     "ft1000": null,
+     "et": 3.9707,
+     "mph": 276.07,
+     "first": 6.4505,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 6.4505
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0321,
+     "ft60": 0.8832,
+     "ft330": 2.2834,
+     "ft660": 3.2186,
+     "mph660": 280.2,
+     "ft1000": null,
+     "et": 3.9589,
+     "mph": 329.91,
+     "first": 0.0,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 0.0
+    },
+    {
+     "rt": 0.0,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "BYE",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0568,
+     "ft60": 0.8814,
+     "ft330": 2.2765,
+     "ft660": 3.4196,
+     "mph660": 192.55,
+     "ft1000": null,
+     "et": 4.6977,
+     "mph": 174.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.8867,
+     "ft330": 2.284,
+     "ft660": 3.2146,
+     "mph660": 277.44,
+     "ft1000": null,
+     "et": 3.9763,
+     "mph": 319.15,
+     "first": 0.7362,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": 0.7362
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0748,
+     "ft60": 0.8787,
+     "ft330": 2.2754,
+     "ft660": 3.2109,
+     "mph660": 276.07,
+     "ft1000": null,
+     "et": 3.9652,
+     "mph": 324.21,
+     "first": 0.6073,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": 0.6073
+    },
+    {
+     "rt": 0.0735,
+     "ft60": 0.8911,
+     "ft330": 2.2868,
+     "ft660": 3.3625,
+     "mph660": 205.67,
+     "ft1000": null,
+     "et": 4.5738,
+     "mph": 181.6,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dan WIlkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0466,
+     "ft60": 0.8824,
+     "ft330": 2.2763,
+     "ft660": 3.2067,
+     "mph660": 281.95,
+     "ft1000": null,
+     "et": 3.9386,
+     "mph": 336.83,
+     "first": 1.0744,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 1.0744
+    },
+    {
+     "rt": 0.0793,
+     "ft60": 0.8754,
+     "ft330": 2.2643,
+     "ft660": 3.5294,
+     "mph660": 171.23,
+     "ft1000": null,
+     "et": 4.9803,
+     "mph": 152.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0589,
+     "ft60": 0.8645,
+     "ft330": 2.2496,
+     "ft660": 3.1802,
+     "mph660": 279.5,
+     "ft1000": null,
+     "et": 3.9265,
+     "mph": 327.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0371,
+     "ft60": 0.8689,
+     "ft330": 2.2556,
+     "ft660": 3.1859,
+     "mph660": 282.49,
+     "ft1000": null,
+     "et": 3.9301,
+     "mph": 328.47,
+     "first": 0.0182,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 0.0182
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1067,
+     "ft60": 0.8812,
+     "ft330": 2.2641,
+     "ft660": 3.1863,
+     "mph660": 281.78,
+     "ft1000": null,
+     "et": 3.9245,
+     "mph": 331.86,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0665,
+     "ft60": 0.882,
+     "ft330": 2.2649,
+     "ft660": 3.1873,
+     "mph660": 284.27,
+     "ft1000": null,
+     "et": 3.9278,
+     "mph": 330.15,
+     "first": 0.0369,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": 0.0369
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 0.923,
+     "ft330": 2.357,
+     "ft660": 3.337,
+     "mph660": 265.74,
+     "ft1000": null,
+     "et": 4.125,
+     "mph": 310.91,
+     "first": 2.2026,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "1",
+     "mov": 2.2026
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.912,
+     "ft330": 2.976,
+     "ft660": 4.604,
+     "mph660": 145.3,
+     "ft1000": null,
+     "et": 6.317,
+     "mph": 128.89,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 63 percent, barometer 29.82 inches, adjusted\r\naltitude 4,182 feet, track temperature 127 degrees.\r\n\r\nHagan is 8 - 2 against Wilkerson in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nHagan with the starting line advantage and never trailed for the win.  Hagan has cylinders out by half track\r\nand then pitches the blower belt on the top end.  Hagan wins his second Wally this season and 57th of his\r\ncareer.\r\n\r\nWilkerson is up smoke right at the hit and pedaled it, but was up back up in smoke."
+  }
+ ]
+}

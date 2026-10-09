@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/q2",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "Q2",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.099,
+     "ft60": 0.884,
+     "ft330": 2.277,
+     "ft660": 3.211,
+     "mph660": 277.6,
+     "ft1000": null,
+     "et": 99.999,
+     "mph": 1.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.877,
+     "ft330": 2.269,
+     "ft660": 3.198,
+     "mph660": 279.79,
+     "ft1000": null,
+     "et": 3.941,
+     "mph": 328.78,
+     "first": 0.0253,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 49 percent, barometer 29.83 inches, adjusted\r\naltitude 2,368 feet, track temperature 102 degrees.\r\n\r\nGreen is straight down the groove with a good pass to go to the number four spot.\r\n\r\nVandergriff with problems after the car warmed up, they changed the short block.   He launched hard and kept\r\nit hooked up and hit ing on all eight to go to the number one spot.  Jordan Vandergriff's incremental times:\r\n60ft-0.877 sec., 330ft-2.269, 660ft-3.198/279.79 mph.\r\nVandergriff's run was DQ'ed because of a pin left in the parachute."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.092,
+     "ft60": 0.889,
+     "ft330": 2.274,
+     "ft660": 3.205,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.962,
+     "mph": 320.36,
+     "first": 0.0106,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.103,
+     "ft60": 0.886,
+     "ft330": 2.277,
+     "ft660": 3.208,
+     "mph660": 277.26,
+     "ft1000": null,
+     "et": 3.961,
+     "mph": 323.35,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Hyde kept it hooked up and is straight down the groove to go to the number six spot.\r\n\r\nAlexander had it hitting on all eight all the way down the track to go to the number five spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.885,
+     "ft330": 2.305,
+     "ft660": 3.247,
+     "mph660": 278.12,
+     "ft1000": null,
+     "et": 3.998,
+     "mph": 319.9,
+     "first": 2.8816,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.238,
+     "ft60": 0.886,
+     "ft330": 2.49,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": 6.718,
+     "mph": 99.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Schriefer",
+     "car": "3007",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson launched hard and kept it hooked up to go to the number nine spot.\r\n\r\nSchriefer lost traction right at the hit and the car made a quick move toward the centerline and collected the\r\n330-foot cones."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.108,
+     "ft60": 1.048,
+     "ft330": 4.131,
+     "ft660": 7.057,
+     "mph660": 81.69,
+     "ft1000": null,
+     "et": 9.786,
+     "mph": 83.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.095,
+     "ft60": 0.881,
+     "ft330": 2.28,
+     "ft660": 3.212,
+     "mph660": 281.71,
+     "ft1000": null,
+     "et": 3.951,
+     "mph": 329.5,
+     "first": 5.8484,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": "King lost traction early and clicked it off.\r\n\r\nProck launched hard and kept it hooked up to make his quickest pass of the season.  He goes to the number\r\nthree spot.  Austin Prock's incremental times: 60ft-0.881 sec., 330ft-2.280, 660ft-3.212/281.71 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.131,
+     "ft60": 0.898,
+     "ft330": 2.312,
+     "ft660": 3.27,
+     "mph660": 270.27,
+     "ft1000": null,
+     "et": 4.045,
+     "mph": 312.28,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.103,
+     "ft60": 0.878,
+     "ft330": 2.26,
+     "ft660": 3.181,
+     "mph660": 283.13,
+     "ft1000": null,
+     "et": 3.916,
+     "mph": 330.31,
+     "first": 0.1574,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Arend is straight down the groove and kept it hooked up.\r\n\r\nCapps launched hard and hitting on all eight to go to the number one spot.  Ron Capps' incremental times:\r\n60ft-0.878 sec., 330ft-2.260, 660ft-3.181/283.13 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 0.874,
+     "ft330": 2.243,
+     "ft660": 3.174,
+     "mph660": 278.35,
+     "ft1000": null,
+     "et": 3.92,
+     "mph": 324.59,
+     "first": 0.0402,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.091,
+     "ft60": 0.888,
+     "ft330": 2.304,
+     "ft660": 3.246,
+     "mph660": 276.69,
+     "ft1000": null,
+     "et": 3.994,
+     "mph": 329.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon kept it hooked up and hitting on eight to go to the number two spot.  Cruz Pedregon's incremental\r\ntimes: 60ft-0.874 sec., 330ft-2.243, 660ft-3.174/278.35 mph. \r\n\r\nDeJoria is straight down the groove, hitting on all eight to move up the ladder a couple spots."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.881,
+     "ft330": 2.288,
+     "ft660": 3.568,
+     "mph660": 168.62,
+     "ft1000": null,
+     "et": 5.021,
+     "mph": 151.95,
+     "first": 0.3454,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.201,
+     "ft60": 0.892,
+     "ft330": 2.315,
+     "ft660": 3.683,
+     "mph660": 158.3,
+     "ft1000": null,
+     "et": 5.246,
+     "mph": 141.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Hagan lost traction early and clicked it off.\r\n\r\nRichards started to haze the tires and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.101,
+     "ft60": 0.887,
+     "ft330": 2.29,
+     "ft660": 3.219,
+     "mph660": 281.42,
+     "ft1000": null,
+     "et": 3.957,
+     "mph": 330.72,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.874,
+     "ft330": 2.257,
+     "ft660": 3.173,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.913,
+     "mph": 329.99,
+     "first": 0.0631,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Todd is straight down the groove with another good pass, but will not improve.\r\n\r\nBeckman launched hard and kept it hooked up and hitting on all eight to go to the number one spot.  Jack\r\nBeckman's incremental times: 60ft-0.874 sec., 330ft-2.257, 660ft-3.173/283.91 mph."
+  }
+ ]
+}

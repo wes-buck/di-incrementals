@@ -1,0 +1,284 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/funny-car/e1",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "funny-car",
+ "round": "E1",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.881,
+     "ft330": 2.301,
+     "ft660": 3.282,
+     "mph660": 263.72,
+     "ft1000": null,
+     "et": 4.081,
+     "mph": 302.69,
+     "first": 0.0338,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "5",
+     "mov": 0.0338
+    },
+    {
+     "rt": 0.129,
+     "ft60": 0.908,
+     "ft330": 2.329,
+     "ft660": 3.298,
+     "mph660": 268.6,
+     "ft1000": null,
+     "et": 4.064,
+     "mph": 320.28,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 78 degrees, relative humidity 66 percent, barometer 29.92 inches, adjusted\r\naltitude 3,712 feet, track temperature 107 degrees.\r\n\r\nAustin Prock is 2 - 5 in Rd. 1 this year. Dave Richards is 2 - 6 in Rd. 1 this year.\r\n\r\nThis is the first time Prock and Richards have faced each other in eliminations. \r\n\r\nProck with the starting linne advantage and the holds on for the win.  He was dropping cylinder in the lights\r\nfor the win.  He still makes his quickest pass of the weekend.\r\n\r\nRichards makes his quickest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.876,
+     "ft330": 2.284,
+     "ft660": 3.233,
+     "mph660": 274.0,
+     "ft1000": null,
+     "et": 4.001,
+     "mph": 316.52,
+     "first": 3.9492,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Spence Hyde is 14 - 13 in Rd. 1. Cruz Pedregon is 0 - 3 in Rd. 1 at this race when qualified #11\r\n\r\nHyde is 1 - 0 against Pedregon in prior events. \r\n\r\nPedregon with problems after the burnout and the car is shut off.\r\n\r\nHyde is straight down the groove hooked up to make the quickest pass of the event."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.893,
+     "ft330": 2.32,
+     "ft660": 3.27,
+     "mph660": 273.5,
+     "ft1000": null,
+     "et": 4.032,
+     "mph": 320.2,
+     "first": 0.2046,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "3",
+     "mov": 0.2046
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.931,
+     "ft330": 2.393,
+     "ft660": 3.374,
+     "mph660": 261.93,
+     "ft1000": null,
+     "et": 4.246,
+     "mph": 254.28,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": "Jack Beckman has won back-to-back races 3 times in his career. Jeff Arend is #12 and the #12 FC qualifier is 9\r\n- 15 in Rd. 1 here.\r\n\r\nBeckman is 20 - 5 against Arend in prior events. \r\n\r\nArend with the starting line advantage, but started to drop cylinders AND SHUT IT OFF EARLY.\r\n\r\nBeckman is strtaight down the groove for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.901,
+     "ft330": 2.322,
+     "ft660": 3.288,
+     "mph660": 268.87,
+     "ft1000": null,
+     "et": 4.101,
+     "mph": 295.98,
+     "first": 4.2877,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": -0.059,
+     "ft60": 0.921,
+     "ft330": 2.882,
+     "ft660": 5.564,
+     "mph660": 79.77,
+     "ft1000": null,
+     "et": 8.516,
+     "mph": 80.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jon Capps",
+     "car": "702",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hagan is 48 - 6 in Rd. 1 when qualified #1. Jon Capps is making his 11th start.\r\n\r\nHagan is 2 - 0 against Capps in prior events. \r\n\r\nCapps goes red to give Hagan the win.\r\n\r\nHagan is straight down the groove with a good clean pass.  He will have a bye in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.905,
+     "ft330": 2.324,
+     "ft660": 3.274,
+     "mph660": 274.94,
+     "ft1000": null,
+     "et": 4.028,
+     "mph": 326.24,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.898,
+     "ft330": 2.309,
+     "ft660": 3.247,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.999,
+     "mph": 322.88,
+     "first": 0.0366,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "13",
+     "mov": 0.0366
+    }
+   ],
+   "note": "This (#2) is the best starting spot for Alexis since this race last year. Jordan Vandergriff qualified #13 and\r\nthe #13 FC qualifier is 6 - 18 in Rd. 1 at this event.\r\n\r\nVandergriff is 1 - 0 against DeJoria in prior events. \r\n\r\nVandergriff with the starting line advantage and kept it hooked up, hitting on all eight to make the quickest\r\npass of the event for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.901,
+     "ft330": 2.326,
+     "ft660": 3.283,
+     "mph660": 273.55,
+     "ft1000": null,
+     "et": 4.045,
+     "mph": 321.35,
+     "first": 0.6995,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
+     "mov": 0.6995
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.906,
+     "ft330": 2.327,
+     "ft660": 3.477,
+     "mph660": 194.04,
+     "ft1000": null,
+     "et": 4.744,
+     "mph": 175.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Daniel Wilkerson is 0 - 3 against Todd this year.  J.R. Todd has never won a race from the #9 spot.\r\n\r\nTodd is 4 - 2 against Wilkerson in prior events. \r\n\r\nThey leave together, but Todd starts to smoke the tires and clicked it off.\r\n\r\nWilkerson kept it hooked up and was straight down the groove for the win.  He will give up lane choice to\r\nBeckman in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.887,
+     "ft330": 2.296,
+     "ft660": 3.239,
+     "mph660": 276.92,
+     "ft1000": null,
+     "et": 3.989,
+     "mph": 324.44,
+     "first": 0.1744,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "7",
+     "mov": 0.1744
+    },
+    {
+     "rt": 0.047,
+     "ft60": 0.946,
+     "ft330": 2.416,
+     "ft660": 3.398,
+     "mph660": 262.49,
+     "ft1000": null,
+     "et": 4.196,
+     "mph": 305.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Ron Capps wins 74% of his Rd. 1 races when he has lane choice. Chad Green is 2 - 4 against Capps in Rd.1\r\n\r\nCapps is 7 - 5 against Green in prior events. \r\n\r\nGreen with the starting line advantage, but Capps had the difference made up by the time they go by the\r\nChristmas tree and never trailed from there on for the win.  Capps launched hard and kept it hooked up to make\r\nthe quickest pass of the event for win and lane choice over Vandergriff in the next round by  0.010 seconds.\r\n\r\nGreen started dropping cylinders on the top end in the losing effort."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.057,
+     "ft60": 0.857,
+     "ft330": 2.18,
+     "ft660": 3.073,
+     "mph660": 289.26,
+     "ft1000": null,
+     "et": 3.801,
+     "mph": 334.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.855,
+     "ft330": 2.17,
+     "ft660": 3.059,
+     "mph660": 289.57,
+     "ft1000": null,
+     "et": 3.788,
+     "mph": 331.61,
+     "first": 0.0156,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": 0.0156
+    }
+   ],
+   "note": "Weather conditions: air temperature 82 degrees, relative humidity 63 percent, barometer 29.82 inches, adjusted\r\naltitude 4,182 feet, track temperature 127 degrees.\r\n\r\nBrown is 35 - 30 against Langdon in prior events and Brown is 6 - 4 against Langdon in prior final rounds. \r\n\r\nShawn Langdon's 35 losses to Antron are the most for him against any opponent.\r\nIn their 10 Final rounds Antron has \"left first\" 7 times.\r\n\r\nBrown with a slight starting line advantage and never trailed for the win in a great drag race.  Antron\r\nBrown's MOV: 0.0156 seconds (approximately 8 feet).  Brown wins his first Wally this season and the 20th of\r\nhis career."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73882/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73882",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+ "event_date": "2026-07-24",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.005,
+     "ft60": 0.886,
+     "ft330": 2.276,
+     "ft660": 3.207,
+     "mph660": 278.98,
+     "ft1000": null,
+     "et": 3.955,
+     "mph": 320.74,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.889,
+     "ft330": 2.281,
+     "ft660": 3.209,
+     "mph660": 282.48,
+     "ft1000": null,
+     "et": 3.941,
+     "mph": 334.9,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 47 percent, barometer 30.02 inches, adjusted altitude 1,690 feet, track temperature 111 degrees.\r\n\r\nThe #1 FC qualifier is 8 - 5 in the Final round at this event\r\n\r\nJ.R. Todd is 1 - 5 in Final rounds when qualified #1. His only win was at Indy in 2018 (Beat M. Hagan).\r\n\r\nProck is 8 - 3 against Todd in prior events and Prock is 2 - 1 against Todd in prior final rounds. \r\n\r\nProck goes red to give Todd the win.  Prock then pushes out a head gasket and has a fire.\r\n\r\nTodd is straight down the groove for the win.  He wins his first Wally this season and 23rd of his career and 16th in a Funny Car."
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73874/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73874",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NHRA 4-Wide Nationals",
+ "event_date": "2026-04-23",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.988,
+     "ft330": 2.744,
+     "ft660": 4.204,
+     "mph660": 169.27,
+     "ft1000": 5.466,
+     "et": 6.529,
+     "mph": 210.31,
+     "first": null,
+     "lane": "1",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0277
+    },
+    {
+     "rt": 0.048,
+     "ft60": 0.979,
+     "ft330": 2.733,
+     "ft660": 4.197,
+     "mph660": 168.41,
+     "ft1000": 5.463,
+     "et": 6.529,
+     "mph": 210.14,
+     "first": null,
+     "lane": "2",
+     "win": false,
+     "driver": "Cody Coughlin",
+     "car": "9",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0277
+    },
+    {
+     "rt": 0.021,
+     "ft60": 1.022,
+     "ft330": 3.199,
+     "ft660": 5.831,
+     "mph660": 84.24,
+     "ft1000": 8.646,
+     "et": 11.39,
+     "mph": 78.39,
+     "first": null,
+     "lane": "3",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.024,
+     "ft60": 0.988,
+     "ft330": 2.739,
+     "ft660": 4.201,
+     "mph660": 168.41,
+     "ft1000": 5.462,
+     "et": 6.526,
+     "mph": 210.05,
+     "first": 0.0277,
+     "lane": "4",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches,\r\nadjusted altitude 1,877 feet. \r\n\r\nHartford is second off the line and has the quickest pass of the quad for the win.\r\nCoughlin is third off the line, but has the power to hold off anderson on a hole shot.\r\nAnderson with a good pass in the losing effort.\r\nLatino is off the line first, but has severe tire shake and pushed the clutch back in.\r\n\r\nFinish Order & Margins: 1. Matt Hartford was 0.0277 sec./about 9 feet ahead of 2. Cody Coughlin, who\r\nwas 0.012 sec./about 4 feet ahead of 3. Greg Anderson, who was 4.822 sec./more than 100 feet ahead of\r\n4. Matt Latino\r\n\r\nHartford wins his second Wally this season and 10th in Pro Stock. Weather conditions: air temperature 70 degrees, relative humidity 59 percent, barometer 29.96 inches,\r\nadjusted altitude 1,877 feet. \r\n\r\nHartford is second off the line and has the quickest pass of the quad for the win.\r\nCoughlin is third off the line, but has the power to hold off anderson on a hole shot.\r\nAnderson with a good pass in the losing effort.\r\nLatino is off the line first, but has severe tire shake and pushed the clutch back in.\r\n\r\nFinish Order & Margins: 1. Matt Hartford was 0.0277 sec./about 9 feet ahead of 2. Cody Coughlin, who\r\nwas 0.012 sec./about 4 feet ahead of 3. Greg Anderson, who was 4.822 sec./more than 100 feet ahead of\r\n4. Matt Latino\r\n\r\nHartford wins his second Wally this season and 10th in Pro Stock."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73878/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73878",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NHRA New England Nationals presented by bproauto",
+ "event_date": "2026-06-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.88,
+     "ft330": 2.428,
+     "ft660": 4.206,
+     "mph660": 120.61,
+     "ft1000": null,
+     "et": 6.291,
+     "mph": 106.68,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.884,
+     "ft330": 2.303,
+     "ft660": 3.253,
+     "mph660": 272.17,
+     "ft1000": null,
+     "et": 4.017,
+     "mph": 318.54,
+     "first": 2.2913,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "13",
+     "mov": 2.2913
+    }
+   ],
+   "note": null
+  }
+ ]
+}

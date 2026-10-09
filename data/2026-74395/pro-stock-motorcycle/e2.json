@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock-motorcycle/e2",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock-motorcycle",
+ "round": "E2",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.0185,
+     "ft60": 1.0621,
+     "ft330": 2.8374,
+     "ft660": 4.3551,
+     "mph660": 161.46,
+     "ft1000": 5.6794,
+     "et": 6.8186,
+     "mph": 196.51,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.0193,
+     "ft60": 1.0429,
+     "ft330": 2.8123,
+     "ft660": 4.3118,
+     "mph660": 163.4,
+     "ft1000": 5.6216,
+     "et": 6.7444,
+     "mph": 199.65,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 67 percent, barometer 30.16 inches,\r\nadjusted altitude 1,273 feet.\r\n\r\nGadson is 1 - 0 against Ingwersen in prior events. \r\n\r\nGadson goes red to give Ingwersen the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1425,
+     "ft60": 1.0621,
+     "ft330": 2.824,
+     "ft660": 4.3163,
+     "mph660": 164.41,
+     "ft1000": 5.6209,
+     "et": 6.7434,
+     "mph": 198.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0188,
+     "ft60": 1.0696,
+     "ft330": 2.8405,
+     "ft660": 4.3489,
+     "mph660": 161.29,
+     "ft1000": 5.6722,
+     "et": 6.8063,
+     "mph": 197.63,
+     "first": 0.0608,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ronald Procopio Jr",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0608
+    }
+   ],
+   "note": "Procopio with the starting line advantage and the power to hold on for the hole shot win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0791,
+     "ft60": 1.0611,
+     "ft330": 2.8293,
+     "ft660": 4.3287,
+     "mph660": 163.34,
+     "ft1000": 5.6388,
+     "et": 6.7641,
+     "mph": 198.85,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0149,
+     "ft60": 1.097,
+     "ft330": 2.8709,
+     "ft660": 4.375,
+     "mph660": 162.57,
+     "ft1000": 5.6884,
+     "et": 6.8099,
+     "mph": 199.82,
+     "first": 0.0184,
+     "lane": "Right",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0184
+    }
+   ],
+   "note": "Smith is 11 - 6 against Hall in prior events. \r\n\r\nHall with the starting line advantage and the power to hold on for the hole shot win.  He will give\r\nup lane choice to Procopio in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0371,
+     "ft60": 1.069,
+     "ft330": 2.8504,
+     "ft660": 4.3677,
+     "mph660": 161.41,
+     "ft1000": 5.6935,
+     "et": 6.8287,
+     "mph": 197.28,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0329,
+     "ft60": 1.0648,
+     "ft330": 2.8228,
+     "ft660": 4.3149,
+     "mph660": 163.87,
+     "ft1000": 5.6208,
+     "et": 6.7554,
+     "mph": 195.91,
+     "first": 0.0775,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0775
+    }
+   ],
+   "note": "Van Sant is 5 - 1 against Oehler in prior events. \r\n\r\nOehler with the starting line advantage and never trailed for the win.  He will have lane choice over\r\nIngwersen in the semifinal."
+  }
+ ]
+}

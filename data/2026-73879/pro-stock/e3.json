@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 1.0,
+     "ft330": 2.8,
+     "ft660": 4.301,
+     "mph660": 163.81,
+     "ft1000": 5.599,
+     "et": 6.692,
+     "mph": 205.1,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 1.01,
+     "ft330": 2.806,
+     "ft660": 4.303,
+     "mph660": 164.05,
+     "ft1000": 5.595,
+     "et": 6.682,
+     "mph": 206.45,
+     "first": 0.0211,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0211
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.85 inches, adjusted\r\naltitude 4,045 feet, track temperature 127 degrees.\r\n\r\nAnderson is 4 - 1 against Latino in prior events. \r\n\r\nAnderson with the starting line advantage and never trailed for the win.  Greg Anderson's MOV: 0.0211 seconds\r\n(approximately 6 feet).  He advancing to his fifth final round this season and 196 of his career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 0.991,
+     "ft330": 2.789,
+     "ft660": 4.294,
+     "mph660": 163.83,
+     "ft1000": 5.594,
+     "et": 6.687,
+     "mph": 204.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.015,
+     "ft60": 1.007,
+     "ft330": 2.799,
+     "ft660": 4.295,
+     "mph660": 164.17,
+     "ft1000": 5.587,
+     "et": 6.676,
+     "mph": 205.54,
+     "first": 0.0141,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0141
+    }
+   ],
+   "note": "Stanfield and Hartford have each won 11 times against the other in prior events. \r\n\r\nHartford with the starting line advantage and never trailed for the win.  Matt Hartford's MOV: 0.0141 seconds\r\n(approximately 4 feet).  Hartford will have lane choice over Anderson in the final.  He is advancing to his\r\nfourth final this season and 25th of his career."
+  }
+ ]
+}

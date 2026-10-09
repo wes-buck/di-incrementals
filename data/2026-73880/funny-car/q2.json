@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/funny-car/q2",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "funny-car",
+ "round": "Q2",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.103,
+     "ft60": 0.881,
+     "ft330": 2.271,
+     "ft660": 3.198,
+     "mph660": 278.69,
+     "ft1000": null,
+     "et": 3.945,
+     "mph": 327.59,
+     "first": 0.1654,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.913,
+     "ft330": 2.323,
+     "ft660": 3.279,
+     "mph660": 268.87,
+     "ft1000": null,
+     "et": 4.125,
+     "mph": 267.06,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.885,
+     "ft330": 2.286,
+     "ft660": 3.233,
+     "mph660": 272.61,
+     "ft1000": null,
+     "et": 3.991,
+     "mph": 322.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.893,
+     "ft330": 2.295,
+     "ft660": 3.238,
+     "mph660": 275.62,
+     "ft1000": null,
+     "et": 3.996,
+     "mph": 322.96,
+     "first": 0.0065,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Alexander is straight down the groove and moves into the top half of the show.  Blake Alexander's incremental\r\ntimes: 60ft-0.885 sec., 330ft-2.286, 660ft-3.233/272.61 mph. \r\n\r\nHyde kept it hooked up and he gets off the bump spot to the number seven spot.  Spencer Hyde's incremental\r\ntimes: 60ft-0.893 sec., 330ft-2.295, 660ft-3.238/275.62 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 0.888,
+     "ft330": 2.285,
+     "ft660": 3.199,
+     "mph660": 285.35,
+     "ft1000": null,
+     "et": 3.934,
+     "mph": 332.67,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Del Worsham",
+     "car": "750",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.881,
+     "ft330": 2.273,
+     "ft660": 3.191,
+     "mph660": 284.33,
+     "ft1000": null,
+     "et": 3.938,
+     "mph": 322.5,
+     "first": 0.0477,
+     "lane": "Right",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Worsham launched hard and kept it hooked up to go to the number one spot.  Del Worsham's incremental times:\r\n60ft-0.888 sec., 330ft-2.285, 660ft-3.199/285.35 mph. \r\n\r\nWilkerson is straight down the groove to get off the bump spot.  He goes to the number three spot.  Daniel\r\nWilkerson's incremental times: 60ft-0.881 sec., 330ft-2.273, 660ft-3.191/284.33 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.186,
+     "ft60": 0.89,
+     "ft330": 2.282,
+     "ft660": 3.221,
+     "mph660": 277.77,
+     "ft1000": null,
+     "et": 3.961,
+     "mph": 332.59,
+     "first": 0.2157,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 0.887,
+     "ft330": 2.274,
+     "ft660": 3.195,
+     "mph660": 283.31,
+     "ft1000": null,
+     "et": 3.936,
+     "mph": 329.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Richards is straight down the groove to move into the top half of the show.\r\n\r\nVandergriff launched hard and kept it hooked up to go to the number two spot.  Jordan Vandergriff's\r\nincremental times: 60ft-0.887 sec., 330ft-2.274, 660ft-3.195/283.31 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 0.875,
+     "ft330": 2.252,
+     "ft660": 3.16,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.894,
+     "mph": 328.38,
+     "first": 2.5092,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.117,
+     "ft60": 0.915,
+     "ft330": 2.469,
+     "ft660": 4.28,
+     "mph660": 118.0,
+     "ft1000": null,
+     "et": 6.411,
+     "mph": 105.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": "Capps launched hard and kept it hooked up and hitting on all eight to go to the number one spot.  Ron Capps'\r\nincremental times: 60ft-0.875 sec., 330ft-2.252, 660ft-3.160/285.05 mph. \r\n\r\nArend drives into tire smoke and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.885,
+     "ft330": 2.301,
+     "ft660": 3.242,
+     "mph660": 278.29,
+     "ft1000": null,
+     "et": 3.983,
+     "mph": 331.2,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.894,
+     "ft330": 2.299,
+     "ft660": 3.236,
+     "mph660": 278.29,
+     "ft1000": null,
+     "et": 3.988,
+     "mph": 325.06,
+     "first": 0.0086,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Todd kept it hooked up and makes another good pass, but won't improve.\r\n\r\nGreen is straight down the groove to move up the ladder four spots."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.882,
+     "ft330": 2.262,
+     "ft660": 3.178,
+     "mph660": 282.07,
+     "ft1000": null,
+     "et": 3.918,
+     "mph": 330.63,
+     "first": 0.0561,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.125,
+     "ft60": 0.883,
+     "ft330": 2.263,
+     "ft660": 3.183,
+     "mph660": 282.07,
+     "ft1000": null,
+     "et": 3.931,
+     "mph": 325.3,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria launched hard and kept it hitting on all eight to go to the number three spot.  Alexis DeJoria's\r\nincremental times: 60ft-0.882 sec., 330ft-2.262, 660ft-3.178/282.07 mph. \r\n\r\nPedregon is straight down the groove to go to the number three spot.  Cruz Pedregon's incremental times:\r\n60ft-0.883 sec., 330ft-2.263, 660ft-3.183/282.07 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.873,
+     "ft330": 2.259,
+     "ft660": 3.175,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.905,
+     "mph": 334.15,
+     "first": 2.2971,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.893,
+     "ft330": 2.418,
+     "ft660": 4.17,
+     "mph660": 122.33,
+     "ft1000": null,
+     "et": 6.219,
+     "mph": 109.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Prock launched hard and kept it hooked up to go to the number two spot.  Austin Prock's incremental times:\r\n60ft-0.873 sec., 330ft-2.259, 660ft-3.175/283.91 mph. \r\n\r\nHagan is up in smoke and clicked it off."
+  }
+ ]
+}

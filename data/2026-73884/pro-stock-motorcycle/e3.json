@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 1.079,
+     "ft330": 2.85,
+     "ft660": 4.355,
+     "mph660": 162.57,
+     "ft1000": 5.67,
+     "et": 6.794,
+     "mph": 199.14,
+     "first": 0.0046,
+     "lane": "Left",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0046
+    },
+    {
+     "rt": 0.025,
+     "ft60": 1.061,
+     "ft330": 2.841,
+     "ft660": 4.35,
+     "mph660": 162.2,
+     "ft1000": 5.665,
+     "et": 6.791,
+     "mph": 198.93,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "3:13 p.m. Weather conditions: air temperature 80 degrees, relative humidity 48 percent, barometer 30.07 inches, adjusted altitude 2,764 feet, track temperature 129 degrees.\r\n\r\nSmith gets the holeshot and holds off Herrera to take the holeshot win.\r\n\r\nAngie Smith's incremental margins (negative if behind): 60ft(-0.011), 330 ft(-0.002), 660ft(0.002), 1,000ft(0.002).  MOV: 0.0046 seconds (approximately 16 inches).\r\n\r\nAngie Smith is going to her 14th final round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 1.065,
+     "ft330": 2.835,
+     "ft660": 4.344,
+     "mph660": 162.41,
+     "ft1000": 5.655,
+     "et": 6.773,
+     "mph": 200.26,
+     "first": 0.1076,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1076
+    },
+    {
+     "rt": 0.015,
+     "ft60": 1.087,
+     "ft330": 2.884,
+     "ft660": 4.411,
+     "mph660": 160.29,
+     "ft1000": 5.742,
+     "et": 6.878,
+     "mph": 197.25,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Smith is 5 - 3 against Gadson in prior events. \r\n\r\nSmith gets out of the gate first and extends his lead all the way through the run.\r\n\r\nThis is Smith's 89th career final round.\r\n\r\nMatt will take on his wife Angie in the final round. matt will have lane choice."
+  }
+ ]
+}

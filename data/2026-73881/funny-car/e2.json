@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.874,
+     "ft330": 2.253,
+     "ft660": 3.184,
+     "mph660": 280.02,
+     "ft1000": null,
+     "et": 3.927,
+     "mph": 327.35,
+     "first": 0.0422,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "13",
+     "mov": 0.0422
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.875,
+     "ft330": 2.269,
+     "ft660": 3.203,
+     "mph660": 279.85,
+     "ft1000": null,
+     "et": 3.946,
+     "mph": 328.62,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.116,
+     "ft60": 0.866,
+     "ft330": 2.248,
+     "ft660": 3.159,
+     "mph660": 283.49,
+     "ft1000": null,
+     "et": 3.894,
+     "mph": 332.43,
+     "first": 0.0548,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": 0.0548
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.905,
+     "ft330": 2.295,
+     "ft660": 3.242,
+     "mph660": 272.5,
+     "ft1000": null,
+     "et": 4.009,
+     "mph": 319.45,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.868,
+     "ft330": 2.268,
+     "ft660": 3.195,
+     "mph660": 280.78,
+     "ft1000": null,
+     "et": 3.932,
+     "mph": 330.72,
+     "first": 0.0165,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": 0.0165
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.892,
+     "ft330": 2.287,
+     "ft660": 3.216,
+     "mph660": 281.66,
+     "ft1000": null,
+     "et": 3.956,
+     "mph": 327.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.882,
+     "ft330": 2.268,
+     "ft660": 3.232,
+     "mph660": 241.45,
+     "ft1000": null,
+     "et": 4.255,
+     "mph": 217.88,
+     "first": 0.1105,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "3",
+     "mov": 0.1105
+    },
+    {
+     "rt": 0.092,
+     "ft60": 0.881,
+     "ft330": 2.265,
+     "ft660": 3.31,
+     "mph660": 220.08,
+     "ft1000": null,
+     "et": 4.327,
+     "mph": 250.92,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

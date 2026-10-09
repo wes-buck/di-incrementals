@@ -17,9 +17,231 @@
    ]
   },
   {
-   "slug": "2026-midwest",
-   "name": "NAPA Auto Parts NHRA Midwest Nationals",
-   "year": 2026
+   "slug": "2026-nationals-at-the-rock",
+   "id": "73886",
+   "name": "NHRA Nationals at The Rock",
+   "label": "Nationals at the Rock",
+   "year": 2026,
+   "date": "2026-09-25",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-great-lakes-nationals",
+   "id": "74395",
+   "name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+   "label": "Great Lakes Nationals",
+   "year": 2026,
+   "date": "2026-09-18",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-u-s-nationals",
+   "id": "73884",
+   "name": "Cornwell Quality Tools NHRA U.S. Nationals",
+   "label": "U.S. Nationals",
+   "year": 2026,
+   "date": "2026-09-02",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-brainerd-nationals",
+   "id": "73883",
+   "name": "NHRA Brainerd Nationals",
+   "label": "Brainerd Nationals",
+   "year": 2026,
+   "date": "2026-08-20",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-northwest-nationals",
+   "id": "73882",
+   "name": "Muckleshoot Casino Resort NHRA Northwest Nationals",
+   "label": "Northwest Nationals",
+   "year": 2026,
+   "date": "2026-07-24",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-sonoma-nationals",
+   "id": "73881",
+   "name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+   "label": "Sonoma Nationals",
+   "year": 2026,
+   "date": "2026-07-17",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-summit-nationals",
+   "id": "73880",
+   "name": "Summit Racing Equipment NHRA Nationals",
+   "label": "Summit Nationals",
+   "year": 2026,
+   "date": "2026-06-25",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-thunder-valley-nationals",
+   "id": "73879",
+   "name": "Super Grip NHRA Thunder Valley Nationals",
+   "label": "Thunder Valley Nationals",
+   "year": 2026,
+   "date": "2026-06-12",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-new-england-nationals",
+   "id": "73878",
+   "name": "NHRA New England Nationals presented by bproauto",
+   "label": "New England Nationals",
+   "year": 2026,
+   "date": "2026-06-05",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-potomac-nationals",
+   "id": "73877",
+   "name": "NHRA Potomac Nationals presented by JEGS",
+   "label": "Potomac Nationals",
+   "year": 2026,
+   "date": "2026-05-29",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-route-66-nationals",
+   "id": "73876",
+   "name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+   "label": "Route 66 Nationals",
+   "year": 2026,
+   "date": "2026-05-14",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-southern-nationals",
+   "id": "73875",
+   "name": "NHRA Southern Nationals",
+   "label": "Southern Nationals",
+   "year": 2026,
+   "date": "2026-05-01",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-4-wide-nationals",
+   "id": "73874",
+   "name": "NHRA 4-Wide Nationals",
+   "label": "4-Wide Nationals",
+   "year": 2026,
+   "date": "2026-04-23",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
+  },
+  {
+   "slug": "2026-winternationals",
+   "id": "73873",
+   "name": "Lucas Oil NHRA Winternationals",
+   "label": "Winternationals",
+   "year": 2026,
+   "date": "2026-04-09",
+   "classes": [
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-arizona-nationals",
+   "id": "73872",
+   "name": "FMP\u00a0NHRA Arizona Nationals presented by NGK Spark Plugs",
+   "label": "Arizona Nationals",
+   "year": 2026,
+   "date": "2026-03-20",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock"
+   ]
+  },
+  {
+   "slug": "2026-gatornationals",
+   "id": "73871",
+   "name": "AMALIE Motor Oil NHRA Gatornationals",
+   "label": "Gatornationals",
+   "year": 2026,
+   "date": "2026-03-05",
+   "classes": [
+    "pro-mod",
+    "top-fuel",
+    "funny-car",
+    "pro-stock",
+    "pro-stock-motorcycle"
+   ]
   }
  ]
 }

@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/e1",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "E1",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": 0.9807,
+     "ft330": 2.7284,
+     "ft660": 4.1901,
+     "mph660": 168.54,
+     "ft1000": 5.4505,
+     "et": 6.5151,
+     "mph": 210.48,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0097,
+     "ft60": 0.9847,
+     "ft330": 2.7231,
+     "ft660": 4.1817,
+     "mph660": 168.6,
+     "ft1000": 5.4458,
+     "et": 6.5117,
+     "mph": 210.58,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 71 percent, barometer 30.16 inches,\r\nadjusted altitude 1,137 feet. \r\n\r\n12 of the 14 Pro Stock wins this year have come from the top half of the field.\r\n\r\nDallas Glenn's win in Valdosta (#9) and Aaron Stanfield's win in Norwalk (#10) are the only Pro Stock\r\nwins this year from the bottom half of the \r\nfield.\r\n\r\nMatt Latino's 12-2 Round 1 record is tied for the best in Pro Stock this year.\r\n\r\nTroy Coughlin Jr. is 5-9 in Round 1 this year.\r\n\r\nCoughlin Jr. with a great light and the power to hold on for the hole shot win.  He makes his\r\nquickest pass of the weekend for the win.\r\n\r\nLatino is a tick too quick on the tree and turns on the red light.\r\n\r\nLatino makes his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0159,
+     "ft60": 0.9714,
+     "ft330": 2.7173,
+     "ft660": 4.1788,
+     "mph660": 168.35,
+     "ft1000": 5.4395,
+     "et": 6.5036,
+     "mph": 210.97,
+     "first": 0.0063,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0063
+    },
+    {
+     "rt": null,
+     "ft60": 0.9892,
+     "ft330": 2.7381,
+     "ft660": 4.2052,
+     "mph660": 167.72,
+     "ft1000": 5.4723,
+     "et": 6.5404,
+     "mph": 210.08,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Jeg Coughlin has gone 33 races without a win. He is 10-2 against Erica Enders in Round 1 races.\r\n\r\nErica Enders has gone 19 races without a win. 2019 was the last time she entered the Countdown\r\nwithout a win.\r\n\r\nCoughlin is 22 - 13 against Enders in prior events. \r\n\r\nEnders goes red to give Coughlin the win.\r\n\r\nCoughlin with his quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0181,
+     "ft60": 0.9787,
+     "ft330": 2.7191,
+     "ft660": 4.1795,
+     "mph660": 168.04,
+     "ft1000": 5.4436,
+     "et": 6.5103,
+     "mph": 210.28,
+     "first": 0.035,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.035
+    },
+    {
+     "rt": 0.0321,
+     "ft60": 0.9882,
+     "ft330": 2.742,
+     "ft660": 4.2081,
+     "mph660": 168.35,
+     "ft1000": 5.4681,
+     "et": 6.5313,
+     "mph": 210.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Greg Stanfield wins 68% of his Round 1 races when he has lane choice.\r\n\r\nEric Latino is 2-4 in Round 1 when qualified #10.\r\n\r\nStanfield is 2 - 1 against Latino in prior events. \r\n\r\nStanfield with the starting line advantage and never trailed for the win.  He makes his quickest pass\r\nof the weekend for the win.\r\n\r\n\r\nLatino with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0298,
+     "ft60": 0.9777,
+     "ft330": 2.7294,
+     "ft660": 4.1931,
+     "mph660": 168.41,
+     "ft1000": 5.456,
+     "et": 6.5222,
+     "mph": 209.79,
+     "first": 0.0909,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0909
+    },
+    {
+     "rt": 0.0716,
+     "ft60": 0.9883,
+     "ft330": 2.7607,
+     "ft660": 4.2226,
+     "mph660": 166.79,
+     "ft1000": 5.496,
+     "et": 6.5713,
+     "mph": 209.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Cody Anderson is 6-8 in Round 1 this year.\r\n\r\nKenny Delco beat Anderson in Round 1 in Valdosta.\r\n\r\nAnderson with the starting line advantage for the win.  He makes his quickest pass of the weekend for\r\nthe win. He will give up lane choice in the next round to Greg Stanfield.\r\n\r\nDelco with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.9858,
+     "ft330": 2.7318,
+     "ft660": 4.1927,
+     "mph660": 169.05,
+     "ft1000": 5.4537,
+     "et": 6.5169,
+     "mph": 210.67,
+     "first": 0.0201,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0201
+    },
+    {
+     "rt": 0.007,
+     "ft60": 0.9941,
+     "ft330": 2.7555,
+     "ft660": 4.2208,
+     "mph660": 168.22,
+     "ft1000": 5.4834,
+     "et": 6.549,
+     "mph": 210.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hartford wins 72% of his Round 1 races when he has lane choice (100% when qualified #1).\r\n\r\nShane Tucker lost to Hartford in Round 1 in Bristol.\r\n\r\nHartford is 2 - 1 against Tucker in prior events. \r\n\r\nTucker with a great light, but Hartford chased him down for the win.  He matches his qualifying time\r\nfor the win.  He will have a bye in the next round"
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0369,
+     "ft60": 2.0489,
+     "ft330": 6.1119,
+     "ft660": 9.4892,
+     "mph660": 73.45,
+     "ft1000": 12.7348,
+     "et": 15.929,
+     "mph": 67.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0471,
+     "ft60": 0.998,
+     "ft330": 2.7801,
+     "ft660": 4.2337,
+     "mph660": 167.47,
+     "ft1000": 5.5026,
+     "et": 6.5735,
+     "mph": 209.21,
+     "first": 9.3453,
+     "lane": "Right",
+     "win": true,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 9.3453
+    }
+   ],
+   "note": "Dallas Glenn has lost in Round 1 at two of the last four races. Those are his only Round 1 losses\r\nthis year.\r\n\r\nDeric Kramer is 0-4 against Glenn in Round 1.\r\n\r\nGlenn is 9 - 0 against Kramer in prior events. \r\n\r\nGlenn with the starting line advantage but has severe tire shake and pushes the clutch back in.\r\n\r\nKramer is straight down the groove with his quickest pass of the weekend for the win.  He will give\r\nup lane choice to Jeg Coughlin in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0137,
+     "ft60": 0.9788,
+     "ft330": 2.7257,
+     "ft660": 4.1889,
+     "mph660": 168.48,
+     "ft1000": 5.4492,
+     "et": 6.5141,
+     "mph": 209.4,
+     "first": 0.0277,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0277
+    },
+    {
+     "rt": 0.019,
+     "ft60": 0.9836,
+     "ft330": 2.7317,
+     "ft660": 4.1953,
+     "mph660": 168.16,
+     "ft1000": 5.4652,
+     "et": 6.5365,
+     "mph": 210.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Greg Anderson has been in either first or second place after 30 of the last 31 races.\r\n\r\nIn his 26 meetings with Greg Anderson, Aaron Stanfield has \"left first\" 17 times.\r\n\r\nStanfield is 17 - 9 against Anderson in prior events. \r\n\r\nAnderson with the starting line advantage and never trailed for the win.  He makes his quickest pass\r\nof the weekend, but will give up lane choice to Troy Coughlin Jr. in the next round.\r\n\r\nStanfield with his quickest pass of the weekend in the losing effort."
+  }
+ ]
+}

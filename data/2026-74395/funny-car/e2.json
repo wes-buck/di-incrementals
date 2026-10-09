@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0249,
+     "ft60": 0.8816,
+     "ft330": 2.2689,
+     "ft660": 3.1767,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.9116,
+     "mph": 332.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan WIlkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0292,
+     "ft60": 0.8698,
+     "ft330": 2.2334,
+     "ft660": 3.1396,
+     "mph660": 286.08,
+     "ft1000": null,
+     "et": 3.8718,
+     "mph": 333.09,
+     "first": 0.0355,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": 0.0355
+    }
+   ],
+   "note": "Weather conditions: air temperature 62 degrees, relative humidity 69 percent, barometer 30.16 inches,\r\nadjusted altitude 1,235 feet, track temperature 89 degrees.\r\n\r\nVandergriff is 2 - 0 against Wilkerson in prior events. \r\n\r\nWilkerson with a slight starting line advantage, but Vandergriff has the difference made up early and\r\nmakes his quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0643,
+     "ft60": 0.8797,
+     "ft330": 2.69,
+     "ft660": 4.8648,
+     "mph660": 97.64,
+     "ft1000": null,
+     "et": 7.4354,
+     "mph": 87.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0389,
+     "ft60": 0.8669,
+     "ft330": 2.2347,
+     "ft660": 3.1497,
+     "mph660": 284.45,
+     "ft1000": null,
+     "et": 3.8853,
+     "mph": 330.4,
+     "first": 3.5755,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": 3.5755
+    }
+   ],
+   "note": "Hagan is 22 - 14 against DeJoria in prior events. \r\n\r\nHagan with the starting line advantage for the win.  Hagan with his quickest pass of the weekend for\r\nthe win.\r\n\r\nDeJoria lost traction early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0412,
+     "ft60": 0.8779,
+     "ft330": 2.2228,
+     "ft660": 3.1137,
+     "mph660": 289.2,
+     "ft1000": null,
+     "et": 3.841,
+     "mph": 334.08,
+     "first": 3.2093,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": 3.2093
+    },
+    {
+     "rt": 0.0346,
+     "ft60": 0.8919,
+     "ft330": 2.6529,
+     "ft660": 4.7932,
+     "mph660": 100.96,
+     "ft1000": null,
+     "et": 7.0569,
+     "mph": 104.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Capps is 42 - 27 against Beckman in prior events. \r\n\r\nCapps with the starting line advantage, but lost traction right at the hit and clicked it off.\r\n\r\nBeckman launched hard and was straight down the groove with the quickest pass of the round for the\r\nwin.  He will have lane choice over Hagan in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0341,
+     "ft60": 0.8844,
+     "ft330": 2.2825,
+     "ft660": 3.2273,
+     "mph660": 272.73,
+     "ft1000": null,
+     "et": 3.9852,
+     "mph": 320.06,
+     "first": 0.0827,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": 0.0827
+    },
+    {
+     "rt": 0.0896,
+     "ft60": 0.9078,
+     "ft330": 2.3039,
+     "ft660": 3.2397,
+     "mph660": 274.39,
+     "ft1000": null,
+     "et": 4.0124,
+     "mph": 312.93,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Terry Haddock is 2 - 13 in Rd. 2 races. His last semi-final was the Winternationals in 2023.\r\n\r\nTodd is 6 - 0 against Haddock in prior events. \r\n\r\nTodd with the starting line advantage and never trailed for the win.  He will give up lane choice to\r\nVandergriff in the semifinal\r\n\r\nHaddock with a good clean pass in the losing effort."
+  }
+ ]
+}

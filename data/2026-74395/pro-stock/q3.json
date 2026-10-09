@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/q3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "Q3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0112,
+     "ft60": 0.9898,
+     "ft330": 2.7498,
+     "ft660": 4.2227,
+     "mph660": 167.54,
+     "ft1000": 5.4922,
+     "et": 6.5646,
+     "mph": 208.82,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 66 degrees, relative humidity 84 percent, barometer 29.96 inches,\r\nadjusted altitude 1,922 feet, track temperature 75 degrees.\r\n\r\nAnderson is straight down the groove with a good pass, he will not improve.\r\n\r\nTucker broke on the burnout."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0815,
+     "ft60": 0.9991,
+     "ft330": 2.7807,
+     "ft660": 4.2416,
+     "mph660": 166.54,
+     "ft1000": 5.5161,
+     "et": 6.5928,
+     "mph": 207.47,
+     "first": 0.0072,
+     "lane": "Left",
+     "win": true,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0072
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.9923,
+     "ft330": 2.7735,
+     "ft660": 4.2418,
+     "mph660": 165.44,
+     "ft1000": 5.5198,
+     "et": 6.5995,
+     "mph": 207.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Kramer is straight down the groove with his quickest pass of the weekend, he moves up the ladder one\r\nspot.\r\n\r\nDelco with another good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.087,
+     "ft60": 0.9895,
+     "ft330": 2.7526,
+     "ft660": 4.2279,
+     "mph660": 167.29,
+     "ft1000": 5.4981,
+     "et": 6.5709,
+     "mph": 208.43,
+     "first": 2.7378,
+     "lane": "Left",
+     "win": true,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 2.7378
+    },
+    {
+     "rt": 0.0032,
+     "ft60": 0.9888,
+     "ft330": 2.8395,
+     "ft660": 4.9421,
+     "mph660": 105.86,
+     "ft1000": 7.1809,
+     "et": 9.3925,
+     "mph": 95.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Latino kept it hitting on all eight to make his quickest pass of the weekend, he moves up the ladder\r\none spot.\r\n\r\nStanfield with severe tire shake and clicks it odd."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.0097,
+     "ft60": 0.9922,
+     "ft330": 2.7548,
+     "ft660": 4.2286,
+     "mph660": 167.04,
+     "ft1000": 5.4987,
+     "et": 6.5701,
+     "mph": 209.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.0019,
+     "ft60": 0.9798,
+     "ft330": 2.7375,
+     "ft660": 4.2082,
+     "mph660": 168.6,
+     "ft1000": 5.4761,
+     "et": 6.5475,
+     "mph": 208.53,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Enders with another good pas, but will not improve.\r\n\r\nLatino is straight down the groove, he will nit improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0638,
+     "ft60": 0.9776,
+     "ft330": 2.7368,
+     "ft660": 4.208,
+     "mph660": 167.22,
+     "ft1000": 5.4776,
+     "et": 6.5485,
+     "mph": 209.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0248,
+     "ft60": 0.9945,
+     "ft330": 2.7524,
+     "ft660": 4.225,
+     "mph660": 167.72,
+     "ft1000": 5.494,
+     "et": 6.5656,
+     "mph": 208.62,
+     "first": 0.0219,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0219
+    }
+   ],
+   "note": "Coughlin is straight down the groove with a good clean pass, the second quickest pass of the session.\r\n\r\nHartford with another good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0246,
+     "ft60": 0.9779,
+     "ft330": 2.7294,
+     "ft660": 4.1995,
+     "mph660": 166.91,
+     "ft1000": 5.4705,
+     "et": 6.5439,
+     "mph": 208.24,
+     "first": 0.0262,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0262
+    },
+    {
+     "rt": 0.0337,
+     "ft60": 0.9911,
+     "ft330": 2.7596,
+     "ft660": 4.2167,
+     "mph660": 167.04,
+     "ft1000": 5.4874,
+     "et": 6.561,
+     "mph": 208.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield is straight down the groove with the quickest pass of the session.\r\n\r\nCoughlin Jr. with another good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0036,
+     "ft60": 1.5717,
+     "ft330": 6.9234,
+     "ft660": 10.4274,
+     "mph660": 73.02,
+     "ft1000": 13.3017,
+     "et": 15.9924,
+     "mph": 79.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0655,
+     "ft60": 0.988,
+     "ft330": 2.7467,
+     "ft660": 4.2174,
+     "mph660": 167.6,
+     "ft1000": 5.4847,
+     "et": 6.5557,
+     "mph": 208.62,
+     "first": 9.3748,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 9.3748
+    }
+   ],
+   "note": "Glenn with severe tire shake right at the hit and clicked it off.\r\n\r\nAnderson with a good pass, but will not improve."
+  }
+ ]
+}

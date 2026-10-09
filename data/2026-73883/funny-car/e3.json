@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 1.003,
+     "ft330": 3.101,
+     "ft660": 4.42,
+     "mph660": 180.02,
+     "ft1000": null,
+     "et": 5.8,
+     "mph": 161.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.887,
+     "ft330": 2.272,
+     "ft660": 3.21,
+     "mph660": 273.55,
+     "ft1000": null,
+     "et": 3.977,
+     "mph": 314.46,
+     "first": 1.8524,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": 1.8524
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 42 percent, barometer 30.00 inches, adjusted\r\naltitude 2,812 feet, track temperature 117 degrees.\r\n\r\nVandergriff with the starting line advantage and never trailed for the win.  He is advancing to fifth career\r\nfinal and fourth this season.\r\n\r\nTodd is up in smoke right at the hit."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.889,
+     "ft330": 2.276,
+     "ft660": 3.194,
+     "mph660": 285.41,
+     "ft1000": null,
+     "et": 3.942,
+     "mph": 319.37,
+     "first": 0.8063,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 0.8063
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.892,
+     "ft330": 2.516,
+     "ft660": 3.792,
+     "mph660": 208.88,
+     "ft1000": null,
+     "et": 4.764,
+     "mph": 237.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Hagan and Prock have raced 12 times, each has \"left first\" 6 times.\r\nHagan's average R/T in those 12 races is .064 and Prock's average R/T in those 12 races is .065.\r\n\r\nProck is 10 - 2 against Hagan in prior events. \r\n\r\nProck with the starting line advantage, but was up in smoke right at the hit and pedaled it.  Hagan kept it\r\nhooked up and hitting on all eight for the win.  Hagan will have lane choice over Vandergriff in the final.\r\nHagan is advancing to his third final round this season and 101st career final round."
+  }
+ ]
+}

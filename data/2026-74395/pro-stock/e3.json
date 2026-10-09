@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0529,
+     "ft60": 0.9846,
+     "ft330": 2.7388,
+     "ft660": 4.2048,
+     "mph660": 167.72,
+     "ft1000": 5.4726,
+     "et": 6.5945,
+     "mph": 190.68,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0064,
+     "ft60": 0.9778,
+     "ft330": 2.7204,
+     "ft660": 4.1818,
+     "mph660": 167.66,
+     "ft1000": 5.4509,
+     "et": 6.5209,
+     "mph": 210.38,
+     "first": 0.1201,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1201
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 66 percent, barometer 30.14 inches,\r\nadjusted altitude 1,316 feet, track temperature 92 degrees.\r\n\r\nJeg Coughlin is 121 - 86 in Rd. 3 races.\r\n\r\nCoughlin is 5 - 0 against Coughlin Jr. in prior events. \r\n\r\nCoughlin Jr. with a great light and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0094,
+     "ft60": 0.9806,
+     "ft330": 2.7267,
+     "ft660": 4.1937,
+     "mph660": 168.41,
+     "ft1000": 5.4591,
+     "et": 6.5314,
+     "mph": 207.47,
+     "first": 0.0022,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0022
+    },
+    {
+     "rt": 0.0309,
+     "ft60": 0.9725,
+     "ft330": 2.7121,
+     "ft660": 4.1753,
+     "mph660": 167.6,
+     "ft1000": 5.4431,
+     "et": 6.5121,
+     "mph": 209.69,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Matt Hartford is 23 - 17 overall in Rd. 3 races (4 - 1 this year)\r\n\r\nHartford is 2 - 1 against Stanfield in prior events. \r\n\r\nHartford with a great light and the power to hold on for the hole shot win in a close one.  Matt\r\nHartford's MOV: 0.0020 seconds (approximately 7 inches).  He will give up lane choice to Coughlin Jr.\r\n\r\nWith the win Hartford is now the point leader."
+  }
+ ]
+}

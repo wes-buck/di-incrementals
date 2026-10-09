@@ -1,0 +1,401 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/funny-car/q4",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "funny-car",
+ "round": "Q4",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.912,
+     "ft330": 2.353,
+     "ft660": 3.89,
+     "mph660": 141.65,
+     "ft1000": null,
+     "et": 5.613,
+     "mph": 130.44,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Schriefer",
+     "car": "3007",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 53 percent, barometer 29.82 inches, adjusted\r\naltitude 3,063 feet, track temperature 107 degrees.\r\n\r\nSchriefer starts to lose traction and drop cylinders.  He makes his quickest pass of the weekend, but will not\r\nget in the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 0.903,
+     "ft330": 2.534,
+     "ft660": 4.493,
+     "mph660": 108.38,
+     "ft1000": null,
+     "et": 6.791,
+     "mph": 98.82,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "King lost traction right at the hit and then was real loose and sideways before he reeled it in."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.099,
+     "ft60": 0.892,
+     "ft330": 2.705,
+     "ft660": 5.122,
+     "mph660": 88.18,
+     "ft1000": null,
+     "et": 7.833,
+     "mph": 86.52,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Bode was up in smoke by 330 feet and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.889,
+     "ft330": 2.294,
+     "ft660": 3.231,
+     "mph660": 278.46,
+     "ft1000": null,
+     "et": 3.993,
+     "mph": 313.44,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson kept it hooked up to make his quickest pass of the weekend.  He moves up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.896,
+     "ft330": 2.308,
+     "ft660": 3.249,
+     "mph660": 277.37,
+     "ft1000": null,
+     "et": 3.999,
+     "mph": 325.77,
+     "first": 0.5735,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.229,
+     "ft60": 0.9,
+     "ft330": 2.308,
+     "ft660": 3.332,
+     "mph660": 226.96,
+     "ft1000": null,
+     "et": 4.423,
+     "mph": 205.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Hagan is straight down the groove with a good clean pass.\r\n\r\nRichards with a good pass early, but then lost traction and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.111,
+     "ft60": 0.888,
+     "ft330": 2.281,
+     "ft660": 3.202,
+     "mph660": 279.61,
+     "ft1000": null,
+     "et": 3.952,
+     "mph": 322.88,
+     "first": 0.0167,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.892,
+     "ft330": 2.296,
+     "ft660": 3.228,
+     "mph660": 278.29,
+     "ft1000": null,
+     "et": 3.978,
+     "mph": 324.2,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": "Green launched hard and kept it hooked up to make his quickest pass of the weekend.  He will stay in the\r\nnumber seven spot.  Chad Green's incremental times: 60ft-0.888 sec., 330ft-2.281, 660ft-3.202/279.61 mph.\r\n\r\nAlexander is straight down the groove with a nother good pass, he will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.069,
+     "ft60": 0.895,
+     "ft330": 2.289,
+     "ft660": 3.224,
+     "mph660": 281.42,
+     "ft1000": null,
+     "et": 3.962,
+     "mph": 334.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.884,
+     "ft330": 2.265,
+     "ft660": 3.187,
+     "mph660": 283.37,
+     "ft1000": null,
+     "et": 3.92,
+     "mph": 331.94,
+     "first": 0.0377,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Todd is straight down the groove with a good clean pass.  He will not improve.\r\n\r\nProck launched hard and kept it hooked up and hitting on all eight to make his quickest pass of the season.\r\nAustin Prock's incremental times: 60ft-0.884 sec., 330ft-2.265, 660ft-3.187/283.37 mph.  He goes to the number\r\nthree spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.072,
+     "ft60": 0.886,
+     "ft330": 2.286,
+     "ft660": 3.219,
+     "mph660": 279.32,
+     "ft1000": null,
+     "et": 3.966,
+     "mph": 326.71,
+     "first": 0.0048,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.883,
+     "ft330": 2.277,
+     "ft660": 3.209,
+     "mph660": 279.85,
+     "ft1000": null,
+     "et": 3.952,
+     "mph": 326.79,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Hyde kept it hooked up and was straight down the groove.  He will not improve.\r\n\r\nCapps is straight down the groove to make another good clean pass.  He will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.118,
+     "ft60": 0.89,
+     "ft330": 2.275,
+     "ft660": 3.23,
+     "mph660": 268.76,
+     "ft1000": null,
+     "et": 4.002,
+     "mph": 316.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.879,
+     "ft330": 2.26,
+     "ft660": 3.176,
+     "mph660": 283.07,
+     "ft1000": null,
+     "et": 3.915,
+     "mph": 329.99,
+     "first": 0.1309,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Pedregon had a hole out right at the hit, but stayed with it to make a good pass.\r\n\r\nBeckman launched hard and kept it hooked up to make the quickest pass of the session.  Jack Beckman's\r\nincremental times: 60ft-0.879 sec., 330ft-2.260, 660ft-3.176/283.07 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.078,
+     "ft60": 0.884,
+     "ft330": 2.918,
+     "ft660": 5.539,
+     "mph660": 84.68,
+     "ft1000": null,
+     "et": 8.301,
+     "mph": 82.43,
+     "first": 8.3042,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria lost traction and clicked it off.\r\n\r\nVandergriff broke before staging."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.027,
+     "ft60": 0.997,
+     "ft330": 2.784,
+     "ft660": 4.278,
+     "mph660": 164.31,
+     "ft1000": 5.572,
+     "et": 6.661,
+     "mph": 207.59,
+     "first": 6.6246,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.177,
+     "ft60": 1.174,
+     "ft330": 3.634,
+     "ft660": 6.761,
+     "mph660": 70.59,
+     "ft1000": 10.146,
+     "et": 13.489,
+     "mph": 64.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 58 percent, barometer 29.82 inches, adjusted\r\naltitude 3,102 feet, track temperature 105 degrees.\r\n\r\nGlenn is 4 - 0 against Stanfield in prior events. \r\n\r\nGlenn goes red to give Stanfield the win.  Stanfield is straight down the groove with a clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.023,
+     "ft60": 1.008,
+     "ft330": 3.144,
+     "ft660": 5.193,
+     "mph660": 109.05,
+     "ft1000": 7.366,
+     "et": 9.499,
+     "mph": 100.71,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.011,
+     "ft60": 1.004,
+     "ft330": 2.786,
+     "ft660": 4.271,
+     "mph660": 165.68,
+     "ft1000": 5.551,
+     "et": 6.63,
+     "mph": 208.39,
+     "first": 2.8817,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 2.8817
+    }
+   ],
+   "note": "Stanfield is 8 - 6 against Coughlin in prior events. \r\n\r\nStanfield with a great light and never trailed for the win.  \r\n\r\nCoughlin with severe tire shake right at the hit and pushed the clutch back in."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.987,
+     "ft330": 2.758,
+     "ft660": 4.246,
+     "mph660": 164.93,
+     "ft1000": 5.535,
+     "et": 6.622,
+     "mph": 206.26,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.027,
+     "ft60": 0.989,
+     "ft330": 2.763,
+     "ft660": 4.245,
+     "mph660": 166.21,
+     "ft1000": 5.526,
+     "et": 6.604,
+     "mph": 208.14,
+     "first": 0.0387,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0387
+    }
+   ],
+   "note": "Enders is 13 - 3 against Kramer in prior events. \r\n\r\nEnders with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.053,
+     "ft60": 0.985,
+     "ft330": 2.751,
+     "ft660": 4.235,
+     "mph660": 165.54,
+     "ft1000": 5.519,
+     "et": 6.6,
+     "mph": 207.53,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 1.0,
+     "ft330": 2.776,
+     "ft660": 4.258,
+     "mph660": 166.46,
+     "ft1000": 5.536,
+     "et": 6.615,
+     "mph": 206.89,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 3 - 1 against Latino in prior events. \r\n\r\nLatino goes red to give Anderson the win.  anderson is straight down the groove for a good clean pass.  He\r\nwill give up lane choice to Enders in the semifinal."
+  }
+ ]
+}

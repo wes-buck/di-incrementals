@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 1.001,
+     "ft330": 2.763,
+     "ft660": 4.237,
+     "mph660": 167.38,
+     "ft1000": 5.511,
+     "et": 6.584,
+     "mph": 208.17,
+     "first": 0.0227,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0227
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.989,
+     "ft330": 2.77,
+     "ft660": 4.253,
+     "mph660": 165.66,
+     "ft1000": 5.535,
+     "et": 6.615,
+     "mph": 207.34,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 42 percent, barometer 30.00 inches, adjusted\r\naltitude 2,859 feet, track temperature 117 degrees.\r\n\r\nAnderson is 1 - 0 against Vang in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nVang with the starting line advantage, but Anderson had the lead by half track and takes the win.  Greg\r\nAnderson's MOV: 0.0227 seconds (approximately 7 feet).  Anderson wins fourth Wally this season and 116th\r\ncareer.  He now has five wins here in Brainerd and is now the Pro Stock driver with the most wins here.  He\r\nalso tied Warren Johnson for most round wins at this event, 46 rounds."
+  }
+ ]
+}

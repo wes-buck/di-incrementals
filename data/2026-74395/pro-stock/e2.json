@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.1775,
+     "ft60": 0.9835,
+     "ft330": 2.7286,
+     "ft660": 4.1958,
+     "mph660": 167.1,
+     "ft1000": 5.6201,
+     "et": 7.0938,
+     "mph": 140.1,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "BYE",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 63 degrees, relative humidity 67 percent, barometer 30.16 inches,\r\nadjusted altitude 1,273 feet. \r\n\r\nHartford launched hard and then gor real loose around half track and pushed in the clutch."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.009,
+     "ft60": 0.9787,
+     "ft330": 2.723,
+     "ft660": 4.1868,
+     "mph660": 168.1,
+     "ft1000": 5.4559,
+     "et": 6.5281,
+     "mph": 208.62,
+     "first": 0.0189,
+     "lane": "Left",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0189
+    },
+    {
+     "rt": 0.0254,
+     "ft60": 0.9902,
+     "ft330": 2.7363,
+     "ft660": 4.1994,
+     "mph660": 168.22,
+     "ft1000": 5.4635,
+     "et": 6.5306,
+     "mph": 209.59,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 14 - 5 against Coughlin Jr. in prior events. \r\n\r\nCoughlin Jr. with a great light and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0145,
+     "ft60": 0.9761,
+     "ft330": 2.7201,
+     "ft660": 4.1828,
+     "mph660": 167.72,
+     "ft1000": 5.4499,
+     "et": 6.5197,
+     "mph": 209.4,
+     "first": 0.0017,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0017
+    },
+    {
+     "rt": null,
+     "ft60": 0.9934,
+     "ft330": 2.7447,
+     "ft660": 4.2099,
+     "mph660": 168.48,
+     "ft1000": 5.474,
+     "et": 6.5425,
+     "mph": 209.01,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield is 2 - 1 against Anderson in prior events. \r\n\r\nAnderson goes red and Stanfield is straight down the groove for the win.  He will have lane choice\r\nover Hartford in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0209,
+     "ft60": 0.9814,
+     "ft330": 2.7281,
+     "ft660": 4.1918,
+     "mph660": 167.91,
+     "ft1000": 5.4585,
+     "et": 6.5278,
+     "mph": 209.89,
+     "first": 0.0307,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0307
+    },
+    {
+     "rt": 0.0189,
+     "ft60": 0.9913,
+     "ft330": 2.759,
+     "ft660": 4.2136,
+     "mph660": 167.29,
+     "ft1000": 5.4856,
+     "et": 6.5605,
+     "mph": 208.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Coughlin is 11 - 2 against Kramer in prior events. \r\n\r\nKramer with the starting line advantage, but Coughlin chased him down for the win.  He will have lane\r\nchoice over troy coughlin Jr. in the semifinal."
+  }
+ ]
+}

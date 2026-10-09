@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 1.064,
+     "ft330": 2.881,
+     "ft660": 4.414,
+     "mph660": 160.16,
+     "ft1000": 5.749,
+     "et": 6.891,
+     "mph": 195.96,
+     "first": 8.9169,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 8.9169
+    },
+    {
+     "rt": 0.003,
+     "ft60": 1.117,
+     "ft330": 3.787,
+     "ft660": 7.329,
+     "mph660": 60.67,
+     "ft1000": 11.446,
+     "et": 15.822,
+     "mph": 47.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris Bostick",
+     "car": "10",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.85 inches, adjusted\r\naltitude 4,045 feet, track temperature 127 degrees.\r\n\r\nGadson is 5 - 0 against Bostick in prior events.\r\n\r\nBostick with a great light, but has problems and pulls the clutch back in.\r\n\r\nGadson with another good clean pass for the win.  He is advancing to his fourth final this season and 13th of\r\nhis career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 1.055,
+     "ft330": 2.859,
+     "ft660": 4.389,
+     "mph660": 159.74,
+     "ft1000": 5.739,
+     "et": 6.985,
+     "mph": 173.43,
+     "first": 2.4957,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 2.4957
+    },
+    {
+     "rt": 0.059,
+     "ft60": 1.084,
+     "ft330": 2.928,
+     "ft660": 4.907,
+     "mph660": 109.56,
+     "ft1000": 7.145,
+     "et": 9.452,
+     "mph": 91.47,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera is 5 - 1 against Johnson in prior events. \r\n\r\nHerrera with the starting line advantage and never trailed for the win.  He clicked it early as the bike was\r\nmaking a move toward the centerline.  He will give up lane choice to Gadson in the final.  Herrera is\r\nadvancing to his second final this season 34th career final round."
+  }
+ ]
+}

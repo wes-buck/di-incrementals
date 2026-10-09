@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73873/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73873",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "Lucas Oil NHRA Winternationals",
+ "event_date": "2026-04-09",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.982,
+     "ft330": 2.735,
+     "ft660": 4.198,
+     "mph660": 168.43,
+     "ft1000": 5.462,
+     "et": 6.527,
+     "mph": 209.92,
+     "first": 8.3441,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.012,
+     "ft60": 1.38,
+     "ft330": 6.37,
+     "ft660": 9.572,
+     "mph660": 79.87,
+     "ft1000": 12.265,
+     "et": 14.927,
+     "mph": 77.8,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 55 percent, barometer 29.96 inches, adjusted\r\naltitude 1,625 feet. \r\n\r\nCoughlin is 24 - 4 against Stanfield in prior events. \r\n\r\nCoughlin goes red to give Stanfield the win.  Stanfield kept it hooked up to make another great pass for the\r\nwin."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.98,
+     "ft330": 2.73,
+     "ft660": 4.192,
+     "mph660": 168.16,
+     "ft1000": 5.453,
+     "et": 6.52,
+     "mph": 209.2,
+     "first": 0.0802,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0802
+    },
+    {
+     "rt": 0.094,
+     "ft60": 0.985,
+     "ft330": 2.733,
+     "ft660": 4.196,
+     "mph660": 168.3,
+     "ft1000": 5.459,
+     "et": 6.525,
+     "mph": 208.62,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn is 3 - 0 against Latino in prior events. \r\n\r\nGlenn with the starting line advantage and never trailed for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.126,
+     "ft60": 0.968,
+     "ft330": 2.714,
+     "ft660": 4.173,
+     "mph660": 168.72,
+     "ft1000": 5.432,
+     "et": 6.496,
+     "mph": 210.14,
+     "first": 7.2737,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dave Connolly",
+     "car": "51",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 7.2737
+    },
+    {
+     "rt": 0.034,
+     "ft60": 2.163,
+     "ft330": 9.163,
+     "ft660": 13.914,
+     "mph660": 47.59,
+     "ft1000": 18.925,
+     "et": 23.861,
+     "mph": 42.18,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Connolly is 7 - 3 against Enders in prior events. \r\n\r\nEnders with the starting line advantage, but had severe tire shake right at the hit and pushed in the clutch.\r\n\r\nConnolly is straight down the groove with his quickest pass this weekend.  He will have lane choice over Glenn\r\nin the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 0.967,
+     "ft330": 2.709,
+     "ft660": 4.168,
+     "mph660": 168.66,
+     "ft1000": 5.425,
+     "et": 6.487,
+     "mph": 209.82,
+     "first": 0.0268,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0268
+    },
+    {
+     "rt": 0.007,
+     "ft60": 0.987,
+     "ft330": 2.739,
+     "ft660": 4.204,
+     "mph660": 167.8,
+     "ft1000": 5.47,
+     "et": 6.537,
+     "mph": 209.75,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 2 - 0 against Latino in prior events. \r\n\r\nLatino with a great light, but Anderson has the lead by 330 feet.  The car starts to drift out of the groove,\r\nbut he stayed with it for the win.  Anderson runs low E.T. of the event for the win and lane choice over Greg\r\nStanfield in the semifinal."
+  }
+ ]
+}

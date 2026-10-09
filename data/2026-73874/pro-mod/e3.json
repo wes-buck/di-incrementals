@@ -1,0 +1,92 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73874/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73874",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "NHRA 4-Wide Nationals",
+ "event_date": "2026-04-23",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.016,
+     "ft60": 0.941,
+     "ft330": 2.498,
+     "ft660": 3.727,
+     "mph660": 201.58,
+     "ft1000": 4.781,
+     "et": 5.669,
+     "mph": 253.56,
+     "first": 0.0094,
+     "lane": "1",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0094
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.937,
+     "ft330": 2.495,
+     "ft660": 3.734,
+     "mph660": 199.52,
+     "ft1000": 4.798,
+     "et": 5.695,
+     "mph": 250.6,
+     "first": null,
+     "lane": "2",
+     "win": false,
+     "driver": "Jason Collins",
+     "car": "168",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0094
+    },
+    {
+     "rt": 0.012,
+     "ft60": 0.963,
+     "ft330": 2.551,
+     "ft660": 3.806,
+     "mph660": 198.2,
+     "ft1000": 4.87,
+     "et": 5.766,
+     "mph": 251.81,
+     "first": null,
+     "lane": "3",
+     "win": false,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 0.938,
+     "ft330": 2.498,
+     "ft660": 3.715,
+     "mph660": 200.29,
+     "ft1000": 4.77,
+     "et": 5.658,
+     "mph": 253.66,
+     "first": null,
+     "lane": "4",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73871/detailed-results/top-fuel/q1",
+ "year": 2026,
+ "event_id": "73871",
+ "class": "top-fuel",
+ "round": "Q1",
+ "event_name": "AMALIE Motor Oil NHRA Gatornationals",
+ "event_date": "2026-03-05",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.866,
+     "ft330": 2.202,
+     "ft660": 3.108,
+     "mph660": 281.6,
+     "ft1000": null,
+     "et": 3.861,
+     "mph": 319.29,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 85 degrees, relative humidity 49 percent, barometer 30.17 inches,\r\nadjusted altitude 2,199 feet. \r\n\r\nGordon making her Top Fuel debut.  Monster Energy signed on today with Gordon.  She launched hard and\r\nkept it hooked up with a great pass. Maddi Gordon's incremental times: 60ft-0.866 sec., 330ft-2.202,\r\n660ft-3.108/281.60 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.843,
+     "ft330": 2.17,
+     "ft660": 3.128,
+     "mph660": 264.03,
+     "ft1000": null,
+     "et": 3.935,
+     "mph": 289.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Gary Pritchett",
+     "car": "389",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.097,
+     "ft60": 0.86,
+     "ft330": 2.193,
+     "ft660": 3.116,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.878,
+     "mph": 318.99,
+     "first": 0.0361,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Pritchett with a good pass early in the run, but banged the blower on the top end.\r\n\r\nPruett is making her return to Top Fuel after being out of the car for two years to start a family.\r\nPruett kept it hooked up and was straight down the groove."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.129,
+     "ft60": 0.834,
+     "ft330": 2.337,
+     "ft660": 3.954,
+     "mph660": 138.68,
+     "ft1000": null,
+     "et": 5.6,
+     "mph": 140.69,
+     "first": 3.7746,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.894,
+     "ft330": 3.171,
+     "ft660": 6.276,
+     "mph660": 71.13,
+     "ft1000": null,
+     "et": 9.393,
+     "mph": 77.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 84 degrees, relative humidity 52 percent, barometer 30.16 inches,\r\nadjusted altitude 2,117 feet.\r\n\r\nBack after a hour and half rain delay.\r\n\r\nTorrence is up in smoke by 200 feet and clicked it off.\r\n\r\nSmith has a full time ride this season, this is his ninth Top Fuel race.  He was up in smoke right at\r\nthe hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.114,
+     "ft60": 0.917,
+     "ft330": 2.315,
+     "ft660": 3.63,
+     "mph660": 161.94,
+     "ft1000": null,
+     "et": 5.186,
+     "mph": 140.36,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Scott Farley",
+     "car": "F301",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.193,
+     "ft60": 0.85,
+     "ft330": 2.142,
+     "ft660": 3.029,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.77,
+     "mph": 323.19,
+     "first": 1.3377,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tripp Tatum",
+     "car": "144",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Farley starts to lose traction around 300 feet and clicked it off.\r\n\r\nTatum launched hard and kept it hooked up to go to the number one spot.  Tripp Tatum's incremental\r\ntimes: 60ft-0.850 sec., 330ft-2.142, 660ft-3.029/285.05 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.118,
+     "ft60": 0.861,
+     "ft330": 2.18,
+     "ft660": 3.072,
+     "mph660": 286.38,
+     "ft1000": null,
+     "et": 3.804,
+     "mph": 332.51,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Jim Oberhofer and Nicky Bonnifante are the crew chiefs for Schumacher this season.\r\n\r\nSchumacher signed American Communications Company as a multi-year contract over the off season.\r\n\r\nHe kept it hooked up and hitting on all eight with a good clean pass.   Tony Schumacher's incremental\r\ntimes: 60ft-0.861 sec., 330ft-2.180, 660ft-3.072/286.38 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.113,
+     "ft60": 0.858,
+     "ft330": 2.169,
+     "ft660": 3.064,
+     "mph660": 284.51,
+     "ft1000": null,
+     "et": 3.885,
+     "mph": 266.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.111,
+     "ft60": 0.847,
+     "ft330": 2.178,
+     "ft660": 3.116,
+     "mph660": 275.84,
+     "ft1000": null,
+     "et": 3.866,
+     "mph": 326.24,
+     "first": 0.0219,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Mercier with a good looking pass early, but nosed over on the top end.\r\n\r\nSalinas was kind of lazy off the line, but makes a clean pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.104,
+     "ft60": 0.85,
+     "ft330": 2.15,
+     "ft660": 3.03,
+     "mph660": 291.38,
+     "ft1000": null,
+     "et": 3.751,
+     "mph": 335.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.874,
+     "ft330": 2.169,
+     "ft660": 3.054,
+     "mph660": 287.41,
+     "ft1000": null,
+     "et": 3.789,
+     "mph": 328.38,
+     "first": 0.0112,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hart launched hard and kept it hooked up, hitting on all eight to go to the number one spot.  He has\r\ntop speed of the day.  Antron Brown's incremental times: 60ft-0.874 sec., 330ft-2.169,\r\n660ft-3.054/287.41 mph. \r\n\r\nBrown with a good clean pass to go to the number three spot.  Antron Brown's incremental times:\r\n60ft-0.874 sec., 330ft-2.169, 660ft-3.054/287.41 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.075,
+     "ft60": 0.872,
+     "ft330": 2.204,
+     "ft660": 3.101,
+     "mph660": 285.17,
+     "ft1000": null,
+     "et": 3.853,
+     "mph": 316.01,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.112,
+     "ft60": 0.866,
+     "ft330": 2.179,
+     "ft660": 3.062,
+     "mph660": 289.2,
+     "ft1000": null,
+     "et": 3.788,
+     "mph": 334.07,
+     "first": 0.0284,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Reed with a good clean pass, straight down the groove to get in the top half of the show.\r\n\r\nJon Oberhofer and Nicky Bonnifante are now tuning Millican's car.\r\n\r\nMillican launched hard and was straight down the groove to the number three spot.  Clay Millican's\r\nincremental times: 60ft-0.866 sec., 330ft-2.179, 660ft-3.062/289.20 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.861,
+     "ft330": 2.193,
+     "ft660": 3.08,
+     "mph660": 287.78,
+     "ft1000": null,
+     "et": 3.811,
+     "mph": 331.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.861,
+     "ft330": 2.172,
+     "ft660": 3.041,
+     "mph660": 292.71,
+     "ft1000": null,
+     "et": 3.762,
+     "mph": 334.73,
+     "first": 0.046,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stewart makes the first pass in the Elite Top Fueler.  He kept it hooked up to move into the top half\r\nof the show.\r\n\r\nAshley launched hard and was straight down the groove to the number two spot.  Justin Ashley's\r\nincremental times: 60ft-0.861 sec., 330ft-2.172, 660ft-3.041/292.71 mph."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.081,
+     "ft60": 0.845,
+     "ft330": 2.138,
+     "ft660": 3.013,
+     "mph660": 292.2,
+     "ft1000": null,
+     "et": 3.734,
+     "mph": 336.82,
+     "first": 0.0171,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.844,
+     "ft330": 2.138,
+     "ft660": 3.017,
+     "mph660": 290.57,
+     "ft1000": null,
+     "et": 3.745,
+     "mph": 332.34,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Langdon launched hard and kept the candles lit all the way down the track to the number one spot.\r\nShawn Langdon's incremental times: 60ft-0.845 sec., 330ft-2.138, 660ft-3.013/292.20 mph.\r\n\r\nKalitta was straight down the groove, hitting on all eight to go to the number two spot.   Doug\r\nKalitta's incremental times: 60ft-0.844 sec., 330ft-2.138, 660ft-3.017/290.57 mph."
+  }
+ ]
+}

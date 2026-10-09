@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock/q3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock",
+ "round": "Q3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.138,
+     "ft60": 1.018,
+     "ft330": 3.165,
+     "ft660": 5.309,
+     "mph660": 103.57,
+     "ft1000": 7.604,
+     "et": 9.848,
+     "mph": 95.78,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.052,
+     "ft60": 1.007,
+     "ft330": 2.808,
+     "ft660": 4.306,
+     "mph660": 164.27,
+     "ft1000": 5.598,
+     "et": 6.688,
+     "mph": 205.29,
+     "first": 3.2466,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 83 degrees, relative humidity 55 percent, barometer 29.98 inches, adjusted\r\naltitude 3,958 feet, track temperature 127 degrees.\r\n\r\nDelco with tire shake right at the hit and pushed in the clutch.\r\n\r\nAnderson is straight down the groove with his quickest pass of the weekend.  He moves up the ladder a couple\r\nspots."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.03,
+     "ft60": 1.013,
+     "ft330": 2.814,
+     "ft660": 4.318,
+     "mph660": 163.12,
+     "ft1000": 5.617,
+     "et": 6.711,
+     "mph": 205.07,
+     "first": 0.8408,
+     "lane": "Left",
+     "win": true,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 1.082,
+     "ft330": 4.228,
+     "ft660": 8.329,
+     "mph660": 53.16,
+     "ft1000": 12.885,
+     "et": 17.53,
+     "mph": 45.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Latino is straight down the groove with his quickest pass of the weekend.  He moves up the ladder one spot.\r\nThe chutes don't blossom when they are deployed.  Latino is hard on the brakes and does a great job getting\r\nthe car slowed down to make the turn off.\r\n\r\nTucker with severe tire shake right at the hit."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.125,
+     "ft60": 1.011,
+     "ft330": 2.819,
+     "ft660": 4.325,
+     "mph660": 163.12,
+     "ft1000": 5.627,
+     "et": 6.723,
+     "mph": 204.29,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.005,
+     "ft60": 1.006,
+     "ft330": 2.808,
+     "ft660": 4.31,
+     "mph660": 163.53,
+     "ft1000": 5.608,
+     "et": 6.703,
+     "mph": 203.95,
+     "first": 0.1404,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Bell with another good clean pass, but will not improve.\r\n\r\nCoughlin Jr. kept it hooked up and was straight down the groove to go to the number nine spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.012,
+     "ft60": 0.993,
+     "ft330": 2.788,
+     "ft660": 4.289,
+     "mph660": 163.77,
+     "ft1000": 5.588,
+     "et": 6.682,
+     "mph": 204.91,
+     "first": 0.0206,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.983,
+     "ft330": 2.783,
+     "ft660": 4.286,
+     "mph660": 163.06,
+     "ft1000": 5.583,
+     "et": 6.675,
+     "mph": 205.04,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Coughlin kept it hooked up and was straight down the groove with his quickest pass of the weekend.  He goes to\r\nthe number four spot.  Jeg Coughlin's incremental times: 60ft-0.993 sec., 330ft-2.788, 660ft-4.289/163.77 mph,\r\n1,000ft-5.588. \r\n\r\nEnders launched hard and kept it hooked up to go to the number two spot.  Erica Enders' incremental times:\r\n60ft-0.983 sec., 330ft-2.783, 660ft-4.286/163.06 mph, 1,000ft-5.583."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 1.009,
+     "ft330": 2.806,
+     "ft660": 4.303,
+     "mph660": 164.43,
+     "ft1000": 5.598,
+     "et": 6.689,
+     "mph": 205.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.987,
+     "ft330": 2.785,
+     "ft660": 4.292,
+     "mph660": 162.59,
+     "ft1000": 5.595,
+     "et": 6.692,
+     "mph": 204.48,
+     "first": 0.0237,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Latino is straight down the groove with as good clean pass.  He will not improve.\r\n\r\nStanfield with a good clean pass, just a tick off his quickest pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.987,
+     "ft330": 2.782,
+     "ft660": 4.28,
+     "mph660": 164.09,
+     "ft1000": 5.573,
+     "et": 6.665,
+     "mph": 204.2,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.022,
+     "ft60": 1.0,
+     "ft330": 2.787,
+     "ft660": 4.281,
+     "mph660": 164.37,
+     "ft1000": 5.571,
+     "et": 6.658,
+     "mph": 206.95,
+     "first": 0.004,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.004
+    }
+   ],
+   "note": "This is a great side-by-side drag race.\r\n\r\nStanfield kept it hooked up to go to the number two spot.  Greg Stanfield's incremental times: 60ft-0.987\r\nsec., 330ft-2.782, 660ft-4.280/164.09 mph, 1,000ft-5.573.\r\n\r\nHartford launched hard and was straight down the groove to the number one spot.  Matt Hartford's incremental\r\ntimes: 60ft-1.000 sec., 330ft-2.787, 660ft-4.281/164.37 mph, 1,000ft-5.571."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 1.004,
+     "ft330": 2.796,
+     "ft660": 4.291,
+     "mph660": 164.45,
+     "ft1000": 5.583,
+     "et": 6.671,
+     "mph": 206.32,
+     "first": 0.0063,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0063
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.997,
+     "ft330": 2.788,
+     "ft660": 4.282,
+     "mph660": 164.09,
+     "ft1000": 5.573,
+     "et": 6.659,
+     "mph": 206.61,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Glenn kept it hooked up and makes his quickest pass of the weekend.  He goes to the number four spot.  Dallas\r\nGlenn's incremental times: 60ft-1.004 sec., 330ft-2.796, 660ft-4.291/164.45 mph, 1,000ft-5.583. \r\n\r\nAnderson launched hard and kept it hooked up to go to the number two spot.  Greg Anderson's incremental times:\r\n60ft-0.997 sec., 330ft-2.788, 660ft-4.282/164.09 mph, 1,000ft-5.573."
+  }
+ ]
+}

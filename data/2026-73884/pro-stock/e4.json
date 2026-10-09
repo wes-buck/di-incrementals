@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.033,
+     "ft60": 0.999,
+     "ft330": 2.763,
+     "ft660": 4.242,
+     "mph660": 166.15,
+     "ft1000": 5.52,
+     "et": 6.599,
+     "mph": 207.56,
+     "first": 0.0231,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0231
+    },
+    {
+     "rt": 0.026,
+     "ft60": 0.998,
+     "ft330": 2.778,
+     "ft660": 4.261,
+     "mph660": 165.21,
+     "ft1000": 5.545,
+     "et": 6.629,
+     "mph": 206.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 49 percent, barometer 30.05 inches, adjusted altitude 2,877 feet. \r\n\r\nGlenn is 10 - 3 against Coughlin in prior events and each has won 1 times against the other in final rounds. \r\n\r\nThis is the first time the No. 13 qualifier has ever reached the final round at the U.S. Nationals.\r\n\r\nCoughlin with the starting line advantage, but Glenn had the lead by 150 feet and never trailed  from there on for the win.  Glenn wins his fourth Wally this season and his 25th career.  Glenn wins the Pro Stock regular season championship."
+  }
+ ]
+}

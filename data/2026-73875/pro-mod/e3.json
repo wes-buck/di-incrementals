@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 0.958,
+     "ft330": 2.573,
+     "ft660": 3.802,
+     "mph660": 199.76,
+     "ft1000": 4.86,
+     "et": 5.759,
+     "mph": 250.0,
+     "first": 0.0005,
+     "lane": "Left",
+     "win": true,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0005
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.948,
+     "ft330": 2.564,
+     "ft660": 3.8,
+     "mph660": 198.23,
+     "ft1000": 4.866,
+     "et": 5.768,
+     "mph": 249.9,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Derek Menholt",
+     "car": "5",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 35 percent, barometer 30.07 inches, adjusted\r\naltitude 1,292 feet, track temperature 121 degrees.\r\n\r\nMenholt with the starting line advantage, but Thielen chased him down in the the light for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 1.048,
+     "ft330": 3.19,
+     "ft660": 4.699,
+     "mph660": 177.39,
+     "ft1000": 5.942,
+     "et": 7.2,
+     "mph": 167.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lyle Barnett",
+     "car": "205",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.026,
+     "ft60": 1.056,
+     "ft330": 2.983,
+     "ft660": 4.366,
+     "mph660": 185.69,
+     "ft1000": 5.472,
+     "et": 6.399,
+     "mph": 242.76,
+     "first": 0.8071,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "168",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.8071
+    }
+   ],
+   "note": "This is the first time Barnett and Collins have faced each other in eliminations. \r\n\r\nCollins with the starting line advantage and never trailed for the win.  He will give up lane choice in the\r\nfinal to Thielen."
+  }
+ ]
+}

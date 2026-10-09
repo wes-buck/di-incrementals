@@ -1,0 +1,183 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 1.002,
+     "ft330": 2.779,
+     "ft660": 4.234,
+     "mph660": 167.28,
+     "ft1000": 5.504,
+     "et": 6.572,
+     "mph": 210.18,
+     "first": 0.0078,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0078
+    },
+    {
+     "rt": 0.037,
+     "ft60": 0.994,
+     "ft330": 2.762,
+     "ft660": 4.232,
+     "mph660": 167.57,
+     "ft1000": 5.503,
+     "et": 6.574,
+     "mph": 209.49,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 0.983,
+     "ft330": 2.725,
+     "ft660": 4.187,
+     "mph660": 167.8,
+     "ft1000": 5.454,
+     "et": 6.519,
+     "mph": 211.43,
+     "first": 0.4671,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.4671
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.986,
+     "ft330": 2.754,
+     "ft660": 4.227,
+     "mph660": 166.03,
+     "ft1000": 5.62,
+     "et": 6.967,
+     "mph": 159.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mason McGaha",
+     "car": "400",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 0.977,
+     "ft330": 2.732,
+     "ft660": 4.198,
+     "mph660": 167.78,
+     "ft1000": 5.465,
+     "et": 6.533,
+     "mph": 210.05,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.019,
+     "ft60": 0.989,
+     "ft330": 2.739,
+     "ft660": 4.203,
+     "mph660": 168.32,
+     "ft1000": 5.469,
+     "et": 6.535,
+     "mph": 210.9,
+     "first": 0.0134,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0134
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.142,
+     "ft60": 0.992,
+     "ft330": 2.75,
+     "ft660": 4.214,
+     "mph660": 168.01,
+     "ft1000": 5.477,
+     "et": 6.541,
+     "mph": 210.7,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.013,
+     "ft60": 0.996,
+     "ft330": 2.748,
+     "ft660": 4.212,
+     "mph660": 168.22,
+     "ft1000": 5.477,
+     "et": 6.543,
+     "mph": 210.7,
+     "first": 0.127,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.127
+    }
+   ],
+   "note": null
+  }
+ ]
+}

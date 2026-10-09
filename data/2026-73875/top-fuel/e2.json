@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73875/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73875",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NHRA Southern Nationals",
+ "event_date": "2026-05-01",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.862,
+     "ft330": 2.182,
+     "ft660": 3.081,
+     "mph660": 287.23,
+     "ft1000": null,
+     "et": 3.812,
+     "mph": 332.59,
+     "first": 9.3605,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "2",
+     "mov": 9.3605
+    },
+    {
+     "rt": 0.064,
+     "ft60": 1.193,
+     "ft330": 4.677,
+     "ft660": 8.144,
+     "mph660": 59.75,
+     "ft1000": null,
+     "et": 13.197,
+     "mph": 38.36,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 38 percent, barometer 30.10 inches, adjusted\r\naltitude 1,132 feet, track temperature 115 degrees.\r\n\r\nBrown is 35 - 28 against Langdon in prior events. \r\n\r\nBrown with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nLangdon is straight down the groove with a good clean pass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.107,
+     "ft60": 0.868,
+     "ft330": 2.281,
+     "ft660": 3.55,
+     "mph660": 172.19,
+     "ft1000": null,
+     "et": 5.026,
+     "mph": 147.91,
+     "first": 2.0911,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "6",
+     "mov": 2.0911
+    },
+    {
+     "rt": 0.088,
+     "ft60": 1.023,
+     "ft330": 3.579,
+     "ft660": 5.538,
+     "mph660": 134.52,
+     "ft1000": null,
+     "et": 7.136,
+     "mph": 142.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Millican and Torrence have each won 5 times against the other in prior events.\r\n\r\ntorrence with the starting line advantage, but is up in smoke right at the hit and clicked it off.\r\n\r\nMillican started to haze the tires and pedaled it and got it to hook up enough for the win.  He will give up\r\nlane choice to Langdon in the semifinal."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.989,
+     "ft330": 4.008,
+     "ft660": 7.384,
+     "mph660": 69.98,
+     "ft1000": null,
+     "et": 10.44,
+     "mph": 80.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.867,
+     "ft330": 2.215,
+     "ft660": 3.149,
+     "mph660": 273.66,
+     "ft1000": null,
+     "et": 4.035,
+     "mph": 246.35,
+     "first": 6.4168,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": 6.4168
+    }
+   ],
+   "note": "Ashley is 1 - 0 against Gordon in prior events. \r\n\r\nAshley with the starting line advantage and never trailed for the win.  Ashley started to haze the tires and\r\ndrop cylinders, but gets the win.\r\n\r\nGordon is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.027,
+     "ft60": 0.865,
+     "ft330": 2.198,
+     "ft660": 3.111,
+     "mph660": 281.77,
+     "ft1000": null,
+     "et": 3.864,
+     "mph": 322.96,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.851,
+     "ft330": 2.168,
+     "ft660": 3.067,
+     "mph660": 287.29,
+     "ft1000": null,
+     "et": 3.798,
+     "mph": 333.0,
+     "first": 0.0317,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
+     "mov": 0.0317
+    }
+   ],
+   "note": "Kalitta is 23 - 13 against Pruett in prior events.\r\n\r\nPruett with a great light, but Kalitta chased her down just past half track and runs low E.T. of the round for\r\nthe win.  He will have lane choice over Ashley in the semifinal."
+  }
+ ]
+}

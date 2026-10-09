@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0373,
+     "ft60": 0.8572,
+     "ft330": 2.1561,
+     "ft660": 3.0343,
+     "mph660": 292.21,
+     "ft1000": null,
+     "et": 3.755,
+     "mph": 337.08,
+     "first": 0.224,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0108,
+     "ft60": 0.834,
+     "ft330": 2.1291,
+     "ft660": 3.0859,
+     "mph660": 249.58,
+     "ft1000": null,
+     "et": 4.0055,
+     "mph": 241.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.046,
+     "ft60": 0.8557,
+     "ft330": 2.1683,
+     "ft660": 3.0735,
+     "mph660": 280.9,
+     "ft1000": null,
+     "et": 3.8298,
+     "mph": 320.74,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0154,
+     "ft60": 0.8549,
+     "ft330": 2.1687,
+     "ft660": 3.0389,
+     "mph660": 294.12,
+     "ft1000": null,
+     "et": 3.7679,
+     "mph": 330.88,
+     "first": 0.0925,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0391,
+     "ft60": 0.8499,
+     "ft330": 2.1469,
+     "ft660": 3.0335,
+     "mph660": 287.54,
+     "ft1000": null,
+     "et": 3.7757,
+     "mph": 324.91,
+     "first": 0.016,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0541,
+     "ft60": 0.8559,
+     "ft330": 2.1661,
+     "ft660": 3.0436,
+     "mph660": 289.95,
+     "ft1000": null,
+     "et": 3.7767,
+     "mph": 330.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0516,
+     "ft60": 0.848,
+     "ft330": 2.1431,
+     "ft660": 3.0825,
+     "mph660": 254.52,
+     "ft1000": null,
+     "et": 4.0693,
+     "mph": 222.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.043,
+     "ft60": 0.8701,
+     "ft330": 2.1907,
+     "ft660": 3.0683,
+     "mph660": 290.51,
+     "ft1000": null,
+     "et": 3.8006,
+     "mph": 330.4,
+     "first": 0.2773,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1449,
+     "ft60": 0.8782,
+     "ft330": 2.7882,
+     "ft660": 5.5168,
+     "mph660": 78.88,
+     "ft1000": null,
+     "et": 8.3824,
+     "mph": 84.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Rit Pustari",
+     "car": "115",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0334,
+     "ft60": 0.834,
+     "ft330": 2.1357,
+     "ft660": 3.0179,
+     "mph660": 292.02,
+     "ft1000": null,
+     "et": 3.743,
+     "mph": 334.57,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 4.7509
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0311,
+     "ft60": 0.8619,
+     "ft330": 2.2156,
+     "ft660": 3.1553,
+     "mph660": 271.58,
+     "ft1000": null,
+     "et": 3.9382,
+     "mph": 308.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0302,
+     "ft60": 0.8349,
+     "ft330": 2.1298,
+     "ft660": 2.9989,
+     "mph660": 295.66,
+     "ft1000": null,
+     "et": 3.7185,
+     "mph": 336.83,
+     "first": 0.2206,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0942,
+     "ft60": 0.8575,
+     "ft330": 2.1783,
+     "ft660": 3.0629,
+     "mph660": 288.83,
+     "ft1000": null,
+     "et": 3.7965,
+     "mph": 330.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.012,
+     "ft60": 0.8488,
+     "ft330": 2.1522,
+     "ft660": 3.0205,
+     "mph660": 294.31,
+     "ft1000": null,
+     "et": 3.7438,
+     "mph": 332.59,
+     "first": 0.1349,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0337,
+     "ft60": 0.8496,
+     "ft330": 2.1261,
+     "ft660": 3.1158,
+     "mph660": 246.58,
+     "ft1000": null,
+     "et": 3.988,
+     "mph": 267.86,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0362,
+     "ft60": 0.8546,
+     "ft330": 2.1672,
+     "ft660": 3.0457,
+     "mph660": 290.7,
+     "ft1000": null,
+     "et": 3.7832,
+     "mph": 327.03,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": 0.2023
+    }
+   ],
+   "note": null
+  }
+ ]
+}

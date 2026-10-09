@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73886/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73886",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NHRA Nationals at The Rock",
+ "event_date": "2026-09-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0411,
+     "ft60": 0.8559,
+     "ft330": 2.1712,
+     "ft660": 3.0678,
+     "mph660": 287.72,
+     "ft1000": null,
+     "et": 3.7979,
+     "mph": 333.33,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": 3.6043
+    },
+    {
+     "rt": 0.0473,
+     "ft60": 0.9222,
+     "ft330": 2.6575,
+     "ft660": 4.7162,
+     "mph660": 100.94,
+     "ft1000": null,
+     "et": 7.396,
+     "mph": 77.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0275,
+     "ft60": 0.8649,
+     "ft330": 2.2179,
+     "ft660": 3.3332,
+     "mph660": 216.87,
+     "ft1000": null,
+     "et": 4.4726,
+     "mph": 192.47,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0326,
+     "ft60": 0.8487,
+     "ft330": 2.147,
+     "ft660": 3.0281,
+     "mph660": 292.59,
+     "ft1000": null,
+     "et": 3.7513,
+     "mph": 335.82,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": 0.7162
+    }
+   ],
+   "note": null
+  }
+ ]
+}

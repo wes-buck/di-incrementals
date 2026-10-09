@@ -1,0 +1,323 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/funny-car/q2",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "funny-car",
+ "round": "Q2",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.1332,
+     "ft60": 0.877,
+     "ft330": 2.2834,
+     "ft660": 3.2164,
+     "mph660": 279.85,
+     "ft1000": null,
+     "et": 3.961,
+     "mph": 327.27,
+     "first": 4.7291,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0649,
+     "ft60": 0.8805,
+     "ft330": 3.1341,
+     "ft660": 5.9059,
+     "mph660": 80.96,
+     "ft1000": null,
+     "et": 8.7584,
+     "mph": 80.53,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 57 percent, barometer 30.19 inches,\r\nadjusted altitude 1,942 feet, track temperature 104 degrees.\r\n\r\nHagan is straight down the groove to move into the top half of the show.\r\n\r\nVandergriff was up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 0.8781,
+     "ft330": 2.2569,
+     "ft660": 3.1798,
+     "mph660": 277.78,
+     "ft1000": null,
+     "et": 3.9341,
+     "mph": 321.89,
+     "first": 0.0455,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0798,
+     "ft60": 0.8779,
+     "ft330": 2.2769,
+     "ft660": 3.2046,
+     "mph660": 280.37,
+     "ft1000": null,
+     "et": 3.9478,
+     "mph": 329.91,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Beckman kept it hooked up and gets off the bump, all the way to the number four spot.\r\n\r\nGreen is straight down the groove to the number six spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1091,
+     "ft60": 0.8952,
+     "ft330": 2.2798,
+     "ft660": 3.2148,
+     "mph660": 278.64,
+     "ft1000": null,
+     "et": 3.9805,
+     "mph": 316.9,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0913,
+     "ft60": 0.8743,
+     "ft330": 2.2338,
+     "ft660": 3.1477,
+     "mph660": 282.13,
+     "ft1000": null,
+     "et": 3.8865,
+     "mph": 327.51,
+     "first": 0.1118,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Richards with a good pass, straight down the groove to get off the bump spot.\r\n\r\nPedregon launched had and kept it hooked up to go to the number one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0727,
+     "ft60": 0.9025,
+     "ft330": 2.2711,
+     "ft660": 3.1866,
+     "mph660": 281.78,
+     "ft1000": null,
+     "et": 3.9246,
+     "mph": 331.86,
+     "first": 5.2763,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0877,
+     "ft60": 0.9182,
+     "ft330": 3.1949,
+     "ft660": 6.1438,
+     "mph660": 76.06,
+     "ft1000": null,
+     "et": 9.1859,
+     "mph": 76.47,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Haas",
+     "car": "328",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "DeJoria is straight down the groove to move into the top half of the show.\r\n\r\nHaas shook right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0877,
+     "ft60": 0.9,
+     "ft330": 2.3253,
+     "ft660": 3.2908,
+     "mph660": 266.27,
+     "ft1000": null,
+     "et": 4.0832,
+     "mph": 305.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.1165,
+     "ft60": 0.8977,
+     "ft330": 2.2733,
+     "ft660": 3.2101,
+     "mph660": 275.06,
+     "ft1000": null,
+     "et": 3.9806,
+     "mph": 314.47,
+     "first": 0.0742,
+     "lane": "Right",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Green is straight down the groove with a clean pass.\r\n\r\nHaddock kept it hooked up to make his quickest pass of the season."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "BYE",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0559,
+     "ft60": 0.8862,
+     "ft330": 2.2616,
+     "ft660": 3.1777,
+     "mph660": 283.73,
+     "ft1000": null,
+     "et": 3.9169,
+     "mph": 331.13,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hyde launched hard and kept it hooked up to go to the number three spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0702,
+     "ft60": 0.8827,
+     "ft330": 2.2543,
+     "ft660": 3.1626,
+     "mph660": 284.99,
+     "ft1000": null,
+     "et": 3.9038,
+     "mph": 321.2,
+     "first": 0.0173,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dan WIlkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0607,
+     "ft60": 0.883,
+     "ft330": 2.2624,
+     "ft660": 3.1865,
+     "mph660": 282.49,
+     "ft1000": null,
+     "et": 3.9306,
+     "mph": 326.8,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Wilkerson launched hard and kept it hooked up to move up the ladder one spot.\r\n\r\nCapps is straight down the groove with his quickest pass.  He moves up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0438,
+     "ft60": 0.8815,
+     "ft330": 2.2586,
+     "ft660": 3.1709,
+     "mph660": 284.63,
+     "ft1000": null,
+     "et": 3.8988,
+     "mph": 337.33,
+     "first": 0.0007,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0338,
+     "ft60": 0.8828,
+     "ft330": 2.2523,
+     "ft660": 3.1705,
+     "mph660": 283.91,
+     "ft1000": null,
+     "et": 3.9095,
+     "mph": 331.61,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": "Todd kept it hooked up and is straight down the groove with another good pass.\r\n\r\nProck kept it hooked up to go to the number four spot."
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/74395/detailed-results/pro-stock/q1",
+ "year": 2026,
+ "event_id": "74395",
+ "class": "pro-stock",
+ "round": "Q1",
+ "event_name": "Dodge NHRA Great Lakes Nationals presented by MOPAR",
+ "event_date": "2026-09-18",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.0084,
+     "ft60": 1.5713,
+     "ft330": 5.7398,
+     "ft660": 11.2892,
+     "mph660": 38.92,
+     "ft1000": 17.6202,
+     "et": 24.2695,
+     "mph": 31.33,
+     "first": 10.2423,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0401,
+     "ft60": 1.7832,
+     "ft330": 10.8296,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 65 percent, barometer 30.27 inches,\r\nadjusted altitude 1,723 feet. \r\n\r\nTucker with severe tire shake right at the hit and clicked it off.\r\n\r\nKramer with severe tire shake and came to a stop on the track."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1094,
+     "ft60": 0.9925,
+     "ft330": 2.772,
+     "ft660": 4.2348,
+     "mph660": 166.73,
+     "ft1000": 5.512,
+     "et": 6.5908,
+     "mph": 208.72,
+     "first": 11.0037,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.2386,
+     "ft60": 2.0101,
+     "ft330": 8.1,
+     "ft660": 11.4853,
+     "mph660": 76.78,
+     "ft1000": 14.471,
+     "et": 17.4653,
+     "mph": 70.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Delco kept it hooked up to make a good looking pass.\r\n\r\nLatino shook and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0422,
+     "ft60": 0.9794,
+     "ft330": 3.6121,
+     "ft660": 6.9812,
+     "mph660": 65.63,
+     "ft1000": 9.9636,
+     "et": 12.3012,
+     "mph": 93.95,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0644,
+     "ft60": 0.9802,
+     "ft330": 2.7307,
+     "ft660": 4.1962,
+     "mph660": 167.97,
+     "ft1000": 5.4608,
+     "et": 6.5312,
+     "mph": 207.85,
+     "first": 5.7478,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Coughlin Jr. made a move toward the wall and clicked it off.\r\n\r\nAnderson kept it hooked up and straight down the groove to go to the number one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0561,
+     "ft60": 1.3296,
+     "ft330": 6.5855,
+     "ft660": 10.6528,
+     "mph660": 71.35,
+     "ft1000": 13.6625,
+     "et": 16.5986,
+     "mph": 72.92,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0901,
+     "ft60": 0.9922,
+     "ft330": 2.7542,
+     "ft660": 4.2242,
+     "mph660": 166.91,
+     "ft1000": 5.4925,
+     "et": 6.5613,
+     "mph": 210.38,
+     "first": 10.0033,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Stanfield shook and clicked it off.\r\n\r\nCoughlin is straight down the groove to the number two spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0,
+     "ft60": 0.9866,
+     "ft330": 2.7375,
+     "ft660": 4.2037,
+     "mph660": 167.85,
+     "ft1000": 5.4696,
+     "et": 6.5385,
+     "mph": 209.5,
+     "first": 0.0073,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0002,
+     "ft60": 0.992,
+     "ft330": 2.7417,
+     "ft660": 4.2089,
+     "mph660": 167.41,
+     "ft1000": 5.4766,
+     "et": 6.5456,
+     "mph": 210.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "A pair of good looking passes, they both had perfect reaction times.\r\n\r\nLatino kept it hooked up to go to the number two spot.\r\n\r\nEnders is straight down the groove to the number three spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.1075,
+     "ft60": 0.9786,
+     "ft330": 2.7231,
+     "ft660": 4.1879,
+     "mph660": 168.29,
+     "ft1000": 5.45,
+     "et": 6.5166,
+     "mph": 209.79,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0421,
+     "ft60": 0.9804,
+     "ft330": 2.7268,
+     "ft660": 4.194,
+     "mph660": 167.54,
+     "ft1000": 5.4639,
+     "et": 6.5345,
+     "mph": 209.59,
+     "first": 0.0475,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hartford launched hard and kept it hooked up to go to the number one spot.\r\n\r\nStanfield is straight down the groove to the number three spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.0334,
+     "ft60": 0.9837,
+     "ft330": 2.7309,
+     "ft660": 4.1931,
+     "mph660": 168.35,
+     "ft1000": 5.4553,
+     "et": 6.5218,
+     "mph": 209.11,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0257,
+     "ft60": 0.9839,
+     "ft330": 2.733,
+     "ft660": 4.1986,
+     "mph660": 168.16,
+     "ft1000": 5.4623,
+     "et": 6.529,
+     "mph": 209.99,
+     "first": 0.0005,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PS",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is straight down the groove to the number two spot.\r\n\r\nGlenn with a good pass to the number three spot."
+  }
+ ]
+}

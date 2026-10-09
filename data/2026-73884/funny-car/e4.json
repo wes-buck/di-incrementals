@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73884/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73884",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Cornwell Quality Tools NHRA U.S. Nationals",
+ "event_date": "2026-09-02",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 0.888,
+     "ft330": 2.277,
+     "ft660": 3.217,
+     "mph660": 276.24,
+     "ft1000": null,
+     "et": 3.965,
+     "mph": 327.35,
+     "first": 0.0667,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "3",
+     "mov": 0.0667
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.897,
+     "ft330": 2.308,
+     "ft660": 3.269,
+     "mph660": 272.39,
+     "ft1000": null,
+     "et": 4.03,
+     "mph": 318.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "4:37 p.m. Weather conditions: air temperature 81 degrees, relative humidity 49 percent, barometer 30.05 inches, adjusted altitude 2,877 feet.\r\n\r\nHagan is 34 - 27 against Beckman in prior events and Hagan is 5 - 3 against Beckman in prior final rounds. \r\n\r\nA coin flip off of the line, Beckman gets out in front early and extends his ead all the way through the run.\r\n\r\nJack Beckman's incremental margins: 60ft(0.010), 330 ft(0.032), 660ft(0.053).  MOV: 0.0667 seconds (approximately 31 feet).\r\n\r\nBeckman wins his 39th career win. he doubled-up, winning the callout and the main race, for the second time. He won both the first time in 2015."
+  }
+ ]
+}

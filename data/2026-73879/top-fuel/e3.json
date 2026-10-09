@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.045,
+     "ft60": 0.857,
+     "ft330": 2.177,
+     "ft660": 3.064,
+     "mph660": 290.76,
+     "ft1000": null,
+     "et": 3.791,
+     "mph": 338.09,
+     "first": 0.3337,
+     "lane": "Left",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "9",
+     "mov": 0.3337
+    },
+    {
+     "rt": 0.244,
+     "ft60": 0.862,
+     "ft330": 2.189,
+     "ft660": 3.097,
+     "mph660": 284.21,
+     "ft1000": null,
+     "et": 3.925,
+     "mph": 266.21,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 81 degrees, relative humidity 68 percent, barometer 29.85 inches, adjusted\r\naltitude 4,045 feet, track temperature 106 degrees.\r\n\r\nLangdon is 4 - 3 against Stewart in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win.  He has a big top end speed to move\r\non.  Langdon is advancing to his seventh final round this season and 58th of his career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.854,
+     "ft330": 2.225,
+     "ft660": 3.583,
+     "mph660": 158.52,
+     "ft1000": null,
+     "et": 5.164,
+     "mph": 139.37,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 0.856,
+     "ft330": 2.179,
+     "ft660": 3.067,
+     "mph660": 289.26,
+     "ft1000": null,
+     "et": 3.798,
+     "mph": 330.88,
+     "first": 1.3941,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": 1.3941
+    }
+   ],
+   "note": "Brown is 43 - 38 against Kalitta in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.  He will give up lane choice to Langdon\r\nin the final.  Brown is advancing to his second final this season and 34th career.\r\n\r\nKalitta is up in smoke early and clicked it off."
+  }
+ ]
+}

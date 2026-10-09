@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73879/detailed-results/pro-stock/e1",
+ "year": 2026,
+ "event_id": "73879",
+ "class": "pro-stock",
+ "round": "E1",
+ "event_name": "Super Grip NHRA Thunder Valley Nationals",
+ "event_date": "2026-06-12",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 0.997,
+     "ft330": 2.789,
+     "ft660": 4.289,
+     "mph660": 163.89,
+     "ft1000": 5.586,
+     "et": 6.678,
+     "mph": 205.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.994,
+     "ft330": 2.786,
+     "ft660": 4.283,
+     "mph660": 164.51,
+     "ft1000": 5.574,
+     "et": 6.664,
+     "mph": 204.76,
+     "first": 0.0401,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0401
+    }
+   ],
+   "note": "Weather conditions: air temperature 78 degrees, relative humidity 66 percent, barometer 29.92 inches, adjusted\r\naltitude 3,712 feet, track temperature 107 degrees.\r\n\r\nJeg Coughlin is 344 - 144 (70%) in Rd. 1. Cody Anderson is the 106th driver to face Jeg in eliminations\r\n\r\nAnderson with the starting line advantage and never trailed for the win.  He makes his quickest pass of the\r\nweekend for the win.\r\n\r\nCoughlin with his quickest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.993,
+     "ft330": 2.783,
+     "ft660": 4.324,
+     "mph660": 158.17,
+     "ft1000": 5.74,
+     "et": 7.127,
+     "mph": 153.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.986,
+     "ft330": 2.78,
+     "ft660": 4.28,
+     "mph660": 163.57,
+     "ft1000": 5.575,
+     "et": 6.667,
+     "mph": 204.54,
+     "first": 0.4483,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.4483
+    }
+   ],
+   "note": "Erica Enders wins 86% of her Rd. 1 races when she has lane choice. Aaron Stanfield is 3 - 2 against Enders in\r\nRd. 1.\r\n\r\nEnders is 15 - 10 against Stanfield in prior events. \r\n\r\nEnders with the starting line advantage, but had problems by half track and the car shut off.\r\n\r\nStanfield kept it hooked up and makes his quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.026,
+     "ft60": 0.993,
+     "ft330": 2.784,
+     "ft660": 4.278,
+     "mph660": 164.75,
+     "ft1000": 5.568,
+     "et": 6.656,
+     "mph": 205.38,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.363,
+     "ft60": 0.994,
+     "ft330": 2.785,
+     "ft660": 4.28,
+     "mph660": 164.63,
+     "ft1000": 5.57,
+     "et": 6.659,
+     "mph": 204.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "The #5 PS qualifier is 17 - 5 in Rd. 1 at this event. Eric Latino is 3 - 5 in Rd. 1 this year\r\n\r\nM. Latino is 1 - 0 against E. Latino in prior events. \r\n\r\nEric goes red to give Matt the win.  Matt with his quickest pass of the weekend for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 0.986,
+     "ft330": 2.774,
+     "ft660": 4.267,
+     "mph660": 164.73,
+     "ft1000": 5.556,
+     "et": 6.643,
+     "mph": 205.91,
+     "first": 0.0153,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0153
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.991,
+     "ft330": 2.793,
+     "ft660": 4.294,
+     "mph660": 163.95,
+     "ft1000": 5.588,
+     "et": 6.684,
+     "mph": 203.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Dallas Glenn has won 26 consecutive Rd. 1 races (5th most in PS history). Stephen Bell is making his 11th\r\nstart.\r\n\r\nGlenn is 2 - 0 against Bell in prior events. \r\n\r\nBell with the starting line advantage, but Glenn chased him down by half track and never trailed from there on\r\nfor the win.  Glenn kept it hooked up and makes the quickest pass of the event.  He will have lane choice over\r\nAaron Stanfield.\r\n\r\nBell with his quickest pass of the weekend in the losing effort.\r\n\r\nDallas Glenn's MOV: 0.0153 seconds (approximately 5 feet)."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.013,
+     "ft60": 1.012,
+     "ft330": 2.802,
+     "ft660": 4.296,
+     "mph660": 164.83,
+     "ft1000": 5.586,
+     "et": 6.675,
+     "mph": 205.07,
+     "first": 0.0713,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0713
+    },
+    {
+     "rt": 0.043,
+     "ft60": 1.025,
+     "ft330": 2.833,
+     "ft660": 4.334,
+     "mph660": 164.19,
+     "ft1000": 5.627,
+     "et": 6.716,
+     "mph": 206.7,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "In 8 races this year Matt Hartford has 5 Rd. 1 losses and 3 Final rounds. Shane Tucker has set Top Speed at\r\nthe last 2 races.\r\n\r\nHartford and Tucker have each won 1 times against the other in prior events. \r\n\r\nHartford with the starting line advantage and never trailed for the win.  He will give up lane choice to Cody\r\nAnderson in the next round.\r\n\r\nTucker with his quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 1.001,
+     "ft330": 2.785,
+     "ft660": 4.277,
+     "mph660": 164.77,
+     "ft1000": 5.567,
+     "et": 6.656,
+     "mph": 204.45,
+     "first": 0.0383,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0383
+    },
+    {
+     "rt": 0.012,
+     "ft60": 1.01,
+     "ft330": 2.828,
+     "ft660": 4.343,
+     "mph660": 162.76,
+     "ft1000": 5.648,
+     "et": 6.748,
+     "mph": 203.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Anderson is 16 - 1 against Delco in prior events.\r\n\r\nDelco with a great light, but Anderson chased him down by 500 feet and never trailed from there on for the\r\nwin.  He will have a bye in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.021,
+     "ft60": 0.994,
+     "ft330": 2.785,
+     "ft660": 4.28,
+     "mph660": 164.51,
+     "ft1000": 5.571,
+     "et": 6.662,
+     "mph": 203.98,
+     "first": 0.0136,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0136
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.998,
+     "ft330": 2.797,
+     "ft660": 4.297,
+     "mph660": 163.47,
+     "ft1000": 5.592,
+     "et": 6.68,
+     "mph": 206.48,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Greg Stanfield beat Troy in Rd. 1in Phoenix this year. Troy Coughlin Jr. starts the day with 100 round wins.\r\n\r\nCoughlin Jr. with the starting line advantage, but stanfield had the difference made up by 100 feet and never\r\ntrailed from there on for the win.  Stanfield with his quickest pass of the weekend for the win.  He will give\r\nup lane choice to Matt Latino in the next round.\r\n\r\nCoughlin with his quickest pass of the weekend in the losing effort.\r\n\r\nGreg Stanfield's MOV: 0.0136 seconds (approximately 4 feet)."
+  }
+ ]
+}

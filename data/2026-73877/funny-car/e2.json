@@ -1,0 +1,167 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73877/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73877",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "NHRA Potomac Nationals presented by JEGS",
+ "event_date": "2026-05-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.897,
+     "ft330": 2.304,
+     "ft660": 3.249,
+     "mph660": 274.78,
+     "ft1000": null,
+     "et": 4.008,
+     "mph": 321.81,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.06,
+     "ft60": 0.899,
+     "ft330": 2.306,
+     "ft660": 3.246,
+     "mph660": 276.86,
+     "ft1000": null,
+     "et": 3.996,
+     "mph": 324.98,
+     "first": 0.0367,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "4",
+     "mov": 0.0367
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.882,
+     "ft330": 2.275,
+     "ft660": 3.235,
+     "mph660": 270.0,
+     "ft1000": null,
+     "et": 3.999,
+     "mph": 321.88,
+     "first": 0.1179,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": 0.1179
+    },
+    {
+     "rt": 0.069,
+     "ft60": 0.884,
+     "ft330": 2.279,
+     "ft660": 3.25,
+     "mph660": 255.73,
+     "ft1000": null,
+     "et": 4.112,
+     "mph": 274.44,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.096,
+     "ft60": 0.884,
+     "ft330": 2.302,
+     "ft660": 3.249,
+     "mph660": 275.67,
+     "ft1000": null,
+     "et": 4.003,
+     "mph": 324.05,
+     "first": 0.0182,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": 0.0182
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.887,
+     "ft330": 2.3,
+     "ft660": 3.244,
+     "mph660": 277.94,
+     "ft1000": null,
+     "et": 4.018,
+     "mph": 311.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 0.883,
+     "ft330": 2.291,
+     "ft660": 3.347,
+     "mph660": 233.52,
+     "ft1000": null,
+     "et": 4.255,
+     "mph": 263.05,
+     "first": 0.6864,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "10",
+     "mov": 0.6864
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.908,
+     "ft330": 2.329,
+     "ft660": 3.577,
+     "mph660": 180.89,
+     "ft1000": null,
+     "et": 4.939,
+     "mph": 163.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

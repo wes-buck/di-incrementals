@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73876/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73876",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "Gerber Collision & Glass Route 66 NHRA Nationals presented by PEAK",
+ "event_date": "2026-05-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.007,
+     "ft60": 1.0,
+     "ft330": 2.786,
+     "ft660": 4.275,
+     "mph660": 164.91,
+     "ft1000": 5.562,
+     "et": 6.646,
+     "mph": 207.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.004,
+     "ft60": 0.996,
+     "ft330": 2.774,
+     "ft660": 4.262,
+     "mph660": 165.31,
+     "ft1000": 5.551,
+     "et": 6.639,
+     "mph": 207.18,
+     "first": 0.0108,
+     "lane": "Right",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0108
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 0.989,
+     "ft330": 2.758,
+     "ft660": 4.238,
+     "mph660": 165.74,
+     "ft1000": 5.518,
+     "et": 6.597,
+     "mph": 206.99,
+     "first": 0.0098,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0098
+    },
+    {
+     "rt": 0.037,
+     "ft60": 1.002,
+     "ft330": 2.775,
+     "ft660": 4.253,
+     "mph660": 166.5,
+     "ft1000": 5.528,
+     "et": 6.603,
+     "mph": 208.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73881/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73881",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "DENSO NHRA Sonoma Nationals presented by PowerEdge",
+ "event_date": "2026-07-17",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.065,
+     "ft60": 0.875,
+     "ft330": 2.252,
+     "ft660": 3.166,
+     "mph660": 283.55,
+     "ft1000": null,
+     "et": 3.9,
+     "mph": 330.72,
+     "first": 0.0422,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": 0.0422
+    },
+    {
+     "rt": 0.057,
+     "ft60": 0.883,
+     "ft330": 2.273,
+     "ft660": 3.185,
+     "mph660": 283.97,
+     "ft1000": null,
+     "et": 3.95,
+     "mph": 301.33,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 73 degrees, relative humidity 59 percent, barometer 29.90 inches, adjusted\r\naltitude 1,459 feet.\r\n\r\nThe #1 FC qualifier is 8 - 7 in the Final round at this event. The last time the #1 FC qualifier won this race was 2024.\r\n\r\nVandergriff is 1 - 0 against Wilkerson in prior events and this is the first time they have faced each other\r\nin a final round.\r\n\r\nWilkerson with the starting line advantage, but Vandergriff has the difference made up by 100 feet and never\r\ntrailed from there on for the win.  Vandergriff wins his second Wally."
+  }
+ ]
+}

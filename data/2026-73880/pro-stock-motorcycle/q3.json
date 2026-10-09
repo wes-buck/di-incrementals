@@ -1,0 +1,312 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73880/detailed-results/pro-stock-motorcycle/q3",
+ "year": 2026,
+ "event_id": "73880",
+ "class": "pro-stock-motorcycle",
+ "round": "Q3",
+ "event_name": "Summit Racing Equipment NHRA Nationals",
+ "event_date": "2026-06-25",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 1.092,
+     "ft330": 2.924,
+     "ft660": 4.486,
+     "mph660": 156.12,
+     "ft1000": 5.862,
+     "et": 7.05,
+     "mph": 187.29,
+     "first": 3.8257,
+     "lane": "Left",
+     "win": true,
+     "driver": "Wesley Wells",
+     "car": "371",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.369,
+     "ft60": 1.169,
+     "ft330": 3.206,
+     "ft660": 5.393,
+     "mph660": 98.51,
+     "ft1000": 7.926,
+     "et": 10.604,
+     "mph": 77.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Odolph Daniels",
+     "car": "363",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 1.125,
+     "ft330": 2.956,
+     "ft660": 4.511,
+     "mph660": 156.86,
+     "ft1000": 5.879,
+     "et": 7.054,
+     "mph": 190.75,
+     "first": 0.0102,
+     "lane": "Left",
+     "win": true,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.053,
+     "ft60": 1.072,
+     "ft330": 2.896,
+     "ft660": 4.44,
+     "mph660": 158.28,
+     "ft1000": 5.8,
+     "et": 7.036,
+     "mph": 172.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 1.1,
+     "ft330": 2.907,
+     "ft660": 4.436,
+     "mph660": 160.31,
+     "ft1000": 5.771,
+     "et": 6.913,
+     "mph": 196.1,
+     "first": 6.9272,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jianna Evaristo",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.02,
+     "ft60": 1.21,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.103,
+     "ft60": 1.078,
+     "ft330": 2.874,
+     "ft660": 4.387,
+     "mph660": 162.06,
+     "ft1000": 5.707,
+     "et": 6.834,
+     "mph": 199.08,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 1.058,
+     "ft330": 2.847,
+     "ft660": 4.36,
+     "mph660": 162.02,
+     "ft1000": 5.684,
+     "et": 6.832,
+     "mph": 194.77,
+     "first": 0.0666,
+     "lane": "Right",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 1.079,
+     "ft330": 2.881,
+     "ft660": 4.401,
+     "mph660": 160.77,
+     "ft1000": 5.738,
+     "et": 6.888,
+     "mph": 194.32,
+     "first": 0.4015,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.025,
+     "ft60": 1.065,
+     "ft330": 2.854,
+     "ft660": 4.377,
+     "mph660": 160.46,
+     "ft1000": 5.841,
+     "et": 7.332,
+     "mph": 142.03,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Brayden Davis",
+     "car": "5",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.043,
+     "ft60": 1.087,
+     "ft330": 2.87,
+     "ft660": 4.372,
+     "mph660": 163.37,
+     "ft1000": 5.682,
+     "et": 6.8,
+     "mph": 200.62,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.02,
+     "ft60": 1.04,
+     "ft330": 2.823,
+     "ft660": 4.336,
+     "mph660": 161.94,
+     "ft1000": 5.657,
+     "et": 6.79,
+     "mph": 198.26,
+     "first": 0.0336,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0336
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.055,
+     "ft60": 1.053,
+     "ft330": 2.86,
+     "ft660": 4.401,
+     "mph660": 159.14,
+     "ft1000": 5.745,
+     "et": 6.903,
+     "mph": 191.27,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.034,
+     "ft60": 1.042,
+     "ft330": 2.822,
+     "ft660": 4.331,
+     "mph660": 162.22,
+     "ft1000": 5.65,
+     "et": 6.78,
+     "mph": 198.99,
+     "first": 0.1448,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1448
+    }
+   ],
+   "note": "Johnson with a good pass, but will not improve.\r\n\r\nHerrera launched hard and kept it hooked up.  He will not improve, but holds on to the number one spot.  Gaige\r\nHerrera's incremental times: 60ft-1.042 sec., 330ft-2.822, 660ft-4.331/162.22 mph, 1,000ft-5.650."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73883/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73883",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NHRA Brainerd Nationals",
+ "event_date": "2026-08-20",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 0.879,
+     "ft330": 2.276,
+     "ft660": 3.198,
+     "mph660": 284.93,
+     "ft1000": null,
+     "et": 3.946,
+     "mph": 320.13,
+     "first": 0.0892,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 0.0892
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.875,
+     "ft330": 2.244,
+     "ft660": 3.167,
+     "mph660": 273.44,
+     "ft1000": null,
+     "et": 4.038,
+     "mph": 266.27,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 76 degrees, relative humidity 42 percent, barometer 30.00 inches, adjusted\r\naltitude 2,859 feet, track temperature 117 degrees.\r\n\r\nHagan and Vandergriff have each won 1 times against the other in prior events and this is the first time they\r\nhave faced each other in a final round.\r\n\r\nVandergriff with a slight starting line advantage and the lead until the engine started to go away.  Hagan\r\ndrives around Vandergriff in the lights for the win.  Hagan wins his third Wally this season and the 58th of\r\nhis career."
+  }
+ ]
+}
