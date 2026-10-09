@@ -6,7 +6,7 @@
 <style>
 /* Layout: phone first. DI masthead, one slim sticky bar (class + rounds), round title, presented-by strip,
    the Board as stacked car cards on phones and a full table on wide screens, then an ad slot,
-   Quickest at Every Light, Lane Check and the Ladder.
+   Quickest at Every Block, Lane Check and the Ladder.
    Color: DI black/white/red is the brand chrome. The data uses a separate heat scale:
    green = quickest, then yellow, orange, red as a car falls further off the quickest. */
 :root {
@@ -279,7 +279,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 
   <section class="sec" id="board-sec">
     <h2>The Board</h2>
-    <p class="hint">Every car at every timing light. Tap a car for its full slip.</p>
+    <p class="hint">Every car at every timing block. Tap a car for its full slip.</p>
     <div class="controls">
       <div class="toggle" role="group" aria-label="View">
         <button type="button" id="v-cum" aria-pressed="true">Timing points</button>
@@ -294,7 +294,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 
   <section class="sec" id="cmp-sec">
     <h2>How Do I Compare?</h2>
-    <p class="hint">Pick any two cars and see exactly where one gains or loses on the other, light by light.</p>
+    <p class="hint">Pick any two cars and see exactly where one gains or loses on the other, block by block.</p>
     <div class="cmp-mode" role="group" aria-label="Which runs">
       <button type="button" id="cmp-round" aria-pressed="true">This round</button>
       <button type="button" id="cmp-best" aria-pressed="false">Best run this weekend</button>
@@ -310,10 +310,10 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   <div id="ad"></div>
 
   <section class="sec">
-    <h2>Quickest at Every Light</h2>
-    <p class="hint">Top five at each timing light: each car's time, and how far back it was.</p>
+    <h2>Quickest at Every Block</h2>
+    <p class="hint">Top five at each timing block: each car's time, and how far back it was.</p>
     <div class="lights" id="lights"></div>
-    <div class="swipe">Swipe for the next light</div>
+    <div class="swipe">Swipe for the next block</div>
   </section>
 
   <section class="sec duo">
@@ -561,7 +561,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     const keys = P.filter((p) => p !== "et").concat(["et", "mph"]);
     $("lights").innerHTML = keys.filter((k) => R.order[k]).map((k) => {
       const lab = k === "et" ? "ET" : k === "mph" ? "MPH" : IL[k];
-      const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing light";
+      const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing block";
       const list = R.order[k].slice(0, 5).map((o, i) => {
         const run = R.runs.find((r) => r.driver === o.driver);
         return `<li class="${run ? tier(run, k) : ""}"><span>${esc(o.driver)}</span><span class="t">${t(o.v, k)}</span><span class="g">${i === 0 ? "" : plus(o.gap, k)}</span></li>`;
