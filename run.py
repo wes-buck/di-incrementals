@@ -264,6 +264,25 @@ def backfill(year, only=None, workers=6):
             print(f"archived {slug}: {', '.join(bundles)}", file=sys.stderr)
 
 
+def rerender_all(site, cfg, template, reg):
+    """Rebuild every archived race from its saved data (no NHRA calls), so a design or wording
+    change reaches past races too."""
+    for e in reg["events"]:
+        if e["slug"] == reg.get("live"):
+            continue
+        root = os.path.join(HERE, DATA_ROOT, f"{e['year']}-{e['id']}")
+        bundles = {}
+        for cls in cfg["classes"]:
+            d = os.path.join(root, cls)
+            if os.path.isdir(d) and any(f.endswith(".json") for f in os.listdir(d)):
+                b = build.build(d)
+                if b:
+                    b["default_round"] = b["rounds"][-1]["round"]
+                    bundles[cls] = b
+        if bundles:
+            render_event(os.path.join(site, "events", e["slug"]), "../../", bundles, cfg, e["slug"], e["label"], template)
+
+
 def main():
     cfg = json.load(open(os.path.join(HERE, "config.json")))
     if len(sys.argv) > 1 and sys.argv[1] == "backfill":
@@ -292,6 +311,14 @@ def main():
     if bundles:
         render_event(os.path.join(site, "events", slug), "../../", bundles, cfg, slug, label, template)
     event_name = next((b["event_name"] for b in bundles.values()), None)
+
+    # when the page, analysis or settings change, rebuild the archived races too
+    code_hash = hashlib.sha256("".join(open(os.path.join(HERE, f)).read()
+                                       for f in ("template.html", "build.py", "config.json", "run.py")).encode()).hexdigest()
+    ch_file = os.path.join(site, ".codehash")
+    if (open(ch_file).read() if os.path.exists(ch_file) else "") != code_hash:
+        rerender_all(site, cfg, template, reg)
+        open(ch_file, "w").write(code_hash)
 
     # new results OR a change to the page/analysis code both trigger a publish
     code = "".join(open(os.path.join(HERE, f)).read() for f in ("template.html", "build.py", "config.json"))
