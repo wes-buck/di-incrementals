@@ -45,5 +45,14 @@
     },
     "contact": "jt@dragillustrated.com",
     "show_placeholders": true
+  },
+  "event_labels": {
+    "_how_to": "Short race names for the menus, by NHRA event id, when the automatic one reads wrong.",
+    "73876": "Route 66 Nationals",
+    "73880": "Summit Nationals",
+    "73886": "Nationals at the Rock",
+    "73888": "FallNationals",
+    "73889": "Las Vegas Nationals",
+    "73891": "NHRA Finals"
   }
 }

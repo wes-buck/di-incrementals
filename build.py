@@ -198,6 +198,7 @@ def build(src):
     return {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "event_name": first["event_name"], "event_id": first["event_id"], "year": first["year"],
+        "event_date": next((r.get("event_date") for r in raws if r.get("event_date")), None),
         "class": first["class"], "finish": finish, "points": points, "segs": segs,
         "inc_label": inc_label, "seg_label": seg_label,
         "rounds": rounds, "qualifying": qual, "history": history,

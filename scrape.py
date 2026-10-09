@@ -45,6 +45,18 @@ def fetch(year, event, cls, rnd, tries=4):
             time.sleep(2 * (attempt + 1))
 
 
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+DATE_RE = re.compile(r"\b(%s)[a-z]*\.? (\d{1,2})\s*-\s*(?:(?:%s)[a-z]*\.? )?\d{1,2},\s*(\d{4})" % ("|".join(MONTHS), "|".join(MONTHS)))
+
+
+def event_date(html):
+    """Start date of the event as YYYY-MM-DD, from the date line on NHRA's results page."""
+    m = DATE_RE.search(BeautifulSoup(html, "html.parser").get_text(" "))
+    if not m:
+        return None
+    return f"{m.group(3)}-{MONTHS.index(m.group(1)) + 1:02d}-{int(m.group(2)):02d}"
+
+
 def parse(html):
     soup = BeautifulSoup(html, "html.parser")
     event = soup.select_one("h2")

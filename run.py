@@ -125,6 +125,7 @@ def pull(year, event, cls):
         try:
             url, html = scrape.fetch(year, event, cls, rnd)
             name, pairs = scrape.parse(html)
+            date = scrape.event_date(html)
         except Exception as e:
             print(f"warn: {cls} {rnd} fetch failed ({e}); keeping saved copy", file=sys.stderr)
             if os.path.exists(saved):
@@ -133,14 +134,141 @@ def pull(year, event, cls):
         if not pairs:
             continue
         json.dump({"source_url": url, "year": int(year), "event_id": event, "class": cls,
-                   "round": rnd.upper(), "event_name": name, "pairs": pairs},
+                   "round": rnd.upper(), "event_name": name, "event_date": date, "pairs": pairs},
                   open(os.path.join(data_dir, f"{rnd}.json"), "w"), indent=1)
         pulled.append(rnd.upper())
     return data_dir, pulled
 
 
+LABEL_FIX = {"NATIONALS": None}   # plain "Nationals" is ambiguous; fall back to the full name below
+
+
+def event_label(name, event_id, cfg):
+    """Short race name for menus and folders: 'Midwest Nationals', 'U.S. Nationals', 'Gatornationals'."""
+    over = cfg.get("event_labels", {}).get(str(event_id))
+    if over:
+        return over
+    n = re.split(r"\s+(?:PRESENTED|POWERED)\s+BY\b", (name or "").upper())[0].strip()
+    tail = n.split("NHRA ")[-1].strip() if "NHRA " in n else n
+    if tail in LABEL_FIX:
+        tail = n.replace(" NHRA", "").replace("NHRA ", "")
+    return " ".join(w.capitalize() if not re.match(r"^[A-Z]\.", w) else w for w in tail.lower().split()).replace("4-wide", "4-Wide").replace("U.s.", "U.S.")
+
+
+def slug_for(year, label):
+    return f"{year}-" + re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+
+
+def load_template():
+    t = open(os.path.join(HERE, "template.html")).read()
+    return t.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
+
+
+def build_bundles(year, event, cfg, open_round="LATEST"):
+    bundles = {}
+    for cls in cfg["classes"]:
+        data_dir, pulled = pull(year, event, cls)
+        if not pulled:
+            continue
+        b = build.build(data_dir)
+        b["default_round"] = open_round if open_round in pulled else pulled[-1]
+        bundles[cls] = b
+    return bundles
+
+
+def load_registry(site):
+    path = os.path.join(site, "events", "events.json")
+    if not os.path.exists(path):
+        return {"live": None, "events": []}
+    reg = json.load(open(path))
+    return reg if isinstance(reg, dict) else {"live": None, "events": reg}
+
+
+def save_registry(site, reg):
+    path = os.path.join(site, "events", "events.json")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    reg["events"].sort(key=lambda e: e.get("date") or "", reverse=True)
+    json.dump(reg, open(path, "w"), indent=1)
+
+
+def register(reg, year, event, bundles, cfg):
+    b = next(iter(bundles.values()))
+    label = event_label(b["event_name"], event, cfg)
+    slug = slug_for(year, label)
+    entry = {"slug": slug, "id": str(event), "name": b["event_name"], "label": label, "year": int(year),
+             "date": b.get("event_date"), "classes": [c for c in cfg["classes"] if c in bundles]}
+    reg["events"] = [e for e in reg["events"] if e["slug"] != slug and e.get("id") != str(event)] + [entry]
+    return slug, label
+
+
+def render_event(dest, root, bundles, cfg, slug, label, template, preview=False, waiting_query=None, year=None):
+    """One complete, self-contained copy of a race: home page, class pages, spreadsheets, logo."""
+    shutil.copytree(os.path.join(HERE, "assets"), os.path.join(dest, "assets"), dirs_exist_ok=True)
+    nav = [{"slug": c, "name": CLASS_NAMES.get(c, c), "live": c in bundles} for c in cfg["classes"]]
+    common = {"nav": nav, "sponsor": cfg.get("sponsor", {}), "slug": slug, "label": label}
+    if not bundles:
+        write_page(os.path.join(dest, "index.html"), template.replace("__DATA__", json.dumps(dict(
+            common, waiting=True, year=year, event_query=waiting_query, base="", root=root))))
+        return
+    for cls, b in bundles.items():
+        csv_name = f"DI-Incrementals-{slug}-{cls}.csv"
+        write_csv(os.path.join(dest, cls, csv_name), b, CLASS_NAMES.get(cls, cls))
+        page = dict(b, **common, class_name=CLASS_NAMES.get(cls, cls), base="../", root="../" + root,
+                    csv=csv_name, save=f"DI-Incrementals-{slug}-{cls}.html", self_path="index.html")
+        write_page(os.path.join(dest, cls, "index.html"),
+                   template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")))
+    first = next(c for c in cfg["classes"] if c in bundles)
+    page = dict(bundles[first], **common, class_name=CLASS_NAMES.get(first, first), base="", root=root,
+                csv=f"{first}/DI-Incrementals-{slug}-{first}.csv", save=f"DI-Incrementals-{slug}-{first}.html",
+                self_path=f"{first}/index.html")
+    write_page(os.path.join(dest, "index.html"),
+               template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")),
+               os.path.join(HERE, "preview", "index.html") if preview else None)
+
+
+def season_events(year):
+    """Every event id and name NHRA lists for the season."""
+    base = SERIES_URL.format(year=year)
+    ids = re.findall(r"/results/%s/nhra-mission-foods-drag-racing-series/(\d+)" % year, get(base))
+    html = get(f"{base}/{ids[0]}/detailed-results")
+    return re.findall(r'value="/results/%s/nhra-mission-foods-drag-racing-series/(\d+)">\s*([^<]+)' % year, html)
+
+
+def backfill(year, only=None, workers=6):
+    """Archive every finished race of a season (or just the ids given) under site/events/.
+    Races are pulled in parallel; a race already in the archive is skipped unless named in `only`."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    cfg = json.load(open(os.path.join(HERE, "config.json")))
+    site = os.path.join(HERE, cfg.get("out_dir", "site"))
+    template = load_template()
+    reg = load_registry(site)
+    done = {e.get("id") for e in reg["events"]}
+    todo = [(e, n) for e, n in season_events(year) if (only and e in only) or (not only and e not in done)]
+
+    def one(event, name):
+        return event, name, build_bundles(year, event, cfg)
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for fut in as_completed([pool.submit(one, e, n) for e, n in todo]):
+            try:
+                event, name, bundles = fut.result()
+            except Exception as ex:
+                print(f"failed: {ex}", file=sys.stderr)
+                continue
+            if not bundles:
+                print(f"skip {event} {name.strip()}: no results", file=sys.stderr)
+                continue
+            slug, label = register(reg, year, event, bundles, cfg)
+            render_event(os.path.join(site, "events", slug), "../../", bundles, cfg, slug, label, template)
+            save_registry(site, reg)
+            print(f"archived {slug}: {', '.join(bundles)}", file=sys.stderr)
+
+
 def main():
     cfg = json.load(open(os.path.join(HERE, "config.json")))
+    if len(sys.argv) > 1 and sys.argv[1] == "backfill":
+        backfill(int(sys.argv[2]), set(sys.argv[3:]) or None)
+        return
     if len(sys.argv) > 2:
         cfg["year"], cfg["event"] = int(sys.argv[1]), sys.argv[2]
         cfg["open_round"] = sys.argv[3].upper() if len(sys.argv) > 3 else "LATEST"
@@ -151,60 +279,19 @@ def main():
     year, event = cfg["year"], find_event(cfg["year"], cfg["event"])
     site = os.path.join(HERE, cfg.get("out_dir", "site"))
     os.makedirs(site, exist_ok=True)
-    template = open(os.path.join(HERE, "template.html")).read()
-    template = template.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
-    sponsor = cfg.get("sponsor", {})
+    template = load_template()
 
-    bundles = {}
-    for cls in cfg["classes"]:
-        data_dir, pulled = pull(year, event, cls)
-        if not pulled:
-            continue
-        b = build.build(data_dir)
-        want = cfg.get("open_round", "LATEST")
-        b["default_round"] = want if want in pulled else pulled[-1]
-        bundles[cls] = b
-
-    nav = [{"slug": c, "name": CLASS_NAMES.get(c, c), "live": c in bundles} for c in cfg["classes"]]
+    bundles = build_bundles(year, event, cfg, cfg.get("open_round", "LATEST"))
+    reg = load_registry(site)
+    slug = label = None
+    if bundles:
+        slug, label = register(reg, year, event, bundles, cfg)
+        reg["live"] = slug
+    save_registry(site, reg)
+    render_event(site, "", bundles, cfg, slug, label, template, preview=True, waiting_query=cfg["event"], year=year)
+    if bundles:
+        render_event(os.path.join(site, "events", slug), "../../", bundles, cfg, slug, label, template)
     event_name = next((b["event_name"] for b in bundles.values()), None)
-    slug = f"{year}-" + re.sub(r"[^a-z0-9]+", "-", str(cfg["event"]).lower()).strip("-")
-
-    # past-races registry lives on the site so every race stays available
-    reg_path = os.path.join(site, "events", "events.json")
-    os.makedirs(os.path.dirname(reg_path), exist_ok=True)
-    registry = json.load(open(reg_path)) if os.path.exists(reg_path) else []
-    if bundles:
-        registry = [e for e in registry if e["slug"] != slug] + [{"slug": slug, "name": event_name, "year": year}]
-        json.dump(registry, open(reg_path, "w"), indent=1)
-
-    def write_event(dest, root):
-        """One complete, self-contained copy of this race: home page, class pages, spreadsheets, logo."""
-        shutil.copytree(os.path.join(HERE, "assets"), os.path.join(dest, "assets"), dirs_exist_ok=True)
-        common = {"nav": nav, "sponsor": sponsor, "slug": slug,
-                  "past": [e for e in registry if e["slug"] != slug][::-1]}
-        if not bundles:
-            write_page(os.path.join(dest, "index.html"), template.replace("__DATA__", json.dumps(dict(
-                common, waiting=True, year=year, event_query=cfg["event"], base="", root=root))))
-            return
-        for cls, b in bundles.items():
-            csv_name = f"DI-Incrementals-{slug}-{cls}.csv"
-            write_csv(os.path.join(dest, cls, csv_name), b, CLASS_NAMES.get(cls, cls))
-            page = dict(b, **common, class_name=CLASS_NAMES.get(cls, cls), base="../", root="../" + root,
-                        csv=csv_name, save=f"DI-Incrementals-{slug}-{cls}.html", self_path="index.html")
-            write_page(os.path.join(dest, cls, "index.html"),
-                       template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")))
-        first = next(c for c in cfg["classes"] if c in bundles)
-        b = bundles[first]
-        page = dict(b, **common, class_name=CLASS_NAMES.get(first, first), base="", root=root,
-                    csv=f"{first}/DI-Incrementals-{slug}-{first}.csv", save=f"DI-Incrementals-{slug}-{first}.html",
-                    self_path=f"{first}/index.html")
-        write_page(os.path.join(dest, "index.html"),
-                   template.replace("__DATA__", json.dumps(page, separators=(",", ":")).replace("</", "<\\/")),
-                   os.path.join(HERE, "preview", "index.html") if dest == site else None)
-
-    write_event(site, "")
-    if bundles:
-        write_event(os.path.join(site, "events", slug), "../../")
 
     # new results OR a change to the page/analysis code both trigger a publish
     code = "".join(open(os.path.join(HERE, f)).read() for f in ("template.html", "build.py", "config.json"))

@@ -250,6 +250,20 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .swipe { display: none; }
   .logo svg { height: 40px; }
 }
+/* race picker */
+.race { position: relative; display: grid; gap: 2px; min-width: 0; max-width: 52vw; }
+.race-k { font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--bar-muted); font-weight: 700; }
+.race select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 7px 26px 7px 9px; font-weight: 700; font-size: 13.5px; max-width: 100%; text-overflow: ellipsis; }
+.race::after { content: ""; position: absolute; right: 10px; bottom: 14px; width: 6px; height: 6px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: rotate(45deg); pointer-events: none; }
+.past a b { display: block; }
+.past a small { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+
+@media (max-width: 600px) {
+  .mast-in { flex-wrap: wrap; row-gap: 10px; }
+  .race { max-width: none; width: 100%; grid-template-columns: auto 1fr; align-items: center; gap: 10px; }
+  .race::after { bottom: 15px; }
+}
+
 /* take it with you */
 .keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
 .keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
@@ -273,7 +287,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
   .mast .logo { color: #000; }
   .mast-in { padding: 0 0 6px; }
-  .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
   .wrap { padding: 0; max-width: none; }
   .hero { padding: 6px 0 0; }
   h1 { font-size: 30px; }
@@ -305,6 +319,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 <header class="mast">
   <div class="mast-in">
     <a class="logo" href="https://www.dragillustrated.com/" target="_blank" rel="noopener" aria-label="Drag Illustrated">__LOGO__<span class="tag">Incrementals</span></a>
+    <label class="race" id="race-wrap" hidden><span class="race-k">Race</span><select id="race" aria-label="Race"></select></label>
   </div>
 </header>
 <div class="bar">
@@ -425,17 +440,40 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   const adh = SP.ad && SP.ad.logo ? slotHTML(SP.ad, "ad") : slotHTML(null, "ad");
   if (adh) { $("ad").className = "ad" + (SP.ad && SP.ad.logo ? "" : " empty"); $("ad").innerHTML = adh; }
 
-  // past races
-  if (D.past && D.past.length) {
-    const pw = document.getElementById("past-wrap");
-    const list = D.past.map((e) => `<li><a href="${D.root || ""}events/${esc(e.slug)}/"><b>${esc(e.name)}</b><span>${e.year}</span></a></li>`).join("");
-    if (pw) { pw.hidden = false; document.getElementById("past").innerHTML = list; }
-    D._pastHTML = `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`;
-  }
+  // race picker and past races, read from the site's race registry (skipped quietly when offline)
+  (function races() {
+    const root = D.root || "";
+    let reg;
+    try { reg = fetch(root + "events/events.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null); } catch (e) { return; }
+    reg.then((R0) => {
+      if (!R0 || !R0.events || !R0.events.length) return;
+      const evs = R0.events, here = D.slug;
+      const fmt = (d) => { try { return new Date(d + "T12:00:00").toLocaleDateString([], { month: "short", day: "numeric" }); } catch (e) { return ""; } };
+      const target = (e) => {
+        const base = e.slug === R0.live ? root : root + "events/" + e.slug + "/";
+        return base + (D.class && (e.classes || []).includes(D.class) ? D.class + "/" : "");
+      };
+      const sel = document.getElementById("race");
+      const known = evs.some((e) => e.slug === here);
+      sel.innerHTML = (known ? "" : `<option selected>${esc(D.label || "This race")}</option>`) + evs.map((e) =>
+        `<option value="${esc(target(e))}"${e.slug === here ? " selected" : ""}>${esc(e.label || e.name)}${e.date ? " · " + fmt(e.date) : ""}${e.slug === R0.live ? " (latest)" : ""}</option>`).join("");
+      sel.onchange = () => { if (sel.value) location.href = sel.value; };
+      document.getElementById("race-wrap").hidden = false;
+      const past = evs.filter((e) => e.slug !== here && e.slug !== R0.live);
+      const list = past.map((e) => `<li><a href="${esc(target(e))}"><span><b>${esc(e.label || e.name)}</b><small>${esc(e.name)}</small></span><span>${e.date ? fmt(e.date) + ", " + e.year : e.year}</span></a></li>`).join("");
+      if (!list) return;
+      const pw = document.getElementById("past-wrap");
+      if (pw) { pw.hidden = false; document.getElementById("past").innerHTML = list; }
+      else {
+        const w = document.querySelector(".waiting");
+        if (w) w.insertAdjacentHTML("beforeend", `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`);
+      }
+    }).catch(() => {});
+  })();
 
   if (D.waiting) {
     $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
-      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p>${D._pastHTML || ""}</section>`;
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p></section>`;
     return;
   }
 
