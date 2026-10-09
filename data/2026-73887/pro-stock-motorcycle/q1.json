@@ -1,0 +1,311 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock-motorcycle/q1",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock-motorcycle",
+ "round": "Q1",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 1.058,
+     "ft330": 2.849,
+     "ft660": 4.379,
+     "mph660": 159.23,
+     "ft1000": 5.728,
+     "et": 6.895,
+     "mph": 191.29,
+     "first": 0.0274,
+     "lane": "Left",
+     "win": true,
+     "driver": "Malcolm Phillips Jr",
+     "car": "461",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.118,
+     "ft60": 1.087,
+     "ft330": 2.889,
+     "ft660": 4.41,
+     "mph660": 161.34,
+     "ft1000": 5.733,
+     "et": 6.866,
+     "mph": 197.65,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kelly Clontz",
+     "car": "1981",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 72 degrees, relative humidity 58 percent, barometer 30.14 inches, adjusted\r\naltitude 1,577 feet, track temperature 126 degrees.\r\n\r\nPhillips with a good pass.\r\n\r\nClontz is straight down the groove."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.134,
+     "ft60": 1.055,
+     "ft330": 2.843,
+     "ft660": 4.365,
+     "mph660": 160.31,
+     "ft1000": 5.693,
+     "et": 6.83,
+     "mph": 197.1,
+     "first": 0.0427,
+     "lane": "Left",
+     "win": true,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.056,
+     "ft60": 1.099,
+     "ft330": 2.898,
+     "ft660": 4.446,
+     "mph660": 157.91,
+     "ft1000": 5.795,
+     "et": 6.95,
+     "mph": 193.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Ingwersen kept it hooked up with a good pass.\r\n\r\nScali is straight down the groove."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.099,
+     "ft60": 1.035,
+     "ft330": 2.806,
+     "ft660": 4.321,
+     "mph660": 161.07,
+     "ft1000": 5.648,
+     "et": 6.788,
+     "mph": 196.1,
+     "first": 0.0211,
+     "lane": "Left",
+     "win": true,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.034,
+     "ft60": 1.092,
+     "ft330": 2.876,
+     "ft660": 4.395,
+     "mph660": 161.07,
+     "ft1000": 5.726,
+     "et": 6.874,
+     "mph": 194.55,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Johnson is straight down the groove with a good pass to go to the top of the list.\r\n\r\nHowey with a good pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.039,
+     "ft60": 1.055,
+     "ft330": 2.837,
+     "ft660": 4.348,
+     "mph660": 162.51,
+     "ft1000": 5.667,
+     "et": 6.797,
+     "mph": 195.79,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.057,
+     "ft60": 1.067,
+     "ft330": 2.834,
+     "ft660": 4.328,
+     "mph660": 163.79,
+     "ft1000": 5.635,
+     "et": 6.762,
+     "mph": 198.5,
+     "first": 0.0173,
+     "lane": "Right",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Van Sant with a nice pass, straight don the groove.\r\n\r\nGladstone earning points for Jianna Evaristo  this weekend.  He kept it hooked up to go to the number one\r\nspot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.091,
+     "ft60": 1.052,
+     "ft330": 2.813,
+     "ft660": 4.305,
+     "mph660": 164.21,
+     "ft1000": 5.61,
+     "et": 6.733,
+     "mph": 199.55,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 1.054,
+     "ft330": 2.812,
+     "ft660": 4.302,
+     "mph660": 164.35,
+     "ft1000": 5.608,
+     "et": 6.73,
+     "mph": 199.61,
+     "first": 0.0138,
+     "lane": "Right",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Oehler with a good looking pass to go to the number two spot.\r\n\r\nSmith is straight down the groove to go to the number one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 1.107,
+     "ft330": 2.903,
+     "ft660": 4.403,
+     "mph660": 163.37,
+     "ft1000": 5.71,
+     "et": 6.828,
+     "mph": 200.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 1.08,
+     "ft330": 2.852,
+     "ft660": 4.348,
+     "mph660": 163.85,
+     "ft1000": 5.654,
+     "et": 6.771,
+     "mph": 200.47,
+     "first": 0.0433,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Hall with a good clean pass.\r\n\r\nSmith is straight down the groove with a good pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.041,
+     "ft60": 1.034,
+     "ft330": 2.801,
+     "ft660": 4.309,
+     "mph660": 162.0,
+     "ft1000": 5.644,
+     "et": 6.791,
+     "mph": 196.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 1.042,
+     "ft330": 2.817,
+     "ft660": 4.32,
+     "mph660": 162.78,
+     "ft1000": 5.632,
+     "et": 6.755,
+     "mph": 199.79,
+     "first": 0.0377,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera is drifting out of the groove, over by the wall and he stays with it.\r\n\r\nGadson is straight down the groove with a good pass to go to the number three spot."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.859,
+     "ft330": 2.164,
+     "ft660": 3.118,
+     "mph660": 250.32,
+     "ft1000": null,
+     "et": 3.994,
+     "mph": 275.17,
+     "first": 0.1974,
+     "lane": "Left",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": 0.1974
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.869,
+     "ft330": 2.188,
+     "ft660": 3.227,
+     "mph660": 231.75,
+     "ft1000": null,
+     "et": 4.164,
+     "mph": 255.1,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 45 percent, barometer 30.14 inches, adjusted\r\naltitude 1,984 feet, track temperature 116 degrees.\r\n\r\nThis is the first time Smith and Reed have faced each other in eliminations. \r\n\r\nSmith with the starting line advantage and never trailed for the win.  Smith is advancing to this first final\r\nround.\r\n\r\nReed started to lose traction and clicked it off early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.037,
+     "ft60": 0.86,
+     "ft330": 2.184,
+     "ft660": 3.075,
+     "mph660": 287.66,
+     "ft1000": null,
+     "et": 3.81,
+     "mph": 330.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.823,
+     "ft330": 2.132,
+     "ft660": 3.011,
+     "mph660": 290.51,
+     "ft1000": null,
+     "et": 3.733,
+     "mph": 336.65,
+     "first": 0.0298,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0298
+    }
+   ],
+   "note": "Ashley is 17 - 15 against Langdon in prior events. \r\n\r\nAshley with the starting line advantage, but Langdon has the lead by 330 feet and never trailed for the win.\r\nHe will have lane choice over Smith in the final.  He is advancing to his 11th final round and 62nd career\r\nfinal.\r\n\r\nAshley with a clean pass on the losing effort."
+  }
+ ]
+}

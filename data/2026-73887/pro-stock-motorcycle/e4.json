@@ -1,0 +1,53 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock-motorcycle/e4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock-motorcycle",
+ "round": "E4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 1.038,
+     "ft330": 2.797,
+     "ft660": 4.29,
+     "mph660": 164.11,
+     "ft1000": 5.594,
+     "et": 6.71,
+     "mph": 200.98,
+     "first": 0.0413,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0413
+    },
+    {
+     "rt": 0.023,
+     "ft60": 1.051,
+     "ft330": 2.826,
+     "ft660": 4.331,
+     "mph660": 162.67,
+     "ft1000": 5.643,
+     "et": 6.763,
+     "mph": 200.08,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 45 percent, barometer 30.13 inches, adjusted\r\naltitude 2,067 feet, track temperature 119 degrees.\r\n\r\nHerrera and Gadson have each won 5 times against the other in prior events and each has won 3 times against\r\nthe other in final rounds. \r\n\r\nGadson with the starting line advantage, but Herrera chased him down for the win.  He wins his third Wally\r\nthis season and 31st of his career."
+  }
+ ]
+}

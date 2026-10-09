@@ -1,0 +1,96 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 1.055,
+     "ft330": 2.826,
+     "ft660": 4.329,
+     "mph660": 162.86,
+     "ft1000": 5.641,
+     "et": 6.764,
+     "mph": 199.94,
+     "first": 0.0432,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0432
+    },
+    {
+     "rt": 0.026,
+     "ft60": 1.065,
+     "ft330": 2.847,
+     "ft660": 4.371,
+     "mph660": 159.97,
+     "ft1000": 5.707,
+     "et": 6.854,
+     "mph": 194.46,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 45 percent, barometer 30.14 inches, adjusted\r\naltitude 1,984 feet, track temperature 116 degrees.\r\n\r\nGadson is 4 - 1 against Hall in prior events. \r\n\r\nHall with the starting line advantage, but Gadson chased him down for the win.  He is advancing to his seventh\r\nfinal round this season and 16th career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.049,
+     "ft60": 1.038,
+     "ft330": 2.797,
+     "ft660": 4.29,
+     "mph660": 164.03,
+     "ft1000": 5.592,
+     "et": 6.71,
+     "mph": 200.62,
+     "first": 0.0506,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0506
+    },
+    {
+     "rt": 0.044,
+     "ft60": 1.063,
+     "ft330": 2.82,
+     "ft660": 4.319,
+     "mph660": 162.63,
+     "ft1000": 5.636,
+     "et": 6.765,
+     "mph": 198.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Herrera is 1 - 0 against Oehler in prior events. \r\n\r\nOehler with a slight starting line advantage, but Herrera has the lead as they go by the Christmas tree and\r\ntakes the win.  Herrera will have lane choice over Gadson in the final.\r\n\r\nThis is his fifth final this season and 37th of his career."
+  }
+ ]
+}

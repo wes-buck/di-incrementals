@@ -1,0 +1,322 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/top-fuel/e1",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "top-fuel",
+ "round": "E1",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.861,
+     "ft330": 2.915,
+     "ft660": 4.298,
+     "mph660": 198.41,
+     "ft1000": null,
+     "et": 5.322,
+     "mph": 229.24,
+     "first": 2.6243,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "11",
+     "mov": 2.6243
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.977,
+     "ft330": 3.549,
+     "ft660": 5.646,
+     "mph660": 115.68,
+     "ft1000": null,
+     "et": 7.912,
+     "mph": 93.86,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 62 degrees, relative humidity 70 percent, barometer 30.19 inches, adjusted\r\naltitude 756 feet, track temperature 82 degrees.\r\n\r\nJosh Hart is 8-8 in Round 1 this year and 52-58 in his career. Tony Stewart beat Hart in Round 1 at Brainerd.\r\n\r\nStewart is 4 - 3 against Hart in prior events. \r\n\r\nStewart with the starting line advantage, then was up in smoke right at the hit.  He pedaled and got it to\r\nhook up enough to get the win.  the car did backfire on the top end.\r\n\r\nHart was up in smoke right at the hit and pedaled it, but was back up in smoke."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.846,
+     "ft330": 2.199,
+     "ft660": 3.472,
+     "mph660": 169.3,
+     "ft1000": null,
+     "et": 4.988,
+     "mph": 143.03,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.85,
+     "ft330": 2.135,
+     "ft660": 2.999,
+     "mph660": 294.56,
+     "ft1000": null,
+     "et": 3.716,
+     "mph": 337.92,
+     "first": 1.2742,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "13",
+     "mov": 1.2742
+    }
+   ],
+   "note": "Spencer Massey \u201cleaves first\u201d 82% of the time in Round 1. Jasmine Salinas is 11-19 in Round 1 in her career.\r\n\r\nThis is the first time Massey and Salinas have faced each other in eliminations. \r\n\r\nSalinas with a slight starting line advantage and never trailed for the win.  She makes her quickest pass of\r\nthe season and her career fastest pass for the win.\r\n\r\nMassey is up in smoke early and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.845,
+     "ft330": 2.232,
+     "ft660": 3.469,
+     "mph660": 187.34,
+     "ft1000": null,
+     "et": 4.847,
+     "mph": 151.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.056,
+     "ft60": 0.853,
+     "ft330": 2.139,
+     "ft660": 2.997,
+     "mph660": 294.75,
+     "ft1000": null,
+     "et": 3.722,
+     "mph": 333.0,
+     "first": 1.1308,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": 1.1308
+    }
+   ],
+   "note": "Maddi Gordon is 11-5 in Round 1 this year. In both of his races against Gordon, Will Smith \u201cleft first.\u201d\r\n\r\nGordon and Smith have each won 1 times against the other in prior events. \r\n\r\nSmith with the starting line advantage and never trailed for the win.  He makes his quickest and fastest pass\r\nof the weekend for the win.  He will have lane choice over Stewart in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.842,
+     "ft330": 2.145,
+     "ft660": 3.267,
+     "mph660": 201.37,
+     "ft1000": null,
+     "et": 4.529,
+     "mph": 173.45,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.061,
+     "ft60": 0.848,
+     "ft330": 2.142,
+     "ft660": 3.014,
+     "mph660": 292.9,
+     "ft1000": null,
+     "et": 3.735,
+     "mph": 336.15,
+     "first": 0.8063,
+     "lane": "Right",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": 0.8063
+    }
+   ],
+   "note": "Antron Brown wins 80% of his Round 1 races when starting from the top half of the field. Clay Millican is 6-19\r\n(24%) against Brown in Round 1.\r\n\r\nBrown is 37 - 9 against Millican in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.\r\n\r\nMillican is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.08,
+     "ft60": 0.852,
+     "ft330": 2.149,
+     "ft660": 3.021,
+     "mph660": 289.38,
+     "ft1000": null,
+     "et": 3.749,
+     "mph": 331.94,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.831,
+     "ft330": 2.111,
+     "ft660": 2.971,
+     "mph660": 297.48,
+     "ft1000": null,
+     "et": 3.68,
+     "mph": 341.68,
+     "first": 0.0841,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0841
+    }
+   ],
+   "note": "Shawn Langdon\u2019s 416 round wins in TF are the 9th-most in class history. The No. 16 TF qualifier has never won\r\na round at this event.\r\n\r\nSchumacher is 22 - 19 against Langdon in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win. He makes the quickest pass of race day\r\nfor the win.   He has a big top end speed to set the track speed record.  Shawn Langdon's incremental times:\r\n60ft-0.831 sec., 330ft-2.111, 660ft-2.971/297.48 mph.\r\n\r\nSchumacher with a good pass early but then pushes out a head gasket just past half track, but stayed with for\r\nhis quickest pass of the weekend in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.035,
+     "ft60": 0.843,
+     "ft330": 2.156,
+     "ft660": 3.038,
+     "mph660": 287.05,
+     "ft1000": null,
+     "et": 3.766,
+     "mph": 332.02,
+     "first": 0.0033,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": 0.0033
+    },
+    {
+     "rt": 0.096,
+     "ft60": 0.841,
+     "ft330": 2.13,
+     "ft660": 2.992,
+     "mph660": 295.14,
+     "ft1000": null,
+     "et": 3.708,
+     "mph": 338.43,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": "Billy Torrence starts the event in 6th place, his highest starting position of the year. Justin Ashley starts\r\nthe event in 11th, marking the first time he has been outside the Top 10 since Gainesville in 2024.\r\n\r\nAshley with the starting line advantage and the power to hold on for the hole shot win. Justin Ashley's MOV:\r\n0.0033 seconds (approximately 20 inches).  He will give up lane choice to Salinas in the next round.\r\n\r\nTorrence with his quickest and fastest pass in the losing effort."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.076,
+     "ft60": 0.5,
+     "ft330": 2.119,
+     "ft660": 3.294,
+     "mph660": 181.23,
+     "ft1000": null,
+     "et": 4.683,
+     "mph": 157.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.092,
+     "ft60": 0.843,
+     "ft330": 2.132,
+     "ft660": 2.989,
+     "mph660": 296.76,
+     "ft1000": null,
+     "et": 3.706,
+     "mph": 336.15,
+     "first": 0.961,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": 0.961
+    }
+   ],
+   "note": "Shawn Reed has never \u201cleft first\u201d against Kalitta. Doug Kalitta already has 41 round wins this year, his most\r\nsince 2016.\r\n\r\nKalitta is 6 - 3 against Reed in prior events. \r\n\r\nKalitta with the starting line advantage, but is up in smoke early.\r\n\r\nReed kept it hooked up and hitting on all eight with his quickest and fastest pass for the win.  He will have\r\nlane choice over Brown in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.151,
+     "ft60": 0.848,
+     "ft330": 2.141,
+     "ft660": 3.007,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.733,
+     "mph": 333.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Kyle Wurtzel",
+     "car": "386",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.844,
+     "ft330": 2.133,
+     "ft660": 3.003,
+     "mph660": 292.39,
+     "ft1000": null,
+     "et": 3.735,
+     "mph": 328.3,
+     "first": 0.0728,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "8",
+     "mov": 0.0728
+    }
+   ],
+   "note": "Leah Pruett is 9-8 in Round 1 when starting No. 8. The No. 8 TF qualifier is 9-5 in Round 1 at this event.\r\nThis is Kyle Wurtzel\u2019s 38th start; his first came at this race in 2014.\r\n\r\nPruett is 3 - 0 against Wurtzel in prior events. \r\n\r\nPruett with the starting line advantage and the power to hold on for the hole shot win.  She will give up lane\r\nchoice to Langdon in the next round"
+  }
+ ]
+}

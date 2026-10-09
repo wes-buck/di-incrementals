@@ -1,0 +1,96 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-mod/e3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-mod",
+ "round": "E3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.0,
+     "ft60": 0.942,
+     "ft330": 2.514,
+     "ft660": 3.741,
+     "mph660": 202.18,
+     "ft1000": 4.788,
+     "et": 5.671,
+     "mph": 254.95,
+     "first": 5.5981,
+     "lane": "Right",
+     "win": true,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 5.5981
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 45 percent, barometer 30.14 inches, adjusted\r\naltitude 1,984 feet, track temperature 116 degrees.\r\n\r\nCollins is 1 - 0 against Shelton in prior events. \r\n\r\nShelton with a perfect light for the win.  He is advancing to his third final round.\r\n\r\nCollins broke when the light turned green."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.028,
+     "ft60": 1.032,
+     "ft330": 3.864,
+     "ft660": 7.359,
+     "mph660": 62.97,
+     "ft1000": 11.201,
+     "et": 15.112,
+     "mph": 54.16,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.95,
+     "ft330": 2.494,
+     "ft660": 3.712,
+     "mph660": 203.4,
+     "ft1000": 4.753,
+     "et": 5.632,
+     "mph": 256.02,
+     "first": 9.4504,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 9.4504
+    }
+   ],
+   "note": "Gray and Jackson have each won 3 times against the other in prior events.\r\n\r\nGray with the starting line advantage, but spun the tires and clicked it off.\r\n\r\nJackson is straight down the groove for the win.  He will have lane choice over Shelton in the final.  He is\r\nadvancing to his second final this season and 24th career."
+  }
+ ]
+}

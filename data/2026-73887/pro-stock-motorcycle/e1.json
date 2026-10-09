@@ -1,0 +1,311 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock-motorcycle/e1",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock-motorcycle",
+ "round": "E1",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.008,
+     "ft60": 1.059,
+     "ft330": 2.842,
+     "ft660": 4.375,
+     "mph660": 159.66,
+     "ft1000": 5.709,
+     "et": 6.85,
+     "mph": 196.93,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.054,
+     "ft60": 1.046,
+     "ft330": 2.818,
+     "ft660": 4.322,
+     "mph660": 162.74,
+     "ft1000": 5.634,
+     "et": 6.755,
+     "mph": 200.14,
+     "first": 0.0491,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0491
+    }
+   ],
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 54 percent, barometer 30.19 inches, adjusted\r\naltitude 1,340 feet, track temperature 82 degrees.\r\n\r\nRichard Gadson is 37-3 (90%) in Round 1. The No. 8 PSM qualifier is 6-7 in Round 1 at this event.\r\n\r\nGadson is 10 - 5 against Van Sant in prior events. \r\n\r\nVan Sant with a great light, but Gadson chased him down on the top end for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 1.052,
+     "ft330": 3.901,
+     "ft660": 7.852,
+     "mph660": 54.57,
+     "ft1000": 12.431,
+     "et": 17.375,
+     "mph": 41.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.109,
+     "ft60": 1.075,
+     "ft330": 2.861,
+     "ft660": 4.386,
+     "mph660": 160.1,
+     "ft1000": 5.719,
+     "et": 6.864,
+     "mph": 195.0,
+     "first": 0.4758,
+     "lane": "Right",
+     "win": true,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.4758
+    }
+   ],
+   "note": "Angie Smith\u2019s 19 round wins this year are already tied for the second-most in any season of her career. This\r\nis Marc Ingwersen\u2019s 76th career start.\r\n\r\nSmith is 4 - 1 against Ingwersen in prior events. \r\n\r\nSmith with the starting line advantage, but has problems and she sits up on the bike.  Ingwersen with a clean\r\npass for the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 1.066,
+     "ft330": 2.826,
+     "ft660": 4.323,
+     "mph660": 163.67,
+     "ft1000": 5.627,
+     "et": 6.744,
+     "mph": 200.62,
+     "first": 0.0626,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.006,
+     "ft60": 1.081,
+     "ft330": 2.874,
+     "ft660": 4.392,
+     "mph660": 160.98,
+     "ft1000": 5.72,
+     "et": 6.864,
+     "mph": 194.6,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "John Hall\u2019s foul in Rockingham was the 23rd of his career. Steve Johnson\u2019s 337 round wins are the sixth-most\r\nin PSM history.\r\n\r\nHall is 3 - 2 against Johnson in prior events. \r\n\r\nJohnson goes red to give Hall the win."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 1.058,
+     "ft330": 2.816,
+     "ft660": 4.311,
+     "mph660": 163.99,
+     "ft1000": 5.622,
+     "et": 6.747,
+     "mph": 199.94,
+     "first": 0.0908,
+     "lane": "Left",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0908
+    },
+    {
+     "rt": 0.068,
+     "ft60": 1.074,
+     "ft330": 2.858,
+     "ft660": 4.379,
+     "mph660": 161.21,
+     "ft1000": 5.702,
+     "et": 6.833,
+     "mph": 197.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kelly Clontz",
+     "car": "1981",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Joey Gladstone is 44-43 in Round 1 in his career. Kelly Clontz is making her 90th career start.\r\n\r\nGladstone is 2 - 0 against Clontz in prior events. \r\n\r\nGladstone with the starting line advantage for the win.  He will give up lane choice to Hall in the next\r\nround."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.103,
+     "ft60": 1.056,
+     "ft330": 2.804,
+     "ft660": 4.294,
+     "mph660": 164.43,
+     "ft1000": 5.599,
+     "et": 6.724,
+     "mph": 198.7,
+     "first": 0.0106,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0106
+    },
+    {
+     "rt": 0.036,
+     "ft60": 1.052,
+     "ft330": 2.819,
+     "ft660": 4.33,
+     "mph660": 161.15,
+     "ft1000": 5.657,
+     "et": 6.801,
+     "mph": 195.68,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Ryan Oehler is 6-4 in Round 1 this year. Clayton Howey is 6-2, but 0-1 against Oehler.\r\n\r\nHowey is 2 - 0 against Oehler in prior events. \r\n\r\nHowey with the starting line advantage, but Oehler chased him down in the lights.  Ryan Oehler's MOV: 0.0106\r\nseconds (approximately 3 feet).  He will have lane choice over Ingwersen in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.027,
+     "ft60": 1.053,
+     "ft330": 2.81,
+     "ft660": 4.294,
+     "mph660": 165.72,
+     "ft1000": 5.587,
+     "et": 6.693,
+     "mph": 202.79,
+     "first": 0.1638,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1638
+    },
+    {
+     "rt": 0.03,
+     "ft60": 1.086,
+     "ft330": 2.87,
+     "ft660": 4.389,
+     "mph660": 160.92,
+     "ft1000": 5.716,
+     "et": 6.853,
+     "mph": 197.05,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Matt Smith wins 83% of his Round 1 races when he has lane choice. The No. 13 PSM qualifier is 1-12 in Round 1\r\nat this event.\r\n\r\nScali is 7 - 3 against Smith in prior events. \r\n\r\nSmith with a starting line advantage and never trailed for the win.  He makes the quickest pass of the race\r\nday.  He will have lane choice over Gadson in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 1.075,
+     "ft330": 2.871,
+     "ft660": 4.407,
+     "mph660": 159.53,
+     "ft1000": 5.753,
+     "et": 6.912,
+     "mph": 193.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Malcolm Phillips Jr",
+     "car": "461",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.102,
+     "ft60": 1.027,
+     "ft330": 2.79,
+     "ft660": 4.281,
+     "mph660": 164.19,
+     "ft1000": 5.581,
+     "et": 6.693,
+     "mph": 201.49,
+     "first": 0.1705,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1705
+    }
+   ],
+   "note": "Gaige Herrera\u2019s 157 round wins are tied with S. Gann for the 18th-most in PSM history.\r\n\r\nThis is the first time Phillips Jr. and Herrera have faced each other in eliminations. \r\n\r\nPhillips Jr. with the starting line advantage, but Herrera had the lead by 150 feet and never trailed from\r\nthere on for the win.  He ties Matt Smith with the quickest pass of the race day.  He has a bye in the next\r\nround."
+  }
+ ]
+}

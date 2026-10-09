@@ -1,0 +1,439 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/top-fuel/q3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "top-fuel",
+ "round": "Q3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 1.224,
+     "ft330": 4.327,
+     "ft660": 7.211,
+     "mph660": 81.05,
+     "ft1000": null,
+     "et": 10.051,
+     "mph": 81.74,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chuck Loftin",
+     "car": "419",
+     "qpos_nhra": "21",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 69 degrees, relative humidity 53 percent, barometer 30.20 inches, adjusted\r\naltitude 1,205 feet, track temperature 103 degrees.\r\n\r\nHe is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.089,
+     "ft60": 0.91,
+     "ft330": 2.44,
+     "ft660": 4.212,
+     "mph660": 117.56,
+     "ft1000": null,
+     "et": 6.439,
+     "mph": 96.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Bryan Inouye",
+     "car": "313",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": 0.226,
+     "ft60": 0.845,
+     "ft330": 2.147,
+     "ft660": 3.039,
+     "mph660": 289.07,
+     "ft1000": null,
+     "et": 3.769,
+     "mph": 330.8,
+     "first": 2.5331,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Inouye is dropping cylinders right at the hit and clicked it off.\r\n\r\nHart is straight down the groove with a good clean pass, he will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.119,
+     "ft60": 0.873,
+     "ft330": 2.203,
+     "ft660": 3.141,
+     "mph660": 262.18,
+     "ft1000": null,
+     "et": 3.973,
+     "mph": 281.07,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Scott Palmer",
+     "car": "5050",
+     "qpos_nhra": "20",
+     "mov": null
+    }
+   ],
+   "note": "Palmer launched hard, but then the engine started eating itself up on the top end.  He stays with it, he makes\r\nhis quickest pass of the weekend.  He will not get in the show."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.129,
+     "ft60": 0.857,
+     "ft330": 2.163,
+     "ft660": 3.052,
+     "mph660": 287.41,
+     "ft1000": null,
+     "et": 3.793,
+     "mph": 320.2,
+     "first": 0.1487,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.846,
+     "ft330": 2.154,
+     "ft660": 3.062,
+     "mph660": 265.69,
+     "ft1000": null,
+     "et": 4.024,
+     "mph": 225.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": "Salinas with a good pass early, then started losing traction and had big bang an quick fireball.  She gets the\r\ncar stopped safely.  \r\n\r\nAshley with a good pass early and then starts dropping cylinders and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.85,
+     "ft330": 2.13,
+     "ft660": 2.99,
+     "mph660": 294.11,
+     "ft1000": null,
+     "et": 3.722,
+     "mph": 327.35,
+     "first": 0.0615,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.86,
+     "ft330": 2.17,
+     "ft660": 3.049,
+     "mph660": 291.01,
+     "ft1000": null,
+     "et": 3.775,
+     "mph": 334.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": "Pruett with a good pass until right in the lights when the car got real loose.  She stayed with  it, she moves\r\ninto the top half of the show with her quickest pass of the weekend.\r\n\r\nStewart with a good pass early, then drops a cylinder on the top end.  He stays with it, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.105,
+     "ft60": 0.869,
+     "ft330": 3.204,
+     "ft660": 6.122,
+     "mph660": 79.27,
+     "ft1000": null,
+     "et": 8.919,
+     "mph": 82.77,
+     "first": 0.4084,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.172,
+     "ft60": 0.97,
+     "ft330": 3.34,
+     "ft660": 6.282,
+     "mph660": 77.11,
+     "ft1000": null,
+     "et": 9.26,
+     "mph": 78.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Keith Murt",
+     "car": "355",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": "Schumacher's fuel line came loose right at the hit and is leaking fuel on the track.  The car gets real loose\r\nand he does a great job getting the car straighten out.\r\n\r\nMurt is up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.062,
+     "ft60": 0.837,
+     "ft330": 2.759,
+     "ft660": 4.615,
+     "mph660": 128.27,
+     "ft1000": null,
+     "et": 6.518,
+     "mph": 117.96,
+     "first": 2.4495,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.837,
+     "ft330": 3.108,
+     "ft660": 6.112,
+     "mph660": 77.07,
+     "ft1000": null,
+     "et": 8.922,
+     "mph": 85.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": "Kalitta is up in smoke right at the hit and clicked it off.\r\n\r\nSmith is also up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.085,
+     "ft60": 0.85,
+     "ft330": 2.144,
+     "ft660": 3.088,
+     "mph660": 237.3,
+     "ft1000": null,
+     "et": 4.156,
+     "mph": 204.66,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.095,
+     "ft60": 0.841,
+     "ft330": 2.147,
+     "ft660": 3.025,
+     "mph660": 290.94,
+     "ft1000": null,
+     "et": 3.752,
+     "mph": 332.92,
+     "first": 0.3946,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": "Millican with a good pass early, but then started to spin the tires around half track and clicked it off.\r\n\r\nReed with a good clean pass, straight down the groove.  He will not improve, but makes the second quickest\r\npass of the session."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.193,
+     "ft60": 0.867,
+     "ft330": 2.174,
+     "ft660": 3.178,
+     "mph660": 222.44,
+     "ft1000": null,
+     "et": 4.315,
+     "mph": 192.8,
+     "first": 2.1773,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kyle Wurtzel",
+     "car": "386",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.853,
+     "ft330": 2.353,
+     "ft660": 4.232,
+     "mph660": 111.13,
+     "ft1000": null,
+     "et": 6.617,
+     "mph": 88.88,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": "Wurtzel starts to spin the tires around half track and clicked it off.\r\n\r\nMassey is up in smoke right off the starting line and clicks it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.107,
+     "ft60": 0.845,
+     "ft330": 2.147,
+     "ft660": 3.009,
+     "mph660": 294.69,
+     "ft1000": null,
+     "et": 3.727,
+     "mph": 338.0,
+     "first": 0.0503,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 0.851,
+     "ft330": 2.163,
+     "ft660": 3.068,
+     "mph660": 281.13,
+     "ft1000": null,
+     "et": 3.821,
+     "mph": 322.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "Torrence launched hard and kept it hooked up and makes the second quickest pass of the session.\r\n\r\nBrown started to drop cylinders around half track and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.855,
+     "ft330": 2.157,
+     "ft660": 3.024,
+     "mph660": 295.66,
+     "ft1000": null,
+     "et": 3.738,
+     "mph": 340.65,
+     "first": 0.0102,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.816,
+     "ft330": 2.108,
+     "ft660": 2.98,
+     "mph660": 292.77,
+     "ft1000": null,
+     "et": 3.701,
+     "mph": 337.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Gordon launched hard and kept it hooked up and hitting on all eight.  She makes the fastest pass in St. Louis\r\nhistory with the track speed record.  Maddi Gordon's incremental times: 60ft-0.855 sec., 330ft-2.157,\r\n660ft-3.024/295.66 mph. \r\n\r\nLangdon kept it hooked up and was straight down the groove with the quickest pass of the session.  Shawn\r\nLangdon's incremental times: 60ft-0.816 sec., 330ft-2.108, 660ft-2.980/292.77 mph.   He has swept qualifying\r\nbonus points so far this weekend."
+  }
+ ]
+}

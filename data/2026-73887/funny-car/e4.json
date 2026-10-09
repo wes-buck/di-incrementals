@@ -1,0 +1,49 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.083,
+     "ft60": 0.865,
+     "ft330": 2.257,
+     "ft660": 3.181,
+     "mph660": 280.95,
+     "ft1000": null,
+     "et": 3.926,
+     "mph": 325.37,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.045,
+     "ft60": 0.889,
+     "ft330": 2.264,
+     "ft660": 3.175,
+     "mph660": 284.75,
+     "ft1000": null,
+     "et": 3.909,
+     "mph": 332.84,
+     "first": 0.0552,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 0.0552
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 45 percent, barometer 30.13 inches, adjusted\r\naltitude 2,067 feet, track temperature 119 degrees.\r\n\r\nVandergriff and Prock have each won 4 times against the other in prior events and this is the first time they\r\nhave faced each other in a final round.\r\n\r\nProck with the starting line advantage and never trailed for the win.  He wins his second Wally this season\r\nand 23rd in his career.  Prock is now in third place in points.\r\n\r\nVandergriff started dancing around on the top end in the losing effort."
+  }
+ ]
+}

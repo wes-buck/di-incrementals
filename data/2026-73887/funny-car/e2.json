@@ -1,0 +1,166 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.096,
+     "ft60": 1.352,
+     "ft330": 5.307,
+     "ft660": 8.399,
+     "mph660": 80.84,
+     "ft1000": null,
+     "et": 11.17,
+     "mph": 81.32,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 0.882,
+     "ft330": 2.27,
+     "ft660": 3.189,
+     "mph660": 283.31,
+     "ft1000": null,
+     "et": 3.925,
+     "mph": 331.28,
+     "first": 7.2645,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 7.2645
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.017,
+     "ft60": 1.141,
+     "ft330": 4.369,
+     "ft660": 7.64,
+     "mph660": 72.09,
+     "ft1000": null,
+     "et": 10.691,
+     "mph": 80.44,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.062,
+     "ft60": 0.868,
+     "ft330": 2.235,
+     "ft660": 3.141,
+     "mph660": 286.07,
+     "ft1000": null,
+     "et": 3.872,
+     "mph": 333.66,
+     "first": 6.7743,
+     "lane": "Right",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 6.7743
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 1.249,
+     "ft330": 4.443,
+     "ft660": 7.716,
+     "mph660": 71.94,
+     "ft1000": null,
+     "et": 10.72,
+     "mph": 81.43,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.87,
+     "ft330": 2.235,
+     "ft660": 3.136,
+     "mph660": 287.84,
+     "ft1000": null,
+     "et": 3.87,
+     "mph": 331.28,
+     "first": 6.8336,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": 6.8336
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.067,
+     "ft60": 0.889,
+     "ft330": 2.281,
+     "ft660": 3.21,
+     "mph660": 279.5,
+     "ft1000": null,
+     "et": 3.952,
+     "mph": 327.59,
+     "first": 2.2403,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": -0.036,
+     "ft60": 2.213,
+     "ft330": 8.077,
+     "ft660": 12.62,
+     "mph660": 56.11,
+     "ft1000": null,
+     "et": 16.295,
+     "mph": 67.62,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.018,
+     "ft60": 0.979,
+     "ft330": 2.727,
+     "ft660": 4.2,
+     "mph660": 165.5,
+     "ft1000": 5.48,
+     "et": 6.556,
+     "mph": 209.2,
+     "first": 0.0012,
+     "lane": "Left",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0012
+    },
+    {
+     "rt": 0.028,
+     "ft60": 0.985,
+     "ft330": 2.736,
+     "ft660": 4.206,
+     "mph660": 167.32,
+     "ft1000": 5.478,
+     "et": 6.547,
+     "mph": 209.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 45 percent, barometer 30.13 inches, adjusted\r\naltitude 2,067 feet, track temperature 119 degrees.\r\n\r\nG. Stanfield is 6 - 1 against A. Stanfield in prior events and G. Stanfield is 1 - 0 against A. Stanfield in\r\nprior final rounds. \r\n\r\nAaron with the starting line advantage and the power to hold on for the hole shot win in a close one.  Aaron\r\nStanfield's MOV: 0.0012 seconds (approximately 4 inches).\r\n\r\nAaron wins his third Wally this season and 17th in his career.\r\n\r\nThe No. 4 PS qualifier has won this race six times, the most of any starting position, in eight Final rounds.\r\nThe last came in \r\n2023."
+  }
+ ]
+}

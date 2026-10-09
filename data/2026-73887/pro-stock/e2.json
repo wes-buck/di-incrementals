@@ -1,0 +1,182 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock/e2",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock",
+ "round": "E2",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.046,
+     "ft60": 0.976,
+     "ft330": 2.717,
+     "ft660": 4.181,
+     "mph660": 167.12,
+     "ft1000": 5.453,
+     "et": 6.528,
+     "mph": 209.65,
+     "first": 0.0027,
+     "lane": "Left",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0027
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.98,
+     "ft330": 2.723,
+     "ft660": 4.186,
+     "mph660": 168.07,
+     "ft1000": 5.452,
+     "et": 6.521,
+     "mph": 209.98,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 0.977,
+     "ft330": 2.721,
+     "ft660": 4.182,
+     "mph660": 167.99,
+     "ft1000": 5.448,
+     "et": 6.518,
+     "mph": 209.65,
+     "first": 0.0057,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0057
+    },
+    {
+     "rt": 0.037,
+     "ft60": 0.977,
+     "ft330": 2.729,
+     "ft660": 4.191,
+     "mph660": 168.3,
+     "ft1000": 5.452,
+     "et": 6.518,
+     "mph": 209.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.019,
+     "ft60": 0.983,
+     "ft330": 2.73,
+     "ft660": 4.193,
+     "mph660": 168.07,
+     "ft1000": 5.458,
+     "et": 6.529,
+     "mph": 208.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.979,
+     "ft330": 2.719,
+     "ft660": 4.18,
+     "mph660": 167.84,
+     "ft1000": 5.448,
+     "et": 6.518,
+     "mph": 209.92,
+     "first": 0.0149,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0149
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.063,
+     "ft60": 0.989,
+     "ft330": 2.737,
+     "ft660": 4.201,
+     "mph660": 167.57,
+     "ft1000": 5.47,
+     "et": 6.54,
+     "mph": 210.08,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.971,
+     "ft330": 2.713,
+     "ft660": 4.174,
+     "mph660": 168.16,
+     "ft1000": 5.441,
+     "et": 6.508,
+     "mph": 210.44,
+     "first": 0.0406,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0406
+    }
+   ],
+   "note": "Coughlin is 25 - 7 against Stanfield in prior events. \r\n\r\nStanfield with the starting line advantage and never trailed for the win.  He makes the quickest pass of the\r\nround for the win and lane choice over Glenn in the semifinal."
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock-motorcycle/q4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock-motorcycle",
+ "round": "Q4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.196,
+     "ft60": 1.094,
+     "ft330": 2.89,
+     "ft660": 4.424,
+     "mph660": 159.08,
+     "ft1000": 5.766,
+     "et": 6.915,
+     "mph": 195.42,
+     "first": 1.1052,
+     "lane": "Left",
+     "win": true,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.01,
+     "ft60": 1.09,
+     "ft330": 3.001,
+     "ft660": 4.749,
+     "mph660": 139.33,
+     "ft1000": 6.458,
+     "et": 8.206,
+     "mph": 121.01,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Malcolm Phillips Jr",
+     "car": "461",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 75 degrees, relative humidity 35 percent, barometer 30.13 inches, adjusted\r\naltitude 1,545 feet, track temperature 107 degrees.\r\n\r\nScali with a clean pass, but will not improve.\r\n\r\nPhillips Jr pulled in the clutch early."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.122,
+     "ft60": 1.101,
+     "ft330": 2.892,
+     "ft660": 4.409,
+     "mph660": 161.79,
+     "ft1000": 5.729,
+     "et": 6.867,
+     "mph": 193.18,
+     "first": 0.0819,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kelly Clontz",
+     "car": "1981",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.149,
+     "ft60": 1.119,
+     "ft330": 2.951,
+     "ft660": 4.47,
+     "mph660": 161.32,
+     "ft1000": 5.791,
+     "et": 6.921,
+     "mph": 198.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Clontz with another good pass, but will not improve.\r\n\r\nIngwersen with clean pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.068,
+     "ft60": 1.055,
+     "ft330": 2.822,
+     "ft660": 4.334,
+     "mph660": 161.67,
+     "ft1000": 5.655,
+     "et": 6.792,
+     "mph": 197.08,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 1.086,
+     "ft330": 2.861,
+     "ft660": 4.373,
+     "mph660": 162.08,
+     "ft1000": 5.691,
+     "et": 6.822,
+     "mph": 197.39,
+     "first": 0.0054,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Howey is straight down the groove with a good pass.\r\n\r\nJohnson with a clean pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 1.055,
+     "ft330": 2.819,
+     "ft660": 4.314,
+     "mph660": 163.91,
+     "ft1000": 5.617,
+     "et": 6.729,
+     "mph": 202.06,
+     "first": 0.0977,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.012,
+     "ft60": 1.085,
+     "ft330": 2.888,
+     "ft660": 4.403,
+     "mph660": 161.77,
+     "ft1000": 5.718,
+     "et": 6.839,
+     "mph": 200.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gadson kept it hooked up with his quickest pass of the weekend.  He will stay in the number seven spot.\r\n\r\nVan Sant with a good pass, but will not improve."
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 1.073,
+     "ft330": 2.82,
+     "ft660": 4.299,
+     "mph660": 165.42,
+     "ft1000": 5.591,
+     "et": 6.699,
+     "mph": 202.21,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Oehler kept it hooked up to make his quickest pass of the weekend to move up the ladder one spot."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.039,
+     "ft60": 1.058,
+     "ft330": 2.81,
+     "ft660": 4.295,
+     "mph660": 165.33,
+     "ft1000": 5.59,
+     "et": 6.699,
+     "mph": 202.45,
+     "first": 0.0594,
+     "lane": "Left",
+     "win": true,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.038,
+     "ft60": 1.061,
+     "ft330": 2.83,
+     "ft660": 4.329,
+     "mph660": 163.57,
+     "ft1000": 5.638,
+     "et": 6.759,
+     "mph": 199.67,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Gladstone kept it hooked up with another good pass.\r\n\r\nHall with another good pass."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.048,
+     "ft60": 1.05,
+     "ft330": 2.803,
+     "ft660": 4.282,
+     "mph660": 166.07,
+     "ft1000": 5.569,
+     "et": 6.672,
+     "mph": 203.12,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 1.015,
+     "ft330": 2.763,
+     "ft660": 4.245,
+     "mph660": 165.23,
+     "ft1000": 5.538,
+     "et": 6.644,
+     "mph": 202.76,
+     "first": 0.0358,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Smith is straight down the groove with a good pass, but will not improve.\r\n\r\nHerrera launched hard and kept it hooked up to make the quickest pass of the season to go to the number one\r\nspot.  Gaige Herrera's incremental times: 60ft-1.015 sec., 330ft-2.763, 660ft-4.245/165.23 mph, 1,000ft-5.538."
+  }
+ ]
+}

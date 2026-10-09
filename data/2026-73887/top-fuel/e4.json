@@ -1,0 +1,49 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.044,
+     "ft60": 0.863,
+     "ft330": 2.185,
+     "ft660": 3.148,
+     "mph660": 244.74,
+     "ft1000": null,
+     "et": 4.024,
+     "mph": 269.03,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.839,
+     "ft330": 2.136,
+     "ft660": 3.01,
+     "mph660": 292.27,
+     "ft1000": null,
+     "et": 3.732,
+     "mph": 335.9,
+     "first": 0.2777,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.2777
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 45 percent, barometer 30.13 inches, adjusted\r\naltitude 2,067 feet, track temperature 119 degrees.\r\n\r\nOnly one TF driver qualified lower than No. 9 has ever made the Final round at this event: Zetterstrom, who\r\nqualified No. 14 in 2025.\r\n\r\nThe No. 1 TF qualifier has won this race four times in five Final rounds. The last came in 2025.\r\n\r\nShawn Langdon is 8-7 in Final rounds when qualified No. 1, including 3-2 this year.\r\n\r\nLangdon is 2 - 0 against Smith in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nSmith with the starting line advantage, but Langdon had the lead by the time they go by the Christmas tree and\r\nnever trailed for the win.  He wins his fourth consecutive Wally.  This is his eighth win this season and the\r\n30th of his career.\r\n\r\nSmith started to lose traction and drop cylinders around half track."
+  }
+ ]
+}

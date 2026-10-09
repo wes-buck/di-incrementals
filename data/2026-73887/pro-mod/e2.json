@@ -1,0 +1,182 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-mod/e2",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-mod",
+ "round": "E2",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.324,
+     "ft60": 1.009,
+     "ft330": 2.576,
+     "ft660": 3.801,
+     "mph660": 202.48,
+     "ft1000": 4.845,
+     "et": 5.736,
+     "mph": 245.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chip King",
+     "car": "9",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.046,
+     "ft60": 0.938,
+     "ft330": 2.492,
+     "ft660": 3.72,
+     "mph660": 201.55,
+     "ft1000": 4.769,
+     "et": 5.655,
+     "mph": 253.66,
+     "first": 0.3595,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Gray",
+     "car": "1",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.3595
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.034,
+     "ft60": 0.949,
+     "ft330": 2.527,
+     "ft660": 3.741,
+     "mph660": 202.48,
+     "ft1000": 4.787,
+     "et": 5.67,
+     "mph": 255.34,
+     "first": 0.0214,
+     "lane": "Left",
+     "win": true,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0214
+    },
+    {
+     "rt": 0.087,
+     "ft60": 0.944,
+     "ft330": 2.497,
+     "ft660": 3.715,
+     "mph660": 203.09,
+     "ft1000": 4.758,
+     "et": 5.638,
+     "mph": 255.73,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.032,
+     "ft60": 0.956,
+     "ft330": 2.516,
+     "ft660": 3.748,
+     "mph660": 200.86,
+     "ft1000": 4.802,
+     "et": 5.699,
+     "mph": 250.13,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.044,
+     "ft60": 0.949,
+     "ft330": 2.497,
+     "ft660": 3.718,
+     "mph660": 202.76,
+     "ft1000": 4.762,
+     "et": 5.645,
+     "mph": 254.86,
+     "first": 0.0428,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0428
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.932,
+     "ft330": 2.489,
+     "ft660": 3.724,
+     "mph660": 200.35,
+     "ft1000": 4.782,
+     "et": 5.684,
+     "mph": 247.75,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Mike Castellana",
+     "car": "44",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.021,
+     "ft60": 0.941,
+     "ft330": 2.509,
+     "ft660": 3.742,
+     "mph660": 200.86,
+     "ft1000": 4.793,
+     "et": 5.678,
+     "mph": 253.8,
+     "first": 0.0392,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jason Collins",
+     "car": "209",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0392
+    }
+   ],
+   "note": null
+  }
+ ]
+}

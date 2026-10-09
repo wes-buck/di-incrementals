@@ -1,0 +1,166 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/top-fuel/e2",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "top-fuel",
+ "round": "E2",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.852,
+     "ft330": 2.152,
+     "ft660": 3.033,
+     "mph660": 289.94,
+     "ft1000": null,
+     "et": 3.762,
+     "mph": 333.82,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.839,
+     "ft330": 2.136,
+     "ft660": 2.997,
+     "mph660": 294.37,
+     "ft1000": null,
+     "et": 3.721,
+     "mph": 331.69,
+     "first": 0.0195,
+     "lane": "Right",
+     "win": true,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "14",
+     "mov": 0.0195
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 0.875,
+     "ft330": 2.857,
+     "ft660": 5.203,
+     "mph660": 90.62,
+     "ft1000": null,
+     "et": 7.85,
+     "mph": 81.93,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.041,
+     "ft60": 0.857,
+     "ft330": 2.159,
+     "ft660": 3.031,
+     "mph660": 291.45,
+     "ft1000": null,
+     "et": 3.758,
+     "mph": 332.1,
+     "first": 4.1041,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "7",
+     "mov": 4.1041
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.851,
+     "ft330": 2.159,
+     "ft660": 3.04,
+     "mph660": 289.51,
+     "ft1000": null,
+     "et": 3.77,
+     "mph": 332.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.037,
+     "ft60": 0.836,
+     "ft330": 2.126,
+     "ft660": 2.997,
+     "mph660": 293.66,
+     "ft1000": null,
+     "et": 3.714,
+     "mph": 337.83,
+     "first": 0.0737,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": 0.0737
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 0.845,
+     "ft330": 2.157,
+     "ft660": 3.036,
+     "mph660": 291.01,
+     "ft1000": null,
+     "et": 3.764,
+     "mph": 332.75,
+     "first": 5.9081,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": 5.9081
+    },
+    {
+     "rt": 0.094,
+     "ft60": 1.048,
+     "ft330": 3.915,
+     "ft660": 6.809,
+     "mph660": 81.89,
+     "ft1000": null,
+     "et": 9.618,
+     "mph": 83.33,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jasmine Salinas",
+     "car": "616",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

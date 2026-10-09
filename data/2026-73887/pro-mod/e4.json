@@ -1,0 +1,53 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-mod/e4",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-mod",
+ "round": "E4",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": -0.045,
+     "ft60": 0.948,
+     "ft330": 2.523,
+     "ft660": 3.733,
+     "mph660": 202.76,
+     "ft1000": 4.776,
+     "et": 5.656,
+     "mph": 256.02,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Stan Shelton",
+     "car": "212",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.019,
+     "ft60": 0.95,
+     "ft330": 2.493,
+     "ft660": 3.712,
+     "mph660": 203.09,
+     "ft1000": 4.754,
+     "et": 5.634,
+     "mph": 255.48,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Jackson",
+     "car": "280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 80 degrees, relative humidity 45 percent, barometer 30.13 inches, adjusted\r\naltitude 2,067 feet, track temperature 119 degrees.\r\n\r\nShelton is 1 - 0 against Jackson in prior events and this is the first time they have faced each other in a\r\nfinal round.\r\n\r\nShelton goes red to give Jackson the win  Jackson is straight down the groove for the win.  He wins his first\r\nWally this season and 14th of his career."
+  }
+ ]
+}

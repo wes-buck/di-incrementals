@@ -1,0 +1,88 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.061,
+     "ft60": 0.887,
+     "ft330": 2.274,
+     "ft660": 3.198,
+     "mph660": 282.07,
+     "ft1000": null,
+     "et": 3.939,
+     "mph": 327.82,
+     "first": 2.2216,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "7",
+     "mov": 2.2216
+    },
+    {
+     "rt": 0.063,
+     "ft60": 1.165,
+     "ft330": 3.32,
+     "ft660": 4.665,
+     "mph660": 165.76,
+     "ft1000": null,
+     "et": 6.158,
+     "mph": 148.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 45 percent, barometer 30.14 inches, adjusted\r\naltitude 1,984 feet, track temperature 116 degrees.\r\n\r\nVandergriff and Hagan have each won 2 times against the other in prior events. \r\n\r\nVandergriff with a couple ticks s on the tree and then the car gets real loose on the top end and close to the\r\nwall.  He gets the win and is advancing to his seventh career final round and sixth this season.\r\n\r\nHagan was up in smoke right at the hit and clicked it off."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.052,
+     "ft60": 0.887,
+     "ft330": 2.263,
+     "ft660": 3.172,
+     "mph660": 284.45,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 329.91,
+     "first": 0.0215,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": 0.0215
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.87,
+     "ft330": 2.248,
+     "ft660": 3.162,
+     "mph660": 282.9,
+     "ft1000": null,
+     "et": 3.903,
+     "mph": 329.42,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Prock is 7 - 6 against Beckman in prior events. \r\n\r\nProck with the starting line advantage and the power to hold on for the hole shot win.  He will have lane\r\nchoice over Vandergriff in the final.  He is advancing to his third final this season and 35th of his career."
+  }
+ ]
+}

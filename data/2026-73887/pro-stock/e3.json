@@ -1,0 +1,96 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73887/detailed-results/pro-stock/e3",
+ "year": 2026,
+ "event_id": "73887",
+ "class": "pro-stock",
+ "round": "E3",
+ "event_name": "NAPA Auto Parts NHRA Midwest Nationals",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.029,
+     "ft60": 1.099,
+     "ft330": 3.107,
+     "ft660": 4.637,
+     "mph660": 161.94,
+     "ft1000": 5.941,
+     "et": 7.037,
+     "mph": 206.32,
+     "first": 2.0482,
+     "lane": "Left",
+     "win": true,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 2.0482
+    },
+    {
+     "rt": 0.015,
+     "ft60": 1.025,
+     "ft330": 3.476,
+     "ft660": 5.364,
+     "mph660": 127.52,
+     "ft1000": 7.231,
+     "et": 9.099,
+     "mph": 113.64,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 79 degrees, relative humidity 45 percent, barometer 30.14 inches, adjusted\r\naltitude 1,984 feet, track temperature 116 degrees.\r\n\r\nStanfield is 12 - 6 against Coughlin Jr. in prior events. \r\n\r\nThey both take their time staging, Coughlin Jr. goes in first and Stanfield follows right in. Coughlin Jr.\r\nwith the starting line advantage and has tire shake and pedals it.  Stanfield with tire shake right at the hit\r\nand pedaled it and got it hook up enough to get the win.  He is advancing to his third final round this season\r\nand 30th career."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.024,
+     "ft60": 1.004,
+     "ft330": 2.762,
+     "ft660": 4.229,
+     "mph660": 167.59,
+     "ft1000": 5.501,
+     "et": 6.576,
+     "mph": 208.91,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.972,
+     "ft330": 2.717,
+     "ft660": 4.182,
+     "mph660": 167.7,
+     "ft1000": 5.453,
+     "et": 6.525,
+     "mph": 209.23,
+     "first": 0.0444,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0444
+    }
+   ],
+   "note": "Glenn is 4 - 3 against Stanfield in prior events. \r\n\r\nGlenn with the starting line advantage, but Stanfield has the lead has they go by the Christmas tree.  He\r\ntakes the win and will have lane choice over Aaron in the final.  Greg is advancing to his fourth final this\r\nseason and 32 career."
+  }
+ ]
+}
