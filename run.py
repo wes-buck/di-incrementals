@@ -25,6 +25,7 @@ import build  # noqa: E402
 import scrape  # noqa: E402
 
 DATA_ROOT = os.environ.get("DI_DATA_DIR", "data")
+FULL_REFRESH = os.environ.get("DI_FULL_REFRESH") == "1"   # set to re-pull every round
 SERIES_URL = "https://www.nhra.com/results/{year}/nhra-mission-foods-drag-racing-series"
 CLASS_NAMES = {"pro-mod": "Pro Mod", "top-fuel": "Top Fuel", "funny-car": "Funny Car",
                "pro-stock": "Pro Stock", "pro-stock-motorcycle": "Pro Stock Motorcycle"}
@@ -122,6 +123,10 @@ def pull(year, event, cls):
         rnds = sorted(f[:-5] for f in os.listdir(data_dir) if f.endswith(".json"))
     for rnd in rnds:
         saved = os.path.join(data_dir, f"{rnd}.json")
+        # a round is finished once a later one is listed; no need to ask NHRA for it again
+        if os.path.exists(saved) and rnd != rnds[-1] and not FULL_REFRESH:
+            pulled.append(rnd.upper())
+            continue
         try:
             url, html = scrape.fetch(year, event, cls, rnd)
             name, pairs = scrape.parse(html)
@@ -350,9 +355,17 @@ def main():
         cfg["year"], cfg["event"] = int(sys.argv[1]), sys.argv[2]
         cfg["open_round"] = sys.argv[3].upper() if len(sys.argv) > 3 else "LATEST"
     if "event" not in cfg:
-        today = datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
+        now = datetime.now(ZoneInfo("America/Chicago")).date()
+        today = now.isoformat()
         current = [e for e in cfg["schedule"] if e["starts"] <= today]
-        cfg["event"] = (current[-1] if current else cfg["schedule"][0])["event"]
+        entry = current[-1] if current else cfg["schedule"][0]
+        cfg["event"] = entry["event"]
+        # off weeks: the race window is its start day through 4 days later; nothing to poll outside it
+        start = datetime.fromisoformat(entry["starts"]).date()
+        if os.environ.get("DI_POLLING") == "1" and not (0 <= (now - start).days <= 4):
+            print("IDLE: no race this week")
+            print("UNCHANGED")
+            return
     year, event = cfg["year"], find_event(cfg["year"], cfg["event"])
     site = os.path.join(HERE, cfg.get("out_dir", "site"))
     os.makedirs(site, exist_ok=True)
@@ -368,6 +381,9 @@ def main():
             b["leaders"] = leaders_for(cls, b, label, reg, year, b.get("event_date"))
     save_registry(site, reg)
     render_event(site, "", bundles, cfg, slug, label, template, preview=True, waiting_query=cfg["event"], year=year)
+    live = {"slug": slug, "label": label, "generated": datetime.now(ZoneInfo("UTC")).isoformat(timespec="seconds"),
+            "classes": {c: [[r["round"], len(r["runs"])] for r in b["rounds"]] for c, b in bundles.items()}}
+    json.dump(live, open(os.path.join(site, "live.json"), "w"))
     if bundles:
         render_event(os.path.join(site, "events", slug), "../../", bundles, cfg, slug, label, template)
     event_name = next((b["event_name"] for b in bundles.values()), None)

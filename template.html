@@ -309,6 +309,19 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 .lb-card .w { display: block; font-size: 11.5px; color: var(--muted); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lb-card .v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
 
+/* new round banner */
+.fresh { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; padding: 0 12px calc(env(safe-area-inset-bottom, 0px) + 12px); display: flex; justify-content: center; pointer-events: none; }
+.fresh button { pointer-events: auto; display: flex; align-items: center; gap: 12px; width: 100%; max-width: 460px; border: 0; border-radius: 12px; padding: 14px 16px; background: var(--q); color: var(--q-ink); font-weight: 700; font-size: 16px; text-align: left; cursor: pointer; box-shadow: 0 10px 30px rgba(0, 0, 0, .35); }
+.fresh .dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; flex: none; }
+.fresh .go { margin-left: auto; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .9; white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) {
+  .fresh button { animation: rise .25s ease-out; }
+  .fresh .dot { animation: blink 1.2s ease-in-out infinite; }
+  @keyframes rise { from { transform: translateY(20px); opacity: 0; } to { transform: none; opacity: 1; } }
+  @keyframes blink { 50% { opacity: .35; } }
+}
+@media print { .fresh { display: none !important; } }
+
 /* take it with you */
 .keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
 .keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
@@ -474,6 +487,8 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   </footer>
 </main>
 
+<div class="fresh" id="fresh" hidden></div>
+
 <script type="application/json" id="data">__DATA__</script>
 <script>
 (function () {
@@ -536,6 +551,45 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
         if (w) w.insertAdjacentHTML("beforeend", `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`);
       }
     }).catch(() => {});
+  })();
+
+  // live updates: every minute, check whether NHRA has posted something newer than this page shows
+  (function freshness() {
+    const root = D.root || "";
+    const mine = (D.rounds || []).map((r) => r.round + ":" + r.runs.length).join(",");
+    let shown = false;
+    function offer(text, round) {
+      if (shown) return;
+      shown = true;
+      const box = document.getElementById("fresh");
+      box.innerHTML = `<button type="button"><span class="dot"></span><span>${esc(text)}</span><span class="go">Tap to load</span></button>`;
+      box.hidden = false;
+      box.querySelector("button").onclick = () => {
+        track("tap_new_round", { round: round || "" });
+        location.href = location.pathname + "?v=" + Date.now() + (round ? "#" + round.toLowerCase() : "");
+      };
+    }
+    function check() {
+      if (document.hidden || shown) return;
+      fetch(root + "live.json?t=" + Date.now(), { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((j) => {
+        if (!j || !j.slug) return;
+        if (D.waiting) {
+          if (j.classes && Object.keys(j.classes).length) offer("Qualifying is live", "");
+          return;
+        }
+        if (j.slug !== D.slug) { offer(`${j.label || "A new race"} is live`, ""); return; }
+        const c = j.classes && j.classes[D.class];
+        if (!c || !c.length) return;
+        const live = c.map((x) => x[0] + ":" + x[1]).join(",");
+        if (live === mine) return;
+        const latest = c[c.length - 1][0];
+        const isNew = !(D.rounds || []).some((r) => r.round === latest);
+        offer(isNew ? `${latest} just posted` : `New runs posted in ${latest}`, latest);
+      }).catch(() => {});
+    }
+    // only the live race page (or the waiting page) needs to watch
+    const watch = () => setInterval(check, 60000);
+    if (D.waiting || (D.root === "" || D.root === "../")) { watch(); document.addEventListener("visibilitychange", () => { if (!document.hidden) check(); }); }
   })();
 
   if (D.waiting) {

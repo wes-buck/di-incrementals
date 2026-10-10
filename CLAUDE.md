@@ -12,7 +12,7 @@ Where to make a change:
 - Print, downloads, archive: print sheet is `#print` + `@media print` in template.html; run.py writes a CSV per class and a permanent copy of each race under site/events/<year-event>/ (listed in events/events.json, shown as Past Races)
 - Race picker / archive: site/events/events.json ({live, events[]}) drives the header Race menu and Past Races. Short race names: config.json > event_labels. Backfill a season into a checkout of gh-pages at site/: `DI_DATA_DIR=site/data python run.py backfill 2026` (skips races already archived), then commit and push gh-pages. Any change to template.html, build.py, config.json or run.py automatically re-renders every archived race from saved data on the next run
 - Usage stats: Google Analytics (DI property, config.json > analytics.ga4). Custom events: view_round, open_slip, rank_by, compare, ladder_compare, switch_race, print_round, download_spreadsheet, save_page; params race, class_name, round. Nothing is shown on the page
-- Schedule / publishing: `.github/workflows/incrementals.yml`
+- Schedule / publishing: `.github/workflows/incrementals.yml`. Race days (schedule start day + 4): hourly jobs each poll NHRA every 60s for ~70 min (overlapping); only the newest round per class is re-pulled (DI_FULL_REFRESH=1 re-pulls all). Off weeks the poller exits at once (IDLE). Pushes and manual runs do one pass in their own concurrency lane. site/live.json (round + run counts per class) drives the page's "new round posted - tap to load" banner, checked every 60s on live pages
 
 Workflow for a tweak:
 1. `pip install -r requirements.txt`, then `python run.py 2026 midwest Q1` to build a past race into `site/`.

@@ -1,12 +1,12 @@
 name: DI Incrementals
 
-# Race weekends: check NHRA every few minutes, publish when a new round posts.
-# GitHub runs schedules in UTC and can start them a few minutes late under load;
-# each run checks three times, about 90 seconds apart, to keep the gap short.
+# Race days: one job stays on and checks NHRA every 60 seconds, publishing the moment a round changes.
+# A fresh job starts every hour and runs ~70 minutes, so coverage overlaps and never depends on
+# GitHub starting a scheduled job on time. Pushes and manual runs do a single quick pass.
 on:
   schedule:
-    - cron: "*/5 * * * 4,5,6,0"   # Thursday through Sunday
-    - cron: "*/5 0-6 * * 1"       # Sunday night Central (early Monday UTC)
+    - cron: "0 * * * 4,5,6,0"   # Thursday through Sunday (UTC)
+    - cron: "0 0-6 * * 1"       # Sunday night Central (early Monday UTC)
   push:
     branches: [main]
   workflow_dispatch:
@@ -22,13 +22,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: incrementals
+  # race-day pollers queue behind each other; pushes and manual runs get their own lane
+  group: incrementals-${{ github.event_name == 'schedule' && 'poll' || 'oneshot' }}
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v5
 
@@ -52,20 +53,28 @@ jobs:
       - name: Pull NHRA results and publish
         env:
           DI_DATA_DIR: site/data
+          POLL: ${{ github.event_name == 'schedule' && '70' || '0' }}
+          DI_POLLING: ${{ github.event_name == 'schedule' && '1' || '0' }}
         run: |
           git config --global user.name "DI Incrementals"
           git config --global user.email "incrementals@dragillustrated.com"
-          for pass in 1 2 3; do
+          end=$(( $(date +%s) + POLL * 60 ))
+          while true; do
+            # start every pass from the newest published copy (another job may have published)
+            (cd site && git fetch -q origin gh-pages && git reset -q --hard origin/gh-pages) || true
             if [ -n "${{ github.event.inputs.event }}" ]; then
-              out=$(python run.py 2026 "${{ github.event.inputs.event }}" "${{ github.event.inputs.round || 'LATEST' }}")
+              out=$(python run.py 2026 "${{ github.event.inputs.event }}" "${{ github.event.inputs.round || 'LATEST' }}") || true
             else
-              out=$(python run.py)
+              out=$(python run.py) || true
             fi
-            echo "$out"
+            echo "$(date -u +%H:%M:%S) $out"
             if echo "$out" | grep -qx CHANGED; then
               cp -f CNAME site/CNAME 2>/dev/null || true
               touch site/.nojekyll
-              (cd site && git add -A && git commit -qm "Update: $(echo "$out" | head -1)" && git push -q origin gh-pages)
+              (cd site && git add -A && git commit -qm "Update: $(echo "$out" | head -1 | cut -c1-200)" && \
+                (git push -q origin gh-pages || (git fetch -q origin gh-pages && git rebase -q -X theirs origin/gh-pages && git push -q origin gh-pages))) || echo "publish failed; next pass retries"
             fi
-            if [ $pass -lt 3 ]; then sleep 90; fi
+            if echo "$out" | grep -q "^IDLE"; then break; fi
+            [ "$(date +%s)" -ge "$end" ] && break
+            sleep 60
           done
