@@ -145,7 +145,7 @@ h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-h
 
 /* wide-screen table */
 .table-wrap { display: none; overflow-x: auto; border-top: 3px solid var(--ink); }
-table.board { border-collapse: separate; border-spacing: 5px 0; width: 100%; }
+table.board { border-collapse: separate; border-spacing: 5px 8px; width: 100%; }
 .board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
 .board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); }
 .board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
@@ -153,7 +153,6 @@ table.board { border-collapse: separate; border-spacing: 5px 0; width: 100%; }
 .board thead th[aria-sort] button::after { content: " \25BE"; color: var(--di-red); }
 .board .drv { text-align: left; }
 .board tbody tr { cursor: pointer; }
-.board tbody td { border-bottom: 8px solid var(--bg); }
 .board tbody tr:not(:first-child) td.drv { box-shadow: inset 0 1px 0 var(--line); }
 .board tbody tr:hover .drv { background: var(--panel); }
 .drv-in { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; }
