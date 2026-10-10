@@ -320,7 +320,21 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   @keyframes rise { from { transform: translateY(20px); opacity: 0; } to { transform: none; opacity: 1; } }
   @keyframes blink { 50% { opacity: .35; } }
 }
-@media print { .fresh { display: none !important; } }
+@media print { .fresh, .fold-h .chev, .fold-h .fs { display: none !important; } .fold-h { border: 0; padding: 0; } }
+
+/* fold-away sections: everything but the Board opens on tap */
+.fold-h { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 12px; width: 100%; cursor: pointer; padding: 14px 4px 14px 0; border-top: 1px solid var(--line); -webkit-tap-highlight-color: transparent; }
+.fold-h:focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
+.fold-h .ft { min-width: 0; flex: 1; }
+.fold-h h2 { margin: 0; }
+.fold-h .fs { display: block; font-size: 13px; color: var(--muted); margin-top: 3px; font-family: var(--font-body); }
+.fold-h .chev { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--panel); display: grid; place-items: center; transition: transform .2s; }
+.fold-h .chev::before { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: translateY(-2px) rotate(45deg); }
+.fold.open .fold-h .chev { transform: rotate(180deg); }
+.fold.open .fold-h .fs { display: none; }
+@media screen { .fold:not(.open) > :not(.fold-h) { display: none !important; } }
+.sec.fold { margin-top: 0; }
+.duo:has(.fold) { gap: 0 28px; }
 
 /* take it with you */
 .keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
@@ -436,7 +450,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 
   <div id="ad"></div>
 
-  <section class="sec">
+  <section class="sec" id="lights-sec">
     <h2>Quickest at Every Block</h2>
     <p class="hint">Top five at each timing block: each car's time, and how far back it was.</p>
     <div class="lights" id="lights"></div>
@@ -444,7 +458,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   </section>
 
   <section class="sec duo">
-    <div>
+    <div id="lane-sec">
       <h2>Lane Check</h2>
       <p class="hint">Average of the clean runs in each lane.</p>
       <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
@@ -1032,9 +1046,48 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       cmpMode = "round";
       go(b.dataset.r);
       $("cmp-round").setAttribute("aria-pressed", "true"); $("cmp-best").setAttribute("aria-pressed", "false");
+      openFold("cmp-sec");
       document.getElementById("cmp-sec").scrollIntoView({ behavior: "smooth", block: "start" });
     });
   }
+
+  // fold-away sections (the Board always stays open); each viewer's choices are remembered
+  const FOLDS = [
+    ["cmp-sec", "Pick any two cars, block by block"],
+    ["elim-sec", "Bracket, holeshots, tap a pairing to compare"],
+    ["lights-sec", "Top five at each timing block"],
+    ["lane-sec", "Left lane vs right lane"],
+    ["ladder-sec", "Best ET to date, the bump spot"],
+    ["lb-sec", "Top five at every block, this race or the season"],
+    ["keep-sec", "Print, spreadsheet, save offline, past races"],
+  ];
+  function setFold(el, open, save) {
+    el.classList.toggle("open", open);
+    const b = el.querySelector(":scope > .fold-h");
+    if (b) b.setAttribute("aria-expanded", open);
+    if (save) { try { localStorage.setItem("di-fold-" + el.id, open ? "1" : "0"); } catch (e) {} }
+  }
+  function openFold(id) { const el = document.getElementById(id); if (el && el.classList.contains("fold")) setFold(el, true, true); }
+  FOLDS.forEach(([id, sub]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const h2 = el.querySelector(":scope > h2");
+    if (!h2) return;
+    const btn = document.createElement("button");
+    btn.type = "button"; btn.className = "fold-h";
+    btn.innerHTML = `<span class="ft"></span><span class="chev" aria-hidden="true"></span>`;
+    btn.querySelector(".ft").appendChild(h2);
+    btn.querySelector(".ft").insertAdjacentHTML("beforeend", `<span class="fs">${esc(sub)}</span>`);
+    el.insertBefore(btn, el.firstChild);
+    el.classList.add("fold");
+    let saved = null; try { saved = localStorage.getItem("di-fold-" + id); } catch (e) {}
+    setFold(el, saved === "1", false);
+    btn.onclick = () => {
+      const open = !el.classList.contains("open");
+      setFold(el, open, true);
+      if (open) track("open_section", { section: id.replace("-sec", "") });
+    };
+  });
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
     track("view_round", { round: R.round });
