@@ -1,4 +1,5 @@
 <title>DI Incrementals</title>
+__GA__
 <meta name="theme-color" content="#000000">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -475,6 +476,10 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
 <script>
 (function () {
   const D = JSON.parse(document.getElementById("data").textContent);
+  // private usage stats for DI (Google Analytics); never shown on the page
+  function track(name, params) {
+    try { if (window.gtag) window.gtag("event", name, Object.assign({ race: D.label || "", class_name: D.class_name || "" }, params || {})); } catch (e) {}
+  }
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const FIELD = 16;
@@ -517,7 +522,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       const known = evs.some((e) => e.slug === here);
       sel.innerHTML = (known ? "" : `<option selected>${esc(D.label || "This race")}</option>`) + evs.map((e) =>
         `<option value="${esc(target(e))}"${e.slug === here ? " selected" : ""}>${esc(e.label || e.name)}${e.date ? " · " + fmt(e.date) : ""}${e.slug === R0.live ? " (latest)" : ""}</option>`).join("");
-      sel.onchange = () => { if (sel.value) location.href = sel.value; };
+      sel.onchange = () => { if (sel.value) { track("switch_race", { to: sel.options[sel.selectedIndex].text }); location.href = sel.value; } };
       document.getElementById("race-wrap").hidden = false;
       const past = evs.filter((e) => e.slug !== here && e.slug !== R0.live);
       const list = past.map((e) => `<li><a href="${esc(target(e))}"><span><b>${esc(e.label || e.name)}</b><small>${esc(e.name)}</small></span><span>${e.date ? fmt(e.date) + ", " + e.year : e.year}</span></a></li>`).join("");
@@ -631,7 +636,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     const C = cols().filter(([k]) => k !== "mph660");
     $("sortrow").innerHTML = `<span class="lbl">Rank by</span>` + C.map(([k, l]) =>
       `<button type="button" class="chip" data-k="${k}" aria-pressed="${k === sortKey}">${l}</button>`).join("");
-    $("sortrow").querySelectorAll("button").forEach((b) => b.onclick = () => { sortKey = b.dataset.k; renderBoard(); });
+    $("sortrow").querySelectorAll("button").forEach((b) => b.onclick = () => { sortKey = b.dataset.k; track("rank_by", { block: b.dataset.k }); renderBoard(); });
   }
 
   function subLine(r) {
@@ -662,7 +667,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
         <div class="strip" style="--n:${SC.length}">${strip}</div>${open ? slip(r) : ""}</div>`;
     }).join("");
     $("cards").querySelectorAll(".car").forEach((el) => {
-      const flip = () => { openDriver = openDriver === el.dataset.d ? null : el.dataset.d; renderBoard(); };
+      const flip = () => { openDriver = openDriver === el.dataset.d ? null : el.dataset.d; if (openDriver) track("open_slip", { round: R.round }); renderBoard(); };
       el.onclick = (e) => { if (!e.target.closest(".slip")) flip(); };
       el.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
     });
@@ -806,8 +811,8 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     if (!names.includes(b) || b === a) b = byEt.find((n) => n !== a) || names.find((n) => n !== a);
     const opts = (cur) => names.map((n) => `<option value="${esc(n)}"${n === cur ? " selected" : ""}>${esc(n)}</option>`).join("");
     $("cmp-a").innerHTML = opts(a); $("cmp-b").innerHTML = opts(b);
-    $("cmp-a").onchange = () => { savePick("di-cmp-a-" + D.class, $("cmp-a").value); renderCompare(); };
-    $("cmp-b").onchange = () => { savePick("di-cmp-b-" + D.class, $("cmp-b").value); renderCompare(); };
+    $("cmp-a").onchange = () => { savePick("di-cmp-a-" + D.class, $("cmp-a").value); track("compare", { mode: cmpMode }); renderCompare(); };
+    $("cmp-b").onchange = () => { savePick("di-cmp-b-" + D.class, $("cmp-b").value); track("compare", { mode: cmpMode }); renderCompare(); };
     const A = runFor(a), B = runFor(b);
     if (!A || !B || a === b) { $("cmp-out").innerHTML = `<p class="cmp-empty">Pick two different cars.</p>`; return; }
     const la = last(a), lb = last(b);
@@ -879,7 +884,9 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     $("print").innerHTML = table("Timing blocks", cum) + table("Splits", seg);
   }
   function sortedRunsBy(k) { const keep = sortKey; sortKey = k; const r = sortedRuns(); sortKey = keep; return r; }
-  $("do-print").onclick = () => { renderPrint(); window.print(); };
+  $("do-print").onclick = () => { track("print_round", { round: R.round }); renderPrint(); window.print(); };
+  $("dl-csv").addEventListener("click", () => track("download_spreadsheet"));
+  $("dl-page").addEventListener("click", () => track("save_page"));
   window.addEventListener("beforeprint", renderPrint);
   if (D.csv) { $("dl-csv").href = D.csv; $("dl-csv").setAttribute("download", D.csv.split("/").pop()); }
   if (D.save) { $("dl-page").href = D.self_path || "index.html"; $("dl-page").setAttribute("download", D.save); }
@@ -964,6 +971,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     $("el").innerHTML = cols;
     $("el").querySelectorAll(".el-pair[data-a]").forEach((b) => b.onclick = () => {
       savePick("di-cmp-a-" + D.class, b.dataset.a); savePick("di-cmp-b-" + D.class, b.dataset.b);
+      track("ladder_compare", { round: b.dataset.r });
       cmpMode = "round";
       go(b.dataset.r);
       $("cmp-round").setAttribute("aria-pressed", "true"); $("cmp-best").setAttribute("aria-pressed", "false");
@@ -972,6 +980,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   }
   function go(rd) {
     R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
+    track("view_round", { round: R.round });
     openDriver = null;
     ceilings();
     try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}

@@ -161,7 +161,14 @@ def slug_for(year, label):
 
 def load_template():
     t = open(os.path.join(HERE, "template.html")).read()
-    return t.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
+    t = t.replace("__LOGO__", open(os.path.join(HERE, "assets", "di-logo.svg")).read())
+    ga = json.load(open(os.path.join(HERE, "config.json"))).get("analytics", {}).get("ga4")
+    tag = ""
+    if ga and re.fullmatch(r"G-[A-Z0-9]+", ga):
+        tag = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>'
+               '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+               f'gtag("js",new Date());gtag("config","{ga}",{{content_group:"DI Incrementals"}});</script>')
+    return t.replace("__GA__", tag)
 
 
 def build_bundles(year, event, cfg, open_round="LATEST"):

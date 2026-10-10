@@ -54,5 +54,9 @@
     "73888": "FallNationals",
     "73889": "Las Vegas Nationals",
     "73891": "NHRA Finals"
+  },
+  "analytics": {
+    "_how_to": "Google Analytics measurement ID (DI's property). Visitors never see counts; reports live in Google Analytics.",
+    "ga4": "G-LEFMXG2GNT"
   }
 }
