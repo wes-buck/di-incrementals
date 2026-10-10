@@ -114,10 +114,10 @@ h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-h
 
 /* heat tiers (shared by cards and table) */
 .tq, .cell.tq, .tc.tq { background: var(--q); color: var(--q-ink); font-weight: 600; }
-.t1, .cell.t1 { background: var(--h1); }
-.t2, .cell.t2 { background: var(--h2); }
-.t3, .cell.t3 { background: var(--h3); }
-.t4, .cell.t4 { background: var(--h4); }
+.t1, .cell.t1, .tc.t1 { background: var(--h1); }
+.t2, .cell.t2, .tc.t2 { background: var(--h2); }
+.t3, .cell.t3, .tc.t3 { background: var(--h3); }
+.t4, .cell.t4, .tc.t4 { background: var(--h4); }
 .gone { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
 .rl { color: var(--di-red); font-weight: 700; }
 
@@ -139,28 +139,30 @@ h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-h
 .cell .v { display: block; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14.5px; font-weight: 500; line-height: 1.25; }
 .cell .r { display: block; font-family: var(--font-data); font-size: 10.5px; color: var(--muted); line-height: 1.2; }
 .cell.tq .r { color: var(--q-ink); opacity: .9; }
-.cell.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
+.cell.sorted, .tc.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
 .car.open { background: var(--panel); margin-inline: -20px; padding-inline: 20px 26px; border-bottom-color: var(--line); }
 .car.open .cell { box-shadow: 0 0 0 1px var(--line); }
 
 /* wide-screen table */
 .table-wrap { display: none; overflow-x: auto; border-top: 3px solid var(--ink); }
-table.board { border-collapse: collapse; width: 100%; }
+table.board { border-collapse: separate; border-spacing: 5px 0; width: 100%; }
 .board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
 .board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); }
 .board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
 .board thead th[aria-sort] button { color: var(--ink); }
 .board thead th[aria-sort] button::after { content: " \25BE"; color: var(--di-red); }
 .board .drv { text-align: left; }
-.board tbody tr { border-bottom: 1px solid var(--line); cursor: pointer; }
+.board tbody tr { cursor: pointer; }
+.board tbody td { border-bottom: 8px solid var(--bg); }
+.board tbody tr:not(:first-child) td.drv { box-shadow: inset 0 1px 0 var(--line); }
 .board tbody tr:hover .drv { background: var(--panel); }
 .drv-in { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; }
 .drv-in .pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
 .drv-in .name { font-weight: 600; font-size: 14.5px; }
 .drv-in .sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
 .drv-in .w { color: var(--q); font-weight: 700; }
-.tc { padding: 8px 10px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
-.tc .r { display: block; font-size: 10.5px; color: var(--muted); }
+.tc { padding: 9px 8px 8px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 16px; font-weight: 500; text-align: center !important; background: var(--panel); border-radius: 6px; background-clip: padding-box; min-width: 64px; }
+.tc .r { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
 .tc.tq .r { color: var(--q-ink); opacity: .9; }
 .cut td { border-top: 2px dashed var(--di-red); }
 
@@ -682,8 +684,9 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}"><td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${subLine(r)}</span></div></td>`;
       C.forEach(([k]) => {
         const tr = tier(r, k);
-        const sm = tr === "rl" ? "<span class='r'>red</span>" : tr && tr !== "gone" ? `<span class="r">${ord(r.rank[k])}${r.gap[k] ? " " + plus(r.gap[k], k) : ""}</span>` : "";
-        h += `<td class="tc ${tr}">${t(r[k], k)}${sm}</td>`;
+        const sm = tr === "rl" ? "<span class='r'>red</span>" : tr && tr !== "gone" ? `<span class="r">${r.rank[k]}</span>` : "<span class='r'>&nbsp;</span>";
+        const tip = tr && tr !== "gone" && tr !== "rl" ? ` title="${ord(r.rank[k])}${r.gap[k] ? ", " + plus(r.gap[k], k) + " off the quickest" : ", quickest"}"` : "";
+        h += `<td class="tc ${tr}${k === sortKey ? " sorted" : ""}"${tip}>${t(r[k], k)}${sm}</td>`;
       });
       h += "</tr>";
       if (openDriver === r.driver) h += `<tr><td class="slip-td" colspan="${C.length + 1}">${slip(r)}</td></tr>`;
