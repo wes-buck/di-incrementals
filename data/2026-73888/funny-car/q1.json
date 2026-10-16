@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.088,
+     "ft60": 0.883,
+     "ft330": 2.991,
+     "ft660": 5.779,
+     "mph660": 78.94,
+     "ft1000": null,
+     "et": 8.782,
+     "mph": 76.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.099,
+     "ft60": 0.875,
+     "ft330": 2.846,
+     "ft660": 5.518,
+     "mph660": 81.23,
+     "ft1000": null,
+     "et": 8.471,
+     "mph": 75.74,
+     "first": 0.3,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,8 +294,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Daniel Wilkerson",
-     "car": "5",
+     "driver": "Ron Capps",
+     "car": "28",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -272,8 +311,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Alexis DeJoria",
-     "car": "771",
+     "driver": "JR Todd",
+     "car": "373",
      "qpos_nhra": "--",
      "mov": null
     }
