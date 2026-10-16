@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock/q1",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock",
+ "round": "Q1",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.116,
+     "ft60": 1.072,
+     "ft330": 2.877,
+     "ft660": 4.369,
+     "mph660": 165.39,
+     "ft1000": 5.662,
+     "et": 6.753,
+     "mph": 206.77,
+     "first": 5.662,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clifford Mayes",
+     "car": "1228",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.16,
+     "ft60": 1.008,
+     "ft330": 3.895,
+     "ft660": 7.33,
+     "mph660": 74.69,
+     "ft1000": 10.016,
+     "et": 12.371,
+     "mph": 91.34,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jerry Tucker",
+     "car": "494",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mason McGaha",
+     "car": "400",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

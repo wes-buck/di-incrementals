@@ -1,6 +1,17 @@
 {
- "live": "2026-midwest-nationals",
+ "live": "2026-fallnationals",
  "events": [
+  {
+   "slug": "2026-fallnationals",
+   "id": "73888",
+   "name": "Texas NHRA FallNationals",
+   "label": "FallNationals",
+   "year": 2026,
+   "date": "2026-10-14",
+   "classes": [
+    "pro-stock"
+   ]
+  },
   {
    "slug": "2026-midwest-nationals",
    "id": "73887",
