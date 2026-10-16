@@ -51,12 +51,12 @@
     {
      "rt": 0.23,
      "ft60": 0.912,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "ft330": 2.453,
+     "ft660": 4.017,
+     "mph660": 136.5,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 5.866,
+     "mph": 119.89,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -68,6 +68,45 @@
     {
      "rt": 0.145,
      "ft60": 0.889,
+     "ft330": 2.272,
+     "ft660": 3.523,
+     "mph660": 172.3,
+     "ft1000": null,
+     "et": 4.954,
+     "mph": 157.63,
+     "first": 0.997,
+     "lane": "Right",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
      "ft330": null,
      "ft660": null,
      "mph660": null,
@@ -77,8 +116,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Terry Haddock",
-     "car": "121",
+     "driver": "Blake Alexander",
+     "car": "256",
      "qpos_nhra": "--",
      "mov": null
     }

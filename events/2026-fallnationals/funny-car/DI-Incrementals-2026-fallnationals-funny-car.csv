@@ -1,5 +1,7 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-Texas NHRA FallNationals,Funny Car,Q1,1,Left,Chris King,343,,0.115,0.897,2.286,3.244,267.38,,4.077,268.02,0.897,1.389,0.958,0.833,0.64,yes,,1,1,1,1
-Texas NHRA FallNationals,Funny Car,Q1,1,Right,Jeff Diehl,717,,0.017,0.949,2.793,5.275,85.41,,8.151,78.95,0.949,1.844,2.482,2.876,-6.46,no,60-330,2,2,,
-Texas NHRA FallNationals,Funny Car,Q1,2,Left,Jim Campbell,703,,0.23,0.912,,,,,,,0.912,,,,,no,0-60,,,,
-Texas NHRA FallNationals,Funny Car,Q1,2,Right,Terry Haddock,121,,0.145,0.889,,,,,,,0.889,,,,,no,0-60,,,,
+Texas NHRA FallNationals,Funny Car,Q1,1,Left,Chris King,343,,0.115,0.897,2.286,3.244,267.38,,4.077,268.02,0.897,1.389,0.958,0.833,0.64,yes,,1,2,2,1
+Texas NHRA FallNationals,Funny Car,Q1,1,Right,Jeff Diehl,717,,0.017,0.949,2.793,5.275,85.41,,8.151,78.95,0.949,1.844,2.482,2.876,-6.46,no,60-330,4,4,,
+Texas NHRA FallNationals,Funny Car,Q1,2,Left,Jim Campbell,703,,0.23,0.912,2.453,4.017,136.5,,5.866,119.89,0.912,1.541,1.564,1.849,-16.61,no,60-330,3,3,,
+Texas NHRA FallNationals,Funny Car,Q1,2,Right,Terry Haddock,121,,0.145,0.889,2.272,3.523,172.3,,4.954,157.63,0.889,1.383,1.251,1.431,-14.67,no,330-660,2,1,1,
+Texas NHRA FallNationals,Funny Car,Q1,3,Left,Hunter Green,4494,,,,,,,,,,,,,,,no,0-60,,,,
+Texas NHRA FallNationals,Funny Car,Q1,3,Right,Blake Alexander,256,,,,,,,,,,,,,,,no,0-60,,,,
