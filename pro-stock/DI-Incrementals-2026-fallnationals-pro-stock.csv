@@ -1,20 +1,20 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-Texas NHRA FallNationals,Pro Stock,Q1,1,Left,Clifford Mayes,1228,,0.116,1.072,2.877,4.369,165.39,5.662,6.753,206.77,1.072,1.805,1.492,1.293,1.091,2.384,41.38,no,0-60,16,,,
-Texas NHRA FallNationals,Pro Stock,Q1,1,Right,Jerry Tucker,494,,0.16,1.008,3.895,7.33,74.69,10.016,12.371,91.34,1.008,2.887,3.435,2.686,2.355,5.041,16.65,no,60-330,17,16,,
-Texas NHRA FallNationals,Pro Stock,Q1,2,Right,Mason McGaha,400,,0.073,0.981,2.732,4.193,168.48,5.457,6.521,212.3,0.981,1.751,1.461,1.264,1.064,2.328,43.82,yes,,12,9,13,13
-Texas NHRA FallNationals,Pro Stock,Q1,3,Left,Shane Tucker,12,,0.062,0.985,2.731,4.186,169.49,5.444,6.502,213.44,0.985,1.746,1.455,1.258,1.058,2.316,43.95,yes,,9,11,12,11
-Texas NHRA FallNationals,Pro Stock,Q1,3,Right,Stephen Bell,439,,0.108,0.979,2.729,4.192,167.89,5.46,6.527,210.74,0.979,1.75,1.463,1.268,1.067,2.335,42.85,yes,,13,8,10,12
-Texas NHRA FallNationals,Pro Stock,Q1,4,Left,Chris Vang,5707,,0.063,0.972,2.721,4.185,168.19,5.45,6.516,210.54,0.972,1.749,1.464,1.265,1.066,2.331,42.35,yes,,11,4,8,9
-Texas NHRA FallNationals,Pro Stock,Q1,4,Right,Deric Kramer,52,,0.079,0.977,2.715,4.163,169.64,5.419,6.478,212.42,0.977,1.738,1.448,1.256,1.059,2.315,42.78,yes,,5,7,6,6
-Texas NHRA FallNationals,Pro Stock,Q1,5,Left,Kenny Delco,150,,0.08,0.994,2.743,4.206,168.31,5.472,6.539,211.8,0.994,1.749,1.463,1.266,1.067,2.333,43.49,yes,,14,15,14,14
-Texas NHRA FallNationals,Pro Stock,Q1,5,Right,Eric Latino,7,,0.203,0.99,2.73,4.185,169.01,5.446,6.511,210.24,0.99,1.74,1.455,1.261,1.065,2.326,41.23,yes,,10,13,11,10
-Texas NHRA FallNationals,Pro Stock,Q1,6,Left,Erica Enders,6,,0.006,0.972,2.711,4.162,169.08,5.422,6.481,212.41,0.972,1.739,1.451,1.26,1.059,2.319,43.33,yes,,6,5,5,4
-Texas NHRA FallNationals,Pro Stock,Q1,6,Right,Matt Latino,16,,0.049,0.984,2.723,4.17,170.02,5.423,6.481,212.1,0.984,1.739,1.447,1.253,1.058,2.311,42.08,yes,,7,10,9,8
-Texas NHRA FallNationals,Pro Stock,Q1,7,Left,Jeg Coughlin Jr,8,,0.079,0.971,2.707,4.162,168.82,5.423,6.484,211.83,0.971,1.736,1.455,1.261,1.061,2.322,43.01,yes,,8,3,3,5
-Texas NHRA FallNationals,Pro Stock,Q1,7,Right,Aaron Stanfield,4,,0.024,0.969,2.698,4.148,169.38,5.408,6.47,211.63,0.969,1.729,1.45,1.26,1.062,2.322,42.25,yes,,3,1,1,1
-Texas NHRA FallNationals,Pro Stock,Q1,8,Left,Cody Anderson,17,,0.051,0.99,2.749,4.21,168.86,5.472,6.57,197.34,0.99,1.759,1.461,1.262,1.098,2.36,28.48,yes,,15,14,15,15
-Texas NHRA FallNationals,Pro Stock,Q1,8,Right,Troy Coughlin Jr,10,,0.028,0.973,2.701,4.149,169.4,5.407,6.464,212.74,0.973,1.728,1.448,1.258,1.057,2.315,43.34,yes,,1,6,2,2
-Texas NHRA FallNationals,Pro Stock,Q1,9,Left,Greg Anderson,2,,0.036,0.969,2.707,4.155,170.28,5.409,6.468,210.51,0.969,1.738,1.448,1.254,1.059,2.313,40.23,yes,,2,2,4,3
-Texas NHRA FallNationals,Pro Stock,Q1,9,Right,Matt Hartford,3,,0.114,0.987,2.72,4.166,170.22,5.419,6.473,213.03,0.987,1.733,1.446,1.253,1.054,2.307,42.81,yes,,4,12,7,7
-Texas NHRA FallNationals,Pro Stock,Q1,10,Left,Dallas Glenn,1,,,,,,,,,,,,,,,,,no,0-60,,,,
-Texas NHRA FallNationals,Pro Stock,Q1,10,Right,Greg Stanfield,445,,,,,,,,,,,,,,,,,no,0-60,,,,
+Texas NHRA FallNationals,Pro Stock,Q1,1,Left,Clifford Mayes,1228,,0.116,1.072,2.877,4.369,165.39,5.662,6.753,206.77,1.072,1.805,1.492,1.293,1.091,2.384,41.38,no,0-60,18,,,
+Texas NHRA FallNationals,Pro Stock,Q1,1,Right,Jerry Tucker,494,,0.16,1.008,3.895,7.33,74.69,10.016,12.371,91.34,1.008,2.887,3.435,2.686,2.355,5.041,16.65,no,60-330,19,18,,
+Texas NHRA FallNationals,Pro Stock,Q1,2,Right,Mason McGaha,400,,0.073,0.981,2.732,4.193,168.48,5.457,6.521,212.3,0.981,1.751,1.461,1.264,1.064,2.328,43.82,yes,,14,11,15,15
+Texas NHRA FallNationals,Pro Stock,Q1,3,Left,Shane Tucker,12,,0.062,0.985,2.731,4.186,169.49,5.444,6.502,213.44,0.985,1.746,1.455,1.258,1.058,2.316,43.95,yes,,11,13,14,13
+Texas NHRA FallNationals,Pro Stock,Q1,3,Right,Stephen Bell,439,,0.108,0.979,2.729,4.192,167.89,5.46,6.527,210.74,0.979,1.75,1.463,1.268,1.067,2.335,42.85,yes,,15,10,12,14
+Texas NHRA FallNationals,Pro Stock,Q1,4,Left,Chris Vang,5707,,0.063,0.972,2.721,4.185,168.19,5.45,6.516,210.54,0.972,1.749,1.464,1.265,1.066,2.331,42.35,yes,,13,5,10,11
+Texas NHRA FallNationals,Pro Stock,Q1,4,Right,Deric Kramer,52,,0.079,0.977,2.715,4.163,169.64,5.419,6.478,212.42,0.977,1.738,1.448,1.256,1.059,2.315,42.78,yes,,7,8,7,8
+Texas NHRA FallNationals,Pro Stock,Q1,5,Left,Kenny Delco,150,,0.08,0.994,2.743,4.206,168.31,5.472,6.539,211.8,0.994,1.749,1.463,1.266,1.067,2.333,43.49,yes,,16,17,16,16
+Texas NHRA FallNationals,Pro Stock,Q1,5,Right,Eric Latino,7,,0.203,0.99,2.73,4.185,169.01,5.446,6.511,210.24,0.99,1.74,1.455,1.261,1.065,2.326,41.23,yes,,12,15,13,12
+Texas NHRA FallNationals,Pro Stock,Q1,6,Left,Erica Enders,6,,0.006,0.972,2.711,4.162,169.08,5.422,6.481,212.41,0.972,1.739,1.451,1.26,1.059,2.319,43.33,yes,,8,6,6,6
+Texas NHRA FallNationals,Pro Stock,Q1,6,Right,Matt Latino,16,,0.049,0.984,2.723,4.17,170.02,5.423,6.481,212.1,0.984,1.739,1.447,1.253,1.058,2.311,42.08,yes,,9,12,11,10
+Texas NHRA FallNationals,Pro Stock,Q1,7,Left,Jeg Coughlin Jr,8,,0.079,0.971,2.707,4.162,168.82,5.423,6.484,211.83,0.971,1.736,1.455,1.261,1.061,2.322,43.01,yes,,10,4,4,7
+Texas NHRA FallNationals,Pro Stock,Q1,7,Right,Aaron Stanfield,4,,0.024,0.969,2.698,4.148,169.38,5.408,6.47,211.63,0.969,1.729,1.45,1.26,1.062,2.322,42.25,yes,,5,1,1,2
+Texas NHRA FallNationals,Pro Stock,Q1,8,Left,Cody Anderson,17,,0.051,0.99,2.749,4.21,168.86,5.472,6.57,197.34,0.99,1.759,1.461,1.262,1.098,2.36,28.48,yes,,17,16,17,17
+Texas NHRA FallNationals,Pro Stock,Q1,8,Right,Troy Coughlin Jr,10,,0.028,0.973,2.701,4.149,169.4,5.407,6.464,212.74,0.973,1.728,1.448,1.258,1.057,2.315,43.34,yes,,2,7,3,3
+Texas NHRA FallNationals,Pro Stock,Q1,9,Left,Greg Anderson,2,,0.036,0.969,2.707,4.155,170.28,5.409,6.468,210.51,0.969,1.738,1.448,1.254,1.059,2.313,40.23,yes,,3,2,5,4
+Texas NHRA FallNationals,Pro Stock,Q1,9,Right,Matt Hartford,3,,0.114,0.987,2.72,4.166,170.22,5.419,6.473,213.03,0.987,1.733,1.446,1.253,1.054,2.307,42.81,yes,,6,14,9,9
+Texas NHRA FallNationals,Pro Stock,Q1,10,Left,Dallas Glenn,1,,0.029,0.978,2.715,4.161,170.79,5.413,6.469,211.56,0.978,1.737,1.446,1.252,1.056,2.308,40.77,yes,,4,9,8,5
+Texas NHRA FallNationals,Pro Stock,Q1,10,Right,Greg Stanfield,445,,0.045,0.969,2.698,4.146,169.41,5.403,6.46,212.8,0.969,1.729,1.448,1.257,1.057,2.314,43.39,yes,,1,3,2,1
