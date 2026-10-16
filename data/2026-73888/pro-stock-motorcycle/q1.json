@@ -135,6 +135,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.166,
+     "ft60": 1.121,
+     "ft330": 2.969,
+     "ft660": 4.506,
+     "mph660": 159.5,
+     "ft1000": 5.848,
+     "et": 6.997,
+     "mph": 195.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.018,
+     "ft60": 1.135,
+     "ft330": 2.935,
+     "ft660": 4.472,
+     "mph660": 158.31,
+     "ft1000": 5.829,
+     "et": 7.009,
+     "mph": 186.39,
+     "first": 0.136,
+     "lane": "Right",
+     "win": true,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
