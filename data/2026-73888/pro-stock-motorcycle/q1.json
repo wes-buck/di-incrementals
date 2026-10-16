@@ -178,6 +178,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.031,
+     "ft60": 1.085,
+     "ft330": 2.842,
+     "ft660": 4.407,
+     "mph660": 151.39,
+     "ft1000": 5.877,
+     "et": 7.252,
+     "mph": 154.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 1.073,
+     "ft330": 2.833,
+     "ft660": 4.329,
+     "mph660": 163.1,
+     "ft1000": 5.652,
+     "et": 6.88,
+     "mph": 170.62,
+     "first": 0.352,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
