@@ -49,6 +49,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.026,
+     "ft60": 1.279,
+     "ft330": 3.622,
+     "ft660": 5.811,
+     "mph660": 124.54,
+     "ft1000": 7.385,
+     "et": 8.667,
+     "mph": 174.53,
+     "first": 56.455,
+     "lane": "Left",
+     "win": true,
+     "driver": "Hector Arana",
+     "car": "235",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.149,
+     "ft60": 1.759,
+     "ft330": 9.274,
+     "ft660": 26.218,
+     "mph660": 8.78,
+     "ft1000": null,
+     "et": 64.999,
+     "mph": 0.0,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hector Arana Jr",
+     "car": "300",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
