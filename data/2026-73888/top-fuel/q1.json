@@ -318,6 +318,84 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.108,
+     "ft60": 0.843,
+     "ft330": 2.13,
+     "ft660": 2.997,
+     "mph660": 294.58,
+     "ft1000": null,
+     "et": 3.722,
+     "mph": 334.22,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.047,
+     "ft60": 0.851,
+     "ft330": 2.131,
+     "ft660": 2.987,
+     "mph660": 295.08,
+     "ft1000": null,
+     "et": 3.71,
+     "mph": 334.45,
+     "first": 0.073,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
