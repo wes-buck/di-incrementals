@@ -1,7 +1,7 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Left,Blaine Hale,405,,0.446,1.323,4.179,7.88,56.97,12.403,17.45,40.42,1.323,2.856,3.701,4.523,5.047,9.57,-16.55,no,0-60,3,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Right,GT Tonglet,485,,0.063,1.129,2.993,4.538,157.58,5.892,7.05,190.52,1.129,1.864,1.545,1.354,1.158,2.512,32.94,yes,,1,1,1,1
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Left,Hector Arana,235,,0.026,1.279,3.622,5.811,124.54,7.385,8.667,174.53,1.279,2.343,2.189,1.574,1.282,2.856,49.99,no,0-60,2,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Right,Hector Arana Jr,300,,0.149,1.759,9.274,26.218,8.78,,64.999,,1.759,7.515,16.944,,,38.781,,no,0-60,4,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,,,,,,,,,,,,,,,,no,0-60,,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,,,,,,,,,,,,,,,,no,0-60,,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Left,Blaine Hale,405,,0.446,1.323,4.179,7.88,56.97,12.403,17.45,40.42,1.323,2.856,3.701,4.523,5.047,9.57,-16.55,no,0-60,5,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Right,GT Tonglet,485,,0.063,1.129,2.993,4.538,157.58,5.892,7.05,190.52,1.129,1.864,1.545,1.354,1.158,2.512,32.94,yes,,2,3,3,2
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Left,Hector Arana,235,,0.026,1.279,3.622,5.811,124.54,7.385,8.667,174.53,1.279,2.343,2.189,1.574,1.282,2.856,49.99,no,0-60,4,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Right,Hector Arana Jr,300,,0.149,1.759,9.274,26.218,8.78,,64.999,,1.759,7.515,16.944,,,38.781,,no,0-60,6,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,0.027,1.086,2.863,4.397,156.38,5.783,7.033,170.07,1.086,1.777,1.534,1.386,1.25,2.636,13.69,yes,,1,1,1,1
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,0.024,1.091,2.897,4.536,141.08,6.31,8.182,111.79,1.091,1.806,1.639,1.774,1.872,3.646,-29.29,no,330-660,3,2,2,
