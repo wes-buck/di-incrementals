@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.042,
+     "ft60": 0.847,
+     "ft330": 2.385,
+     "ft660": 4.427,
+     "mph660": 101.6,
+     "ft1000": null,
+     "et": 6.986,
+     "mph": 86.97,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.857,
+     "ft330": 2.162,
+     "ft660": 3.035,
+     "mph660": 291.83,
+     "ft1000": null,
+     "et": 3.761,
+     "mph": 334.7,
+     "first": 3.186,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,8 +177,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Spencer Massey",
-     "car": "421",
+     "driver": "Tony Schumacher",
+     "car": "15",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -155,8 +194,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shawn Reed",
-     "car": "8",
+     "driver": "Clay Millican",
+     "car": "51",
      "qpos_nhra": "--",
      "mov": null
     }
