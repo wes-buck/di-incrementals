@@ -45,6 +45,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.131,
+     "ft60": 0.857,
+     "ft330": 2.182,
+     "ft660": 3.104,
+     "mph660": 271.74,
+     "ft1000": null,
+     "et": 4.013,
+     "mph": 238.41,
+     "first": 0.36,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jake Sanders",
+     "car": "666",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.104,
+     "ft60": 0.909,
+     "ft330": 2.284,
+     "ft660": 3.279,
+     "mph660": 226.89,
+     "ft1000": null,
+     "et": 4.4,
+     "mph": 195.58,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chuck Loftin",
+     "car": "419",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
