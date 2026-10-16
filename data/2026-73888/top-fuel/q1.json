@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.083,
+     "ft60": 0.866,
+     "ft330": 2.168,
+     "ft660": 3.048,
+     "mph660": 288.55,
+     "ft1000": null,
+     "et": 3.786,
+     "mph": 326.54,
+     "first": 0.784,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.064,
+     "ft60": 0.874,
+     "ft330": 2.239,
+     "ft660": 3.312,
+     "mph660": 202.18,
+     "ft1000": null,
+     "et": 4.589,
+     "mph": 169.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,8 +138,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dan Mercier",
-     "car": "182",
+     "driver": "Spencer Massey",
+     "car": "421",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -116,8 +155,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cameron Ferre",
-     "car": "748",
+     "driver": "Shawn Reed",
+     "car": "8",
      "qpos_nhra": "--",
      "mov": null
     }
