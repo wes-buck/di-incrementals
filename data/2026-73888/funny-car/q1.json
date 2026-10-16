@@ -12,6 +12,45 @@
     {
      "rt": 0.115,
      "ft60": 0.897,
+     "ft330": 2.286,
+     "ft660": 3.244,
+     "mph660": 267.38,
+     "ft1000": null,
+     "et": 4.077,
+     "mph": 268.02,
+     "first": 3.976,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.017,
+     "ft60": 0.949,
+     "ft330": 2.793,
+     "ft660": 5.275,
+     "mph660": 85.41,
+     "ft1000": null,
+     "et": 8.151,
+     "mph": 78.95,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
      "ft330": null,
      "ft660": null,
      "mph660": null,
@@ -21,14 +60,14 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chris King",
-     "car": "343",
+     "driver": "Jim Campbell",
+     "car": "703",
      "qpos_nhra": "--",
      "mov": null
     },
     {
-     "rt": 0.017,
-     "ft60": 0.949,
+     "rt": null,
+     "ft60": null,
      "ft330": null,
      "ft660": null,
      "mph660": null,
@@ -38,8 +77,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeff Diehl",
-     "car": "717",
+     "driver": "Terry Haddock",
+     "car": "121",
      "qpos_nhra": "--",
      "mov": null
     }
