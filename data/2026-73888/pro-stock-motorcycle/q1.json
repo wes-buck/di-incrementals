@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock-motorcycle/q1",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock-motorcycle",
+ "round": "Q1",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.446,
+     "ft60": 1.323,
+     "ft330": 4.179,
+     "ft660": 7.88,
+     "mph660": 56.97,
+     "ft1000": 12.403,
+     "et": 17.45,
+     "mph": 40.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blaine Hale",
+     "car": "405",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.063,
+     "ft60": 1.129,
+     "ft330": 2.993,
+     "ft660": 4.538,
+     "mph660": 157.58,
+     "ft1000": 5.892,
+     "et": 7.05,
+     "mph": 190.52,
+     "first": 10.783,
+     "lane": "Right",
+     "win": true,
+     "driver": "GT Tonglet",
+     "car": "485",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,1112 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>DI Incrementals</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LEFMXG2GNT"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-LEFMXG2GNT",{content_group:"DI Incrementals"});</script>
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: phone first. DI masthead, one slim sticky bar (class + rounds), round title, presented-by strip,
+   the Board as stacked car cards on phones and a full table on wide screens, then an ad slot,
+   Quickest at Every Block, Lane Check and the Ladder.
+   Color: DI black/white/red is the brand chrome. The data uses a separate heat scale:
+   green = quickest, then yellow, orange, red as a car falls further off the quickest. */
+:root {
+  --bg: #ffffff;
+  --panel: #f3f3f1;
+  --ink: #0b0b0b;
+  --muted: #62625f;
+  --line: #e0e0dd;
+  --di-red: #d2141c;
+  --bar: #000000;
+  --bar-ink: #ffffff;
+  --bar-muted: #9a9a96;
+  --q: #12904c;  --q-ink: #ffffff;           /* quickest */
+  --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1;   /* close, mid, back, way back */
+  --off: #a8a8a4;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+    --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+    --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+    --off: #5a5a57; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b0b0b; --panel: #161616; --ink: #f2f2f0; --muted: #9d9d99; --line: #2a2a28;
+  --di-red: #e3262e; --bar: #000000; --bar-ink: #ffffff; --bar-muted: #8a8a86;
+  --q: #22b363; --q-ink: #04140b; --h1: #1d5a35; --h2: #5a4a10; --h3: #683817; --h4: #6e231e;
+  --off: #5a5a57; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.4; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 0 40px; }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
+.mono { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+
+/* masthead (scrolls away) */
+.mast { background: var(--bar); color: var(--bar-ink); }
+.mast-in { max-width: 1180px; margin: 0 auto; padding: 14px 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--bar-ink); text-decoration: none; min-width: 0; }
+.logo svg { height: 34px; width: auto; display: block; flex: none; }
+.logo .tag { font-family: var(--font-display); font-weight: 900; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--di-red); border-left: 1px solid #333; padding-left: 10px; line-height: 1; }
+
+/* sticky bar: class + rounds */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bar); color: var(--bar-ink); border-bottom: 1px solid #222; }
+.bar-in { max-width: 1180px; margin: 0 auto; padding: 8px 20px 10px; display: flex; align-items: center; gap: 10px; }
+.cls { position: relative; flex: none; }
+.cls select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 8px 28px 8px 10px; font-weight: 700; font-size: 14px; letter-spacing: .02em; text-transform: uppercase; }
+.cls::after { content: ""; position: absolute; right: 11px; top: 50%; width: 7px; height: 7px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
+.rounds { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; min-width: 0; scroll-snap-type: x proximity; }
+.rounds::-webkit-scrollbar { display: none; }
+.rbtn { flex: none; border: 1px solid #333; background: transparent; color: var(--bar-ink); border-radius: 6px; min-width: 44px; height: 38px; padding: 0 10px; font-family: var(--font-display); font-weight: 800; font-size: 18px; letter-spacing: .03em; cursor: pointer; scroll-snap-align: start; }
+.rbtn[aria-pressed="true"] { background: var(--di-red); border-color: var(--di-red); }
+
+/* hero */
+.hero { padding-block: 18px 4px; display: grid; gap: 8px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(44px, 13vw, 96px); line-height: .86; margin: 0; text-transform: uppercase; }
+h1 span { color: var(--di-red); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
+.meta strong { color: var(--ink); font-weight: 600; font-family: var(--font-data); }
+.leaders { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(132px, 1fr); overflow-x: auto; scrollbar-width: none; gap: 8px; margin-top: 6px; padding-bottom: 2px; scroll-snap-type: x proximity; }
+.leaders::-webkit-scrollbar { display: none; }
+.lead { background: var(--panel); border-radius: 8px; padding: 10px 12px; display: grid; gap: 1px; min-width: 0; scroll-snap-align: start; }
+.lead .k { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.lead .v { font-family: var(--font-data); font-weight: 600; font-size: 24px; line-height: 1.15; }
+.lead .who { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* sponsor slots */
+.presented { margin-top: 14px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; min-height: 56px; }
+.presented .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.presented img { max-height: 36px; max-width: 60%; width: auto; display: block; }
+.presented a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.slot-empty { color: var(--muted); font-size: 13px; }
+.slot-empty b { color: var(--ink); }
+.ad { margin-top: 28px; border-radius: 8px; overflow: hidden; display: block; }
+.ad img { width: 100%; height: auto; display: block; }
+.ad.empty { border: 1px dashed var(--line); padding: 26px 16px; text-align: center; color: var(--muted); font-size: 13px; }
+.ad.empty .k { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 4px; }
+
+/* section heads */
+.sec { margin-top: 28px; }
+h2 { font-family: var(--font-display); font-weight: 800; font-size: 30px; line-height: 1; margin: 0 0 4px; text-transform: uppercase; }
+.hint { color: var(--muted); font-size: 13px; margin: 0; max-width: 64ch; }
+
+/* board controls */
+.controls { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 20; background: var(--bg); padding-block: 10px 8px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+.toggle { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; }
+.toggle button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.sortrow { display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.sortrow::-webkit-scrollbar { display: none; }
+.sortrow .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; flex: none; margin-right: 2px; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.scale { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+.scale i { display: inline-block; width: 18px; height: 10px; border-radius: 2px; }
+
+/* heat tiers (shared by cards and table) */
+.tq, .cell.tq, .tc.tq { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.t1, .cell.t1, .tc.t1 { background: var(--h1); }
+.t2, .cell.t2, .tc.t2 { background: var(--h2); }
+.t3, .cell.t3, .tc.t3 { background: var(--h3); }
+.t4, .cell.t4, .tc.t4 { background: var(--h4); }
+.gone { color: var(--off); text-decoration: line-through; text-decoration-thickness: 1px; }
+.rl { color: var(--di-red); font-weight: 700; }
+
+/* phone cards */
+.cards { display: grid; gap: 0; }
+.car { border-bottom: 8px solid var(--panel); padding: 16px 6px 16px 0; cursor: pointer; }
+.car-top { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; align-items: center; }
+.car .pos { font-family: var(--font-display); font-weight: 900; font-size: 30px; line-height: 1; text-align: right; }
+.car .name { font-weight: 700; font-size: 16.5px; line-height: 1.15; }
+.car .sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.car .w { color: var(--q); font-weight: 700; }
+.car .et { text-align: right; }
+.car .et .v { font-family: var(--font-data); font-weight: 600; font-size: 21px; line-height: 1.1; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+.car .et .m { font-family: var(--font-data); font-size: 12.5px; color: var(--muted); }
+.strip { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 4px; margin-top: 10px; margin-left: 40px; }
+.cell { border-radius: 5px; padding: 5px 4px 6px; text-align: center; min-width: 0; position: relative; background: var(--panel); }
+.cell .l { display: block; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.cell.tq .l { color: var(--q-ink); opacity: .85; }
+.cell .v { display: block; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14.5px; font-weight: 500; line-height: 1.25; }
+.cell .r { display: block; font-family: var(--font-data); font-size: 10.5px; color: var(--muted); line-height: 1.2; }
+.cell.tq .r { color: var(--q-ink); opacity: .9; }
+.cell.sorted, .tc.sorted { box-shadow: inset 0 0 0 2px var(--ink); }
+.car.open { background: var(--panel); margin-inline: -20px; padding-inline: 20px 26px; border-bottom-color: var(--line); }
+.car.open .cell { box-shadow: 0 0 0 1px var(--line); }
+
+/* wide-screen table */
+.table-wrap { display: none; overflow-x: auto; border-top: 3px solid var(--ink); }
+table.board { border-collapse: separate; border-spacing: 5px 8px; width: 100%; }
+.board th, .board td { padding: 0; text-align: right; white-space: nowrap; }
+.board thead th { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--ink); }
+.board thead th button { background: none; border: 0; padding: 10px 10px 8px; width: 100%; text-align: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; color: inherit; font-weight: inherit; }
+.board thead th[aria-sort] button { color: var(--ink); }
+.board thead th[aria-sort] button::after { content: " \25BE"; color: var(--di-red); }
+.board .drv { text-align: left; }
+.board tbody tr { cursor: pointer; }
+.board tbody tr:not(:first-child) td.drv { box-shadow: inset 0 1px 0 var(--line); }
+.board tbody tr:hover .drv { background: var(--panel); }
+.drv-in { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 0 8px; padding: 8px 12px 8px 4px; }
+.drv-in .pos { font-family: var(--font-display); font-weight: 800; font-size: 21px; color: var(--muted); text-align: right; }
+.drv-in .name { font-weight: 600; font-size: 14.5px; }
+.drv-in .sub { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+.drv-in .w { color: var(--q); font-weight: 700; }
+.tc { padding: 9px 8px 8px; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 16px; font-weight: 500; text-align: center !important; background: var(--panel); border-radius: 6px; background-clip: padding-box; min-width: 64px; }
+.tc .r { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.tc.tq .r { color: var(--q-ink); opacity: .9; }
+.cut td { border-top: 2px dashed var(--di-red); }
+
+/* car slip */
+.slip { display: grid; gap: 18px; padding-block: 14px 4px; text-align: left; white-space: normal; }
+.read { font-size: 15px; margin: 0; font-weight: 500; }
+.small-h { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 6px; }
+.bars { display: grid; gap: 7px; }
+.bar-r { display: grid; grid-template-columns: 76px 1fr 64px; gap: 10px; align-items: center; font-size: 12.5px; }
+.bar-r .lbl { color: var(--muted); font-family: var(--font-data); }
+.track { height: 12px; background: var(--line); border-radius: 3px; position: relative; overflow: hidden; }
+.fill { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.bar-r .g { text-align: right; font-family: var(--font-data); }
+.mini { border-collapse: collapse; width: 100%; font-size: 13px; }
+.mini th, .mini td { padding: 6px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.mini th:first-child, .mini td:first-child { text-align: left; }
+.mini th { color: var(--muted); font-weight: 700; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+.mini td { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.mini td.up { color: var(--q); font-weight: 700; }
+.mini-wrap { overflow-x: auto; }
+.slip-td { padding: 0 16px 16px !important; background: var(--panel); }
+.slip-td .slip { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+
+/* quickest at every light */
+.lights { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(230px, 1fr); gap: 10px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
+.lights::-webkit-scrollbar { display: none; }
+.light { background: var(--panel); border-radius: 8px; padding: 12px; min-width: 0; scroll-snap-align: start; }
+.light h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 24px; text-transform: uppercase; display: flex; align-items: baseline; gap: 8px; }
+.light h3 small { font-family: var(--font-body); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; color: var(--muted); }
+.light ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 14px; }
+.light li { display: grid; grid-template-columns: minmax(0, 1fr) auto 3.6em; gap: 8px; align-items: baseline; padding: 5px 8px; border-radius: 4px; }
+.light .g { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 11.5px; text-align: right; opacity: .75; }
+.light li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.light .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 13px; }
+.swipe { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* how do I compare */
+.cmp-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
+.cmp-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.cmp-mode button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.cmp-pick { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; align-items: center; margin-top: 10px; }
+.cmp-pick select { width: 100%; min-width: 0; appearance: none; -webkit-appearance: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 11px 10px; font-weight: 700; font-size: 15px; }
+.cmp-pick .vs { font-family: var(--font-display); font-weight: 900; font-size: 20px; color: var(--muted); }
+.cmp-head { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.cmp-car { background: var(--panel); border-radius: 8px; padding: 10px 12px; min-width: 0; }
+.cmp-car .n { font-weight: 700; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-car .e { font-family: var(--font-data); font-weight: 600; font-size: 22px; }
+.cmp-car .s { font-size: 12px; color: var(--muted); }
+.cmp-sum { font-size: 15px; font-weight: 500; margin: 12px 0 0; }
+.cmp-rows { margin-top: 10px; border-top: 3px solid var(--ink); }
+.cmp-row { display: grid; grid-template-columns: 70px 1fr 1fr 1.15fr; gap: 6px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+.cmp-row .lbl { font-family: var(--font-body); font-size: 12px; font-weight: 700; color: var(--muted); }
+.cmp-row .v { text-align: right; padding: 3px 6px; border-radius: 4px; }
+.cmp-row .v.ahead { background: var(--q); color: var(--q-ink); font-weight: 600; }
+.cmp-row .d { text-align: right; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd { font-family: var(--font-body); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 700; padding-top: 10px; }
+.cmp-row.hd span { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-row.hd span:first-child { text-align: left; }
+.cmp-row.sep { border-bottom: 0; padding-top: 16px; }
+.cmp-bar { grid-column: 1 / -1; height: 8px; position: relative; background: var(--line); border-radius: 4px; }
+.cmp-bar i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+.cmp-bar::after { content: ""; position: absolute; left: calc(50% - 1px); top: -3px; bottom: -3px; width: 2px; background: var(--ink); }
+.cmp-legend { display: flex; justify-content: space-between; gap: 10px; font-size: 11.5px; color: var(--muted); margin-top: 6px; }
+.cmp-empty { color: var(--muted); font-size: 14px; margin-top: 12px; }
+
+/* lower */
+.duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+.ladder { columns: 1; font-size: 14px; margin: 0; padding: 0; list-style: none; }
+.ladder li { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.ladder li.bump { border-bottom: 2px dashed var(--di-red); }
+.ladder .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
+.ladder .t { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.ladder .out { color: var(--muted); }
+.rule { border-top: 3px solid var(--ink); padding-top: 6px; margin-top: 10px; }
+
+.waiting { padding-block: 40px; display: grid; gap: 12px; }
+footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; display: grid; gap: 6px; }
+footer a { color: inherit; }
+footer svg { height: 20px; width: auto; color: var(--ink); }
+
+@media (min-width: 900px) {
+  .cards { display: none; }
+  .table-wrap { display: block; }
+  .controls { position: static; border-bottom: 0; grid-template-columns: auto 1fr; align-items: center; }
+  .sortrow .lbl, .sortrow .chip { display: none; }
+  .ladder { columns: 2 220px; column-gap: 20px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); overflow: visible; }
+  .swipe { display: none; }
+  .logo svg { height: 40px; }
+}
+/* race picker */
+.race { position: relative; display: grid; gap: 2px; min-width: 0; max-width: 52vw; }
+.race-k { font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--bar-muted); font-weight: 700; }
+.race select { appearance: none; -webkit-appearance: none; background: #1b1b1b; color: var(--bar-ink); border: 1px solid #333; border-radius: 6px; padding: 7px 26px 7px 9px; font-weight: 700; font-size: 13.5px; max-width: 100%; text-overflow: ellipsis; }
+.race::after { content: ""; position: absolute; right: 10px; bottom: 14px; width: 6px; height: 6px; border-right: 2px solid var(--bar-muted); border-bottom: 2px solid var(--bar-muted); transform: rotate(45deg); pointer-events: none; }
+.past a b { display: block; }
+.past a small { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+
+@media (max-width: 600px) {
+  .mast-in { flex-wrap: wrap; row-gap: 10px; }
+  .race { max-width: none; width: 100%; grid-template-columns: auto 1fr; align-items: center; gap: 10px; }
+  .race::after { bottom: 15px; }
+}
+
+/* eliminations ladder */
+.el-wrap { display: grid; grid-auto-flow: column; grid-auto-columns: 88%; gap: 14px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
+.el-wrap::-webkit-scrollbar { display: none; }
+.el-col { display: flex; flex-direction: column; justify-content: space-around; gap: 10px; scroll-snap-align: start; min-width: 0; }
+.el-col h3 { margin: 0 0 2px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; }
+.el-col h3 small { font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--muted); margin-left: 6px; }
+.el-pair { background: var(--panel); border-radius: 8px; overflow: hidden; border: 1px solid var(--line); cursor: pointer; text-align: left; padding: 0; width: 100%; color: var(--ink); }
+.el-pair:hover { border-color: var(--muted); }
+.el-car { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 0 8px; align-items: center; padding: 8px 10px; border-left: 4px solid transparent; }
+.el-car + .el-car { border-top: 1px solid var(--line); }
+.el-car.win { border-left-color: var(--q); }
+.el-car.win .el-n { font-weight: 700; }
+.el-s { font-family: var(--font-display); font-weight: 800; font-size: 17px; color: var(--muted); text-align: right; grid-row: span 2; }
+.el-n { font-size: 14.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.el-v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+.el-car.win .el-v { color: var(--ink); }
+.el-v b { font-size: 14px; color: var(--ink); }
+.el-v .rl { color: var(--di-red); font-weight: 700; }
+.el-foot { display: flex; justify-content: space-between; gap: 8px; font-size: 11.5px; color: var(--muted); padding: 6px 10px; border-top: 1px solid var(--line); background: var(--bg); }
+.el-tag { font-weight: 700; color: var(--ink); }
+.el-tag.hs { color: var(--q); }
+@media (min-width: 900px) { .el-wrap { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); overflow: visible; } .el-swipe { display: none; } }
+
+/* leaderboard */
+.lb-mode { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border-radius: 8px; padding: 3px; max-width: 360px; margin-top: 12px; }
+.lb-mode button { border: 0; background: transparent; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 14px; cursor: pointer; }
+.lb-mode button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.lb { display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 10px; margin-top: 12px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; padding-bottom: 4px; }
+.lb::-webkit-scrollbar { display: none; }
+.lb-card { scroll-snap-align: start; }
+@media (min-width: 900px) { .lb { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); overflow: visible; } .lb-swipe { display: none; } }
+.lb-card { background: var(--panel); border-radius: 8px; padding: 12px; min-width: 0; }
+.lb-card h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; }
+.lb-card ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.lb-card li { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 8px; align-items: baseline; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+.lb-card li:last-child { border-bottom: 0; }
+.lb-card li:first-child .n, .lb-card li:first-child .v { color: var(--q); font-weight: 700; }
+.lb-card .p { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: right; }
+.lb-card .n { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-card .w { display: block; font-size: 11.5px; color: var(--muted); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-card .v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 14px; }
+
+/* new round banner */
+.fresh { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; padding: 0 12px calc(env(safe-area-inset-bottom, 0px) + 12px); display: flex; justify-content: center; pointer-events: none; }
+.fresh button { pointer-events: auto; display: flex; align-items: center; gap: 12px; width: 100%; max-width: 460px; border: 0; border-radius: 12px; padding: 14px 16px; background: var(--q); color: var(--q-ink); font-weight: 700; font-size: 16px; text-align: left; cursor: pointer; box-shadow: 0 10px 30px rgba(0, 0, 0, .35); }
+.fresh .dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; flex: none; }
+.fresh .go { margin-left: auto; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .9; white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) {
+  .fresh button { animation: rise .25s ease-out; }
+  .fresh .dot { animation: blink 1.2s ease-in-out infinite; }
+  @keyframes rise { from { transform: translateY(20px); opacity: 0; } to { transform: none; opacity: 1; } }
+  @keyframes blink { 50% { opacity: .35; } }
+}
+@media print { .fresh, .fold-h .chev, .fold-h .fs { display: none !important; } .fold-h { border: 0; padding: 0; } }
+
+/* fold-away sections: everything but the Board opens on tap */
+.fold-h { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 12px; width: 100%; cursor: pointer; padding: 14px 4px 14px 0; border-top: 1px solid var(--line); -webkit-tap-highlight-color: transparent; }
+.fold-h:focus-visible { outline: 2px solid var(--di-red); outline-offset: 2px; }
+.fold-h .ft { min-width: 0; flex: 1; }
+.fold-h h2 { margin: 0; }
+.fold-h .fs { display: block; font-size: 13px; color: var(--muted); margin-top: 3px; font-family: var(--font-body); }
+.fold-h .chev { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--panel); display: grid; place-items: center; transition: transform .2s; }
+.fold-h .chev::before { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: translateY(-2px) rotate(45deg); }
+.fold.open .fold-h .chev { transform: rotate(180deg); }
+.fold.open .fold-h .fs { display: none; }
+@media screen { .fold:not(.open) > :not(.fold-h) { display: none !important; } }
+.sec.fold { margin-top: 0; }
+.duo:has(.fold) { gap: 0 28px; }
+
+/* take it with you */
+.keep { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 12px; }
+.keep a, .keep button { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; font-weight: 700; font-size: 15px; cursor: pointer; text-align: left; }
+.keep small { display: block; font-weight: 500; font-size: 12px; color: var(--muted); }
+.keep svg { width: 22px; height: 22px; flex: none; }
+.past { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.past a { display: flex; justify-content: space-between; gap: 10px; color: var(--ink); text-decoration: none; padding: 11px 12px; border: 1px solid var(--line); border-radius: 8px; font-weight: 600; }
+.past a span { color: var(--muted); font-weight: 500; }
+#print { display: none; }
+#board-sec { break-inside: auto; }
+
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
+    --bg: #ffffff; --panel: #f3f3f1; --ink: #000000; --muted: #555555; --line: #cccccc;
+    --q: #12904c; --q-ink: #ffffff; --h1: #d3f0dc; --h2: #fff0b3; --h3: #ffd9b0; --h4: #ffc9c1; --off: #999999;
+    color-scheme: light;
+  }
+  @page { size: landscape; margin: 10mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10px; }
+  .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
+  .mast .logo { color: #000; }
+  .mast-in { padding: 0 0 6px; }
+  #elim-sec, #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  .wrap { padding: 0; max-width: none; }
+  .hero { padding: 6px 0 0; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 18px; }
+  .sec { margin-top: 10px; break-inside: avoid; }
+  #board-sec > h2 { display: none; }
+  #print { display: block; }
+  #print h3 { font-family: var(--font-display); font-size: 15px; text-transform: uppercase; margin: 8px 0 3px; }
+  #print table { border-collapse: collapse; width: 100%; font-family: var(--font-data); font-size: 9.5px; }
+  #print th, #print td { border: 1px solid #bbb; padding: 2px 4px; text-align: right; white-space: nowrap; }
+  #print th { font-family: var(--font-body); font-size: 8.5px; text-transform: uppercase; background: #eee; }
+  #print td:nth-child(2), #print th:nth-child(2) { text-align: left; font-family: var(--font-body); }
+  #print td small { color: #444; font-size: 7.5px; margin-left: 2px; }
+  .lights { grid-auto-flow: row; grid-template-columns: repeat(3, 1fr); overflow: visible; gap: 6px; }
+  .presented:has(.slot-empty) { display: none; }
+  #board-sec { break-after: page; }
+  .light { padding: 6px; } .light h3 { font-size: 14px; } .light ol { font-size: 9.5px; }
+  .ladder { columns: 2; }
+  .presented { margin-top: 4px; padding: 4px 8px; min-height: 0; }
+  .slot-empty { display: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .slip { animation: drop .18s ease-out; }
+  @keyframes drop { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <a class="logo" href="https://www.dragillustrated.com/" target="_blank" rel="noopener" aria-label="Drag Illustrated"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 562 167.3" style="enable-background:new 0 0 562 167.3;" xml:space="preserve"> <style type="text/css"> .st1{fill:currentColor;} </style> <g id="logos"> <g> <g> <path class="st1" d="M62,72.5h4.5l7.9-45H70L72.5,13c1.5,0,4.5,0,28.3,0c23.2,0,25.2,4.3,19.5,36.5c-5.7,32.2-9.8,36.9-32.5,36.9 c-20.9,0-26.7,0.1-28.4,0.1L62,72.5z M90.7,73.6c6.4,0,7.9-2.8,11-20.3c0.2-1.1,1.1-6.1,1.3-7.2c3.1-17.5,2.5-19.8-3.9-19.8 c-1.2,0-6.3,0-6.3,0l-8.3,47.2C84.4,73.6,89.4,73.6,90.7,73.6z"></path> <path class="st1" d="M119.7,74.6h3.8l6.7-38h-3.8l2.2-12.2c0,0,13.7,0,28.1,0c12.2,0,16.3,3.6,13.6,18.7 c-1.4,7.8-3.7,15.5-11.8,17.8l5.6,13.9h3.4l-2.1,11.9h-19.6l1-5.9l0.7-4.1l-5.1-13.8h-1.7l-2.2,12.7h4.6l-2,11.2h-23.4 L119.7,74.6z M149.3,53.1c3,0,4.6-1.8,5.9-9.2s-0.1-8.2-3-8.2c-2.2,0-6.8,0-6.8,0l-3.1,17.4C146.1,53.1,147.6,53.1,149.3,53.1z"></path> <path class="st1" d="M185.5,75.3h6.5l-2,11.2h-21.3l2.1-11.9h3.3l23.5-50.7h15.6l5.7,50.7h3.3L220,86.5h-25.4l2-11.2h6.6 l-0.7-7.6h-13.7L185.5,75.3z M201.2,51.2c-0.3-4-0.6-7.3-0.7-10.3c-1,2.7-2.6,6.3-4.4,10.3l-3.1,7h8.8L201.2,51.2z"></path> <path class="st1" d="M226.9,55.4c4.8-27.2,10.2-31.9,28.1-31.9c6.2,0,16.5,1,18.7,1.5l-4,22.7h-13.4l2.1-12.2 c-0.9-0.2-3.7-0.2-5.8-0.2c-5.7,0-7,0.9-9.7,16.4c-0.1,0.4-1.2,6.8-1.4,8c-2.7,15.4-1.5,16.2,4.1,16.2c1.4,0,5.3-0.1,6.5-0.3 l1.4-8h-5.6l2-11.6h20.5l-2,11.6h-2.3l-3.2,18.2c-4.2,0.8-13.1,1.5-19.4,1.5C225.6,87.2,222.1,82.7,226.9,55.4z"></path> </g> <g> <path class="st1" d="M16.4,139.4h5.7L30,94.5h-5.7L26.9,80h29.4l-2.5,14.5h-5.7l-7.9,44.9h5.7l-2.5,14.1H13.9L16.4,139.4z"></path> <path class="st1" d="M49.7,141.6h3.8l6.7-38h-3.8l2.2-12.2h25.2l-2.2,12.2h-6.1l-6.8,38.8h11l2.4-13.4h14.3L92,153.5H47.6 L49.7,141.6z"></path> <path class="st1" d="M98,141.6h3.8l6.7-38h-3.8l2.2-12.2H132l-2.2,12.2h-6.1l-6.8,38.8h11l2.4-13.4h14.3l-4.3,24.6H95.9L98,141.6 z"></path> <path class="st1" d="M148.6,131.7c1.6-9,5-28.1,5-28.1H150l2.2-12.2h23.7l-2.2,12.2h-4.8c0,0-4.2,23.6-5.1,28.9 c-1.4,8.1,0,9.6,5.2,9.6s6.9-1.3,8.3-9.4c0-0.2,5.1-29.1,5.1-29.1h-4.1l2.2-12.2h22.1l-2.2,12.2h-3.6c0,0-3.3,18.9-4.9,28 c-3.2,18.2-7.3,22.8-25.3,22.8C148.5,154.3,145.3,150.2,148.6,131.7z"></path> <path class="st1" d="M195.9,153l3.7-20.9h13.9l-2,11.2c1.1,0.2,4.4,0.3,6.3,0.3c5.9,0,7.2-0.7,8.3-6.9c0.9-5.1-0.6-6.1-7.8-8.4 c-14.2-4.6-17.1-6.8-14.6-20.4c2.4-13.4,7.6-17.5,23.4-17.5c7.9,0,17.3,0.8,20,1.7l-3.3,18.7h-13.9l1.6-9 c-1.1-0.2-4.3-0.3-6.5-0.3c-3.6,0-5.4,0.6-6.4,5.9c-0.8,4.7,1,5.8,7.7,7.9c14.3,4.3,17.4,7.3,15.1,20.5 c-2.5,14.4-7.4,18.7-25.7,18.7C206.3,154.3,198.2,153.4,195.9,153z"></path> <path class="st1" d="M255.4,141.6h4.7l7-39.8h-4.9l-2.3,12.8h-12.9l4.1-23.3H302l-4.1,23.4H285l2.3-12.8h-4.9l-7,39.8h4.6 l-2.1,11.8h-24.5L255.4,141.6z"></path> <path class="st1" d="M297,141.6h3.8l6.7-38h-3.8l2.2-12.2c0,0,13.7,0,28.1,0c12.2,0,16.3,3.6,13.6,18.7 c-1.4,7.8-3.7,15.5-11.8,17.8l5.6,13.9h3.4l-2.1,11.9h-19.6l1-5.9l0.7-4.1l-5.1-13.8h-1.7l-2.2,12.7h4.6l-2,11.2h-23.4L297,141.6 z M326.5,120.1c3,0,4.6-1.8,5.9-9.2c1.3-7.4-0.1-8.2-3-8.2c-2.2,0-6.8,0-6.8,0l-3.1,17.4C323.4,120.1,324.9,120.1,326.5,120.1z"></path> <path class="st1" d="M362.8,142.3h6.5l-2,11.2H346l2.1-11.9h3.3l23.5-50.7h15.5l5.7,50.7h3.3l-2.1,11.9H372l2-11.2h6.6l-0.7-7.6 h-13.7L362.8,142.3z M378.5,118.2c-0.3-4-0.6-7.3-0.7-10.3c-1,2.7-2.6,6.3-4.4,10.3l-3.1,7h8.8L378.5,118.2z"></path> <path class="st1" d="M406.6,141.6h4.7l7-39.8h-4.9l-2.3,12.8h-12.9l4.1-23.3h50.7l-4.1,23.4h-12.9l2.3-12.8h-4.9l-7,39.8h4.6 l-2.1,11.8h-24.5L406.6,141.6z"></path> <path class="st1" d="M448.2,141.6h3.8l6.7-38h-3.8l2.2-12.2h44.4l-4.1,23.4h-13.9l2.1-12.1h-11.4l-2.4,13.9h7.2l-2,11.5h-7.2 l-2.6,14.5h11.4l2.4-13.6h13.9l-4.3,24.6h-44.4L448.2,141.6z"></path> <path class="st1" d="M496.4,141.7h3.8l6.7-38.1h-3.8l2.2-12.2c1.3,0,3.8,0,24,0c19.6,0,21.3,3.6,16.5,30.9s-8.3,31.3-27.5,31.3 c-17.7,0-22.6,0.1-24,0.1L496.4,141.7z M520.7,142.6c5.4,0,6.7-2.4,9.3-17.2c0.2-0.9,0.9-5.2,1.1-6.1c2.6-14.8,2.1-16.7-3.3-16.7 c-1,0-5.3,0-5.3,0l-7,40C515.4,142.6,519.6,142.6,520.7,142.6z"></path> </g> </g> </g> </svg> <span class="tag">Incrementals</span></a>
+    <label class="race" id="race-wrap" hidden><span class="race-k">Race</span><select id="race" aria-label="Race"></select></label>
+  </div>
+</header>
+<div class="bar">
+  <div class="bar-in">
+    <label class="cls"><span hidden>Class</span><select id="cls" aria-label="Class"></select></label>
+    <nav class="rounds" id="rounds" aria-label="Round"></nav>
+  </div>
+</div>
+
+<main class="wrap" id="app">
+  <section class="hero">
+    <div class="eyebrow" id="ev"></div>
+    <h1 id="title"></h1>
+    <div class="meta" id="meta"></div>
+    <div class="leaders" id="leaders"></div>
+    <div class="presented" id="presented"></div>
+  </section>
+
+  <section class="sec" id="board-sec">
+    <h2>The Board</h2>
+    <p class="hint">Every car at every timing block. Tap a car for its full slip.</p>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="View">
+        <button type="button" id="v-cum" aria-pressed="true">Timing points</button>
+        <button type="button" id="v-seg" aria-pressed="false">Splits</button>
+      </div>
+      <div class="sortrow" id="sortrow"></div>
+      <div class="scale" aria-label="Color scale"><i class="tq"></i>Quickest <i class="t1"></i><i class="t2"></i><i class="t3"></i><i class="t4"></i>further off</div>
+    </div>
+    <div class="cards" id="cards"></div>
+    <div class="table-wrap"><table class="board" id="board"></table></div>
+    <div id="print" aria-hidden="true"></div>
+  </section>
+
+  <section class="sec" id="cmp-sec">
+    <h2>How Do I Compare?</h2>
+    <p class="hint">Pick any two cars and see exactly where one gains or loses on the other, block by block.</p>
+    <div class="cmp-mode" role="group" aria-label="Which runs">
+      <button type="button" id="cmp-round" aria-pressed="true">This round</button>
+      <button type="button" id="cmp-best" aria-pressed="false">Best run this weekend</button>
+    </div>
+    <div class="cmp-pick">
+      <select id="cmp-a" aria-label="Your car"></select>
+      <span class="vs">VS</span>
+      <select id="cmp-b" aria-label="Car to compare against"></select>
+    </div>
+    <div id="cmp-out"></div>
+  </section>
+
+  <section class="sec" id="elim-sec" hidden>
+    <h2 id="el-h">Eliminations Ladder</h2>
+    <p class="hint" id="el-hint"></p>
+    <div class="el-wrap" id="el"></div>
+    <div class="swipe el-swipe">Swipe for the next round</div>
+  </section>
+
+  <div id="ad"></div>
+
+  <section class="sec" id="lights-sec">
+    <h2>Quickest at Every Block</h2>
+    <p class="hint">Top five at each timing block: each car's time, and how far back it was.</p>
+    <div class="lights" id="lights"></div>
+    <div class="swipe">Swipe for the next block</div>
+  </section>
+
+  <section class="sec duo">
+    <div id="lane-sec">
+      <h2>Lane Check</h2>
+      <p class="hint">Average of the clean runs in each lane.</p>
+      <div class="mini-wrap rule"><table class="mini" id="lanes"></table></div>
+    </div>
+    <div id="ladder-sec">
+      <h2 id="ladder-h">Qualifying Order</h2>
+      <p class="hint" id="ladder-hint"></p>
+      <div class="rule"><ol class="ladder" id="ladder"></ol></div>
+    </div>
+  </section>
+
+  <section class="sec" id="lb-sec">
+    <h2 id="lb-h">Leaderboard</h2>
+    <p class="hint" id="lb-hint">Top five at every timing block. Each driver's best clean run, one spot per driver.</p>
+    <div class="lb-mode" role="group" aria-label="Leaderboard range">
+      <button type="button" id="lb-race" aria-pressed="false">This race</button>
+      <button type="button" id="lb-season" aria-pressed="true">2026 season</button>
+    </div>
+    <div class="lb" id="lb"></div>
+    <div class="swipe lb-swipe">Swipe for the next block</div>
+  </section>
+
+  <section class="sec keep-sec" id="keep-sec">
+    <h2>Take It With You</h2>
+    <p class="hint">Print this round, or keep the whole weekend on your own computer. Saved copies work with no internet.</p>
+    <div class="keep">
+      <button type="button" id="do-print"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="7"/></svg><span>Print this round<small>Every car, every block and split</small></span></button>
+      <a id="dl-csv" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h8"/></svg><span>Download spreadsheet<small>Every run this weekend, opens in Excel</small></span></a>
+      <a id="dl-page" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg><span>Save this page<small>The whole weekend, works offline</small></span></a>
+    </div>
+    <div id="past-wrap" hidden>
+      <h2 style="margin-top:22px">Past Races</h2>
+      <ul class="past" id="past"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <div>Timing data from official NHRA results. Splits, rankings and reads by Drag Illustrated.</div>
+    <div id="src"></div>
+  </footer>
+</main>
+
+<div class="fresh" id="fresh" hidden></div>
+
+<script type="application/json" id="data">{"generated":"2026-10-16T23:50:54+00:00","event_name":"Texas NHRA FallNationals","event_id":"73888","year":2026,"event_date":"2026-10-14","class":"pro-stock-motorcycle","finish":1320,"points":["ft60","ft330","ft660","ft1000","et"],"segs":["s1","s2","s3","s4","s5"],"inc_label":{"ft60":"60'","ft330":"330'","ft660":"660'","ft1000":"1000'","et":"ET"},"seg_label":{"s1":"0-60","s2":"60-330","s3":"330-660","s4":"660-1000","s5":"1000-1320"},"rounds":[{"round":"Q1","source_url":"https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock-motorcycle/q1","weather":null,"low_et":7.05,"best":{"rt":0.063,"mph660":157.58,"mph":190.52,"back":2.512,"gain":32.94,"ft60":1.129,"ft330":2.993,"ft660":4.538,"ft1000":5.892,"et":7.05,"s1":1.129,"s2":1.864,"s3":1.545,"s4":1.354,"s5":1.158},"order":{"rt":[{"driver":"GT Tonglet","v":0.063,"gap":0.0},{"driver":"Blaine Hale","v":0.446,"gap":0.383}],"mph660":[{"driver":"GT Tonglet","v":157.58,"gap":0.0}],"mph":[{"driver":"GT Tonglet","v":190.52,"gap":0.0},{"driver":"Blaine Hale","v":40.42,"gap":150.1}],"back":[{"driver":"GT Tonglet","v":2.512,"gap":0.0}],"gain":[{"driver":"GT Tonglet","v":32.94,"gap":0.0}],"ft60":[{"driver":"GT Tonglet","v":1.129,"gap":0.0}],"ft330":[{"driver":"GT Tonglet","v":2.993,"gap":0.0}],"ft660":[{"driver":"GT Tonglet","v":4.538,"gap":0.0}],"ft1000":[{"driver":"GT Tonglet","v":5.892,"gap":0.0}],"et":[{"driver":"GT Tonglet","v":7.05,"gap":0.0},{"driver":"Blaine Hale","v":17.45,"gap":10.4}],"s1":[{"driver":"GT Tonglet","v":1.129,"gap":0.0}],"s2":[{"driver":"GT Tonglet","v":1.864,"gap":0.0}],"s3":[{"driver":"GT Tonglet","v":1.545,"gap":0.0}],"s4":[{"driver":"GT Tonglet","v":1.354,"gap":0.0}],"s5":[{"driver":"GT Tonglet","v":1.158,"gap":0.0}]},"clean_count":1,"runs":[{"driver":"GT Tonglet","car":"485","lane":"R","pair":1,"win":true,"opp":"Blaine Hale","rt":0.063,"mph660":157.58,"mph":190.52,"ft60":1.129,"ft330":2.993,"ft660":4.538,"ft1000":5.892,"et":7.05,"red":false,"s1":1.129,"s2":1.864,"s3":1.545,"s4":1.354,"s5":1.158,"back":2.512,"gain":32.94,"off_at":null,"clean":true,"valid":["back","et","ft1000","ft330","ft60","ft660","gain","mph","mph660","rt","s1","s2","s3","s4","s5"],"rank":{"rt":1,"mph660":1,"mph":1,"back":1,"gain":1,"ft60":1,"ft330":1,"ft660":1,"ft1000":1,"et":1,"s1":1,"s2":1,"s3":1,"s4":1,"s5":1},"gap":{"rt":0.0,"mph660":0.0,"mph":0.0,"back":0.0,"gain":0.0,"ft60":0.0,"ft330":0.0,"ft660":0.0,"ft1000":0.0,"et":0.0,"s1":0.0,"s2":0.0,"s3":0.0,"s4":0.0,"s5":0.0},"read":"Low ET of the round. Quickest in the field 0-60, 60-330, 330-660, 660-1000, 1000-1320.","qpos":1},{"driver":"Blaine Hale","car":"405","lane":"L","pair":1,"win":false,"opp":"GT Tonglet","rt":0.446,"mph660":56.97,"mph":40.42,"ft60":1.323,"ft330":4.179,"ft660":7.88,"ft1000":12.403,"et":17.45,"red":false,"s1":1.323,"s2":2.856,"s3":3.701,"s4":4.523,"s5":5.047,"back":9.57,"gain":-16.55,"off_at":"s1","clean":false,"valid":["rt"],"rank":{"rt":2,"mph":2,"et":2},"gap":{"rt":0.383,"mph":150.1,"et":10.4},"read":"Went away 0-60.","qpos":2}]}],"qualifying":{"Q1":[{"driver":"GT Tonglet","et":7.05,"mph":190.52,"round":"Q1"},{"driver":"Blaine Hale","et":17.45,"mph":40.42,"round":"Q1"}]},"history":{"GT Tonglet":[{"round":"Q1","ft60":1.129,"ft330":2.993,"ft660":4.538,"ft1000":5.892,"et":7.05,"rt":0.063,"red":false,"mph":190.52,"mph660":157.58,"clean":true,"off_at":null,"win":true,"opp":"Blaine Hale","lane":"R"}],"Blaine Hale":[{"round":"Q1","ft60":1.323,"ft330":4.179,"ft660":7.88,"ft1000":12.403,"et":17.45,"rt":0.446,"red":false,"mph":40.42,"mph660":56.97,"clean":false,"off_at":"s1","win":false,"opp":"GT Tonglet","lane":"L"}]},"default_round":"Q1","leaders":{"race":{"rt":[{"driver":"GT Tonglet","v":0.063,"race":"FallNationals","round":"Q1"},{"driver":"Blaine Hale","v":0.446,"race":"FallNationals","round":"Q1"}],"ft60":[{"driver":"GT Tonglet","v":1.129,"race":"FallNationals","round":"Q1"}],"ft330":[{"driver":"GT Tonglet","v":2.993,"race":"FallNationals","round":"Q1"}],"ft660":[{"driver":"GT Tonglet","v":4.538,"race":"FallNationals","round":"Q1"}],"ft1000":[{"driver":"GT Tonglet","v":5.892,"race":"FallNationals","round":"Q1"}],"back":[{"driver":"GT Tonglet","v":2.512,"race":"FallNationals","round":"Q1"}],"gain":[{"driver":"GT Tonglet","v":32.94,"race":"FallNationals","round":"Q1"}],"et":[{"driver":"GT Tonglet","v":7.05,"race":"FallNationals","round":"Q1"}],"mph":[{"driver":"GT Tonglet","v":190.52,"race":"FallNationals","round":"Q1"}]},"season":{"rt":[{"driver":"Clayton Howey","v":0.0,"race":"Nationals at the Rock","round":"E2"},{"driver":"Jianna Evaristo","v":0.0,"race":"Route 66 Nationals","round":"Q1"},{"driver":"Chase Van Sant","v":0.001,"race":"Potomac Nationals","round":"Q3"},{"driver":"John Hall","v":0.001,"race":"Route 66 Nationals","round":"E1"},{"driver":"Marc Ingwersen","v":0.0016,"race":"Nationals at the Rock","round":"Q3"}],"ft60":[{"driver":"Gaige Herrera","v":1.015,"race":"Midwest Nationals","round":"Q4"},{"driver":"Richard Gadson","v":1.027,"race":"Great Lakes Nationals","round":"Q4"},{"driver":"Matt Smith","v":1.03,"race":"Midwest Nationals","round":"Q3"},{"driver":"Steve Johnson","v":1.0323,"race":"Great Lakes Nationals","round":"Q2"},{"driver":"Clayton Howey","v":1.035,"race":"Potomac Nationals","round":"Q4"}],"ft330":[{"driver":"Gaige Herrera","v":2.763,"race":"Midwest Nationals","round":"Q4"},{"driver":"Steve Johnson","v":2.7812,"race":"Great Lakes Nationals","round":"Q2"},{"driver":"Richard Gadson","v":2.7829,"race":"Nationals at the Rock","round":"Q1"},{"driver":"Matt Smith","v":2.783,"race":"Midwest Nationals","round":"Q3"},{"driver":"Ryan Oehler","v":2.7922,"race":"Nationals at the Rock","round":"Q1"}],"ft660":[{"driver":"Gaige Herrera","v":4.245,"race":"Midwest Nationals","round":"Q4"},{"driver":"Matt Smith","v":4.266,"race":"Midwest Nationals","round":"Q3"},{"driver":"Richard Gadson","v":4.2714,"race":"Nationals at the Rock","round":"Q1"},{"driver":"Ryan Oehler","v":4.2729,"race":"Nationals at the Rock","round":"Q1"},{"driver":"Angie Smith","v":4.277,"race":"Midwest Nationals","round":"Q2"}],"ft1000":[{"driver":"Gaige Herrera","v":5.538,"race":"Midwest Nationals","round":"Q4"},{"driver":"Matt Smith","v":5.558,"race":"Midwest Nationals","round":"Q3"},{"driver":"Angie Smith","v":5.5674,"race":"Nationals at the Rock","round":"Q2"},{"driver":"Ryan Oehler","v":5.5702,"race":"Nationals at the Rock","round":"Q1"},{"driver":"Richard Gadson","v":5.5722,"race":"Nationals at the Rock","round":"Q1"}],"back":[{"driver":"Kelly Clontz","v":1.474,"race":"Potomac Nationals","round":"Q4"},{"driver":"John Hall","v":2.3429,"race":"Great Lakes Nationals","round":"Q3"},{"driver":"Gaige Herrera","v":2.3582,"race":"Great Lakes Nationals","round":"Q3"},{"driver":"Jianna Evaristo","v":2.38,"race":"Potomac Nationals","round":"E1"},{"driver":"Matt Smith","v":2.3853,"race":"Nationals at the Rock","round":"Q1"}],"gain":[{"driver":"Hector Arana Jr","v":44.73,"race":"U.S. Nationals","round":"Q3"},{"driver":"Jianna Evaristo","v":42.98,"race":"4-Wide Nationals","round":"Q1"},{"driver":"John Hall","v":39.29,"race":"Great Lakes Nationals","round":"Q3"},{"driver":"Richard Gadson","v":38.87,"race":"Southern Nationals","round":"E3"},{"driver":"Gaige Herrera","v":38.67,"race":"Great Lakes Nationals","round":"Q3"}],"et":[{"driver":"Kelly Clontz","v":5.861,"race":"Potomac Nationals","round":"Q4"},{"driver":"Gaige Herrera","v":6.644,"race":"Midwest Nationals","round":"Q4"},{"driver":"Matt Smith","v":6.663,"race":"Midwest Nationals","round":"Q3"},{"driver":"Angie Smith","v":6.6746,"race":"Nationals at the Rock","round":"Q2"},{"driver":"Ryan Oehler","v":6.6817,"race":"Nationals at the Rock","round":"Q1"}],"mph":[{"driver":"Jianna Evaristo","v":204.98,"race":"Potomac Nationals","round":"E1"},{"driver":"Matt Smith","v":204.17,"race":"Nationals at the Rock","round":"Q1"},{"driver":"Angie Smith","v":203.65,"race":"Potomac Nationals","round":"E1"},{"driver":"Hector Arana Jr","v":203.46,"race":"U.S. Nationals","round":"Q3"},{"driver":"Ryan Oehler","v":203.12,"race":"Potomac Nationals","round":"E2"}]},"season_races":12},"nav":[{"slug":"pro-mod","name":"Pro Mod","live":false},{"slug":"top-fuel","name":"Top Fuel","live":true},{"slug":"funny-car","name":"Funny Car","live":true},{"slug":"pro-stock","name":"Pro Stock","live":true},{"slug":"pro-stock-motorcycle","name":"Pro Stock Motorcycle","live":true}],"sponsor":{"_how_to":"To sell the spots: drop the sponsor's logo or ad image into assets/, then fill in name, logo (file name) and url. Set show_placeholders to false to hide empty spots.","presented_by":{"name":"","logo":"","url":""},"ad":{"name":"","logo":"","url":""},"contact":"brett@dragillustrated.com","show_placeholders":true},"slug":"2026-fallnationals","label":"FallNationals","class_name":"Pro Stock Motorcycle","base":"../","root":"../../../","csv":"DI-Incrementals-2026-fallnationals-pro-stock-motorcycle.csv","save":"DI-Incrementals-2026-fallnationals-pro-stock-motorcycle.html","self_path":"index.html"}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  // private usage stats for DI (Google Analytics); never shown on the page
+  function track(name, params) {
+    try { if (window.gtag) window.gtag("event", name, Object.assign({ race: D.label || "", class_name: D.class_name || "" }, params || {})); } catch (e) {}
+  }
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const FIELD = 16;
+  const SP = D.sponsor || {};
+
+  // class picker
+  const sel = $("cls");
+  sel.innerHTML = (D.nav || []).map((c) => `<option value="${c.slug}"${c.slug === D.class ? " selected" : ""}${c.live ? "" : " disabled"}>${esc(c.name)}</option>`).join("");
+  sel.onchange = () => { location.href = `${D.base}${sel.value}/${location.hash}`; };
+
+  function slotHTML(s, kind) {
+    if (s && s.logo) {
+      const img = `<img src="${D.base}assets/${esc(s.logo)}" alt="${esc(s.name || "")}">`;
+      return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener sponsored">${img}</a>` : img;
+    }
+    if (SP.show_placeholders === false) return "";
+    return kind === "presented"
+      ? `<span class="slot-empty">Presenting partner spot available. <b>${esc(SP.contact || "")}</b></span>`
+      : `<span class="k">Advertise here</span>Reach every crew chief in the pits, every round. ${esc(SP.contact || "")}`;
+  }
+  const pres = slotHTML(SP.presented_by, "presented");
+  if (pres) $("presented").innerHTML = `<span class="k">Presented by</span>${pres}`; else $("presented").hidden = true;
+  const adh = SP.ad && SP.ad.logo ? slotHTML(SP.ad, "ad") : slotHTML(null, "ad");
+  if (adh) { $("ad").className = "ad" + (SP.ad && SP.ad.logo ? "" : " empty"); $("ad").innerHTML = adh; }
+
+  // race picker and past races, read from the site's race registry (skipped quietly when offline)
+  (function races() {
+    const root = D.root || "";
+    let reg;
+    try { reg = fetch(root + "events/events.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null); } catch (e) { return; }
+    reg.then((R0) => {
+      if (!R0 || !R0.events || !R0.events.length) return;
+      const evs = R0.events, here = D.slug;
+      const fmt = (d) => { try { return new Date(d + "T12:00:00").toLocaleDateString([], { month: "short", day: "numeric" }); } catch (e) { return ""; } };
+      const target = (e) => {
+        const base = e.slug === R0.live ? root : root + "events/" + e.slug + "/";
+        return base + (D.class && (e.classes || []).includes(D.class) ? D.class + "/" : "");
+      };
+      const sel = document.getElementById("race");
+      const known = evs.some((e) => e.slug === here);
+      sel.innerHTML = (known ? "" : `<option selected>${esc(D.label || "This race")}</option>`) + evs.map((e) =>
+        `<option value="${esc(target(e))}"${e.slug === here ? " selected" : ""}>${esc(e.label || e.name)}${e.date ? " · " + fmt(e.date) : ""}${e.slug === R0.live ? " (latest)" : ""}</option>`).join("");
+      sel.onchange = () => { if (sel.value) { track("switch_race", { to: sel.options[sel.selectedIndex].text }); location.href = sel.value; } };
+      document.getElementById("race-wrap").hidden = false;
+      const past = evs.filter((e) => e.slug !== here && e.slug !== R0.live);
+      const list = past.map((e) => `<li><a href="${esc(target(e))}"><span><b>${esc(e.label || e.name)}</b><small>${esc(e.name)}</small></span><span>${e.date ? fmt(e.date) + ", " + e.year : e.year}</span></a></li>`).join("");
+      if (!list) return;
+      const pw = document.getElementById("past-wrap");
+      if (pw) { pw.hidden = false; document.getElementById("past").innerHTML = list; }
+      else {
+        const w = document.querySelector(".waiting");
+        if (w) w.insertAdjacentHTML("beforeend", `<h2 style="margin-top:28px">Past Races</h2><ul class="past">${list}</ul>`);
+      }
+    }).catch(() => {});
+  })();
+
+  // live updates: every minute, check whether NHRA has posted something newer than this page shows
+  (function freshness() {
+    const root = D.root || "";
+    const mine = (D.rounds || []).map((r) => r.round + ":" + r.runs.length).join(",");
+    let shown = false;
+    function offer(text, round) {
+      if (shown) return;
+      shown = true;
+      const box = document.getElementById("fresh");
+      box.innerHTML = `<button type="button"><span class="dot"></span><span>${esc(text)}</span><span class="go">Tap to load</span></button>`;
+      box.hidden = false;
+      box.querySelector("button").onclick = () => {
+        track("tap_new_round", { round: round || "" });
+        location.href = location.pathname + "?v=" + Date.now() + (round ? "#" + round.toLowerCase() : "");
+      };
+    }
+    function check() {
+      if (document.hidden || shown) return;
+      fetch(root + "live.json?t=" + Date.now(), { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((j) => {
+        if (!j || !j.slug) return;
+        if (D.waiting) {
+          if (j.classes && Object.keys(j.classes).length) offer("Qualifying is live", "");
+          return;
+        }
+        if (j.slug !== D.slug) { offer(`${j.label || "A new race"} is live`, ""); return; }
+        const c = j.classes && j.classes[D.class];
+        if (!c || !c.length) return;
+        const live = c.map((x) => x[0] + ":" + x[1]).join(",");
+        if (live === mine) return;
+        const latest = c[c.length - 1][0];
+        const isNew = !(D.rounds || []).some((r) => r.round === latest);
+        offer(isNew ? `${latest} just posted` : `New runs posted in ${latest}`, latest);
+      }).catch(() => {});
+    }
+    // only the live race page (or the waiting page) needs to watch
+    const watch = () => setInterval(check, 60000);
+    if (D.waiting || (D.root === "" || D.root === "../")) { watch(); document.addEventListener("visibilitychange", () => { if (!document.hidden) check(); }); }
+  })();
+
+  if (D.waiting) {
+    $("app").innerHTML = `<section class="waiting"><div class="eyebrow">${D.year} · ${esc(D.event_query)}</div>
+      <h1>Waiting on <span>Q1</span></h1><p class="hint" style="font-size:16px">The board fills in as soon as NHRA posts the first round of qualifying. Refresh between rounds; it updates every few minutes.</p></section>`;
+    return;
+  }
+
+  const P = D.points, S = D.segs, IL = D.inc_label, SL = D.seg_label;
+  const quarter = D.finish === 1320;
+  let view = "cum", sortKey = "et", openDriver = null, R = null, CEIL = {};
+
+  function t(v, key) {
+    if (v == null) return "--";
+    if (key === "mph" || key === "mph660" || key === "gain") return v.toFixed(2);
+    const s = v.toFixed(3);
+    return s.startsWith("0.") ? s.slice(1) : s.startsWith("-0.") ? "-" + s.slice(2) : s;
+  }
+  const plus = (g, k) => g == null || g === 0 ? "" : (k === "mph" || k === "mph660" || k === "gain" ? "-" : "+") + t(g, k);
+  const last = (n) => n.split(" ").slice(-1)[0];
+  const ord = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th"));
+  const roundName = (r) => r.startsWith("Q") ? "Qualifying " + r.slice(1) : r === "E4" ? "Final" : r === "E3" ? "Semifinals" : r === "E2" ? "Quarterfinals" : "Round 1";
+  const counts = (r, k) => k === "et" || k === "mph" || r.valid.includes(k);
+  const isMph = (k) => k === "mph" || k === "mph660" || k === "gain";
+
+  // heat tier from the gap to the quickest, scaled to how spread out this round's clean cars are
+  function ceilings() {
+    CEIL = {};
+    Object.keys(R.order).forEach((k) => {
+      const g = R.runs.filter((r) => r.clean && r.gap[k] != null).map((r) => r.gap[k]).sort((a, b) => a - b);
+      CEIL[k] = Math.max(g[Math.floor((g.length - 1) * .85)] || 0, isMph(k) ? 2 : k === "rt" ? 0.06 : 0.012);
+    });
+  }
+  function tier(r, k) {
+    if (k === "rt" && r.red) return "rl";
+    if (!counts(r, k) || r[k] == null) return r[k] == null ? "" : "gone";
+    if (r.rank[k] === 1) return "tq";
+    const x = r.gap[k] / CEIL[k];
+    return x < .25 ? "t1" : x < .5 ? "t2" : x < .85 ? "t3" : "t4";
+  }
+
+  function cols() {
+    if (view === "cum") {
+      const c = [["rt", "RT"]];
+      P.forEach((p) => { if (p !== "et") c.push([p, IL[p]]); if (p === "ft660") c.push(["mph660", "660 mph"]); });
+      c.push(["et", "ET"], ["mph", "MPH"]);
+      return c;
+    }
+    const c = [["rt", "RT"]].concat(S.map((s) => [s, SL[s]]));
+    if (quarter) c.push(["back", "660-1320"]);
+    c.push(["gain", "MPH gain"], ["et", "ET"]);
+    return c;
+  }
+  // what the phone card strip shows
+  function stripCols() {
+    if (view === "cum") return [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]));
+    // phone: the front pieces, then the whole back half and the back-half MPH gain
+    const front = S.slice(0, 3).map((s) => [s, SL[s]]);
+    return front.concat(quarter ? [["back", "Back ½"]] : [[S[3], "660-1k"]], [["gain", "MPH +"]]);
+  }
+
+  function sortedRuns() {
+    const desc = isMph(sortKey);
+    return R.runs.slice().sort((a, b) => {
+      const av = counts(a, sortKey) && !(sortKey === "rt" && a.red) ? a[sortKey] : null;
+      const bv = counts(b, sortKey) && !(sortKey === "rt" && b.red) ? b[sortKey] : null;
+      if (av == null && bv == null) return (a.et ?? 99) - (b.et ?? 99);
+      if (av == null) return 1; if (bv == null) return -1;
+      return desc ? bv - av : av - bv;
+    });
+  }
+
+  function renderRounds() {
+    $("rounds").innerHTML = D.rounds.map((r) =>
+      `<button type="button" class="rbtn" data-r="${r.round}" aria-pressed="${r === R}">${r.round}</button>`).join("");
+    $("rounds").querySelectorAll("button").forEach((b) => b.onclick = () => go(b.dataset.r));
+    const on = $("rounds").querySelector('[aria-pressed="true"]');
+    if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
+  }
+
+  function renderHero() {
+    $("ev").textContent = `${D.year} ${D.event_name} · ${roundName(R.round)}`;
+    $("title").innerHTML = `${esc(D.class_name)} <span>${R.round}</span>`;
+    const w = R.weather, m = [`<span><strong>${R.runs.length}</strong> cars, <strong>${R.clean_count}</strong> clean</span>`];
+    if (w) {
+      if (w.track) m.push(`<span>Track <strong>${w.track}°</strong></span>`);
+      if (w.air) m.push(`<span>Air <strong>${w.air}°</strong></span>`);
+      if (w.humidity) m.push(`<span>Hum. <strong>${w.humidity}%</strong></span>`);
+      if (w.baro) m.push(`<span>Baro <strong>${w.baro}</strong></span>`);
+      if (w.altitude) m.push(`<span>Adj. alt. <strong>${Number(w.altitude).toLocaleString()}'</strong></span>`);
+    } else m.push(`<span>Conditions not posted this round</span>`);
+    $("meta").innerHTML = m.join("");
+    const who = (k) => R.order[k] ? R.order[k][0].driver : "";
+    const tiles = [["et", "Low ET"], ["mph", "Top speed"], ["ft60", "Best 60'"], ["ft330", "Best 330'"], ["rt", "Best light"]];
+    $("leaders").innerHTML = tiles.filter(([k]) => R.best[k] != null).map(([k, l]) =>
+      `<div class="lead"><div class="k">${l}</div><div class="v">${t(R.best[k], k)}</div><div class="who">${esc(who(k))}</div></div>`).join("");
+  }
+
+  function renderSortRow() {
+    const C = cols().filter(([k]) => k !== "mph660");
+    $("sortrow").innerHTML = `<span class="lbl">Rank by</span>` + C.map(([k, l]) =>
+      `<button type="button" class="chip" data-k="${k}" aria-pressed="${k === sortKey}">${l}</button>`).join("");
+    $("sortrow").querySelectorAll("button").forEach((b) => b.onclick = () => { sortKey = b.dataset.k; track("rank_by", { block: b.dataset.k }); renderBoard(); });
+  }
+
+  function subLine(r) {
+    const lane = `#${esc(r.car)} · ${r.lane === "L" ? "Left" : "Right"} lane`;
+    if (R.round.startsWith("Q")) return lane;   // win/loss means nothing in qualifying
+    return `${lane} · ${r.win ? "<span class='w'>W</span>" : "L"}${r.opp ? " vs " + esc(last(r.opp)) : " solo"}`;
+  }
+
+  function renderBoard() {
+    const C = cols();
+    if (!C.some(([k]) => k === sortKey)) sortKey = "et";
+    renderSortRow();
+    const rows = sortedRuns();
+    const SC = stripCols();
+
+    // phone cards
+    $("cards").innerHTML = rows.map((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      const strip = SC.map(([k, l]) => {
+        const tr = tier(r, k), v = r[k];
+        const rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : (tr === "rl" ? "red" : "");
+        return `<div class="cell ${tr}${k === sortKey ? " sorted" : ""}"><span class="l">${l}</span><span class="v">${t(v, k)}</span><span class="r">${rk || "&nbsp;"}</span></div>`;
+      }).join("");
+      const open = openDriver === r.driver;
+      return `<div class="car${open ? " open" : ""}"${cut ? ' style="border-top:2px dashed var(--di-red)"' : ""} data-d="${esc(r.driver)}" role="button" tabindex="0" aria-expanded="${open}">
+        <div class="car-top"><span class="pos">${i + 1}</span><div style="min-width:0"><div class="name">${esc(r.driver)}</div><div class="sub">${subLine(r)}</div></div>
+        <div class="et"><span class="v ${tier(r, "et")}">${t(r.et)}</span><div class="m">${t(r.mph, "mph")} mph</div></div></div>
+        <div class="strip" style="--n:${SC.length}">${strip}</div>${open ? slip(r) : ""}</div>`;
+    }).join("");
+    $("cards").querySelectorAll(".car").forEach((el) => {
+      const flip = () => { openDriver = openDriver === el.dataset.d ? null : el.dataset.d; if (openDriver) track("open_slip", { round: R.round }); renderBoard(); };
+      el.onclick = (e) => { if (!e.target.closest(".slip")) flip(); };
+      el.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
+    });
+
+    // wide table
+    const desc = isMph(sortKey);
+    let h = "<thead><tr><th class='drv'><button type='button' data-k='et'>Car</button></th>";
+    C.forEach(([k, l]) => h += `<th${k === sortKey ? " aria-sort='" + (desc ? "descending" : "ascending") + "'" : ""}><button type="button" data-k="${k}">${l}</button></th>`);
+    h += "</tr></thead><tbody>";
+    rows.forEach((r, i) => {
+      const cut = sortKey === "et" && R.round.startsWith("Q") && i === FIELD && rows.length > FIELD;
+      h += `<tr data-d="${esc(r.driver)}" class="${cut ? "cut" : ""}"><td class="drv"><div class="drv-in"><span class="pos">${i + 1}</span><span class="name">${esc(r.driver)}</span><span class="sub">${subLine(r)}</span></div></td>`;
+      C.forEach(([k]) => {
+        const tr = tier(r, k);
+        const sm = tr === "rl" ? "<span class='r'>red</span>" : tr && tr !== "gone" ? `<span class="r">${r.rank[k]}</span>` : "<span class='r'>&nbsp;</span>";
+        const tip = tr && tr !== "gone" && tr !== "rl" ? ` title="${ord(r.rank[k])}${r.gap[k] ? ", " + plus(r.gap[k], k) + " off the quickest" : ", quickest"}"` : "";
+        h += `<td class="tc ${tr}${k === sortKey ? " sorted" : ""}"${tip}>${t(r[k], k)}${sm}</td>`;
+      });
+      h += "</tr>";
+      if (openDriver === r.driver) h += `<tr><td class="slip-td" colspan="${C.length + 1}">${slip(r)}</td></tr>`;
+    });
+    $("board").innerHTML = h + "</tbody>";
+    $("board").querySelectorAll("thead button").forEach((b) => b.onclick = (e) => { e.stopPropagation(); sortKey = b.dataset.k; renderBoard(); });
+    $("board").querySelectorAll("tbody tr[data-d]").forEach((tr) => tr.onclick = () => {
+      openDriver = openDriver === tr.dataset.d ? null : tr.dataset.d; renderBoard();
+    });
+  }
+
+  function slip(r) {
+    const segs = S.map((s) => ({ s, v: r[s], g: r.gap[s], ok: r.valid.includes(s) }));
+    const maxG = Math.max(0.02, ...segs.filter((x) => x.ok && x.g != null).map((x) => x.g));
+    const bars = segs.map((x) => {
+      if (!x.ok || x.v == null) return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"></div><span class="g" style="color:var(--off)">${x.v == null ? "--" : "off"}</span></div>`;
+      const tr = tier(r, x.s);
+      const w = x.g === 0 ? 100 : Math.max(4, x.g / maxG * 100);
+      const color = { tq: "var(--q)", t1: "var(--h1)", t2: "var(--h2)", t3: "var(--h3)", t4: "var(--h4)" }[tr] || "var(--ink)";
+      return `<div class="bar-r"><span class="lbl">${SL[x.s]}</span><div class="track"><div class="fill" style="width:${w}%;background:${color};${tr !== "tq" ? "box-shadow:inset 0 0 0 1px var(--muted)" : ""}"></div></div><span class="g"${x.g === 0 ? ' style="color:var(--q);font-weight:700"' : ""}>${x.g === 0 ? "quickest" : plus(x.g)}</span></div>`;
+    }).join("");
+    const opp = r.opp ? R.runs.find((x) => x.driver === r.opp) : null;
+    let vs = "<p class='small-h'>Solo pass</p>";
+    if (opp) {
+      const rowsV = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+      vs = `<div><p class="small-h">Side by side, pair ${r.pair}</p><div class="mini-wrap"><table class="mini"><tr><th></th><th>${esc(last(r.driver))}</th><th>${esc(last(opp.driver))}</th><th>Diff</th></tr>` +
+        rowsV.map(([k, l]) => {
+          const a = r[k], b = opp[k];
+          const d = a != null && b != null ? (k === "mph" ? a - b : b - a) : null;
+          return `<tr><td>${l}</td><td class="${d > 0 ? "up" : ""}">${t(a, k)}</td><td class="${d < 0 ? "up" : ""}">${t(b, k)}</td><td>${d == null ? "--" : (d >= 0 ? "+" : "-") + t(Math.abs(d), k)}</td></tr>`;
+        }).join("") + `</table></div></div>`;
+    }
+    const hist = D.history[r.driver] || [];
+    let hh = "";
+    if (hist.length > 1) {
+      const hp = P.filter((p) => p !== "et").slice(0, 3);
+      hh = `<div><p class="small-h">This weekend</p><div class="mini-wrap"><table class="mini"><tr><th>Rd</th>${hp.map((p) => `<th>${IL[p]}</th>`).join("")}<th>ET</th><th>MPH</th></tr>` +
+        hist.map((x) => `<tr${x.round === R.round ? " style='font-weight:700'" : ""}><td>${x.round}</td>${hp.map((p) => `<td>${t(x[p])}</td>`).join("")}<td>${t(x.et)}</td><td>${t(x.mph, "mph")}</td></tr>`).join("") +
+        `</table></div></div>`;
+    }
+    const q = r.qpos ? `${ord(r.qpos)} on the ladder after ${R.round}. ` : "";
+    return `<div class="slip"><div><p class="read">${esc(q + r.read)}</p></div>
+      <div><p class="small-h">Each split vs the quickest</p><div class="bars">${bars}</div></div>${vs}${hh}</div>`;
+  }
+
+  function renderLights() {
+    const keys = P.filter((p) => p !== "et").concat(["et", "mph"]);
+    $("lights").innerHTML = keys.filter((k) => R.order[k]).map((k) => {
+      const lab = k === "et" ? "ET" : k === "mph" ? "MPH" : IL[k];
+      const sub = k === "et" ? "finish line" : k === "mph" ? "top speed" : "timing block";
+      const list = R.order[k].slice(0, 5).map((o, i) => {
+        const run = R.runs.find((r) => r.driver === o.driver);
+        return `<li class="${run ? tier(run, k) : ""}"><span>${esc(o.driver)}</span><span class="t">${t(o.v, k)}</span><span class="g">${i === 0 ? "" : plus(o.gap, k)}</span></li>`;
+      }).join("");
+      return `<div class="light"><h3>${lab} <small>${sub.toUpperCase()}</small></h3><ol>${list}</ol></div>`;
+    }).join("");
+  }
+
+  function renderLanes() {
+    const keys = [["rt", "RT"]].concat(P.filter((p) => p !== "et" && p !== "ft1000").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    const avg = (lane, k) => {
+      const v = R.runs.filter((r) => r.clean && r.lane === lane && r[k] != null && !(k === "rt" && r.red)).map((r) => r[k]);
+      return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null;
+    };
+    const n = (l) => R.runs.filter((r) => r.clean && r.lane === l).length;
+    let h = `<tr><th></th><th>Left (${n("L")})</th><th>Right (${n("R")})</th><th>Edge</th></tr>`;
+    keys.forEach(([k, l]) => {
+      const a = avg("L", k), b = avg("R", k);
+      let edge = "--";
+      if (a != null && b != null) {
+        const d = k === "mph" ? a - b : b - a;
+        edge = Math.abs(d) < 0.0005 ? "even" : (d > 0 ? "Left " : "Right ") + t(Math.abs(d), k);
+      }
+      h += `<tr><td>${l}</td><td>${t(a, k)}</td><td>${t(b, k)}</td><td>${edge}</td></tr>`;
+    });
+    $("lanes").innerHTML = h;
+  }
+
+  function renderLadder() {
+    const q = D.qualifying[R.round];
+    $("ladder-sec").hidden = !q;
+    if (!q) return;
+    $("ladder-h").textContent = `Qualifying Order after ${R.round}`;
+    $("ladder-hint").textContent = q.length > FIELD ? `Best ET to date, ties go to MPH. Top ${FIELD} make the show.` : "Best ET to date, ties go to MPH.";
+    $("ladder").innerHTML = q.map((x, i) =>
+      `<li class="${i === FIELD - 1 && q.length > FIELD ? "bump" : ""}${i >= FIELD ? " out" : ""}"><span class="p">${i + 1}</span><span>${esc(x.driver)}</span><span class="t">${t(x.et)} <span style="color:var(--muted)">${t(x.mph, "mph")}</span></span></li>`).join("");
+  }
+
+
+  // how do I compare: any two cars, this round or each car's best clean run of the weekend
+  let cmpMode = "round";
+  function readPick(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function savePick(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  const ALLK = ["rt", "mph660", "mph", "back", "gain"].concat(P, S);
+  function withSplits(o) {
+    let prev = 0;
+    S.forEach((s, i) => { const v = o[P[i]]; o[s] = v != null && prev != null ? +(v - prev).toFixed(4) : null; prev = v; });
+    o.back = o.et != null && o.ft660 != null ? +(o.et - o.ft660).toFixed(4) : null;
+    o.gain = o.mph != null && o.mph660 != null ? +(o.mph - o.mph660).toFixed(2) : null;
+    return o;
+  }
+  function runFor(name) {
+    if (cmpMode === "round") {
+      const r = R.runs.find((x) => x.driver === name);
+      if (!r) return null;
+      const o = { driver: name, lane: r.lane, clean: r.clean, off_at: r.off_at, label: R.round };
+      ALLK.forEach((k) => { o[k] = (counts(r, k) && !(k === "rt" && r.red)) ? r[k] : null; });
+      return o;
+    }
+    const hist = (D.history[name] || []).filter((h) => h.et != null);
+    if (!hist.length) return null;
+    const clean = hist.filter((h) => h.clean);
+    const pool = clean.length ? clean : hist;
+    const h = pool.reduce((m, x) => x.et < m.et ? x : m);
+    const o = withSplits(Object.assign({ driver: name, label: h.round }, h));
+    if (o.red) o.rt = null;
+    return o;
+  }
+  function renderCompare() {
+    const pool = cmpMode === "round" ? R.runs.map((r) => r.driver) : Object.keys(D.history);
+    const names = pool.slice().sort((a, b) => last(a).localeCompare(last(b)) || a.localeCompare(b));
+    const byEt = R.runs.filter((r) => r.et != null).map((r) => r.driver);
+    let a = readPick("di-cmp-a-" + D.class), b = readPick("di-cmp-b-" + D.class);
+    if (!names.includes(a)) a = byEt[1] || names[0];
+    if (!names.includes(b) || b === a) b = byEt.find((n) => n !== a) || names.find((n) => n !== a);
+    const opts = (cur) => names.map((n) => `<option value="${esc(n)}"${n === cur ? " selected" : ""}>${esc(n)}</option>`).join("");
+    $("cmp-a").innerHTML = opts(a); $("cmp-b").innerHTML = opts(b);
+    $("cmp-a").onchange = () => { savePick("di-cmp-a-" + D.class, $("cmp-a").value); track("compare", { mode: cmpMode }); renderCompare(); };
+    $("cmp-b").onchange = () => { savePick("di-cmp-b-" + D.class, $("cmp-b").value); track("compare", { mode: cmpMode }); renderCompare(); };
+    const A = runFor(a), B = runFor(b);
+    if (!A || !B || a === b) { $("cmp-out").innerHTML = `<p class="cmp-empty">Pick two different cars.</p>`; return; }
+    const la = last(a), lb = last(b);
+    const head = (r) => `<div class="cmp-car"><div class="n">${esc(r.driver)}</div><div class="e">${t(r.et)}</div><div class="s">${t(r.mph, "mph")} mph · ${r.label} · ${r.lane === "L" ? "Left" : "Right"}${r.clean ? "" : " · went away " + esc(SL[r.off_at] || "")}</div></div>`;
+    const both = (k) => A[k] != null && B[k] != null;
+    const diffOf = (k) => isMph(k) ? A[k] - B[k] : B[k] - A[k];   // positive = first car ahead
+
+    let sum = "";
+    const segOk = S.filter((s) => both(s));
+    if (segOk.length) {
+      const g = segOk.map((s) => [s, diffOf(s)]);
+      const best = g.reduce((m, x) => x[1] > m[1] ? x : m), worst = g.reduce((m, x) => x[1] < m[1] ? x : m);
+      const bits = [];
+      if (best[1] > 0.0005) bits.push(`${la} gains the most ${SL[best[0]]} (${t(best[1])})`);
+      if (worst[1] < -0.0005) bits.push(`gives up the most ${SL[worst[0]]} (${t(-worst[1])})`);
+      if (both("et")) {
+        const d = diffOf("et");
+        bits.push(Math.abs(d) < 0.0005 ? "dead even at the stripe" : d > 0 ? `${t(d)} ahead of ${lb} at the stripe` : `${t(-d)} behind ${lb} at the stripe`);
+      }
+      sum = bits.join(", ");
+      sum = sum ? sum.charAt(0).toUpperCase() + sum.slice(1) + "." : "";
+    }
+    const cap = Math.max(0.03, ...segOk.map((s) => Math.abs(diffOf(s))));
+    const row = (k, l, bars) => {
+      if (A[k] == null && B[k] == null) return "";
+      const ok = both(k), d = ok ? diffOf(k) : null;
+      const aCls = ok && d > 0.0005 ? "ahead" : "", bCls = ok && d < -0.0005 ? "ahead" : "";
+      const dTxt = d == null ? "--" : Math.abs(d) < 0.0005 ? "even" : (d > 0 ? la : lb) + " " + t(Math.abs(d), k);
+      let bar = "";
+      if (bars && ok) {
+        const w = Math.min(Math.abs(d) / cap, 1) * 50;
+        bar = `<div class="cmp-bar"><i style="${d >= 0 ? "right:50%" : "left:50%"};width:${w}%;background:${d >= 0 ? "var(--q)" : "var(--di-red)"}"></i></div>`;
+      }
+      return `<div class="cmp-row"><span class="lbl">${l}</span><span class="v ${aCls}">${t(A[k], k)}</span><span class="v ${bCls}">${t(B[k], k)}</span><span class="d">${dTxt}</span>${bar}</div>`;
+    };
+    const hd = (first) => `<div class="cmp-row hd${first ? "" : " sep"}"><span>${first ? "" : "Splits"}</span><span>${esc(la)}</span><span>${esc(lb)}</span><span>Edge</span></div>`;
+    const pts = [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    $("cmp-out").innerHTML = `<div class="cmp-head">${head(A)}${head(B)}</div>${sum ? `<p class="cmp-sum">${esc(sum)}</p>` : ""}
+      <div class="cmp-rows">${hd(true)}${pts.map(([k, l]) => row(k, l, false)).join("")}
+      ${hd(false)}${S.map((s) => row(s, SL[s], true)).join("")}${quarter ? row("back", "660-1320", true) : ""}${row("gain", "MPH gain", false)}</div>
+      <div class="cmp-legend"><span>Green bar: ${esc(la)} quicker in that split</span><span>Red: ${esc(lb)} quicker</span></div>`;
+  }
+  function setCmpMode(m) {
+    cmpMode = m;
+    $("cmp-round").setAttribute("aria-pressed", m === "round");
+    $("cmp-best").setAttribute("aria-pressed", m === "best");
+    renderCompare();
+  }
+  $("cmp-round").onclick = () => setCmpMode("round");
+  $("cmp-best").onclick = () => setCmpMode("best");
+
+
+  // printing and saving
+  function renderPrint() {
+    const runs = sortedRunsBy("et");
+    const table = (title, C) => {
+      let h = `<h3>${esc(title)}</h3><table><tr><th>#</th><th>Driver</th>${C.map(([, l]) => `<th>${l}</th>`).join("")}</tr>`;
+      runs.forEach((r, i) => {
+        h += `<tr><td>${i + 1}</td><td>${esc(r.driver)} <small>#${esc(r.car)} ${r.lane}</small></td>`;
+        C.forEach(([k]) => {
+          const tr = tier(r, k), rk = tr && tr !== "gone" && tr !== "rl" ? r.rank[k] : "";
+          h += `<td class="${tr}">${t(r[k], k)}${rk ? `<small>${rk}</small>` : ""}</td>`;
+        });
+        h += "</tr>";
+      });
+      return h + "</table>";
+    };
+    const v = view; view = "cum"; const cum = cols(); view = "seg"; const seg = cols(); view = v;
+    $("print").innerHTML = table("Timing blocks", cum) + table("Splits", seg);
+  }
+  function sortedRunsBy(k) { const keep = sortKey; sortKey = k; const r = sortedRuns(); sortKey = keep; return r; }
+  $("do-print").onclick = () => { track("print_round", { round: R.round }); renderPrint(); window.print(); };
+  $("dl-csv").addEventListener("click", () => track("download_spreadsheet"));
+  $("dl-page").addEventListener("click", () => track("save_page"));
+  window.addEventListener("beforeprint", renderPrint);
+  if (D.csv) { $("dl-csv").href = D.csv; $("dl-csv").setAttribute("download", D.csv.split("/").pop()); }
+  if (D.save) { $("dl-page").href = D.self_path || "index.html"; $("dl-page").setAttribute("download", D.save); }
+
+  // leaderboard: this race or season to date, top five per block
+  let lbMode = "season";
+  const LBL = { rt: "Reaction time", ft60: "60'", ft330: "330'", ft660: "660'", ft1000: "1000'", back: "Back half", gain: "Back-half MPH gain", et: "ET", mph: "MPH" };
+  function renderLeaders() {
+    const L = D.leaders;
+    if (!L) { $("lb-sec").hidden = true; return; }
+    const set = lbMode === "season" && L.season && Object.keys(L.season).length ? L.season : L.race;
+    $("lb-race").setAttribute("aria-pressed", set === L.race);
+    $("lb-season").setAttribute("aria-pressed", set !== L.race);
+    $("lb-season").textContent = `${D.year} season`;
+    $("lb-h").textContent = set === L.race ? "Leaderboard: This Race" : `Leaderboard: ${D.year} Season`;
+    $("lb-hint").textContent = set === L.race
+      ? "Top five at every timing block this weekend. Each driver's best clean run, one spot per driver."
+      : `Top five at every timing block across ${L.season_races} race${L.season_races === 1 ? "" : "s"} this season. Each driver's best clean run, one spot per driver.`;
+    const order = ["ft60", "ft330", "ft660", "ft1000", "back", "gain", "et", "mph", "rt"].filter((k) => set[k] && !(k === "back" && !quarter));
+    $("lb").innerHTML = order.map((k) => `<div class="lb-card"><h3>${LBL[k]}</h3><ol>${set[k].map((x, i) =>
+      `<li><span class="p">${i + 1}</span><span class="n">${esc(x.driver)}<span class="w">${set === L.race ? x.round : esc(x.race) + " · " + x.round}</span></span><span class="v">${t(x.v, k)}</span></li>`).join("")}</ol></div>`).join("");
+  }
+  $("lb-race").onclick = () => { lbMode = "race"; renderLeaders(); };
+  $("lb-season").onclick = () => { lbMode = "season"; renderLeaders(); };
+  renderLeaders();
+
+  // eliminations ladder (projected from qualifying until E1 posts). Tap a pairing to compare the two cars.
+  const SLOT = [1, 16, 8, 9, 4, 13, 5, 12, 2, 15, 7, 10, 3, 14, 6, 11];
+  function renderElims() {
+    const qRounds = D.rounds.filter((r) => r.round.startsWith("Q")).map((r) => r.round);
+    const eRounds = D.rounds.filter((r) => r.round.startsWith("E"));
+    const finalQ = qRounds.length ? D.qualifying[qRounds[qRounds.length - 1]] : null;
+    if (!finalQ && !eRounds.length) { $("elim-sec").hidden = true; return; }
+    $("elim-sec").hidden = false;
+    const seed = {};
+    (finalQ || []).forEach((x, i) => { seed[x.driver] = i + 1; });
+    const slotOf = (d) => { const i = SLOT.indexOf(seed[d]); return i < 0 ? 99 : i; };
+    const names = { E1: "Round 1", E2: "Quarterfinals", E3: "Semifinals", E4: "Final" };
+    const carRow = (r, won) => {
+      if (!r) return `<div class="el-car"><span class="el-s"></span><span class="el-n" style="color:var(--muted)">Bye</span><span></span></div>`;
+      const v = r.et == null ? (r.red ? `<span class="rl">red light</span>` : "no time")
+        : `${r.red ? '<span class="rl">red</span>' : t(r.rt)} · <b>${t(r.et)}</b> · ${t(r.mph, "mph")}`;
+      return `<div class="el-car${won ? " win" : ""}"><span class="el-s">${seed[r.driver] || ""}</span><span class="el-n">${esc(r.driver)}</span><span class="el-v">${v}</span></div>`;
+    };
+    let cols = "";
+    if (!eRounds.length) {
+      // projected pairings from the current qualifying order
+      const q = D.qualifying[R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]] || finalQ;
+      const qs = {}; q.forEach((x, i) => { qs[i + 1] = x.driver; });
+      let cards = "";
+      for (let i = 0; i < 16; i += 2) {
+        const a = qs[SLOT[i]], b = qs[SLOT[i + 1]];
+        if (!a && !b) continue;
+        cards += `<div class="el-pair" style="cursor:default"><div class="el-car"><span class="el-s">${SLOT[i]}</span><span class="el-n">${esc(a || "")}</span><span></span></div><div class="el-car"><span class="el-s">${SLOT[i + 1]}</span><span class="el-n">${b ? esc(b) : '<span style="color:var(--muted)">Bye</span>'}</span><span></span></div></div>`;
+      }
+      cols = `<div class="el-col"><h3>Round 1<small>PROJECTED</small></h3>${cards}</div>`;
+      $("el-h").textContent = "Eliminations Ladder";
+      $("el-hint").textContent = `If qualifying ended after ${R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]}, here's how round one would pair up. Updates after every session.`;
+    } else {
+      cols = eRounds.map((rd) => {
+        const pairs = {};
+        rd.runs.forEach((r) => { (pairs[r.pair] = pairs[r.pair] || []).push(r); });
+        const list = Object.values(pairs).sort((a, b) => Math.min(...a.map((r) => slotOf(r.driver))) - Math.min(...b.map((r) => slotOf(r.driver))));
+        const cards = list.map((p) => {
+          p.sort((x, y) => (seed[x.driver] || 99) - (seed[y.driver] || 99));
+          const [x, y] = p, w = p.find((r) => r.win), l = p.find((r) => !r.win);
+          let tag = "", margin = "";
+          if (w && l && w.et != null && l.et != null && !l.red && !w.red) {
+            const d = (l.rt + l.et) - (w.rt + w.et);
+            margin = d > 0 ? `Won by ${t(d)}` : "";
+            if (w.et > l.et) tag = `<span class="el-tag hs">Holeshot</span>`;
+          } else if (l && l.red) tag = `<span class="el-tag">Red light</span>`;
+          else if (w && !l) tag = `<span class="el-tag">Solo</span>`;
+          const data = p.length === 2 ? ` data-a="${esc(x.driver)}" data-b="${esc(y.driver)}" data-r="${rd.round}"` : "";
+          return `<button type="button" class="el-pair"${data}>${carRow(x, x && x.win)}${p.length === 2 ? carRow(y, y.win) : carRow(null)}${tag || margin ? `<div class="el-foot"><span>${tag}</span><span>${margin}</span></div>` : ""}</button>`;
+        }).join("");
+        return `<div class="el-col"><h3>${rd.round}<small>${(names[rd.round] || "").toUpperCase()}</small></h3>${cards}</div>`;
+      }).join("");
+      $("el-h").textContent = "Eliminations Ladder";
+      $("el-hint").textContent = "Numbers are qualifying spots. Tap a pairing to compare the two cars block by block.";
+    }
+    $("el").innerHTML = cols;
+    $("el").querySelectorAll(".el-pair[data-a]").forEach((b) => b.onclick = () => {
+      savePick("di-cmp-a-" + D.class, b.dataset.a); savePick("di-cmp-b-" + D.class, b.dataset.b);
+      track("ladder_compare", { round: b.dataset.r });
+      cmpMode = "round";
+      go(b.dataset.r);
+      $("cmp-round").setAttribute("aria-pressed", "true"); $("cmp-best").setAttribute("aria-pressed", "false");
+      openFold("cmp-sec");
+      document.getElementById("cmp-sec").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  // fold-away sections (the Board always stays open); each viewer's choices are remembered
+  const FOLDS = [
+    ["cmp-sec", "Pick any two cars, block by block"],
+    ["elim-sec", "Bracket, holeshots, tap a pairing to compare"],
+    ["lights-sec", "Top five at each timing block"],
+    ["lane-sec", "Left lane vs right lane"],
+    ["ladder-sec", "Best ET to date, the bump spot"],
+    ["lb-sec", "Top five at every block, this race or the season"],
+    ["keep-sec", "Print, spreadsheet, save offline, past races"],
+  ];
+  function setFold(el, open, save) {
+    el.classList.toggle("open", open);
+    const b = el.querySelector(":scope > .fold-h");
+    if (b) b.setAttribute("aria-expanded", open);
+    if (save) { try { localStorage.setItem("di-fold-" + el.id, open ? "1" : "0"); } catch (e) {} }
+  }
+  function openFold(id) { const el = document.getElementById(id); if (el && el.classList.contains("fold")) setFold(el, true, true); }
+  FOLDS.forEach(([id, sub]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const h2 = el.querySelector(":scope > h2");
+    if (!h2) return;
+    const btn = document.createElement("button");
+    btn.type = "button"; btn.className = "fold-h";
+    btn.innerHTML = `<span class="ft"></span><span class="chev" aria-hidden="true"></span>`;
+    btn.querySelector(".ft").appendChild(h2);
+    btn.querySelector(".ft").insertAdjacentHTML("beforeend", `<span class="fs">${esc(sub)}</span>`);
+    el.insertBefore(btn, el.firstChild);
+    el.classList.add("fold");
+    let saved = null; try { saved = localStorage.getItem("di-fold-" + id); } catch (e) {}
+    setFold(el, saved === "1", false);
+    btn.onclick = () => {
+      const open = !el.classList.contains("open");
+      setFold(el, open, true);
+      if (open) track("open_section", { section: id.replace("-sec", "") });
+    };
+  });
+  function go(rd) {
+    R = D.rounds.find((r) => r.round === rd) || D.rounds[D.rounds.length - 1];
+    track("view_round", { round: R.round });
+    openDriver = null;
+    ceilings();
+    try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
+    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderElims(); renderLights(); renderLanes(); renderLadder();
+    $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
+  }
+  function setView(v) {
+    view = v;
+    $("v-cum").setAttribute("aria-pressed", v === "cum");
+    $("v-seg").setAttribute("aria-pressed", v === "seg");
+    renderBoard();
+  }
+  $("v-cum").onclick = () => setView("cum");
+  $("v-seg").onclick = () => setView("seg");
+
+  const fromHash = (location.hash || "").slice(1).toUpperCase();
+  go(D.rounds.some((r) => r.round === fromHash) ? fromHash : D.default_round);
+})();
+</script>
+</body></html>
