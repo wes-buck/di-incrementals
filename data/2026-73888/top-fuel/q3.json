@@ -283,6 +283,45 @@
   {
    "runs": [
     {
+     "rt": 0.076,
+     "ft60": 0.842,
+     "ft330": 2.122,
+     "ft660": 2.973,
+     "mph660": 297.91,
+     "ft1000": null,
+     "et": 3.691,
+     "mph": 336.05,
+     "first": 0.052,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.078,
+     "ft60": 0.864,
+     "ft330": 2.163,
+     "ft660": 3.02,
+     "mph660": 295.31,
+     "ft1000": null,
+     "et": 3.741,
+     "mph": 335.37,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -294,9 +333,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Leah Pruett",
-     "car": "777",
-     "qpos_nhra": "5",
+     "driver": "--",
+     "car": "123",
+     "qpos_nhra": "4",
      "mov": null
     },
     {
@@ -311,9 +350,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Clay Millican",
-     "car": "51",
-     "qpos_nhra": "10",
+     "driver": "--",
+     "car": "14",
+     "qpos_nhra": "2",
      "mov": null
     }
    ],
