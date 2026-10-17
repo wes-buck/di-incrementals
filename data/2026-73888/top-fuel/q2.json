@@ -45,6 +45,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.097,
+     "ft60": 0.892,
+     "ft330": 3.592,
+     "ft660": 7.032,
+     "mph660": 67.0,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": 0.058,
+     "ft60": 1.037,
+     "ft330": 4.084,
+     "ft660": 7.107,
+     "mph660": 78.21,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "19",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
