@@ -19,6 +19,14 @@ WEATHER_RE = re.compile(r"Weather conditions:\s*(.*?degrees\.)", re.S)
 DIST = {"ft60": 60, "ft330": 330, "ft660": 660, "ft1000": 1000}
 
 
+def trunc(v, places):
+    """NHRA convention: times and speeds are cut off, never rounded (6.44385 is a 6.443)."""
+    if v is None:
+        return None
+    f = 10 ** places
+    return int(v * f + (1e-9 if v >= 0 else -1e-9)) / f
+
+
 def r4(x):
     return None if x is None else round(x, 4)
 
@@ -76,7 +84,7 @@ def build_round(raw, points, segs, seg_label, inc_label):
             row = {"driver": r["driver"], "car": r.get("car"), "lane": (r.get("lane") or "?")[:1].upper(),
                    "pair": i + 1, "win": r.get("win", False), "opp": opp[0]["driver"] if opp else None}
             for k in ["rt", "mph660", "mph"] + points:
-                row[k] = r.get(k)
+                row[k] = trunc(r.get(k), 2 if k.startswith("mph") else 3)
                 # a timer glitch shows up as 0.000; treat it as no reading
                 if k != "rt" and row[k] is not None and row[k] <= 0.5:
                     row[k] = None
