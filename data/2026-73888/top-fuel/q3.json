@@ -240,6 +240,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 0.848,
+     "ft330": 2.135,
+     "ft660": 3.123,
+     "mph660": 223.31,
+     "ft1000": null,
+     "et": 4.28,
+     "mph": 189.14,
+     "first": 0.287,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.047,
+     "ft60": 0.85,
+     "ft330": 2.136,
+     "ft660": 3.236,
+     "mph660": 195.18,
+     "ft1000": null,
+     "et": 4.545,
+     "mph": 166.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
