@@ -45,6 +45,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.88,
+     "ft330": 2.246,
+     "ft660": 3.16,
+     "mph660": 285.75,
+     "ft1000": null,
+     "et": 3.899,
+     "mph": 324.61,
+     "first": 0.008,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.059,
+     "ft60": 0.88,
+     "ft330": 2.256,
+     "ft660": 3.164,
+     "mph660": 285.73,
+     "ft1000": null,
+     "et": 3.93,
+     "mph": 300.2,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "19",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
