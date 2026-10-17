@@ -283,6 +283,45 @@
   {
    "runs": [
     {
+     "rt": 0.107,
+     "ft60": 0.895,
+     "ft330": 2.287,
+     "ft660": 3.205,
+     "mph660": 280.92,
+     "ft1000": null,
+     "et": 3.954,
+     "mph": 325.47,
+     "first": 0.173,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.066,
+     "ft60": 0.879,
+     "ft330": 2.247,
+     "ft660": 3.194,
+     "mph660": 254.4,
+     "ft1000": null,
+     "et": 4.168,
+     "mph": 228.81,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -294,9 +333,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Spencer Hyde",
-     "car": "9",
-     "qpos_nhra": "11",
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "6",
      "mov": null
     },
     {
@@ -311,9 +350,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "5",
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "4",
      "mov": null
     }
    ],
