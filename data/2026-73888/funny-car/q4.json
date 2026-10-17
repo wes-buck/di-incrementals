@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.099,
+     "ft60": 0.91,
+     "ft330": 2.317,
+     "ft660": 3.255,
+     "mph660": 274.26,
+     "ft1000": null,
+     "et": 4.033,
+     "mph": 310.97,
+     "first": 0.093,
+     "lane": "Left",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.126,
+     "ft60": 0.92,
+     "ft330": 2.351,
+     "ft660": 3.314,
+     "mph660": 268.82,
+     "ft1000": null,
+     "et": 4.099,
+     "mph": 307.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,9 +99,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Terry Haddock",
-     "car": "121",
-     "qpos_nhra": "19",
+     "driver": "--",
+     "car": "1",
+     "qpos_nhra": "13",
      "mov": null
     },
     {
@@ -77,8 +116,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeff Arend",
-     "car": "170",
+     "driver": "--",
+     "car": "343",
      "qpos_nhra": "17",
      "mov": null
     }
