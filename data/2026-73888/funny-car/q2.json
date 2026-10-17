@@ -84,6 +84,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.328,
+     "ft60": 0.89,
+     "ft330": 2.309,
+     "ft660": 3.293,
+     "mph660": 236.97,
+     "ft1000": null,
+     "et": 4.331,
+     "mph": 214.65,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.107,
+     "ft60": 0.875,
+     "ft330": 2.249,
+     "ft660": 3.15,
+     "mph660": 286.73,
+     "ft1000": null,
+     "et": 3.881,
+     "mph": 333.83,
+     "first": 0.671,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "20",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
