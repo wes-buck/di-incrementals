@@ -49,6 +49,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.04,
+     "ft60": 1.08,
+     "ft330": 2.841,
+     "ft660": 4.341,
+     "mph660": 162.63,
+     "ft1000": 5.666,
+     "et": 6.809,
+     "mph": 196.09,
+     "first": 2.674,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chris Bostick",
+     "car": "10",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 2.453,
+     "ft60": 1.174,
+     "ft330": 3.049,
+     "ft660": 4.586,
+     "mph660": 159.73,
+     "ft1000": 5.925,
+     "et": 7.07,
+     "mph": 195.59,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hector Arana",
+     "car": "235",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
