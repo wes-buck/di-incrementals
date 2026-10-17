@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.072,
+     "ft60": 0.881,
+     "ft330": 2.27,
+     "ft660": 3.19,
+     "mph660": 280.88,
+     "ft1000": null,
+     "et": 3.943,
+     "mph": 323.37,
+     "first": 0.016,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.886,
+     "ft330": 2.269,
+     "ft660": 3.2,
+     "mph660": 276.91,
+     "ft1000": null,
+     "et": 3.964,
+     "mph": 318.95,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "8",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Daniel Wilkerson",
-     "car": "5",
-     "qpos_nhra": "14",
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "11",
      "mov": null
     },
     {
@@ -272,9 +311,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Chad Green",
-     "car": "7",
-     "qpos_nhra": "8",
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
      "mov": null
     }
    ],
