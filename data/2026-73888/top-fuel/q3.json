@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.27,
+     "ft60": 0.846,
+     "ft330": 2.135,
+     "ft660": 3.017,
+     "mph660": 288.48,
+     "ft1000": null,
+     "et": 3.758,
+     "mph": 327.8,
+     "first": 0.908,
+     "lane": "Left",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.254,
+     "ft60": 0.869,
+     "ft330": 2.197,
+     "ft660": 3.315,
+     "mph660": 188.89,
+     "ft1000": null,
+     "et": 4.682,
+     "mph": 158.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Lee Callaway",
+     "car": "415",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,9 +99,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Spencer Massey",
-     "car": "421",
-     "qpos_nhra": "19",
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "6",
      "mov": null
     },
     {
@@ -77,9 +116,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Lee Callaway",
-     "car": "415",
-     "qpos_nhra": "16",
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "19",
      "mov": null
     }
    ],
