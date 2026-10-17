@@ -283,6 +283,45 @@
   {
    "runs": [
     {
+     "rt": 0.078,
+     "ft60": 0.865,
+     "ft330": 2.236,
+     "ft660": 3.148,
+     "mph660": 286.51,
+     "ft1000": null,
+     "et": 3.874,
+     "mph": 337.13,
+     "first": 3.658,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "11",
+     "mov": null
+    },
+    {
+     "rt": 0.155,
+     "ft60": 0.875,
+     "ft330": 2.641,
+     "ft660": 4.966,
+     "mph660": 92.42,
+     "ft1000": null,
+     "et": 7.455,
+     "mph": 94.76,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "13",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -294,9 +333,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "11",
+     "driver": "--",
+     "car": "6",
+     "qpos_nhra": "9",
      "mov": null
     },
     {
@@ -311,9 +350,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Ron Capps",
-     "car": "28",
-     "qpos_nhra": "13",
+     "driver": "--",
+     "car": "9",
+     "qpos_nhra": "12",
      "mov": null
     }
    ],
