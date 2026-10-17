@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.097,
+     "ft60": 0.863,
+     "ft330": 2.149,
+     "ft660": 3.011,
+     "mph660": 295.43,
+     "ft1000": null,
+     "et": 3.73,
+     "mph": 335.35,
+     "first": 0.021,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "12",
+     "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.846,
+     "ft330": 2.146,
+     "ft660": 3.033,
+     "mph660": 287.08,
+     "ft1000": null,
+     "et": 3.773,
+     "mph": 328.16,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
-     "qpos_nhra": "12",
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "11",
      "mov": null
     },
     {
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Spencer Massey",
-     "car": "421",
-     "qpos_nhra": "15",
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "13",
      "mov": null
     }
    ],
