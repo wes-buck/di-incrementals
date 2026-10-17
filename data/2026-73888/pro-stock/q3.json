@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.064,
+     "ft60": 0.97,
+     "ft330": 2.708,
+     "ft660": 4.163,
+     "mph660": 169.54,
+     "ft1000": 5.419,
+     "et": 6.477,
+     "mph": 212.46,
+     "first": 0.005,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.071,
+     "ft60": 0.98,
+     "ft330": 2.715,
+     "ft660": 4.162,
+     "mph660": 169.7,
+     "ft1000": 5.418,
+     "et": 6.475,
+     "mph": 212.65,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Chris Vang",
+     "car": "5707",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Deric Kramer",
-     "car": "52",
+     "driver": "Greg Stanfield",
+     "car": "445",
      "class": "--",
      "dial": "--",
      "ovun": "--",
