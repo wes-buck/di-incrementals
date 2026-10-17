@@ -144,6 +144,45 @@
      "mov": null
     },
     {
+     "rt": 0.074,
+     "ft60": 0.914,
+     "ft330": 2.335,
+     "ft660": 3.282,
+     "mph660": 272.69,
+     "ft1000": null,
+     "et": 4.05,
+     "mph": 315.99,
+     "first": 0.0,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "20",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "1",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -155,8 +194,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeff Arend",
-     "car": "170",
+     "driver": "--",
+     "car": "703",
      "qpos_nhra": "20",
      "mov": null
     }
