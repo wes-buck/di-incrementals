@@ -311,6 +311,49 @@
   {
    "runs": [
     {
+     "rt": 0.025,
+     "ft60": 0.967,
+     "ft330": 2.705,
+     "ft660": 4.159,
+     "mph660": 169.06,
+     "ft1000": 5.418,
+     "et": 6.479,
+     "mph": 211.67,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.011,
+     "ft60": 0.976,
+     "ft330": 2.709,
+     "ft660": 4.158,
+     "mph660": 169.36,
+     "ft1000": 5.417,
+     "et": 6.475,
+     "mph": 212.09,
+     "first": 0.018,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -322,8 +365,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Troy Coughlin Jr",
-     "car": "10",
+     "driver": "Matt Latino",
+     "car": "16",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -341,8 +384,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Erica Enders",
-     "car": "6",
+     "driver": "Greg Anderson",
+     "car": "2",
      "class": "--",
      "dial": "--",
      "ovun": "--",
