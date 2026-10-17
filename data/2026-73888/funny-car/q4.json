@@ -279,6 +279,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.073,
+     "ft60": 0.872,
+     "ft330": 2.252,
+     "ft660": 3.17,
+     "mph660": 283.43,
+     "ft1000": null,
+     "et": 3.906,
+     "mph": 332.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.873,
+     "ft330": 2.252,
+     "ft660": 3.158,
+     "mph660": 287.06,
+     "ft1000": null,
+     "et": 3.889,
+     "mph": 333.41,
+     "first": 0.025,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
