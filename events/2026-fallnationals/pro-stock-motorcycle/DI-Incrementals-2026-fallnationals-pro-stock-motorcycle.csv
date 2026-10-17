@@ -1,17 +1,19 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Left,Blaine Hale,405,,0.446,1.323,4.179,7.88,56.97,12.403,17.45,40.42,1.323,2.856,3.701,4.523,5.047,9.57,-16.55,no,0-60,14,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Right,GT Tonglet,485,,0.063,1.129,2.993,4.538,157.58,5.892,7.05,190.52,1.129,1.864,1.545,1.354,1.158,2.512,32.94,yes,,9,11,12,10
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Left,Hector Arana,235,,0.026,1.279,3.622,5.811,124.54,7.385,8.667,174.53,1.279,2.343,2.189,1.574,1.282,2.856,49.99,no,0-60,13,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Right,Hector Arana Jr,300,,0.149,1.759,9.274,26.218,8.78,,64.999,,1.759,7.515,16.944,,,38.781,,no,0-60,15,,,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,0.027,1.086,2.863,4.397,156.38,5.783,7.033,170.07,1.086,1.777,1.534,1.386,1.25,2.636,13.69,no,1000-1320,8,8,8,6
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,0.024,1.091,2.897,4.536,141.08,6.31,8.182,111.79,1.091,1.806,1.639,1.774,1.872,3.646,-29.29,no,330-660,12,9,9,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,4,Left,Marc Ingwersen,370,,0.166,1.121,2.969,4.506,159.5,5.848,6.997,195.09,1.121,1.848,1.537,1.342,1.149,2.491,35.59,yes,,6,10,11,9
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,4,Right,Geno Scali,351,,0.018,1.135,2.935,4.472,158.31,5.829,7.009,186.39,1.135,1.8,1.537,1.357,1.18,2.537,28.08,yes,,7,12,10,8
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,5,Left,Steve Johnson,9,,0.031,1.085,2.842,4.407,151.39,5.877,7.252,154.34,1.085,1.757,1.565,1.47,1.375,2.845,2.95,no,660-1000,10,6,6,7
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,5,Right,Clayton Howey,7002,,0.051,1.073,2.833,4.329,163.1,5.652,6.88,170.62,1.073,1.76,1.496,1.323,1.228,2.551,7.52,no,1000-1320,5,4,3,4
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,6,Left,Chase Van Sant,8,,0.018,1.071,2.842,4.345,162.95,5.661,6.79,198.47,1.071,1.771,1.503,1.316,1.129,2.445,35.52,yes,,4,3,7,5
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,6,Right,Joey Gladstone,7,,0.064,1.077,2.834,4.32,164.08,5.636,6.768,198.5,1.077,1.757,1.486,1.316,1.132,2.448,34.42,yes,,3,5,4,2
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,7,Left,Angie Smith,4,,0.078,1.085,2.841,4.322,165.76,5.616,6.725,202.28,1.085,1.756,1.481,1.294,1.109,2.403,36.52,yes,,2,7,5,3
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,7,Right,Ryan Oehler,3284,,0.059,1.064,2.811,4.419,136.08,6.252,8.156,110.72,1.064,1.747,1.608,1.833,1.904,3.737,-25.36,no,330-660,11,2,2,
-Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,8,Left,Matt Smith,3,,0.02,1.057,2.809,4.296,164.26,5.598,6.709,201.86,1.057,1.752,1.487,1.302,1.111,2.413,37.6,yes,,1,1,1,1
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Left,Blaine Hale,405,,0.446,1.323,4.179,7.88,56.97,12.403,17.45,40.42,1.323,2.856,3.701,4.523,5.047,9.57,-16.55,no,0-60,16,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,1,Right,GT Tonglet,485,,0.063,1.129,2.993,4.538,157.58,5.892,7.05,190.52,1.129,1.864,1.545,1.354,1.158,2.512,32.94,no,60-330,10,12,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Left,Hector Arana,235,,0.026,1.279,3.622,5.811,124.54,7.385,8.667,174.53,1.279,2.343,2.189,1.574,1.282,2.856,49.99,no,0-60,15,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,2,Right,Hector Arana Jr,300,,0.149,1.759,9.274,26.218,8.78,,64.999,,1.759,7.515,16.944,,,38.781,,no,0-60,17,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,0.027,1.086,2.863,4.397,156.38,5.783,7.033,170.07,1.086,1.777,1.534,1.386,1.25,2.636,13.69,no,1000-1320,9,9,9,7
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,0.024,1.091,2.897,4.536,141.08,6.31,8.182,111.79,1.091,1.806,1.639,1.774,1.872,3.646,-29.29,no,330-660,14,10,10,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,4,Left,Marc Ingwersen,370,,0.166,1.121,2.969,4.506,159.5,5.848,6.997,195.09,1.121,1.848,1.537,1.342,1.149,2.491,35.59,yes,,7,11,12,10
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,4,Right,Geno Scali,351,,0.018,1.135,2.935,4.472,158.31,5.829,7.009,186.39,1.135,1.8,1.537,1.357,1.18,2.537,28.08,yes,,8,13,11,9
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,5,Left,Steve Johnson,9,,0.031,1.085,2.842,4.407,151.39,5.877,7.252,154.34,1.085,1.757,1.565,1.47,1.375,2.845,2.95,no,660-1000,11,7,7,8
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,5,Right,Clayton Howey,7002,,0.051,1.073,2.833,4.329,163.1,5.652,6.88,170.62,1.073,1.76,1.496,1.323,1.228,2.551,7.52,no,1000-1320,6,5,4,5
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,6,Left,Chase Van Sant,8,,0.018,1.071,2.842,4.345,162.95,5.661,6.79,198.47,1.071,1.771,1.503,1.316,1.129,2.445,35.52,yes,,5,4,8,6
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,6,Right,Joey Gladstone,7,,0.064,1.077,2.834,4.32,164.08,5.636,6.768,198.5,1.077,1.757,1.486,1.316,1.132,2.448,34.42,yes,,4,6,5,3
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,7,Left,Angie Smith,4,,0.078,1.085,2.841,4.322,165.76,5.616,6.725,202.28,1.085,1.756,1.481,1.294,1.109,2.403,36.52,yes,,3,8,6,4
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,7,Right,Ryan Oehler,3284,,0.059,1.064,2.811,4.419,136.08,6.252,8.156,110.72,1.064,1.747,1.608,1.833,1.904,3.737,-25.36,no,330-660,13,3,3,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,8,Left,Matt Smith,3,,0.02,1.057,2.809,4.296,164.26,5.598,6.709,201.86,1.057,1.752,1.487,1.302,1.111,2.413,37.6,yes,,2,2,2,2
 Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,8,Right,John Hall,6,,,,,,,,,,,,,,,,,no,0-60,,,,
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,9,Left,Gaige Herrera,79,,0.045,1.034,2.782,4.266,165.1,5.565,6.676,202.22,1.034,1.748,1.484,1.299,1.111,2.41,37.12,yes,,1,1,1,1
+Texas NHRA FallNationals,Pro Stock Motorcycle,Q1,9,Right,Richard Gadson,1,,-0.123,1.198,2.956,4.475,153.81,6.103,7.794,124.56,1.198,1.758,1.519,1.628,1.691,3.319,-29.25,no,0-60,12,,,
