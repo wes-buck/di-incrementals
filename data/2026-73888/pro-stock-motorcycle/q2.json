@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.022,
+     "ft60": 1.113,
+     "ft330": 2.885,
+     "ft660": 4.683,
+     "mph660": 120.65,
+     "ft1000": 6.732,
+     "et": 8.856,
+     "mph": 99.02,
+     "first": -1.307,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.053,
+     "ft60": 1.349,
+     "ft330": 3.265,
+     "ft660": 4.914,
+     "mph660": 148.41,
+     "ft1000": 6.368,
+     "et": 7.624,
+     "mph": 176.88,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Blaine Hale",
+     "car": "405",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "--",
-     "car": "6",
+     "driver": "Hector Arana Jr",
+     "car": "300",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "--",
-     "car": "405",
+     "driver": "Hector Arana",
+     "car": "235",
      "class": "--",
      "dial": "--",
      "ovun": "--",
