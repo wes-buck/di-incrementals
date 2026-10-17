@@ -322,6 +322,45 @@
   {
    "runs": [
     {
+     "rt": 0.079,
+     "ft60": 0.865,
+     "ft330": 2.238,
+     "ft660": 3.212,
+     "mph660": 245.24,
+     "ft1000": null,
+     "et": 4.219,
+     "mph": 222.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.111,
+     "ft60": 0.874,
+     "ft330": 2.242,
+     "ft660": 3.145,
+     "mph660": 288.28,
+     "ft1000": null,
+     "et": 3.875,
+     "mph": 336.0,
+     "first": 0.312,
+     "lane": "Right",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "4",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -333,9 +372,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jordan Vandergriff",
-     "car": "24",
-     "qpos_nhra": "6",
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
      "mov": null
     },
     {
@@ -350,9 +389,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Alexis DeJoria",
-     "car": "771",
-     "qpos_nhra": "4",
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "2",
      "mov": null
     }
    ],
