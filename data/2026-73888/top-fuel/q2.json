@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.312,
+     "ft60": 1.512,
+     "ft330": 5.337,
+     "ft660": 8.485,
+     "mph660": 76.95,
+     "ft1000": null,
+     "et": 11.34,
+     "mph": 83.57,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Lee Callaway",
+     "car": "415",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.873,
+     "ft330": 2.777,
+     "ft660": 5.08,
+     "mph660": 95.68,
+     "ft1000": null,
+     "et": 7.533,
+     "mph": 92.21,
+     "first": 4.031,
+     "lane": "Right",
+     "win": true,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,9 +177,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Lee Callaway",
-     "car": "415",
-     "qpos_nhra": "16",
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "11",
      "mov": null
     },
     {
@@ -155,9 +194,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Tony Schumacher",
-     "car": "15",
-     "qpos_nhra": "14",
+     "driver": "Dan Mercier",
+     "car": "182",
+     "qpos_nhra": "13",
      "mov": null
     }
    ],
