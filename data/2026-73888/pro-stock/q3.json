@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock/q3",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock",
+ "round": "Q3",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "--",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mason McGaha",
+     "car": "400",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
