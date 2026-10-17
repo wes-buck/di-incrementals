@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.238,
+     "ft60": 0.884,
+     "ft330": 2.312,
+     "ft660": 3.294,
+     "mph660": 263.93,
+     "ft1000": null,
+     "et": 4.083,
+     "mph": 311.18,
+     "first": 8.355,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": 0.086,
+     "ft60": 1.078,
+     "ft330": 4.547,
+     "ft660": 8.353,
+     "mph660": 59.17,
+     "ft1000": null,
+     "et": 12.59,
+     "mph": 51.97,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,9 +177,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jim Campbell",
-     "car": "703",
-     "qpos_nhra": "18",
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "17",
      "mov": null
     },
     {
@@ -155,9 +194,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Paul Lee",
-     "car": "6",
-     "qpos_nhra": "10",
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "12",
      "mov": null
     }
    ],
