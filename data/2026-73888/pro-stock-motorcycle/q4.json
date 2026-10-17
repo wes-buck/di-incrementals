@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.054,
+     "ft60": 1.072,
+     "ft330": 2.834,
+     "ft660": 4.32,
+     "mph660": 164.52,
+     "ft1000": 5.623,
+     "et": 6.735,
+     "mph": 201.72,
+     "first": 0.164,
+     "lane": "Left",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 1.075,
+     "ft330": 2.863,
+     "ft660": 4.384,
+     "mph660": 160.57,
+     "ft1000": 5.721,
+     "et": 6.865,
+     "mph": 196.13,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "John Hall",
-     "car": "6",
+     "driver": "Geno Scali",
+     "car": "351",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Marc Ingwersen",
-     "car": "370",
+     "driver": "Steve Johnson",
+     "car": "9",
      "class": "--",
      "dial": "--",
      "ovun": "--",
