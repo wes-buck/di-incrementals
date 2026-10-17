@@ -221,6 +221,92 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": -0.002,
+     "ft60": 1.066,
+     "ft330": 2.839,
+     "ft660": 4.331,
+     "mph660": 164.5,
+     "ft1000": 5.635,
+     "et": 6.752,
+     "mph": 201.55,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.021,
+     "ft60": 1.075,
+     "ft330": 2.839,
+     "ft660": 4.332,
+     "mph660": 164.34,
+     "ft1000": 5.644,
+     "et": 6.772,
+     "mph": 198.9,
+     "first": -0.043,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
