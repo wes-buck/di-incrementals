@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.288,
+     "ft60": 0.94,
+     "ft330": 3.514,
+     "ft660": 6.417,
+     "mph660": 78.71,
+     "ft1000": null,
+     "et": 9.315,
+     "mph": 80.76,
+     "first": 1.909,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "20",
+     "mov": null
+    },
+    {
+     "rt": 0.166,
+     "ft60": 1.255,
+     "ft330": 4.988,
+     "ft660": 8.427,
+     "mph660": 72.21,
+     "ft1000": null,
+     "et": 11.346,
+     "mph": 83.26,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "18",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "--",
-     "car": "717",
-     "qpos_nhra": "20",
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "19",
      "mov": null
     },
     {
@@ -38,9 +77,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "--",
-     "car": "703",
-     "qpos_nhra": "18",
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "17",
      "mov": null
     }
    ],
