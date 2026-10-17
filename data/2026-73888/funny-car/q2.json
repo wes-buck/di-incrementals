@@ -10,9 +10,9 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.085,
+     "ft60": 0.876,
+     "ft330": 2.242,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -21,15 +21,15 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "--",
-     "car": "12",
-     "qpos_nhra": "--",
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "19",
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.066,
+     "ft60": 0.886,
+     "ft330": 2.292,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -38,8 +38,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "--",
-     "car": "13",
+     "driver": "Hunter Green",
+     "car": "4494",
      "qpos_nhra": "--",
      "mov": null
     }
