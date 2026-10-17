@@ -71,6 +71,8 @@ jobs:
           while true; do
             # start every pass from the newest published copy (another job may have published)
             (cd site && git fetch -q origin gh-pages && git reset -q --hard origin/gh-pages) || true
+            # pick up any fix pushed to main while this job is running
+            git fetch -q origin main && git checkout -q origin/main -- . || true
             if [ -n "${{ github.event.inputs.event }}" ]; then
               out=$(python run.py 2026 "${{ github.event.inputs.event }}" "${{ github.event.inputs.round || 'LATEST' }}") || true
             else
