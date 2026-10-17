@@ -268,6 +268,49 @@
   {
    "runs": [
     {
+     "rt": 0.051,
+     "ft60": 1.105,
+     "ft330": 2.891,
+     "ft660": 4.391,
+     "mph660": 163.26,
+     "ft1000": 5.705,
+     "et": 6.83,
+     "mph": 200.18,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.088,
+     "ft60": 1.071,
+     "ft330": 2.807,
+     "ft660": 4.278,
+     "mph660": 166.16,
+     "ft1000": 5.576,
+     "et": 6.689,
+     "mph": 201.53,
+     "first": 0.104,
+     "lane": "Right",
+     "win": true,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -279,8 +322,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Geno Scali",
-     "car": "351",
+     "driver": "Clayton Howey",
+     "car": "7002",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -298,8 +341,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Angie Smith",
-     "car": "4",
+     "driver": "Matt Smith",
+     "car": "3",
      "class": "--",
      "dial": "--",
      "ovun": "--",
