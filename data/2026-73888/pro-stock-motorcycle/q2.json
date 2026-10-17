@@ -311,6 +311,49 @@
   {
    "runs": [
     {
+     "rt": 0.027,
+     "ft60": 1.066,
+     "ft330": 2.823,
+     "ft660": 4.316,
+     "mph660": 163.46,
+     "ft1000": 5.628,
+     "et": 6.753,
+     "mph": 199.21,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.048,
+     "ft60": 1.071,
+     "ft330": 2.815,
+     "ft660": 4.289,
+     "mph660": 166.09,
+     "ft1000": 5.575,
+     "et": 6.673,
+     "mph": 204.61,
+     "first": 0.059,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -322,8 +365,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Clayton Howey",
-     "car": "7002",
+     "driver": "--",
+     "car": "7",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -341,8 +384,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Smith",
-     "car": "3",
+     "driver": "--",
+     "car": "79",
      "class": "--",
      "dial": "--",
      "ovun": "--",
