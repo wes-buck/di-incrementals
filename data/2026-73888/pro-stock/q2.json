@@ -178,6 +178,92 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.053,
+     "ft60": 0.968,
+     "ft330": 2.704,
+     "ft660": 4.148,
+     "mph660": 171.02,
+     "ft1000": 5.396,
+     "et": 6.447,
+     "mph": 213.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.003,
+     "ft60": 0.964,
+     "ft330": 2.698,
+     "ft660": 4.147,
+     "mph660": 169.33,
+     "ft1000": 5.405,
+     "et": 6.464,
+     "mph": 211.67,
+     "first": 0.033,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
