@@ -53,6 +53,49 @@
   {
    "runs": [
     {
+     "rt": 0.002,
+     "ft60": 1.504,
+     "ft330": 3.626,
+     "ft660": 5.21,
+     "mph660": 155.6,
+     "ft1000": 6.579,
+     "et": 7.745,
+     "mph": 192.97,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hector Arana Jr",
+     "car": "300",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.108,
+     "ft60": 1.079,
+     "ft330": 2.903,
+     "ft660": 4.454,
+     "mph660": 158.43,
+     "ft1000": 5.806,
+     "et": 6.969,
+     "mph": 192.2,
+     "first": 0.67,
+     "lane": "Right",
+     "win": true,
+     "driver": "Hector Arana",
+     "car": "235",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -64,8 +107,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Hector Arana Jr",
-     "car": "300",
+     "driver": "Chris Bostick",
+     "car": "10",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -83,8 +126,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Hector Arana",
-     "car": "235",
+     "driver": "Steve Johnson",
+     "car": "9",
      "class": "--",
      "dial": "--",
      "ovun": "--",
