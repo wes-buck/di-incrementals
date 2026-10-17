@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.02656,
+     "ft60": 0.966,
+     "ft330": 2.7,
+     "ft660": 4.14875,
+     "mph660": 169.34,
+     "ft1000": 5.406,
+     "et": 6.46614,
+     "mph": 211.52,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.02667,
+     "ft60": 0.973,
+     "ft330": 2.698,
+     "ft660": 4.1468,
+     "mph660": 169.43,
+     "ft1000": 5.404,
+     "et": 6.46154,
+     "mph": 212.95,
+     "first": 0.00449,
+     "lane": "Right",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chris Vang",
-     "car": "5707",
+     "driver": "--",
+     "car": "8",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Greg Stanfield",
-     "car": "445",
+     "driver": "--",
+     "car": "7",
      "class": "--",
      "dial": "--",
      "ovun": "--",
