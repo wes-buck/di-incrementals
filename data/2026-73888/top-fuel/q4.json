@@ -166,6 +166,45 @@
   {
    "runs": [
     {
+     "rt": 0.099,
+     "ft60": 0.847,
+     "ft330": 2.146,
+     "ft660": 3.01,
+     "mph660": 295.14,
+     "ft1000": null,
+     "et": 3.733,
+     "mph": 333.58,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.038,
+     "ft60": 0.841,
+     "ft330": 2.147,
+     "ft660": 3.026,
+     "mph660": 292.02,
+     "ft1000": null,
+     "et": 3.755,
+     "mph": 332.2,
+     "first": 0.039,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -177,9 +216,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Clay Millican",
-     "car": "51",
-     "qpos_nhra": "10",
+     "driver": "--",
+     "car": "200",
+     "qpos_nhra": "9",
      "mov": null
     },
     {
@@ -194,9 +233,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Justin Ashley",
-     "car": "3",
-     "qpos_nhra": "7",
+     "driver": "--",
+     "car": "100",
+     "qpos_nhra": "6",
      "mov": null
     }
    ],
