@@ -311,6 +311,49 @@
   {
    "runs": [
     {
+     "rt": 0.019,
+     "ft60": 0.963,
+     "ft330": 2.69,
+     "ft660": 4.133,
+     "mph660": 170.82,
+     "ft1000": 5.382,
+     "et": 6.434,
+     "mph": 213.5,
+     "first": 0.053,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.032,
+     "ft60": 0.978,
+     "ft330": 2.712,
+     "ft660": 4.16,
+     "mph660": 169.8,
+     "ft1000": 5.416,
+     "et": 6.474,
+     "mph": 213.24,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -322,8 +365,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dallas Glenn",
-     "car": "1",
+     "driver": "Greg Anderson",
+     "car": "2",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -341,8 +384,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Latino",
-     "car": "16",
+     "driver": "Aaron Stanfield",
+     "car": "4",
      "class": "--",
      "dial": "--",
      "ovun": "--",
