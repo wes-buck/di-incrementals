@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.164,
+     "ft60": 0.992,
+     "ft330": 2.732,
+     "ft660": 4.184,
+     "mph660": 169.75,
+     "ft1000": 5.442,
+     "et": 6.498,
+     "mph": 213.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.129,
+     "ft60": 0.98,
+     "ft330": 2.723,
+     "ft660": 4.181,
+     "mph660": 168.84,
+     "ft1000": 5.445,
+     "et": 6.508,
+     "mph": 212.34,
+     "first": 0.025,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Matt Hartford",
-     "car": "3",
+     "driver": "Jerry Tucker",
+     "car": "494",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shane Tucker",
-     "car": "12",
+     "driver": "Kenny Delco",
+     "car": "150",
      "class": "--",
      "dial": "--",
      "ovun": "--",
