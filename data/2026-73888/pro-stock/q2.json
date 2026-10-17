@@ -311,6 +311,49 @@
   {
    "runs": [
     {
+     "rt": 0.01651,
+     "ft60": 0.965,
+     "ft330": 2.69,
+     "ft660": 4.13453,
+     "mph660": 170.52,
+     "ft1000": 5.387,
+     "et": 6.44385,
+     "mph": 213.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.00463,
+     "ft60": 0.975,
+     "ft330": 2.703,
+     "ft660": 4.14722,
+     "mph660": 170.06,
+     "ft1000": 5.399,
+     "et": 6.45207,
+     "mph": 213.76,
+     "first": 0.00366,
+     "lane": "Right",
+     "win": true,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -322,8 +365,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Aaron Stanfield",
-     "car": "4",
+     "driver": "--",
+     "car": "10",
      "class": "--",
      "dial": "--",
      "ovun": "--",
@@ -341,8 +384,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Erica Enders",
-     "car": "6",
+     "driver": "--",
+     "car": "1",
      "class": "--",
      "dial": "--",
      "ovun": "--",
