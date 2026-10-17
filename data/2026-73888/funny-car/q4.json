@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.074,
+     "ft60": 0.877,
+     "ft330": 2.241,
+     "ft660": 3.18,
+     "mph660": 257.41,
+     "ft1000": null,
+     "et": 4.137,
+     "mph": 231.68,
+     "first": 4.691,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": 0.121,
+     "ft60": 0.92,
+     "ft330": 3.17,
+     "ft660": 5.96,
+     "mph660": 80.61,
+     "ft1000": null,
+     "et": 8.781,
+     "mph": 81.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris King",
+     "car": "343",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -100,8 +139,8 @@
      "lane": "Left",
      "win": false,
      "driver": "--",
-     "car": "1",
-     "qpos_nhra": "13",
+     "car": "139",
+     "qpos_nhra": "12",
      "mov": null
     },
     {
@@ -117,8 +156,8 @@
      "lane": "Right",
      "win": false,
      "driver": "--",
-     "car": "343",
-     "qpos_nhra": "17",
+     "car": "4494",
+     "qpos_nhra": "15",
      "mov": null
     }
    ],
