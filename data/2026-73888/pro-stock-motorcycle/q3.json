@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock-motorcycle/q3",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock-motorcycle",
+ "round": "Q3",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.11116,
+     "ft60": 1.167,
+     "ft330": 3.09,
+     "ft660": 4.72448,
+     "mph660": 149.55,
+     "ft1000": 6.167,
+     "et": 6.73538,
+     "mph": 6.68,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Blaine Hale",
+     "car": "405",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.02978,
+     "ft60": 1.098,
+     "ft330": 2.87,
+     "ft660": 4.36074,
+     "mph660": 163.77,
+     "ft1000": 5.68,
+     "et": 6.81622,
+     "mph": 197.49,
+     "first": 0.00054,
+     "lane": "Right",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
