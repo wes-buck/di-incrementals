@@ -1,0 +1,128 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/funny-car/e2",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "funny-car",
+ "round": "E2",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.047,
+     "ft60": 0.899,
+     "ft330": 2.294,
+     "ft660": 3.212,
+     "mph660": 286.73,
+     "ft1000": null,
+     "et": 3.948,
+     "mph": 331.37,
+     "first": 7.17,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": 7.17
+    },
+    {
+     "rt": 0.088,
+     "ft60": 0.903,
+     "ft330": 3.729,
+     "ft660": 7.244,
+     "mph660": 63.6,
+     "ft1000": null,
+     "et": 11.077,
+     "mph": 58.4,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.889,
+     "ft330": 2.259,
+     "ft660": 3.181,
+     "mph660": 282.77,
+     "ft1000": null,
+     "et": 3.917,
+     "mph": 332.67,
+     "first": 6.197,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "8",
+     "mov": 6.197
+    },
+    {
+     "rt": 0.057,
+     "ft60": 1.118,
+     "ft330": 4.123,
+     "ft660": 7.245,
+     "mph660": 75.53,
+     "ft1000": null,
+     "et": 10.111,
+     "mph": 85.17,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "1",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "24",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
