@@ -1,0 +1,97 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock-motorcycle/e3",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock-motorcycle",
+ "round": "E3",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.058,
+     "ft60": 1.056,
+     "ft330": 2.807,
+     "ft660": 4.296,
+     "mph660": 164.86,
+     "ft1000": 5.599,
+     "et": 6.718,
+     "mph": 200.7,
+     "first": 0.079,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.079
+    },
+    {
+     "rt": 0.077,
+     "ft60": 1.089,
+     "ft330": 2.845,
+     "ft660": 4.343,
+     "mph660": 163.32,
+     "ft1000": 5.656,
+     "et": 6.778,
+     "mph": 200.53,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
