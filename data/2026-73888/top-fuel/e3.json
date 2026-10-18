@@ -10,31 +10,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.055,
+     "ft60": 0.851,
+     "ft330": 2.141,
+     "ft660": 3.003,
+     "mph660": 295.7,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.722,
+     "mph": 335.07,
+     "first": 5.835,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Maddi Gordon",
      "car": "100",
      "qpos_nhra": "6",
-     "mov": null
+     "mov": 5.835
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.045,
+     "ft60": 0.908,
+     "ft330": 3.495,
+     "ft660": 6.531,
+     "mph660": 74.97,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 9.567,
+     "mph": 78.3,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -44,7 +44,46 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Weather conditions: air temperature 71 degrees, relative humidity 42 percent, barometer 30.25 inches,\r\nadjusted altitude 1,320 feet, track temperature 113 degrees.\r\n\r\nAshley is 2 - 1 against Gordon in prior events. \r\n\r\nAshley with the starting line advantage, but was up in smoke right at the hit and clicked it off.\r\n\r\nGordon is straight down the groove for the win.  she is advancing to her third top Fuel final."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.026,
+     "ft60": 0.844,
+     "ft330": 2.125,
+     "ft660": 2.995,
+     "mph660": 292.57,
+     "ft1000": null,
+     "et": 3.72,
+     "mph": 334.32,
+     "first": 0.021,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "4",
+     "mov": 0.021
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.855,
+     "ft330": 2.155,
+     "ft660": 3.021,
+     "mph660": 295.61,
+     "ft1000": null,
+     "et": 3.738,
+     "mph": 337.89,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": "Brown is 36 - 30 against Langdon in prior events. \r\n\r\nBrown with a slight starting line advantage and never trailed for the win.  Brown is advancing to his\r\n148th career final and fourth this season."
   }
  ]
 }
