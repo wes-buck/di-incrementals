@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/top-fuel/e4",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "top-fuel",
+ "round": "E4",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.156,
+     "ft60": 0.839,
+     "ft330": 2.113,
+     "ft660": 2.982,
+     "mph660": 292.59,
+     "ft1000": null,
+     "et": 3.706,
+     "mph": 335.75,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": 1.972,
+     "ft330": 8.029,
+     "ft660": 12.814,
+     "mph660": 53.27,
+     "ft1000": null,
+     "et": 16.585,
+     "mph": 67.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 42 percent, barometer 30.23 inches,\r\nadjusted altitude 1,298 feet, track temperature 95 degrees.\r\n\r\nThe only time the #4 - 6 TF qualifiers met in the Final at this event was 1992.\r\n\r\nIn Final rounds Antron Brown \"leaves first\" 67% of the time.\r\n\r\nBrown and Gordon have each won 1 times against the other in prior events and Gordon is 1 - 0 against\r\nBrown in prior final rounds. \r\n\r\nGordon double steps it and turns on the red light to give Brown the win. \r\n\r\nBrown kept it hooked up and straight down the groove for the win.  Brown wins his 83rd National event\r\nWally and 67th in Top Fuel.  This is second win this season."
+  }
+ ]
+}
