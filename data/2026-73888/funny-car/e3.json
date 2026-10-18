@@ -1,0 +1,89 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/funny-car/e3",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "funny-car",
+ "round": "E3",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.054,
+     "ft60": 0.89,
+     "ft330": 2.279,
+     "ft660": 3.199,
+     "mph660": 284.54,
+     "ft1000": null,
+     "et": 3.931,
+     "mph": 335.1,
+     "first": 7.888,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": 7.888
+    },
+    {
+     "rt": 0.052,
+     "ft60": 1.199,
+     "ft330": 4.834,
+     "ft660": 8.542,
+     "mph660": 64.92,
+     "ft1000": null,
+     "et": 11.821,
+     "mph": 72.73,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.066,
+     "ft60": 0.891,
+     "ft330": 2.263,
+     "ft660": 3.191,
+     "mph660": 279.9,
+     "ft1000": null,
+     "et": 3.933,
+     "mph": 330.86,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.064,
+     "ft60": 0.886,
+     "ft330": 2.26,
+     "ft660": 3.176,
+     "mph660": 284.72,
+     "ft1000": null,
+     "et": 3.912,
+     "mph": 333.01,
+     "first": 0.023,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": 0.023
+    }
+   ],
+   "note": null
+  }
+ ]
+}
