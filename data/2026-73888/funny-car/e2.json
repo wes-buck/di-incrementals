@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": -0.16,
+     "ft60": 1.049,
+     "ft330": 3.955,
+     "ft660": 7.321,
+     "mph660": 69.93,
+     "ft1000": null,
+     "et": 10.063,
+     "mph": 87.43,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.007,
+     "ft60": 0.891,
+     "ft330": 2.277,
+     "ft660": 3.187,
+     "mph660": 286.3,
+     "ft1000": null,
+     "et": 3.922,
+     "mph": 332.01,
+     "first": 5.974,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "6",
+     "mov": 5.974
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "--",
-     "car": "1",
-     "qpos_nhra": "14",
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "4",
      "mov": null
     },
     {
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "--",
-     "car": "24",
-     "qpos_nhra": "6",
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
      "mov": null
     }
    ],

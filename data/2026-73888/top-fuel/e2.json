@@ -44,7 +44,7 @@
      "mov": 0.046
     }
    ],
-   "note": null
+   "note": "Weather conditions: air temperature 70 degrees, relative humidity 44 percent, barometer 30.29 inches,\r\nadjusted altitude 1,233 feet, track temperature 111 degrees.\r\n\r\nShawn Langdon has now made 13 runs over 340 mph (Tied for most - B. Force - 13)\r\n\r\nLangdon is 2 - 0 against Smith in prior events. \r\n\r\nLangdon with the starting line advantage and never trailed for the win."
   },
   {
    "runs": [
@@ -83,7 +83,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Stewart is 8 - 5 against Ashley in prior events. \r\n\r\nAshley with the starting line advantage, he started to lose traction and pedaled it.  He got it to\r\nhook up enough to take the win.\r\n\r\nStewart was up in smoke around 330 feet and pedaled it, ut was back up in smoke and finally gave up\r\nthe chase."
   },
   {
    "runs": [
@@ -122,36 +122,36 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Kalitta is 3 - 0 against Gordon in prior events. \r\n\r\nKalitta with the starting line advantage, but drove into tire smoke and clicked it off.\r\n\r\nGordon kept it hooked up and hitting on all eight for the win.  She will have lane choice over Ashley\r\nin the semifinal."
   },
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.054,
+     "ft60": 0.841,
+     "ft330": 2.118,
+     "ft660": 2.979,
+     "mph660": 301.22,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.696,
+     "mph": 338.4,
+     "first": 0.019,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Antron Brown",
      "car": "123",
      "qpos_nhra": "4",
-     "mov": null
+     "mov": 0.019
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.034,
+     "ft60": 0.855,
+     "ft330": 2.148,
+     "ft660": 3.012,
+     "mph660": 294.54,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.735,
+     "mph": 335.57,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -161,7 +161,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Brown is 21 - 19 against Pruett in prior events. \r\n\r\nPruett with the starting line advantage, but Brown chased her down by 300 feet and never trailed from\r\nthere on for the win.  Antron Brown's MOV: 0.0190 seconds (approximately 9 feet).\r\n \r\nHe makes the quickest pass of the round and will have lane choice over Langdon in the semifinal."
   }
  ]
 }
