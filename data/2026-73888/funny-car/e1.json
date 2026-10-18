@@ -44,7 +44,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "12:25 p.m. Weather conditions: air temperature 64 degrees, relative humidity 56 percent, barometer 30.36 inches, adjusted altitude 761 feet, track temperature 100 degrees.\r\n\r\nJ.R. Todd has recorded Top Speed 20 times in the Funny Car class, with 10 of those performances coming this year. \r\n\r\nSpencer Hyde is 1\u20133 against Todd this year.\r\n\r\nTodd is 5 - 1 against Hyde in prior events. \r\n\r\nA good side-by-side, both down the groove with all the candles lit. Todd gets the advantage off of the line but Hyde starts making up ground quickly. Hyde pulls even at the 660 foot mark, then Todd is able to pull away and takes the stripe for the win.\r\n\r\nJ.R. Todd's incremental margins (negative if behind): 60ft(0.030), 330 ft(0.014), 660ft(0.000).  MOV: 0.0090 seconds (approximately 4 feet)."
   },
   {
    "runs": [
@@ -83,7 +83,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Alexis DeJoria has won 18 rounds this year, compared with 12 for the entire 2025 season. \r\n\r\nOver the last 20 years, the No. 13 Funny Car qualifier has a 4\u201316 Round 1 record at this event.\r\n\r\nDeJoria is 5 - 4 against Richards in prior events. \r\n\r\nDeJoria gets the holeshot and extends her lead all the way through the run. Richards keeps her honest, going right down the groove with a clean straight pass.\r\n\r\nDeJoria will have lane choice over Todd in the next round."
   },
   {
    "runs": [
@@ -122,7 +122,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "This is the third time Matt Hagan has qualified No. 2 based on speed and the first time since 2017. His 615 round wins rank fifth all-time in the Funny Car class. \r\n\r\nHunter Green is making his 16th career start and his seventh start this year.\r\n\r\nHagan and Green have each won 1 times against the other in prior events. \r\n\r\nGreen goes up in smoke at the hit and is off of the throttle before he gets 100 feet out. Hagan goes straight down the groove with a good pass to take the win."
   },
   {
    "runs": [
@@ -161,7 +161,7 @@
      "mov": 0.182
     }
    ],
-   "note": null
+   "note": "Jack Beckman is 33\u20133 in Round 1 when he qualifies No. 1. \r\n\r\nThe last time the No. 16 Funny Car qualifier won a round at this event was in 1990, when T. Grose accomplished the feat.\r\n\r\nBeckman is 8 - 0 against Haddock in prior events. \r\n\r\nBeckman gets out of the gate first, makes the quickest pass of the round so far, and extends his lead all the way through the run. Haddock made a little move to the left just before the finish line but he still makes his quickest pass of the weekend.\r\n\r\nJack Beckman's incremental times: 60ft-0.873 sec., 330ft-2.241, 660ft-3.151/285.42 mph."
   },
   {
    "runs": [
@@ -200,7 +200,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "This is the second time Cruz Pedregon has qualified No. 3 based on speed, with the first occurring in 2022. \r\n\r\nAustin Prock swept this event in 2025 and is 3\u20130 against Cruz in Round 1.\r\n\r\nProck is 6 - 1 against Pedregon in prior events. \r\n\r\nA good side-by-side, both down the groove with clean, straight passes. Prock gets the advantage off of the line, Pedregon made up a little ground early, but Prock hung on and took the stripe for the win.\r\n\r\nAustin Prock's incremental margins: 60ft(0.047), 330 ft(0.043), 660ft(0.043).  MOV: 0.0490 seconds (approximately 23 feet)."
   },
   {
    "runs": [
@@ -239,7 +239,7 @@
      "mov": 0.046
     }
    ],
-   "note": null
+   "note": "Jordan Vandergriff wins 94% of his Round 1 races when he has lane choice. \r\n\r\nBlake Alexander is 1\u20137 in Round 1 this year. \r\n\r\nThis is the first time Alexander and Vandergriff have faced each other in eliminations. \r\n\r\nAnother good drag race, both with weekend best runs. Vandergriff gets the holeshot, then starts pulling away after they get past the 330 foot mark. Alexander runs his quickest of the year in the loss and Vandergriff runs a career best speed in the win.\r\n\r\nJordan Vandergriff's incremental times: 60ft-0.887 sec., 330ft-2.258, 660ft-3.153/290.66 mph. \r\n\r\nVandergriff will have lane choice over Prock in the next round."
   },
   {
    "runs": [
@@ -252,23 +252,23 @@
      "ft1000": null,
      "et": 4.095,
      "mph": 255.87,
-     "first": null,
+     "first": 11.185,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Paul Lee",
      "car": "6",
      "qpos_nhra": "10",
-     "mov": null
+     "mov": 11.185
     },
     {
      "rt": -0.112,
      "ft60": 1.684,
      "ft330": 6.698,
-     "ft660": null,
-     "mph660": null,
+     "ft660": 11.489,
+     "mph660": 51.39,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 15.435,
+     "mph": 61.91,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -278,7 +278,46 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Daniel Wilkerson is 13\u201317 this year, while Paul Lee is 8\u20138.\r\n\r\nWilkerson is 4 - 3 against Lee in prior events. \r\n\r\nIt sounded like Wilkerson may have double-stepped it leaving the line and he goes red. Lee was on a decent pass but he lost traction about 800 feet out and had to back off of the throttle.\r\n\r\nWilkerson will have lane choice over Prock in the next round."
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.082,
+     "ft60": 0.887,
+     "ft330": 2.263,
+     "ft660": 3.183,
+     "mph660": 284.76,
+     "ft1000": null,
+     "et": 3.922,
+     "mph": 330.11,
+     "first": 0.052,
+     "lane": "Left",
+     "win": true,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "8",
+     "mov": 0.052
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.9,
+     "ft330": 2.272,
+     "ft660": 3.187,
+     "mph660": 280.37,
+     "ft1000": null,
+     "et": 3.976,
+     "mph": 299.72,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": "Ron Capps has five round wins in his last seven races. \r\n\r\nSince Brainerd, Chad Green is 0\u20134 in Round 1.\r\n\r\nCapps is 9 - 5 against Green in prior events. \r\n\r\nA coin flip off of the line, Capps gets out in front early. Green gets close at the 660 foot mark, then it looks like he may have started hazing the tires and the car drifted to the left.\r\n\r\nBeckman will have lane choice over Capps in the next round."
   }
  ]
 }
