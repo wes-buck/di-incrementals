@@ -307,6 +307,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.077,
+     "ft60": 1.026,
+     "ft330": 2.777,
+     "ft660": 4.257,
+     "mph660": 165.06,
+     "ft1000": 5.557,
+     "et": 6.669,
+     "mph": 202.46,
+     "first": 0.069,
+     "lane": "Left",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.069
+    },
+    {
+     "rt": -0.001,
+     "ft60": 1.07,
+     "ft330": 2.85,
+     "ft660": 4.36,
+     "mph660": 162.17,
+     "ft1000": 5.684,
+     "et": 6.816,
+     "mph": 198.36,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hector Arana Jr",
+     "car": "300",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
