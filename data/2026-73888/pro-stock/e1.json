@@ -1,0 +1,140 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock/e1",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock",
+ "round": "E1",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.989,
+     "ft330": 2.726,
+     "ft660": 4.18,
+     "mph660": 169.17,
+     "ft1000": 5.444,
+     "et": 6.509,
+     "mph": 211.55,
+     "first": 0.431,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.431
+    },
+    {
+     "rt": 0.027,
+     "ft60": 1.003,
+     "ft330": 2.981,
+     "ft660": 4.482,
+     "mph660": 164.96,
+     "ft1000": 5.774,
+     "et": 6.972,
+     "mph": 177.84,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.094,
+     "ft60": 0.98,
+     "ft330": 2.725,
+     "ft660": 4.178,
+     "mph660": 169.82,
+     "ft1000": 5.437,
+     "et": 6.498,
+     "mph": 212.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 0.976,
+     "ft330": 2.718,
+     "ft660": 4.173,
+     "mph660": 168.68,
+     "ft1000": 5.436,
+     "et": 6.5,
+     "mph": 210.73,
+     "first": 0.059,
+     "lane": "Right",
+     "win": true,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.059
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "--",
+     "car": "10",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "--",
+     "car": "17",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
