@@ -205,14 +205,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.089,
+     "ft60": 0.859,
+     "ft330": 2.169,
+     "ft660": 3.063,
+     "mph660": 285.5,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.808,
+     "mph": 324.82,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -222,21 +222,99 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.052,
+     "ft60": 0.847,
+     "ft330": 2.134,
+     "ft660": 2.993,
+     "mph660": 297.46,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.705,
+     "mph": 340.37,
+     "first": 0.14,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Shawn Langdon",
      "car": "2",
      "qpos_nhra": "1",
+     "mov": 0.14
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.098,
+     "ft60": 0.848,
+     "ft330": 2.147,
+     "ft660": 3.011,
+     "mph660": 294.83,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 336.8,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "12",
      "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.846,
+     "ft330": 2.12,
+     "ft660": 2.97,
+     "mph660": 298.51,
+     "ft1000": null,
+     "et": 3.684,
+     "mph": 338.86,
+     "first": 0.063,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
+     "mov": 0.063
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.084,
+     "ft60": 0.842,
+     "ft330": 2.187,
+     "ft660": 3.637,
+     "mph660": 145.99,
+     "ft1000": null,
+     "et": 5.406,
+     "mph": 122.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.026,
+     "ft60": 0.85,
+     "ft330": 2.142,
+     "ft660": 3.009,
+     "mph660": 295.35,
+     "ft1000": null,
+     "et": 3.738,
+     "mph": 327.96,
+     "first": 1.726,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "7",
+     "mov": 1.726
     }
    ],
    "note": null
