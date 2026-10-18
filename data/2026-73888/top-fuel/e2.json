@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.065,
+     "ft60": 0.847,
+     "ft330": 2.144,
+     "ft660": 3.004,
+     "mph660": 296.81,
+     "ft1000": null,
+     "et": 3.72,
+     "mph": 336.7,
+     "first": 0.706,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "6",
+     "mov": 0.706
+    },
+    {
+     "rt": 0.053,
+     "ft60": 0.842,
+     "ft330": 2.143,
+     "ft660": 3.257,
+     "mph660": 214.34,
+     "ft1000": null,
+     "et": 4.438,
+     "mph": 185.31,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Maddi Gordon",
-     "car": "100",
-     "qpos_nhra": "6",
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "4",
      "mov": null
     },
     {
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Doug Kalitta",
-     "car": "1",
-     "qpos_nhra": "3",
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "5",
      "mov": null
     }
    ],
