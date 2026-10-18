@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/funny-car/e4",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "funny-car",
+ "round": "E4",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.059,
+     "ft60": 0.879,
+     "ft330": 2.273,
+     "ft660": 3.196,
+     "mph660": 282.86,
+     "ft1000": null,
+     "et": 3.931,
+     "mph": 331.76,
+     "first": 0.102,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "5",
+     "mov": 0.102
+    },
+    {
+     "rt": 0.042,
+     "ft60": 0.926,
+     "ft330": 2.336,
+     "ft660": 3.282,
+     "mph660": 274.37,
+     "ft1000": null,
+     "et": 4.05,
+     "mph": 316.57,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": "5:52 p.m. Weather conditions: air temperature 70 degrees, relative humidity 42 percent, barometer 30.23 inches, adjusted altitude 1,298 feet, track temperature 95 degrees.\r\n\r\nHagan is 23 - 8 against Todd in prior events and each has won 2 times against the other in final rounds. \r\n\r\nhagan gets the advantage off of the line but had a cylinder out all the way through the run. His car pushed to the left early, then drifted further left near the end of the run. Todd went right down the groove with a clean, straight pass to take the win.\r\n\r\nJ.R. Todd's incremental margins: 60ft(0.030), 330 ft(0.046), 660ft(0.069).  MOV: 0.1020 seconds (approximately 47 feet).\r\n\r\nTodd wins for the 24th time in his career and the second time this year."
+  }
+ ]
+}
