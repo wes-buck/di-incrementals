@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.034,
+     "ft60": 0.851,
+     "ft330": 2.156,
+     "ft660": 3.243,
+     "mph660": 218.08,
+     "ft1000": null,
+     "et": 4.222,
+     "mph": 257.94,
+     "first": 0.727,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "7",
+     "mov": 0.727
+    },
+    {
+     "rt": 0.058,
+     "ft60": 0.853,
+     "ft330": 2.307,
+     "ft660": 3.544,
+     "mph660": 183.68,
+     "ft1000": null,
+     "et": 4.925,
+     "mph": 158.37,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,9 +99,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "--",
-     "car": "3",
-     "qpos_nhra": "7",
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "6",
      "mov": null
     },
     {
@@ -77,9 +116,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "--",
-     "car": "14",
-     "qpos_nhra": "2",
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "3",
      "mov": null
     }
    ],
