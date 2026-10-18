@@ -1,0 +1,54 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73888/detailed-results/pro-stock/e4",
+ "year": 2026,
+ "event_id": "73888",
+ "class": "pro-stock",
+ "round": "E4",
+ "event_name": "Texas NHRA FallNationals",
+ "event_date": "2026-10-14",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.01,
+     "ft60": 0.981,
+     "ft330": 2.718,
+     "ft660": 4.168,
+     "mph660": 170.07,
+     "ft1000": 5.422,
+     "et": 6.478,
+     "mph": 212.3,
+     "first": 0.046,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.046
+    },
+    {
+     "rt": 0.038,
+     "ft60": 0.996,
+     "ft330": 2.734,
+     "ft660": 4.184,
+     "mph660": 169.86,
+     "ft1000": 5.44,
+     "et": 6.496,
+     "mph": 212.37,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "--",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
