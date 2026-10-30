@@ -27,17 +27,17 @@
      "mov": null
     },
     {
-     "rt": 0.096,
-     "ft60": 0.884,
-     "ft330": 2.228,
-     "ft660": 3.124,
-     "mph660": 282.01,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.885,
-     "mph": 308.21,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Right",
-     "win": true,
+     "win": false,
      "driver": "Chris Powers",
      "car": "1519",
      "qpos_nhra": "--",
@@ -118,6 +118,45 @@
      "win": false,
      "driver": "Shawn Reed",
      "car": "8",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
      "qpos_nhra": "--",
      "mov": null
     }
