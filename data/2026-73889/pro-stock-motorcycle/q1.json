@@ -225,6 +225,49 @@
   {
    "runs": [
     {
+     "rt": 0.049,
+     "ft60": 1.086,
+     "ft330": 2.913,
+     "ft660": 4.467,
+     "mph660": 157.45,
+     "ft1000": 5.829,
+     "et": 7.004,
+     "mph": 190.51,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 1.068,
+     "ft330": 2.859,
+     "ft660": 4.386,
+     "mph660": 160.19,
+     "ft1000": 5.724,
+     "et": 6.875,
+     "mph": 194.24,
+     "first": 0.1276,
+     "lane": "Right",
+     "win": true,
+     "driver": "Steve Johnson",
+     "car": "9",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -236,8 +279,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Clayton Howey",
-     "car": "7002",
+     "driver": "Chase Van Sant",
+     "car": "8",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -255,8 +298,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Steve Johnson",
-     "car": "9",
+     "driver": "Angie Smith",
+     "car": "4",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
