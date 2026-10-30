@@ -1,6 +1,17 @@
 {
- "live": "2026-fallnationals",
+ "live": "2026-las-vegas-nationals",
  "events": [
+  {
+   "slug": "2026-las-vegas-nationals",
+   "id": "73889",
+   "name": "MOPAR NHRA Las Vegas Nationals powered by Dodge",
+   "label": "Las Vegas Nationals",
+   "year": 2026,
+   "date": "2026-10-29",
+   "classes": [
+    "pro-mod"
+   ]
+  },
   {
    "slug": "2026-fallnationals",
    "id": "73888",
