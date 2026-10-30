@@ -1,9 +1,9 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,1,Left,Jeff Diehl,717,,-0.152,0.903,2.318,3.267,268.76,,4.173,245.0,0.903,1.415,0.949,0.906,-23.76,no,660-1000,3,3,3,2
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,1,Right,Jason Rupert,766,,0.099,0.91,2.502,4.308,119.71,,6.381,106.68,0.91,1.592,1.806,2.073,-13.03,no,60-330,6,4,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,2,Left,Terry Haddock,121,,0.155,0.948,2.413,3.403,258.96,,4.212,299.4,0.948,1.465,0.99,0.809,40.44,yes,,4,6,5,4
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,2,Right,Hunter Green,4494,,0.111,0.895,2.303,3.424,192.06,,4.712,172.01,0.895,1.408,1.121,1.288,-20.05,no,330-660,5,2,2,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,3,Left,Jeff Arend,170,,0.102,0.912,2.327,3.284,268.92,,4.132,262.54,0.912,1.415,0.957,0.848,-6.38,yes,,2,5,4,3
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,3,Right,Paul Lee,6,,0.08,0.886,2.289,3.242,273.27,,3.999,322.88,0.886,1.403,0.953,0.757,49.61,yes,,1,1,1,1
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,4,Left,Dave Richards,139,,,,,,,,,,,,,,,no,0-60,,,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,4,Right,Cruz Pedregon,71,,,,,,,,,,,,,,,no,0-60,,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,1,Left,Jeff Diehl,717,,-0.152,0.903,2.318,3.267,268.76,,4.173,245.0,0.903,1.415,0.949,0.906,-23.76,no,660-1000,5,5,5,4
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,1,Right,Jason Rupert,766,,0.099,0.91,2.502,4.308,119.71,,6.381,106.68,0.91,1.592,1.806,2.073,-13.03,no,60-330,8,6,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,2,Left,Terry Haddock,121,,0.155,0.948,2.413,3.403,258.96,,4.212,299.4,0.948,1.465,0.99,0.809,40.44,yes,,6,8,7,6
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,2,Right,Hunter Green,4494,,0.111,0.895,2.303,3.424,192.06,,4.712,172.01,0.895,1.408,1.121,1.288,-20.05,no,330-660,7,3,4,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,3,Left,Jeff Arend,170,,0.102,0.912,2.327,3.284,268.92,,4.132,262.54,0.912,1.415,0.957,0.848,-6.38,yes,,4,7,6,5
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,3,Right,Paul Lee,6,,0.08,0.886,2.289,3.242,273.27,,3.999,322.88,0.886,1.403,0.953,0.757,49.61,yes,,3,2,2,3
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,4,Left,Dave Richards,139,,0.161,0.88,2.26,3.177,282.19,,3.979,278.0,0.88,1.38,0.917,0.802,-4.19,yes,,2,1,1,1
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Funny Car,Q1,4,Right,Cruz Pedregon,71,,0.122,0.898,2.293,3.215,280.31,,3.966,320.97,0.898,1.395,0.922,0.751,40.66,yes,,1,4,3,2
