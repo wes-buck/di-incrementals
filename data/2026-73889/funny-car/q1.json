@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.102,
+     "ft60": 0.912,
+     "ft330": 2.327,
+     "ft660": 3.284,
+     "mph660": 268.92,
+     "ft1000": null,
+     "et": 4.132,
+     "mph": 262.54,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.886,
+     "ft330": 2.289,
+     "ft660": 3.242,
+     "mph660": 273.27,
+     "ft1000": null,
+     "et": 3.999,
+     "mph": 322.88,
+     "first": 0.1552,
+     "lane": "Right",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,8 +138,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jeff Arend",
-     "car": "170",
+     "driver": "Dave Richards",
+     "car": "139",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -116,8 +155,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Paul Lee",
-     "car": "6",
+     "driver": "Cruz Pedregon",
+     "car": "71",
      "qpos_nhra": "--",
      "mov": null
     }
