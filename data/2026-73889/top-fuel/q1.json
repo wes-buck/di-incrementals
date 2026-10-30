@@ -27,17 +27,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.096,
+     "ft60": 0.884,
+     "ft330": 2.228,
+     "ft660": 3.124,
+     "mph660": 282.01,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.885,
+     "mph": 308.21,
      "first": null,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Chris Powers",
      "car": "1519",
      "qpos_nhra": "--",
@@ -166,6 +166,45 @@
   {
    "runs": [
     {
+     "rt": 0.19,
+     "ft60": 0.859,
+     "ft330": 2.153,
+     "ft660": 3.018,
+     "mph660": 295.27,
+     "ft1000": null,
+     "et": 3.735,
+     "mph": 334.4,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.113,
+     "ft60": 0.843,
+     "ft330": 2.139,
+     "ft660": 3.006,
+     "mph660": 293.03,
+     "ft1000": null,
+     "et": 3.728,
+     "mph": 335.48,
+     "first": 0.084,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -177,8 +216,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
+     "driver": "Justin Ashley",
+     "car": "3",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -194,8 +233,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
+     "driver": "Maddi Gordon",
+     "car": "100",
      "qpos_nhra": "--",
      "mov": null
     }
