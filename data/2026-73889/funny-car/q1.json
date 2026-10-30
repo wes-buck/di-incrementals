@@ -166,31 +166,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.108,
+     "ft60": 0.879,
+     "ft330": 2.256,
+     "ft660": 3.161,
+     "mph660": 283.01,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.901,
+     "mph": 328.46,
+     "first": 0.0366,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Spencer Hyde",
      "car": "9",
      "qpos_nhra": "--",
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.097,
+     "ft60": 0.898,
+     "ft330": 2.291,
+     "ft660": 3.205,
+     "mph660": 283.07,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.948,
+     "mph": 319.45,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.086,
+     "ft60": 0.877,
+     "ft330": 2.573,
+     "ft660": 4.769,
+     "mph660": 96.72,
+     "ft1000": null,
+     "et": 7.233,
+     "mph": 94.56,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.875,
+     "ft330": 2.241,
+     "ft660": 3.144,
+     "mph660": 285.53,
+     "ft1000": null,
+     "et": 3.875,
+     "mph": 333.0,
+     "first": 3.3597,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,8 +294,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Ron Capps",
-     "car": "28",
+     "driver": "Austin Prock",
+     "car": "1",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -272,8 +311,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jack Beckman",
-     "car": "3",
+     "driver": "JR Todd",
+     "car": "373",
      "qpos_nhra": "--",
      "mov": null
     }
