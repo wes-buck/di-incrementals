@@ -1,12 +1,14 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,1,Right,Karen Stoffer,777,,0.052,1.362,6.058,13.51,26.42,26.162,26.162,,1.362,4.696,7.452,12.652,0.0,12.652,,no,0-60,10,,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,2,Left,Brad Hawkes,747,,0.073,1.372,3.527,5.273,140.88,6.791,8.098,171.51,1.372,2.155,1.746,1.518,1.307,2.825,30.63,no,0-60,8,,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,2,Right,GT Tonglet,485,,0.029,1.098,2.943,4.496,157.83,5.848,7.005,193.43,1.098,1.845,1.553,1.352,1.157,2.509,35.6,yes,,5,7,7,7
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,1,Right,Karen Stoffer,777,,0.052,1.362,6.058,13.51,26.42,26.162,26.162,,1.362,4.696,7.452,12.652,0.0,12.652,,no,0-60,12,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,2,Left,Brad Hawkes,747,,0.073,1.372,3.527,5.273,140.88,6.791,8.098,171.51,1.372,2.155,1.746,1.518,1.307,2.825,30.63,no,0-60,10,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,2,Right,GT Tonglet,485,,0.029,1.098,2.943,4.496,157.83,5.848,7.005,193.43,1.098,1.845,1.553,1.352,1.157,2.509,35.6,yes,,7,9,9,9
 MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,,,,,,,,,,,,,,,,no,0-60,,,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,4,Right,Chris Bostick,10,,0.081,1.127,2.953,4.603,133.78,6.443,8.359,109.37,1.127,1.826,1.65,1.84,1.916,3.756,-24.41,no,330-660,9,8,8,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,5,Left,Marc Ingwersen,370,,0.045,1.088,2.933,4.491,157.43,5.852,7.03,184.57,1.088,1.845,1.558,1.361,1.178,2.539,27.14,yes,,7,5,5,6
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,5,Right,Geno Scali,351,,0.122,1.089,2.914,4.467,157.12,5.832,7.008,190.32,1.089,1.825,1.553,1.365,1.176,2.541,33.2,yes,,6,6,4,3
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,6,Left,Clayton Howey,7002,,0.049,1.086,2.913,4.467,157.45,5.829,7.004,190.51,1.086,1.827,1.554,1.362,1.175,2.537,33.06,yes,,4,4,3,4
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,4,Right,Chris Bostick,10,,0.081,1.127,2.953,4.603,133.78,6.443,8.359,109.37,1.127,1.826,1.65,1.84,1.916,3.756,-24.41,no,330-660,11,10,10,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,5,Left,Marc Ingwersen,370,,0.045,1.088,2.933,4.491,157.43,5.852,7.03,184.57,1.088,1.845,1.558,1.361,1.178,2.539,27.14,yes,,9,6,7,8
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,5,Right,Geno Scali,351,,0.122,1.089,2.914,4.467,157.12,5.832,7.008,190.32,1.089,1.825,1.553,1.365,1.176,2.541,33.2,yes,,8,7,5,4
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,6,Left,Clayton Howey,7002,,0.049,1.086,2.913,4.467,157.45,5.829,7.004,190.51,1.086,1.827,1.554,1.362,1.175,2.537,33.06,yes,,6,5,4,5
 MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,6,Right,Steve Johnson,9,,0.051,1.068,2.859,4.386,160.19,5.724,6.875,194.24,1.068,1.791,1.527,1.338,1.151,2.489,34.05,yes,,1,1,1,1
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,7,Left,Chase Van Sant,8,,0.029,1.083,2.934,4.487,157.72,5.837,6.992,194.27,1.083,1.851,1.553,1.35,1.155,2.505,36.55,yes,,3,3,6,5
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,7,Right,Angie Smith,4,,0.053,1.078,2.894,4.434,158.63,5.79,6.953,192.44,1.078,1.816,1.54,1.356,1.163,2.519,33.81,yes,,2,2,2,2
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,7,Left,Chase Van Sant,8,,0.029,1.083,2.934,4.487,157.72,5.837,6.992,194.27,1.083,1.851,1.553,1.35,1.155,2.505,36.55,yes,,5,4,8,7
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,7,Right,Angie Smith,4,,0.053,1.078,2.894,4.434,158.63,5.79,6.953,192.44,1.078,1.816,1.54,1.356,1.163,2.519,33.81,yes,,3,3,3,3
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,8,Left,Joey Gladstone,7,,0.066,1.07,2.878,4.414,159.06,5.757,6.911,194.46,1.07,1.808,1.536,1.343,1.154,2.497,35.4,yes,,2,2,2,2
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Pro Stock Motorcycle,Q1,8,Right,John Hall,6,,0.048,1.097,2.922,4.467,158.5,5.815,6.973,190.3,1.097,1.825,1.545,1.348,1.158,2.506,31.8,yes,,4,8,6,6
