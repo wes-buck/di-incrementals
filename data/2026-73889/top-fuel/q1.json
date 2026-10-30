@@ -205,6 +205,45 @@
   {
    "runs": [
     {
+     "rt": 0.054,
+     "ft60": 1.015,
+     "ft330": 4.254,
+     "ft660": 7.787,
+     "mph660": 67.22,
+     "ft1000": null,
+     "et": 11.017,
+     "mph": 74.26,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.089,
+     "ft60": 0.854,
+     "ft330": 2.147,
+     "ft660": 3.011,
+     "mph660": 295.46,
+     "ft1000": null,
+     "et": 3.724,
+     "mph": 340.56,
+     "first": 7.2582,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -216,8 +255,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Justin Ashley",
-     "car": "3",
+     "driver": "Will Smith",
+     "car": "200",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -233,8 +272,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Maddi Gordon",
-     "car": "100",
+     "driver": "Leah Pruett",
+     "car": "777",
      "qpos_nhra": "--",
      "mov": null
     }

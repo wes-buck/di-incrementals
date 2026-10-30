@@ -1,11 +1,13 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,1,Right,Chris Powers,1519,,0.096,0.884,2.228,3.124,282.01,,3.885,308.21,0.884,1.344,0.896,0.761,26.2,yes,,7,7,7,7
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,2,Right,Cameron Ferre,748,,0.115,0.914,2.364,3.373,252.05,,4.218,282.72,0.914,1.45,1.009,0.845,30.67,no,0-60,8,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,1,Right,Chris Powers,1519,,0.096,0.884,2.228,3.124,282.01,,3.885,308.21,0.884,1.344,0.896,0.761,26.2,yes,,8,8,8,8
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,2,Right,Cameron Ferre,748,,0.115,0.914,2.364,3.373,252.05,,4.218,282.72,0.914,1.45,1.009,0.845,30.67,no,0-60,9,,,
 MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,3,Left,Spencer Massey,421,,0.061,0.844,2.127,2.993,292.65,,3.719,332.67,0.844,1.283,0.866,0.726,40.02,yes,,1,2,1,1
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,3,Right,Shawn Reed,8,,0.096,0.855,2.181,3.087,280.25,,3.845,319.37,0.855,1.326,0.906,0.758,39.12,yes,,6,5,6,6
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,4,Left,Tony Schumacher,15,,0.101,0.854,2.15,3.02,291.7,,3.762,322.19,0.854,1.296,0.87,0.742,30.49,yes,,5,4,4,5
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,4,Right,Clay Millican,51,,0.082,0.848,2.149,3.011,291.51,,3.73,334.65,0.848,1.301,0.862,0.719,43.14,yes,,3,3,3,3
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,5,Left,Josh Hart,77,,0.19,0.859,2.153,3.018,295.27,,3.735,334.4,0.859,1.294,0.865,0.717,39.13,yes,,4,6,5,4
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,5,Right,Billy Torrence,474,,0.113,0.843,2.139,3.006,293.03,,3.728,335.48,0.843,1.296,0.867,0.722,42.45,yes,,2,1,2,2
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,6,Left,Justin Ashley,3,,,,,,,,,,,,,,,no,0-60,,,,
-MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,6,Right,Maddi Gordon,100,,,,,,,,,,,,,,,no,0-60,,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,3,Right,Shawn Reed,8,,0.096,0.855,2.181,3.087,280.25,,3.845,319.37,0.855,1.326,0.906,0.758,39.12,yes,,7,6,7,7
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,4,Left,Tony Schumacher,15,,0.101,0.854,2.15,3.02,291.7,,3.762,322.19,0.854,1.296,0.87,0.742,30.49,yes,,6,4,5,6
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,4,Right,Clay Millican,51,,0.082,0.848,2.149,3.011,291.51,,3.73,334.65,0.848,1.301,0.862,0.719,43.14,yes,,4,3,4,3
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,5,Left,Josh Hart,77,,0.19,0.859,2.153,3.018,295.27,,3.735,334.4,0.859,1.294,0.865,0.717,39.13,yes,,5,7,6,5
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,5,Right,Billy Torrence,474,,0.113,0.843,2.139,3.006,293.03,,3.728,335.48,0.843,1.296,0.867,0.722,42.45,yes,,3,1,2,2
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,6,Left,Justin Ashley,3,,0.054,1.015,4.254,7.787,67.22,,11.017,74.26,1.015,3.239,3.533,3.23,7.04,no,0-60,10,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,6,Right,Maddi Gordon,100,,0.089,0.854,2.147,3.011,295.46,,3.724,340.56,0.854,1.293,0.864,0.713,45.1,yes,,2,5,3,4
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,7,Left,Will Smith,200,,,,,,,,,,,,,,,no,0-60,,,,
+MOPAR NHRA Las Vegas Nationals powered by Dodge,Top Fuel,Q1,7,Right,Leah Pruett,777,,,,,,,,,,,,,,,no,0-60,,,,
