@@ -10,45 +10,6 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
-     "lane": "Left",
-     "win": false,
-     "driver": "--",
-     "car": "--",
-     "qpos_nhra": "--",
-     "mov": null
-    },
-    {
-     "rt": 0.105,
-     "ft60": 0.896,
-     "ft330": 2.278,
-     "ft660": 3.323,
-     "mph660": 214.14,
-     "ft1000": null,
-     "et": 4.475,
-     "mph": 193.27,
-     "first": null,
-     "lane": "Right",
-     "win": true,
-     "driver": "Julie Nataas",
-     "car": "8002",
-     "qpos_nhra": "--",
-     "mov": null
-    }
-   ],
-   "note": null
-  },
-  {
-   "runs": [
-    {
      "rt": -0.152,
      "ft60": 0.903,
      "ft330": 2.318,
