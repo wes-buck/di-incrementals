@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "1:11 p.m. Weather conditions: air temperature 63 degrees, relative humidity 72 percent, barometer 29.93 inches, adjusted altitude 3,242 feet, track temperature 82 degrees.\r\n\r\nBostick makes his first full pass under power this weekend and he gets in the field in the 15th spot. Phillips makes his first run of the weekend and he gets in the show in the tenth spot.\r\n\r\nChris Bostick's incremental times: 60ft-1.081 sec., 330ft-2.892, 660ft-4.472/155.26 mph, 1,000ft-5.852.\r\n\r\nMalcolm Phillips Jr.'s incremental times: 60ft-1.070 sec., 330ft-2.880, 660ft-4.431/157.47 mph, 1,000ft-5.785."
   },
   {
    "runs": [
@@ -91,7 +91,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Hall does a burnout and has problems. Hawkes makes a full pass but the bike was laboring all the way through."
   },
   {
    "runs": [
@@ -134,19 +134,19 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Stoffer makes a full pass but doesn't improve and stays on the bump. Procopio's bike sounded like it wouldn't shift and he had to give up on the run."
   },
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.013,
+     "ft60": 1.081,
+     "ft330": 2.915,
+     "ft660": 4.469,
+     "mph660": 157.3,
+     "ft1000": 5.827,
+     "et": 6.991,
+     "mph": 192.3,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -158,17 +158,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": -0.034,
+     "ft60": 1.037,
+     "ft330": 2.826,
+     "ft660": 4.346,
+     "mph660": 161.02,
+     "ft1000": 5.669,
+     "et": 6.802,
+     "mph": 197.65,
+     "first": 0.2367,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Gaige Herrera",
      "car": "79",
      "class": "PSM",
@@ -177,7 +177,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Tonglet makes a decent pass but doesn't improve. Herrera goes down the groove with the quickest pass of the weekend.\r\n\r\nGaige Herrera's incremental times: 60ft-1.037 sec., 330ft-2.826, 660ft-4.346/161.02 mph, 1,000ft-5.669."
   },
   {
    "runs": [
@@ -220,7 +220,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Scali makes a decent pass but he doesn't improve. Ingwersen was off of the throttle about 1200 feet out."
   },
   {
    "runs": [
@@ -263,7 +263,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Smith goes down the groove with her quickest pass of the weekend and she moves up to the fifth spot. Howey had problems late in the run and was off of the throttle early.\r\n\r\nAngie Smith's incremental times: 60ft-1.068 sec., 330ft-2.861, 660ft-4.382/160.44 mph, 1,000ft-5.718."
   },
   {
    "runs": [
@@ -306,7 +306,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Smith makes his quickest pas of the weekend and moves up to the fourth spot for now. Van Sant makes a full pass but doesn't improve."
   },
   {
    "runs": [
@@ -349,7 +349,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Gadson makes another good run but he doesn't improve. Oehler makes his quickest pass of the weekend and he moves up to the fifth spot.\r\n\r\nRichard Gadson's incremental times: 60ft-1.034 sec., 330ft-2.830, 660ft-4.359/159.64 mph, 1,000ft-5.697.\r\n\r\nRyan Oehler's incremental times: 60ft-1.081 sec., 330ft-2.876, 660ft-4.396/160.88 mph, 1,000ft-5.722."
   },
   {
    "runs": [
@@ -392,7 +392,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Johnson had problems and was off of the throttle early. Gladstone made a decent run but did not improve.\r\n\r\nJoey Gladstone's incremental times: 60ft-1.070 sec., 330ft-2.876, 660ft-4.404/160.27 mph, 1,000ft-5.739."
   }
  ]
 }
