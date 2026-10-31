@@ -244,6 +244,123 @@
   {
    "runs": [
     {
+     "rt": 0.082,
+     "ft60": 0.878,
+     "ft330": 2.8,
+     "ft660": 5.456,
+     "mph660": 81.03,
+     "ft1000": null,
+     "et": 8.315,
+     "mph": 78.66,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.916,
+     "ft330": 2.338,
+     "ft660": 3.289,
+     "mph660": 272.12,
+     "ft1000": null,
+     "et": 4.07,
+     "mph": 303.09,
+     "first": 4.2264,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.09,
+     "ft60": 0.872,
+     "ft330": 2.249,
+     "ft660": 3.162,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.889,
+     "mph": 336.82,
+     "first": 0.3577,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.891,
+     "ft330": 2.266,
+     "ft660": 3.229,
+     "mph660": 247.79,
+     "ft1000": null,
+     "et": 4.226,
+     "mph": 223.1,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.079,
+     "ft60": 0.863,
+     "ft330": 2.218,
+     "ft660": 3.111,
+     "mph660": 289.07,
+     "ft1000": null,
+     "et": 3.836,
+     "mph": 335.32,
+     "first": 0.067,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.068,
+     "ft60": 0.891,
+     "ft330": 2.275,
+     "ft660": 3.178,
+     "mph660": 286.19,
+     "ft1000": null,
+     "et": 3.914,
+     "mph": 328.14,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +372,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Matt Hagan",
-     "car": "14",
-     "qpos_nhra": "8",
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
      "mov": null
     },
     {
@@ -272,9 +389,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeff Arend",
-     "car": "170",
-     "qpos_nhra": "14",
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "4",
      "mov": null
     }
    ],
