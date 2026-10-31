@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.054,
+     "ft60": 0.992,
+     "ft330": 2.777,
+     "ft660": 4.271,
+     "mph660": 164.43,
+     "ft1000": 5.562,
+     "et": 6.652,
+     "mph": 206.2,
+     "first": 0.0724,
+     "lane": "Left",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.051,
+     "ft60": 1.001,
+     "ft330": 2.815,
+     "ft660": 4.323,
+     "mph660": 162.7,
+     "ft1000": 5.625,
+     "et": 6.727,
+     "mph": 200.89,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Shane Tucker",
+     "car": "12",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Chris Vang",
-     "car": "5707",
+     "driver": "Greg Anderson",
+     "car": "2",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
