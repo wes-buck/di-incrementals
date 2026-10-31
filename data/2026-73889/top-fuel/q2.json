@@ -44,7 +44,7 @@
      "mov": null
     }
    ],
-   "note": "Weather conditions: air temperature 62 degrees, relative humidity 80 percent, barometer 29.83 inches,\r\nadjusted altitude 3,207 feet, track temperature 76 degrees.\r\n\r\nPowers kept it hooked up and was straight down the groove.  He makes another good looking pass, he\r\nwill stay in the number 13 spot."
+   "note": null
   },
   {
    "runs": [
@@ -83,7 +83,7 @@
      "mov": null
     }
    ],
-   "note": "Reed is up in smoke right at the hit and clicked it off.\r\n\r\nAshley kept it hooked up and is straight down the groove to get off the bump spot."
+   "note": null
   },
   {
    "runs": [
@@ -122,7 +122,7 @@
      "mov": null
     }
    ],
-   "note": "Brown is straight down the groove with another good pass to move up the ladder one spot.\r\n\r\nKalitta launched hard and kept the candles lit all the way down the track to get off the bump spot to\r\ngo to the number one spot.  Doug Kalitta's incremental times: 60ft-0.841 sec., 330ft-2.121,\r\n660ft-2.977/295.72 mph."
+   "note": null
   },
   {
    "runs": [
@@ -161,7 +161,7 @@
      "mov": null
     }
    ],
-   "note": "Pruett kept it hooked up and hitting on all eight to go to the number five spot.  Leah Pruett's\r\nincremental times: 60ft-0.840 sec., 330ft-2.116, 660ft-2.976/291.57 mph. \r\n\r\nSchumacher lost traction right at the hit and clicked it off."
+   "note": null
   },
   {
    "runs": [
@@ -200,7 +200,7 @@
      "mov": null
     }
    ],
-   "note": "Millican kept it hooked up with his quickest pass today.  He will stay in the number eight spot.\r\n\r\nSmith with another good pass, but will not improve and stays in the number 11 spot."
+   "note": null
   },
   {
    "runs": [
@@ -239,7 +239,7 @@
      "mov": null
     }
    ],
-   "note": "Torrence is up in smoke right at the hit and clicked it off.\r\n\r\nHart launched hard and had the header flames shooting high over the rear wing all the way down the\r\ntrack to go to the number one spot.  Josh Hart's incremental times: 60ft-0.840 sec., 330ft-2.115,\r\n660ft-2.968/298.34 mph."
+   "note": null
   },
   {
    "runs": [
@@ -278,19 +278,19 @@
      "mov": null
     }
    ],
-   "note": "Gordon is up in smoke right at the hit and clicked it off.\r\n\r\nMassey is also up in smoke right at the hit and clicked it off."
+   "note": null
   },
   {
    "runs": [
     {
-     "rt": 0.059,
-     "ft60": 0.825,
-     "ft330": 2.101,
-     "ft660": 2.954,
-     "mph660": 297.94,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.672,
-     "mph": 332.59,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -300,24 +300,24 @@
      "mov": null
     },
     {
-     "rt": 0.051,
-     "ft60": 0.846,
-     "ft330": 2.117,
-     "ft660": 2.964,
-     "mph660": 298.8,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.676,
-     "mph": 339.28,
-     "first": 0.0045,
+     "et": null,
+     "mph": null,
+     "first": null,
      "lane": "Right",
-     "win": true,
+     "win": false,
      "driver": "Tony Stewart",
      "car": "14",
      "qpos_nhra": "3",
      "mov": null
     }
    ],
-   "note": "Langdon launched hard and kept it hooked up and hitting on all eight to go to the number one spot.\r\nShawn Langdon's incremental times: 60ft-0.825 sec., 330ft-2.101, 660ft-2.954/297.94 mph. \r\n\r\nStewart kept it hooked up and was right there with Langdon to go to the number two spot.  Tony\r\nStewart's incremental times: 60ft-0.846 sec., 330ft-2.117, 660ft-2.964/298.80 mph."
+   "note": null
   }
  ]
 }
