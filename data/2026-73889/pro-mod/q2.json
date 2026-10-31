@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.095,
+     "ft60": 0.928,
+     "ft330": 2.498,
+     "ft660": 3.76,
+     "mph660": 195.22,
+     "ft1000": 4.842,
+     "et": 5.754,
+     "mph": 247.29,
+     "first": 0.1244,
+     "lane": "Left",
+     "win": true,
+     "driver": "Nick Januik",
+     "car": "729",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.093,
+     "ft60": 0.984,
+     "ft330": 2.613,
+     "ft660": 3.874,
+     "mph660": 194.16,
+     "ft1000": 4.962,
+     "et": 5.88,
+     "mph": 245.05,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Mike Castellana",
+     "car": "44",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Nick Januik",
-     "car": "729",
+     "driver": "Alex Laughlin",
+     "car": "40",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Mike Castellana",
-     "car": "44",
+     "driver": "Jason Collins",
+     "car": "209",
      "class": "PM",
      "dial": "--",
      "ovun": "--",

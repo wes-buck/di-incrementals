@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 81 percent, barometer 29.85 inches,\r\nadjusted altitude 3,145 feet. \r\n\r\nTucker is straight down the groove to get off the bump spot.  \r\n\r\nStanfield kept it hooked up to go to the number five spot."
   },
   {
    "runs": [
@@ -91,7 +91,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Coughlin Jr. is straight down the groove to get off the bump spot.  Troy Coughlin Jr.'s incremental\r\ntimes: 60ft-0.996 sec., 330ft-2.780, 660ft-4.276/164.03 mph, 1,000ft-5.569."
   },
   {
    "runs": [
@@ -134,7 +134,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Anderson with severe tire shake right at the hit and pushed in the clutch.\r\n\r\nPrusiensky is straight down the groove with his quickest pass today."
   },
   {
    "runs": [
@@ -177,22 +177,22 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Hartford launched hard and kept it hooked up to go to the number one spot.  Matt Hartford's\r\nincremental times: 60ft-0.986 sec., 330ft-2.766, 660ft-4.259/164.73 mph, 1,000ft-5.546. \r\n\r\nDelco with severe tire shake and clicked it off."
   },
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.059,
+     "ft60": 0.989,
+     "ft330": 2.795,
+     "ft660": 4.293,
+     "mph660": 163.93,
+     "ft1000": 5.583,
+     "et": 6.673,
+     "mph": 205.01,
+     "first": 6.6643,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Dallas Glenn",
      "car": "1",
      "class": "PRO",
@@ -201,14 +201,14 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.077,
+     "ft60": 2.161,
+     "ft330": 6.402,
+     "ft660": 9.119,
+     "mph660": 93.4,
+     "ft1000": 11.341,
+     "et": 13.319,
+     "mph": 108.69,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -220,7 +220,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Glenn with a good clean pass to move up the ladder one spot.\r\n\r\nCoughlin with severe tire shake and clicked it off."
   },
   {
    "runs": [
@@ -263,7 +263,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Latino kept it hooked up and is straight down the groove to the number two spot.  Eric Latino's\r\nincremental times: 60ft-0.983 sec., 330ft-2.770, 660ft-4.266/164.09 mph, 1,000ft-5.556. \r\n\r\nEnders with another good looking pass to go to the number three spot.  Erica Enders' incremental\r\ntimes: 60ft-0.992 sec., 330ft-2.774, 660ft-4.269/164.17 mph, 1,000ft-5.561."
   },
   {
    "runs": [
@@ -306,7 +306,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Latino launched hard and kep ti hooked up to go to the number two spot.  Matt Latino's incremental\r\ntimes: 60ft-0.977 sec., 330ft-2.765, 660ft-4.259/164.37 mph, 1,000ft-5.547.\r\n\r\nAnderson with severe tire shake right at the hit and clicked it off."
   },
   {
    "runs": [
@@ -349,7 +349,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Kramer is straight down the groove and matches his E.T. from earlier today.  He stays in the number\r\nseven spot.\r\n\r\nStanfield launched hard and kept it hooked up to go to the number three spot.  Greg Stanfield's\r\nincremental times: 60ft-0.972 sec., 330ft-2.755, 660ft-4.252/163.69 mph, 1,000ft-5.546."
   }
  ]
 }
