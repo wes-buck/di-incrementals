@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.062,
+     "ft60": 0.954,
+     "ft330": 2.557,
+     "ft660": 3.819,
+     "mph660": 196.36,
+     "ft1000": 4.897,
+     "et": 5.813,
+     "mph": 245.09,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Mike Thielen",
+     "car": "6911",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.105,
+     "ft60": 0.939,
+     "ft330": 2.532,
+     "ft660": 3.771,
+     "mph660": 197.31,
+     "ft1000": 4.843,
+     "et": 5.751,
+     "mph": 247.66,
+     "first": 0.0195,
+     "lane": "Right",
+     "win": true,
+     "driver": "Mike Stavrinos",
+     "car": "3",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Mike Thielen",
-     "car": "6911",
+     "driver": "Justin Bond",
+     "car": "6280",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Mike Stavrinos",
-     "car": "3",
+     "driver": "JR Gray",
+     "car": "1",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
