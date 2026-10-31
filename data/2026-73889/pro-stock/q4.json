@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.006,
+     "ft60": 0.984,
+     "ft330": 2.77,
+     "ft660": 4.271,
+     "mph660": 163.06,
+     "ft1000": 5.567,
+     "et": 6.661,
+     "mph": 205.07,
+     "first": 0.1448,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.157,
+     "ft60": 0.983,
+     "ft330": 2.771,
+     "ft660": 4.268,
+     "mph660": 163.99,
+     "ft1000": 5.562,
+     "et": 6.654,
+     "mph": 204.94,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jeg Coughlin Jr",
-     "car": "8",
+     "driver": "Aaron Stanfield",
+     "car": "4",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Eric Latino",
-     "car": "7",
+     "driver": "Deric Kramer",
+     "car": "52",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
