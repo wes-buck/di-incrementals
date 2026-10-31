@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.126,
+     "ft60": 0.9,
+     "ft330": 3.279,
+     "ft660": 6.849,
+     "mph660": 57.69,
+     "ft1000": null,
+     "et": 11.645,
+     "mph": 42.42,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Bernie Plourd",
+     "car": "61",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.081,
+     "ft60": 0.857,
+     "ft330": 2.146,
+     "ft660": 3.001,
+     "mph660": 298.01,
+     "ft1000": null,
+     "et": 3.716,
+     "mph": 335.65,
+     "first": 7.9741,
+     "lane": "Right",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,9 +99,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Bernie Plourd",
-     "car": "61",
-     "qpos_nhra": "--",
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "6",
      "mov": null
     },
     {
@@ -77,9 +116,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Maddi Gordon",
-     "car": "100",
-     "qpos_nhra": "7",
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "14",
      "mov": null
     }
    ],
