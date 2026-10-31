@@ -240,6 +240,45 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.06,
+     "ft60": 0.835,
+     "ft330": 2.101,
+     "ft660": 2.943,
+     "mph660": 301.4,
+     "ft1000": null,
+     "et": 3.767,
+     "mph": 264.23,
+     "first": 0.0068,
+     "lane": "Left",
+     "win": true,
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.142,
+     "ft60": 0.848,
+     "ft330": 2.132,
+     "ft660": 2.981,
+     "mph660": 300.06,
+     "ft1000": null,
+     "et": 3.691,
+     "mph": 336.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
