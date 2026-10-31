@@ -49,14 +49,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.107,
+     "ft60": 0.895,
+     "ft330": 2.288,
+     "ft660": 3.212,
+     "mph660": 279.27,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.968,
+     "mph": 317.94,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -66,17 +66,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.102,
+     "ft60": 0.901,
+     "ft330": 2.284,
+     "ft660": 3.196,
+     "mph660": 283.79,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.938,
+     "mph": 322.5,
+     "first": 0.0354,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Julie Nataas",
      "car": "8002",
      "qpos_nhra": "18",
@@ -205,6 +205,45 @@
   {
    "runs": [
     {
+     "rt": 0.065,
+     "ft60": 0.869,
+     "ft330": 2.23,
+     "ft660": 3.135,
+     "mph660": 286.32,
+     "ft1000": null,
+     "et": 3.878,
+     "mph": 312.71,
+     "first": 0.0928,
+     "lane": "Left",
+     "win": true,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.392,
+     "ft60": 3.016,
+     "ft330": 7.672,
+     "ft660": 10.78,
+     "mph660": 78.95,
+     "ft1000": null,
+     "et": 13.643,
+     "mph": 81.39,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -216,9 +255,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Austin Prock",
-     "car": "1",
-     "qpos_nhra": "19",
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "18",
      "mov": null
     },
     {
@@ -233,8 +272,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Hunter Green",
-     "car": "4494",
+     "driver": "Paul Lee",
+     "car": "6",
      "qpos_nhra": "12",
      "mov": null
     }
