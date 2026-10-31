@@ -283,6 +283,45 @@
   {
    "runs": [
     {
+     "rt": 0.09,
+     "ft60": 0.872,
+     "ft330": 2.249,
+     "ft660": 3.162,
+     "mph660": 285.05,
+     "ft1000": null,
+     "et": 3.889,
+     "mph": 336.82,
+     "first": 0.3577,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.11,
+     "ft60": 0.891,
+     "ft330": 2.266,
+     "ft660": 3.229,
+     "mph660": 247.79,
+     "ft1000": null,
+     "et": 4.226,
+     "mph": 223.1,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -294,9 +333,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "7",
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "2",
      "mov": null
     },
     {
@@ -311,9 +350,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Dave Richards",
-     "car": "139",
-     "qpos_nhra": "12",
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "11",
      "mov": null
     }
    ],
