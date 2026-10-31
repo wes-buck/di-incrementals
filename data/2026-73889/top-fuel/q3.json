@@ -166,8 +166,8 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
+     "rt": 0.053,
+     "ft60": 0.862,
      "ft330": null,
      "ft660": null,
      "mph660": null,
@@ -183,8 +183,8 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
+     "rt": 0.086,
+     "ft60": 0.87,
      "ft330": null,
      "ft660": null,
      "mph660": null,
