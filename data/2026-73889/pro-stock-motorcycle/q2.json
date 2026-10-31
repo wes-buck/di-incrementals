@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.083,
+     "ft60": 1.069,
+     "ft330": 2.899,
+     "ft660": 4.451,
+     "mph660": 157.74,
+     "ft1000": 5.803,
+     "et": 6.962,
+     "mph": 193.27,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "GT Tonglet",
+     "car": "485",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.037,
+     "ft60": 1.066,
+     "ft330": 2.877,
+     "ft660": 4.423,
+     "mph660": 158.0,
+     "ft1000": 5.779,
+     "et": 6.945,
+     "mph": 191.73,
+     "first": 0.0633,
+     "lane": "Right",
+     "win": true,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "GT Tonglet",
-     "car": "485",
+     "driver": "John Hall",
+     "car": "6",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Clayton Howey",
-     "car": "7002",
+     "driver": "Chase Van Sant",
+     "car": "8",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
