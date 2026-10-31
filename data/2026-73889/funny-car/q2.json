@@ -166,6 +166,45 @@
   {
    "runs": [
     {
+     "rt": 0.118,
+     "ft60": 0.885,
+     "ft330": 2.794,
+     "ft660": 5.459,
+     "mph660": 78.11,
+     "ft1000": null,
+     "et": 8.435,
+     "mph": 78.6,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.157,
+     "ft60": 0.907,
+     "ft330": 2.335,
+     "ft660": 3.336,
+     "mph660": 249.3,
+     "ft1000": null,
+     "et": 4.284,
+     "mph": 233.76,
+     "first": 4.1129,
+     "lane": "Right",
+     "win": true,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "17",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -177,9 +216,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Cruz Pedregon",
-     "car": "71",
-     "qpos_nhra": "10",
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "9",
      "mov": null
     },
     {
@@ -194,9 +233,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Terry Haddock",
-     "car": "121",
-     "qpos_nhra": "17",
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "16",
      "mov": null
     }
    ],
