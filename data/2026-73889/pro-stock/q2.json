@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.059,
+     "ft60": 0.989,
+     "ft330": 2.795,
+     "ft660": 4.293,
+     "mph660": 163.93,
+     "ft1000": 5.583,
+     "et": 6.673,
+     "mph": 205.01,
+     "first": 6.6643,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.077,
+     "ft60": 2.161,
+     "ft330": 6.402,
+     "ft660": 9.119,
+     "mph660": 93.4,
+     "ft1000": 11.341,
+     "et": 13.319,
+     "mph": 108.69,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dallas Glenn",
-     "car": "1",
+     "driver": "Eric Latino",
+     "car": "7",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeg Coughlin Jr",
-     "car": "8",
+     "driver": "Erica Enders",
+     "car": "6",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
