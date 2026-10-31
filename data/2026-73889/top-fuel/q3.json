@@ -322,6 +322,45 @@
   {
    "runs": [
     {
+     "rt": 0.05,
+     "ft60": 0.84,
+     "ft330": 2.113,
+     "ft660": 2.965,
+     "mph660": 297.81,
+     "ft1000": null,
+     "et": 3.677,
+     "mph": 336.57,
+     "first": 9.7371,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.05,
+     "ft60": 1.62,
+     "ft330": 6.316,
+     "ft660": 10.233,
+     "mph660": 66.12,
+     "ft1000": null,
+     "et": 13.414,
+     "mph": 75.71,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -333,9 +372,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Tony Stewart",
-     "car": "14",
-     "qpos_nhra": "2",
+     "driver": "--",
+     "car": "CC~4",
+     "qpos_nhra": "--",
      "mov": null
     },
     {
@@ -350,9 +389,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shawn Langdon",
-     "car": "2",
-     "qpos_nhra": "1",
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
      "mov": null
     }
    ],
