@@ -205,6 +205,45 @@
   {
    "runs": [
     {
+     "rt": 0.099,
+     "ft60": 0.884,
+     "ft330": 2.275,
+     "ft660": 3.399,
+     "mph660": 192.3,
+     "ft1000": null,
+     "et": 4.68,
+     "mph": 173.56,
+     "first": 3.1633,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "9",
+     "mov": null
+    },
+    {
+     "rt": 0.144,
+     "ft60": 0.919,
+     "ft330": 2.693,
+     "ft660": 5.029,
+     "mph660": 90.44,
+     "ft1000": null,
+     "et": 7.798,
+     "mph": 80.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "16",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -216,9 +255,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chad Green",
-     "car": "7",
-     "qpos_nhra": "9",
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "8",
      "mov": null
     },
     {
@@ -233,9 +272,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeff Diehl",
-     "car": "717",
-     "qpos_nhra": "16",
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "14",
      "mov": null
     }
    ],
