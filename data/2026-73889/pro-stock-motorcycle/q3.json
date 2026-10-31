@@ -268,6 +268,49 @@
   {
    "runs": [
     {
+     "rt": 0.045,
+     "ft60": 1.064,
+     "ft330": 2.865,
+     "ft660": 4.391,
+     "mph660": 160.38,
+     "ft1000": 5.721,
+     "et": 6.857,
+     "mph": 197.45,
+     "first": 0.1001,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.023,
+     "ft60": 1.1,
+     "ft330": 2.938,
+     "ft660": 4.484,
+     "mph660": 158.41,
+     "ft1000": 5.829,
+     "et": 6.979,
+     "mph": 194.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -279,8 +322,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Matt Smith",
-     "car": "3",
+     "driver": "Richard Gadson",
+     "car": "1",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -298,8 +341,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Chase Van Sant",
-     "car": "8",
+     "driver": "Ryan Oehler",
+     "car": "3284",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
