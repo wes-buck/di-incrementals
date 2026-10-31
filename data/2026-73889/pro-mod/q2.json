@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.033,
+     "ft60": 0.944,
+     "ft330": 2.886,
+     "ft660": 4.798,
+     "mph660": 125.08,
+     "ft1000": 6.584,
+     "et": 8.153,
+     "mph": 143.03,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chip King",
+     "car": "9",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.033,
+     "ft60": 0.933,
+     "ft330": 2.539,
+     "ft660": 3.802,
+     "mph660": 193.77,
+     "ft1000": 4.891,
+     "et": 5.812,
+     "mph": 243.99,
+     "first": 2.3416,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shane Gray",
+     "car": "54",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chip King",
-     "car": "9",
+     "driver": "Derek Menholt",
+     "car": "5",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shane Gray",
-     "car": "54",
+     "driver": "Kevin Rivenbark",
+     "car": "225",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
