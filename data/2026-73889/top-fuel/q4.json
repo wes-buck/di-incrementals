@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.177,
+     "ft60": 0.854,
+     "ft330": 2.222,
+     "ft660": 3.73,
+     "mph660": 140.42,
+     "ft1000": null,
+     "et": 5.553,
+     "mph": 118.83,
+     "first": 1.1376,
+     "lane": "Left",
+     "win": true,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.113,
+     "ft60": 0.845,
+     "ft330": 2.44,
+     "ft660": 4.483,
+     "mph660": 107.12,
+     "ft1000": null,
+     "et": 6.754,
+     "mph": 95.91,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "3",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Clay Millican",
-     "car": "51",
-     "qpos_nhra": "4",
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
      "mov": null
     },
     {
@@ -272,9 +311,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
-     "qpos_nhra": "3",
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
      "mov": null
     }
    ],
