@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.096,
+     "ft60": 0.881,
+     "ft330": 2.251,
+     "ft660": 3.149,
+     "mph660": 284.81,
+     "ft1000": null,
+     "et": 3.887,
+     "mph": 328.62,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Hyde",
+     "car": "9",
+     "qpos_nhra": "4",
+     "mov": null
+    },
+    {
+     "rt": 0.079,
+     "ft60": 0.874,
+     "ft330": 2.233,
+     "ft660": 3.14,
+     "mph660": 286.38,
+     "ft1000": null,
+     "et": 3.871,
+     "mph": 330.88,
+     "first": 0.0334,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hagan",
+     "car": "14",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Spencer Hyde",
-     "car": "9",
-     "qpos_nhra": "4",
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "16",
      "mov": null
     },
     {
@@ -38,9 +77,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Hagan",
-     "car": "14",
-     "qpos_nhra": "10",
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "18",
      "mov": null
     }
    ],
