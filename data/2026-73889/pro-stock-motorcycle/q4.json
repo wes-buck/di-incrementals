@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Ingwersen makes his quickest pass of the weekend and he moves up to the 12th spot for now. Bostick has problems and is off of the throttle early."
   },
   {
    "runs": [
@@ -91,22 +91,22 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Phillips makes another good run and he moves up to the eighth spot. Hall makes a full pass but doesn't improve.\r\n\r\nMalcolm Phillips Jr.'s incremental times: 60ft-1.074 sec., 330ft-2.884, 660ft-4.427/158.58 mph, 1,000ft-5.773."
   },
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.038,
+     "ft60": 1.059,
+     "ft330": 2.875,
+     "ft660": 4.417,
+     "mph660": 158.52,
+     "ft1000": 5.765,
+     "et": 6.921,
+     "mph": 193.9,
+     "first": 0.1445,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Clayton Howey",
      "car": "7002",
      "class": "PSM",
@@ -115,14 +115,14 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.055,
+     "ft60": 1.108,
+     "ft330": 2.952,
+     "ft660": 4.511,
+     "mph660": 156.44,
+     "ft1000": 5.877,
+     "et": 7.048,
+     "mph": 191.27,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -134,7 +134,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Howey makes his quickest pass of the weekend and he moves up to the eighth spot for now. Scali slows from his earlier attempt."
   },
   {
    "runs": [
