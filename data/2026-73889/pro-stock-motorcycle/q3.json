@@ -311,6 +311,49 @@
   {
    "runs": [
     {
+     "rt": 0.022,
+     "ft60": 1.034,
+     "ft330": 2.83,
+     "ft660": 4.359,
+     "mph660": 159.64,
+     "ft1000": 5.697,
+     "et": 6.845,
+     "mph": 195.65,
+     "first": 0.0395,
+     "lane": "Left",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.049,
+     "ft60": 1.081,
+     "ft330": 2.876,
+     "ft660": 4.396,
+     "mph660": 160.88,
+     "ft1000": 5.722,
+     "et": 6.857,
+     "mph": 196.99,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -322,8 +365,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Richard Gadson",
-     "car": "1",
+     "driver": "Steve Johnson",
+     "car": "9",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -341,8 +384,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Ryan Oehler",
-     "car": "3284",
+     "driver": "Joey Gladstone",
+     "car": "7",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
