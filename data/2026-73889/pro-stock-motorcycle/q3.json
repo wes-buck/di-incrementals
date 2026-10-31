@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.043,
+     "ft60": 1.079,
+     "ft330": 2.912,
+     "ft660": 4.505,
+     "mph660": 152.21,
+     "ft1000": 5.914,
+     "et": 7.127,
+     "mph": 184.8,
+     "first": 2.8562,
+     "lane": "Left",
+     "win": true,
+     "driver": "Karen Stoffer",
+     "car": "777",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 1.165,
+     "ft330": 3.106,
+     "ft660": 5.195,
+     "mph660": 104.03,
+     "ft1000": 7.55,
+     "et": 9.987,
+     "mph": 86.21,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Ron Procopio Jr",
+     "car": "221",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Karen Stoffer",
-     "car": "777",
+     "driver": "GT Tonglet",
+     "car": "485",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Ron Procopio Jr",
-     "car": "221",
+     "driver": "Gaige Herrera",
+     "car": "79",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
