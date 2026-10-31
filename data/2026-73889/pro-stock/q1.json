@@ -268,6 +268,49 @@
   {
    "runs": [
     {
+     "rt": 0.062,
+     "ft60": 0.974,
+     "ft330": 2.764,
+     "ft660": 4.265,
+     "mph660": 163.59,
+     "ft1000": 5.561,
+     "et": 6.655,
+     "mph": 204.76,
+     "first": 0.0472,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 1.007,
+     "ft330": 2.805,
+     "ft660": 4.31,
+     "mph660": 163.53,
+     "ft1000": 5.607,
+     "et": 6.699,
+     "mph": 205.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -279,8 +322,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Greg Anderson",
-     "car": "2",
+     "driver": "Greg Stanfield",
+     "car": "445",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -298,8 +341,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Hartford",
-     "car": "3",
+     "driver": "Dallas Glenn",
+     "car": "1",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
