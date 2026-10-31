@@ -53,6 +53,49 @@
   {
    "runs": [
     {
+     "rt": 0.026,
+     "ft60": 0.995,
+     "ft330": 2.812,
+     "ft660": 4.327,
+     "mph660": 161.63,
+     "ft1000": 5.638,
+     "et": 6.739,
+     "mph": 204.98,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chris Vang",
+     "car": "5707",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.025,
+     "ft60": 0.979,
+     "ft330": 2.764,
+     "ft660": 4.267,
+     "mph660": 163.29,
+     "ft1000": 5.567,
+     "et": 6.664,
+     "mph": 205.38,
+     "first": 0.0762,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -64,8 +107,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chris Vang",
-     "car": "5707",
+     "driver": "Kenny Delco",
+     "car": "150",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -83,8 +126,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Troy Coughlin Jr",
-     "car": "10",
+     "driver": "Cody Anderson",
+     "car": "17",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
