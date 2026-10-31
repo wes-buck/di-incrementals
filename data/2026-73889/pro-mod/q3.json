@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.052,
+     "ft60": 0.951,
+     "ft330": 2.53,
+     "ft660": 3.765,
+     "mph660": 199.05,
+     "ft1000": 4.831,
+     "et": 5.734,
+     "mph": 249.44,
+     "first": 0.0862,
+     "lane": "Left",
+     "win": true,
+     "driver": "Justin Bond",
+     "car": "6280",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.949,
+     "ft330": 2.534,
+     "ft660": 3.768,
+     "mph660": 197.1,
+     "ft1000": 4.854,
+     "et": 5.805,
+     "mph": 228.85,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kevin Rivenbark",
+     "car": "225",
+     "class": "PM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Justin Bond",
-     "car": "6280",
+     "driver": "Nick Januik",
+     "car": "729",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Kevin Rivenbark",
-     "car": "225",
+     "driver": "Mike Stavrinos",
+     "car": "3",
      "class": "PM",
      "dial": "--",
      "ovun": "--",
