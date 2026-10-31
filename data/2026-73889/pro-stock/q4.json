@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": -0.085,
+     "ft60": 0.996,
+     "ft330": 2.8,
+     "ft660": 4.312,
+     "mph660": 162.45,
+     "ft1000": 5.617,
+     "et": 6.721,
+     "mph": 202.85,
+     "first": 0.0426,
+     "lane": "Left",
+     "win": true,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.976,
+     "ft330": 2.758,
+     "ft660": 4.255,
+     "mph660": 163.95,
+     "ft1000": 5.547,
+     "et": 6.639,
+     "mph": 204.7,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Kenny Delco",
-     "car": "150",
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Eric Latino",
+     "car": "7",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
