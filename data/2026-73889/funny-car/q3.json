@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.125,
+     "ft60": 0.898,
+     "ft330": 2.43,
+     "ft660": 4.191,
+     "mph660": 121.26,
+     "ft1000": null,
+     "et": 6.264,
+     "mph": 107.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "18",
+     "mov": null
+    },
+    {
+     "rt": 0.082,
+     "ft60": 0.88,
+     "ft330": 2.274,
+     "ft660": 3.207,
+     "mph660": 278.86,
+     "ft1000": null,
+     "et": 3.955,
+     "mph": 325.37,
+     "first": 2.3526,
+     "lane": "Right",
+     "win": true,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jeff Arend",
-     "car": "170",
-     "qpos_nhra": "18",
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "10",
      "mov": null
     },
     {
@@ -272,9 +311,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Paul Lee",
-     "car": "6",
-     "qpos_nhra": "12",
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "6",
      "mov": null
     }
    ],
