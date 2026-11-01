@@ -1,0 +1,50 @@
+{
+ "source_url": "https://www.nhra.com/results/2026/nhra-mission-foods-drag-racing-series/73889/detailed-results/top-fuel/e3",
+ "year": 2026,
+ "event_id": "73889",
+ "class": "top-fuel",
+ "round": "E3",
+ "event_name": "MOPAR NHRA Las Vegas Nationals powered by Dodge",
+ "event_date": "2026-10-29",
+ "pairs": [
+  {
+   "runs": [
+    {
+     "rt": 0.1,
+     "ft60": 0.843,
+     "ft330": 2.514,
+     "ft660": 3.805,
+     "mph660": 193.29,
+     "ft1000": null,
+     "et": 4.871,
+     "mph": 223.76,
+     "first": 3.9652,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": 3.9652
+    },
+    {
+     "rt": 0.034,
+     "ft60": 1.215,
+     "ft330": 3.744,
+     "ft660": 6.124,
+     "mph660": 86.74,
+     "ft1000": null,
+     "et": 8.902,
+     "mph": 84.38,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": null
+    }
+   ],
+   "note": null
+  }
+ ]
+}
