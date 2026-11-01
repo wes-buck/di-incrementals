@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Weather conditions: air temperature 61 degrees, relative humidity 66 percent, barometer 29.67 inches,\r\nadjusted altitude 3,233 feet, track temperature 85 degrees.\r\n\r\nBond and Menholt have each won 2 times against the other in prior events. \r\n\r\nMenholt with the starting line advantage and started to shake and pedaled it. Bond has the lead by\r\n100 feet and never trailed from there on for the win.  Bond runs low E.T. of the event for the win."
   },
   {
    "runs": [
@@ -91,7 +91,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Gray is 4 - 1 against Thielen in prior events. \r\n\r\nThielen with problems on the burnout.  The team pushed the car back to the starting line, but the car\r\nwouldn't go forward and is shut off.\r\n\r\nGray with tire shake early and clicked it off."
   },
   {
    "runs": [
@@ -115,17 +115,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.193,
+     "ft60": 0.941,
+     "ft330": 2.508,
+     "ft660": 3.747,
+     "mph660": 199.37,
+     "ft1000": 4.807,
+     "et": 5.702,
+     "mph": 251.34,
      "first": null,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Billy Banaka",
      "car": "2",
      "class": "PM",
@@ -134,7 +134,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Banaka with the bye and he is straight down the groove.  He will give up lane choice to Bond in the\r\nsemifinal."
   },
   {
    "runs": [
@@ -177,7 +177,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Stavrinos is 2 - 0 against Januik in prior events. \r\n\r\nStavrinos with the starting line advantage and never trailed for the win.  He makes the second\r\nquickest pass of the round.  He will havre lane choice over Gray in the semifinal."
   }
  ]
 }
