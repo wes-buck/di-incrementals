@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.047,
+     "ft60": 0.974,
+     "ft330": 2.746,
+     "ft660": 4.231,
+     "mph660": 165.5,
+     "ft1000": 5.513,
+     "et": 6.597,
+     "mph": 205.76,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.015,
+     "ft60": 0.99,
+     "ft330": 2.763,
+     "ft660": 4.253,
+     "mph660": 164.45,
+     "ft1000": 5.542,
+     "et": 6.627,
+     "mph": 207.21,
+     "first": 0.0024,
+     "lane": "Right",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0024
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Greg Anderson",
-     "car": "2",
+     "driver": "Dallas Glenn",
+     "car": "1",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Troy Coughlin Jr",
-     "car": "10",
+     "driver": "Matt Hartford",
+     "car": "3",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
