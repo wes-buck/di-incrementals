@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.037,
+     "ft60": 0.974,
+     "ft330": 2.748,
+     "ft660": 4.239,
+     "mph660": 164.65,
+     "ft1000": 5.524,
+     "et": 6.613,
+     "mph": 203.98,
+     "first": 0.0098,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0098
+    },
+    {
+     "rt": 0.016,
+     "ft60": 0.99,
+     "ft330": 2.772,
+     "ft660": 4.268,
+     "mph660": 164.25,
+     "ft1000": 5.557,
+     "et": 6.643,
+     "mph": 206.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Greg Anderson",
-     "car": "2",
+     "driver": "Dallas Glenn",
+     "car": "1",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Erica Enders",
+     "car": "6",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
