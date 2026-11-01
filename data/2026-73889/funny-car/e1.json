@@ -127,14 +127,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.121,
+     "ft60": 0.903,
+     "ft330": 2.318,
+     "ft660": 3.265,
+     "mph660": 269.94,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 4.059,
+     "mph": 290.57,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -144,21 +144,21 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.081,
+     "ft60": 0.881,
+     "ft330": 2.232,
+     "ft660": 3.119,
+     "mph660": 289.76,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.851,
+     "mph": 329.67,
+     "first": 0.2482,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Jack Beckman",
      "car": "3",
      "qpos_nhra": "1",
-     "mov": null
+     "mov": 0.2482
     }
    ],
    "note": null
