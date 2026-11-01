@@ -91,7 +91,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Angie Smith's 20 round wins this year are the 2nd most for her in any year (24 - 2022).  \r\n\r\nChase Van Sant's average R/T against Angie is .038.\r\n\r\nSmith is 5 - 3 against Van Sant in prior events. \r\n\r\nVan Sant misses the tree and goes red giving the win to Smith. Smith goes down the groove with her quickest pass of the weekend.\r\n\r\nAngie Smith's incremental times: 60ft-1.061 sec., 330ft-2.854, 660ft-4.374/160.61 mph, 1,000ft-5.700."
   },
   {
    "runs": [
@@ -134,7 +134,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "This is the 829th round for Steve Johnson and that is 2nd most in PSM.  Geno Scali's 1st race with Johnson was in Reading in 1995.\r\n\r\nJohnson is 11 - 9 against Scali in prior events. \r\n\r\nJohnson gets the holeshot and extends his lead all the way through the run."
   },
   {
    "runs": [
@@ -177,7 +177,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Joey Gladstone is 5 - 0 in Rd. 1 this year.  Marc Ingwersen lost to Gladstone in Rd. 1 at Rockingham.\r\n\r\nGladstone is 5 - 0 against Ingwersen in prior events. \r\n\r\nIngwersen gets the advantage off of the line but Gladstone reels him in a little past half track and pulls away for the win.\r\n\r\nJoey Gladstone's incremental margins (negative if behind): 60ft(-0.031), 330 ft(-0.025), 660ft(-0.004), 1,000ft(0.010).  MOV: 0.0186 seconds (approximately 5 feet)."
   },
   {
    "runs": [
@@ -220,7 +220,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "This is the 830th round for Matt Smith and that's the most for any PSM rider.  \r\n\r\nKaren Stoffer is 7 - 7 against Smith in Rd. 1.\r\n\r\nSmith is 22 - 15 against Stoffer in prior events. \r\n\r\nStoffer gets out of the gate first, stays in front to the 330 foot mark, then Smith goes around her and pulls away for the win.\r\n\r\nMatt Smith's incremental margins (negative if behind): 60ft(-0.012), 330 ft(-0.001), 660ft(0.030), 1,000ft(0.065).  MOV: 0.1009 seconds (approximately 28 feet).\r\n\r\nSmith will have lane choice over Gladstone in the next round."
   },
   {
    "runs": [
@@ -263,38 +263,38 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Ryan Oehler has been in the top half of the field at 11 of his 13 races this year.  \r\n\r\nGT Tonglet is 51 - 27 in Rd. 1 (65%) \r\n\r\nThis is the first time Oehler and Tonglet have faced each other in eliminations. \r\n\r\nTonglet gets the holeshot but Oehler reeled him in at half track and pulled away for the win.\r\n\r\nRyan Oehler's incremental margins (negative if behind): 60ft(-0.080), 330 ft(-0.024), 660ft(0.007), 1,000ft(0.031).  MOV: 0.0479 seconds (approximately 14 feet).\r\n\r\nOehler will have lane choice over Johnson in the next round."
   },
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.029,
+     "ft60": 1.035,
+     "ft330": 2.831,
+     "ft660": 4.485,
+     "mph660": 143.28,
+     "ft1000": 5.944,
+     "et": 7.158,
+     "mph": 186.33,
+     "first": 0.7294,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Richard Gadson",
      "car": "1",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.7294
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.056,
+     "ft60": 1.089,
+     "ft330": 2.913,
+     "ft660": 4.489,
+     "mph660": 146.99,
+     "ft1000": 6.152,
+     "et": 7.86,
+     "mph": 123.93,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -306,7 +306,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Gadson is 5 - 1 against Hall in prior events. \r\n\r\nRichard Gadson has 32 round wins this year. He had 34 wins in 2025.  \r\n\r\nJohn Hall has been in the top 5 in points all season long.\r\n\r\nGadson gets out of the gate first but his bike starts moving toward the centerline. he stays on the throttle, leans hard to the left, and keeps the bike off of the centerline. hall gets about 800 feet out and his bike quits, not sure why.\r\n\r\nAngie Smith will have lane choice over Gadson in the next round."
   },
   {
    "runs": [
