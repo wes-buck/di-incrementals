@@ -127,14 +127,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.129,
+     "ft60": 0.856,
+     "ft330": 2.201,
+     "ft660": 3.248,
+     "mph660": 224.92,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 4.305,
+     "mph": 202.15,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -144,21 +144,21 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.055,
+     "ft60": 0.842,
+     "ft330": 2.118,
+     "ft660": 2.967,
+     "mph660": 297.42,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.678,
+     "mph": 340.13,
+     "first": 0.7012,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Tony Stewart",
      "car": "14",
      "qpos_nhra": "2",
-     "mov": null
+     "mov": 0.7012
     }
    ],
    "note": null
