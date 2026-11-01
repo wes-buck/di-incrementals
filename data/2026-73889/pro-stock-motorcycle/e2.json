@@ -10,33 +10,33 @@
   {
    "runs": [
     {
-     "rt": 0.053,
-     "ft60": 1.067,
-     "ft330": 2.858,
-     "ft660": 4.374,
-     "mph660": 161.54,
-     "ft1000": 5.694,
-     "et": 6.823,
-     "mph": 198.03,
-     "first": 0.0282,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
      "lane": "Left",
-     "win": true,
+     "win": false,
      "driver": "Ryan Oehler",
      "car": "3284",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
-     "mov": 0.0282
+     "mov": null
     },
     {
-     "rt": 0.076,
-     "ft60": 1.061,
-     "ft330": 2.851,
-     "ft660": 4.37,
-     "mph660": 161.15,
-     "ft1000": 5.693,
-     "et": 6.828,
-     "mph": 196.85,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -91,7 +91,7 @@
      "mov": 0.0296
     }
    ],
-   "note": null
+   "note": "Gadson is 4 - 2 against Smith in prior events. \r\n\r\nGadson gets a great light, has to really lean on the bike to keep it in the groove, but he hangs on and takes the win.\r\n\r\nRichard Gadson's incremental margins: 60ft(0.055), 330 ft(0.061), 660ft(0.067), 1,000ft(0.051).  MOV: 0.0296 seconds (approximately 9 feet).\r\n\r\nOehler will have lane choice over Gadson in the next round."
   },
   {
    "runs": [
@@ -134,7 +134,7 @@
      "mov": 0.3343
     }
    ],
-   "note": null
+   "note": "Smith is 7 - 4 against Gladstone in prior events. \r\n\r\nGladstone gets out of the gate first and extends his lead all the way through the run. Smith is off of the throttle early."
   },
   {
    "runs": [
@@ -177,7 +177,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Herrera is 4 - 0 against Howey in prior events. \r\n\r\nHowey gets the holeshot but Herrera goes around him before they reach the sixty foot mark. Herrera pulls away extending his lead through the rest of the run.\r\n\r\nHerrera will have lane choice over Gladstone in the next round."
   }
  ]
 }
