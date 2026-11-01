@@ -283,14 +283,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.068,
+     "ft60": 0.892,
+     "ft330": 2.278,
+     "ft660": 3.44,
+     "mph660": 187.11,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 4.75,
+     "mph": 170.13,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -300,21 +300,21 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.094,
+     "ft60": 0.89,
+     "ft330": 2.276,
+     "ft660": 3.203,
+     "mph660": 281.42,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.955,
+     "mph": 319.29,
+     "first": 0.7692,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Austin Prock",
      "car": "1",
      "qpos_nhra": "5",
-     "mov": null
+     "mov": 0.7692
     }
    ],
    "note": null
