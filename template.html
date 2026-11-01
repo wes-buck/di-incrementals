@@ -266,6 +266,29 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .race::after { bottom: 15px; }
 }
 
+/* me vs the field: one strip per block, every car a dot */
+.fld { margin-top: 14px; display: grid; gap: 4px; }
+.fld-r { display: grid; grid-template-columns: 82px 1fr auto; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.fld-r .lbl { font-family: var(--font-data); font-size: 13px; color: var(--muted); }
+.fld-r .lbl b { display: block; color: var(--ink); font-size: 14px; font-weight: 600; white-space: nowrap; }
+.fld-t { position: relative; height: 30px; }
+.fld-t::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; border-top: 1px solid var(--line); }
+.fld-t i { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: var(--muted); opacity: .45; }
+.fld-t i.opp { background: transparent; opacity: 1; box-shadow: inset 0 0 0 2px var(--ink); width: 14px; height: 14px; margin: -7px 0 0 -7px; z-index: 1; }
+.fld-t i.me { background: var(--ink); opacity: 1; width: 18px; height: 18px; margin: -9px 0 0 -9px; box-shadow: 0 0 0 3px var(--bg); z-index: 2; }
+.fld-t i.me.tq { background: var(--q); }
+.fld-t i.over { border-radius: 2px; }
+.fld-r .rk { text-align: right; font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); }
+.fld-r .rk b { display: block; font-size: 14px; color: var(--ink); white-space: nowrap; }
+.fld-r .rk b.tq { color: var(--q); }
+.fld-r.off .fld-t { opacity: .5; }
+.fld-sum { margin: 12px 0 0; font-size: 15px; }
+.fld-key { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; font-size: 12.5px; color: var(--muted); }
+.fld-key span { display: inline-flex; align-items: center; gap: 6px; }
+.fld-key i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--muted); opacity: .45; }
+.fld-key i.me { background: var(--ink); opacity: 1; width: 12px; height: 12px; }
+.fld-key i.opp { background: transparent; opacity: 1; box-shadow: inset 0 0 0 2px var(--ink); }
+@media (min-width: 900px) { .fld-r { grid-template-columns: 110px 1fr 120px; } .fld-t { height: 34px; } }
 /* eliminations ladder */
 .el-wrap { display: grid; grid-auto-flow: column; grid-auto-columns: 88%; gap: 14px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; margin-top: 12px; padding-bottom: 4px; }
 .el-wrap::-webkit-scrollbar { display: none; }
@@ -358,7 +381,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   .mast { background: #fff; color: #000; border-bottom: 2px solid #000; }
   .mast .logo { color: #000; }
   .mast-in { padding: 0 0 6px; }
-  #elim-sec, #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
+  #elim-sec, #lb-sec, .race, .bar, .controls, .cards, .table-wrap, #cmp-sec, #field-sec, #ad, .keep-sec, .leaders, .swipe, .hint, footer a { display: none !important; }
   .wrap { padding: 0; max-width: none; }
   .hero { padding: 6px 0 0; }
   h1 { font-size: 30px; }
@@ -438,6 +461,19 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       <select id="cmp-b" aria-label="Car to compare against"></select>
     </div>
     <div id="cmp-out"></div>
+  </section>
+
+  <section class="sec" id="field-sec">
+    <h2>Me vs the Field</h2>
+    <p class="hint">Pick a car and see where it sits against every car in the round at each timing block. Left is quicker.</p>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="Field view">
+        <button type="button" id="fv-seg" aria-pressed="true">Splits</button>
+        <button type="button" id="fv-cum" aria-pressed="false">Timing points</button>
+      </div>
+      <div class="cmp-pick" style="grid-template-columns:1fr"><select id="field-a" aria-label="Car to highlight"></select></div>
+    </div>
+    <div id="field-out"></div>
   </section>
 
   <section class="sec" id="elim-sec" hidden>
@@ -934,6 +970,63 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   $("cmp-round").onclick = () => setCmpMode("round");
   $("cmp-best").onclick = () => setCmpMode("best");
 
+  // me vs the field: one car highlighted against every car in this round, block by block
+  let fieldView = "seg";
+  function renderField() {
+    const names = R.runs.map((r) => r.driver).sort((a, b) => last(a).localeCompare(last(b)) || a.localeCompare(b));
+    if (!names.length) { $("field-sec").hidden = true; return; }
+    $("field-sec").hidden = false;
+    let a = readPick("di-field-" + D.class) || readPick("di-cmp-a-" + D.class);
+    if (!names.includes(a)) a = (R.runs.find((r) => r.et != null) || R.runs[0]).driver;
+    $("field-a").innerHTML = names.map((n) => `<option value="${esc(n)}"${n === a ? " selected" : ""}>${esc(n)}</option>`).join("");
+    $("field-a").onchange = () => { savePick("di-field-" + D.class, $("field-a").value); track("field_pick", { round: R.round }); renderField(); };
+    const me = R.runs.find((r) => r.driver === a);
+    const opp = me.opp ? R.runs.find((r) => r.driver === me.opp) : null;
+    const keys = fieldView === "seg"
+      ? [["rt", "RT"]].concat(S.map((x) => [x, SL[x]]))
+      : [["rt", "RT"]].concat(P.filter((p) => p !== "et").map((p) => [p, IL[p]]), [["et", "ET"], ["mph", "MPH"]]);
+    const ok = (r, k) => r[k] != null && counts(r, k) && !(k === "rt" && r.red);
+    const rows = keys.map(([k, l]) => {
+      const pool = R.runs.filter((r) => ok(r, k));
+      if (!pool.length) return "";
+      const vals = pool.map((r) => r[k]);
+      const mph = isMph(k), best = mph ? Math.max(...vals) : Math.min(...vals);
+      // scale from the quickest out to the slowest car, but stop well short of a car that blew up
+      const gaps = pool.map((r) => Math.abs(r[k] - best)).sort((x, y) => x - y);
+      const span = Math.max(gaps[gaps.length - 1] > 0 ? Math.min(gaps[gaps.length - 1], (CEIL[k] || gaps[gaps.length - 1]) * 2.5) : 0, mph ? 1 : 0.005);
+      const pos = (v) => { const g = Math.abs(v - best); return { x: Math.min(g / span, 1) * 100, over: g > span }; };
+      const dot = (r, cls) => { const p = pos(r[k]); return `<i class="${cls}${p.over ? " over" : ""}" style="left:${p.x.toFixed(1)}%" title="${esc(r.driver)} ${t(r[k], k)}"></i>`; };
+      const others = pool.filter((r) => r !== me && r !== opp).map((r) => dot(r, "")).join("");
+      const mine = ok(me, k);
+      const rank = mine ? me.rank[k] : null;
+      const right = mine
+        ? `<b class="${rank === 1 ? "tq" : ""}">${rank === 1 ? "Quickest" : ord(rank) + " of " + pool.length}</b>${rank === 1 ? t(me[k], k) : plus(me.gap[k], k)}`
+        : `<b>--</b>${k === "rt" && me.red ? "red light" : me[k] == null ? "no time" : "went away"}`;
+      return `<div class="fld-r${mine ? "" : " off"}"><span class="lbl"><b>${l}</b>${mine ? t(me[k], k) : "--"}</span><div class="fld-t">${others}${opp && ok(opp, k) ? dot(opp, "opp") : ""}${mine ? dot(me, "me" + (rank === 1 ? " tq" : "")) : ""}</div><span class="rk">${right}</span></div>`;
+    }).join("");
+    // the read: where this car makes up time and where it loses it against the field
+    let sum = "";
+    if (fieldView === "seg") {
+      const seg = S.filter((x) => ok(me, x) && me.rank[x] != null);
+      if (seg.length) {
+        const best = seg.reduce((m, x) => me.rank[x] < me.rank[m] ? x : m), worst = seg.reduce((m, x) => me.gap[x] > me.gap[m] ? x : m);
+        const bits = [me.rank[best] === 1 ? `${last(a)} is quickest in the field ${SL[best]}` : `${last(a)}'s best block is ${SL[best]} (${ord(me.rank[best])} in the field)`];
+        if (worst !== best && me.gap[worst] > 0.0005) bits.push(`the most time goes ${SL[worst]}, ${t(me.gap[worst])} off the quickest`);
+        sum = bits.join(" and ") + "." + (me.clean ? "" : ` Went away ${SL[me.off_at] || ""}.`);
+      }
+    }
+    $("field-out").innerHTML = `${sum ? `<p class="fld-sum">${esc(sum)}</p>` : ""}<div class="fld">${rows}</div>
+      <div class="fld-key"><span><i class="me"></i>${esc(a)}</span>${opp ? `<span><i class="opp"></i>${esc(opp.driver)} (other lane)</span>` : ""}<span><i></i>Rest of the field, ${R.round}</span>${/class="[^"]*over/.test(rows) ? "<span>Square: well off the pace, pinned to the edge</span>" : ""}</div>`;
+  }
+  function setFieldView(v) {
+    fieldView = v;
+    $("fv-seg").setAttribute("aria-pressed", v === "seg");
+    $("fv-cum").setAttribute("aria-pressed", v === "cum");
+    renderField();
+  }
+  $("fv-seg").onclick = () => setFieldView("seg");
+  $("fv-cum").onclick = () => setFieldView("cum");
+
 
   // printing and saving
   function renderPrint() {
@@ -984,7 +1077,19 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   renderLeaders();
 
   // eliminations ladder (projected from qualifying until E1 posts). Tap a pairing to compare the two cars.
-  const SLOT = [1, 16, 8, 9, 4, 13, 5, 12, 2, 15, 7, 10, 3, 14, 6, 11];
+  // NHRA ladder: the top seed of each pairing sits in this order down the 16-car sheet.
+  // A short field still runs off the 16-car sheet with no bye in round one: seed k meets seed N+1-k
+  // (14 cars: 1-14, 2-13 ... 7-8), the spot where 8-9 would go stays empty, and the bye run comes in round two.
+  // An odd field gives the No. 1 qualifier the only bye.
+  const TOPS = [1, 8, 4, 5, 2, 7, 3, 6];
+  function ladderSlots(count) {
+    const n = Math.max(0, Math.min(FIELD, count)), slots = new Array(16).fill(null);
+    const pairs = [];
+    if (n % 2) { pairs.push([1, null]); for (let k = 2; k <= (n + 1) / 2; k++) pairs.push([k, n + 2 - k]); }
+    else for (let k = 1; k <= n / 2; k++) pairs.push([k, n + 1 - k]);
+    pairs.forEach(([a, b]) => { const i = TOPS.indexOf(a); if (i >= 0) { slots[2 * i] = a; slots[2 * i + 1] = b; } });
+    return slots;
+  }
   function renderElims() {
     const qRounds = D.rounds.filter((r) => r.round.startsWith("Q")).map((r) => r.round);
     const eRounds = D.rounds.filter((r) => r.round.startsWith("E"));
@@ -993,6 +1098,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     $("elim-sec").hidden = false;
     const seed = {};
     (finalQ || []).forEach((x, i) => { seed[x.driver] = i + 1; });
+    const SLOT = ladderSlots((finalQ || []).length);
     const slotOf = (d) => { const i = SLOT.indexOf(seed[d]); return i < 0 ? 99 : i; };
     const names = { E1: "Round 1", E2: "Quarterfinals", E3: "Semifinals", E4: "Final" };
     const carRow = (r, won) => {
@@ -1006,15 +1112,17 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
       // projected pairings from the current qualifying order
       const q = D.qualifying[R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]] || finalQ;
       const qs = {}; q.forEach((x, i) => { qs[i + 1] = x.driver; });
+      const PS = ladderSlots(q.length), nq = Math.min(FIELD, q.length);
       let cards = "";
       for (let i = 0; i < 16; i += 2) {
-        const a = qs[SLOT[i]], b = qs[SLOT[i + 1]];
-        if (!a && !b) continue;
-        cards += `<div class="el-pair" style="cursor:default"><div class="el-car"><span class="el-s">${SLOT[i]}</span><span class="el-n">${esc(a || "")}</span><span></span></div><div class="el-car"><span class="el-s">${SLOT[i + 1]}</span><span class="el-n">${b ? esc(b) : '<span style="color:var(--muted)">Bye</span>'}</span><span></span></div></div>`;
+        if (PS[i] == null) continue;
+        const a = qs[PS[i]], b = PS[i + 1] == null ? null : qs[PS[i + 1]];
+        cards += `<div class="el-pair" style="cursor:default"><div class="el-car"><span class="el-s">${PS[i]}</span><span class="el-n">${esc(a || "")}</span><span></span></div><div class="el-car"><span class="el-s">${PS[i + 1] ?? ""}</span><span class="el-n">${b ? esc(b) : '<span style="color:var(--muted)">Bye</span>'}</span><span></span></div></div>`;
       }
       cols = `<div class="el-col"><h3>Round 1<small>PROJECTED</small></h3>${cards}</div>`;
       $("el-h").textContent = "Eliminations Ladder";
-      $("el-hint").textContent = `If qualifying ended after ${R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]}, here's how round one would pair up. Updates after every session.`;
+      $("el-hint").textContent = `If qualifying ended after ${R.round.startsWith("Q") ? R.round : qRounds[qRounds.length - 1]}, here's how round one would pair up. Updates after every session.` +
+        (nq < FIELD && nq > 1 ? ` ${nq} cars run off the 16-car ladder, so ${nq % 2 ? "only the No. 1 qualifier gets a bye in round one" : "nobody gets a bye in round one; the bye run comes in round two"}.` : "");
     } else {
       cols = eRounds.map((rd) => {
         const pairs = {};
@@ -1053,6 +1161,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
   // fold-away sections (the Board always stays open); each viewer's choices are remembered
   const FOLDS = [
     ["cmp-sec", "Pick any two cars, block by block"],
+    ["field-sec", "One car against the whole field at every block"],
     ["elim-sec", "Bracket, holeshots, tap a pairing to compare"],
     ["lights-sec", "Top five at each timing block"],
     ["lane-sec", "Left lane vs right lane"],
@@ -1093,7 +1202,7 @@ footer svg { height: 20px; width: auto; color: var(--ink); }
     openDriver = null;
     ceilings();
     try { history.replaceState(null, "", "#" + R.round.toLowerCase()); } catch (e) {}
-    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderElims(); renderLights(); renderLanes(); renderLadder();
+    renderRounds(); renderHero(); renderBoard(); renderCompare(); renderField(); renderElims(); renderLights(); renderLanes(); renderLadder();
     $("src").innerHTML = `Source: <a href="${esc(R.source_url)}" target="_blank" rel="noopener">NHRA detailed results, ${esc(D.class_name)} ${R.round}</a> · Updated ${new Date(D.generated).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}`;
   }
   function setView(v) {
