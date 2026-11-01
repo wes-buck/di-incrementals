@@ -166,14 +166,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.1,
+     "ft60": 0.891,
+     "ft330": 2.272,
+     "ft660": 3.189,
+     "mph660": 283.13,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.928,
+     "mph": 329.1,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -183,21 +183,60 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.061,
+     "ft60": 0.88,
+     "ft330": 2.243,
+     "ft660": 3.152,
+     "mph660": 285.95,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.882,
+     "mph": 332.18,
+     "first": 0.0857,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Matt Hagan",
      "car": "14",
      "qpos_nhra": "2",
+     "mov": 0.0857
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.074,
+     "ft60": 0.916,
+     "ft330": 2.311,
+     "ft660": 3.236,
+     "mph660": 279.27,
+     "ft1000": null,
+     "et": 3.985,
+     "mph": 323.5,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "14",
      "mov": null
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.873,
+     "ft330": 2.244,
+     "ft660": 3.138,
+     "mph660": 286.5,
+     "ft1000": null,
+     "et": 3.876,
+     "mph": 324.28,
+     "first": 0.1082,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.1082
     }
    ],
    "note": null
