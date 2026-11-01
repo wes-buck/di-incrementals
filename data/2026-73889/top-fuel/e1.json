@@ -44,7 +44,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Antron Brown is 15 - 9 in Rd. 1 when starting 10th in the field.Brown's overall record at this event\r\nis 27 - 23 (21 - 16 in TF). By round, his record is 14 - 11 in Rd. 1, 8 - 6 in Rd. 2, 3 - 5 in Rd. 3,\r\nand 2 - 1 in the Final. He won this race in 2013 (Beat C. Millican) and 2020 (Beat S. Torrence), and\r\nwas runner-up here in PSM in 2001 (Lost to S. Gann). He has qualified in the top half of the field at\r\n14 of his 25 races here. His lowest starting spot at this event is #13 (2003 in PSM and 2012 in TF).\r\nHe is 6 - 3 in the Countdown this year.\r\n\r\nMaddi Gordon lost to Antron in the final round at Dallas.  \r\n\r\nBrown is 2 - 1 against Gordon in prior events. \r\n\r\nBrown with the starting line advantage and never trailed for the win.  He makes his quickest pass of\r\nthe weekend.  Antron Brown's MOV: 0.0178 seconds (approximately 9 feet).\r\n\r\nGordon with her quickest and fastest pass of the weekend in the losing effort.  She has a big top end\r\nspeed and sets the track speed record."
   },
   {
    "runs": [
@@ -83,7 +83,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Justin Ashley is 6 - 4 against Millican in Rd. 1 overall (1 - 1 this year).  Ashley's overall record\r\nat this event is 9 - 7. By round, his record is 5 - 2 in Rd. 1, 3 - 2 in Rd. 2, 1 - 2 in Rd. 3, and 0\r\n- 1 in the Final. He was runner-up here in 2023 (Lost to M. Salinas). His lowest starting spot at\r\nthis event is #14 (2019). He has qualified in the top half of the field at 5 of his 7 races here and\r\nis 4 - 4 in the Countdown this year.\r\n\r\nIn his last 10 races Clay Millican is 3 - 7 in Rd. 1.  Millican's overall record at this event is 16\r\n- 20. By round, his record is 12 - 8 in Rd. 1, 3 - 9 in Rd. 2, 1 - 2 in Rd. 3, and 0 - 1 in the\r\nFinal. He was runner-up here in 2013 (Lost to A. Brown) and has qualified in the top half of the\r\nfield at 8 of his 22 races here. His lowest starting spot at this event is #15 (2005 and 2023). He\r\nDNQ here in 2006 and 2014, and is 1 - 4 in the Countdown this year.\r\n\r\nAshley with the starting line advantage and the power to hold on for the hole shot win in a close\r\none.  Justin Ashley's MOV: 0.0027 seconds (approximately 16 inches).\r\n\r\nAshley dropped cylinders right in the lights and it pushed him over by the centerline, but he held on\r\nfor the win.\r\n\r\n Car#-Driver("
   },
   {
    "runs": [
@@ -122,7 +122,7 @@
      "mov": 0.0747
     }
    ],
-   "note": null
+   "note": "Shawn Reed fouled out against Hart in Rd. 1 in Martin this year.  Reed's overall record at this event\r\nis 1 - 6. His best finish at this event is the quarter-finals, 2024. He has qualified in the top half\r\nof the field at 3 of his 6 races here. His lowest starting spot at this event is #15 (2016).\r\n\r\nJosh Hart starts the event in 10th place, his lowest spot of the year. Hart's overall record at this\r\nevent is 2 - 5. By round, his record is 1 - 4 in Rd. 1, 1 - 0 in Rd. 2, 0 - 1 in Rd. 3, and 0 - 0 in\r\nthe Final. His best finish at this event is the semi-finals, 2023. He has qualified in the top half\r\nof the field at 1 of his 5 races here. His lowest starting spot at this event is #16 (2024). He is 1\r\n- 4 in the Countdown this year and dropped to 10th place after Dallas, his lowest spot of the year. \r\n\r\nReed and Hart have each won 1 times against the other in prior events. \r\n\r\nHart with a slight starting line advantage and never trailed for the win."
   },
   {
    "runs": [
@@ -161,7 +161,7 @@
      "mov": 0.7012
     }
    ],
-   "note": null
+   "note": "This is Chris Powers' 1st start.\r\n\r\nTony Stewart is 40 - 17 (70%) in Rd. 1. Stewart's overall record at this event is 2 - 2. By round,\r\nhis record is 1 - 1 in Rd. 1, 1 - 0 in Rd. 2, 0 - 1 in Rd. 3, and 0 - 0 in the Final. His best finish\r\nat this event is the semi-finals, 2025. His lowest starting spot at this event is #6 (2024), and he\r\nis 4 - 4 in the Countdown this year.\r\n\r\nStewart with the starting line advantage and never trailed for the win.  He will have lane choice\r\nover Brown in the next round.\r\n\r\nPowers chute shook out right off the starting line and fully blossomed.  The car started to spin and\r\nthen pushed out a head gasket with a quick flash of flames before he clicked it off.\r\n\r\n Car#-Driver(Opp'nt)-RT-----ET---Speed-----Car#-Driver(Opp'nt)-RT----ET---Speed"
   },
   {
    "runs": [
@@ -174,13 +174,13 @@
      "ft1000": null,
      "et": 3.672,
      "mph": 330.31,
-     "first": null,
+     "first": 0.3482,
      "lane": "Left",
      "win": true,
      "driver": "Shawn Langdon",
      "car": "2",
      "qpos_nhra": "1",
-     "mov": null
+     "mov": 0.3482
     },
     {
      "rt": 0.061,
@@ -189,8 +189,8 @@
      "ft660": 3.226,
      "mph660": 266.37,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 4.025,
+     "mph": 299.13,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -200,7 +200,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Shawn Langdon's 48 round wins this year are the most for him since 2013 (54).  Langdon's overall\r\nrecord at this event is 14 - 17. By round, his record is 9 - 8 in Rd. 1, 4 - 5 in Rd. 2, 1 - 3 in Rd.\r\n3, and 0 - 1 in the Final. He was runner-up here in 2025 (Lost to B. Force). He has qualified in the\r\ntop half of the field at 12 of his 17 races here. His lowest starting spot at this event is #16\r\n(2011). He has set Low E/T at 8 races this year and is 14 - 1 in the Countdown this year. \r\n\r\nCameron Ferre is making his 52nd start.   The #16 TF qualifier has never won a round at this event.\r\nFerre's overall record at this event is 0 - 4. This is his 9th race this year and his 1st race here\r\nsince 2022.\r\n\r\nLangdon is 4 - 0 against Ferre in prior events. \r\n\r\nFerre with a slight starting line advantage, but Langdon had the lead by the time they go by the\r\nChristmas tree and never trailed from there on for the win.  He will give up lane choice to Torrence\r\nin the next round.\r\n\r\nFerre with his quickest pass of the weekend in the losing effort."
   },
   {
    "runs": [
@@ -239,7 +239,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Doug Kalitta's 42 round win this year are the most for him since 2016 (44).  Kalitta's overall record\r\nat this event is 31 - 22. By round, his record is 15 - 9 in Rd. 1, 10 - 5 in Rd. 2, 4 - 6 in Rd. 3,\r\nand 2 - 2 in the Final. He won this race in 2004 (Beat M. Lucas) and 2015 (Beat L. Dixon), and was\r\nrunner-up here in 2007 (Lost to R. Fuller) and 2024 (Lost to B. Force). He has qualified in the top\r\nhalf of the field at 17 of his 25 races here. His lowest starting spot at this event is #13 (2015 and\r\n2021). His 31 round wins here are 2nd most in TF. He DNQ here in 2010 and is 6 - 4 in the Countdown\r\nthis year.\r\n\r\nWill Smith \"leaves first\" 82% of the time overall (80% against Kalitta).\r\n\r\nKalitta is 5 - 0 against Smith in prior events. \r\n\r\nSmith with the starting line advantage, but Kalitta has the difference made up by the time they go by\r\nthe Christmas tree and never trailed from there on for the win.  He makes his quickest pass of the\r\nweekend for the win.  Doug Kalitta's MOV: 0.0318 seconds (approximately 16 feet).  He will have lane\r\nchoice over Ashley in the next round.\r\n\r\nSmith with his quickest pass of the weekend in the losing effort."
   },
   {
    "runs": [
@@ -278,7 +278,7 @@
      "mov": 8.0198
     }
    ],
-   "note": null
+   "note": "Leah Pruett wins 74% of her Rd. 1 races when she has lane choice.  Pruett's overall record at this\r\nevent is 12 - 10. By round, her record is 7 - 3 in Rd. 1, 4 - 3 in Rd. 2, 1 - 3 in Rd. 3, and 0 - 1\r\nin the Final. She was runner-up here in 2018 (Lost to S. Torrence). She has qualified in the top half\r\nof the field at 7 of her 10 races here. Her lowest starting spot at this event is #15 (2015), and she\r\nis 3 - 4 in the Countdown this year.\r\n\r\nIn his last 7 starts Tony Schumacher is 0 - 7 in Rd. 1.  Schumacher's overall record at this event is\r\n38 - 19. By round, his record is 18 - 5 in Rd. 1, 9 - 9 in Rd. 2, 7 - 2 in Rd. 3, and 4 - 3 in the\r\nFinal. He won this race in 2005 (Beat D. Grubnic), 2006 (Beat J.R. Todd), 2008 (Beat R. Fuller), and\r\n2010 (Beat D. Lagana). He was runner-up here in 2002 (Lost to L. Dixon), 2003 (Lost to K. Bernstein),\r\nand 2012 (Lost to B. Vandergriff). He has qualified in the top half of the field at 15 of his 23\r\nraces here. His lowest starting spot at this event is #13 (2024). He is just the 7th Pro driver to\r\ncompete at 600 or more races.\r\n\r\nSchumacher and Pruett have each won 12 times against the other in prior events.\r\n\r\nPruett with the starting line advantage and never trailed for the win.  She will have lane choice\r\nover Hart in the next round by 0.005 seconds.\r\n\r\nSchumacher lost traction right at the hit and clicked it off."
   }
  ]
 }
