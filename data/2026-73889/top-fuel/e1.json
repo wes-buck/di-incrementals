@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.061,
+     "ft60": 0.842,
+     "ft330": 2.113,
+     "ft660": 2.973,
+     "mph660": 295.21,
+     "ft1000": null,
+     "et": 3.69,
+     "mph": 336.74,
+     "first": 0.0178,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": 0.0178
+    },
+    {
+     "rt": 0.075,
+     "ft60": 0.851,
+     "ft330": 2.14,
+     "ft660": 2.987,
+     "mph660": 300.93,
+     "ft1000": null,
+     "et": 3.693,
+     "mph": 340.82,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Antron Brown",
-     "car": "123",
-     "qpos_nhra": "10",
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
      "mov": null
     },
     {
@@ -38,9 +77,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Maddi Gordon",
-     "car": "100",
-     "qpos_nhra": "7",
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "4",
      "mov": null
     }
    ],
