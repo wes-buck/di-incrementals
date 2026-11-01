@@ -10,33 +10,33 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.053,
+     "ft60": 1.067,
+     "ft330": 2.858,
+     "ft660": 4.374,
+     "mph660": 161.54,
+     "ft1000": 5.694,
+     "et": 6.823,
+     "mph": 198.03,
+     "first": 0.0282,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Ryan Oehler",
      "car": "3284",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.0282
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.076,
+     "ft60": 1.061,
+     "ft330": 2.851,
+     "ft660": 4.37,
+     "mph660": 161.15,
+     "ft1000": 5.693,
+     "et": 6.828,
+     "mph": 196.85,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "2:03 p.m. Weather conditions: air temperature 61 degrees, relative humidity 66 percent, barometer 29.67 inches, adjusted altitude 3,233 feet, track temperature 85 degrees.\r\n\r\nJohnson is 5 - 1 against Oehler in prior events. \r\n\r\nOehler gets the holeshot and makes his quickest pass of the weekend to take the win.\r\n\r\nRyan Oehler's incremental margins: 60ft(0.017), 330 ft(0.016), 660ft(0.019), 1,000ft(0.022).  MOV: 0.0282 seconds (approximately 8 feet)."
   },
   {
    "runs": [
