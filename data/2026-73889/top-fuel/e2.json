@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.092,
+     "ft60": 0.853,
+     "ft330": 2.123,
+     "ft660": 2.974,
+     "mph660": 299.6,
+     "ft1000": null,
+     "et": 3.681,
+     "mph": 339.45,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.073,
+     "ft60": 0.847,
+     "ft330": 2.112,
+     "ft660": 2.965,
+     "mph660": 295.08,
+     "ft1000": null,
+     "et": 3.687,
+     "mph": 333.58,
+     "first": 0.0132,
+     "lane": "Right",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "6",
+     "mov": 0.0132
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
-     "qpos_nhra": "3",
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "5",
      "mov": null
     },
     {
@@ -38,9 +77,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Leah Pruett",
-     "car": "777",
-     "qpos_nhra": "6",
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "13",
      "mov": null
     }
    ],
