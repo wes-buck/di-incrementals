@@ -10,45 +10,6 @@
   {
    "runs": [
     {
-     "rt": 0.1,
-     "ft60": 0.843,
-     "ft330": 2.514,
-     "ft660": 3.805,
-     "mph660": 193.29,
-     "ft1000": null,
-     "et": 4.871,
-     "mph": 223.76,
-     "first": 3.9652,
-     "lane": "Left",
-     "win": true,
-     "driver": "Leah Pruett",
-     "car": "777",
-     "qpos_nhra": "6",
-     "mov": 3.9652
-    },
-    {
-     "rt": 0.034,
-     "ft60": 1.215,
-     "ft330": 3.744,
-     "ft660": 6.124,
-     "mph660": 86.74,
-     "ft1000": null,
-     "et": 8.902,
-     "mph": 84.38,
-     "first": null,
-     "lane": "Right",
-     "win": false,
-     "driver": "Antron Brown",
-     "car": "123",
-     "qpos_nhra": "10",
-     "mov": null
-    }
-   ],
-   "note": "Weather conditions: air temperature 60 degrees, relative humidity 63 percent, barometer 29.72 inches,\r\nadjusted altitude 3,017 feet, track temperature 79 degrees.\r\n\r\nBrown is 22 - 19 against Pruett in prior events. \r\n\r\nBrown with the starting line advantage, but was up in smoke right at the hit and pedaled it a couple\r\ntime, but couldn't get it to hook up.\r\n\r\nPruett lost traction right off the starting line, but pedaled it one time and got it to hook up  for\r\nthe win.  She is advancing to her 29th final round of her career and fourth of the season."
-  },
-  {
-   "runs": [
-    {
      "rt": 0.067,
      "ft60": 0.838,
      "ft330": 2.108,
