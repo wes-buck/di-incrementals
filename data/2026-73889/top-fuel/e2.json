@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.044,
+     "ft60": 0.842,
+     "ft330": 2.113,
+     "ft660": 2.969,
+     "mph660": 296.96,
+     "ft1000": null,
+     "et": 3.683,
+     "mph": 336.32,
+     "first": 0.0066,
+     "lane": "Left",
+     "win": true,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "10",
+     "mov": 0.0066
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.838,
+     "ft330": 2.108,
+     "ft660": 2.963,
+     "mph660": 296.83,
+     "ft1000": null,
+     "et": 3.678,
+     "mph": 336.32,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Antron Brown",
-     "car": "123",
-     "qpos_nhra": "10",
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "9",
      "mov": null
     },
     {
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Tony Stewart",
-     "car": "14",
-     "qpos_nhra": "2",
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "1",
      "mov": null
     }
    ],
