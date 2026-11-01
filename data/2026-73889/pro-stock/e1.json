@@ -268,26 +268,26 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.031,
+     "ft60": 0.973,
+     "ft330": 2.753,
+     "ft660": 4.246,
+     "mph660": 164.31,
+     "ft1000": 5.534,
+     "et": 6.621,
+     "mph": 205.22,
+     "first": 5.1163,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Greg Anderson",
      "car": "2",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 5.1163
     },
     {
-     "rt": null,
+     "rt": 11.768,
      "ft60": null,
      "ft330": null,
      "ft660": null,
