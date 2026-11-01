@@ -10,14 +10,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.073,
+     "ft60": 0.9,
+     "ft330": 2.279,
+     "ft660": 3.189,
+     "mph660": 283.07,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.935,
+     "mph": 322.58,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -27,21 +27,21 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.076,
+     "ft60": 0.89,
+     "ft330": 2.258,
+     "ft660": 3.167,
+     "mph660": 285.47,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.899,
+     "mph": 332.18,
+     "first": 0.0338,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Ron Capps",
      "car": "28",
      "qpos_nhra": "8",
-     "mov": null
+     "mov": 0.0338
     }
    ],
    "note": null
@@ -88,9 +88,9 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.078,
+     "ft60": 0.871,
+     "ft330": 2.661,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -105,11 +105,11 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.085,
+     "ft60": 0.899,
+     "ft330": 2.448,
+     "ft660": 3.438,
+     "mph660": 268.22,
      "ft1000": null,
      "et": null,
      "mph": null,
