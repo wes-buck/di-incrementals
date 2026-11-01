@@ -10,8 +10,8 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
+     "rt": 0.062,
+     "ft60": 1.732,
      "ft330": null,
      "ft660": null,
      "mph660": null,
@@ -29,6 +29,49 @@
      "mov": null
     },
     {
+     "rt": 0.033,
+     "ft60": 0.994,
+     "ft330": 2.773,
+     "ft660": 4.266,
+     "mph660": 164.71,
+     "ft1000": 5.553,
+     "et": 6.637,
+     "mph": 206.48,
+     "first": 6.6083,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 6.6083
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Hartford",
-     "car": "3",
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
