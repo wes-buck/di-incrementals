@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.042,
+     "ft60": 0.898,
+     "ft330": 2.276,
+     "ft660": 3.177,
+     "mph660": 286.13,
+     "ft1000": null,
+     "et": 3.911,
+     "mph": 327.9,
+     "first": 0.6241,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "3",
+     "mov": 0.6241
+    },
+    {
+     "rt": 0.052,
+     "ft60": 0.88,
+     "ft330": 2.48,
+     "ft660": 3.612,
+     "mph660": 231.79,
+     "ft1000": null,
+     "et": 4.525,
+     "mph": 251.77,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jordan Vandergriff",
-     "car": "24",
-     "qpos_nhra": "3",
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "5",
      "mov": null
     },
     {
@@ -38,9 +77,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "7",
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "8",
      "mov": null
     }
    ],
