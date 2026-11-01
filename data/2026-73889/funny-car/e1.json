@@ -166,14 +166,14 @@
   {
    "runs": [
     {
-     "rt": 0.1,
-     "ft60": 0.891,
-     "ft330": 2.272,
-     "ft660": 3.189,
-     "mph660": 283.13,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.928,
-     "mph": 329.1,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -183,21 +183,21 @@
      "mov": null
     },
     {
-     "rt": 0.061,
-     "ft60": 0.88,
-     "ft330": 2.243,
-     "ft660": 3.152,
-     "mph660": 285.95,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.882,
-     "mph": 332.18,
-     "first": 0.0857,
+     "et": null,
+     "mph": null,
+     "first": null,
      "lane": "Right",
-     "win": true,
+     "win": false,
      "driver": "Matt Hagan",
      "car": "14",
      "qpos_nhra": "2",
-     "mov": 0.0857
+     "mov": null
     }
    ],
    "note": null
@@ -237,6 +237,45 @@
      "car": "24",
      "qpos_nhra": "3",
      "mov": 0.1082
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Hunter Green",
+     "car": "4494",
+     "qpos_nhra": "13",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "4",
+     "mov": null
     }
    ],
    "note": null
