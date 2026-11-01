@@ -10,31 +10,31 @@
   {
    "runs": [
     {
-     "rt": 0.061,
-     "ft60": 0.842,
-     "ft330": 2.113,
-     "ft660": 2.973,
-     "mph660": 295.21,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.69,
-     "mph": 336.74,
-     "first": 0.0178,
+     "et": null,
+     "mph": null,
+     "first": null,
      "lane": "Left",
-     "win": true,
+     "win": false,
      "driver": "Antron Brown",
      "car": "123",
      "qpos_nhra": "10",
-     "mov": 0.0178
+     "mov": null
     },
     {
-     "rt": 0.075,
-     "ft60": 0.851,
-     "ft330": 2.14,
-     "ft660": 2.987,
-     "mph660": 300.93,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
      "ft1000": null,
-     "et": 3.693,
-     "mph": 340.82,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.088,
+     "ft60": 0.864,
+     "ft330": 2.168,
+     "ft660": 3.036,
+     "mph660": 291.57,
+     "ft1000": null,
+     "et": 3.785,
+     "mph": 316.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "14",
+     "mov": null
+    },
+    {
+     "rt": 0.08,
+     "ft60": 0.869,
+     "ft330": 2.152,
+     "ft660": 3.009,
+     "mph660": 298.47,
+     "ft1000": null,
+     "et": 3.719,
+     "mph": 338.77,
+     "first": 0.0747,
+     "lane": "Right",
+     "win": true,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "3",
+     "mov": 0.0747
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Shawn Reed",
-     "car": "8",
-     "qpos_nhra": "14",
+     "driver": "Chris Powers",
+     "car": "1519",
+     "qpos_nhra": "15",
      "mov": null
     },
     {
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
-     "qpos_nhra": "3",
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "2",
      "mov": null
     }
    ],
