@@ -268,33 +268,33 @@
   {
    "runs": [
     {
-     "rt": 0.029,
-     "ft60": 1.035,
-     "ft330": 2.831,
-     "ft660": 4.485,
-     "mph660": 143.28,
-     "ft1000": 5.944,
-     "et": 7.158,
-     "mph": 186.33,
-     "first": 0.7294,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
      "lane": "Left",
-     "win": true,
+     "win": false,
      "driver": "Richard Gadson",
      "car": "1",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
-     "mov": 0.7294
+     "mov": null
     },
     {
-     "rt": 0.056,
-     "ft60": 1.089,
-     "ft330": 2.913,
-     "ft660": 4.489,
-     "mph660": 146.99,
-     "ft1000": 6.152,
-     "et": 7.86,
-     "mph": 123.93,
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -349,7 +349,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Gaige Herrera is 34 - 1 in Rd. 1 when qualified #1.  \r\n\r\nThe last time the #16 PSM qualifier won a round here was 2013.\r\n\r\nHerrera is 6 - 0 against Bostick in prior events. \r\n\r\nBostick gets the holeshot but Herrera goes around him before they reach the sixty foot mark. Herrera pulls away with his quickest pass of the weekend to take the win.\r\n\r\nGaige Herrera's incremental times: 60ft-1.019 sec., 330ft-2.805, 660ft-4.321/161.34 mph, 1,000ft-5.640. \r\n\r\nHerrera will have lane choice over Howey in the next round."
   }
  ]
 }
