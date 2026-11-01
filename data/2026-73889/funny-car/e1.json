@@ -122,7 +122,7 @@
      "mov": 0.7922
     }
    ],
-   "note": "This is the 3rd race between Spencer Hyde and Paul Lee this year. They each won once.\r\n\r\nLee gets the advantage off of the line but smokes the tires about 100 feet out. He pedals, stays on the throttle, but finally gives up on the run about 600 feet out. Hyde rattled the tires early, pedals and recovers, then pulls away for the win.\r\n\r\nSpencer Hyde's incremental margins (negative if behind): 60ft(-0.035), 330 ft(0.206), 660ft(0.413).  MOV: 0.7922 seconds (more than 100 feet)."
+   "note": null
   },
   {
    "runs": [
@@ -133,7 +133,7 @@
      "ft660": 3.265,
      "mph660": 269.94,
      "ft1000": null,
-     "et": 99.999,
+     "et": 4.059,
      "mph": 290.57,
      "first": null,
      "lane": "Left",
@@ -161,7 +161,7 @@
      "mov": 0.2482
     }
    ],
-   "note": "Jack Beckman is 34 - 3 in Rd. 1 when qualified #1. In his last 20 starts from the #1 spot Beckman has won twice.  \r\n\r\nThe last time the #16 FC qualifier won a round here was 2007.\r\n\r\nBeckman is 8 - 0 against Diehl in prior events. \r\n\r\nBeckman gets out of the gate first and goes down the groove with the quickest pass of the round so far to take the win.\r\n\r\nDiehl gets out of the groove, starts moving to the right, then takes out the timing blocks at the end of the track.\r\n\r\nJack Beckman's incremental times: 60ft-0.881 sec., 330ft-2.232, 660ft-3.119/289.76 mph. \r\n\r\nBeckman will have lane choice over Capps in the next round."
+   "note": null
   },
   {
    "runs": [
@@ -200,7 +200,7 @@
      "mov": 0.0857
     }
    ],
-   "note": "Matt Hagan wins 81% of his Rd. 1 races when he has lane choice.  \r\n\r\nHagan is 9 - 1 against Richards in prior events.\r\n\r\nDave Richards 9 losses to Hagan are the most for him against any opponent.\r\n\r\nHagan gets out of the gate first and starts pulling away. Richards keeps him honest, going down the groove with his quickest pass of the weekend but it wasn't enough.\r\n\r\nMatt Hagan's incremental margins: 60ft(0.050), 330 ft(0.068), 660ft(0.076).  MOV: 0.0857 seconds (approximately 41 feet).\r\n\r\nHagan will have lane choice over Todd in the next round."
+   "note": null
   },
   {
    "runs": [
@@ -239,7 +239,7 @@
      "mov": 0.1082
     }
    ],
-   "note": "This is the first time Nataas and Vandergriff have faced each other in eliminations. \r\n\r\nJordan Vandergriff is 16 - 2 in Rd. 1 this year.  \r\n\r\nJulie Nataas is making her 6th start.\r\n\r\nThey leave the line together but Vandergriff starts pulling away early. Nataas makes a clean, straight pass but fell behind at every marker.\r\n\r\nJordan Vandergriff's incremental margins (negative if behind): 60ft(0.042), 330 ft(0.066), 660ft(0.097).  MOV: 0.1082 seconds (approximately 51 feet).\r\n\r\nVandergriff will have lane choice over Hyde in the next round."
+   "note": null
   },
   {
    "runs": [
@@ -278,7 +278,7 @@
      "mov": null
     }
    ],
-   "note": "Alexis DeJoria is 12 - 3 in Rd. 1 when starting from the #4 spot.   \r\n\r\nHunter Green is making his 17th start.\r\n\r\nDeJoria is 1 - 0 against Green in prior events. \r\n\r\nGreen with the advantage off of the line and stays in front for about 300 feet. DeJoria goes around him at that point, then she loses traction late in the run, loses a cylinder, then the car noses over. Green goes around her and pulls away for the win.\r\n\r\nHunter Green's incremental margins (negative if behind): 60ft(0.010), 330 ft(-0.007), 660ft(-0.021).  MOV: 0.0219 seconds (approximately 9 feet)."
+   "note": null
   },
   {
    "runs": [
@@ -317,7 +317,7 @@
      "mov": 0.7692
     }
    ],
-   "note": "Austin Prock wins 76% of his Rd. 1 races when he has lane choice.  \r\n\r\nDaniel Wilkerson has \"left first\" in 1 of his 5 races with Prock (and it's the only round he beat Prock).\r\n\r\nProck is 4 - 1 against Wilkerson in prior events. \r\n\r\nWilkerson gets the advantage off of the line, stays in front past the 330 foot mark, then he loses traction and has to give up on the run. Prock goes around him and pulls away for the win.\r\n\r\nAustin Prock's incremental margins (negative if behind): 60ft(-0.024), 330 ft(-0.024), 660ft(0.211).  MOV: 0.7692 seconds (more than 100 feet).\r\n\r\nHunter Green will have lane choice over Prock in the next round."
+   "note": null
   }
  ]
 }

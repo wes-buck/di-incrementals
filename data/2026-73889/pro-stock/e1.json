@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.058,
+     "ft60": 0.991,
+     "ft330": 2.775,
+     "ft660": 4.271,
+     "mph660": 164.51,
+     "ft1000": 5.56,
+     "et": 6.644,
+     "mph": 207.75,
+     "first": 0.0986,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Hartford",
+     "car": "3",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0986
+    },
+    {
+     "rt": 0.053,
+     "ft60": 1.0,
+     "ft330": 2.817,
+     "ft660": 4.337,
+     "mph660": 161.69,
+     "ft1000": 5.646,
+     "et": 6.747,
+     "mph": 203.61,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Matt Hartford",
-     "car": "3",
+     "driver": "Matt Latino",
+     "car": "16",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Kenny Delco",
-     "car": "150",
+     "driver": "Shane Tucker",
+     "car": "12",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
