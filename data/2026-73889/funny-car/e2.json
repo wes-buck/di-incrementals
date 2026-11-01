@@ -127,14 +127,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.068,
+     "ft60": 0.881,
+     "ft330": 2.559,
+     "ft660": 4.381,
+     "mph660": 117.61,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 6.502,
+     "mph": 103.54,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -144,21 +144,21 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.077,
+     "ft60": 0.884,
+     "ft330": 2.263,
+     "ft660": 3.171,
+     "mph660": 286.07,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.912,
+     "mph": 324.2,
+     "first": 2.5816,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Jordan Vandergriff",
      "car": "24",
      "qpos_nhra": "3",
-     "mov": null
+     "mov": 2.5816
     }
    ],
    "note": null
