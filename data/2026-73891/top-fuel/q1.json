@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.093,
+     "ft60": 0.839,
+     "ft330": 2.124,
+     "ft660": 2.99,
+     "mph660": 294.31,
+     "ft1000": null,
+     "et": 3.713,
+     "mph": 333.66,
+     "first": 3.9028,
+     "lane": "Left",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.121,
+     "ft60": 0.853,
+     "ft330": 2.57,
+     "ft660": 4.917,
+     "mph660": 91.91,
+     "ft1000": null,
+     "et": 7.587,
+     "mph": 80.52,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,8 +177,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
+     "driver": "Justin Ashley",
+     "car": "3",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -155,8 +194,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
+     "driver": "Will Smith",
+     "car": "200",
      "qpos_nhra": "--",
      "mov": null
     }
