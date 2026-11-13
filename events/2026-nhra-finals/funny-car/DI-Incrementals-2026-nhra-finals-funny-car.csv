@@ -1,3 +1,5 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
 In-N-Out Burger NHRA Finals,Funny Car,Q1,1,Left,Cory Lee,13,,0.159,0.899,2.585,4.652,106.16,,6.852,103.88,0.899,1.686,2.067,2.2,-2.28,no,60-330,2,2,,
 In-N-Out Burger NHRA Finals,Funny Car,Q1,1,Right,Jim Campbell,703,,0.141,0.881,2.284,3.265,262.18,,4.068,300.26,0.881,1.403,0.981,0.803,38.08,yes,,1,1,1,1
+In-N-Out Burger NHRA Finals,Funny Car,Q1,2,Left,Julie Nataas,8002,,,,,,,,,,,,,,,no,0-60,,,,
+In-N-Out Burger NHRA Finals,Funny Car,Q1,2,Right,Jeff Diehl,717,,,,,,,,,,,,,,,no,0-60,,,,
