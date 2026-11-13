@@ -361,6 +361,45 @@
   {
    "runs": [
     {
+     "rt": 0.067,
+     "ft60": 0.862,
+     "ft330": 2.217,
+     "ft660": 3.166,
+     "mph660": 250.51,
+     "ft1000": null,
+     "et": 4.145,
+     "mph": 227.61,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.089,
+     "ft60": 0.869,
+     "ft330": 2.25,
+     "ft660": 3.173,
+     "mph660": 283.49,
+     "ft1000": null,
+     "et": 3.911,
+     "mph": 327.9,
+     "first": 0.2121,
+     "lane": "Right",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -372,8 +411,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Austin Prock",
-     "car": "1",
+     "driver": "Jordan Vandergriff",
+     "car": "24",
      "qpos_nhra": "--",
      "mov": null
     },
@@ -389,8 +428,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
+     "driver": "Matt Hagan",
+     "car": "14",
      "qpos_nhra": "--",
      "mov": null
     }
