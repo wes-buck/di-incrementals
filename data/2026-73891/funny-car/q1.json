@@ -400,9 +400,9 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.085,
+     "ft60": 1.709,
+     "ft330": 6.771,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -417,17 +417,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.079,
+     "ft60": 0.868,
+     "ft330": 2.237,
+     "ft660": 3.204,
+     "mph660": 242.71,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 4.22,
+     "mph": 218.97,
      "first": null,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Matt Hagan",
      "car": "14",
      "qpos_nhra": "--",
