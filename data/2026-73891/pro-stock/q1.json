@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.018,
+     "ft60": 0.971,
+     "ft330": 2.728,
+     "ft660": 4.197,
+     "mph660": 167.09,
+     "ft1000": 5.58,
+     "et": 6.954,
+     "mph": 153.07,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Erica Enders",
+     "car": "6",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.001,
+     "ft60": 0.971,
+     "ft330": 2.727,
+     "ft660": 4.194,
+     "mph660": 167.49,
+     "ft1000": 5.462,
+     "et": 6.532,
+     "mph": 209.1,
+     "first": 0.4399,
+     "lane": "Right",
+     "win": true,
+     "driver": "Matt Latino",
+     "car": "16",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Erica Enders",
-     "car": "6",
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Matt Latino",
-     "car": "16",
+     "driver": "Aaron Stanfield",
+     "car": "4",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
