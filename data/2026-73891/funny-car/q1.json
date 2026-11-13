@@ -96,7 +96,7 @@
      "ft1000": null,
      "et": 4.055,
      "mph": 290.19,
-     "first": null,
+     "first": 3.6077,
      "lane": "Left",
      "win": true,
      "driver": "Jason Rupert",
@@ -111,13 +111,52 @@
      "ft660": 4.894,
      "mph660": 92.38,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 7.693,
+     "mph": 78.08,
      "first": null,
      "lane": "Right",
      "win": false,
      "driver": "Bobby Bode",
      "car": "3095",
+     "qpos_nhra": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeff Arend",
+     "car": "170",
      "qpos_nhra": "--",
      "mov": null
     }
