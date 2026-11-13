@@ -53,6 +53,49 @@
   {
    "runs": [
     {
+     "rt": 0.047,
+     "ft60": 0.995,
+     "ft330": 2.772,
+     "ft660": 4.251,
+     "mph660": 166.68,
+     "ft1000": 5.523,
+     "et": 6.596,
+     "mph": 208.3,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 0.984,
+     "ft330": 2.743,
+     "ft660": 4.207,
+     "mph660": 168.11,
+     "ft1000": 5.471,
+     "et": 6.538,
+     "mph": 209.56,
+     "first": 0.0653,
+     "lane": "Right",
+     "win": true,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -64,8 +107,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Shane Tucker",
-     "car": "12",
+     "driver": "Kenny Delco",
+     "car": "150",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -83,8 +126,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Deric Kramer",
-     "car": "52",
+     "driver": "Eric Latino",
+     "car": "7",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
