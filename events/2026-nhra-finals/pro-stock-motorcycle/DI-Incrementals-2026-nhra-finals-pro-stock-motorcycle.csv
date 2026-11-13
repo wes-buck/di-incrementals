@@ -1,4 +1,6 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
-In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,2,Left,Brad Hawkes,747,,0.105,1.086,2.946,4.541,153.3,5.966,7.343,153.16,1.086,1.86,1.595,1.425,1.377,2.802,-0.14,yes,,1,1,1,1
-In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,,,,,,,,,,,,,,,,no,0-60,,,,
-In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,,,,,,,,,,,,,,,,no,0-60,,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,2,Left,Brad Hawkes,747,,0.105,1.086,2.946,4.541,153.3,5.966,7.343,153.16,1.086,1.86,1.595,1.425,1.377,2.802,-0.14,no,660-1000,3,1,3,3
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,0.001,1.107,2.9,4.417,161.27,5.745,6.89,192.74,1.107,1.793,1.517,1.328,1.145,2.473,31.47,yes,,1,3,2,2
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,0.017,1.104,2.895,4.412,160.88,5.748,6.902,194.07,1.104,1.791,1.517,1.336,1.154,2.49,33.19,yes,,2,2,1,1
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,4,Left,Marc Ingwersen,370,,,,,,,,,,,,,,,,,no,0-60,,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,4,Right,Geno Scali,351,,,,,,,,,,,,,,,,,no,0-60,,,,
