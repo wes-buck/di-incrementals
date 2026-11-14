@@ -400,6 +400,45 @@
   {
    "runs": [
     {
+     "rt": 0.084,
+     "ft60": 0.888,
+     "ft330": 2.287,
+     "ft660": 3.362,
+     "mph660": 204.98,
+     "ft1000": null,
+     "et": 4.571,
+     "mph": 183.44,
+     "first": 3.8446,
+     "lane": "Left",
+     "win": true,
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "8",
+     "mov": null
+    },
+    {
+     "rt": 0.084,
+     "ft60": 0.875,
+     "ft330": 2.892,
+     "ft660": 5.545,
+     "mph660": 82.16,
+     "ft1000": null,
+     "et": 8.415,
+     "mph": 80.66,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -411,9 +450,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Daniel Wilkerson",
-     "car": "5",
-     "qpos_nhra": "8",
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "5",
      "mov": null
     },
     {
@@ -428,9 +467,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Alexis DeJoria",
-     "car": "771",
-     "qpos_nhra": "2",
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
      "mov": null
     }
    ],
