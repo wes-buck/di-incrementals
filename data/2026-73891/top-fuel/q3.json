@@ -205,6 +205,45 @@
   {
    "runs": [
     {
+     "rt": 0.044,
+     "ft60": 0.843,
+     "ft330": 2.137,
+     "ft660": 2.999,
+     "mph660": 295.4,
+     "ft1000": null,
+     "et": 3.719,
+     "mph": 335.48,
+     "first": 6.9078,
+     "lane": "Left",
+     "win": true,
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
+     "mov": null
+    },
+    {
+     "rt": 0.042,
+     "ft60": 1.107,
+     "ft330": 4.468,
+     "ft660": 7.765,
+     "mph660": 73.89,
+     "ft1000": null,
+     "et": 10.628,
+     "mph": 85.41,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "6",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -216,9 +255,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Leah Pruett",
-     "car": "777",
-     "qpos_nhra": "3",
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
      "mov": null
     },
     {
@@ -233,9 +272,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shawn Langdon",
-     "car": "2",
-     "qpos_nhra": "6",
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "5",
      "mov": null
     }
    ],
