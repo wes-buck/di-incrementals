@@ -350,6 +350,49 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.039,
+     "ft60": 1.019,
+     "ft330": 2.786,
+     "ft660": 4.284,
+     "mph660": 163.41,
+     "ft1000": 5.593,
+     "et": 6.713,
+     "mph": 200.0,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.009,
+     "ft60": 1.011,
+     "ft330": 2.773,
+     "ft660": 4.263,
+     "mph660": 164.43,
+     "ft1000": 5.564,
+     "et": 6.675,
+     "mph": 201.88,
+     "first": 0.0681,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ]
 }
