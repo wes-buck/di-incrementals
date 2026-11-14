@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.055,
+     "ft60": 0.851,
+     "ft330": 2.169,
+     "ft660": 3.048,
+     "mph660": 290.94,
+     "ft1000": null,
+     "et": 3.78,
+     "mph": 329.18,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Will Smith",
+     "car": "200",
+     "qpos_nhra": "16",
+     "mov": null
+    },
+    {
+     "rt": 0.036,
+     "ft60": 0.842,
+     "ft330": 2.149,
+     "ft660": 3.011,
+     "mph660": 296.89,
+     "ft1000": null,
+     "et": 3.728,
+     "mph": 337.16,
+     "first": 0.0715,
+     "lane": "Right",
+     "win": true,
+     "driver": "Justin Ashley",
+     "car": "3",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,8 +99,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Will Smith",
-     "car": "200",
+     "driver": "Shawn Langdon",
+     "car": "2",
      "qpos_nhra": "16",
      "mov": null
     },
@@ -77,9 +116,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Justin Ashley",
-     "car": "3",
-     "qpos_nhra": "12",
+     "driver": "Tony Schumacher",
+     "car": "15",
+     "qpos_nhra": "9",
      "mov": null
     }
    ],
