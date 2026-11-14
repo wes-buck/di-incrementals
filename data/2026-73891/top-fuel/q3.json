@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.072,
+     "ft60": 0.858,
+     "ft330": 2.155,
+     "ft660": 3.015,
+     "mph660": 297.68,
+     "ft1000": null,
+     "et": 3.732,
+     "mph": 335.23,
+     "first": 2.4535,
+     "lane": "Left",
+     "win": true,
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
+     "mov": null
+    },
+    {
+     "rt": 0.055,
+     "ft60": 0.848,
+     "ft330": 2.328,
+     "ft660": 4.143,
+     "mph660": 117.79,
+     "ft1000": null,
+     "et": 6.202,
+     "mph": 107.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Antron Brown",
+     "car": "123",
+     "qpos_nhra": "5",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Maddi Gordon",
-     "car": "100",
-     "qpos_nhra": "2",
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
      "mov": null
     },
     {
@@ -272,9 +311,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Antron Brown",
-     "car": "123",
-     "qpos_nhra": "5",
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "4",
      "mov": null
     }
    ],
