@@ -268,6 +268,49 @@
   {
    "runs": [
     {
+     "rt": 0.049,
+     "ft60": 0.974,
+     "ft330": 2.727,
+     "ft660": 4.19,
+     "mph660": 168.24,
+     "ft1000": 5.452,
+     "et": 6.518,
+     "mph": 209.98,
+     "first": 3.7995,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dallas Glenn",
+     "car": "1",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.986,
+     "ft330": 2.98,
+     "ft660": 5.358,
+     "mph660": 93.73,
+     "ft1000": 7.882,
+     "et": 10.327,
+     "mph": 87.91,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -279,8 +322,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dallas Glenn",
-     "car": "1",
+     "driver": "Matt Latino",
+     "car": "16",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -298,8 +341,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Greg Anderson",
+     "car": "2",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
