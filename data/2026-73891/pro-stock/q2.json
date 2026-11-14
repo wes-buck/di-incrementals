@@ -225,6 +225,49 @@
   {
    "runs": [
     {
+     "rt": 0.063,
+     "ft60": 2.239,
+     "ft330": 11.127,
+     "ft660": 15.785,
+     "mph660": 58.88,
+     "ft1000": 19.296,
+     "et": 22.222,
+     "mph": 76.34,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.031,
+     "ft60": 0.977,
+     "ft330": 2.738,
+     "ft660": 4.211,
+     "mph660": 167.45,
+     "ft1000": 5.481,
+     "et": 6.641,
+     "mph": 177.32,
+     "first": 5.6138,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -236,8 +279,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Deric Kramer",
-     "car": "52",
+     "driver": "Matt Latino",
+     "car": "16",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -255,8 +298,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeg Coughlin Jr",
-     "car": "8",
+     "driver": "Kenny Delco",
+     "car": "150",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
