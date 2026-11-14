@@ -244,6 +244,45 @@
   {
    "runs": [
     {
+     "rt": 0.06,
+     "ft60": 0.865,
+     "ft330": 2.261,
+     "ft660": 3.385,
+     "mph660": 234.82,
+     "ft1000": null,
+     "et": 4.236,
+     "mph": 295.59,
+     "first": 0.1956,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "17",
+     "mov": null
+    },
+    {
+     "rt": 0.067,
+     "ft60": 0.87,
+     "ft330": 2.24,
+     "ft660": 3.307,
+     "mph660": 216.58,
+     "ft1000": null,
+     "et": 4.424,
+     "mph": 200.11,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -255,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jack Beckman",
-     "car": "3",
-     "qpos_nhra": "17",
+     "driver": "Jeff Diehl",
+     "car": "717",
+     "qpos_nhra": "14",
      "mov": null
     },
     {
@@ -272,9 +311,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Austin Prock",
-     "car": "1",
-     "qpos_nhra": "11",
+     "driver": "Terry Haddock",
+     "car": "121",
+     "qpos_nhra": "10",
      "mov": null
     }
    ],
