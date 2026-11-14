@@ -166,6 +166,45 @@
   {
    "runs": [
     {
+     "rt": 0.1,
+     "ft60": 0.838,
+     "ft330": 2.128,
+     "ft660": 3.01,
+     "mph660": 289.51,
+     "ft1000": null,
+     "et": 3.745,
+     "mph": 325.77,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.106,
+     "ft60": 0.843,
+     "ft330": 2.138,
+     "ft660": 3.004,
+     "mph660": 297.42,
+     "ft1000": null,
+     "et": 3.727,
+     "mph": 332.02,
+     "first": 0.0121,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Reed",
+     "car": "8",
+     "qpos_nhra": "12",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -177,9 +216,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
-     "qpos_nhra": "7",
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "3",
      "mov": null
     },
     {
@@ -194,9 +233,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shawn Reed",
-     "car": "8",
-     "qpos_nhra": "12",
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "6",
      "mov": null
     }
    ],
