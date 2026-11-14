@@ -53,13 +53,13 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
+     "rt": 0.119,
+     "ft60": 1.256,
+     "ft330": 4.812,
+     "ft660": 9.683,
+     "mph660": 43.97,
+     "ft1000": 15.427,
+     "et": 15.427,
      "mph": null,
      "first": null,
      "lane": "Left",

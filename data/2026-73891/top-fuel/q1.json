@@ -20,7 +20,7 @@
      "mph": 84.28,
      "first": null,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "--",
      "car": "61",
      "qpos_nhra": "--",
@@ -35,16 +35,16 @@
      "ft1000": null,
      "et": 4.262,
      "mph": 279.67,
-     "first": 3.4459,
+     "first": null,
      "lane": "Right",
-     "win": true,
+     "win": false,
      "driver": "Cameron Ferre",
      "car": "748",
      "qpos_nhra": "--",
      "mov": null
     }
    ],
-   "note": null
+   "note": "Weather conditions: air temperature 62 degrees, relative humidity 71 percent, barometer 29.77 inches,\r\nadjusted altitude 2,056 feet, track temperature 82 degrees.\r\n\r\nPlourd launched with the front end in the air, the car made a move toward the centerline.  He clicked\r\nit off.\r\n\r\nFerre was dropping cylinders from half track on and clicked it off early."
   },
   {
    "runs": [
@@ -83,7 +83,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "Massey kept it hooked up and hitting on all eight to make a good pass to start the weekend.\r\n\r\nReed with a good pass, straight down the groove. It appeared to drop a cylinder on the top end."
   },
   {
    "runs": [
