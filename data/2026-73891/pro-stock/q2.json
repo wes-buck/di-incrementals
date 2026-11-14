@@ -53,6 +53,49 @@
   {
    "runs": [
     {
+     "rt": 0.093,
+     "ft60": 0.983,
+     "ft330": 2.742,
+     "ft660": 4.217,
+     "mph660": 166.83,
+     "ft1000": 5.49,
+     "et": 6.562,
+     "mph": 209.1,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Stephen Bell",
+     "car": "439",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.037,
+     "ft60": 1.0,
+     "ft330": 2.77,
+     "ft660": 4.242,
+     "mph660": 167.51,
+     "ft1000": 5.51,
+     "et": 6.58,
+     "mph": 208.71,
+     "first": 0.0388,
+     "lane": "Right",
+     "win": true,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -64,8 +107,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Stephen Bell",
-     "car": "439",
+     "driver": "Eric Latino",
+     "car": "7",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -83,8 +126,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Greg Anderson",
+     "car": "2",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
