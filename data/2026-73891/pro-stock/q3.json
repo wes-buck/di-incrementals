@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.02,
+     "ft60": 0.981,
+     "ft330": 2.734,
+     "ft660": 4.201,
+     "mph660": 167.45,
+     "ft1000": 5.467,
+     "et": 6.535,
+     "mph": 209.85,
+     "first": 0.0372,
+     "lane": "Left",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.035,
+     "ft60": 0.983,
+     "ft330": 2.746,
+     "ft660": 4.218,
+     "mph660": 167.12,
+     "ft1000": 5.488,
+     "et": 6.557,
+     "mph": 210.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Troy Coughlin Jr",
-     "car": "10",
+     "driver": "Greg Stanfield",
+     "car": "445",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jeg Coughlin Jr",
-     "car": "8",
+     "driver": "Shane Tucker",
+     "car": "12",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
