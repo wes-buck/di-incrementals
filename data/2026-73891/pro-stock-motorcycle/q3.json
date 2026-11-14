@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.054,
+     "ft60": 1.081,
+     "ft330": 2.866,
+     "ft660": 4.379,
+     "mph660": 160.88,
+     "ft1000": 5.716,
+     "et": 6.87,
+     "mph": 193.82,
+     "first": 0.0298,
+     "lane": "Left",
+     "win": true,
+     "driver": "Chris Bostick",
+     "car": "10",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 1.069,
+     "ft330": 2.88,
+     "ft660": 4.404,
+     "mph660": 161.09,
+     "ft1000": 5.73,
+     "et": 6.868,
+     "mph": 196.5,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chris Bostick",
-     "car": "10",
+     "driver": "John Hall",
+     "car": "6",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Marc Ingwersen",
-     "car": "370",
+     "driver": "Chase Van Sant",
+     "car": "8",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
