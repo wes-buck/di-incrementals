@@ -27,9 +27,9 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.09,
+     "ft60": 0.905,
+     "ft330": 2.384,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
