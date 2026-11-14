@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.025,
+     "ft60": 0.976,
+     "ft330": 2.736,
+     "ft660": 4.208,
+     "mph660": 167.16,
+     "ft1000": 5.478,
+     "et": 6.55,
+     "mph": 208.94,
+     "first": 0.0509,
+     "lane": "Left",
+     "win": true,
+     "driver": "Eric Latino",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.076,
+     "ft60": 0.98,
+     "ft330": 2.743,
+     "ft660": 4.213,
+     "mph660": 167.61,
+     "ft1000": 5.48,
+     "et": 6.549,
+     "mph": 209.56,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Greg Anderson",
+     "car": "2",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Eric Latino",
-     "car": "7",
+     "driver": "Greg Stanfield",
+     "car": "445",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Greg Anderson",
-     "car": "2",
+     "driver": "Erica Enders",
+     "car": "6",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
