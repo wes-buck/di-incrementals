@@ -182,6 +182,49 @@
   {
    "runs": [
     {
+     "rt": 0.014,
+     "ft60": 0.974,
+     "ft330": 2.731,
+     "ft660": 4.2,
+     "mph660": 167.47,
+     "ft1000": 5.467,
+     "et": 6.537,
+     "mph": 209.46,
+     "first": 0.0885,
+     "lane": "Left",
+     "win": true,
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.029,
+     "ft60": 0.987,
+     "ft330": 2.77,
+     "ft660": 4.256,
+     "mph660": 165.92,
+     "ft1000": 5.534,
+     "et": 6.61,
+     "mph": 209.04,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Shane Tucker",
+     "car": "12",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -193,8 +236,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Troy Coughlin Jr",
-     "car": "10",
+     "driver": "Deric Kramer",
+     "car": "52",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -212,8 +255,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shane Tucker",
-     "car": "12",
+     "driver": "Jeg Coughlin Jr",
+     "car": "8",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
