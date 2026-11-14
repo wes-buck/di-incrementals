@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.146,
+     "ft60": 0.967,
+     "ft330": 2.739,
+     "ft660": 4.218,
+     "mph660": 166.5,
+     "ft1000": 5.493,
+     "et": 6.569,
+     "mph": 208.88,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Kenny Delco",
+     "car": "150",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.09,
+     "ft60": 0.987,
+     "ft330": 2.751,
+     "ft660": 4.221,
+     "mph660": 167.59,
+     "ft1000": 5.486,
+     "et": 6.554,
+     "mph": 209.36,
+     "first": 0.0712,
+     "lane": "Right",
+     "win": true,
+     "driver": "Deric Kramer",
+     "car": "52",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Kenny Delco",
-     "car": "150",
+     "driver": "Cody Anderson",
+     "car": "17",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Deric Kramer",
-     "car": "52",
+     "driver": "Troy Coughlin Jr",
+     "car": "10",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
