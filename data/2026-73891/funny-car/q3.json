@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.116,
+     "ft60": 0.89,
+     "ft330": 2.298,
+     "ft660": 3.256,
+     "mph660": 272.28,
+     "ft1000": null,
+     "et": 4.011,
+     "mph": 324.75,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "22",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.879,
+     "ft330": 2.282,
+     "ft660": 3.219,
+     "mph660": 279.61,
+     "ft1000": null,
+     "et": 3.974,
+     "mph": 321.04,
+     "first": 0.068,
+     "lane": "Right",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "21",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,8 +138,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Paul Lee",
-     "car": "6",
+     "driver": "Cory Lee",
+     "car": "13",
      "qpos_nhra": "22",
      "mov": null
     },
@@ -116,9 +155,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Bobby Bode",
-     "car": "3095",
-     "qpos_nhra": "21",
+     "driver": "Chad Green",
+     "car": "7",
+     "qpos_nhra": "20",
      "mov": null
     }
    ],
