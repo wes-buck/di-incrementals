@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.135,
+     "ft60": 0.83,
+     "ft330": 2.338,
+     "ft660": 4.25,
+     "mph660": 110.42,
+     "ft1000": null,
+     "et": 6.504,
+     "mph": 96.45,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Josh Hart",
+     "car": "77",
+     "qpos_nhra": "15",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.844,
+     "ft330": 2.127,
+     "ft660": 3.0,
+     "mph660": 292.33,
+     "ft1000": null,
+     "et": 3.73,
+     "mph": 328.86,
+     "first": 2.8353,
+     "lane": "Right",
+     "win": true,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "9",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,9 +177,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Josh Hart",
-     "car": "77",
-     "qpos_nhra": "15",
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "13",
      "mov": null
     },
     {
@@ -155,9 +194,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Spencer Massey",
-     "car": "421",
-     "qpos_nhra": "9",
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "6",
      "mov": null
     }
    ],
