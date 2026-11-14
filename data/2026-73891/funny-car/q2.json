@@ -294,9 +294,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jeff Diehl",
-     "car": "717",
-     "qpos_nhra": "14",
+     "driver": "--",
+     "car": "--",
+     "qpos_nhra": "--",
      "mov": null
     },
     {
