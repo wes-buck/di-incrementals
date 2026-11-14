@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.137,
+     "ft60": 0.892,
+     "ft330": 2.761,
+     "ft660": 5.315,
+     "mph660": 82.66,
+     "ft1000": null,
+     "et": 8.304,
+     "mph": 76.38,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "19",
+     "mov": null
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.883,
+     "ft330": 2.273,
+     "ft660": 3.25,
+     "mph660": 247.57,
+     "ft1000": null,
+     "et": 4.23,
+     "mph": 228.34,
+     "first": 4.1281,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "22",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,8 +177,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dave Richards",
-     "car": "139",
+     "driver": "Bobby Bode",
+     "car": "3095",
      "qpos_nhra": "19",
      "mov": null
     },
@@ -155,9 +194,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jordan Vandergriff",
-     "car": "24",
-     "qpos_nhra": "22",
+     "driver": "Blake Alexander",
+     "car": "256",
+     "qpos_nhra": "17",
      "mov": null
     }
    ],
