@@ -66,6 +66,45 @@
      "mov": null
     },
     {
+     "rt": 0.144,
+     "ft60": 0.913,
+     "ft330": 2.343,
+     "ft660": 3.284,
+     "mph660": 277.54,
+     "ft1000": null,
+     "et": 4.029,
+     "mph": 329.75,
+     "first": null,
+     "lane": "Right",
+     "win": true,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "21",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "22",
+     "mov": null
+    },
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -77,8 +116,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Dave Richards",
-     "car": "139",
+     "driver": "Bobby Bode",
+     "car": "3095",
      "qpos_nhra": "21",
      "mov": null
     }
