@@ -361,6 +361,45 @@
   {
    "runs": [
     {
+     "rt": 0.104,
+     "ft60": 0.882,
+     "ft330": 2.269,
+     "ft660": 3.268,
+     "mph660": 246.12,
+     "ft1000": null,
+     "et": 4.19,
+     "mph": 243.94,
+     "first": 0.7261,
+     "lane": "Left",
+     "win": true,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.91,
+     "ft330": 2.319,
+     "ft660": 3.549,
+     "mph660": 176.51,
+     "ft1000": null,
+     "et": 4.946,
+     "mph": 156.72,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -372,9 +411,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jim Campbell",
-     "car": "703",
-     "qpos_nhra": "10",
+     "driver": "Jeff Arend",
+     "car": "170",
+     "qpos_nhra": "5",
      "mov": null
     },
     {
@@ -389,9 +428,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Julie Nataas",
-     "car": "8002",
-     "qpos_nhra": "7",
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "6",
      "mov": null
     }
    ],
