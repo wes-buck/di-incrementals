@@ -244,31 +244,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.054,
+     "ft60": 0.842,
+     "ft330": 2.16,
+     "ft660": 3.28,
+     "mph660": 223.28,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 4.199,
+     "mph": 263.98,
+     "first": 1.4703,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Antron Brown",
      "car": "123",
      "qpos_nhra": "5",
-     "mov": null
+     "mov": 1.4703
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.078,
+     "ft60": 0.853,
+     "ft330": 2.246,
+     "ft660": 3.782,
+     "mph660": 137.79,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 5.645,
+     "mph": 115.89,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -281,5 +281,5 @@
    "note": null
   }
  ],
- "changed_at": 1794770606
+ "changed_at": 1794771354
 }
