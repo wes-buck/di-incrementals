@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.068,
+     "ft60": 0.874,
+     "ft330": 2.244,
+     "ft660": 3.155,
+     "mph660": 285.53,
+     "ft1000": null,
+     "et": 3.887,
+     "mph": 332.67,
+     "first": 0.0787,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": 0.0787
+    },
+    {
+     "rt": 0.074,
+     "ft60": 0.898,
+     "ft330": 2.29,
+     "ft660": 3.218,
+     "mph660": 279.96,
+     "ft1000": null,
+     "et": 3.959,
+     "mph": 329.83,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Jordan Vandergriff",
+     "car": "24",
+     "qpos_nhra": "7",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Alexis DeJoria",
-     "car": "771",
-     "qpos_nhra": "2",
+     "driver": "Daniel Wilkerson",
+     "car": "5",
+     "qpos_nhra": "8",
      "mov": null
     },
     {
@@ -116,14 +155,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jordan Vandergriff",
-     "car": "24",
-     "qpos_nhra": "7",
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "16",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794779327
+ "changed_at": 1794779497
 }
