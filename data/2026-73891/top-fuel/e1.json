@@ -49,6 +49,45 @@
   {
    "runs": [
     {
+     "rt": 0.05,
+     "ft60": 0.857,
+     "ft330": 2.313,
+     "ft660": 3.936,
+     "mph660": 129.35,
+     "ft1000": null,
+     "et": 5.936,
+     "mph": 108.63,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Spencer Massey",
+     "car": "421",
+     "qpos_nhra": "10",
+     "mov": null
+    },
+    {
+     "rt": 0.083,
+     "ft60": 0.854,
+     "ft330": 2.152,
+     "ft660": 3.014,
+     "mph660": 295.34,
+     "ft1000": null,
+     "et": 3.731,
+     "mph": 337.58,
+     "first": 2.1724,
+     "lane": "Right",
+     "win": true,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "7",
+     "mov": 2.1724
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -60,9 +99,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Spencer Massey",
-     "car": "421",
-     "qpos_nhra": "10",
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "3",
      "mov": null
     },
     {
@@ -77,14 +116,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
-     "qpos_nhra": "7",
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "14",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794769555
+ "changed_at": 1794769798
 }
