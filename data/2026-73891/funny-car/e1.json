@@ -127,6 +127,45 @@
   {
    "runs": [
     {
+     "rt": 0.072,
+     "ft60": 0.883,
+     "ft330": 2.494,
+     "ft660": 4.215,
+     "mph660": 126.12,
+     "ft1000": null,
+     "et": 6.191,
+     "mph": 111.73,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
+     "mov": null
+    },
+    {
+     "rt": 0.085,
+     "ft60": 0.899,
+     "ft330": 2.302,
+     "ft660": 3.247,
+     "mph660": 270.16,
+     "ft1000": null,
+     "et": 4.03,
+     "mph": 304.8,
+     "first": 2.1489,
+     "lane": "Right",
+     "win": true,
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "16",
+     "mov": 2.1489
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -138,9 +177,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Ron Capps",
-     "car": "28",
-     "qpos_nhra": "1",
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
      "mov": null
     },
     {
@@ -155,14 +194,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Jim Campbell",
-     "car": "703",
-     "qpos_nhra": "16",
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "15",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794772496
+ "changed_at": 1794772831
 }
