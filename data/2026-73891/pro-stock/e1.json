@@ -268,6 +268,49 @@
   {
    "runs": [
     {
+     "rt": 0.028,
+     "ft60": 0.978,
+     "ft330": 2.728,
+     "ft660": 4.195,
+     "mph660": 167.43,
+     "ft1000": 5.464,
+     "et": 6.532,
+     "mph": 210.41,
+     "first": 0.0127,
+     "lane": "Left",
+     "win": true,
+     "driver": "Greg Stanfield",
+     "car": "445",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0127
+    },
+    {
+     "rt": 0.036,
+     "ft60": 0.974,
+     "ft330": 2.727,
+     "ft660": 4.196,
+     "mph660": 167.59,
+     "ft1000": 5.466,
+     "et": 6.536,
+     "mph": 209.52,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Aaron Stanfield",
+     "car": "4",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -279,8 +322,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Greg Stanfield",
-     "car": "445",
+     "driver": "Dallas Glenn",
+     "car": "1",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -298,9 +341,9 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Aaron Stanfield",
-     "car": "4",
-     "class": "PRO",
+     "driver": "--",
+     "car": "--",
+     "class": "--",
      "dial": "--",
      "ovun": "--",
      "mov": null
@@ -309,5 +352,5 @@
    "note": null
   }
  ],
- "changed_at": 1794774906
+ "changed_at": 1794775071
 }
