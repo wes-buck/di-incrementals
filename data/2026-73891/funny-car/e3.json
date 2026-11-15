@@ -49,14 +49,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.081,
+     "ft60": 0.876,
+     "ft330": 2.254,
+     "ft660": 3.169,
+     "mph660": 284.62,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.906,
+     "mph": 332.18,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -66,25 +66,25 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.05,
+     "ft60": 0.882,
+     "ft330": 2.268,
+     "ft660": 3.193,
+     "mph660": 282.07,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.929,
+     "mph": 332.84,
+     "first": 0.0088,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "JR Todd",
      "car": "373",
      "qpos_nhra": "3",
-     "mov": null
+     "mov": 0.0088
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794784600
+ "changed_at": 1794784784
 }
