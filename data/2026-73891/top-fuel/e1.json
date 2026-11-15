@@ -166,31 +166,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.075,
+     "ft60": 0.844,
+     "ft330": 2.136,
+     "ft660": 2.994,
+     "mph660": 296.76,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.715,
+     "mph": 334.07,
+     "first": 1.4836,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Doug Kalitta",
      "car": "1",
      "qpos_nhra": "1",
-     "mov": null
+     "mov": 1.4836
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.142,
+     "ft60": 0.862,
+     "ft330": 2.208,
+     "ft660": 3.546,
+     "mph660": 159.32,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 5.131,
+     "mph": 138.2,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -203,5 +203,5 @@
    "note": null
   }
  ],
- "changed_at": 1794770203
+ "changed_at": 1794770282
 }
