@@ -53,14 +53,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": -0.063,
+     "ft60": 1.075,
+     "ft330": 2.851,
+     "ft660": 4.349,
+     "mph660": 163.57,
+     "ft1000": 5.66,
+     "et": 6.782,
+     "mph": 199.58,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -72,17 +72,17 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.025,
+     "ft60": 1.051,
+     "ft330": 2.837,
+     "ft660": 4.351,
+     "mph660": 161.88,
+     "ft1000": 5.671,
+     "et": 6.806,
+     "mph": 197.39,
      "first": null,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Chase Van Sant",
      "car": "8",
      "class": "PSM",
@@ -92,7 +92,50 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.064,
+     "ft60": 1.086,
+     "ft330": 2.885,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.016,
+     "ft60": 1.093,
+     "ft330": 2.88,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Chris Bostick",
+     "car": "10",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ],
- "changed_at": 1794775492
+ "changed_at": 1794775577
 }
