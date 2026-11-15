@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "4:08 p.m. Weather conditions: air temperature 67 degrees, relative humidity 55 percent, barometer 29.90 inches, adjusted altitude 2,166 feet, track temperature 104 degrees.\r\n\r\nLaughlin gets to half track and the bike goes silent, not sure why."
   },
   {
    "runs": [
@@ -395,5 +395,5 @@
    "note": null
   }
  ],
- "changed_at": 1794709326
+ "changed_at": 1794715159
 }
