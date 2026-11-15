@@ -13,11 +13,11 @@
      "rt": 0.02,
      "ft60": 1.055,
      "ft330": 2.866,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "ft660": 4.402,
+     "mph660": 160.19,
+     "ft1000": 5.734,
+     "et": 6.875,
+     "mph": 196.1,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -32,6 +32,49 @@
      "rt": 0.038,
      "ft60": 1.07,
      "ft330": 2.85,
+     "ft660": 4.356,
+     "mph660": 163.12,
+     "ft1000": 5.669,
+     "et": 6.796,
+     "mph": 198.38,
+     "first": 0.0612,
+     "lane": "Right",
+     "win": true,
+     "driver": "John Hall",
+     "car": "6",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0612
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
+     "ft660": null,
+     "mph660": null,
+     "ft1000": null,
+     "et": null,
+     "mph": null,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Angie Smith",
+     "car": "4",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": null,
+     "ft60": null,
+     "ft330": null,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "John Hall",
-     "car": "6",
+     "driver": "Chase Van Sant",
+     "car": "8",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -51,5 +94,5 @@
    "note": null
   }
  ],
- "changed_at": 1794775409
+ "changed_at": 1794775492
 }
