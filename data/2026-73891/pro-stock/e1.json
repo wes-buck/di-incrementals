@@ -96,17 +96,17 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.036,
+     "ft60": 0.98,
+     "ft330": 2.734,
+     "ft660": 4.204,
+     "mph660": 167.01,
+     "ft1000": 5.476,
+     "et": 6.549,
+     "mph": 209.14,
+     "first": 0.2381,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Troy Coughlin Jr",
      "car": "10",
      "class": "PRO",
@@ -115,14 +115,14 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": -0.362,
+     "ft60": 1.808,
+     "ft330": 7.387,
+     "ft660": 10.867,
+     "mph660": 73.42,
+     "ft1000": 14.076,
+     "et": 17.185,
+     "mph": 69.4,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -137,5 +137,5 @@
    "note": null
   }
  ],
- "changed_at": 1794774392
+ "changed_at": 1794774475
 }
