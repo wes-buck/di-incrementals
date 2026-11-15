@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.022,
+     "ft60": 0.978,
+     "ft330": 2.736,
+     "ft660": 4.202,
+     "mph660": 167.8,
+     "ft1000": 5.467,
+     "et": 6.535,
+     "mph": 209.52,
+     "first": 0.0041,
+     "lane": "Left",
+     "win": true,
+     "driver": "Dave Connolly",
+     "car": "7",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0041
+    },
+    {
+     "rt": 0.019,
+     "ft60": 0.981,
+     "ft330": 2.741,
+     "ft660": 4.208,
+     "mph660": 168.05,
+     "ft1000": 5.474,
+     "et": 6.542,
+     "mph": 209.62,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Cody Anderson",
+     "car": "17",
+     "class": "PRO",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Dave Connolly",
-     "car": "7",
+     "driver": "Deric Kramer",
+     "car": "52",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Cody Anderson",
-     "car": "17",
+     "driver": "Stephen Bell",
+     "car": "439",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
@@ -51,5 +94,5 @@
    "note": null
   }
  ],
- "changed_at": 1794774010
+ "changed_at": 1794774227
 }
