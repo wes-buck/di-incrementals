@@ -311,17 +311,17 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 2.08,
+     "ft60": 4.631,
+     "ft330": 10.397,
+     "ft660": 14.627,
+     "mph660": 59.72,
+     "ft1000": 18.34,
+     "et": 21.92,
+     "mph": 60.26,
      "first": null,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Dallas Glenn",
      "car": "1",
      "class": "PRO",
@@ -352,5 +352,5 @@
    "note": null
   }
  ],
- "changed_at": 1794775071
+ "changed_at": 1794775156
 }
