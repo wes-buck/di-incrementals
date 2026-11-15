@@ -10,6 +10,49 @@
   {
    "runs": [
     {
+     "rt": 0.048,
+     "ft60": 1.057,
+     "ft330": 2.848,
+     "ft660": 4.373,
+     "mph660": 160.52,
+     "ft1000": 5.705,
+     "et": 6.843,
+     "mph": 196.93,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Chase Van Sant",
+     "car": "8",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.04,
+     "ft60": 1.057,
+     "ft330": 2.845,
+     "ft660": 4.359,
+     "mph660": 161.59,
+     "ft1000": 5.683,
+     "et": 6.816,
+     "mph": 197.88,
+     "first": 0.0351,
+     "lane": "Right",
+     "win": true,
+     "driver": "Richard Gadson",
+     "car": "1",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0351
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,8 +64,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Chase Van Sant",
-     "car": "8",
+     "driver": "Geno Scali",
+     "car": "351",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -40,8 +83,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Richard Gadson",
-     "car": "1",
+     "driver": "Ryan Oehler",
+     "car": "3284",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -51,5 +94,5 @@
    "note": null
   }
  ],
- "changed_at": 1794780541
+ "changed_at": 1794780631
 }
