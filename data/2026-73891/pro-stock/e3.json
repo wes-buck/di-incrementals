@@ -10,33 +10,33 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.048,
+     "ft60": 0.973,
+     "ft330": 2.726,
+     "ft660": 4.194,
+     "mph660": 167.26,
+     "ft1000": 5.464,
+     "et": 6.536,
+     "mph": 209.2,
+     "first": 0.0024,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Matt Latino",
      "car": "16",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.0024
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.046,
+     "ft60": 0.984,
+     "ft330": 2.736,
+     "ft660": 4.204,
+     "mph660": 167.59,
+     "ft1000": 5.472,
+     "et": 6.54,
+     "mph": 210.31,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -51,5 +51,5 @@
    "note": null
   }
  ],
- "changed_at": 1794785145
+ "changed_at": 1794785232
 }
