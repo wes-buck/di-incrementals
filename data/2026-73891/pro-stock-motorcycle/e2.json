@@ -96,6 +96,49 @@
   {
    "runs": [
     {
+     "rt": 0.031,
+     "ft60": 1.053,
+     "ft330": 2.827,
+     "ft660": 4.329,
+     "mph660": 163.14,
+     "ft1000": 5.64,
+     "et": 6.757,
+     "mph": 200.68,
+     "first": 0.0592,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0592
+    },
+    {
+     "rt": 0.035,
+     "ft60": 1.063,
+     "ft330": 2.845,
+     "ft660": 4.357,
+     "mph660": 161.79,
+     "ft1000": 5.68,
+     "et": 6.812,
+     "mph": 198.5,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Joey Gladstone",
+     "car": "7",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -107,8 +150,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Matt Smith",
-     "car": "3",
+     "driver": "John Hall",
+     "car": "6",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -126,8 +169,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Joey Gladstone",
-     "car": "7",
+     "driver": "Gaige Herrera",
+     "car": "79",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -137,5 +180,5 @@
    "note": null
   }
  ],
- "changed_at": 1794780720
+ "changed_at": 1794780811
 }
