@@ -205,31 +205,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.071,
+     "ft60": 0.897,
+     "ft330": 2.27,
+     "ft660": 3.185,
+     "mph660": 282.54,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.934,
+     "mph": 313.88,
+     "first": 0.0231,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Cruz Pedregon",
      "car": "71",
      "qpos_nhra": "5",
-     "mov": null
+     "mov": 0.0231
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.097,
+     "ft60": 0.883,
+     "ft330": 2.251,
+     "ft660": 3.18,
+     "mph660": 277.66,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.931,
+     "mph": 332.34,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -242,5 +242,5 @@
    "note": null
   }
  ],
- "changed_at": 1794773018
+ "changed_at": 1794773182
 }
