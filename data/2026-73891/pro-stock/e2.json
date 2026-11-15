@@ -147,7 +147,7 @@
      "ft1000": 5.461,
      "et": 6.535,
      "mph": 208.94,
-     "first": null,
+     "first": 4.0441,
      "lane": "Left",
      "win": true,
      "driver": "Matt Latino",
@@ -163,9 +163,9 @@
      "ft330": 3.024,
      "ft660": 5.477,
      "mph660": 90.75,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "ft1000": 8.077,
+     "et": 10.593,
+     "mph": 85.63,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -180,5 +180,5 @@
    "note": null
   }
  ],
- "changed_at": 1794780449
+ "changed_at": 1794780535
 }
