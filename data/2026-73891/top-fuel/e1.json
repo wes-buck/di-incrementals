@@ -283,31 +283,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.063,
+     "ft60": 0.87,
+     "ft330": 2.201,
+     "ft660": 3.096,
+     "mph660": 284.75,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.845,
+     "mph": 319.9,
+     "first": 1.6372,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Shawn Langdon",
      "car": "2",
      "qpos_nhra": "6",
-     "mov": null
+     "mov": 1.6372
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.051,
+     "ft60": 0.86,
+     "ft330": 2.379,
+     "ft660": 3.827,
+     "mph660": 152.31,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 5.494,
+     "mph": 130.95,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -320,5 +320,5 @@
    "note": null
   }
  ],
- "changed_at": 1794771438
+ "changed_at": 1794771521
 }
