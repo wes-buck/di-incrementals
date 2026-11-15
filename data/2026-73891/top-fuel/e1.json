@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.204,
+     "ft60": 0.84,
+     "ft330": 2.116,
+     "ft660": 2.994,
+     "mph660": 288.33,
+     "ft1000": null,
+     "et": 3.733,
+     "mph": 328.46,
+     "first": 0.2539,
+     "lane": "Left",
+     "win": true,
+     "driver": "Tony Stewart",
+     "car": "14",
+     "qpos_nhra": "3",
+     "mov": 0.2539
+    },
+    {
+     "rt": 0.101,
+     "ft60": 0.85,
+     "ft330": 2.151,
+     "ft660": 3.157,
+     "mph660": 238.68,
+     "ft1000": null,
+     "et": 4.089,
+     "mph": 242.54,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clay Millican",
+     "car": "51",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Tony Stewart",
-     "car": "14",
-     "qpos_nhra": "3",
+     "driver": "Maddi Gordon",
+     "car": "100",
+     "qpos_nhra": "2",
      "mov": null
     },
     {
@@ -116,14 +155,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Clay Millican",
-     "car": "51",
-     "qpos_nhra": "14",
+     "driver": "Cameron Ferre",
+     "car": "748",
+     "qpos_nhra": "15",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794769798
+ "changed_at": 1794769960
 }
