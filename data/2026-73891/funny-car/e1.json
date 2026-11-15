@@ -283,31 +283,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.068,
+     "ft60": 0.888,
+     "ft330": 2.281,
+     "ft660": 3.201,
+     "mph660": 281.89,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.946,
+     "mph": 325.92,
+     "first": 0.0283,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Daniel Wilkerson",
      "car": "5",
      "qpos_nhra": "8",
-     "mov": null
+     "mov": 0.0283
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.054,
+     "ft60": 0.897,
+     "ft330": 2.296,
+     "ft660": 3.241,
+     "mph660": 275.79,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.988,
+     "mph": 328.06,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -320,5 +320,5 @@
    "note": null
   }
  ],
- "changed_at": 1794773516
+ "changed_at": 1794773680
 }
