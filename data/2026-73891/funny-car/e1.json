@@ -88,6 +88,45 @@
   {
    "runs": [
     {
+     "rt": 0.071,
+     "ft60": 0.887,
+     "ft330": 2.287,
+     "ft660": 3.218,
+     "mph660": 280.72,
+     "ft1000": null,
+     "et": 3.956,
+     "mph": 331.28,
+     "first": 0.3624,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "3",
+     "mov": 0.3624
+    },
+    {
+     "rt": 0.1,
+     "ft60": 0.917,
+     "ft330": 2.305,
+     "ft660": 3.287,
+     "mph660": 245.23,
+     "ft1000": null,
+     "et": 4.289,
+     "mph": 221.23,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Julie Nataas",
+     "car": "8002",
+     "qpos_nhra": "14",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -99,9 +138,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "3",
+     "driver": "Ron Capps",
+     "car": "28",
+     "qpos_nhra": "1",
      "mov": null
     },
     {
@@ -116,14 +155,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Julie Nataas",
-     "car": "8002",
-     "qpos_nhra": "14",
+     "driver": "Jim Campbell",
+     "car": "703",
+     "qpos_nhra": "16",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794772336
+ "changed_at": 1794772496
 }
