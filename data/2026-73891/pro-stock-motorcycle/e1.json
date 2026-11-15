@@ -269,13 +269,13 @@
    "runs": [
     {
      "rt": 0.018,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "ft60": 1.063,
+     "ft330": 2.85,
+     "ft660": 4.363,
+     "mph660": 162.08,
+     "ft1000": 5.683,
+     "et": 6.814,
+     "mph": 197.77,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -288,26 +288,69 @@
     },
     {
      "rt": 0.029,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "ft60": 1.064,
+     "ft330": 2.849,
+     "ft660": 4.352,
+     "mph660": 163.22,
+     "ft1000": 5.662,
+     "et": 6.78,
+     "mph": 200.86,
+     "first": 0.0231,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Richard Gadson",
      "car": "1",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
+     "mov": 0.0231
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.024,
+     "ft60": 1.162,
+     "ft330": 3.052,
+     "ft660": 4.615,
+     "mph660": 156.66,
+     "ft1000": 5.983,
+     "et": 7.245,
+     "mph": 165.8,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Alex Laughlin",
+     "car": "40",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
      "mov": null
+    },
+    {
+     "rt": 0.097,
+     "ft60": 1.038,
+     "ft330": 2.797,
+     "ft660": 4.282,
+     "mph660": 165.01,
+     "ft1000": 5.578,
+     "et": 6.686,
+     "mph": 202.48,
+     "first": 0.4864,
+     "lane": "Right",
+     "win": true,
+     "driver": "Gaige Herrera",
+     "car": "79",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.4864
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794776074
+ "changed_at": 1794776156
 }
