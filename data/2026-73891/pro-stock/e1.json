@@ -53,33 +53,33 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.038,
+     "ft60": 0.997,
+     "ft330": 2.763,
+     "ft660": 4.23,
+     "mph660": 167.88,
+     "ft1000": 5.495,
+     "et": 6.562,
+     "mph": 209.36,
+     "first": 0.0356,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Deric Kramer",
      "car": "52",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.0356
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.077,
+     "ft60": 0.992,
+     "ft330": 2.747,
+     "ft660": 4.216,
+     "mph660": 167.26,
+     "ft1000": 5.487,
+     "et": 6.558,
+     "mph": 209.95,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -94,5 +94,5 @@
    "note": null
   }
  ],
- "changed_at": 1794774227
+ "changed_at": 1794774309
 }
