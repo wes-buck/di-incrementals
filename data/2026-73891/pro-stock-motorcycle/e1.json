@@ -139,6 +139,49 @@
   {
    "runs": [
     {
+     "rt": 0.025,
+     "ft60": 1.1,
+     "ft330": 2.906,
+     "ft660": 4.433,
+     "mph660": 160.14,
+     "ft1000": 5.77,
+     "et": 6.915,
+     "mph": 196.02,
+     "first": null,
+     "lane": "Left",
+     "win": true,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": -0.01,
+     "ft60": 1.074,
+     "ft330": 2.854,
+     "ft660": 4.356,
+     "mph660": 163.37,
+     "ft1000": 5.666,
+     "et": 6.792,
+     "mph": 198.29,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Clayton Howey",
+     "car": "7002",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -150,8 +193,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Geno Scali",
-     "car": "351",
+     "driver": "GT Tonglet",
+     "car": "485",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -169,8 +212,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Clayton Howey",
-     "car": "7002",
+     "driver": "Ryan Oehler",
+     "car": "3284",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -180,5 +223,5 @@
    "note": null
   }
  ],
- "changed_at": 1794775663
+ "changed_at": 1794775744
 }
