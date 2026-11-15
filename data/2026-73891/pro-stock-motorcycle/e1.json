@@ -10,9 +10,9 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.02,
+     "ft60": 1.055,
+     "ft330": 2.866,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -29,9 +29,9 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
+     "rt": 0.038,
+     "ft60": 1.07,
+     "ft330": 2.85,
      "ft660": null,
      "mph660": null,
      "ft1000": null,
@@ -51,5 +51,5 @@
    "note": null
   }
  ],
- "changed_at": 1794775244
+ "changed_at": 1794775409
 }
