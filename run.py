@@ -26,6 +26,7 @@ import scrape  # noqa: E402
 
 DATA_ROOT = os.environ.get("DI_DATA_DIR", "data")
 FULL_REFRESH = os.environ.get("DI_FULL_REFRESH") == "1"   # set to re-pull every round
+SETTLE_SECS = 2 * 3600   # a finished round is re-checked until it has gone this long without changing
 SERIES_URL = "https://www.nhra.com/results/{year}/nhra-mission-foods-drag-racing-series"
 CLASS_NAMES = {"pro-mod": "Pro Mod", "top-fuel": "Top Fuel", "funny-car": "Funny Car",
                "pro-stock": "Pro Stock", "pro-stock-motorcycle": "Pro Stock Motorcycle"}
@@ -121,10 +122,21 @@ def pull(year, event, cls):
     except Exception as e:  # NHRA hiccup: fall back to what we already have on disk
         print(f"warn: round list for {cls} failed ({e}); using saved rounds", file=sys.stderr)
         rnds = sorted(f[:-5] for f in os.listdir(data_dir) if f.endswith(".json"))
+    now = int(time.time())
     for rnd in rnds:
         saved = os.path.join(data_dir, f"{rnd}.json")
-        # a round is finished once a later one is listed; no need to ask NHRA for it again
-        if os.path.exists(saved) and rnd != rnds[-1] and not FULL_REFRESH:
+        old = None
+        if os.path.exists(saved):
+            try:
+                old = json.load(open(saved))
+            except Exception:
+                old = None
+        # A round is finished once a later one is listed, but NHRA sometimes lists the next round
+        # (even a placeholder pairing) before the last one is fully posted. So a finished round keeps
+        # being re-pulled until its results have gone SETTLE_SECS without changing; after that it
+        # is left alone. A saved copy with no change stamp (older format) gets one re-pull.
+        if old and rnd != rnds[-1] and not FULL_REFRESH and now - old.get("changed_at", 0) > SETTLE_SECS \
+                and "changed_at" in old:
             pulled.append(rnd.upper())
             continue
         try:
@@ -138,8 +150,10 @@ def pull(year, event, cls):
             continue
         if not pairs:
             continue
+        changed_at = old.get("changed_at", now) if old and old.get("pairs") == json.loads(json.dumps(pairs)) else now
         json.dump({"source_url": url, "year": int(year), "event_id": event, "class": cls,
-                   "round": rnd.upper(), "event_name": name, "event_date": date, "pairs": pairs},
+                   "round": rnd.upper(), "event_name": name, "event_date": date, "pairs": pairs,
+                   "changed_at": changed_at},
                   open(os.path.join(data_dir, f"{rnd}.json"), "w"), indent=1)
         pulled.append(rnd.upper())
     return data_dir, pulled
