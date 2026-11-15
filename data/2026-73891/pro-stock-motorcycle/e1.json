@@ -187,9 +187,9 @@
      "ft330": 2.887,
      "ft660": 4.413,
      "mph660": 160.58,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "ft1000": 5.742,
+     "et": 6.878,
+     "mph": 197.54,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -206,10 +206,10 @@
      "ft330": 2.851,
      "ft660": 4.345,
      "mph660": 164.15,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "ft1000": 5.647,
+     "et": 6.762,
+     "mph": 201.07,
+     "first": 0.098,
      "lane": "Right",
      "win": true,
      "driver": "Ryan Oehler",
@@ -221,7 +221,50 @@
     }
    ],
    "note": null
+  },
+  {
+   "runs": [
+    {
+     "rt": 0.025,
+     "ft60": 1.053,
+     "ft330": 2.824,
+     "ft660": 4.32,
+     "mph660": 164.23,
+     "ft1000": 5.62,
+     "et": 6.731,
+     "mph": 201.7,
+     "first": 0.1703,
+     "lane": "Left",
+     "win": true,
+     "driver": "Matt Smith",
+     "car": "3",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.1703
+    },
+    {
+     "rt": 0.008,
+     "ft60": 1.1,
+     "ft330": 2.92,
+     "ft660": 4.45,
+     "mph660": 160.5,
+     "ft1000": 5.78,
+     "et": 6.918,
+     "mph": 196.99,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Marc Ingwersen",
+     "car": "370",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    }
+   ],
+   "note": null
   }
  ],
- "changed_at": 1794775908
+ "changed_at": 1794775991
 }
