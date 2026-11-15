@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.056,
+     "ft60": 0.874,
+     "ft330": 2.263,
+     "ft660": 3.195,
+     "mph660": 281.36,
+     "ft1000": null,
+     "et": 3.93,
+     "mph": 333.08,
+     "first": 0.0023,
+     "lane": "Left",
+     "win": true,
+     "driver": "JR Todd",
+     "car": "373",
+     "qpos_nhra": "3",
+     "mov": 0.0023
+    },
+    {
+     "rt": 0.048,
+     "ft60": 0.881,
+     "ft330": 2.272,
+     "ft660": 3.195,
+     "mph660": 282.42,
+     "ft1000": null,
+     "et": 3.94,
+     "mph": 323.35,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "11",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "JR Todd",
-     "car": "373",
-     "qpos_nhra": "3",
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
      "mov": null
     },
     {
@@ -38,14 +77,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Bobby Bode",
-     "car": "3095",
-     "qpos_nhra": "11",
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "5",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794778974
+ "changed_at": 1794779146
 }
