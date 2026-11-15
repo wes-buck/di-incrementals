@@ -53,6 +53,49 @@
   {
    "runs": [
     {
+     "rt": 0.022,
+     "ft60": 1.133,
+     "ft330": 2.952,
+     "ft660": 4.474,
+     "mph660": 160.65,
+     "ft1000": 5.803,
+     "et": 6.937,
+     "mph": 197.59,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Geno Scali",
+     "car": "351",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": null
+    },
+    {
+     "rt": 0.103,
+     "ft60": 1.054,
+     "ft330": 2.826,
+     "ft660": 4.325,
+     "mph660": 163.28,
+     "ft1000": 5.637,
+     "et": 6.761,
+     "mph": 199.64,
+     "first": 0.0955,
+     "lane": "Right",
+     "win": true,
+     "driver": "Ryan Oehler",
+     "car": "3284",
+     "class": "PSM",
+     "dial": "--",
+     "ovun": "--",
+     "mov": 0.0955
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -64,8 +107,8 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Geno Scali",
-     "car": "351",
+     "driver": "Matt Smith",
+     "car": "3",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -83,8 +126,8 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Ryan Oehler",
-     "car": "3284",
+     "driver": "Joey Gladstone",
+     "car": "7",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
@@ -94,5 +137,5 @@
    "note": null
   }
  ],
- "changed_at": 1794780631
+ "changed_at": 1794780720
 }
