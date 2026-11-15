@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.071,
+     "ft60": 0.895,
+     "ft330": 3.382,
+     "ft660": 6.396,
+     "mph660": 75.45,
+     "ft1000": null,
+     "et": 9.387,
+     "mph": 79.93,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Jack Beckman",
+     "car": "3",
+     "qpos_nhra": "6",
+     "mov": null
+    },
+    {
+     "rt": 0.065,
+     "ft60": 0.916,
+     "ft330": 2.337,
+     "ft660": 3.278,
+     "mph660": 273.11,
+     "ft1000": null,
+     "et": 4.047,
+     "mph": 315.42,
+     "first": 5.3461,
+     "lane": "Right",
+     "win": true,
+     "driver": "Bobby Bode",
+     "car": "3095",
+     "qpos_nhra": "11",
+     "mov": 5.3461
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Jack Beckman",
-     "car": "3",
-     "qpos_nhra": "6",
+     "driver": "Austin Prock",
+     "car": "1",
+     "qpos_nhra": "4",
      "mov": null
     },
     {
@@ -38,14 +77,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Bobby Bode",
-     "car": "3095",
-     "qpos_nhra": "11",
+     "driver": "Paul Lee",
+     "car": "6",
+     "qpos_nhra": "13",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794772008
+ "changed_at": 1794772171
 }
