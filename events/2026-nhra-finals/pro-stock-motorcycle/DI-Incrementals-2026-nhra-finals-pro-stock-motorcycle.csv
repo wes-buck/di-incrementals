@@ -1,4 +1,5 @@
 Event,Class,Round,Pair,Lane,Driver,Car,Result,RT,60',330',660',660 MPH,1000',ET,MPH,Split 0-60,Split 60-330,Split 330-660,Split 660-1000,Split 1000-1320,Back half 660-1320,Back-half MPH gain,Clean run,Went away,ET rank,60' rank,330' rank,660' rank
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,1,Right,Alex Laughlin,40,,0.114,1.252,4.011,7.71,58.26,11.992,16.523,46.05,1.252,2.759,3.699,4.282,4.531,8.813,-12.21,no,0-60,16,,,
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,2,Left,Brad Hawkes,747,,0.105,1.086,2.946,4.541,153.3,5.966,7.343,153.16,1.086,1.86,1.595,1.425,1.377,2.802,-0.14,no,660-1000,14,12,15,15
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,2,Right,GT Tonglet,485,,0.13,1.072,2.869,4.392,161.09,5.72,6.854,198.06,1.072,1.797,1.523,1.328,1.134,2.462,36.97,yes,,9,10,9,9
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Left,Malcolm Phillips Jr,461,,0.001,1.107,2.9,4.417,161.27,5.745,6.89,192.74,1.107,1.793,1.517,1.328,1.145,2.473,31.47,yes,,11,15,13,13
@@ -6,7 +7,7 @@ In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,3,Right,Chris Bostick,10,,0.
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,4,Left,Marc Ingwersen,370,,0.1,1.071,2.88,4.405,160.61,5.735,6.875,196.1,1.071,1.809,1.525,1.33,1.14,2.47,35.49,yes,,10,9,10,10
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,4,Right,Geno Scali,351,,0.147,1.104,2.902,4.428,160.61,5.766,6.952,179.09,1.104,1.798,1.526,1.338,1.186,2.524,18.48,yes,,13,14,14,14
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,5,Left,Clayton Howey,7002,,0.01,1.067,2.852,4.358,162.72,5.671,6.799,198.12,1.067,1.785,1.506,1.313,1.128,2.441,35.4,yes,,6,7,8,6
-In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,5,Right,Steve Johnson,9,,0.061,1.113,3.999,7.921,54.42,12.616,18.26,33.47,1.113,2.886,3.922,4.695,5.644,10.339,-20.95,no,60-330,16,16,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,5,Right,Steve Johnson,9,,0.061,1.113,3.999,7.921,54.42,12.616,18.26,33.47,1.113,2.886,3.922,4.695,5.644,10.339,-20.95,no,60-330,17,16,,
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,6,Left,Chase Van Sant,8,,0.054,1.053,2.848,4.368,161.09,5.694,6.828,197.97,1.053,1.795,1.52,1.326,1.134,2.46,36.88,yes,,7,2,7,8
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,6,Right,John Hall,6,,0.034,1.072,2.896,4.406,162.84,5.718,6.839,200.47,1.072,1.824,1.51,1.312,1.121,2.433,37.63,yes,,8,11,12,11
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q1,7,Left,Angie Smith,4,,0.113,1.067,2.837,4.361,154.09,5.978,7.683,123.09,1.067,1.77,1.524,1.617,1.705,3.322,-31.0,no,660-1000,15,8,4,7
@@ -46,6 +47,22 @@ In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q3,7,Left,Joey Gladstone,7,,0.0
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q3,7,Right,Angie Smith,4,,0.109,1.064,2.839,4.343,163.02,5.658,6.784,198.85,1.064,1.775,1.504,1.315,1.126,2.441,35.83,yes,,3,6,4,3
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q3,8,Left,Matt Smith,3,,0.022,1.05,2.826,4.32,164.37,5.62,6.732,201.46,1.05,1.776,1.494,1.3,1.112,2.412,37.09,yes,,1,1,2,2
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q3,8,Right,Clayton Howey,7002,,-0.004,1.072,2.861,4.364,163.0,5.677,6.808,197.83,1.072,1.789,1.503,1.313,1.131,2.444,34.83,yes,,6,9,8,8
-In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,1,Right,Alex Laughlin,40,,,,,,,,,,,,,,,,,no,0-60,,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,1,Right,Alex Laughlin,40,,0.079,1.151,3.055,4.949,114.25,7.133,9.482,88.57,1.151,1.904,1.894,2.184,2.349,4.533,-25.68,no,0-60,15,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,2,Left,Brad Hawkes,747,,0.141,1.566,4.23,7.391,93.35,9.278,10.725,154.14,1.566,2.664,3.161,1.887,1.447,3.334,60.79,no,0-60,16,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,2,Right,Chris Bostick,10,,0.012,1.072,2.862,4.375,161.77,5.699,6.834,197.36,1.072,1.79,1.513,1.324,1.135,2.459,35.59,yes,,8,10,7,8
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,3,Left,Malcolm Phillips Jr,461,,0.073,1.069,2.87,4.392,160.88,5.723,6.872,190.22,1.069,1.801,1.522,1.331,1.149,2.48,29.34,yes,,10,7,10,11
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,3,Right,GT Tonglet,485,,0.099,1.073,2.881,4.409,160.69,5.741,6.882,196.33,1.073,1.808,1.528,1.332,1.141,2.473,35.64,yes,,12,11,12,12
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,4,Left,Marc Ingwersen,370,,0.093,1.071,2.881,4.409,160.44,5.74,6.872,190.22,1.071,1.81,1.528,1.331,1.132,2.463,29.78,yes,,11,9,13,13
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,4,Right,Geno Scali,351,,0.071,1.101,2.926,4.47,159.4,5.807,6.882,196.33,1.101,1.825,1.544,1.337,1.075,2.412,36.93,yes,,13,14,14,14
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,5,Left,Chase Van Sant,8,,0.023,1.059,2.859,4.372,162.14,5.69,6.818,198.61,1.059,1.8,1.513,1.318,1.128,2.446,36.47,yes,,6,4,6,6
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,5,Right,John Hall,6,,0.05,1.075,2.866,4.374,162.72,5.685,6.812,198.15,1.075,1.791,1.508,1.311,1.127,2.438,35.43,yes,,5,12,8,7
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,6,Left,Angie Smith,4,,0.109,1.063,2.837,4.342,162.61,5.657,6.782,199.14,1.063,1.774,1.505,1.315,1.125,2.44,36.53,yes,,4,6,4,4
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,6,Right,Steve Johnson,9,,0.047,2.396,,,,,,,2.396,,,,,,,no,0-60,,,,
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,7,Left,Clayton Howey,7002,,0.05,1.062,2.849,4.362,162.02,5.687,6.828,195.79,1.062,1.787,1.513,1.325,1.141,2.466,33.77,yes,,7,5,5,5
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,7,Right,Joey Gladstone,7,,0.084,1.069,2.872,4.383,162.24,5.704,6.836,197.86,1.069,1.803,1.511,1.321,1.132,2.453,35.62,yes,,9,8,11,10
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,8,Left,Ryan Oehler,3284,,0.067,1.08,2.868,4.378,162.41,5.771,7.203,147.07,1.08,1.788,1.51,1.393,1.432,2.825,-15.34,no,1000-1320,14,13,9,9
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,8,Right,Matt Smith,3,,0.051,1.044,2.817,4.321,162.86,5.632,6.752,200.53,1.044,1.773,1.504,1.311,1.12,2.431,37.67,yes,,3,3,3,3
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,9,Left,Gaige Herrera,79,,0.042,1.016,2.786,4.283,163.77,5.588,6.705,200.89,1.016,1.77,1.497,1.305,1.117,2.422,37.12,yes,,1,1,1,1
+In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,Q4,9,Right,Richard Gadson,1,,0.014,1.023,2.803,4.307,163.16,5.618,6.739,200.17,1.023,1.78,1.504,1.311,1.121,2.432,37.01,yes,,2,2,2,2
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,E1,1,Left,Richard Gadson,1,L,0.0,1.067,2.852,4.353,163.41,5.66,999999.0,1.0,1.067,1.785,1.501,1.307,999993.34,999994.647,-162.41,yes,,1,2,2,2
 In-N-Out Burger NHRA Finals,Pro Stock Motorcycle,E1,1,Right,Gaige Herrera,79,W,0.0,1.019,2.787,4.283,164.05,5.586,9999999.0,1.0,1.019,1.768,1.496,1.303,9999993.414,9999994.717,-163.05,no,1000-1320,2,1,1,1

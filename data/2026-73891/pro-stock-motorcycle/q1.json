@@ -40,7 +40,7 @@
      "first": null,
      "lane": "Right",
      "win": true,
-     "driver": "--",
+     "driver": "Alex Laughlin",
      "car": "40",
      "class": "--",
      "dial": "--",
@@ -48,7 +48,7 @@
      "mov": null
     }
    ],
-   "note": null
+   "note": "11:14 a.m. Weather conditions: air temperature 62 degrees, relative humidity 74 percent, barometer 29.83 inches, adjusted altitude 2,029 feet.\r\n\r\nLaughlin has problems and is off of the throttle early."
   },
   {
    "runs": [
@@ -394,5 +394,6 @@
    ],
    "note": "Herrera has an impressive 60 foot time, a 1.010, and he goes down the groove with the quickest pass of the round to take the top spot. Gadson makes a good pass but was falling behind all the way through the run.\r\n\r\nGaige Herrera's incremental times: 60ft-1.010 sec., 330ft-2.769, 660ft-4.261/164.29 mph, 1,000ft-5.561.\r\n\r\nRichard Gadson's incremental times: 60ft-1.058 sec., 330ft-2.834, 660ft-4.329/164.09 mph, 1,000ft-5.632."
   }
- ]
+ ],
+ "changed_at": 1794709306
 }
