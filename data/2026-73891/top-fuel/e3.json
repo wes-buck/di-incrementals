@@ -10,6 +10,45 @@
   {
    "runs": [
     {
+     "rt": 0.087,
+     "ft60": 0.848,
+     "ft330": 2.139,
+     "ft660": 2.999,
+     "mph660": 295.66,
+     "ft1000": null,
+     "et": 3.719,
+     "mph": 335.23,
+     "first": null,
+     "lane": "Left",
+     "win": false,
+     "driver": "Billy Torrence",
+     "car": "474",
+     "qpos_nhra": "7",
+     "mov": null
+    },
+    {
+     "rt": 0.039,
+     "ft60": 0.843,
+     "ft330": 2.128,
+     "ft660": 2.993,
+     "mph660": 295.59,
+     "ft1000": null,
+     "et": 3.713,
+     "mph": 333.08,
+     "first": 0.0547,
+     "lane": "Right",
+     "win": true,
+     "driver": "Shawn Langdon",
+     "car": "2",
+     "qpos_nhra": "6",
+     "mov": 0.0547
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -21,9 +60,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Billy Torrence",
-     "car": "474",
-     "qpos_nhra": "7",
+     "driver": "Doug Kalitta",
+     "car": "1",
+     "qpos_nhra": "1",
      "mov": null
     },
     {
@@ -38,14 +77,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Shawn Langdon",
-     "car": "2",
-     "qpos_nhra": "6",
+     "driver": "Leah Pruett",
+     "car": "777",
+     "qpos_nhra": "4",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794783980
+ "changed_at": 1794784154
 }
