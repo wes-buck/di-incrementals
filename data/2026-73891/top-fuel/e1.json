@@ -127,31 +127,31 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.073,
+     "ft60": 0.857,
+     "ft330": 2.157,
+     "ft660": 3.026,
+     "mph660": 294.18,
      "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "et": 3.749,
+     "mph": 333.41,
+     "first": 0.2034,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Maddi Gordon",
      "car": "100",
      "qpos_nhra": "2",
-     "mov": null
+     "mov": 0.2034
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
+     "rt": 0.069,
+     "ft60": 0.869,
+     "ft330": 2.238,
+     "ft660": 3.172,
+     "mph660": 273.16,
      "ft1000": null,
-     "et": null,
-     "mph": null,
+     "et": 3.956,
+     "mph": 305.36,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -164,5 +164,5 @@
    "note": null
   }
  ],
- "changed_at": 1794769960
+ "changed_at": 1794770122
 }
