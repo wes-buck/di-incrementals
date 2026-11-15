@@ -166,6 +166,45 @@
   {
    "runs": [
     {
+     "rt": 0.096,
+     "ft60": 0.873,
+     "ft330": 2.245,
+     "ft660": 3.155,
+     "mph660": 286.25,
+     "ft1000": null,
+     "et": 3.888,
+     "mph": 331.77,
+     "first": 0.1412,
+     "lane": "Left",
+     "win": true,
+     "driver": "Alexis DeJoria",
+     "car": "771",
+     "qpos_nhra": "2",
+     "mov": 0.1412
+    },
+    {
+     "rt": 0.136,
+     "ft60": 0.896,
+     "ft330": 2.293,
+     "ft660": 3.227,
+     "mph660": 274.83,
+     "ft1000": null,
+     "et": 3.989,
+     "mph": 320.51,
+     "first": null,
+     "lane": "Right",
+     "win": false,
+     "driver": "Dave Richards",
+     "car": "139",
+     "qpos_nhra": "15",
+     "mov": null
+    }
+   ],
+   "note": null
+  },
+  {
+   "runs": [
+    {
      "rt": null,
      "ft60": null,
      "ft330": null,
@@ -177,9 +216,9 @@
      "first": null,
      "lane": "Left",
      "win": false,
-     "driver": "Alexis DeJoria",
-     "car": "771",
-     "qpos_nhra": "2",
+     "driver": "Cruz Pedregon",
+     "car": "71",
+     "qpos_nhra": "5",
      "mov": null
     },
     {
@@ -194,14 +233,14 @@
      "first": null,
      "lane": "Right",
      "win": false,
-     "driver": "Dave Richards",
-     "car": "139",
-     "qpos_nhra": "15",
+     "driver": "Jason Rupert",
+     "car": "766",
+     "qpos_nhra": "12",
      "mov": null
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794772831
+ "changed_at": 1794773018
 }
