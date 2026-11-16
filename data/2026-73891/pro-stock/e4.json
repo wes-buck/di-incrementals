@@ -10,33 +10,33 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.009,
+     "ft60": 0.976,
+     "ft330": 2.731,
+     "ft660": 4.197,
+     "mph660": 167.78,
+     "ft1000": 5.463,
+     "et": 6.531,
+     "mph": 209.23,
+     "first": 0.0108,
      "lane": "Left",
-     "win": false,
+     "win": true,
      "driver": "Dallas Glenn",
      "car": "1",
      "class": "PRO",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.0108
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.021,
+     "ft60": 0.975,
+     "ft330": 2.729,
+     "ft660": 4.194,
+     "mph660": 167.55,
+     "ft1000": 5.461,
+     "et": 6.529,
+     "mph": 209.85,
      "first": null,
      "lane": "Right",
      "win": false,
@@ -51,5 +51,5 @@
    "note": null
   }
  ],
- "changed_at": 1794789069
+ "changed_at": 1794789199
 }
