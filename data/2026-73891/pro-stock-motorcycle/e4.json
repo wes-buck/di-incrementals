@@ -10,14 +10,14 @@
   {
    "runs": [
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
+     "rt": 0.046,
+     "ft60": 1.057,
+     "ft330": 2.825,
+     "ft660": 4.322,
+     "mph660": 164.05,
+     "ft1000": 5.623,
+     "et": 6.735,
+     "mph": 201.4,
      "first": null,
      "lane": "Left",
      "win": false,
@@ -29,27 +29,27 @@
      "mov": null
     },
     {
-     "rt": null,
-     "ft60": null,
-     "ft330": null,
-     "ft660": null,
-     "mph660": null,
-     "ft1000": null,
-     "et": null,
-     "mph": null,
-     "first": null,
+     "rt": 0.032,
+     "ft60": 1.019,
+     "ft330": 2.782,
+     "ft660": 4.274,
+     "mph660": 164.41,
+     "ft1000": 5.573,
+     "et": 6.683,
+     "mph": 202.39,
+     "first": 0.0662,
      "lane": "Right",
-     "win": false,
+     "win": true,
      "driver": "Gaige Herrera",
      "car": "79",
      "class": "PSM",
      "dial": "--",
      "ovun": "--",
-     "mov": null
+     "mov": 0.0662
     }
    ],
    "note": null
   }
  ],
- "changed_at": 1794788896
+ "changed_at": 1794789077
 }
